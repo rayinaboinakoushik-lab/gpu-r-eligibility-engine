@@ -1,0 +1,402 @@
+{
+ "id": "S01_vtu_git_cse",
+ "field": "cs",
+ "degree": "B.E. Computer Science and Engineering",
+ "university": "Visvesvaraya Technological University, Belagavi",
+ "institution": "KLS Gogte Institute of Technology, Belagavi (Autonomous, affiliated to VTU)",
+ "regulation": "2022 Scheme",
+ "entry": "regular",
+ "years": 4,
+ "credits_for_award_printed": 160,
+ "grading": [
+  [
+   "O",
+   10
+  ],
+  [
+   "A+",
+   9
+  ],
+  [
+   "A",
+   8
+  ],
+  [
+   "B+",
+   7
+  ],
+  [
+   "B",
+   6
+  ],
+  [
+   "C",
+   5
+  ],
+  [
+   "P",
+   4
+  ]
+ ],
+ "pass_min": 4,
+ "layout": "table",
+ "seed": 101,
+ "target_cgpa": 8.1,
+ "source": [
+  "https://git.edu/wp-content/uploads/2024/07/Revised_1st-year-B.E-scheme-2022-CS.pdf",
+  "https://git.edu/wp-content/uploads/2024/08/Final-B.E-CSE-2022-scheme-3rd-to-8th-sem.pdf"
+ ],
+ "semesters": [
+  {
+   "name": "I",
+   "courses": [
+    {
+     "code": "22MATS11",
+     "title": "Mathematics for Computer Sc.-I",
+     "credits": 4
+    },
+    {
+     "code": "22PHYS12",
+     "title": "Physics for Computer Sc.",
+     "credits": 4
+    },
+    {
+     "code": "22POP13",
+     "title": "Principles of Programming Using C",
+     "credits": 3
+    },
+    {
+     "code": "22ESC142",
+     "title": "Introduction to Electrical Engineering",
+     "credits": 3
+    },
+    {
+     "code": "22ETC15H",
+     "title": "Introduction to Cyber Security",
+     "credits": 3
+    },
+    {
+     "code": "22ENG16",
+     "title": "Communicative English",
+     "credits": 1
+    },
+    {
+     "code": "22KBK17",
+     "title": "Balake Kannada",
+     "credits": 1
+    },
+    {
+     "code": "22IIL18",
+     "title": "Idea to Innovation Lab",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "II",
+   "courses": [
+    {
+     "code": "22MATS21",
+     "title": "Mathematics for Computer Sc. Engg.-II",
+     "credits": 4
+    },
+    {
+     "code": "22CHES22",
+     "title": "Chemistry for Computer Sc.",
+     "credits": 4
+    },
+    {
+     "code": "22CED23",
+     "title": "Computer-Aided Engineering Drawing",
+     "credits": 3
+    },
+    {
+     "code": "22ESC244",
+     "title": "Introduction to Mechanical Engineering",
+     "credits": 3
+    },
+    {
+     "code": "22PLC25B",
+     "title": "Introduction to Python Programming",
+     "credits": 3
+    },
+    {
+     "code": "22PWS26",
+     "title": "Professional Writing Skills in English",
+     "credits": 1
+    },
+    {
+     "code": "22ICO27",
+     "title": "Indian Constitution",
+     "credits": 1
+    },
+    {
+     "code": "22SFH28",
+     "title": "Scientific Foundations for Health",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "III",
+   "courses": [
+    {
+     "code": "22MATCS31",
+     "title": "Fundamentals of Statistics and Probability for Data Science",
+     "credits": 3
+    },
+    {
+     "code": "22CS32",
+     "title": "Software Engineering and Design",
+     "credits": 4
+    },
+    {
+     "code": "22CS33",
+     "title": "Object Oriented Programming using Java",
+     "credits": 4
+    },
+    {
+     "code": "22CS34",
+     "title": "Data Structures and Applications",
+     "credits": 3
+    },
+    {
+     "code": "22CS353",
+     "title": "Digital Electronics",
+     "credits": 3
+    },
+    {
+     "code": "22CS36",
+     "title": "Social Connect and Responsibility",
+     "credits": 1
+    },
+    {
+     "code": "22AECCS371",
+     "title": "Design Thinking",
+     "credits": 1
+    },
+    {
+     "code": "22CS38B",
+     "title": "Physical Education (PE) (Sports and Athletics) and Yoga",
+     "credits": 0
+    },
+    {
+     "code": "22CSL39",
+     "title": "Data Structures Laboratory using C",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "IV",
+   "courses": [
+    {
+     "code": "22CS41",
+     "title": "Operating Systems",
+     "credits": 3
+    },
+    {
+     "code": "22CS42",
+     "title": "Design and Analysis of Algorithms",
+     "credits": 4
+    },
+    {
+     "code": "22CS43",
+     "title": "Database Management Systems",
+     "credits": 4
+    },
+    {
+     "code": "22CS441",
+     "title": "Discrete Mathematical Structures and Graph Theory",
+     "credits": 3
+    },
+    {
+     "code": "22AECCS454",
+     "title": "Data Visualization Tools and Techniques",
+     "credits": 1
+    },
+    {
+     "code": "22CS46",
+     "title": "Biology For Engineers",
+     "credits": 3
+    },
+    {
+     "code": "22CS47",
+     "title": "Universal Human Values",
+     "credits": 1
+    },
+    {
+     "code": "22CS482",
+     "title": "Physical Education (PE) (Sports and Athletics) and Yoga",
+     "credits": 0
+    },
+    {
+     "code": "22CSL49",
+     "title": "Operating Systems Lab",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "V",
+   "courses": [
+    {
+     "code": "22CS51",
+     "title": "Software Project Management",
+     "credits": 3
+    },
+    {
+     "code": "22CS52",
+     "title": "Formal Languages and Automata Theory",
+     "credits": 4
+    },
+    {
+     "code": "22CS53",
+     "title": "Micro-Controllers and Embedded Systems",
+     "credits": 4
+    },
+    {
+     "code": "22CS545",
+     "title": "Data Warehousing and Data Mining",
+     "credits": 3
+    },
+    {
+     "code": "22CS55",
+     "title": "Research Based Mini Project",
+     "credits": 2
+    },
+    {
+     "code": "22CS56",
+     "title": "Research Methodology and Intellectual Property Rights",
+     "credits": 2
+    },
+    {
+     "code": "22CS57",
+     "title": "Environmental Studies",
+     "credits": 2
+    },
+    {
+     "code": "22AECCS58A",
+     "title": "Employability Skills -1 Bizotic",
+     "credits": 1
+    },
+    {
+     "code": "22CSL59",
+     "title": "Micro-Controllers and Embedded Systems Laboratory",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "VI",
+   "courses": [
+    {
+     "code": "22CS61",
+     "title": "Artificial Intelligence and Machine Learning",
+     "credits": 4
+    },
+    {
+     "code": "22CS62",
+     "title": "Computer Networks",
+     "credits": 4
+    },
+    {
+     "code": "22CS634",
+     "title": "Compiler Design",
+     "credits": 3
+    },
+    {
+     "code": "22MAT641",
+     "title": "Applied Statistics",
+     "credits": 3
+    },
+    {
+     "code": "22CS65",
+     "title": "Major Project Phase I",
+     "credits": 2
+    },
+    {
+     "code": "22AECCS66",
+     "title": "Employability Skills -2 Bizotic",
+     "credits": 1
+    },
+    {
+     "code": "22CSL68",
+     "title": "Computer Networks Lab",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "VII",
+   "courses": [
+    {
+     "code": "22CS71",
+     "title": "Big Data and Analytics",
+     "credits": 4
+    },
+    {
+     "code": "22CS72",
+     "title": "Unix System and Network Programming",
+     "credits": 4
+    },
+    {
+     "code": "22CS73",
+     "title": "Distributed and Cloud Computing",
+     "credits": 4
+    },
+    {
+     "code": "22CS741",
+     "title": "Cryptography and Network Security",
+     "credits": 3
+    },
+    {
+     "code": "22MAT751",
+     "title": "Optimization Techniques",
+     "credits": 3
+    },
+    {
+     "code": "22CS76",
+     "title": "Major Project Phase-II",
+     "credits": 5
+    },
+    {
+     "code": "22AECCS77",
+     "title": "Indian Knowledge System",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "VIII",
+   "courses": [
+    {
+     "code": "22CS812",
+     "title": "Linux Operating System",
+     "credits": 3
+    },
+    {
+     "code": "22CS821",
+     "title": "IoT using Arduino",
+     "credits": 3
+    },
+    {
+     "code": "22CS83",
+     "title": "Internship (Industry/Research)",
+     "credits": 10
+    }
+   ]
+  }
+ ],
+ "provenance": {
+  "institution_status": "autonomous college affiliated to VTU",
+  "curriculum_check": "two independent readings: every course, credit and semester total agree",
+  "grading_source": "https://www.acsce.edu.in/acsce/wp-content/uploads/2025/08/View-2022-Scheme-Regulations.pdf (VTU 2022 scheme regulations: P = 4 minimum pass)",
+  "grading_verified": true,
+  "electives": "chosen from the options listed in the source",
+  "omitted": [
+   "0-credit NSS/Clubs rows (student takes one mandatory activity per semester; Physical Education shown in semesters III-IV)"
+  ]
+ },
+ "degree_field_id": "computer_science"
+}

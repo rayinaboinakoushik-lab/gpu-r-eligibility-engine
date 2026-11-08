@@ -1,0 +1,17 @@
+# Render blueprint (04.11.2026): GPU-R API skeleton, EU region. Secrets are entered in the Render dashboard, never here.
+services:
+  - type: web
+    name: gpu-r-api
+    runtime: python
+    region: frankfurt
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn api.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.7"
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: GPUR_ACCESS_KEY
+        sync: false

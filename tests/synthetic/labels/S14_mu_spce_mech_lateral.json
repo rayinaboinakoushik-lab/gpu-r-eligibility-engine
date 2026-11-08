@@ -1,0 +1,141 @@
+{
+ "id": "S14_mu_spce_mech_lateral",
+ "labeller": "Claude 03.11.2026 (course map first, exactly as the pipeline's own map lookup; generic maths titles null; then taxonomy rules); null = unsure (needs the syllabus), not scored",
+ "label_sources": {
+  "map": 10,
+  "generic": 1,
+  "manual": 36
+ },
+ "labels": {
+  "Applied Mathematics - I": null,
+  "Strength of Materials": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Thermodynamics": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Manufacturing Science": [
+   "mechanical_manufacturing_engineering.manufacturing_production"
+  ],
+  "Organizational Communication and Interpersonal Skills": [],
+  "Strength of Materials Laboratory": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Machine Shop Practice": null,
+  "Indian Traditional Knowledge": [],
+  "Data Analysis and Laplace Transforms": [
+   "mathematics_statistics.statistics_probability",
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Fluid Mechanics": [
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Mech. Engineering Measurement": [
+   "electrical_electronic_engineering.measurement_instrumentation"
+  ],
+  "Material Science": [
+   "chemistry_materials.materials_science"
+  ],
+  "Kinematics of Machinery": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Fluid Mechanics Laboratory": [
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Mechanical Engineering Measurements Laboratory": [
+   "electrical_electronic_engineering.measurement_instrumentation"
+  ],
+  "Material Science Laboratory": [
+   "chemistry_materials.materials_science"
+  ],
+  "Assembly Shop Practice": null,
+  "Heat and Mass Transfer": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Mechatronics": [
+   "engineering.mechatronics"
+  ],
+  "Dynamics of Machinery": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Thermal and Fluid Machines": [
+   "mechanical_manufacturing_engineering.thermodynamics",
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Computer Aided Machine Drawing": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Heat and Mass Transfer Lab.": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Mechatronics Lab.": [
+   "engineering.mechatronics"
+  ],
+  "Dynamic of Machinery Lab.": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Thermal and Fluid Machines Laboratory": [
+   "mechanical_manufacturing_engineering.thermodynamics",
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Computer Aided Machine Drg. Lab.": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Mechanical Vibrations": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Health Safety and Environment (HSE)": [],
+  "Manufacturing Planning and Control": [
+   "business_economics_management.business_administration"
+  ],
+  "CAD/CAM/CIM": [
+   "mechanical_manufacturing_engineering.design_machine_elements",
+   "mechanical_manufacturing_engineering.manufacturing_production"
+  ],
+  "Refrigeration and Air-conditioning": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Machine Design": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Energy Engineering": null,
+  "CAD/CAM/CIM Laboratory": [
+   "mechanical_manufacturing_engineering.design_machine_elements",
+   "mechanical_manufacturing_engineering.manufacturing_production"
+  ],
+  "Refrigeration and Air-cond. Laboratory": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Finite Element Methods for Mech. Engineers": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Computational Methods": [
+   "mathematics_statistics.optimization_numerics",
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Project Stage I": [],
+  "Design of Machines and Mechanical Systems": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Industrial Engineering and Project Management": [
+   "business_economics_management.business_administration"
+  ],
+  "Computational Fluid Dynamics": [
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Supply Chain Management": [
+   "business_economics_management.business_administration"
+  ],
+  "Fundamentals of AI and Machine Learning": [
+   "computer_science_informatics.machine_learning_ai"
+  ],
+  "Project Stage II": [],
+  "Value Engineering": [
+   "business_economics_management.business_administration"
+  ],
+  "External / Internal Internship": []
+ },
+ "label_changes": [
+  "03.11.2026 after batch 1, Koushik approved: Computational Methods: + calculus_analysis (same numerical-methods rule)"
+ ]
+}

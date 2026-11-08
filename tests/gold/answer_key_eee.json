@@ -1,0 +1,1545 @@
+{
+ "_about": "GPU-R answer key (eee), relabelled 30.10.2026 to the approved 66-category taxonomy (field file eee_taxonomy.json). Sources per course in \"relabel_source\". Old labels kept in \"old_expected\".",
+ "field": "eee",
+ "source": "JNTUH R18 B.Tech EEE and ECE course structures and syllabi (AY_2019-20.pdf)",
+ "courses": [
+  {
+   "id": "MA101BS",
+   "title": "MATHEMATICS - I",
+   "credits": 4.0,
+   "basis": "syllabus",
+   "note": "Matrices and calculus. Generic maths title: the pipeline always asks for its syllabus.",
+   "expected": [
+    "mathematics_statistics.calculus_analysis",
+    "mathematics_statistics.linear_algebra"
+   ],
+   "old_expected": [
+    "mathematics_statistics.general_mathematics"
+   ],
+   "relabel_source": "course map (CS/IT/CSIT; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "MA201BS",
+   "title": "MATHEMATICS - II",
+   "credits": 4.0,
+   "basis": "syllabus",
+   "note": "ODEs, multiple integrals, vector calculus. Generic maths title: always asks for the syllabus.",
+   "expected": [
+    "mathematics_statistics.calculus_analysis"
+   ],
+   "old_expected": [
+    "mathematics_statistics.general_mathematics"
+   ],
+   "relabel_source": "course map (CS/IT/CSIT; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "CH102BS",
+   "title": "CHEMISTRY",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "physics_natural_sciences.chemistry"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CH106BS",
+   "title": "ENGINEERING CHEMISTRY LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "physics_natural_sciences.chemistry"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (CS/IT/CSIT; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "AP202BS",
+   "title": "APPLIED PHYSICS",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "old_expected": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "AP205BS",
+   "title": "APPLIED PHYSICS LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "old_expected": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "relabel_source": "course map (CS/IT/CSIT; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EE103ES",
+   "title": "BASIC ELECTRICAL ENGINEERING",
+   "credits": 3.0,
+   "basis": "title",
+   "note": "In the CS field this course has no category; in the EE field it is circuits -- why the knowledge base is kept per field.",
+   "expected": [
+    "electrical_electronic_engineering.circuit_theory"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE108ES",
+   "title": "BASIC ELECTRICAL ENGINEERING LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.circuit_theory"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (CS/IT/CSIT; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "CS203ES",
+   "title": "PROGRAMMING FOR PROBLEM SOLVING",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.programming_practical_cs",
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CS206ES",
+   "title": "PROGRAMMING FOR PROBLEM SOLVING LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.programming_practical_cs",
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (CS/IT/CSIT; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "ME105ES",
+   "title": "ENGINEERING WORKSHOP",
+   "credits": 2.5,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME204ES",
+   "title": "ENGINEERING GRAPHICS",
+   "credits": 3.0,
+   "basis": "title",
+   "note": "Technical drawing.",
+   "expected": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (CS/IT/CSIT; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "EN105HS",
+   "title": "ENGLISH",
+   "credits": 2.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (CS/IT/CSIT; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "EN107HS",
+   "title": "ENGLISH LANGUAGE AND COMMUNICATION SKILLS LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (CS/IT/CSIT; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EE301ES",
+   "title": "ENGINEERING MECHANICS",
+   "credits": 4.0,
+   "basis": "syllabus",
+   "note": "Statics, friction, centroids, moments of inertia, particle and rigid-body dynamics = classical mechanics.",
+   "expected": [
+    "mechanical_manufacturing_engineering.mechanics_dynamics",
+    "physics_natural_sciences.general_physics"
+   ],
+   "old_expected": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE) -- dropped (not in the eee field file): structural_mechanics"
+  },
+  {
+   "id": "EE302PC",
+   "title": "ELECTRICAL CIRCUIT ANALYSIS",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.circuit_theory"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "EE303PC",
+   "title": "ANALOG ELECTRONICS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE304PC",
+   "title": "ELECTRICAL MACHINES - I",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.electrical_machines_drives"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE305PC",
+   "title": "ELECTROMAGNETIC FIELDS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.electromagnetic_field_theory"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE306PC",
+   "title": "ELECTRICAL MACHINES LAB - I",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.electrical_machines_drives"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EE307PC",
+   "title": "ANALOG ELECTRONICS LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EE308PC",
+   "title": "ELECTRICAL CIRCUITS LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.circuit_theory"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EE402PC",
+   "title": "ELECTRICAL MACHINES - II",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.electrical_machines_drives"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE403PC",
+   "title": "DIGITAL ELECTRONICS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.digital_systems",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (CS/IT/CSIT, EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE404PC",
+   "title": "CONTROL SYSTEMS",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.control_systems"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.control_systems",
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE, EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE405PC",
+   "title": "POWER SYSTEM - I",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE406PC",
+   "title": "DIGITAL ELECTRONICS LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.digital_systems",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EE407PC",
+   "title": "ELECTRICAL MACHINES LAB - II",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.electrical_machines_drives"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EE408PC",
+   "title": "CONTROL SYSTEMS LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.control_systems"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.control_systems",
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EE501PE",
+   "title": "POWER ELECTRONICS",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.power_electronics"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE502PE",
+   "title": "POWER SYSTEM - II",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE503PE",
+   "title": "MEASUREMENTS AND INSTRUMENTATION",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.measurement_instrumentation"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE505PC",
+   "title": "POWER SYSTEM SIMULATION LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EE506PC",
+   "title": "POWER ELECTRONICS LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.power_electronics"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EE507PC",
+   "title": "MEASUREMENTS AND INSTRUMENTATION LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.measurement_instrumentation"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EE601PC",
+   "title": "SIGNALS AND SYSTEMS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.signals_systems"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE, EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE602PC",
+   "title": "MICROPROCESSORS & MICROCONTROLLERS",
+   "credits": 3.0,
+   "basis": "title",
+   "note": "Counts toward both general EE and general CS.",
+   "expected": [
+    "computer_science_informatics.computer_engineering",
+    "electrical_electronic_engineering.digital_systems"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee",
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE603PC",
+   "title": "POWER SYSTEM PROTECTION",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE604PC",
+   "title": "POWER SYSTEM OPERATION AND CONTROL",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE605PC",
+   "title": "POWER SYSTEM LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EE606PC",
+   "title": "MICROPROCESSORS & MICROCONTROLLERS LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.computer_engineering",
+    "electrical_electronic_engineering.digital_systems"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee",
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (ECE, EEE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EE607PC",
+   "title": "SIGNALS AND SYSTEMS LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.signals_systems"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EE701PC",
+   "title": "ELECTRICAL & ELECTRONICS DESIGN LAB",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "Fabricating and troubleshooting circuits, filter design, soldering and winding.",
+   "expected": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EE511PE",
+   "title": "COMPUTER ARCHITECTURE",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "old_expected": [
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "EE512PE",
+   "title": "HIGH VOLTAGE ENGINEERING",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE513PE",
+   "title": "ELECTRICAL MACHINE DESIGN",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.electrical_machines_drives"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "EE611PE",
+   "title": "OPTIMIZATION TECHNIQUES",
+   "credits": 3.0,
+   "basis": "title",
+   "note": "Mathematics (linear programming, optimization methods).",
+   "expected": [
+    "mathematics_statistics.optimization_numerics"
+   ],
+   "old_expected": [
+    "mathematics_statistics.general_mathematics"
+   ],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE612PE",
+   "title": "POWER SEMICONDUCTOR DRIVES",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "Converter-controlled DC, induction and synchronous motor drives: converters and machine characteristics throughout.",
+   "expected": [
+    "electrical_electronic_engineering.electrical_machines_drives",
+    "electrical_electronic_engineering.power_electronics"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE613PE",
+   "title": "WIND AND SOLAR ENERGY SYSTEMS",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "Wind and PV generation, grid integration.",
+   "expected": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE711PE",
+   "title": "DIGITAL CONTROL SYSTEMS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.control_systems"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.control_systems",
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE712PE",
+   "title": "DIGITAL SIGNAL PROCESSING",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.digital_signal_processing"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE, EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE713PE",
+   "title": "ELECTRICAL AND HYBRID VEHICLES",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "Drive-trains, energy storage, energy management = utilization of electrical energy.",
+   "expected": [
+    "electrical_electronic_engineering.electrical_machines_drives"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_SYLLABUS) -- dropped (not in the eee field file): automotive_engineering"
+  },
+  {
+   "id": "EE721PE",
+   "title": "HVDC TRANSMISSION",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "Converters are ~1 of 5 units; the course is transmission systems.",
+   "expected": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE722PE",
+   "title": "POWER SYSTEM RELIABILITY",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE723PE",
+   "title": "INDUSTRIAL ELECTRICAL SYSTEMS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "EE811PE",
+   "title": "POWER QUALITY & FACTS",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "Power-quality problems and compensators in distribution / transmission systems.",
+   "expected": [
+    "electrical_electronic_engineering.power_engineering",
+    "electrical_electronic_engineering.power_electronics"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE812PE",
+   "title": "CONTROL SYSTEMS DESIGN",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.control_systems"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.control_systems",
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "EE813PE",
+   "title": "AI TECHNIQUES IN ELECTRICAL ENGINEERING",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "old_expected": [
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE821PE",
+   "title": "SMART GRID TECHNOLOGIES",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE822PE",
+   "title": "ELECTRICAL DISTRIBUTION SYSTEMS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE823PE",
+   "title": "ADVANCED CONTROL OF ELECTRIC DRIVES",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "PWM converters plus induction / synchronous / PM machine modelling and control.",
+   "expected": [
+    "electrical_electronic_engineering.electrical_machines_drives",
+    "electrical_electronic_engineering.power_electronics"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "EC301PC",
+   "title": "ELECTRONIC DEVICES AND CIRCUITS",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC302PC",
+   "title": "NETWORK ANALYSIS AND TRANSMISSION LINES",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "Units I-III network analysis (60%), Units IV-V transmission lines (40%).",
+   "expected": [
+    "electrical_electronic_engineering.circuit_theory",
+    "electrical_electronic_engineering.electromagnetic_field_theory"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "EC303PC",
+   "title": "DIGITAL SYSTEM DESIGN",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.digital_systems",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "EC304PC",
+   "title": "SIGNALS AND SYSTEMS",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.signals_systems"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE, EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC305ES",
+   "title": "PROBABILITY THEORY AND STOCHASTIC PROCESSES",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "mathematics_statistics.statistics_probability"
+   ],
+   "old_expected": [
+    "mathematics_statistics.general_mathematics"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC306PC",
+   "title": "ELECTRONIC DEVICES AND CIRCUITS LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EC307PC",
+   "title": "DIGITAL SYSTEM DESIGN LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.digital_systems",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EC308ES",
+   "title": "BASIC SIMULATION LAB",
+   "credits": 1.0,
+   "basis": "syllabus",
+   "note": "MATLAB experiments on signals, convolution, correlation, LTI systems.",
+   "expected": [
+    "electrical_electronic_engineering.signals_systems"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "MA401BS",
+   "title": "LAPLACE TRANSFORMS, NUMERICAL METHODS & COMPLEX VARIABLES",
+   "credits": 4.0,
+   "basis": "syllabus",
+   "note": "Title names its subjects, so it is not a generic maths course.",
+   "expected": [
+    "mathematics_statistics.calculus_analysis",
+    "mathematics_statistics.optimization_numerics"
+   ],
+   "old_expected": [
+    "mathematics_statistics.general_mathematics"
+   ],
+   "relabel_source": "course map (ECE, EEE; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "EC402PC",
+   "title": "ELECTROMAGNETIC FIELDS AND WAVES",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.electromagnetic_field_theory"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "EC403PC",
+   "title": "ANALOG AND DIGITAL COMMUNICATIONS",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.communications"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.communications",
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC404PC",
+   "title": "LINEAR IC APPLICATIONS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "EC405PC",
+   "title": "ELECTRONIC CIRCUIT ANALYSIS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC406PC",
+   "title": "ANALOG AND DIGITAL COMMUNICATIONS LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.communications"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.communications",
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EC407PC",
+   "title": "IC APPLICATIONS LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EC408PC",
+   "title": "ELECTRONIC CIRCUIT ANALYSIS LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EC501PC",
+   "title": "MICROPROCESSORS & MICROCONTROLLERS",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.computer_engineering",
+    "electrical_electronic_engineering.digital_systems"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee",
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC502PC",
+   "title": "DATA COMMUNICATIONS AND NETWORKS",
+   "credits": 4.0,
+   "basis": "syllabus",
+   "note": "All five units are network protocol layers (link, network, transport, application).",
+   "expected": [
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "old_expected": [
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "EC503PC",
+   "title": "CONTROL SYSTEMS",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.control_systems"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.control_systems",
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE, EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC505PC",
+   "title": "MICROPROCESSORS & MICROCONTROLLERS LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.computer_engineering",
+    "electrical_electronic_engineering.digital_systems"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee",
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (ECE, EEE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EC506PC",
+   "title": "DATA COMMUNICATIONS AND NETWORKS LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "old_expected": [
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (ECE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EC601PC",
+   "title": "ANTENNAS AND PROPAGATION",
+   "credits": 4.0,
+   "basis": "syllabus",
+   "expected": [
+    "electrical_electronic_engineering.electromagnetic_field_theory",
+    "electrical_electronic_engineering.communications"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "EC602PC",
+   "title": "DIGITAL SIGNAL PROCESSING",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.digital_signal_processing"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE, EEE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC603PC",
+   "title": "VLSI DESIGN",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.microelectronics_semiconductors"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (EEE, ECE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC604PC",
+   "title": "DIGITAL SIGNAL PROCESSING LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.digital_signal_processing"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EC605PC",
+   "title": "E - CAD LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "note": "Lab of VLSI Design (same semester).",
+   "expected": [
+    "electrical_electronic_engineering.microelectronics_semiconductors"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EC606PC",
+   "title": "SCRIPTING LANGUAGES LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.programming_practical_cs",
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (ECE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EC701PC",
+   "title": "MICROWAVE AND OPTICAL COMMUNICATIONS",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "Units I-IV microwave tubes, devices, waveguide components (80%); optical communication only Unit V (20%).",
+   "expected": [
+    "electrical_electronic_engineering.electromagnetic_field_theory",
+    "electrical_electronic_engineering.communications"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC703PC",
+   "title": "MICROWAVE AND OPTICAL COMMUNICATIONS LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "note": "Lab follows its lecture course.",
+   "expected": [
+    "electrical_electronic_engineering.electromagnetic_field_theory",
+    "electrical_electronic_engineering.communications"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "SM702MS",
+   "title": "PROFESSIONAL PRACTICE, LAW & ETHICS",
+   "credits": 2.0,
+   "basis": "syllabus",
+   "note": "Ethics, contract law, arbitration, labour law, IP law.",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE) -- dropped (not in the eee field file): ethics_law_society"
+  },
+  {
+   "id": "EC511PE",
+   "title": "COMPUTER ORGANIZATION & OPERATING SYSTEMS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.computer_engineering",
+    "computer_science_informatics.operating_systems"
+   ],
+   "old_expected": [
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC512PE",
+   "title": "ERROR CORRECTING CODES",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.information_theory",
+    "electrical_electronic_engineering.communications"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.communications",
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "EC513PE",
+   "title": "ELECTRONIC MEASUREMENTS AND INSTRUMENTATION",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.measurement_instrumentation"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC611PE",
+   "title": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.programming_practical_cs",
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (CS/IT/CSIT, ECE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC612PE",
+   "title": "MOBILE COMMUNICATIONS AND NETWORKS",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "Units I-IV cellular radio; only Unit V (ad hoc networks) is networking, below 40%.",
+   "expected": [
+    "electrical_electronic_engineering.communications",
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.communications",
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC613PE",
+   "title": "EMBEDDED SYSTEM DESIGN",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee",
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC711PE",
+   "title": "ARTIFICIAL NEURAL NETWORKS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "old_expected": [
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (ECE, Mechanical; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC712PE",
+   "title": "SCRIPTING LANGUAGES",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.programming_practical_cs",
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (CS/IT/CSIT, ECE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC713PE",
+   "title": "DIGITAL IMAGE PROCESSING",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "2-D transforms, enhancement, segmentation, compression, morphology: image processing (CS) and 2-D signal processing (EE).",
+   "expected": [
+    "electrical_electronic_engineering.digital_signal_processing",
+    "computer_science_informatics.graphics_visual_computing"
+   ],
+   "old_expected": [
+    "computer_science_informatics.general_cs",
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_TITLE) | 30.10: DSP + visual computing (syllabus units, Koushik approved)"
+  },
+  {
+   "id": "EC721PE",
+   "title": "BIOMEDICAL INSTRUMENTATION",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "engineering.biomedical_engineering",
+    "electrical_electronic_engineering.measurement_instrumentation"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC722PE",
+   "title": "DATABASE MANAGEMENT SYSTEMS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.databases_systems"
+   ],
+   "old_expected": [
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC723PE",
+   "title": "NETWORK SECURITY AND CRYPTOGRAPHY",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.it_security"
+   ],
+   "old_expected": [
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC811PE",
+   "title": "SATELLITE COMMUNICATIONS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.communications"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.communications",
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC812PE",
+   "title": "RADAR SYSTEMS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.communications"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.communications",
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EC813PE",
+   "title": "WIRELESS SENSOR NETWORKS",
+   "credits": 3.0,
+   "basis": "title",
+   "note": "Networking of sensor nodes (MAC, routing).",
+   "expected": [
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.communications",
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "relabel_source": "removed communications: JNTUH R18 EC813PE units = WSN architectures, MANETs, routing, MAC protocols, data dissemination, node design, TinyOS (no communication-systems content); Koushik 31.10.2026"
+  },
+  {
+   "id": "EC821PE",
+   "title": "SYSTEM ON CHIP ARCHITECTURE",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "Processor micro-architecture, cache/memory design, bus interconnects: computer architecture (CS) on a chip (EE).",
+   "expected": [
+    "electrical_electronic_engineering.microelectronics_semiconductors",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee",
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_TITLE) | 30.10: + computer engineering (syllabus ~90% architecture, Koushik approved)"
+  },
+  {
+   "id": "EC822PE",
+   "title": "TEST AND TESTABILITY",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.microelectronics_semiconductors",
+    "electrical_electronic_engineering.digital_systems"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "EC823PE",
+   "title": "LOW POWER VLSI DESIGN",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.microelectronics_semiconductors"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (ECE; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "SM504MS",
+   "title": "BUSINESS ECONOMICS AND FINANCIAL ANALYSIS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE) -- dropped (not in the eee field file): business_administration"
+  },
+  {
+   "id": "SM701MS",
+   "title": "FUNDAMENTALS OF MANAGEMENT FOR ENGINEERS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE) -- dropped (not in the eee field file): business_administration"
+  },
+  {
+   "id": "EN508HS",
+   "title": "ADVANCED COMMUNICATION SKILLS LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "manual: no subject category (language/communication), like the map's communication-skills labs"
+  },
+  {
+   "id": "EE702PC",
+   "title": "INDUSTRIAL ORIENTED MINI PROJECT / SUMMER INTERNSHIP",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "manual: map: Industry Oriented Mini Project / Summer Internship -- dropped (not in the eee field file): thesis_scientific_work"
+  },
+  {
+   "id": "EE703PC",
+   "title": "SEMINAR",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "manual: map: Project Stage – II including Seminar -- dropped (not in the eee field file): thesis_scientific_work"
+  },
+  {
+   "id": "EE704PC",
+   "title": "PROJECT STAGE - I",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE) -- dropped (not in the eee field file): thesis_scientific_work"
+  },
+  {
+   "id": "EE801PC",
+   "title": "PROJECT STAGE - II",
+   "credits": 7.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "manual: map: Project Stage – II including Seminar -- dropped (not in the eee field file): thesis_scientific_work"
+  }
+ ]
+}

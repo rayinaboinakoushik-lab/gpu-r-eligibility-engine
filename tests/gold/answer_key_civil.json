@@ -1,0 +1,845 @@
+{
+ "_about": "GPU-R answer key (civil), relabelled 30.10.2026 to the approved 66-category taxonomy (field file civil_taxonomy.json). Sources per course in \"relabel_source\". Old labels kept in \"old_expected\".",
+ "field": "civil",
+ "source": "JNTUH R18 B.Tech Civil Engineering course structure and syllabi (AY_2019-20.pdf, pp. 1-121)",
+ "courses": [
+  {
+   "id": "MA101BS",
+   "title": "MATHEMATICS - I",
+   "credits": 4.0,
+   "basis": "syllabus",
+   "note": "Generic maths title: the pipeline always asks for its syllabus.",
+   "expected": [
+    "mathematics_statistics.calculus_analysis",
+    "mathematics_statistics.linear_algebra"
+   ],
+   "old_expected": [
+    "mathematics_statistics.general_mathematics"
+   ],
+   "relabel_source": "course map (CS/IT/CSIT; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "MA201BS",
+   "title": "MATHEMATICS - II",
+   "credits": 4.0,
+   "basis": "syllabus",
+   "note": "Generic maths title: the pipeline always asks for its syllabus.",
+   "expected": [
+    "mathematics_statistics.calculus_analysis"
+   ],
+   "old_expected": [
+    "mathematics_statistics.general_mathematics"
+   ],
+   "relabel_source": "course map (CS/IT/CSIT; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "PH102BS",
+   "title": "ENGINEERING PHYSICS",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "old_expected": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "PH105BS",
+   "title": "ENGINEERING PHYSICS LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "old_expected": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "relabel_source": "course map (Mechanical; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "CS103ES",
+   "title": "PROGRAMMING FOR PROBLEM SOLVING",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CS106ES",
+   "title": "PROGRAMMING FOR PROBLEM SOLVING LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (CS/IT/CSIT; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "ME104ES",
+   "title": "ENGINEERING GRAPHICS",
+   "credits": 3.0,
+   "basis": "title",
+   "note": "Technical drawing; no Civil category.",
+   "expected": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (CS/IT/CSIT; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "MC109ES",
+   "title": "ENVIRONMENTAL SCIENCE",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CH202BS",
+   "title": "CHEMISTRY",
+   "credits": 4.0,
+   "basis": "title",
+   "note": "No Civil program asks for chemistry.",
+   "expected": [
+    "physics_natural_sciences.chemistry"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CH206BS",
+   "title": "ENGINEERING CHEMISTRY LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "physics_natural_sciences.chemistry"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (CS/IT/CSIT; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "ME203ES",
+   "title": "ENGINEERING MECHANICS",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics",
+    "physics_natural_sciences.general_physics"
+   ],
+   "old_expected": [
+    "civil_engineering.structural_mechanics"
+   ],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME205ES",
+   "title": "ENGINEERING WORKSHOP",
+   "credits": 2.5,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EN205HS",
+   "title": "ENGLISH",
+   "credits": 2.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (CS/IT/CSIT; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "EN207HS",
+   "title": "ENGLISH LANGUAGE AND COMMUNICATION SKILLS LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (CS/IT/CSIT; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "CE301PC",
+   "title": "SURVEYING AND GEOMATICS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.surveying_geodesy"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE302PC",
+   "title": "ENGINEERING GEOLOGY",
+   "credits": 2.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.geotechnics"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE303PC",
+   "title": "STRENGTH OF MATERIALS - I",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "old_expected": [
+    "civil_engineering.structural_mechanics"
+   ],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "MA304BS",
+   "title": "PROBABILITY AND STATISTICS",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "mathematics_statistics.statistics_probability"
+   ],
+   "old_expected": [
+    "mathematics_statistics.statistics_probability",
+    "mathematics_statistics.general_mathematics"
+   ],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE305PC",
+   "title": "FLUID MECHANICS",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.fluid_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "old_expected": [
+    "civil_engineering.fluid_mechanics"
+   ],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE306PC",
+   "title": "SURVEYING LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.surveying_geodesy"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "CE307PC",
+   "title": "STRENGTH OF MATERIALS LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "old_expected": [
+    "civil_engineering.structural_mechanics"
+   ],
+   "relabel_source": "course map (Civil; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "CE308PC",
+   "title": "ENGINEERING GEOLOGY LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.geotechnics"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EE401ES",
+   "title": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.circuit_theory",
+    "electrical_electronic_engineering.electronics"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE409ES",
+   "title": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.circuit_theory",
+    "electrical_electronic_engineering.electronics"
+   ],
+   "old_expected": [
+    "electrical_electronic_engineering.general_ee"
+   ],
+   "relabel_source": "course map (Mechanical; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "CE402ES",
+   "title": "BASIC MECHANICAL ENGINEERING FOR CIVIL ENGINEERS",
+   "credits": 2.0,
+   "basis": "syllabus",
+   "note": "Machine elements, thermal and manufacturing survey; no Civil category.",
+   "expected": [
+    "mechanical_manufacturing_engineering.design_machine_elements",
+    "mechanical_manufacturing_engineering.thermodynamics",
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "CE403PC",
+   "title": "BUILDING MATERIALS, CONSTRUCTION AND PLANNING",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "chemistry_materials.materials_science",
+    "civil_engineering.construction_management"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE404PC",
+   "title": "STRENGTH OF MATERIALS - II",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "old_expected": [
+    "civil_engineering.structural_mechanics"
+   ],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE405PC",
+   "title": "HYDRAULICS AND HYDRAULIC MACHINERY",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.fluid_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "old_expected": [
+    "civil_engineering.fluid_mechanics"
+   ],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE406PC",
+   "title": "STRUCTURAL ANALYSIS - I",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.structural_engineering",
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "old_expected": [
+    "civil_engineering.structural_mechanics"
+   ],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE407PC",
+   "title": "COMPUTER AIDED CIVIL ENGINEERING DRAWING",
+   "credits": 1.5,
+   "basis": "title",
+   "note": "Drafting with software is not CS.",
+   "expected": [
+    "civil_engineering.construction_management"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "CE409PC",
+   "title": "HYDRAULICS AND HYDRAULIC MACHINERY LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.fluid_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "old_expected": [
+    "civil_engineering.fluid_mechanics"
+   ],
+   "relabel_source": "course map (Civil; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "CE501",
+   "title": "STRUCTURAL ANALYSIS - II",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.structural_engineering",
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "old_expected": [
+    "civil_engineering.structural_mechanics"
+   ],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE502PC",
+   "title": "GEOTECHNICAL ENGINEERING",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.geotechnics"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE503PC",
+   "title": "STRUCTURAL ENGINEERING - I (RCC)",
+   "credits": 4.0,
+   "basis": "title",
+   "note": "Code-based design, not mechanics.",
+   "expected": [
+    "civil_engineering.structural_engineering"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE504PC",
+   "title": "TRANSPORTATION ENGINEERING",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.transportation_engineering"
+   ],
+   "old_expected": [
+    "civil_engineering.transportation_engineering"
+   ],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "SM505MS",
+   "title": "ENGINEERING ECONOMICS AND ACCOUNTANCY",
+   "credits": 2.0,
+   "basis": "title",
+   "note": "No Civil program asks for economics.",
+   "expected": [
+    "business_economics_management.business_administration"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "CE506PC",
+   "title": "HIGHWAY ENGINEERING AND CONCRETE TECHNOLOGY LAB",
+   "credits": 1.5,
+   "basis": "syllabus",
+   "note": "About half the experiments are highway materials tests (aggregates, bitumen); follows the Transportation Engineering lecture.",
+   "expected": [
+    "chemistry_materials.materials_science",
+    "civil_engineering.transportation_engineering"
+   ],
+   "old_expected": [
+    "civil_engineering.transportation_engineering"
+   ],
+   "relabel_source": "course map (Civil; LAB_FOLLOWS_THEORY) | 30.10: combined lab follows both theories (rule 7, Koushik approved)"
+  },
+  {
+   "id": "CE507PC",
+   "title": "GEOTECHNICAL ENGINEERING LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.geotechnics"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EN508HS",
+   "title": "ADVANCED COMMUNICATION SKILLS LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "manual: no subject category (language/communication), like the map's communication-skills labs"
+  },
+  {
+   "id": "CE601PC",
+   "title": "HYDROLOGY & WATER RESOURCES ENGINEERING",
+   "credits": 4.0,
+   "basis": "title",
+   "note": "Hydrology, not fluid mechanics.",
+   "expected": [
+    "civil_engineering.water_engineering"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE602PC",
+   "title": "ENVIRONMENTAL ENGINEERING",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.environmental_engineering"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE603PC",
+   "title": "FOUNDATION ENGINEERING",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.geotechnics"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE604PC",
+   "title": "STRUCTURAL ENGINEERING - II (STEEL)",
+   "credits": 4.0,
+   "basis": "title",
+   "note": "Code-based design, not mechanics.",
+   "expected": [
+    "civil_engineering.structural_engineering"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "CE605PC",
+   "title": "ENVIRONMENTAL ENGINEERING LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.environmental_engineering"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "CE606PC",
+   "title": "COMPUTER AIDED DESIGN LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "note": "Using analysis/design software is not CS.",
+   "expected": [
+    "civil_engineering.structural_engineering"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "CE701PC",
+   "title": "ESTIMATION, COSTING AND PROJECT MANAGEMENT",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.construction_management"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "SM702MS",
+   "title": "PROFESSIONAL PRACTICE, LAW & ETHICS",
+   "credits": 2.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE) -- dropped (not in the civil field file): ethics_law_society"
+  },
+  {
+   "id": "CE703PC",
+   "title": "INDUSTRIAL ORIENTED MINI PROJECT/ SUMMER INTERNSHIP",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "manual: map: Industry Oriented Mini Project / Summer Internship -- dropped (not in the civil field file): thesis_scientific_work"
+  },
+  {
+   "id": "CE704PC",
+   "title": "SEMINAR",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "manual: map: Project Stage – II including Seminar -- dropped (not in the civil field file): thesis_scientific_work"
+  },
+  {
+   "id": "CE705PC",
+   "title": "PROJECT STAGE - I",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE) -- dropped (not in the civil field file): thesis_scientific_work"
+  },
+  {
+   "id": "CE801PC",
+   "title": "PROJECT STAGE-II",
+   "credits": 7.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "manual: map: Project Stage – II including Seminar -- dropped (not in the civil field file): thesis_scientific_work"
+  },
+  {
+   "id": "CE511PE",
+   "title": "CONCRETE TECHNOLOGY",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "chemistry_materials.materials_science"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE512PE",
+   "title": "THEORY OF ELASTICITY",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "old_expected": [
+    "civil_engineering.structural_mechanics"
+   ],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "CE513PE",
+   "title": "ROCK MECHANICS",
+   "credits": 3.0,
+   "basis": "title",
+   "note": "Geotechnical.",
+   "expected": [
+    "civil_engineering.geotechnics"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "CE611PE",
+   "title": "PRESTRESSED CONCRETE",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.structural_engineering"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE612PE",
+   "title": "ELEMENTS OF EARTH QUAKE ENGINEERING",
+   "credits": 3.0,
+   "basis": "title",
+   "note": "Seismic design to codes.",
+   "expected": [
+    "civil_engineering.structural_engineering"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE613PE",
+   "title": "ADVANCED STRUCTURAL ANALYSIS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.structural_engineering",
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "old_expected": [
+    "civil_engineering.structural_mechanics"
+   ],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE711PE",
+   "title": "REMOTE SENSING & GIS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.surveying_geodesy"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE712PE",
+   "title": "GROUND IMPROVEMENT TECHNIQUES",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.geotechnics"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE713PE",
+   "title": "ADVANCED STRUCTURAL DESIGN",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.structural_engineering"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "CE721PE",
+   "title": "IRRIGATION AND HYDRAULIC STRUCTURES",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "Reservoirs, dams, spillways, weirs: design of water structures.",
+   "expected": [
+    "civil_engineering.water_engineering"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "CE722PE",
+   "title": "PIPELINE ENGINEERING",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "Pipe-flow hydraulics, head losses, water hammer, pumps and network analysis.",
+   "expected": [
+    "civil_engineering.water_engineering",
+    "civil_engineering.fluid_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "old_expected": [
+    "civil_engineering.fluid_mechanics"
+   ],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "CE723PE",
+   "title": "GROUND WATER HYDROLOGY",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "Units I-III: Darcy's law, groundwater flow equation, steady and unsteady flow to wells (over 40%).",
+   "expected": [
+    "civil_engineering.water_engineering"
+   ],
+   "old_expected": [
+    "civil_engineering.fluid_mechanics"
+   ],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE811PE",
+   "title": "SOLID WASTE MANAGEMENT",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.environmental_engineering"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE812PE",
+   "title": "ENVIRONMENTAL IMPACT ASSESSMENT",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.environmental_engineering"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE813PE",
+   "title": "AIR POLLUTION",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.environmental_engineering"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE821PE",
+   "title": "AIRPORTS, RAILWAYS AND WATERWAYS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.transportation_engineering"
+   ],
+   "old_expected": [
+    "civil_engineering.transportation_engineering"
+   ],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CE822PE",
+   "title": "URBAN TRANSPORTATION PLANNING",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.transportation_engineering"
+   ],
+   "old_expected": [
+    "civil_engineering.transportation_engineering"
+   ],
+   "relabel_source": "course map (Civil; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "CE823PE",
+   "title": "FINITE ELEMENT METHODS FOR CIVIL ENGINEERING",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "old_expected": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics",
+    "mathematics_statistics.optimization_numerics"
+   ],
+   "relabel_source": "removed optimization_numerics (maths): FEM/CFD are engineering modules, not maths (TU Braunschweig BSc MB 2022, FAU BSc MB 2024 module handbooks); Koushik 31.10.2026"
+  }
+ ]
+}

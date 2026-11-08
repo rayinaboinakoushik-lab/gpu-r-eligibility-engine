@@ -1,0 +1,424 @@
+{
+ "id": "S05_ou_uce_eee",
+ "field": "eee",
+ "degree": "B.E. Electrical and Electronics Engineering",
+ "university": "Osmania University, Hyderabad",
+ "institution": "University College of Engineering (Autonomous), Osmania University",
+ "regulation": "Scheme w.e.f. 2022-23",
+ "entry": "regular",
+ "years": 4,
+ "credits_for_award_printed": 163,
+ "grading": [
+  [
+   "O",
+   10
+  ],
+  [
+   "A+",
+   9
+  ],
+  [
+   "A",
+   8
+  ],
+  [
+   "B+",
+   7
+  ],
+  [
+   "B",
+   6
+  ],
+  [
+   "C",
+   5
+  ]
+ ],
+ "pass_min": 5,
+ "layout": "table",
+ "seed": 505,
+ "target_cgpa": 7.9,
+ "source": [
+  "https://www.uceou.edu/pdfs/electrical/1797706994BE_EEE__scheme_and_syllabus_wo_logo.pdf"
+ ],
+ "provenance": {
+  "institution_status": "autonomous constituent college of Osmania University",
+  "curriculum_check": "semesters V-VIII read twice (agree); semesters I-IV read once; all semester totals and the printed 163-credit summary reconcile",
+  "grading_source": null,
+  "grading_verified": false,
+  "grading_note": "10-point scale with pass 5 assumed (UCE rules block automated reading)",
+  "electives": "chosen from the options listed in the source",
+  "omitted": [
+   "Induction Program (no credits)",
+   "interdisciplinary courses offered to other departments"
+  ]
+ },
+ "semesters": [
+  {
+   "name": "I",
+   "courses": [
+    {
+     "code": "BS101MT",
+     "title": "Engineering Mathematics-I",
+     "credits": 3
+    },
+    {
+     "code": "BS101PH",
+     "title": "Applied Physics",
+     "credits": 3
+    },
+    {
+     "code": "ES101CS",
+     "title": "Programming for Problem Solving",
+     "credits": 3
+    },
+    {
+     "code": "PC101EE",
+     "title": "Electrical Wiring Estimation and Automation",
+     "credits": 3
+    },
+    {
+     "code": "PC102EE",
+     "title": "Electrical and Electronics Engineering Materials",
+     "credits": 3
+    },
+    {
+     "code": "BS151PH",
+     "title": "Applied Physics Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "ES151CS",
+     "title": "Programming for Problem Solving Lab",
+     "credits": 1
+    },
+    {
+     "code": "ES151CE",
+     "title": "Engineering Graphics",
+     "credits": 4
+    }
+   ]
+  },
+  {
+   "name": "II",
+   "courses": [
+    {
+     "code": "BS201MT",
+     "title": "Engineering Mathematics-II",
+     "credits": 3
+    },
+    {
+     "code": "BS105CH",
+     "title": "Engineering Chemistry",
+     "credits": 3
+    },
+    {
+     "code": "HS101EG",
+     "title": "Communicative English",
+     "credits": 3
+    },
+    {
+     "code": "PC201EE",
+     "title": "Digital Electronics and Logic Design",
+     "credits": 3
+    },
+    {
+     "code": "BS151CH",
+     "title": "Engineering Chemistry Lab",
+     "credits": 1
+    },
+    {
+     "code": "HS151EG",
+     "title": "Communicative English Lab",
+     "credits": 1
+    },
+    {
+     "code": "ES152ME",
+     "title": "Workshop Practice",
+     "credits": 2
+    },
+    {
+     "code": "ES151EE",
+     "title": "Computer Aided Electrical Drawing lab",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "III",
+   "courses": [
+    {
+     "code": "PC301EE",
+     "title": "Electrical Circuits – I",
+     "credits": 4
+    },
+    {
+     "code": "PC302EE",
+     "title": "Electrical Machines – I",
+     "credits": 3
+    },
+    {
+     "code": "PC303EE",
+     "title": "Power Systems - I",
+     "credits": 3
+    },
+    {
+     "code": "PC304EE",
+     "title": "Electromagnetic Fields",
+     "credits": 4
+    },
+    {
+     "code": "PC305EE",
+     "title": "Measurements and Instrumentation",
+     "credits": 3
+    },
+    {
+     "code": "PC306EE",
+     "title": "Analog Electronics",
+     "credits": 3
+    },
+    {
+     "code": "PC351EE",
+     "title": "Digital Electronics and Logic Design Laboratory",
+     "credits": 1.5
+    },
+    {
+     "code": "PC352EE",
+     "title": "Analog Electronics Laboratory",
+     "credits": 1.5
+    },
+    {
+     "code": "PC353EE",
+     "title": "Electrical Circuits Laboratory",
+     "credits": 1.5
+    }
+   ]
+  },
+  {
+   "name": "IV",
+   "courses": [
+    {
+     "code": "PC401EE",
+     "title": "Electrical Circuits - II",
+     "credits": 3
+    },
+    {
+     "code": "PC402EE",
+     "title": "Electrical Machines II",
+     "credits": 4
+    },
+    {
+     "code": "PC403EE",
+     "title": "Power Systems – II",
+     "credits": 4
+    },
+    {
+     "code": "PC404EE",
+     "title": "Linear Control Systems",
+     "credits": 3
+    },
+    {
+     "code": "PC405EE",
+     "title": "Linear Integrated Circuits",
+     "credits": 3
+    },
+    {
+     "code": "PE412EE",
+     "title": "Renewable Energy",
+     "credits": 3
+    },
+    {
+     "code": "PC451EE",
+     "title": "Electrical Measurements Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "PC452EE",
+     "title": "Electrical Machines Laboratory – I",
+     "credits": 1.5
+    },
+    {
+     "code": "PC453EE",
+     "title": "Linear Integrated Circuits Lab",
+     "credits": 1.5
+    }
+   ]
+  },
+  {
+   "name": "V",
+   "courses": [
+    {
+     "code": "PC501EE",
+     "title": "Electrical Machines-III",
+     "credits": 3
+    },
+    {
+     "code": "PC502EE",
+     "title": "Switchgear and Protection",
+     "credits": 3
+    },
+    {
+     "code": "PC503EE",
+     "title": "Power Electronics",
+     "credits": 3
+    },
+    {
+     "code": "PC504EE",
+     "title": "Microprocessors and Microcontrollers",
+     "credits": 3
+    },
+    {
+     "code": "PC505EE",
+     "title": "Digital Signal Processing",
+     "credits": 3
+    },
+    {
+     "code": "PE523EE",
+     "title": "IoT Applications in Electrical Engineering",
+     "credits": 3
+    },
+    {
+     "code": "PC551EE",
+     "title": "Electrical Machines Lab-II",
+     "credits": 1.5
+    },
+    {
+     "code": "PC552EE",
+     "title": "Power Electronics Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "PC553EE",
+     "title": "Control Systems Lab",
+     "credits": 1.5
+    }
+   ]
+  },
+  {
+   "name": "VI",
+   "courses": [
+    {
+     "code": "PC601EE",
+     "title": "Power System Operation and Control",
+     "credits": 3
+    },
+    {
+     "code": "PC602EE",
+     "title": "Power Electronic Applications in Renewable Energy",
+     "credits": 3
+    },
+    {
+     "code": "PC603EE",
+     "title": "Power Quality Engineering",
+     "credits": 3
+    },
+    {
+     "code": "PE633EE",
+     "title": "Electric Machine Design",
+     "credits": 3
+    },
+    {
+     "code": "OE606ME",
+     "title": "Finite Element Method",
+     "credits": 3
+    },
+    {
+     "code": "PC651EE",
+     "title": "Microprocessors and Microcontrollers Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "PC652EE",
+     "title": "Electrical Simulation Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "PC653EE",
+     "title": "Digital Signal Processing Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "PW651EE",
+     "title": "Mini-Project",
+     "credits": 3
+    }
+   ]
+  },
+  {
+   "name": "VII",
+   "courses": [
+    {
+     "code": "PC701EE",
+     "title": "Utilization of Electrical Energy",
+     "credits": 3
+    },
+    {
+     "code": "PC702EE",
+     "title": "Electric Drives and Static Control",
+     "credits": 3
+    },
+    {
+     "code": "PC703EE",
+     "title": "FACTS and HVDC Transmission",
+     "credits": 3
+    },
+    {
+     "code": "PC704EE",
+     "title": "Signals and Systems",
+     "credits": 3
+    },
+    {
+     "code": "PE703EE",
+     "title": "Smart Grid Technologies",
+     "credits": 3
+    },
+    {
+     "code": "OE706EC",
+     "title": "Verilog HDL",
+     "credits": 3
+    },
+    {
+     "code": "PC751EE",
+     "title": "Power Systems Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "PW751EE",
+     "title": "Project Work-I",
+     "credits": 3
+    },
+    {
+     "code": "PW752EE",
+     "title": "Summer Internship",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "VIII",
+   "courses": [
+    {
+     "code": "MC800CE",
+     "title": "Environmental Studies",
+     "credits": 0
+    },
+    {
+     "code": "MC801HS",
+     "title": "Constitution of India",
+     "credits": 0
+    },
+    {
+     "code": "MC802AS",
+     "title": "Essence of Indian Traditional Knowledge",
+     "credits": 0
+    },
+    {
+     "code": "PW851EE",
+     "title": "Project Work-II",
+     "credits": 6
+    }
+   ]
+  }
+ ],
+ "degree_field_id": "electrical_electronic_engineering"
+}

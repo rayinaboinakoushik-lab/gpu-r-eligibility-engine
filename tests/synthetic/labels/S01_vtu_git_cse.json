@@ -1,0 +1,147 @@
+{
+ "id": "S01_vtu_git_cse",
+ "labeller": "Claude 31.10.2026 (course map first, then taxonomy rules); null = unsure (needs the syllabus), not scored",
+ "labels": {
+  "Mathematics for Computer Sc.-I": null,
+  "Physics for Computer Sc.": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Principles of Programming Using C": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Introduction to Electrical Engineering": null,
+  "Introduction to Cyber Security": [
+   "computer_science_informatics.it_security"
+  ],
+  "Communicative English": [],
+  "Balake Kannada": [],
+  "Idea to Innovation Lab": null,
+  "Mathematics for Computer Sc. Engg.-II": null,
+  "Chemistry for Computer Sc.": [
+   "physics_natural_sciences.chemistry"
+  ],
+  "Computer-Aided Engineering Drawing": [],
+  "Introduction to Mechanical Engineering": [],
+  "Introduction to Python Programming": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Professional Writing Skills in English": [],
+  "Indian Constitution": [],
+  "Scientific Foundations for Health": [],
+  "Fundamentals of Statistics and Probability for Data Science": [
+   "mathematics_statistics.statistics_probability"
+  ],
+  "Software Engineering and Design": [
+   "computer_science_informatics.software_engineering"
+  ],
+  "Object Oriented Programming using Java": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Data Structures and Applications": [
+   "computer_science_informatics.algorithms_data_structures"
+  ],
+  "Digital Electronics": [
+   "electrical_electronic_engineering.digital_systems",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Social Connect and Responsibility": [],
+  "Design Thinking": null,
+  "Physical Education (PE) (Sports and Athletics) and Yoga": [],
+  "Data Structures Laboratory using C": [
+   "computer_science_informatics.algorithms_data_structures"
+  ],
+  "Operating Systems": [
+   "computer_science_informatics.operating_systems"
+  ],
+  "Design and Analysis of Algorithms": [
+   "computer_science_informatics.algorithms_data_structures"
+  ],
+  "Database Management Systems": [
+   "computer_science_informatics.databases_systems"
+  ],
+  "Discrete Mathematical Structures and Graph Theory": [
+   "mathematics_statistics.discrete_math_logic"
+  ],
+  "Data Visualization Tools and Techniques": [
+   "data_science.foundational_methods"
+  ],
+  "Biology For Engineers": [],
+  "Universal Human Values": [],
+  "Operating Systems Lab": [
+   "computer_science_informatics.operating_systems"
+  ],
+  "Software Project Management": [
+   "computer_science_informatics.software_engineering"
+  ],
+  "Formal Languages and Automata Theory": [
+   "computer_science_informatics.theoretical_cs"
+  ],
+  "Micro-Controllers and Embedded Systems": [
+   "computer_science_informatics.computer_engineering",
+   "electrical_electronic_engineering.digital_systems"
+  ],
+  "Data Warehousing and Data Mining": null,
+  "Research Based Mini Project": [
+   "other.thesis_scientific_work"
+  ],
+  "Research Methodology and Intellectual Property Rights": null,
+  "Environmental Studies": [],
+  "Employability Skills -1 Bizotic": [],
+  "Micro-Controllers and Embedded Systems Laboratory": [
+   "computer_science_informatics.computer_engineering",
+   "electrical_electronic_engineering.digital_systems"
+  ],
+  "Artificial Intelligence and Machine Learning": [
+   "computer_science_informatics.machine_learning_ai"
+  ],
+  "Computer Networks": [
+   "computer_science_informatics.computer_networks",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Compiler Design": [
+   "computer_science_informatics.programming_practical_cs",
+   "computer_science_informatics.theoretical_cs"
+  ],
+  "Applied Statistics": [
+   "mathematics_statistics.statistics_probability"
+  ],
+  "Major Project Phase I": [
+   "other.thesis_scientific_work"
+  ],
+  "Employability Skills -2 Bizotic": [],
+  "Computer Networks Lab": [
+   "computer_science_informatics.computer_networks",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Big Data and Analytics": [
+   "data_science.foundational_methods",
+   "computer_science_informatics.data_engineering"
+  ],
+  "Unix System and Network Programming": null,
+  "Distributed and Cloud Computing": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Cryptography and Network Security": [
+   "computer_science_informatics.it_security"
+  ],
+  "Optimization Techniques": [
+   "mathematics_statistics.optimization_numerics"
+  ],
+  "Major Project Phase-II": [
+   "other.thesis_scientific_work"
+  ],
+  "Indian Knowledge System": [],
+  "Linux Operating System": [
+   "computer_science_informatics.operating_systems"
+  ],
+  "IoT using Arduino": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Internship (Industry/Research)": [
+   "other.thesis_scientific_work"
+  ]
+ },
+ "label_changes": [
+  "04.11.2026, Koushik approved: Introduction to Electrical Engineering -> unsure (null). VTU BESCK104B syllabus: circuits about 30%, machines about 40%, plus power/wiring; the split differs by university, so the title cannot decide it"
+ ]
+}

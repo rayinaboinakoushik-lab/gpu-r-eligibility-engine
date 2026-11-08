@@ -1,0 +1,126 @@
+{
+ "_version": "approved 2026-10-26 (Koushik), stored in the repo 2026-10-27",
+ "_rule": "Degree gate: a student's degree passes a record if its degree field is in the record's primary_fields, OR if the degree field 'counts_as' one of them. aliases = Indian degree titles that ARE that field (used to set the student's degree_field). Anything not listed = no automatic match: the committee decides, shown as a note only. Record-level exceptions (e.g. 10623 EE degrees only) live in engine_config.json 'exclusions' and win.",
+ "degree_fields": {
+  "computer_science": {
+   "aliases": [
+    "B.Tech Computer Science and Engineering (CSE)",
+    "B.Tech Computer Science",
+    "B.E. CSE",
+    "Informatik"
+   ],
+   "counts_as": []
+  },
+  "information_technology": {
+   "aliases": [
+    "B.Tech Information Technology (IT)",
+    "B.Tech Computer Science and Information Technology (CSIT)"
+   ],
+   "counts_as": [
+    "computer_science"
+   ],
+   "decision": "Approved 26.10.2026: IT counts as computer_science (JNTUH IT and CSE share the same core: programming, DS, DBMS, OS, networks, SE, TOC)"
+  },
+  "cse_specialisations": {
+   "aliases": [
+    "B.Tech CSE (AI & ML)",
+    "B.Tech CSE (Data Science)",
+    "B.Tech CSE (Cyber Security)",
+    "B.Tech CSE (IoT)",
+    "B.Tech AI & Data Science (AI&DS)"
+   ],
+   "counts_as": [
+    "computer_science"
+   ],
+   "decision": "Approved 26.10.2026: CSE specialisations and AI&DS count as computer_science"
+  },
+  "electrical_electronic_engineering": {
+   "aliases": [
+    "B.Tech Electrical and Electronics Engineering (EEE)",
+    "B.Tech Electrical Engineering",
+    "Elektrotechnik"
+   ],
+   "counts_as": []
+  },
+  "electronics_communication": {
+   "aliases": [
+    "B.Tech Electronics and Communication Engineering (ECE)",
+    "B.Tech Electronics and Telematics",
+    "B.Tech Electronics and Instrumentation (EIE)"
+   ],
+   "counts_as": [
+    "electrical_electronic_engineering"
+   ],
+   "exceptions": [
+    "10623 (EE degrees only, Koushik 20.10.2026)"
+   ],
+   "decision": "Approved 26.10.2026: ECE / EIE count as electrical_electronic_engineering, except records hard-coded otherwise"
+  },
+  "mechanical_engineering": {
+   "aliases": [
+    "B.Tech Mechanical Engineering",
+    "Maschinenbau"
+   ],
+   "counts_as": []
+  },
+  "mechanical_related": {
+   "aliases": [
+    "B.Tech Automobile Engineering",
+    "B.Tech Production / Industrial Engineering",
+    "B.Tech Mechatronics",
+    "B.Tech Aeronautical / Aerospace Engineering",
+    "B.Tech Mechanical (Mechatronics)"
+   ],
+   "counts_as": [],
+   "decision": "Approved 26.10.2026: no automatic match (regulations call these 'related' and the committee decides) -> shown with a note"
+  },
+  "civil_engineering": {
+   "aliases": [
+    "B.Tech Civil Engineering",
+    "Bauingenieurwesen"
+   ],
+   "counts_as": []
+  },
+  "civil_related": {
+   "aliases": [
+    "B.Tech Civil and Environmental Engineering",
+    "B.Tech Environmental Engineering",
+    "B.Tech Transportation Engineering",
+    "B.Tech Geoinformatics"
+   ],
+   "counts_as": [],
+   "decision": "Approved 26.10.2026: no automatic match; WATENV-type records that name environmental engineering are handled by a record note"
+  },
+  "mathematics": {
+   "aliases": [
+    "B.Sc. Mathematics"
+   ],
+   "counts_as": []
+  },
+  "statistics": {
+   "aliases": [
+    "B.Sc. Statistics"
+   ],
+   "counts_as": []
+  },
+  "physics": {
+   "aliases": [
+    "B.Sc. Physics"
+   ],
+   "counts_as": []
+  },
+  "economics": {
+   "aliases": [
+    "B.A./B.Sc. Economics"
+   ],
+   "counts_as": []
+  },
+  "business_informatics": {
+   "aliases": [
+    "Wirtschaftsinformatik",
+    "B.Tech/BBA Business Informatics"
+   ],
+   "counts_as": []
+  }
+ }
+}

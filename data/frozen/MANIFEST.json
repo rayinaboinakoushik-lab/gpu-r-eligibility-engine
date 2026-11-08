@@ -1,0 +1,30 @@
+[
+  {
+    "field": "computer_science",
+    "file": "GPU-R_computer_science_FROZEN_2026-10-24.json",
+    "records": 116,
+    "sha256": "d9d158d4b7c34fe7762f8bbad3f865ded394965adbfb8803774c7a609d088990",
+    "source": "approved/APPROVED_computer_science_2026-10-19.json"
+  },
+  {
+    "field": "electrical_electronic_engineering",
+    "file": "GPU-R_electrical_electronic_engineering_FROZEN_2026-10-24.json",
+    "records": 73,
+    "sha256": "0a1dffc8c3f5f3fc3e8bc271f8399766d2f6f9a9921b568510d8b261fe3a3b27",
+    "source": "approved/APPROVED_electrical_electronic_engineering_2026-10-19.json"
+  },
+  {
+    "field": "mechanical_engineering",
+    "file": "GPU-R_mechanical_engineering_FROZEN_2026-10-24.json",
+    "records": 22,
+    "sha256": "bbe2879783be918ae11a23e6ece01c4c4d9ea70932e6d7ce61a8b3ac2bf98bfa",
+    "source": "approved/APPROVED_mechanical_engineering_2026-10-16.json"
+  },
+  {
+    "field": "civil_engineering",
+    "file": "GPU-R_civil_engineering_FROZEN_2026-10-24.json",
+    "records": 17,
+    "sha256": "5fc46c76c912e092922703778d57f6ec7cc6ca8837dd196992c105302e9efc33",
+    "source": "approved/APPROVED_civil_engineering_2026-10-16.json"
+  }
+]

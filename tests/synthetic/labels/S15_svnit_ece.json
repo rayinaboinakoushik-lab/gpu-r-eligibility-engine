@@ -1,0 +1,126 @@
+{
+ "id": "S15_svnit_ece",
+ "labeller": "Claude 03.11.2026 (course map first, exactly as the pipeline's own map lookup; generic maths titles null; then taxonomy rules); null = unsure (needs the syllabus), not scored",
+ "label_sources": {
+  "map": 11,
+  "generic": 3,
+  "manual": 30
+ },
+ "labels": {
+  "Mathematics-I": null,
+  "Semiconductor Physics and Devices": [
+   "electrical_electronic_engineering.microelectronics_semiconductors",
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Fundamentals of Computer & Programming": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Basic Electrical Engineering": [
+   "electrical_electronic_engineering.circuit_theory"
+  ],
+  "Energy and Environmental Engineering": null,
+  "Holistic Empowerment and Human Values": [],
+  "Mathematics-II": null,
+  "English & Professional Communication": [],
+  "Electronic Circuits": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Digital Logic Design": [
+   "electrical_electronic_engineering.digital_systems",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Python Programming": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Network Analysis and Synthesis": [
+   "electrical_electronic_engineering.circuit_theory"
+  ],
+  "Mathematics-III": null,
+  "Analog Circuits": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Signals and Systems": [
+   "electrical_electronic_engineering.signals_systems"
+  ],
+  "Data Structures and Algorithms": [
+   "computer_science_informatics.algorithms_data_structures"
+  ],
+  "Digital Integrated Circuits": null,
+  "Principles of Communication Systems": [
+   "electrical_electronic_engineering.communications"
+  ],
+  "Electromagnetic Waves": [
+   "electrical_electronic_engineering.electromagnetic_field_theory"
+  ],
+  "Statistical Signal Analysis": [
+   "mathematics_statistics.statistics_probability"
+  ],
+  "Microprocessor and Microcontrollers": [
+   "computer_science_informatics.computer_engineering",
+   "electrical_electronic_engineering.digital_systems"
+  ],
+  "Linear IC Applications": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Computer Architecture and Organization": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Control Systems": [
+   "electrical_electronic_engineering.control_systems"
+  ],
+  "Professional Ethics, Economics, and Business Management": [],
+  "Digital Signal Processing": [
+   "electrical_electronic_engineering.digital_signal_processing"
+  ],
+  "Digital Communication": [
+   "electrical_electronic_engineering.communications"
+  ],
+  "Data Communication Networks": [
+   "computer_science_informatics.computer_networks",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Antenna Theory": [
+   "electrical_electronic_engineering.electromagnetic_field_theory",
+   "electrical_electronic_engineering.communications"
+  ],
+  "Sensors and Transducers": [
+   "electrical_electronic_engineering.measurement_instrumentation"
+  ],
+  "VLSI Design": [
+   "electrical_electronic_engineering.microelectronics_semiconductors"
+  ],
+  "Wireless and Mobile Communication": [
+   "electrical_electronic_engineering.communications"
+  ],
+  "Machine Learning": [
+   "computer_science_informatics.machine_learning_ai"
+  ],
+  "Seminar": [],
+  "Optical Fiber Communication": [
+   "electrical_electronic_engineering.communications"
+  ],
+  "Adaptive Signal Processing": [
+   "electrical_electronic_engineering.digital_signal_processing"
+  ],
+  "Computer Vision": [
+   "computer_science_informatics.graphics_visual_computing"
+  ],
+  "Microwave Engineering": null,
+  "Information Theory and Coding": [
+   "electrical_electronic_engineering.information_theory",
+   "electrical_electronic_engineering.communications"
+  ],
+  "Project": [],
+  "CMOS Analog VLSI Design": [
+   "electrical_electronic_engineering.microelectronics_semiconductors"
+  ],
+  "EM Interference and Compatibility": [
+   "electrical_electronic_engineering.electromagnetic_field_theory"
+  ],
+  "Ad-Hoc Networks": [
+   "computer_science_informatics.computer_networks",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Internship training in Industry / Research Organization/ Academic Institute": []
+ }
+}

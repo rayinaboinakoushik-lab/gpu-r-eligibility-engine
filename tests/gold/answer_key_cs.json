@@ -1,0 +1,806 @@
+{
+ "field": "cs",
+ "_about": "GPU-R answer key (cs), relabelled 30.10.2026 to the approved 66-category taxonomy (field file cs_taxonomy.json). Sources per course in \"relabel_source\". Old labels kept in \"old_expected\".",
+ "_rules_applied": [
+  "A category counts only if it is at least 40% of the course content (Rule 6).",
+  "A lab course belongs to the same categories as the lecture course it practises, EXCEPT labs of theory subjects (theoretical CS, mathematics), which go to programming because a lab is practical work.",
+  "Non-technical courses (soft skills, civics, environment, law) get no category."
+ ],
+ "source": "GNIT B.Tech IT, JNTUH -- Koushik (lateral entry, GNIT-*) and Student B (regular entry, first-year SAT-*)",
+ "courses": [
+  {
+   "id": "GNIT-1",
+   "title": "ANALOG AND DIGITAL ELECTRONICS",
+   "credits": 3,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.computer_engineering",
+    "electrical_electronic_engineering.digital_systems",
+    "electrical_electronic_engineering.electronics"
+   ],
+   "old_expected": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-2",
+   "title": "DATA STRUCTURES",
+   "credits": 4,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.algorithms_data_structures"
+   ],
+   "old_expected": [
+    "computer_science_informatics.algorithms_data_structures"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-3",
+   "title": "COMPUTER ORIENTED STATISTICAL METHODS",
+   "credits": 4,
+   "basis": "title",
+   "expected": [
+    "mathematics_statistics.statistics_probability"
+   ],
+   "old_expected": [
+    "mathematics_statistics.statistics_probability"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-4",
+   "title": "COMPUTER ORGANIZATION AND MICROPROCESSOR",
+   "credits": 3,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.computer_engineering",
+    "electrical_electronic_engineering.digital_systems"
+   ],
+   "old_expected": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "relabel_source": "approved fix 1 (30.10.2026): microprocessors -> computer_engineering + digital_systems; Koushik 31.10.2026"
+  },
+  {
+   "id": "GNIT-5",
+   "title": "OBJECT ORIENTED PROGRAMMING USING C++",
+   "credits": 2,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-6",
+   "title": "ANALOG AND DIGITAL ELECTRONICS LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.computer_engineering",
+    "electrical_electronic_engineering.digital_systems",
+    "electrical_electronic_engineering.electronics"
+   ],
+   "old_expected": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-7",
+   "title": "DATA STRUCTURES LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.algorithms_data_structures"
+   ],
+   "old_expected": [
+    "computer_science_informatics.algorithms_data_structures"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-8",
+   "title": "IT WORKSHOP AND MICROPROCESSOR LAB",
+   "credits": 1.5,
+   "basis": "syllabus",
+   "note": "PC hardware + 8086 assembly tasks = ~48% of the lab; office tools/internet tasks match no category.",
+   "expected": [
+    "computer_science_informatics.computer_engineering",
+    "electrical_electronic_engineering.digital_systems"
+   ],
+   "old_expected": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "relabel_source": "approved fix 1 (30.10.2026): microprocessors -> computer_engineering + digital_systems; Koushik 31.10.2026"
+  },
+  {
+   "id": "GNIT-9",
+   "title": "C++ PROGRAMMING LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-10",
+   "title": "GENDER SENSITIZATION LAB",
+   "credits": 0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-11",
+   "title": "DISCRETE MATHEMATICS",
+   "credits": 3,
+   "basis": "title",
+   "expected": [
+    "mathematics_statistics.discrete_math_logic"
+   ],
+   "old_expected": [
+    "mathematics_statistics.discrete_math_logic"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-12",
+   "title": "BUSINESS ECONOMICS & FINANCIAL ANALYSIS",
+   "credits": 3,
+   "basis": "title",
+   "expected": [
+    "business_economics_management.business_administration"
+   ],
+   "old_expected": [
+    "business_economics_management.business_administration"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-13",
+   "title": "OPERATING SYSTEMS",
+   "credits": 3,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.operating_systems"
+   ],
+   "old_expected": [
+    "computer_science_informatics.operating_systems"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-14",
+   "title": "DATABASE MANAGEMENT SYSTEMS",
+   "credits": 4,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.databases_systems"
+   ],
+   "old_expected": [
+    "computer_science_informatics.databases_systems"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-15",
+   "title": "JAVA PROGRAMMING",
+   "credits": 4,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-16",
+   "title": "OPERATING SYSTEMS LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.operating_systems"
+   ],
+   "old_expected": [
+    "computer_science_informatics.operating_systems"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-17",
+   "title": "DATABASE MANAGEMENT SYSTEMS LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.databases_systems"
+   ],
+   "old_expected": [
+    "computer_science_informatics.databases_systems"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-18",
+   "title": "JAVA PROGRAMMING LAB",
+   "credits": 1,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-19",
+   "title": "CONSTITUTION OF INDIA",
+   "credits": 0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-20",
+   "title": "FORMAL LANGUAGES AND AUTOMATA THEORY",
+   "credits": 3,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.theoretical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.theoretical_cs"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-21",
+   "title": "SOFTWARE ENGINEERING",
+   "credits": 3,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.software_engineering"
+   ],
+   "old_expected": [
+    "computer_science_informatics.software_engineering"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-22",
+   "title": "DATA COMMUNICATION AND COMPUTER NETWORKS",
+   "credits": 4,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.computer_engineering",
+    "computer_science_informatics.computer_networks"
+   ],
+   "old_expected": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-23",
+   "title": "WEB PROGRAMMING",
+   "credits": 3,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-24",
+   "title": "PRINCIPLES OF PROGRAMMING LANGUAGES",
+   "credits": 3,
+   "basis": "title",
+   "note": "Mainly programming paradigms and language concepts; formal syntax/semantics is well under 40%. The taxonomy's own example list wrongly puts PPL under theoretical_cs.",
+   "expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-25",
+   "title": "ADVANCED OPERATING SYSTEMS",
+   "credits": 3,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.computer_engineering",
+    "computer_science_informatics.operating_systems"
+   ],
+   "old_expected": [
+    "computer_science_informatics.operating_systems"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-26",
+   "title": "SOFTWARE ENGINEERING LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.software_engineering"
+   ],
+   "old_expected": [
+    "computer_science_informatics.software_engineering"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-27",
+   "title": "COMPUTER NETWORKS AND WEB PROGRAMMING LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "note": "Combined lab of two lecture courses: networks + web programming.",
+   "expected": [
+    "computer_science_informatics.computer_engineering",
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.computer_engineering",
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-28",
+   "title": "ADVANCED COMMUNICATION SKILLS LAB",
+   "credits": 1,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-29",
+   "title": "INTELLECTUAL PROPERTY RIGHTS",
+   "credits": 0,
+   "basis": "title",
+   "expected": [
+    "society_law_ethics.ethics_law_society"
+   ],
+   "old_expected": [],
+   "relabel_source": "hand-checked 27.10 (CS classification review) | 30.10: IPR -> ethics_law_society (Koushik)"
+  },
+  {
+   "id": "GNIT-30",
+   "title": "INTRODUCTION TO EMBEDDED SYSTEMS",
+   "credits": 3,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "old_expected": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-31",
+   "title": "PRINCIPLES OF COMPILER CONSTRUCTION",
+   "credits": 3,
+   "basis": "title",
+   "note": "Follows the taxonomy's own placement of compiler courses.",
+   "expected": [
+    "computer_science_informatics.programming_practical_cs",
+    "computer_science_informatics.theoretical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.theoretical_cs"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-32",
+   "title": "ALGORITHM DESIGN AND ANALYSIS",
+   "credits": 3,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.algorithms_data_structures"
+   ],
+   "old_expected": [
+    "computer_science_informatics.algorithms_data_structures"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-33",
+   "title": "INTERNET OF THINGS",
+   "credits": 3,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "old_expected": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-34",
+   "title": "SOFTWARE TESTING METHODOLOGIES",
+   "credits": 3,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.software_engineering"
+   ],
+   "old_expected": [
+    "computer_science_informatics.software_engineering"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-35",
+   "title": "DISASTER PREPAREDNESS & PLANNING MANAGEMENT",
+   "credits": 3,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-36",
+   "title": "EMBEDDED SYSTEMS AND INTERNET OF THINGS LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "old_expected": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-37",
+   "title": "COMPILER CONSTRUCTION LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "note": "A lab is hands-on coding (writing a lexer/parser), never theory: labs of theory subjects go to programming.",
+   "expected": [
+    "computer_science_informatics.programming_practical_cs",
+    "computer_science_informatics.theoretical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-38",
+   "title": "SOFTWARE TESTING METHODOLOGIES LAB",
+   "credits": 1,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.software_engineering"
+   ],
+   "old_expected": [
+    "computer_science_informatics.software_engineering"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-39",
+   "title": "ENVIRONMENTAL SCIENCE",
+   "credits": 0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-40",
+   "title": "INFORMATION SECURITY",
+   "credits": 3,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.it_security"
+   ],
+   "old_expected": [
+    "computer_science_informatics.it_security"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-41",
+   "title": "DATA MINING",
+   "credits": 3,
+   "basis": "syllabus",
+   "note": "JNTUH R18 CS702PC (identical in CSE and IT): Units II-IV are association rules, classification, clustering (~60%+, ML); data preprocessing/warehouse integration is only part of Unit I (~20%), below the 40% rule for data_science.",
+   "expected": [
+    "data_science.foundational_methods",
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "old_expected": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-42",
+   "title": "CLOUD COMPUTING",
+   "credits": 3,
+   "basis": "title",
+   "note": "Taxonomy explicitly lists Cloud Computing and Distributed Systems under computer_engineering.",
+   "expected": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "old_expected": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-43",
+   "title": "SOFTWARE PROCESS & PROJECT MANAGEMENT",
+   "credits": 3,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.software_engineering"
+   ],
+   "old_expected": [
+    "computer_science_informatics.software_engineering"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-44",
+   "title": "REMOTE SENSING AND GIS",
+   "credits": 3,
+   "basis": "syllabus",
+   "note": "5-unit Civil Engg elective; spatial DBMS is 1 unit (~20%); no category reaches 40%.",
+   "expected": [
+    "civil_engineering.surveying_geodesy"
+   ],
+   "old_expected": [],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-45",
+   "title": "INFORMATION SECURITY LAB",
+   "credits": 1,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.it_security"
+   ],
+   "old_expected": [
+    "computer_science_informatics.it_security"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-46",
+   "title": "MINI PROJECT",
+   "credits": 2,
+   "basis": "title",
+   "expected": [
+    "other.thesis_scientific_work"
+   ],
+   "old_expected": [
+    "other.thesis_scientific_work"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-47",
+   "title": "ORGANIZATIONAL BEHAVIOUR",
+   "credits": 3,
+   "basis": "title",
+   "expected": [
+    "business_economics_management.business_administration"
+   ],
+   "old_expected": [
+    "business_economics_management.business_administration"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-48",
+   "title": "HUMAN COMPUTER INTERACTION",
+   "credits": 3,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.hci"
+   ],
+   "old_expected": [
+    "computer_science_informatics.hci"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-49",
+   "title": "ENVIRONMENTAL IMPACT ASSESSMENT",
+   "credits": 3,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "GNIT-50",
+   "title": "MAJOR PROJECT",
+   "credits": 8,
+   "basis": "title",
+   "expected": [
+    "other.thesis_scientific_work"
+   ],
+   "old_expected": [
+    "other.thesis_scientific_work"
+   ],
+   "relabel_source": "hand-checked 27.10 (CS classification review)"
+  },
+  {
+   "id": "SAT-2",
+   "title": "CHEMISTRY",
+   "credits": 4,
+   "basis": "title",
+   "source": "GNIT B.Tech IT, regular entry (Student B)",
+   "expected": [
+    "physics_natural_sciences.chemistry"
+   ],
+   "old_expected": [
+    "physics_natural_sciences.chemistry"
+   ],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "SAT-3",
+   "title": "BASIC ELECTRICAL ENGINEERING",
+   "credits": 3,
+   "basis": "title",
+   "source": "GNIT B.Tech IT, regular entry (Student B)",
+   "note": "Circuits, machines and power -- not computing; the CS taxonomy has no electrical-engineering category.",
+   "expected": [
+    "electrical_electronic_engineering.circuit_theory"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "SAT-4",
+   "title": "ENGINEERING WORKSHOP",
+   "credits": 2.5,
+   "basis": "title",
+   "source": "GNIT B.Tech IT, regular entry (Student B)",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "SAT-5",
+   "title": "ENGLISH",
+   "credits": 2,
+   "basis": "title",
+   "source": "GNIT B.Tech IT, regular entry (Student B)",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (CS/IT/CSIT; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "SAT-6",
+   "title": "ENGINEERING CHEMISTRY LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "source": "GNIT B.Tech IT, regular entry (Student B)",
+   "expected": [
+    "physics_natural_sciences.chemistry"
+   ],
+   "old_expected": [
+    "physics_natural_sciences.chemistry"
+   ],
+   "relabel_source": "course map (CS/IT/CSIT; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "SAT-7",
+   "title": "ENGLISH LANGUAGE AND COMMUNICATION SKILLS LAB",
+   "credits": 1,
+   "basis": "title",
+   "source": "GNIT B.Tech IT, regular entry (Student B)",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (CS/IT/CSIT; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "SAT-8",
+   "title": "BASIC ELECTRICAL ENGINEERING LAB",
+   "credits": 1,
+   "basis": "title",
+   "source": "GNIT B.Tech IT, regular entry (Student B)",
+   "expected": [
+    "electrical_electronic_engineering.circuit_theory"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (CS/IT/CSIT; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "SAT-10",
+   "title": "APPLIED PHYSICS",
+   "credits": 4,
+   "basis": "title",
+   "source": "GNIT B.Tech IT, regular entry (Student B)",
+   "expected": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "old_expected": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "SAT-11",
+   "title": "PROGRAMMING FOR PROBLEM SOLVING",
+   "credits": 4,
+   "basis": "title",
+   "source": "GNIT B.Tech IT, regular entry (Student B)",
+   "expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "SAT-12",
+   "title": "ENGINEERING GRAPHICS",
+   "credits": 3,
+   "basis": "title",
+   "source": "GNIT B.Tech IT, regular entry (Student B)",
+   "note": "Technical drawing and projections, not computer graphics.",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (CS/IT/CSIT; SUPPORTED_BY_SYLLABUS) -- dropped (not in the cs field file): design_machine_elements"
+  },
+  {
+   "id": "SAT-13",
+   "title": "APPLIED PHYSICS LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "source": "GNIT B.Tech IT, regular entry (Student B)",
+   "expected": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "old_expected": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "relabel_source": "course map (CS/IT/CSIT; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "SAT-14",
+   "title": "PROGRAMMING FOR PROBLEM SOLVING LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "source": "GNIT B.Tech IT, regular entry (Student B)",
+   "expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "relabel_source": "course map (CS/IT/CSIT; LAB_FOLLOWS_THEORY)"
+  }
+ ]
+}

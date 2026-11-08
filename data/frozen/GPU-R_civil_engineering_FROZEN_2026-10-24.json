@@ -1,0 +1,2070 @@
+[
+  {
+    "id": "3612",
+    "program": "Natural Hazards and Risks in Structural Engineering (M.Sc.)",
+    "university": "Bauhaus-Universität Weimar",
+    "_domain": "civil_engineering",
+    "official_sources": {
+      "program_page": "https://www.uni-weimar.de/en/civil-engineering/studies/master-degree-programmes/nhre/",
+      "admission_regulation": {
+        "url": "https://www.uni-weimar.de/fileadmin/user/uni/universitaetsleitung/kanzler/mdu_akad/25/38_SO_FakB_U_NHRE_MSc.pdf",
+        "title": "Studienordnung für den konsekutiven Studiengang 'Natural Hazards and Risks in Structural Engineering' (M.Sc.), §§ 2–3",
+        "version": "MdU 38/2025, approved 26.08.2025, first applies from WS 2025/26 — read 23.10.2026. Prüfungsordnung MdU 39/2025 read: no admission rules."
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "civil_engineering"
+      ],
+      "note": "SO § 2: first degree (B.Sc.) 'mit guten Prüfungsergebnissen im Studiengang Bauingenieurwesen', or a degree the examination board recognises as subject-equivalent (also Verwaltungsfachhochschule / Berufsakademie). If the first degree had no thesis, another scientific paper written by the applicant must be submitted."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 2.5,
+      "note": "SO § 2: overall grade 'muss in der Regel mindestens 2,5 sein'; 'Über Ausnahmen entscheidet der Prüfungsausschuss.' Stored as minimum (GPU-R rule for 'in der Regel'); exceptions = student note."
+    },
+    "subject_credit_requirements": {
+      "items": [],
+      "note": "No subject credit minimums in the SO; the degree field (civil engineering or equivalent) is the requirement."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "SO §§ 2–3 contain no Auflagen rule."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": false,
+      "descriptive_notes": [
+        "Grade 2.5 applies 'in der Regel'; the examination board decides on exceptions (SO § 2).",
+        "If your bachelor had no thesis, submit another scientific paper you wrote (SO § 2).",
+        "Part-time study possible; first semester only in winter (SO).",
+        "If your degree is not equivalent to a civil engineering bachelor, the examination board may add conditions (programme page / DAAD listing; no cap stated)."
+      ]
+    },
+    "minimum_total_ects": null,
+    "language_english": {
+      "ielts_min": 6.5,
+      "toefl_ibt_min": 85,
+      "pte_min": null,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "Native speaker: entrance qualification or first degree from an English-speaking country"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "SO § 2: B2 — TOEFL iBT 85 or better, Cambridge FCE, IELTS band 6.5 (at least 6.0 in each part), or equivalent. Programme page: certificate not older than 2 years at the planned start; PTE accepted as equivalent."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [
+        "India"
+      ],
+      "note": "Programme page: 'An APS is necessary for Chinese, Vietnamese, and Indian applicants.'"
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "Bachelor thesis or another scientific paper by the applicant (SO § 2)"
+    ],
+    "admission_type": {
+      "restricted": null,
+      "numerus_clausus": null
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "1 April – 15 July via uni-assist (programme page; DAAD listing: 15 July)",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.uni-weimar.de/",
+      "documents_seen": [
+        "SO NHRE MdU 38/2025 | read 23.10.2026 | https://www.uni-weimar.de/fileadmin/user/uni/universitaetsleitung/kanzler/mdu_akad/25/38_SO_FakB_U_NHRE_MSc.pdf",
+        "PO NHRE MdU 39/2025 | read — no admission rules | https://www.uni-weimar.de/fileadmin/user/uni/universitaetsleitung/kanzler/mdu_akad/25/39_PO_FakB_U_NHRE_MSc.pdf",
+        "Programme page NHRE | read 24.10.2026 | https://www.uni-weimar.de/en/civil-engineering/studies/master-degree-programmes/nhre/",
+        "DAAD listing 3612 | read 24.10.2026 | https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3612/"
+      ]
+    },
+    "last_checked": "2026-10-23",
+    "last_updated": "2026-10-23"
+  },
+  {
+    "id": "5623",
+    "program": "MEng Master's in Healthy and Sustainable Buildings",
+    "university": "Deggendorf Institute of Technology",
+    "_domain": "civil_engineering",
+    "official_sources": {
+      "program_page": "https://www.th-deg.de/hsb-m-en",
+      "admission_regulation": {
+        "url": "https://ec.th-deg.de/Studierende/Antraege-und-Organisatorisches/Pruefungsordnungen/Master/spo_hsb_master_2022_1.pdf",
+        "title": "Studien- und Prüfungsordnung für den Master-Studiengang Healthy und Sustainable Buildings (HSB) an der Technischen Hochschule Deggendorf",
+        "version": "vom 15. März 2022, in Kraft mit Wirkung zum 15.03.2022, gilt für Studienbeginn ab Sommersemester 2022 (latest version found; no amendment located)"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "civil_engineering"
+      ],
+      "note": "SPO § 3: first degree (grundständiges Studium) of at least 180 ECTS in civil and environmental engineering (Bau- und Umweltingenieurwesen) or architecture, or an equivalent degree; the examination committee decides on equivalence. Program page: 'civil or environmental engineering, or architecture'."
+    },
+    "gpa_rule_type": "NO_GRADE_THRESHOLD",
+    "grade_requirement": {
+      "value": null,
+      "note": "No minimum overall grade. The Bachelor thesis grade only gives points in the aptitude procedure (see subsequent_selection_criteria_display); no conversion method for foreign grades is stated."
+    },
+    "subject_credit_requirements": {
+      "items": [],
+      "note": "The SPO sets no subject-credit minimums; access is by degree field (civil/environmental engineering, architecture or equivalent) plus the aptitude procedure."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "SPO 2022 contains no Auflagen rule for missing subject knowledge; suitability is tested in the aptitude procedure (§ 4)."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "Aptitude assessment procedure (Eignungsfeststellungsverfahren, SPO § 4), 100 points: (a) Bachelor thesis grade max 30 (1.0-1.7 = 30, 1.8-2.5 = 15, 'ab 2,5' = 0); (b) professional experience max 10 (2 years or more = 10, 1-2 years = 5); (c) written test max 30 (60 minutes, may be online), passed with at least 20; (d) interview max 30 (max 20 minutes, may be virtual: subject discussion 15, motivation 5, expectations 5, career relevance 5), passed with at least 20.",
+        "Invitation to the interview requires at least 50 of the 70 points from (a)+(b)+(c); aptitude is established with at least 70 of 100 points in total.",
+        "The examination committee may waive the interview for degrees with grade 2.0 or better ('überdurchschnittlich').",
+        "Failed procedure may be repeated once, at the following year's date; no further repetition.",
+        "SPO 2022 says the procedure is held once a year in the winter semester for the following summer semester; current program and application pages say study start is winter semester with application 15.04.-15.07. (conflict, see notes)."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 5.5,
+      "toefl_ibt_min": null,
+      "pte_min": null,
+      "required_level": "B2",
+      "allowed_exemptions": [],
+      "moi_not_accepted": null,
+      "due": null,
+      "note": "SPO § 3: English at level B2. THD ECRI language requirements PDF, row Healthy and Sustainable Buildings (M.Eng.): IELTS 'In jedem Teilbereich sind 5,5 - 6,5 Punkte zu erreichen' (5.5-6.5 in each section, the B2 band; stored minimum 5.5 per section; confirmed by Koushik from the PDF, 10.10.2026). IELTS Academic or General accepted (not IELTS Indicator); only TOEFL iBT accepted, no Home Editions; certificates not older than 2 years."
+    },
+    "language_german": {
+      "required": true,
+      "required_level": "A1",
+      "due": "during studies (by end of studies); not an admission requirement"
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [
+        "India"
+      ],
+      "note": "THD application page: APS certificate required for applicants from China, India and Vietnam. The same page says Indian Master's applicants must prove a Digital Master Test (dMAT) from summer semester 2027 for 'zahlreiche Studiengänge' (programmes not listed; not confirmed for HSB)."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [],
+    "admission_type": {
+      "restricted": null,
+      "numerus_clausus": null
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "15.04. - 15.07.",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.th-deg.de/hochschulrecht#accordion-spo-ecri",
+      "documents_seen": [
+        "Studien- und Prüfungsordnung Master Healthy and Sustainable Buildings (DE) | vom 15.03.2022, gilt ab SS 2022 | https://ec.th-deg.de/Studierende/Antraege-und-Organisatorisches/Pruefungsordnungen/Master/spo_hsb_master_2022_1.pdf",
+        "Study and Examination Regulations HSB (EN translation) | 2022 | https://cs-mariakirchen.th-deg.de/Studierende/Antraege-und-Organisatorisches/Pruefungsordnungen/Master/spo_hsb_master_2022_1_englisch.pdf",
+        "SPO HSB Master (older version) | 2019_2 | https://www.cs-mariakirchen.th-deg.de/Studierende/Antraege-und-Organisatorisches/Pruefungsordnungen/Master/spo_hsb_master_2019_2.pdf"
+      ]
+    },
+    "last_checked": "2026-10-23",
+    "last_updated": "2026-10-10"
+  },
+  {
+    "id": "manual_tud_access",
+    "program": "ACCESS – Advanced Computational and Civil Engineering Structural Studies (M.Sc.)",
+    "university": "Technische Universität Dresden",
+    "_domain": "civil_engineering",
+    "official_sources": {
+      "program_page": "https://tu-dresden.de/sins/ma-access",
+      "admission_regulation": {
+        "url": "https://tu-dresden.de/bu/studium/ressourcen/dateien/studiendokumente/fakultaet-bauingenieurwesen/access-2500-advanced-computational-and-civil-engineering-structural-studies-master-englisch/2026_02_04_MA_ACCESS_SO_Lesefassung.pdf",
+        "title": "Studienordnung Master ACCESS (§ 3 Zugangsvoraussetzungen) with the Eignungsfeststellungsordnung ACCESS",
+        "version": "SO of 17.08.2022 with 1st amendment 07.03.2025 (Lesefassung valid from 01.04.2026, not binding) — read 23.10.2026; EFO of 11.02.2014 (faculty page lists it as current) — read 23.10.2026"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "civil_engineering"
+      ],
+      "note": "SO § 3 / EFO § 2: first professional degree recognised in Germany (or Berufsakademie) 'auf einem ingenieurwissenschaftlichen Gebiet, vorzugsweise Bauingenieurwesen'."
+    },
+    "gpa_rule_type": "NO_GRADE_THRESHOLD",
+    "grade_requirement": {
+      "value": null,
+      "note": "No overall grade minimum. Aptitude (EFO § 5): grades in mathematics and mechanics must lie in the first third of the respective grading scale (module grades — student note)."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "EFO § 5(1): good knowledge in Mathematik (aptitude)",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [],
+          "min_ects": null,
+          "requires_subject_presence_only": true
+        },
+        {
+          "raw_label": "EFO § 5(1): good knowledge in Mechanik (aptitude)",
+          "canonical_category": "civil_engineering.structural_mechanics",
+          "covered_categories": [
+            "mechanical_manufacturing_engineering.mechanics_dynamics"
+          ],
+          "min_ects": null,
+          "requires_subject_presence_only": true
+        }
+      ],
+      "note": "EFO § 5(1): aptitude = 'guten Kenntnissen auf den Gebieten der Mathematik und Mechanik', met if the grades lie 'im ersten Drittel der jeweiligen Notenskala'. Stored as presence items (mandatory); the top-third grade rule is a student note (module grades not checked, Koushik rule as for Stralsund). TAXONOMY GAP: structural_mechanics (counts 0 until the taxonomy phase)."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "SO § 3 and EFO contain no Auflagen rule."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "Aptitude assessment (EFO): your grades in mathematics and mechanics should be in the top third of your grading scale (e.g. roughly 1.0–2.0 German / high first class); the committee may invite you to an aptitude interview (EFO § 3).",
+        "Apply with at least 80 % of your degree credits if not finished (programme page)."
+      ]
+    },
+    "minimum_total_ects": null,
+    "language_english": {
+      "ielts_min": 6.0,
+      "toefl_ibt_min": 79,
+      "pte_min": null,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "Degree completed entirely in English (SO § 3(2))",
+        "English native language (EFO § 2)"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "SO § 3: 'fortgeschrittenes Level von B2'; proof 'vorzugsweise IELTS: Level 6.0, TOEFL 79 Punkte (iBT) oder UNIcert II'. Programme page adds 'Neu: 4.5 Punkte' (new TOEFL 1–6 scale)."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Not stated in the regulation."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [],
+    "admission_type": {
+      "restricted": false,
+      "numerus_clausus": false
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "1 April – 31 May (programme page; aptitude application may close earlier)",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://tu-dresden.de/bu/studium-neu/studienangelegenheiten/studiendokumente/access-2500-advanced-computational-and-civil-engineering-structural-studies-master-englisch",
+      "documents_seen": [
+        "SO Lesefassung 04.02.2026 | read 23.10.2026 | https://tu-dresden.de/bu/studium/ressourcen/dateien/studiendokumente/fakultaet-bauingenieurwesen/access-2500-advanced-computational-and-civil-engineering-structural-studies-master-englisch/2026_02_04_MA_ACCESS_SO_Lesefassung.pdf",
+        "EFO ACCESS 11.02.2014 | read 23.10.2026 | https://www.verw.tu-dresden.de/AmtBek/PDF-Dateien/2014-03/14eignungsfeststello11.02.2014.pdf",
+        "Programme requirements page | read 23.10.2026 | https://tu-dresden.de/sins/ma-access",
+        "Faculty study documents page (EFO 11.02.2014 still listed; Lesefassung 04.02.2026) | read 24.10.2026 | https://tu-dresden.de/bu/studium/im-studium/studiendokumente/access-2500-advanced-computational-and-civil-engineering-structural-studies-master-englisch",
+        "SINS ACCESS page (IELTS 6.0 / TOEFL 79; non-EU 1 April – 31 May) | read 24.10.2026 | https://tu-dresden.de/studium/vor-dem-studium/studienangebot/sins/sins_studiengang?autoid=27"
+      ]
+    },
+    "last_checked": "2026-10-24",
+    "last_updated": "2026-10-24"
+  },
+  {
+    "id": "8911",
+    "program": "Air Transport and Logistics (M.Sc.)",
+    "university": "Technische Universität Dresden",
+    "_domain": "civil_engineering",
+    "official_sources": {
+      "program_page": "https://tu-dresden.de/bu/verkehr/studium/vor-dem-studium/studienangebot/atl",
+      "admission_regulation": {
+        "url": "https://www.verw.tu-dresden.de/Amtbek/PDF-Dateien/2026-03/02_AB26_060_EFO_Air_Tranport_and_Logistics.pdf",
+        "title": "Eignungsfeststellungsordnung Air Transport and Logistics (§§ 2, 5–7), with the Studienordnung of 10.03.2023",
+        "version": "EFO of 18.03.2026 (Amtliche Bekanntmachungen Nr. 3-2026) — read 23.10.2026"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "civil_engineering"
+      ],
+      "note": "EFO § 2: degree 'auf einem ingenieurwissenschaftlichen Gebiet, insbesondere Bauingenieurwesen, Wirtschaftsingenieurwesen', natural sciences (e.g. physics, mathematics, geography, geodesy), transport economics, or comparable prior knowledge."
+    },
+    "gpa_rule_type": "NO_GRADE_THRESHOLD",
+    "grade_requirement": {
+      "value": null,
+      "note": "No minimum grade (EFO)."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "EFO § 5: at least 40 non-overlapping ECTS in mathematics, mechanics, physics and computer science",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [
+            "civil_engineering.structural_mechanics",
+            "mechanical_manufacturing_engineering.mechanics_dynamics",
+            "physics_natural_sciences.general_physics",
+            "computer_science_informatics.general_cs"
+          ],
+          "min_ects": 40,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "EFO § 5: Mathematik at least 20 ECTS",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [],
+          "min_ects": 20,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "EFO § 5: of which Lineare Algebra at least 5",
+          "canonical_category": "mathematics_statistics.linear_algebra",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "EFO § 5: of which Analysis 5 + Differentialgleichungen 5 = 10 (combined, R2)",
+          "canonical_category": "mathematics_statistics.calculus_analysis",
+          "covered_categories": [],
+          "min_ects": 10,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "EFO § 5: of which Statistik at least 5",
+          "canonical_category": "mathematics_statistics.statistics_probability",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "EFO § 5: Mechanik 10 ECTS (Statik 5 + Kinematik 5)",
+          "canonical_category": "civil_engineering.structural_mechanics",
+          "covered_categories": [
+            "mechanical_manufacturing_engineering.mechanics_dynamics"
+          ],
+          "min_ects": 10,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "EFO § 5: Physik at least 5",
+          "canonical_category": "physics_natural_sciences.general_physics",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "EFO § 5: Informatik at least 5",
+          "canonical_category": "computer_science_informatics.general_cs",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "EFO § 5 minimums (nested; 'sich inhaltlich nicht überschneidend' = a course counts once toward the 40 total). Analysis + differential equations both map to calculus_analysis → combined 10 (R2). Mechanics = statics + kinematics. TAXONOMY GAP: structural_mechanics (count 0 until the taxonomy phase)."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "EFO § 5: missing points may be compensated by the Brückenkurs Air Transport and Logistics PLUS relevant work experience or a pilot licence (at least PPL) — an alternative route, not a credit-gap condition (note)."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "Online aptitude test (EFO § 6, up to 20 minutes, up to three dates) must be passed; interview if needed (§ 7, up to 20 minutes, usually online).",
+        "Missing subject points can be compensated by the Brückenkurs Air Transport and Logistics plus relevant work experience or a pilot licence (at least PPL) (EFO § 5).",
+        "Apply with 80 % of your degree credits if not finished (programme page)."
+      ]
+    },
+    "minimum_total_ects": null,
+    "language_english": {
+      "ielts_min": 5.0,
+      "toefl_ibt_min": 72,
+      "pte_min": null,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "School certificate showing B2 or higher",
+        "Fully English-taught school or degree certificate"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "EFO § 2 Nr. 3 / § 4(2): B2; TOEFL iBT at least 72 or IELTS 5.0. Programme page (tu-dresden.de/sins/efv/ma-atl, checked 24.10.2026) says IELTS 5.5 / TOEFL 72 (new scale 4); the regulation (5.0) is binding and wins — check before applying."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Not stated in the regulation."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [],
+    "admission_type": {
+      "restricted": false,
+      "numerus_clausus": false
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "1 April – 31 May (programme page)",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://tu-dresden.de/bu/verkehr/studium/vor-dem-studium/studienangebot/atl",
+      "documents_seen": [
+        "EFO ATL 18.03.2026 | read 23.10.2026 | https://www.verw.tu-dresden.de/Amtbek/PDF-Dateien/2026-03/02_AB26_060_EFO_Air_Tranport_and_Logistics.pdf",
+        "Programme page | read 23.10.2026",
+        "SO ATL 10.03.2023 | not opened | https://www.verw.tu-dresden.de/Amtbek/PDF-Dateien/2023-04/02_16soM10.03.2023.pdf",
+        "SINS page ATL | read 24.10.2026 | https://tu-dresden.de/sins/efv/ma-atl",
+        "EFO ATL 18.03.2026 re-read 24.10.2026 | https://www.verw.tu-dresden.de/Amtbek/PDF-Dateien/2026-03/02_AB26_060_EFO_Air_Tranport_and_Logistics.pdf"
+      ]
+    },
+    "last_checked": "2026-10-24",
+    "last_updated": "2026-10-24"
+  },
+  {
+    "id": "manual_tud_mobility",
+    "program": "Mobility Systems (M.Sc.)",
+    "university": "Technische Universität Dresden",
+    "_domain": "civil_engineering",
+    "official_sources": {
+      "program_page": "https://tu-dresden.de/bu/verkehr/studium/vor-dem-studium/studienangebot/mobs",
+      "admission_regulation": {
+        "url": "https://www.verw.tu-dresden.de/Amtbek/PDF-Dateien/2026-02/35_AB26_058_EFO_Mobility_Systems.pdf",
+        "title": "Eignungsfeststellungsordnung Mobility Systems (§§ 2, 4–6)",
+        "version": "EFO of 18.03.2026 (Amtliche Bekanntmachungen Nr. 2-2026, pp. 1172–1177) — read 23.10.2026; SO 2026 not opened"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "civil_engineering"
+      ],
+      "note": "EFO § 2: transport-related degree (Verkehrsingenieurwesen, Verkehrswirtschaft, Mobilität und Verkehrssysteme); civil, environmental or industrial engineering also qualify, or another degree with comparable prior knowledge."
+    },
+    "gpa_rule_type": "NO_GRADE_THRESHOLD",
+    "grade_requirement": {
+      "value": null,
+      "note": "No minimum grade (EFO)."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "EFO § 5: at least 50 non-overlapping ECTS in mathematics, physics, computer science and transport",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [
+            "physics_natural_sciences.general_physics",
+            "computer_science_informatics.general_cs",
+            "civil_engineering.transportation_engineering"
+          ],
+          "min_ects": 50,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "EFO § 5: Höhere Mathematik incl. Statistik at least 10",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [],
+          "min_ects": 10,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "EFO § 5: Informatik incl. statistische Datenanalyse at least 5",
+          "canonical_category": "computer_science_informatics.general_cs",
+          "covered_categories": [
+            "mathematics_statistics.statistics_probability"
+          ],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "EFO § 5: Verkehrswesen (transport) at least 5",
+          "canonical_category": "civil_engineering.transportation_engineering",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "EFO § 5 minimums (nested; non-overlapping = each course counts once toward the 50). Physics is named in the total but has no own minimum. TAXONOMY GAP: transportation_engineering (counts 0 until the taxonomy phase)."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "EFO contains no Auflagen rule."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "Non-EU/EEA degrees: online aptitude test is mandatory (EFO § 6, max. 20 minutes).",
+        "GRE General (non-EU/EEA degrees): Quantitative 162, Verbal 151, not older than 5 years on the last application day (EFO § 2 Nr. 2)."
+      ]
+    },
+    "minimum_total_ects": null,
+    "language_english": {
+      "ielts_min": 7.0,
+      "toefl_ibt_min": 95,
+      "pte_min": null,
+      "required_level": "C1",
+      "allowed_exemptions": [
+        "School certificate with English C1 or higher",
+        "Degree taught entirely in English"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "EFO: C1; § 4 'TOEFL iBT (mind. 95) oder IELTS (7,0)'; § 2 writes 'TOEFL iBT (5,0)' (new 1–6 scale) — iBT 95 stored."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [
+      {
+        "test": "GRE General",
+        "required_for": "applicants with a degree from outside the EU/EEA (includes India)",
+        "details": "EFO § 2 Nr. 2: Quantitative Reasoning at least 162, Verbal Reasoning at least 151; not older than 5 years on the last application day."
+      }
+    ],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Not stated in the regulation."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [],
+    "admission_type": {
+      "restricted": null,
+      "numerus_clausus": null
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "1 April – 31 May via uni-assist (requirements page)",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://tu-dresden.de/bu/verkehr/studium/vor-dem-studium/studienangebot/mobs",
+      "documents_seen": [
+        "EFO MOBS 18.03.2026 | read 23.10.2026 | https://www.verw.tu-dresden.de/Amtbek/PDF-Dateien/2026-02/35_AB26_058_EFO_Mobility_Systems.pdf",
+        "Requirements page | read 23.10.2026 | https://tu-dresden.de/sins/efv/ma-mobs"
+      ]
+    },
+    "last_checked": "2026-10-24",
+    "last_updated": "2026-10-24"
+  },
+  {
+    "id": "7220",
+    "program": "Sustainable Water Management and Engineering (M.Eng.)",
+    "university": "Hof University of Applied Sciences",
+    "_domain": "civil_engineering",
+    "official_sources": {
+      "program_page": "https://www.hof-university.com/studying-in-hof/full-time-programs/master/sustainable-water-management-and-engineering-meng.html",
+      "admission_regulation": {
+        "url": "https://www.hof-university.com/fileadmin/user_upload/studienbuero/spo-s/spo-in-englisch/SPO_SWM_2023-00_EN.pdf",
+        "title": "Study and Examination Regulations for the Master's Degree Program in Sustainable Water Management and Engineering (SPO-SWM), § 4",
+        "version": "of 02.11.2023, in force 15.03.2024 — read 23.10.2026 in the official English version (German binding, not read)"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "civil_engineering"
+      ],
+      "note": "SPO § 4(1): degree 'in an engineering or natural sciences degree program' with at least 210 credit points and 'sufficient water engineering and chemical basic knowledge'."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 2.5,
+      "note": "SPO § 4(2): total grade at least 2.5 or equivalent; a grade is also equivalent if 'not more than 50 %' of that year's graduates of the programme got this or a better grade (cannot be checked by the engine — student note)."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "SPO § 4(3): basic knowledge = competences of module 32443 Water and Wastewater Treatment",
+          "canonical_category": "civil_engineering.water_engineering",
+          "covered_categories": [
+            "civil_engineering.environmental_engineering"
+          ],
+          "min_ects": null,
+          "requires_subject_presence_only": true
+        },
+        {
+          "raw_label": "SPO § 4(3): basic knowledge = competences of module 32444 Principles of Chemistry",
+          "canonical_category": "physics_natural_sciences.chemistry",
+          "covered_categories": [],
+          "min_ects": null,
+          "requires_subject_presence_only": true
+        }
+      ],
+      "note": "SPO § 4(3): basic knowledge shown by the competences of Hof modules 32443 (Water and Wastewater Treatment) and 32444 (Principles of Chemistry); missing competences can be acquired within one year of starting. DAAD/myGuide listing: at least 5 credits each in environmental engineering, water technology and chemistry (not in the SPO). TAXONOMY GAPS: water_engineering, environmental_engineering, chemistry (count 0 until the taxonomy phase)."
+    },
+    "conditional_admission": {
+      "allowed": true,
+      "max_ects": null,
+      "mechanism": "SPO § 4(3): missing basic competences acquired 'not later than one year after the commencement of the studies'. § 4(4)–(5): 180-credit degrees add 30 credits (modules or a 900-hour internship) within one year — total-credit top-up (minimum_total_ects 180)."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": false,
+      "descriptive_notes": [
+        "Grade alternative: worse than 2.5 still counts if you are within the best 50 % of your programme's graduates that year (SPO § 4(2)).",
+        "180-credit degree: earn 30 more credits within one year (Hof modules or a 30-credit / 900-hour internship) (SPO § 4(4)–(5))."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 6.5,
+      "toefl_ibt_min": 90,
+      "pte_min": null,
+      "required_level": null,
+      "allowed_exemptions": [],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "Not in the SPO. DAAD/myGuide listing 7220: TOEFL minimum 90 or IELTS 6.5 or above."
+    },
+    "language_german": {
+      "required": true,
+      "required_level": "A1",
+      "due": "DAAD/myGuide listing: 'minimum A1 level according to CEFR' with official test documents (not in the SPO; check)"
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Not stated in the sources read."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "Foreign certificates assessed by uni-assist at least four weeks before the Hof deadline (DAAD listing)"
+    ],
+    "admission_type": {
+      "restricted": false,
+      "numerus_clausus": false
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter",
+        "summer"
+      ],
+      "non_eu_deadlines": {
+        "winter": "15 April – 31 May (DAAD listing)",
+        "summer": "5 – 30 November (DAAD listing)"
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.hof-university.com/studying-at-hof-university/services-and-support/student-affairs/study-and-examination-regulations.html",
+      "documents_seen": [
+        "SPO-SWM 02.11.2023 (EN) | read 23.10.2026 | https://www.hof-university.com/fileadmin/user_upload/studienbuero/spo-s/spo-in-englisch/SPO_SWM_2023-00_EN.pdf",
+        "DAAD/myGuide listing 7220 | read 23.10.2026"
+      ]
+    },
+    "last_checked": "2026-10-24",
+    "last_updated": "2026-10-24"
+  },
+  {
+    "id": "4124_A",
+    "program": "Water Resources and Environmental Engineering (WATENV) (M.Sc.) — Route A: 30 LP water/environment",
+    "university": "Leibniz University Hannover",
+    "_domain": "civil_engineering",
+    "official_sources": {
+      "program_page": "https://www.fbg.uni-hannover.de/en/studium/studienangebot-der-fakultaet/water-resources-and-environmental-engineering-watenv/applications",
+      "admission_regulation": {
+        "url": "https://www.uni-hannover.de/fileadmin/luh/studium/ordnungen/zugang/master/zo_m_water_resources_and_environmental_engineering.pdf",
+        "title": "Ordnung über den Zugang und die Zulassung für den konsekutiven Masterstudiengang 'Water Resources and Environmental Engineering' (LUH)",
+        "version": "Faculty decision 28.05.2025, approved 22.10.2025, Verkündungsblatt LUH 18/2025 of 07.11.2025 — re-read 24.10.2026 (German + English translation)"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "civil_engineering"
+      ],
+      "note": "ZO § 2(1): bachelor in a subject-suitable programme (foreign degrees per anabin); suitable 'in der Regel' civil engineering, civil and environmental engineering and related degrees with the credit minimums below. The selection committee decides suitability. Civil and environmental engineering degrees are named; environmental engineering has no degree field yet (taxonomy phase) — such applicants are judged by the committee."
+    },
+    "gpa_rule_type": "NO_GRADE_THRESHOLD",
+    "grade_requirement": {
+      "value": null,
+      "note": "No minimum grade. If applicants exceed places, ranking by final/average grade, ties by lot (ZO § 4). Selection by grade happens ONLY if applicants exceed places (ZO § 1(3), § 4); Studieren in Niedersachsen portal lists the programme 'without admission restriction' → stored as not restricted."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "ZO § 2(1): 18 LP Mathematik für Ingenieurwissenschaften (incl. probability/statistics/data analysis)",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [
+            "mathematics_statistics.statistics_probability"
+          ],
+          "min_ects": 18,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "ZO § 2(1): 12 LP Informatik/Programmierung",
+          "canonical_category": "computer_science_informatics.general_cs",
+          "covered_categories": [],
+          "min_ects": 12,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "ZO § 2(1): 18 LP naturwissenschaftliche Grundlagen (incl. physics, biology, chemistry, fluid mechanics, thermodynamics)",
+          "canonical_category": "physics_natural_sciences.general_physics",
+          "covered_categories": [
+            "physics_natural_sciences.chemistry",
+            "civil_engineering.fluid_mechanics",
+            "mechanical_manufacturing_engineering.mechanics_fluid_dynamics",
+            "mechanical_manufacturing_engineering.thermodynamics"
+          ],
+          "min_ects": 18,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "ZO § 2(1) Route A: at least 30 LP water or environmental engineering (incl. hydrology, water management, urban water management, fluid mechanics, process engineering, sustainability)",
+          "canonical_category": "civil_engineering.water_engineering",
+          "covered_categories": [
+            "civil_engineering.environmental_engineering",
+            "civil_engineering.fluid_mechanics",
+            "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+          ],
+          "min_ects": 30,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "ROUTE A (ZO § 2(1)): 30 LP water/environmental engineering. ZO § 2(1) minimums. Water/environment: 30 LP, or 20 LP if the bachelor thesis is in water engineering. Biology has no category. TAXONOMY GAPS: civil_engineering.* (count 0 until the taxonomy phase). DECISION (Koushik 24.10.2026): fluid mechanics (Strömungsmechanik) is listed in BOTH the natural-sciences and the water/environment groups and the ZO has no non-overlap clause → the same course counts toward both items. Process engineering and sustainability engineering (named in the water/environment group) have no category yet — taxonomy phase."
+    },
+    "conditional_admission": {
+      "allowed": true,
+      "max_ects": null,
+      "mechanism": "ZO § 2(1): suitability can be granted with a Nebenbestimmung to make up missing modules within two semesters; enrolment lapses if proof is not given within one year (§ 4(4)). No cap stated."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "ROUTE A (ZO § 2(1)): 30 LP water/environmental engineering.",
+        "If suitability is unclear from the documents, the committee may hold a subject aptitude exam (ZO § 2(3)).",
+        "If applicants exceed places: ranking by grade, ties by lot (ZO § 4).",
+        "Unfinished bachelor: apply with at least 150 LP; degree by 15 April (ZO § 2(2), § 4(4))."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 7.0,
+      "toefl_ibt_min": 95,
+      "pte_min": null,
+      "required_level": "C1",
+      "allowed_exemptions": [],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "ZO § 2(1): English C1 (LUH language centre list not opened). Scores from MyGermanUniversity (third-party, checked 23.10.2026 per Koushik's IELTS rule): IELTS min 7, TOEFL iBT min 95 (pBT 627)."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Faculty applications page (24.10.2026): APS only for applicants from China and Vietnam (India not listed)."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "State the intended major with the application (ZO § 3(3))",
+      "Apply both in writing and via the LUH online portal; certified copies, translations into German or English (ZO § 3(1), (3))"
+    ],
+    "admission_type": {
+      "restricted": false,
+      "numerus_clausus": false
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "1 December – 15 January (ZO § 3(1), Ausschlussfrist; Studieren in Niedersachsen portal: non-EU 01.12.2026–15.01.2027); EU applicants also until 15 July",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.uni-hannover.de/zugangsordnung",
+      "documents_seen": [
+        "ZO WATENV, Verkündungsblatt 18/2025 (07.11.2025) | read 23.10.2026 from Koushik's paste",
+        "ZO 'Wasser und Umwelt' (VkBl 12/2025) | pasted by mistake — different, German-taught programme (German C1)",
+        "Studieren in Niedersachsen portal 4124 | read 24.10.2026 | https://www.studieren-in-niedersachsen.de/en/course-of-studies/water-resources-and-environmental-management-master-of-science.html",
+        "ZO WATENV VkBl 18/2025 (07.11.2025), German + official English translation | re-read 24.10.2026 from Koushik's paste | https://www.uni-hannover.de/fileadmin/luh/studium/ordnungen/zugang/master/zo_m_water_resources_and_environmental_engineering.pdf",
+        "LUH faculty WATENV applications page | read 24.10.2026 | https://www.fbg.uni-hannover.de/en/studium/studienangebot-der-fakultaet/water-resources-and-environmental-engineering-watenv/applications"
+      ]
+    },
+    "last_checked": "2026-10-24",
+    "last_updated": "2026-10-24"
+  },
+  {
+    "id": "4124_B",
+    "program": "Water Resources and Environmental Engineering (WATENV) (M.Sc.) — Route B: 20 LP water/environment + water-related bachelor thesis",
+    "university": "Leibniz University Hannover",
+    "_domain": "civil_engineering",
+    "official_sources": {
+      "program_page": "https://www.fbg.uni-hannover.de/en/studium/studienangebot-der-fakultaet/water-resources-and-environmental-engineering-watenv/applications",
+      "admission_regulation": {
+        "url": "https://www.uni-hannover.de/fileadmin/luh/studium/ordnungen/zugang/master/zo_m_water_resources_and_environmental_engineering.pdf",
+        "title": "Ordnung über den Zugang und die Zulassung für den konsekutiven Masterstudiengang 'Water Resources and Environmental Engineering' (LUH)",
+        "version": "Faculty decision 28.05.2025, approved 22.10.2025, Verkündungsblatt LUH 18/2025 of 07.11.2025 — re-read 24.10.2026 (German + English translation)"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "civil_engineering"
+      ],
+      "note": "ZO § 2(1): bachelor in a subject-suitable programme (foreign degrees per anabin); suitable 'in der Regel' civil engineering, civil and environmental engineering and related degrees with the credit minimums below. The selection committee decides suitability. Civil and environmental engineering degrees are named; environmental engineering has no degree field yet (taxonomy phase) — such applicants are judged by the committee."
+    },
+    "gpa_rule_type": "NO_GRADE_THRESHOLD",
+    "grade_requirement": {
+      "value": null,
+      "note": "No minimum grade. If applicants exceed places, ranking by final/average grade, ties by lot (ZO § 4). Selection by grade happens ONLY if applicants exceed places (ZO § 1(3), § 4); Studieren in Niedersachsen portal lists the programme 'without admission restriction' → stored as not restricted."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "ZO § 2(1): 18 LP Mathematik für Ingenieurwissenschaften (incl. probability/statistics/data analysis)",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [
+            "mathematics_statistics.statistics_probability"
+          ],
+          "min_ects": 18,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "ZO § 2(1): 12 LP Informatik/Programmierung",
+          "canonical_category": "computer_science_informatics.general_cs",
+          "covered_categories": [],
+          "min_ects": 12,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "ZO § 2(1): 18 LP naturwissenschaftliche Grundlagen (incl. physics, biology, chemistry, fluid mechanics, thermodynamics)",
+          "canonical_category": "physics_natural_sciences.general_physics",
+          "covered_categories": [
+            "physics_natural_sciences.chemistry",
+            "civil_engineering.fluid_mechanics",
+            "mechanical_manufacturing_engineering.mechanics_fluid_dynamics",
+            "mechanical_manufacturing_engineering.thermodynamics"
+          ],
+          "min_ects": 18,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "ZO § 2(1) Route B: at least 20 LP water or environmental engineering AND a bachelor thesis in water engineering",
+          "canonical_category": "civil_engineering.water_engineering",
+          "covered_categories": [
+            "civil_engineering.environmental_engineering",
+            "civil_engineering.fluid_mechanics",
+            "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+          ],
+          "min_ects": 20,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "ROUTE B (ZO § 2(1)): 20 LP water/environmental engineering plus a bachelor thesis in water engineering. IMPORTANT: Route B applies ONLY if your bachelor thesis is water-related — the engine cannot check the thesis topic (engine to-do: offer Route B only when the student confirms a water-related thesis, like the Rostock GATE route). ZO § 2(1) minimums. Water/environment: 30 LP, or 20 LP if the bachelor thesis is in water engineering. Biology has no category. TAXONOMY GAPS: civil_engineering.* (count 0 until the taxonomy phase). DECISION (Koushik 24.10.2026): fluid mechanics (Strömungsmechanik) is listed in BOTH the natural-sciences and the water/environment groups and the ZO has no non-overlap clause → the same course counts toward both items. Process engineering and sustainability engineering (named in the water/environment group) have no category yet — taxonomy phase."
+    },
+    "conditional_admission": {
+      "allowed": true,
+      "max_ects": null,
+      "mechanism": "ZO § 2(1): suitability can be granted with a Nebenbestimmung to make up missing modules within two semesters; enrolment lapses if proof is not given within one year (§ 4(4)). No cap stated."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "ROUTE B (ZO § 2(1)): 20 LP water/environmental engineering plus a bachelor thesis in water engineering. IMPORTANT: Route B applies ONLY if your bachelor thesis is water-related — the engine cannot check the thesis topic (engine to-do: offer Route B only when the student confirms a water-related thesis, like the Rostock GATE route).",
+        "If suitability is unclear from the documents, the committee may hold a subject aptitude exam (ZO § 2(3)).",
+        "If applicants exceed places: ranking by grade, ties by lot (ZO § 4).",
+        "Unfinished bachelor: apply with at least 150 LP; degree by 15 April (ZO § 2(2), § 4(4))."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 7.0,
+      "toefl_ibt_min": 95,
+      "pte_min": null,
+      "required_level": "C1",
+      "allowed_exemptions": [],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "ZO § 2(1): English C1 (LUH language centre list not opened). Scores from MyGermanUniversity (third-party, checked 23.10.2026 per Koushik's IELTS rule): IELTS min 7, TOEFL iBT min 95 (pBT 627)."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Faculty applications page (24.10.2026): APS only for applicants from China and Vietnam (India not listed)."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "State the intended major with the application (ZO § 3(3))",
+      "Apply both in writing and via the LUH online portal; certified copies, translations into German or English (ZO § 3(1), (3))"
+    ],
+    "admission_type": {
+      "restricted": false,
+      "numerus_clausus": false
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "1 December – 15 January (ZO § 3(1), Ausschlussfrist; Studieren in Niedersachsen portal: non-EU 01.12.2026–15.01.2027); EU applicants also until 15 July",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.uni-hannover.de/zugangsordnung",
+      "documents_seen": [
+        "ZO WATENV, Verkündungsblatt 18/2025 (07.11.2025) | read 23.10.2026 from Koushik's paste",
+        "ZO 'Wasser und Umwelt' (VkBl 12/2025) | pasted by mistake — different, German-taught programme (German C1)",
+        "Studieren in Niedersachsen portal 4124 | read 24.10.2026 | https://www.studieren-in-niedersachsen.de/en/course-of-studies/water-resources-and-environmental-management-master-of-science.html",
+        "ZO WATENV VkBl 18/2025 (07.11.2025), German + official English translation | re-read 24.10.2026 from Koushik's paste | https://www.uni-hannover.de/fileadmin/luh/studium/ordnungen/zugang/master/zo_m_water_resources_and_environmental_engineering.pdf",
+        "LUH faculty WATENV applications page | read 24.10.2026 | https://www.fbg.uni-hannover.de/en/studium/studienangebot-der-fakultaet/water-resources-and-environmental-engineering-watenv/applications"
+      ]
+    },
+    "last_checked": "2026-10-24",
+    "last_updated": "2026-10-24"
+  },
+  {
+    "id": "6349",
+    "program": "Water Engineering (M.Eng., international)",
+    "university": "Magdeburg-Stendal University of Applied Sciences",
+    "_domain": "civil_engineering",
+    "official_sources": {
+      "program_page": "https://studieren.h2.de/en/studiengaenge/master/water-engineering",
+      "admission_regulation": {
+        "url": "https://studieren.h2.de/fileadmin/user_upload/Dokumente/SPOs/Master/1_SPO_MA_WE_AB_21_2023.pdf",
+        "title": "Studien- und Prüfungsordnung für den Internationalen Master-Studiengang Water Engineering (§ 4)",
+        "version": "vom 20.11.2023, applies from SS 2024 — read 23.10.2026"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "civil_engineering"
+      ],
+      "note": "SPO § 4(1)–(2): bachelor, diploma or comparable degree 'der Fachrichtungen Wasserwirtschaft, Bauwesen'; other fields case by case by the examination board."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 2.0,
+      "note": "SPO § 4(2): 'mit guten oder sehr guten Leistungen (=< 2,0)'."
+    },
+    "subject_credit_requirements": {
+      "items": [],
+      "note": "No subject credit minimums in the SPO; degree field (water management / civil engineering) is the requirement."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "SPO § 4(3)–(4): 210 credits normally; with 180 credits the board sets Auflagen of 30 credits, proven before thesis registration — total-credit top-up, not a subject condition (minimum_total_ects 180)."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": false,
+      "descriptive_notes": [
+        "180-credit degree: 30 extra credits as conditions, completed before the thesis (SPO § 4(4)).",
+        "Certificates must be submitted in German (or with German translation) (SPO § 4(10))."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 5.0,
+      "toefl_ibt_min": 87,
+      "pte_min": null,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "Entrance qualification or degree from Australia, UK, Ireland, Canada, New Zealand or USA",
+        "Bilingual schooling",
+        "Native speaker",
+        "At least half a year at an English-language institution",
+        "First degree in an English-language programme (SPO § 4(8)–(9))"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "SPO § 4(7): B2 — IELTS 5, Cambridge FCE (A–C), TOEIC 541, TOEFL iBT 87, UNIcert II, ALTE level 3, or equivalent."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Not stated in the regulation."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "Certificates in German or with German translation (SPO § 4(10))"
+    ],
+    "admission_type": {
+      "restricted": false,
+      "numerus_clausus": false
+    },
+    "logistics": {
+      "intake_semesters": [
+        "summer"
+      ],
+      "non_eu_deadlines": {
+        "winter": null,
+        "summer": "30 November via uni-assist (programme page)"
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://studieren.h2.de/en/studiengaenge/master/water-engineering",
+      "documents_seen": [
+        "SPO Water Engineering 20.11.2023 (AB 21/2023) | read 23.10.2026 | https://studieren.h2.de/fileadmin/user_upload/Dokumente/SPOs/Master/1_SPO_MA_WE_AB_21_2023.pdf",
+        "Programme page 6349 (2.0, 210/180 CP, B2 IELTS 5/TOEFL 87, summer only, uni-assist 30 Nov) | read 24.10.2026 | https://studieren.h2.de/en/studiengaenge/master/water-engineering",
+        "DAAD listing 6349 | read 24.10.2026 | https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6349",
+        "English SPO (AB 10/2024) = translation of the SPO of 20.11.2023, German binding; values identical | read 24.10.2026 | https://studieren.h2.de/fileadmin/user_upload/Dokumente/SPOs/Master/1_SPO_MA_WE_Englisch_AB_10_2024.pdf",
+        "MyGermanUniversity 6349 (no admission restriction; its grade 2.5 and 15 Feb deadline conflict with SPO/official page → ignored) | read 24.10.2026 | https://www.mygermanuniversity.com/master/water-engineering/1389"
+      ]
+    },
+    "last_checked": "2026-10-24",
+    "last_updated": "2026-10-24"
+  },
+  {
+    "id": "6318",
+    "program": "Advanced Computational Methods in Civil Engineering (M.Sc. Civil Engineering, specialisation)",
+    "university": "RWTH Aachen University",
+    "_domain": "civil_engineering",
+    "official_sources": {
+      "program_page": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6318",
+      "admission_regulation": {
+        "url": "https://epflicht.ulb.uni-bonn.de/download/pdf/784193",
+        "title": "Studiengangspezifische Prüfungsordnung für den Masterstudiengang Bauingenieurwesen der RWTH (§ 3 Abs. 2 b, Abs. 3 b)",
+        "version": "PO version 2021, consolidated after the 8th amendment of 20.01.2025 (Amtliche Bekanntmachung 2025/006, 22.01.2025) — read 23.10.2026 (German deposit copy) + Koushik's uploaded English translation"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "civil_engineering"
+      ],
+      "note": "PO § 3 Abs. 1–2: recognised first degree (§ 3 Abs. 4 ÜPO) with knowledge comparable to the RWTH bachelor in civil engineering."
+    },
+    "gpa_rule_type": "NO_GRADE_THRESHOLD",
+    "grade_requirement": {
+      "value": null,
+      "note": "No minimum grade in PO § 3."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "PO § 3(2)b: mathematical-physical fundamentals 41 CP total",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [
+            "mathematics_statistics.statistics_probability",
+            "civil_engineering.structural_mechanics",
+            "civil_engineering.fluid_mechanics",
+            "mechanical_manufacturing_engineering.mechanics_dynamics",
+            "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+          ],
+          "min_ects": 41,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3(2)b: Mathematik 16 CP",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [],
+          "min_ects": 16,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3(2)b: Statistik 3 CP",
+          "canonical_category": "mathematics_statistics.statistics_probability",
+          "covered_categories": [],
+          "min_ects": 3,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3(2)b: Mechanik 16 CP",
+          "canonical_category": "civil_engineering.structural_mechanics",
+          "covered_categories": [
+            "mechanical_manufacturing_engineering.mechanics_dynamics"
+          ],
+          "min_ects": 16,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3(2)b: Hydromechanik 6 CP",
+          "canonical_category": "civil_engineering.fluid_mechanics",
+          "covered_categories": [
+            "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+          ],
+          "min_ects": 6,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3(2)b: further engineering fundamentals 40 CP from at least one of water engineering and management / construction operations and geotechnics / transportation",
+          "canonical_category": "civil_engineering.water_engineering",
+          "covered_categories": [
+            "civil_engineering.geotechnics",
+            "civil_engineering.construction_management",
+            "civil_engineering.transportation_engineering"
+          ],
+          "min_ects": 40,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3(2)b: subject-specific fundamentals 25 CP Konstruktiver Ingenieurbau (structural engineering)",
+          "canonical_category": "civil_engineering.structural_engineering",
+          "covered_categories": [],
+          "min_ects": 25,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3(2)b: further subject-specific fundamentals 6 CP from computer science / finite element method / numerical methods",
+          "canonical_category": "computer_science_informatics.general_cs",
+          "covered_categories": [
+            "mathematics_statistics.optimization_numerics"
+          ],
+          "min_ects": 6,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "PO § 3(2)b (specialisation ACCME). Nested items; add-up within each item. TAXONOMY GAPS: all civil_engineering.* categories (count 0 until the taxonomy phase). The English translation says 'GRE Subject Test'; the binding German text says 'General Test'. Total item also covers the mechanical-engineering mechanics/fluid categories used in its sub-items (consistency, 24.10.2026). Finite element method has no own category (taxonomy phase)."
+    },
+    "conditional_admission": {
+      "allowed": true,
+      "max_ects": 20,
+      "mechanism": "PO § 3(3)b with § 3 Abs. 6 ÜPO: no admission if more than 10 CP of conditions in (higher) mathematics, more than 20 CP in the engineering / civil-engineering / subject-specific fundamentals, or more than 20 CP in total. Total stored; per-area maths cap 10 = engine to-do E8."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": false,
+      "descriptive_notes": [
+        "Conditions cap: at most 10 CP in mathematics and at most 20 CP in total (PO § 3(3)b).",
+        "Specialisation taught mainly in English (PO § 2)."
+      ]
+    },
+    "minimum_total_ects": null,
+    "language_english": {
+      "ielts_min": 6.0,
+      "toefl_ibt_min": 90,
+      "pte_min": 60,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "University entrance qualification or English-taught degree from the UK, Ireland, Australia, New Zealand, Canada or the USA (ÜPO § 3 Abs. 9)"
+      ],
+      "moi_not_accepted": null,
+      "due": "at enrollment",
+      "note": "English per § 3 Abs. 9 ÜPO; scores as in the approved RWTH records (ÜPO 21st version): TOEFL iBT 90, IELTS 6.0, PTE 60, Cambridge B2 First grade B+, UNIcert II. Official RWTH language page (checked 24.10.2026) confirms IELTS 6.0; DAAD/MyGU still show 5.5 (outdated)."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [
+      {
+        "test": "GRE General",
+        "required_for": "all applicants except EU/EEA citizens and Bildungsinländer (includes India)",
+        "details": "Required by the programme regulation § 3 Abs. 2 (no minimum scores stated)."
+      }
+    ],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Not stated in the regulation."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [],
+    "admission_type": {
+      "restricted": false,
+      "numerus_clausus": false
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter",
+        "summer"
+      ],
+      "non_eu_deadlines": {
+        "winter": "1 March (DAAD listing 6318 + MyGU)",
+        "summer": "1 September (DAAD listing 6318)"
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.rwth-aachen.de/",
+      "documents_seen": [
+        "PO M.Sc. Bauingenieurwesen 2021, Gesamtfassung 2025/006 | read 23.10.2026 | https://epflicht.ulb.uni-bonn.de/download/pdf/784193",
+        "English translation (Koushik upload, 2024/101 numbering) | read",
+        "DAAD listing 6318 (winter+summer, 1 Mar / 1 Sep, GRE General) | read 24.10.2026 | https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6318",
+        "MyGU 6318 (no admission restriction) | read 24.10.2026 | https://www.mygermanuniversity.com/master/advanced-computational-methods-in-civil-engineering/8",
+        "RWTH language requirements page (IELTS 6.0, TOEFL 90, PTE 60) | read 24.10.2026 | https://www.rse.rwth-aachen.de/language_requirement.html"
+      ]
+    },
+    "last_checked": "2026-10-24",
+    "last_updated": "2026-10-24"
+  },
+  {
+    "id": "4881",
+    "program": "Railway Systems Engineering (M.Sc. Transport Engineering and Mobility, specialisation)",
+    "university": "RWTH Aachen University",
+    "_domain": "civil_engineering",
+    "official_sources": {
+      "program_page": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4881/",
+      "admission_regulation": {
+        "url": "https://epflicht.ulb.uni-bonn.de/download/pdf/756107",
+        "title": "Studiengangspezifische Prüfungsordnung für den Masterstudiengang Verkehrsingenieurwesen und Mobilität der RWTH (§ 3, specialisation Railway Systems Engineering)",
+        "version": "PO version 2019, consolidated after the 7th amendment of 25.09.2023 (Amtliche Bekanntmachung 2023/102, 28.09.2023) — read 23.10.2026"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "civil_engineering"
+      ],
+      "note": "PO § 3: recognised first degree (§ 3 Abs. 4 ÜPO) with the subject knowledge below (comparable to the RWTH bachelor in Transport Engineering and Mobility)."
+    },
+    "gpa_rule_type": "NO_GRADE_THRESHOLD",
+    "grade_requirement": {
+      "value": null,
+      "note": "No minimum grade in PO § 3."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "PO § 3: Mathematik und Statistik 18 CP (at least 14 maths, at least 2 statistics)",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [
+            "mathematics_statistics.statistics_probability"
+          ],
+          "min_ects": 18,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3: of which Mathematik at least 14",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [],
+          "min_ects": 14,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3: of which Statistik at least 2",
+          "canonical_category": "mathematics_statistics.statistics_probability",
+          "covered_categories": [],
+          "min_ects": 2,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3: Mechanik 11 CP",
+          "canonical_category": "civil_engineering.structural_mechanics",
+          "covered_categories": [
+            "mechanical_manufacturing_engineering.mechanics_dynamics"
+          ],
+          "min_ects": 11,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3: Elektrotechnik 5 CP",
+          "canonical_category": "electrical_electronic_engineering.general_ee",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3: further engineering basics 10 CP from at least two of materials science/building materials, control engineering, hydromechanics/fluid mechanics/thermodynamics, physics",
+          "canonical_category": "chemistry_materials.materials_science",
+          "covered_categories": [
+            "electrical_electronic_engineering.control_systems",
+            "civil_engineering.fluid_mechanics",
+            "mechanical_manufacturing_engineering.mechanics_fluid_dynamics",
+            "mechanical_manufacturing_engineering.thermodynamics",
+            "physics_natural_sciences.general_physics"
+          ],
+          "min_ects": 10,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3: subject-specific basics 40 CP in total (transport, mechanical engineering, electrical engineering)",
+          "canonical_category": "civil_engineering.transportation_engineering",
+          "covered_categories": [
+            "mechanical_manufacturing_engineering.general_mechanical",
+            "electrical_electronic_engineering.general_ee"
+          ],
+          "min_ects": 40,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3: of which transport at least 10 CP (civil-student route; GPU-R policy, Koushik 24.10.2026)",
+          "canonical_category": "civil_engineering.transportation_engineering",
+          "covered_categories": [],
+          "min_ects": 10,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3: of which mechanical engineering OR electrical engineering at least 10 CP (second area; GPU-R policy, Koushik 24.10.2026)",
+          "canonical_category": "mechanical_manufacturing_engineering.general_mechanical",
+          "covered_categories": [
+            "electrical_electronic_engineering.general_ee"
+          ],
+          "min_ects": 10,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "PO § 3 (Railway Systems Engineering). TAXONOMY GAPS: civil_engineering.*, materials_science (count 0 until the taxonomy phase). Old record's reduction of maths 18→15 NOT applied. DECISION (Koushik 24.10.2026): the PO needs at least 10 CP in each of TWO of transport / mechanical / electrical. This civil record stores the civil route: transport ≥10 plus mechanical-or-electrical ≥10 (within the 40). The rare route mechanical ≥10 + electrical ≥10 without transport is not stored (note). Further engineering 10 CP 'from at least two of' four areas has no per-area minimum → kept pooled (two-area rule = note)."
+    },
+    "conditional_admission": {
+      "allowed": true,
+      "max_ects": 20,
+      "mechanism": "PO § 3 with § 3 Abs. 6 ÜPO: no admission if conditions exceed 8 CP maths/statistics, 9 CP mechanics, 8 CP further engineering basics, 8 CP subject-specific basics, or 20 CP in total (Railway Systems Engineering). Total stored; per-area caps = engine to-do E8. (DAAD listing still shows the older 15/30 caps.)"
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": false,
+      "descriptive_notes": [
+        "IMPORTANT: within the 40 subject-specific CP you need at least 10 CP in transport AND at least 10 CP in mechanical or electrical engineering — most civil degrees lack the second area (conditions capped at 8 CP).",
+        "Per-area conditions caps: maths/statistics 8, mechanics 9, further engineering 8, subject-specific 8, total 20 CP (PO § 3).",
+        "Specialisation taught predominantly in English; start possible in either semester (PO § 2, § 4)."
+      ]
+    },
+    "minimum_total_ects": null,
+    "language_english": {
+      "ielts_min": 6.0,
+      "toefl_ibt_min": 90,
+      "pte_min": 60,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "University entrance qualification or English-taught degree from the UK, Ireland, Australia, New Zealand, Canada or the USA (ÜPO § 3 Abs. 9)"
+      ],
+      "moi_not_accepted": null,
+      "due": "at enrollment",
+      "note": "English per § 3 Abs. 9 ÜPO; scores as in the approved RWTH records (ÜPO 21st version): TOEFL iBT 90, IELTS 6.0, PTE 60, Cambridge B2 First grade B+, UNIcert II. Official RWTH language page (checked 24.10.2026) confirms IELTS 6.0; DAAD/MyGU still show 5.5 (outdated)."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [
+      {
+        "test": "GRE General",
+        "required_for": "all applicants except EU/EEA citizens and Bildungsinländer (includes India)",
+        "details": "Required by the programme regulation § 3 Abs. 2 (no minimum scores stated)."
+      }
+    ],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Not stated in the regulation."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [],
+    "admission_type": {
+      "restricted": false,
+      "numerus_clausus": false
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter",
+        "summer"
+      ],
+      "non_eu_deadlines": {
+        "winter": "1 March (DAAD listing)",
+        "summer": "1 September (DAAD listing)"
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.rwth-aachen.de/",
+      "documents_seen": [
+        "PO Verkehrsingenieurwesen und Mobilität 2019, 7th amendment 2023/102 | read 23.10.2026 | https://epflicht.ulb.uni-bonn.de/download/pdf/756107",
+        "DAAD listing 4881 | read 23.10.2026",
+        "DAAD listing 4881 re-read 24.10.2026 (still old caps 15/30; IELTS 5.5) | https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4881/",
+        "PO 2023/102 re-read 24.10.2026: § 3 Abs. 2 b / 3 b values match | https://epflicht.ulb.uni-bonn.de/download/pdf/756107",
+        "MyGU 4881 (no admission restriction) | read 24.10.2026 | https://www.mygermanuniversity.com/master/railway-systems-engineering/1232",
+        "RWTH language requirements page (IELTS 6.0, TOEFL 90, PTE 60) | read 24.10.2026 | https://www.rse.rwth-aachen.de/language_requirement.html"
+      ]
+    },
+    "last_checked": "2026-10-24",
+    "last_updated": "2026-10-24"
+  },
+  {
+    "id": "5229",
+    "program": "Sustainable Management – Water and Energy (M.Sc.)",
+    "university": "RWTH Aachen University",
+    "_domain": "civil_engineering",
+    "official_sources": {
+      "program_page": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5229",
+      "admission_regulation": {
+        "url": "https://epflicht.ulb.uni-bonn.de/download/pdf/727894",
+        "title": "Studiengangspezifische Prüfungsordnung für den Masterstudiengang Sustainable Management – Water and Energy der RWTH (§ 3)",
+        "version": "of 14.09.2017, 3rd amendment 08.09.2021 (Amtliche Bekanntmachung 2021/157, 13.09.2021), from WS 2021/22 — read 23.10.2026; no later version found"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "civil_engineering"
+      ],
+      "note": "PO § 3: recognised first degree; knowledge comparable to the RWTH bachelors in civil engineering or environmental engineering."
+    },
+    "gpa_rule_type": "NO_GRADE_THRESHOLD",
+    "grade_requirement": {
+      "value": null,
+      "note": "No minimum grade in PO § 3."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "PO § 3(2): natural science basics at least 19 CP from at least 3 of 6 areas (mathematics, statistics, chemistry, physics, ecology, computer science)",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [
+            "mathematics_statistics.statistics_probability",
+            "physics_natural_sciences.chemistry",
+            "physics_natural_sciences.general_physics",
+            "civil_engineering.environmental_engineering",
+            "computer_science_informatics.general_cs"
+          ],
+          "min_ects": 19,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3(2): engineering and hydraulic basics at least 20 CP from at least 3 of 4 areas (mechanics, hydromechanics, hydraulic/river engineering, heat engineering)",
+          "canonical_category": "civil_engineering.structural_mechanics",
+          "covered_categories": [
+            "mechanical_manufacturing_engineering.mechanics_dynamics",
+            "civil_engineering.fluid_mechanics",
+            "civil_engineering.water_engineering",
+            "mechanical_manufacturing_engineering.thermodynamics"
+          ],
+          "min_ects": 20,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3(2): field-specific basics at least 20 CP from at least 3 of 11 areas (process engineering, energy engineering, water management, energy resources, business administration, climatology, hydrology, environmental management, energy economics, urban water management, surveying)",
+          "canonical_category": "civil_engineering.water_engineering",
+          "covered_categories": [
+            "civil_engineering.environmental_engineering",
+            "electrical_electronic_engineering.power_engineering",
+            "business_economics_management.business_administration",
+            "mechanical_manufacturing_engineering.general_mechanical",
+            "civil_engineering.surveying_geodesy"
+          ],
+          "min_ects": 20,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "PO § 3(2): three pooled fields, each 'from at least three areas' (the 'at least three areas' rule cannot be checked by the engine — note). TAXONOMY GAPS: civil_engineering.*, ecology, climatology, hydrology, surveying (count 0 until the taxonomy phase)."
+    },
+    "conditional_admission": {
+      "allowed": true,
+      "max_ects": 20,
+      "mechanism": "PO § 3(3): § 3 Abs. 6 ÜPO; 'Sind Auflagen im Umfang von mehr als 20 CP notwendig, ist eine Zulassung … nicht möglich.'"
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "IMPORTANT: each of the three fields (natural sciences 19, engineering/hydraulics 20, subject-specific 20) must come from AT LEAST THREE of its listed areas — the engine checks only the credit totals (PO § 3(2)).",
+        "IMPORTANT: missing credits up to 20 CP are given as conditions, and those extra courses are offered ONLY IN GERMAN (DAAD listing); more than 20 CP missing = no admission (PO § 3(3)).",
+        "IMPORTANT: GRE General Test required for Indian applicants (PO § 3(2)).",
+        "Local admission restriction (local NC) — selection if oversubscribed (MyGU)."
+      ]
+    },
+    "minimum_total_ects": null,
+    "language_english": {
+      "ielts_min": 6.0,
+      "toefl_ibt_min": 90,
+      "pte_min": 60,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "University entrance qualification or English-taught degree from the UK, Ireland, Australia, New Zealand, Canada or the USA (ÜPO § 3 Abs. 9)"
+      ],
+      "moi_not_accepted": null,
+      "due": "at enrollment",
+      "note": "English per § 3 Abs. 9 ÜPO; scores as in the approved RWTH records (ÜPO 21st version): TOEFL iBT 90, IELTS 6.0, PTE 60, Cambridge B2 First grade B+, UNIcert II. Official RWTH language page (24.10.2026) and DAAD confirm IELTS 6.0; MyGU shows 5.5 (outdated)."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [
+      {
+        "test": "GRE General",
+        "required_for": "all applicants except EU/EEA citizens and Bildungsinländer (includes India)",
+        "details": "Required by the programme regulation § 3 Abs. 2 (no minimum scores stated)."
+      }
+    ],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Not stated in the regulation."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [],
+    "admission_type": {
+      "restricted": true,
+      "numerus_clausus": true
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "15 July (DAAD listing 5229 + MyGU: same deadline for all countries; winter start only)",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.rwth-aachen.de/",
+      "documents_seen": [
+        "PO SMWE 2017, 3rd amendment 2021/157 | read 23.10.2026 | https://epflicht.ulb.uni-bonn.de/download/pdf/727894",
+        "PO SMWE 2nd amendment 2020/071 | read — superseded | https://epflicht.ulb.uni-bonn.de/download/pdf/593093",
+        "DAAD listing 5229 (winter only, 15 July, GRE General, IELTS 6, conditions courses only in German) | read 24.10.2026 | https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5229",
+        "MyGU 5229 (local NC, winter only, 15 July) | read 24.10.2026 | https://www.mygermanuniversity.com/master/sustainable-management-water-and-energy/1332",
+        "PO SMWE 2021/157 re-read 24.10.2026: § 3 values match; § 4(1) winter start only | https://epflicht.ulb.uni-bonn.de/download/pdf/727894"
+      ]
+    },
+    "last_checked": "2026-10-24",
+    "last_updated": "2026-10-26"
+  },
+  {
+    "id": "3847",
+    "program": "Computational Engineering (M.Sc.)",
+    "university": "Ruhr-Universität Bochum",
+    "_domain": "civil_engineering",
+    "official_sources": {
+      "program_page": "https://www.compeng.ruhr-uni-bochum.de/ce/admission/admission.html.en",
+      "admission_regulation": {
+        "url": "https://www.compeng.ruhr-uni-bochum.de/ce/mam/ab1095.pdf",
+        "title": "Master-Prüfungsordnung für den Studiengang 'Computational Engineering' an der Ruhr-Universität Bochum (§ 2)",
+        "version": "of 28.09.2015 (AB 1095), amended by AB 1147 (21.04.2016) — read 23.10.2026 (German + official English translation). AB 1426 (23.08.2021) read 23.10.2026 from Koushik's paste: changes only § 17(2) (thesis supervision) — admission (§ 2) unchanged."
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "civil_engineering"
+      ],
+      "note": "PO § 2: bachelor in civil engineering, mechanical engineering or a related engineering discipline, or mathematics / comparable subject, at least six semesters; the examination committee decides equivalence. Official admission page (updated 13.10.2026): bachelors in computer science, architecture or an MBA are NOT accepted; PhD holders not accepted; master's holders only to a limited extent."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 2.5,
+      "note": "PO § 2: at least 'gut' / overall result of at least 75%. Official admission page (13.10.2026): German average at least 2.5; percentage scales at least 75%; 4.0 GPA scales at least 3.3; division systems: one of the two best ratings."
+    },
+    "subject_credit_requirements": {
+      "items": [],
+      "note": "PO § 2 sets no subject credit minimums."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "PO § 2 has no Auflagen rule (AB 1147 and AB 1426 do not add one)."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": false,
+      "descriptive_notes": [
+        "IMPORTANT: computer science, architecture and MBA bachelors are NOT accepted; PhD holders are not accepted (official admission page, 13.10.2026).",
+        "IMPORTANT: minimum grade 'gut' — at least 75% / German 2.5 / 3.3 on a 4.0 scale (PO § 2; admission page).",
+        "IMPORTANT: APS certificate required for Indian applicants (admission page).",
+        "IMPORTANT: deadline 15 June per the admission page, but the faculty page says 15 May — apply by 15 May to be safe.",
+        "IMPORTANT: English — regulation TOEFL iBT 79 / IELTS 6.0, but the admission page now asks TOEFL 86 — aim for 86.",
+        "Not admitted if you definitively failed a Computational Engineering (or related) bachelor/master/diploma exam (PO § 2(2)).",
+        "Advising on subject choice is required before starting (PO § 2).",
+        "Solid programming skills in C, C++ and Python are expected (official admission page)."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 6.0,
+      "toefl_ibt_min": 79,
+      "pte_min": null,
+      "required_level": null,
+      "allowed_exemptions": [
+        "Degree from an exclusively English-language institution",
+        "English native speaker"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "PO § 2 (binding): TOEFL 79 internet, IELTS at least 6.0. Official admission page (13.10.2026) now asks TOEFL iBT 86, IELTS 6.0, PTE 55, Oxford Test 120, UNIcert II (2.0) — regulation value 79 stored; aim for 86 to be safe."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [
+        "India"
+      ],
+      "note": "Official admission page (13.10.2026): APS required for applicants from China, India and Vietnam."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [],
+    "admission_type": {
+      "restricted": null,
+      "numerus_clausus": null
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "15 June (official admission page, updated 13.10.2026: application period 15 December – 15 June for non-European citizens); the faculty page still says 15 May — apply by 15 May to be safe",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.compeng.ruhr-uni-bochum.de/ce/examination-office/examination-office.html.en",
+      "documents_seen": [
+        "PO CE 2015 (AB 1095) | read 23.10.2026 | https://www.compeng.ruhr-uni-bochum.de/ce/mam/ab1095.pdf",
+        "PO CE English translation (with AB 1147) | read | https://www.compeng.ruhr-uni-bochum.de/ce/mam/po_master_ce_eng.pdf",
+        "AB 1426 (23.08.2021) | read 23.10.2026 from Koushik's paste — § 17(2) thesis supervision only | https://www.compeng.ruhr-uni-bochum.de/ce/mam/ab1426.pdf",
+        "Official CompEng admission page (updated 13.10.2026) | read 24.10.2026 | https://www.compeng.ruhr-uni-bochum.de/ce/admission/admission.html.en",
+        "Faculty page (15 May non-EU; CS excluded) | read 24.10.2026 | https://www.fbi.ruhr-uni-bochum.de/fbi/studium/studieninteressierte/compeng.html",
+        "PO CE AB 1095 re-read 24.10.2026 (§ 2: civil/mechanical/related engineering or mathematics, ≥6 semesters, 'gut' >75%, TOEFL 79 / IELTS 6.0, winter start, advising) | https://dev2.imp10.ruhr-uni-bochum.de/ce/mam/ab1095.pdf"
+      ]
+    },
+    "last_checked": "2026-10-24",
+    "last_updated": "2026-10-24"
+  },
+  {
+    "id": "8397",
+    "program": "Subsurface Engineering (M.Sc.)",
+    "university": "Ruhr-Universität Bochum",
+    "_domain": "civil_engineering",
+    "official_sources": {
+      "program_page": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8397/",
+      "admission_regulation": {
+        "url": "https://www.subsurf.ruhr-uni-bochum.de/sfe/mam/content/ab1525.pdf",
+        "title": "Prüfungsordnung für den Masterstudiengang Subsurface Engineering an der Ruhr-Universität Bochum (§ 3)",
+        "version": "of 14.10.2022 (Amtliche Bekanntmachung Nr. 1525, 04.11.2022) — read 23.10.2026"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "civil_engineering"
+      ],
+      "note": "PO § 3(1): qualified degree of an at least six-semester bachelor in Geowissenschaften or Bauingenieurwesen (180 CP), or a comparable university degree; the examination board confirms equivalence and decides exceptions. MyGU (third-party) also lists mechanical engineering and applied mechanics as eligible — under the PO these count only as 'comparable' (examination board decides)."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 2.5,
+      "note": "PO § 3(1): 'mit der Gesamtnote gut oder sehr gut' — stored as 2.5 (GPU-R mapping of 'gut'; RUB civil faculty info sheet: 'gut oder sehr gut' (<2,5))."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "PO § 3(3): methods- and research-oriented content at least 40 CP from natural sciences (mathematics, physics, chemistry), mechanics/fluid mechanics and computer science/programming",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [
+            "physics_natural_sciences.general_physics",
+            "physics_natural_sciences.chemistry",
+            "civil_engineering.structural_mechanics",
+            "civil_engineering.fluid_mechanics",
+            "mechanical_manufacturing_engineering.mechanics_dynamics",
+            "mechanical_manufacturing_engineering.mechanics_fluid_dynamics",
+            "computer_science_informatics.general_cs"
+          ],
+          "min_ects": 40,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "PO § 3(3): one pooled 40 CP item (add-up). TAXONOMY GAPS: civil_engineering.* (count 0 until the taxonomy phase)."
+    },
+    "conditional_admission": {
+      "allowed": true,
+      "max_ects": 30,
+      "mechanism": "PO § 3(3): admission with Auflagen of at most 30 CP set by the examination board; provisional admission; master exams after the 3rd semester and the thesis require all conditions passed."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": false,
+      "descriptive_notes": [
+        "IMPORTANT: minimum overall grade 'gut' or 'sehr gut' (stored as 2.5) (PO § 3(1)).",
+        "IMPORTANT: at least 40 CP of methods content from natural sciences (maths, physics, chemistry), mechanics/fluid mechanics and computer science/programming; up to 30 CP missing can be given as conditions, more = no admission (PO § 3(3)).",
+        "IMPORTANT: conditions must all be passed before exams after the 3rd semester and before the thesis (PO § 3(3)).",
+        "IMPORTANT: non-EU deadline 15 May (DAAD).",
+        "Not admitted if you definitively failed a geosciences / civil engineering (or related) bachelor/master/diploma exam (PO § 3(5))."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 6.0,
+      "toefl_ibt_min": 79,
+      "pte_min": null,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "Degree from an English-language institution",
+        "English native speaker"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "PO § 3(2): B2; TOEFL 550 paper / 215 computer / 79 internet, or IELTS 6.0 or better; other proof in exceptional cases."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Not stated in the PO or DAAD listing. Note: RUB's Computational Engineering page requires APS for China, India and Vietnam — check with SubSurf before applying."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [],
+    "admission_type": {
+      "restricted": false,
+      "numerus_clausus": false
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "15 May (DAAD listing 8397 + MyGU; PO § 3(1): deadlines published on the programme homepage); EU applicants 15 July",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.subsurf.ruhr-uni-bochum.de/",
+      "documents_seen": [
+        "PO SubSurf 14.10.2022 (AB 1525) | read 23.10.2026 | https://www.subsurf.ruhr-uni-bochum.de/sfe/mam/content/ab1525.pdf",
+        "PO SubSurf AB 1525 re-read 24.10.2026: § 3 values match (degree, 'gut', B2 79/6.0, 40 CP, Auflagen ≤30, exclusion § 3(5)) | https://www.subsurf.ruhr-uni-bochum.de/sfe/mam/content/ab1525.pdf",
+        "DAAD listing 8397 (15 May non-EU, winter, IELTS 6) | read 24.10.2026 | https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8397/",
+        "MyGU 8397 (no admission restriction; 15 May) | read 24.10.2026 | https://www.mygermanuniversity.com/master/subsurface-engineering/2927"
+      ]
+    },
+    "last_checked": "2026-10-24",
+    "last_updated": "2026-10-24"
+  },
+  {
+    "id": "4393",
+    "program": "Water Engineering (M.Sc.)",
+    "university": "Technische Hochschule Lübeck",
+    "_domain": "civil_engineering",
+    "official_sources": {
+      "program_page": "https://www.th-luebeck.de/en/studies/study-offer/degree-programs/water-engineering-master-msc/application/",
+      "admission_regulation": {
+        "url": "https://pubdoc.th-luebeck.de/ed102d45ee",
+        "title": "Studien- und Prüfungsordnung (SPO) 2026 im Masterstudiengang Water Engineering (§ 5)",
+        "version": "of 15.06.2026 (NBl. HS MBWFK Schl.-H. 2026 S. 45), in force 01.09.2026, for students from WS 2026/27 — read 23.10.2026 (replaces SPO 2020 as amended 21.01.2022)"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "civil_engineering"
+      ],
+      "note": "SPO § 5: first professional degree with at least 180 LP in civil engineering, environmental engineering or renewable energies; related/comparable programmes decided on application."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 2.7,
+      "note": "SPO § 5: overall grade of at least 2.7."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "Programme page: 'Proof of water-related modules with superior grading' (e.g. water engineering specialisation or a water-related bachelor thesis)",
+          "canonical_category": "civil_engineering.water_engineering",
+          "covered_categories": [],
+          "min_ects": null,
+          "requires_subject_presence_only": true
+        }
+      ],
+      "note": "SPO § 5 names no subject minimums but selection weighs the study content; the programme page states water-related modules as a requirement → presence item (programme page source; GPU-R policy). TAXONOMY GAP: water_engineering (counts 0 until the taxonomy phase)."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "SPO § 5 contains no Auflagen rule."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "IMPORTANT: proof of water-related modules with superior grades is required (e.g. water engineering specialisation or a water-related bachelor thesis) (official application page).",
+        "IMPORTANT: minimum overall grade 2.7 (SPO § 5).",
+        "IMPORTANT: documents must reach uni-assist by 1 March.",
+        "Local admission restriction (local NC): selection by the programme director on grade, English, study duration and especially study content — meeting the minimums does not guarantee admission (SPO § 5; MyGU)."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 6.0,
+      "toefl_ibt_min": 80,
+      "pte_min": null,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "English official language of school education",
+        "At least five years of English at school",
+        "At least six months of study or work in an English-speaking country",
+        "English official language of the qualifying degree (SPO § 5)"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "SPO 2026 § 5: B2 — TOEFL at least 80 iBT / 550 paper, IELTS at least 6.0, or a comparable test."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Programme page: APS only for China and Vietnam."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [],
+    "admission_type": {
+      "restricted": true,
+      "numerus_clausus": true
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "documents at uni-assist by 1 March (official application page, re-checked 24.10.2026); MyGU shows 15 July — official page wins",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.th-luebeck.de/",
+      "documents_seen": [
+        "SPO 2026 Water Engineering 15.06.2026 | read 23.10.2026 | https://pubdoc.th-luebeck.de/ed102d45ee",
+        "SPO 2020 Lesefassung (amended 21.01.2022) | read — superseded | https://www.th-luebeck.de/fileadmin/media/01_Hochschule/04_Satzungen/LESEFASSUNG_Water_Engineering_Master_SPO_2020.pdf",
+        "Application page | read 23.10.2026",
+        "Official application page (2.7, water modules, B2 TOEFL 80/IELTS 6.0, APS China/Vietnam, uni-assist 1 March) | re-read 24.10.2026 | https://www.th-luebeck.de/uk/studies/study-offer/degree-programs/water-engineering-master-msc/application/",
+        "MyGU 4393 (local NC; its 15 July deadline conflicts with the official page → ignored) | read 24.10.2026 | https://www.mygermanuniversity.com/master/water-engineering/2252"
+      ]
+    },
+    "last_checked": "2026-10-24",
+    "last_updated": "2026-10-24"
+  },
+  {
+    "id": "9179",
+    "program": "Engineering of Hydro-Environmental Extremes (HDE) (M.Sc.)",
+    "university": "University of Siegen",
+    "_domain": "civil_engineering",
+    "official_sources": {
+      "program_page": "https://www.uni-siegen.de/studium/master/engineering-of-hydro-environmental-extremes",
+      "admission_regulation": {
+        "url": "https://www.uni-siegen.de/start/news/amtliche_mitteilungen/jahrgang_2024/45_2024_fpo-m_hde.pdf",
+        "title": "Fachprüfungsordnung (FPO-M) für das Fach Engineering of Hydro-Environmental Extremes (HDE) im Masterstudium an der Universität Siegen (§ 4)",
+        "version": "of 03.07.2024 (Amtliche Mitteilungen 45/2024, 04.07.2024) — read 23.10.2026"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "civil_engineering"
+      ],
+      "note": "FPO § 4(1): bachelor in civil engineering, mechanical engineering, computer science, environmental sciences, geology (incl. engineering and hydrogeology), geosciences, geography or geophysics (at least 3 years), or a comparable degree without substantial differences (examination board decides)."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 2.7,
+      "note": "FPO § 4(2): 'qualifizierter' bachelor = at least 2.7."
+    },
+    "subject_credit_requirements": {
+      "items": [],
+      "note": "No subject credit minimums in FPO § 4. A 6-LP adjustment block in the first semester matches each student's prior education (§ 8(4))."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "FPO § 4 contains no Auflagen rule."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": false,
+      "descriptive_notes": [
+        "IMPORTANT: English B2 must be proven by IELTS or TOEFL only — MOI letters and English proficiency letters are NOT accepted (programme page). Siegen publishes no minimum score; GPU-R uses IELTS 6.5 / TOEFL 88 (stricter Siegen value) — confirm with Siegen.",
+        "IMPORTANT: minimum bachelor grade 2.7 (FPO § 4 with § 4(2) RPO-M).",
+        "IMPORTANT: non-EU application window 1 January – 30 April (programme page).",
+        "Not admitted if you definitively failed a required exam in a closely related programme (FPO § 4).",
+        "First-semester adjustment block (6 LP): civil/environmental/geo students take 'Introduction to Programming'; mechanical/CS students take 'Water challenges in a changing world' (FPO § 8(4))."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 6.5,
+      "toefl_ibt_min": 88,
+      "pte_min": null,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "Citizens of the USA, Canada, UK, Ireland, Australia, New Zealand (proof of citizenship)"
+      ],
+      "moi_not_accepted": true,
+      "due": "at application",
+      "note": "FPO § 4: B2 (no scores). Programme page: only IELTS and TOEFL accepted, no minimum scores published; MOI letters not accepted; no MyGU page. GPU-R policy (Koushik 24.10.2026): stricter Siegen B2 value used — IELTS 6.5 / TOEFL iBT 88 (as Siegen Computer Science FPO-M; other Siegen programmes use 6.0 / 87–88). Confirm with Siegen before applying."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Not stated in the regulation."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [],
+    "admission_type": {
+      "restricted": false,
+      "numerus_clausus": false
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "1 January – 30 April (programme page)",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.uni-siegen.de/",
+      "documents_seen": [
+        "FPO-M HDE 03.07.2024 | read 23.10.2026 | https://www.uni-siegen.de/start/news/amtliche_mitteilungen/jahrgang_2024/45_2024_fpo-m_hde.pdf",
+        "Programme page | read 23.10.2026",
+        "FPO-M HDE 45/2024 re-read 24.10.2026: § 4 values match (degrees, 2.7, B2, exclusion), § 8(2) winter only, § 8(4) adjustment block | https://www.uni-siegen.de/start/news/amtliche_mitteilungen/jahrgang_2024/45_2024_fpo-m_hde.pdf",
+        "Programme page (2.7; B2 via IELTS/TOEFL only, no scores; MOI not accepted; non-EU 1 Jan – 30 Apr) | re-read 24.10.2026 | https://www.uni-siegen.de/studium/master/engineering-of-hydro-environmental-extremes",
+        "ZSB page (admission not restricted) | read 24.10.2026 | https://www.uni-siegen.de/zsb/studienangebot/master/engineering_of_hydro-environmental_extremes.html.en"
+      ]
+    },
+    "last_checked": "2026-10-24",
+    "last_updated": "2026-10-24"
+  },
+  {
+    "id": "4793",
+    "program": "Road Traffic Engineering (M.Eng.)",
+    "university": "Westsächsische Hochschule Zwickau",
+    "_domain": "civil_engineering",
+    "official_sources": {
+      "program_page": "https://fh-zwickau.de/english/study/courses-of-study/road-traffic-engineering-masters",
+      "admission_regulation": {
+        "url": null,
+        "title": "Studienordnung / Prüfungsordnung Masterstudiengang Road Traffic Engineering (WHZ), amended 19.02.2024 (Bekanntmachungen 3/2024 pp. 525–537) and 20.01.2025 (Bekanntmachungen 1/2025 pp. 55–58)",
+        "version": "Regulation text not found by Koushik or Claude (23.10.2026). Record built from MyGermanUniversity (third-party, at Koushik's request) + DAAD listing + WHZ ECTS info sheet. Amendments of 19.02.2024 and 20.01.2025 exist (Bekanntmachungen 3/2024, 1/2025) — not read."
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "civil_engineering"
+      ],
+      "note": "MyGermanUniversity: bachelor (or equivalent) in traffic, civil, mechanical or electrical engineering or a similar programme, 180 ECTS. DAAD listing: traffic, civil or automotive engineering."
+    },
+    "gpa_rule_type": "NO_GRADE_THRESHOLD",
+    "grade_requirement": {
+      "value": null,
+      "note": "No minimum grade stated (MyGermanUniversity, DAAD). Local admission restriction (NC) — ranking cutoff not published."
+    },
+    "subject_credit_requirements": {
+      "items": [],
+      "note": "No required subjects beyond the degree field (MyGermanUniversity)."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "No conditions mentioned in any source read; WHZ info sheet: 180 ECTS = seamless for this 4-semester master."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "IMPORTANT: this record is built from MyGermanUniversity + DAAD + the WHZ ECTS sheet — the official regulation text could not be found; check the WHZ page before applying.",
+        "IMPORTANT: local admission restriction (local NC) — meeting the requirements does not guarantee admission; no cutoff published.",
+        "IMPORTANT: English B2 (IELTS 5) with a certificate — an English-medium degree alone is NOT sufficient.",
+        "IMPORTANT: non-EU deadline 30 April via uni-assist (an older 2019 WHZ flyer said 31 May — 30 April is the current value).",
+        "Credits (WHZ information sheet 'DSA Februar 2024', pasted by Koushik): for a 4-semester master (120 ECTS) — Road Traffic Engineering is 4 semesters per the DAAD listing — a 180-ECTS bachelor gives a seamless transition; 210/240-ECTS degrees may get modules recognised. No extra ECTS needed.",
+        "Good German is necessary for thesis placements with companies (listing); German courses are part of the study plan."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 5.0,
+      "toefl_ibt_min": null,
+      "pte_min": null,
+      "required_level": "B2",
+      "allowed_exemptions": [],
+      "moi_not_accepted": true,
+      "due": "at application",
+      "note": "DAAD listing: B2 certificate required. MyGermanUniversity (third-party, 23.10.2026): CEFR B2, IELTS min 5; 'English instruction language is not sufficient' as proof."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": "A1",
+      "due": "MyGermanUniversity lists CEFR German min A1, but the programme is English-only; German courses are part of the study plan (DAAD). Stored as not required for admission (GPU-R reading) — check."
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "MyGermanUniversity: original APS certificate for PR China, Mongolia and Vietnam (India not listed)."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "Letter of intent, detailed CV, school-leaving certificate with certified translation (MyGermanUniversity)",
+      "Application via uni-assist"
+    ],
+    "admission_type": {
+      "restricted": true,
+      "numerus_clausus": true
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "30 April via uni-assist (MyGermanUniversity, third-party)",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.fh-zwickau.de/",
+      "documents_seen": [
+        "DAAD/myGuide listing 4793 | read 23.10.2026",
+        "Bekanntmachungen 3/2024 (amendments 19.02.2024) | text not reachable",
+        "Bekanntmachungen 1/2025 (amendments 20.01.2025) | text not reachable",
+        "WHZ ECTS information sheet (DSA Februar 2024) | read 23.10.2026 from Koushik's paste — 4-semester master: 180 ECTS seamless",
+        "MyGermanUniversity 4793 (full requirements) | read 23.10.2026 (third-party, Koushik request) | https://www.mygermanuniversity.com/master/road-traffic-engineering/1257",
+        "MyGU 4793 re-read 24.10.2026 (traffic/civil/ME/EE, 180 ECTS, IELTS 5, 30 April, local NC, APS China/Mongolia/Vietnam) | https://www.mygermanuniversity.com/master/road-traffic-engineering/1257",
+        "WHZ flyer RTE (March 2019: 180 ECTS traffic or relevant, B2/IELTS 5, foreign 31 May — outdated) | read 24.10.2026 | https://fh-zwickau.de/fileadmin/studieninteressenten/docs/Flyer/Flyer_RTE_M.pdf",
+        "Official WHZ programme page (engineering degree ≥180 ECTS, B2 certificate, English-medium degree not sufficient, entry restricted) | read 24.10.2026 | https://fh-zwickau.de/english/study/courses-of-study/road-traffic-engineering-masters"
+      ]
+    },
+    "last_checked": "2026-10-24",
+    "last_updated": "2026-10-24"
+  }
+]

@@ -1,0 +1,31 @@
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.env
+*.env
+.DS_Store
+
+# pipeline outputs, cache and personal data (never push)
+pipeline/verified_knowledge_base.json
+pipeline/checkpoint_*.json
+pipeline/final_matching_profile*.json
+pipeline/matching_result_*.json
+pipeline/eval_report_*.json
+pipeline/students/
+pipeline/transcripts/
+*.pdf
+*.jpg
+*.png
+pipeline/eligibility_*.json
+pipeline/eligibility_*.md
+*.jpeg
+synthetic_out/
+pipeline/usage_*.json
+usage_*.json
+
+# web API sessions and its knowledge base (personal data, never push) -- 04.11.2026
+api_data/
+
+# README images are public (07.11.2026)
+!docs/images/*.png

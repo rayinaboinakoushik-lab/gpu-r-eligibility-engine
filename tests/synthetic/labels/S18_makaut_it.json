@@ -1,0 +1,141 @@
+{
+ "id": "S18_makaut_it",
+ "labeller": "Claude 03.11.2026 (course map first, exactly as the pipeline's own map lookup; generic maths titles null; then taxonomy rules); null = unsure (needs the syllabus), not scored",
+ "label_sources": {
+  "map": 15,
+  "generic": 3,
+  "manual": 30
+ },
+ "labels": {
+  "Physics-I": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Mathematics –IA": null,
+  "Basic Electrical Engineering": [
+   "electrical_electronic_engineering.circuit_theory"
+  ],
+  "Physics-I Laboratory": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Basic Electrical Engineering Laboratory": [
+   "electrical_electronic_engineering.circuit_theory"
+  ],
+  "Workshop": [],
+  "Chemistry-I": [
+   "physics_natural_sciences.chemistry"
+  ],
+  "Mathematics –IIA": null,
+  "Programming for Problem Solving": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "English": [],
+  "Chemistry-I Laboratory": [
+   "physics_natural_sciences.chemistry"
+  ],
+  "Programming for Problem Solving Laboratory": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Engineering Graphics & Design": [],
+  "Language Laboratory": [],
+  "Digital Electronics": [
+   "electrical_electronic_engineering.digital_systems",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Data Structure & Algorithms": [
+   "computer_science_informatics.algorithms_data_structures"
+  ],
+  "Signals & System": [
+   "electrical_electronic_engineering.signals_systems"
+  ],
+  "IT Workshop (Sci Lab/R)": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Mathematics-III": null,
+  "Biology": [],
+  "Discrete Mathematics": [
+   "mathematics_statistics.discrete_math_logic"
+  ],
+  "Computer Organization & Architecture": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Formal Language & Automata Theory": [
+   "computer_science_informatics.theoretical_cs"
+  ],
+  "Communication Engineering": [
+   "electrical_electronic_engineering.communications"
+  ],
+  "Economics For Engineers": [
+   "business_economics_management.business_administration"
+  ],
+  "Environmental Sciences": [],
+  "Design Analysis & Algorithm": [
+   "computer_science_informatics.algorithms_data_structures"
+  ],
+  "DBMS": [
+   "computer_science_informatics.databases_systems"
+  ],
+  "Operating Systems": [
+   "computer_science_informatics.operating_systems"
+  ],
+  "Object Oriented Programming with Python": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Introduction to Industrial Management (Humanities III)": [
+   "business_economics_management.business_administration"
+  ],
+  "Computer Graphics": [
+   "computer_science_informatics.graphics_visual_computing"
+  ],
+  "Constitution of India": [],
+  "Software Engineering": [
+   "computer_science_informatics.software_engineering"
+  ],
+  "Computer Networks": [
+   "computer_science_informatics.computer_networks",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Distributed Systems": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Machine Learning": [
+   "computer_science_informatics.machine_learning_ai"
+  ],
+  "Robotics": [
+   "engineering.robotics"
+  ],
+  "Project-1": [
+   "other.thesis_scientific_work"
+  ],
+  "Internet & Web Technology": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Information Theory and Coding": [
+   "electrical_electronic_engineering.information_theory"
+  ],
+  "Numerical Methods": [
+   "mathematics_statistics.optimization_numerics",
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Management 1 (Organizational Behaviour)": [
+   "business_economics_management.business_administration"
+  ],
+  "Project-II": [
+   "other.thesis_scientific_work"
+  ],
+  "Information Security": [
+   "computer_science_informatics.it_security"
+  ],
+  "Digital Signal Processing": [
+   "electrical_electronic_engineering.digital_signal_processing"
+  ],
+  "Remote Sensing & GIS": [
+   "civil_engineering.surveying_geodesy"
+  ],
+  "Project-III": [
+   "other.thesis_scientific_work"
+  ]
+ },
+ "label_changes": [
+  "04.11.2026: Information Theory and Coding now takes the course-map categories (the map is found since '&'/'and' are matched alike); whether the map entry should also carry communications is an open decision"
+ ]
+}

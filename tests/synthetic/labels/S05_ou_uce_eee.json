@@ -1,0 +1,192 @@
+{
+ "id": "S05_ou_uce_eee",
+ "labeller": "Claude 31.10.2026 (course map first, then taxonomy rules); null = unsure (needs the syllabus), not scored",
+ "labels": {
+  "Engineering Mathematics-I": null,
+  "Applied Physics": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Programming for Problem Solving": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Electrical Wiring Estimation and Automation": null,
+  "Electrical and Electronics Engineering Materials": null,
+  "Applied Physics Lab": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Programming for Problem Solving Lab": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Engineering Graphics": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Engineering Mathematics-II": null,
+  "Engineering Chemistry": [
+   "physics_natural_sciences.chemistry"
+  ],
+  "Communicative English": [],
+  "Digital Electronics and Logic Design": [
+   "electrical_electronic_engineering.digital_systems",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Engineering Chemistry Lab": [
+   "physics_natural_sciences.chemistry"
+  ],
+  "Communicative English Lab": [],
+  "Workshop Practice": [],
+  "Computer Aided Electrical Drawing lab": null,
+  "Electrical Circuits – I": [
+   "electrical_electronic_engineering.circuit_theory"
+  ],
+  "Electrical Machines – I": [
+   "electrical_electronic_engineering.electrical_machines_drives"
+  ],
+  "Power Systems - I": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Electromagnetic Fields": [
+   "electrical_electronic_engineering.electromagnetic_field_theory"
+  ],
+  "Measurements and Instrumentation": [
+   "electrical_electronic_engineering.measurement_instrumentation"
+  ],
+  "Analog Electronics": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Digital Electronics and Logic Design Laboratory": [
+   "electrical_electronic_engineering.digital_systems",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Analog Electronics Laboratory": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Electrical Circuits Laboratory": [
+   "electrical_electronic_engineering.circuit_theory"
+  ],
+  "Electrical Circuits - II": [
+   "electrical_electronic_engineering.circuit_theory"
+  ],
+  "Electrical Machines II": [
+   "electrical_electronic_engineering.electrical_machines_drives"
+  ],
+  "Power Systems – II": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Linear Control Systems": [
+   "electrical_electronic_engineering.control_systems"
+  ],
+  "Linear Integrated Circuits": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Renewable Energy": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Electrical Measurements Lab": [
+   "electrical_electronic_engineering.measurement_instrumentation"
+  ],
+  "Electrical Machines Laboratory – I": [
+   "electrical_electronic_engineering.electrical_machines_drives"
+  ],
+  "Linear Integrated Circuits Lab": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Electrical Machines-III": [
+   "electrical_electronic_engineering.electrical_machines_drives"
+  ],
+  "Switchgear and Protection": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Power Electronics": [
+   "electrical_electronic_engineering.power_electronics"
+  ],
+  "Microprocessors and Microcontrollers": [
+   "computer_science_informatics.computer_engineering",
+   "electrical_electronic_engineering.digital_systems"
+  ],
+  "Digital Signal Processing": [
+   "electrical_electronic_engineering.digital_signal_processing"
+  ],
+  "IoT Applications in Electrical Engineering": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Electrical Machines Lab-II": [
+   "electrical_electronic_engineering.electrical_machines_drives"
+  ],
+  "Power Electronics Lab": [
+   "electrical_electronic_engineering.power_electronics"
+  ],
+  "Control Systems Lab": [
+   "electrical_electronic_engineering.control_systems"
+  ],
+  "Power System Operation and Control": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Power Electronic Applications in Renewable Energy": [
+   "electrical_electronic_engineering.power_electronics"
+  ],
+  "Power Quality Engineering": [
+   "electrical_electronic_engineering.power_engineering",
+   "electrical_electronic_engineering.power_electronics"
+  ],
+  "Electric Machine Design": [
+   "electrical_electronic_engineering.electrical_machines_drives"
+  ],
+  "Finite Element Method": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Microprocessors and Microcontrollers Lab": [
+   "computer_science_informatics.computer_engineering",
+   "electrical_electronic_engineering.digital_systems"
+  ],
+  "Electrical Simulation Lab": null,
+  "Digital Signal Processing Lab": [
+   "electrical_electronic_engineering.digital_signal_processing"
+  ],
+  "Mini-Project": [],
+  "Utilization of Electrical Energy": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Electric Drives and Static Control": [
+   "electrical_electronic_engineering.electrical_machines_drives",
+   "electrical_electronic_engineering.power_electronics"
+  ],
+  "FACTS and HVDC Transmission": [
+   "electrical_electronic_engineering.power_engineering",
+   "electrical_electronic_engineering.power_electronics"
+  ],
+  "Signals and Systems": [
+   "electrical_electronic_engineering.signals_systems"
+  ],
+  "Smart Grid Technologies": null,
+  "Verilog HDL": [
+   "electrical_electronic_engineering.digital_systems",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Power Systems Lab": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Project Work-I": [],
+  "Summer Internship": [],
+  "Environmental Studies": [],
+  "Constitution of India": [],
+  "Essence of Indian Traditional Knowledge": [],
+  "Project Work-II": []
+ },
+ "label_changes": [
+  {
+   "title": "Verilog HDL",
+   "to": [
+    "electrical_electronic_engineering.digital_systems",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "why": "03.11.2026 per-course review: my label was too narrow (taxonomy/approved-map pattern supports the AI's answer)"
+  },
+  {
+   "title": "Power Electronic Applications in Renewable Energy",
+   "to": [
+    "electrical_electronic_engineering.power_electronics"
+   ],
+   "why": "05.11.2026 KB review, Koushik approved: approved map entry \"Power Electronic Applications to Renewable Energy Systems\" = power_electronics only"
+  }
+ ]
+}

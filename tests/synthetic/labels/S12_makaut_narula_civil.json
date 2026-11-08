@@ -1,0 +1,208 @@
+{
+ "id": "S12_makaut_narula_civil",
+ "labeller": "Claude 03.11.2026 (course map first, exactly as the pipeline's own map lookup; generic maths titles null; then taxonomy rules); null = unsure (needs the syllabus), not scored",
+ "label_sources": {
+  "map": 13,
+  "generic": 5,
+  "manual": 69
+ },
+ "labels": {
+  "Mathematics -I": null,
+  "Physics - I": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Basic Electronics Engineering": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "English": [],
+  "Physics-I Lab": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Basic Electronics Engineering Lab": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Workshop/Manufacturing Practices": [],
+  "Mathematics Project": null,
+  "Physics Project": null,
+  "Mathematics -II": null,
+  "Chemistry-I": [
+   "physics_natural_sciences.chemistry"
+  ],
+  "Basic Electrical Engineering": [
+   "electrical_electronic_engineering.circuit_theory"
+  ],
+  "Programming for Problem Solving": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Engineering Mechanics": [
+   "civil_engineering.structural_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_dynamics",
+   "physics_natural_sciences.general_physics"
+  ],
+  "Programming for Problem Solving Lab": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Chemistry I Lab": [
+   "physics_natural_sciences.chemistry"
+  ],
+  "Basic Electrical Engineering Lab": [
+   "electrical_electronic_engineering.circuit_theory"
+  ],
+  "Engineering Graphics & Design": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Language Lab and Seminar Presentation": [],
+  "Programming for Problem Solving Project": null,
+  "Engineering Mechanics Project": null,
+  "Numerical Methods": [
+   "mathematics_statistics.optimization_numerics",
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Physics - II": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Surveying": [
+   "civil_engineering.surveying_geodesy"
+  ],
+  "Strength of Material": [
+   "civil_engineering.structural_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Building Material and Construction": [
+   "chemistry_materials.materials_science",
+   "civil_engineering.construction_management"
+  ],
+  "Engineering Geology": [
+   "civil_engineering.geotechnics"
+  ],
+  "Numerical Methods Lab": [
+   "mathematics_statistics.optimization_numerics",
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Engineering Geology Lab": [
+   "civil_engineering.geotechnics"
+  ],
+  "Surveying Practice": [
+   "civil_engineering.surveying_geodesy"
+  ],
+  "Physics-II Lab": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Numerical Methods Project": null,
+  "Surveying Project": null,
+  "Strength of Material Project": null,
+  "Engineering Geology Project": null,
+  "Mathematics III": null,
+  "Values & Ethics in Profession": [],
+  "Structural Analysis": [
+   "civil_engineering.structural_engineering",
+   "civil_engineering.structural_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Concrete Technology": [
+   "chemistry_materials.materials_science"
+  ],
+  "Soil Mechanics": [
+   "civil_engineering.geotechnics"
+  ],
+  "Building Planning And Drawing": null,
+  "Concrete Lab": [
+   "chemistry_materials.materials_science"
+  ],
+  "Soil Mechanics Lab-I": [
+   "civil_engineering.geotechnics"
+  ],
+  "Quantity Surveying, Specifications and Valuation": [
+   "civil_engineering.construction_management"
+  ],
+  "Mathematics III Project": null,
+  "Structural Analysis Project": null,
+  "Concrete Technology Project": null,
+  "Soil Mechanics Project": null,
+  "Economics for Engineers": [
+   "business_economics_management.business_administration"
+  ],
+  "Structural Design-I": [
+   "civil_engineering.structural_engineering"
+  ],
+  "Foundation Engineering": [
+   "civil_engineering.geotechnics"
+  ],
+  "Water Supply and Plumbing": null,
+  "Transportation Engineering": [
+   "civil_engineering.transportation_engineering"
+  ],
+  "Transportation and Highway Engineering Lab": [
+   "civil_engineering.transportation_engineering"
+  ],
+  "Soil Mechanics Lab-II": [
+   "civil_engineering.geotechnics"
+  ],
+  "Civil Engineering Lab": null,
+  "Economics for Engineers Project": null,
+  "Structural Design-I Project": null,
+  "Foundation Engineering Project": null,
+  "Water Supply and Plumbing Project": null,
+  "Structural Design – II": [
+   "civil_engineering.structural_engineering"
+  ],
+  "Construction Planning And Management": [
+   "civil_engineering.construction_management"
+  ],
+  "Operations Research": [
+   "mathematics_statistics.optimization_numerics"
+  ],
+  "Structural Dynamics and Earthquake Engineering": [
+   "civil_engineering.structural_engineering"
+  ],
+  "Advanced Programming for Problem solving": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Computer Aided Design and Drafting": null,
+  "Mini Project": [],
+  "Structural Design And Detailing": null,
+  "Structural Design – II Project": null,
+  "Construction Planning And Management Project": null,
+  "Transportation Engineering Project": null,
+  "Structural Dynamics and Earthquake Engineering Project": null,
+  "Water Resource And Irrigation Engineering": [
+   "civil_engineering.water_engineering"
+  ],
+  "Environmental Engineering": [
+   "civil_engineering.environmental_engineering"
+  ],
+  "Traffic Engineering & Planning": [
+   "civil_engineering.transportation_engineering"
+  ],
+  "Electrical And Electronics Measurement": [
+   "electrical_electronic_engineering.measurement_instrumentation"
+  ],
+  "Environmental Engineering Lab": [
+   "civil_engineering.environmental_engineering"
+  ],
+  "Electrical and Electronic Measurement Laboratory": [
+   "electrical_electronic_engineering.measurement_instrumentation"
+  ],
+  "Project-I": [],
+  "Civil Engineering Practice Sessional": null,
+  "Industrial Training /Internship": [],
+  "Finite Element Analysis": [
+   "civil_engineering.structural_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Pavement Design": [
+   "civil_engineering.transportation_engineering"
+  ],
+  "Remote Sensing And GIS": [
+   "civil_engineering.surveying_geodesy"
+  ],
+  "Project Management": [
+   "business_economics_management.business_administration"
+  ],
+  "Project-II": [],
+  "Grand Viva": []
+ },
+ "label_changes": [
+  "03.11.2026 after batch 1, Koushik approved: Water Supply and Plumbing: unsure (null) - water supply is listed under water_engineering, treatment under environmental_engineering; share not judgeable from the title"
+ ]
+}

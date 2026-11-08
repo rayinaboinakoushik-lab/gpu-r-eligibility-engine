@@ -1,0 +1,215 @@
+{
+  "country": "India",
+  "total_ects": 240,
+  "confirmations": {},
+  "excluded_courses": [],
+  "_note": "SYNTHETIC test student (JNTUH-style course names); ECTS invented for testing, not a real transcript.",
+  "name": "test_mechanical",
+  "field": "mechanical",
+  "degree_field": "mechanical_engineering",
+  "degree_subfield": "mechanical",
+  "german_grade": 2.4,
+  "courses": [
+    {
+      "id": "c01",
+      "title": "Mathematics I (Calculus)",
+      "ects": 6,
+      "categories": [
+        "mathematics_statistics.calculus_analysis"
+      ]
+    },
+    {
+      "id": "c02",
+      "title": "Mathematics II (Linear Algebra)",
+      "ects": 6,
+      "categories": [
+        "mathematics_statistics.linear_algebra"
+      ]
+    },
+    {
+      "id": "c03",
+      "title": "Probability and Statistics",
+      "ects": 4.5,
+      "categories": [
+        "mathematics_statistics.statistics_probability"
+      ]
+    },
+    {
+      "id": "c04",
+      "title": "Numerical Methods",
+      "ects": 4.5,
+      "categories": [
+        "mathematics_statistics.optimization_numerics"
+      ]
+    },
+    {
+      "id": "c05",
+      "title": "Engineering Physics",
+      "ects": 6,
+      "categories": [
+        "physics_natural_sciences.general_physics"
+      ]
+    },
+    {
+      "id": "c06",
+      "title": "Engineering Chemistry",
+      "ects": 6,
+      "categories": [
+        "physics_natural_sciences.chemistry"
+      ]
+    },
+    {
+      "id": "c07",
+      "title": "Programming for Problem Solving",
+      "ects": 6,
+      "categories": [
+        "computer_science_informatics.programming_practical_cs"
+      ]
+    },
+    {
+      "id": "c08",
+      "title": "Engineering Mechanics",
+      "ects": 6,
+      "categories": [
+        "mechanical_manufacturing_engineering.mechanics_dynamics"
+      ]
+    },
+    {
+      "id": "c09",
+      "title": "Strength of Materials",
+      "ects": 6,
+      "categories": [
+        "mechanical_manufacturing_engineering.mechanics_dynamics"
+      ]
+    },
+    {
+      "id": "c10",
+      "title": "Kinematics of Machinery",
+      "ects": 4.5,
+      "categories": [
+        "mechanical_manufacturing_engineering.mechanics_dynamics"
+      ]
+    },
+    {
+      "id": "c11",
+      "title": "Dynamics of Machinery",
+      "ects": 4.5,
+      "categories": [
+        "mechanical_manufacturing_engineering.mechanics_dynamics"
+      ]
+    },
+    {
+      "id": "c12",
+      "title": "Thermodynamics",
+      "ects": 6,
+      "categories": [
+        "mechanical_manufacturing_engineering.thermodynamics"
+      ]
+    },
+    {
+      "id": "c13",
+      "title": "Applied Thermodynamics",
+      "ects": 6,
+      "categories": [
+        "mechanical_manufacturing_engineering.thermodynamics"
+      ]
+    },
+    {
+      "id": "c14",
+      "title": "Heat Transfer",
+      "ects": 4.5,
+      "categories": [
+        "mechanical_manufacturing_engineering.thermodynamics"
+      ]
+    },
+    {
+      "id": "c15",
+      "title": "Fluid Mechanics and Hydraulic Machines",
+      "ects": 6,
+      "categories": [
+        "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+      ]
+    },
+    {
+      "id": "c16",
+      "title": "Machine Design I",
+      "ects": 6,
+      "categories": [
+        "mechanical_manufacturing_engineering.design_machine_elements"
+      ]
+    },
+    {
+      "id": "c17",
+      "title": "Machine Design II",
+      "ects": 4.5,
+      "categories": [
+        "mechanical_manufacturing_engineering.design_machine_elements"
+      ]
+    },
+    {
+      "id": "c18",
+      "title": "Engineering Drawing",
+      "ects": 4.5,
+      "categories": [
+        "mechanical_manufacturing_engineering.design_machine_elements"
+      ]
+    },
+    {
+      "id": "c19",
+      "title": "Manufacturing Processes",
+      "ects": 6,
+      "categories": [
+        "mechanical_manufacturing_engineering.manufacturing_production"
+      ]
+    },
+    {
+      "id": "c20",
+      "title": "Machine Tools",
+      "ects": 4.5,
+      "categories": [
+        "mechanical_manufacturing_engineering.manufacturing_production"
+      ]
+    },
+    {
+      "id": "c21",
+      "title": "Material Science and Metallurgy",
+      "ects": 4.5,
+      "categories": [
+        "chemistry_materials.materials_science"
+      ]
+    },
+    {
+      "id": "c22",
+      "title": "Instrumentation and Control Systems",
+      "ects": 4.5,
+      "categories": [
+        "electrical_electronic_engineering.measurement_instrumentation"
+      ]
+    },
+    {
+      "id": "c23",
+      "title": "Basic Electrical and Electronics Engineering",
+      "ects": 4.5,
+      "categories": [
+        "electrical_electronic_engineering.circuit_theory",
+        "electrical_electronic_engineering.electronics"
+      ]
+    },
+    {
+      "id": "c24",
+      "title": "Automobile Engineering",
+      "ects": 4.5,
+      "categories": [
+        "engineering.automotive_engineering"
+      ]
+    },
+    {
+      "id": "c25",
+      "title": "Business Economics and Financial Analysis",
+      "ects": 4.5,
+      "categories": [
+        "business_economics_management.business_administration"
+      ]
+    }
+  ]
+}

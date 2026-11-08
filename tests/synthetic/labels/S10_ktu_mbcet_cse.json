@@ -1,0 +1,176 @@
+{
+ "id": "S10_ktu_mbcet_cse",
+ "labeller": "Claude 03.11.2026 (course map first, exactly as the pipeline's own map lookup; generic maths titles null; then taxonomy rules); null = unsure (needs the syllabus), not scored",
+ "label_sources": {
+  "map": 21,
+  "generic": 0,
+  "manual": 38
+ },
+ "labels": {
+  "Linear Algebra and Calculus": [
+   "mathematics_statistics.linear_algebra",
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Life Skills": [],
+  "Engineering Physics-A": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Engineering Graphics": [],
+  "Basics of Civil and Mechanical Engineering": [],
+  "Engineering Physics Lab": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Civil and Mechanical Workshop": [],
+  "Vector Calculus, Differential Equations and Transforms": [
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Professional Communication": [],
+  "Introduction to Computer Programming": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Engineering Chemistry-A": [
+   "physics_natural_sciences.chemistry"
+  ],
+  "Engineering Mechanics": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Basics of Electrical and Electronics Engineering": [
+   "electrical_electronic_engineering.circuit_theory",
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Engineering Chemistry Lab": [
+   "physics_natural_sciences.chemistry"
+  ],
+  "Electrical and Electronics Workshop": [],
+  "Discrete Mathematical Structures": [
+   "mathematics_statistics.discrete_math_logic"
+  ],
+  "Data Structures": [
+   "computer_science_informatics.algorithms_data_structures"
+  ],
+  "Logic System Design": [
+   "electrical_electronic_engineering.digital_systems",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Object Oriented Programming using Java": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Design and Engineering": null,
+  "Sustainable Engineering": [],
+  "Data Structures Lab": [
+   "computer_science_informatics.algorithms_data_structures"
+  ],
+  "Object Oriented Programming Lab (in Java)": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Probability Statistics and Numerical Methods": [
+   "mathematics_statistics.statistics_probability",
+   "mathematics_statistics.optimization_numerics",
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Computer Organization and Architecture": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Database Management Systems": [
+   "computer_science_informatics.databases_systems"
+  ],
+  "Formal Languages and Automata Theory": [
+   "computer_science_informatics.theoretical_cs"
+  ],
+  "Professional Ethics": [
+   "society_law_ethics.ethics_law_society"
+  ],
+  "Constitution of India": [],
+  "Digital Lab": [
+   "electrical_electronic_engineering.digital_systems",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Database Management Systems Lab": [
+   "computer_science_informatics.databases_systems"
+  ],
+  "Algorithm Analysis and Design": [
+   "computer_science_informatics.algorithms_data_structures"
+  ],
+  "System Software": null,
+  "Operating Systems": [
+   "computer_science_informatics.operating_systems"
+  ],
+  "Microprocessors and Microcontrollers": [
+   "computer_science_informatics.computer_engineering",
+   "electrical_electronic_engineering.digital_systems"
+  ],
+  "Management of Software Systems": [
+   "computer_science_informatics.software_engineering"
+  ],
+  "Disaster Management": [],
+  "System Software and Microprocessors Lab": null,
+  "Operating Systems Lab": [
+   "computer_science_informatics.operating_systems"
+  ],
+  "Compiler Design": [
+   "computer_science_informatics.programming_practical_cs",
+   "computer_science_informatics.theoretical_cs"
+  ],
+  "Computer Graphics and Image Processing": [
+   "computer_science_informatics.graphics_visual_computing",
+   "electrical_electronic_engineering.digital_signal_processing"
+  ],
+  "Computer Networks": [
+   "computer_science_informatics.computer_networks",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Data Analytics": [
+   "data_science.foundational_methods",
+   "mathematics_statistics.statistics_probability"
+  ],
+  "Industrial Economics and Foreign Trade": [
+   "business_economics_management.business_administration"
+  ],
+  "Comprehensive Course Work": [],
+  "Networking Lab": [
+   "computer_science_informatics.computer_networks",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Mini Project": [
+   "other.thesis_scientific_work"
+  ],
+  "Artificial Intelligence": [
+   "computer_science_informatics.machine_learning_ai"
+  ],
+  "Natural Language Processing": [
+   "computer_science_informatics.machine_learning_ai"
+  ],
+  "Industrial Safety Engineering": [],
+  "Compiler Design Lab": [
+   "computer_science_informatics.programming_practical_cs",
+   "computer_science_informatics.theoretical_cs"
+  ],
+  "Seminar": [
+   "other.thesis_scientific_work"
+  ],
+  "Project Phase I": [
+   "other.thesis_scientific_work"
+  ],
+  "Distributed Computing": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Cryptography": [
+   "computer_science_informatics.it_security"
+  ],
+  "Data Mining": [
+   "data_science.foundational_methods",
+   "computer_science_informatics.machine_learning_ai"
+  ],
+  "Internet of Things": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Comprehensive Viva Voce": [],
+  "Project Phase II": [
+   "other.thesis_scientific_work"
+  ]
+ },
+ "label_changes": [
+  "03.11.2026 after batch 1, Koushik approved: Probability Statistics and Numerical Methods: + calculus_analysis (same taxonomy rule)",
+  "03.11.2026 after batch 1, Koushik approved: Seminar: thesis_scientific_work (taxonomy includes 'seminar')"
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "id": "S08_jntuk_eswar_cse",
+ "labeller": "Claude 03.11.2026 (course map first, exactly as the pipeline's own map lookup; generic maths titles null; then taxonomy rules); null = unsure (needs the syllabus), not scored",
+ "label_sources": {
+  "map": 26,
+  "generic": 3,
+  "manual": 36
+ },
+ "labels": {
+  "Communicative English": [],
+  "Mathematics - I (Calculus And Differential Equations)": null,
+  "Applied Physics": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Programming for Problem Solving using C": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Computer Engineering Workshop": [],
+  "English Communication Skills Laboratory": [],
+  "Applied Physics Lab": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Programming for Problem Solving using C Lab": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Mathematics – II (Linear Algebra And Numerical Methods)": null,
+  "Applied Chemistry": [
+   "physics_natural_sciences.chemistry"
+  ],
+  "Computer Organization": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Python Programming": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Data Structures": [
+   "computer_science_informatics.algorithms_data_structures"
+  ],
+  "Applied Chemistry Lab": [
+   "physics_natural_sciences.chemistry"
+  ],
+  "Python Programming Lab": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Data Structures Lab": [
+   "computer_science_informatics.algorithms_data_structures"
+  ],
+  "Environment Science": [],
+  "Mathematics III": null,
+  "Object Oriented Programming through C++": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Operating Systems": [
+   "computer_science_informatics.operating_systems"
+  ],
+  "Software Engineering": [
+   "computer_science_informatics.software_engineering"
+  ],
+  "Mathematical Foundations of Computer Science": [
+   "mathematics_statistics.discrete_math_logic"
+  ],
+  "Object Oriented Programming through C++ Lab": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Operating Systems Lab": [
+   "computer_science_informatics.operating_systems"
+  ],
+  "Software Engineering Lab": [
+   "computer_science_informatics.software_engineering"
+  ],
+  "Applications of Python - Num Py": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Constitution of India": [],
+  "Probability and Statistics": [
+   "mathematics_statistics.statistics_probability"
+  ],
+  "Database Management Systems": [
+   "computer_science_informatics.databases_systems"
+  ],
+  "Formal Languages and Automata Theory": [
+   "computer_science_informatics.theoretical_cs"
+  ],
+  "Java Programming": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Managerial Economics and Financial Accountancy": [
+   "business_economics_management.business_administration"
+  ],
+  "Database Management Systems Lab": [
+   "computer_science_informatics.databases_systems"
+  ],
+  "R Programming Lab": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Java Programming Lab": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Applications of Python-Pandas": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Computer Networks": [
+   "computer_science_informatics.computer_networks",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Design and Analysis of Algorithms": [
+   "computer_science_informatics.algorithms_data_structures"
+  ],
+  "Data Warehousing and Data Mining": null,
+  "Optimization in Operations Research": [
+   "mathematics_statistics.optimization_numerics"
+  ],
+  "Artificial Intelligence": [
+   "computer_science_informatics.machine_learning_ai"
+  ],
+  "Data Warehousing and Data Mining Lab": null,
+  "Computer Networks Lab": [
+   "computer_science_informatics.computer_networks",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Continuous Integration and Continuous Delivery using Dev Ops": [
+   "computer_science_informatics.software_engineering"
+  ],
+  "Employability Skills-I": [],
+  "Summer Internship": [
+   "other.thesis_scientific_work"
+  ],
+  "Machine Learning": [
+   "computer_science_informatics.machine_learning_ai"
+  ],
+  "Compiler Design": [
+   "computer_science_informatics.programming_practical_cs",
+   "computer_science_informatics.theoretical_cs"
+  ],
+  "Cryptography and Network Security": [
+   "computer_science_informatics.it_security"
+  ],
+  "Big Data Analytics": [
+   "data_science.foundational_methods",
+   "computer_science_informatics.data_engineering"
+  ],
+  "MEAN Stack Development": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Machine Learning using Python Lab": [
+   "computer_science_informatics.machine_learning_ai"
+  ],
+  "Compiler Design Lab": [
+   "computer_science_informatics.programming_practical_cs",
+   "computer_science_informatics.theoretical_cs"
+  ],
+  "Cryptography and Network Security Lab": [
+   "computer_science_informatics.it_security"
+  ],
+  "Big Data: Spark": [
+   "computer_science_informatics.data_engineering"
+  ],
+  "Employability skills-II": [],
+  "Cloud Computing": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Computer Vision": [
+   "computer_science_informatics.graphics_visual_computing"
+  ],
+  "Block-Chain Technologies": [
+   "computer_science_informatics.it_security"
+  ],
+  "API and Microservices": [
+   "computer_science_informatics.software_engineering"
+  ],
+  "Secure Coding Techniques": [
+   "computer_science_informatics.it_security"
+  ],
+  "Universal Human Values 2: Understanding Harmony": [],
+  "PYTHON: Deep Learning": [
+   "computer_science_informatics.machine_learning_ai"
+  ],
+  "Industrial/Research Internship": [
+   "other.thesis_scientific_work"
+  ],
+  "Major Project Work, Seminar Internship": [
+   "other.thesis_scientific_work"
+  ]
+ }
+}

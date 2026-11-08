@@ -1,0 +1,160 @@
+{
+ "id": "S06_anna_klnce_mech",
+ "labeller": "Claude 03.11.2026 (course map first, exactly as the pipeline's own map lookup; generic maths titles null; then taxonomy rules); null = unsure (needs the syllabus), not scored",
+ "label_sources": {
+  "map": 15,
+  "generic": 0,
+  "manual": 43
+ },
+ "labels": {
+  "English for Technical Communication": [],
+  "Fundamentals of Engineering Mathematics": null,
+  "Engineering Physics": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Engineering Chemistry": [
+   "physics_natural_sciences.chemistry"
+  ],
+  "Problem Solving using Python Programming": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Basic Science Laboratory": [
+   "physics_natural_sciences.general_physics",
+   "physics_natural_sciences.chemistry"
+  ],
+  "Python Programming Laboratory": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Industrial Practices Workshop": [],
+  "Advanced Technical Communication": [],
+  "Laplace Transform and Advanced Calculus": [
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Applied Physics": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Engineering Graphics": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Engineering Mechanics": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics",
+   "physics_natural_sciences.general_physics"
+  ],
+  "Basic Electrical, Electronics and Instrumentation Engineering": null,
+  "Communication Skills Laboratory": [],
+  "Electrical, Electronics and Instrumentation Laboratory": null,
+  "Transforms and Partial Differential Equations": [
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Strength of Materials": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Fluid Mechanics and Machinery": [
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Manufacturing Processes": [
+   "mechanical_manufacturing_engineering.manufacturing_production"
+  ],
+  "Engineering Thermodynamics": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Universal Human Values": [],
+  "Strength of Materials Laboratory": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Fluid Mechanics and Machinery Laboratory": [
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Statistics and Numerical Methods": [
+   "mathematics_statistics.statistics_probability",
+   "mathematics_statistics.optimization_numerics",
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Kinematics of Machines": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Manufacturing Technology": [
+   "mechanical_manufacturing_engineering.manufacturing_production"
+  ],
+  "Thermal Engineering": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Environmental Science and Engineering": [],
+  "Metrology and Measurement Practices": null,
+  "Manufacturing Technology Laboratory": [
+   "mechanical_manufacturing_engineering.manufacturing_production"
+  ],
+  "Thermal Engineering Laboratory": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Design of Machine Elements": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Dynamics of Machines": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "CAD / CAM": [
+   "mechanical_manufacturing_engineering.design_machine_elements",
+   "mechanical_manufacturing_engineering.manufacturing_production"
+  ],
+  "Heat and Mass Transfer": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Lean Manufacturing": [
+   "mechanical_manufacturing_engineering.manufacturing_production"
+  ],
+  "Product Design and Development": null,
+  "Constitution of India": [],
+  "Dynamics Laboratory": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "CAD / CAM Laboratory": [
+   "mechanical_manufacturing_engineering.design_machine_elements",
+   "mechanical_manufacturing_engineering.manufacturing_production"
+  ],
+  "Heat and Mass Transfer Laboratory": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Design of Transmission Systems": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Finite Element Analysis": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Fundamentals of Artificial Intelligence": [
+   "computer_science_informatics.machine_learning_ai"
+  ],
+  "Total Quality Management": [
+   "business_economics_management.business_administration"
+  ],
+  "Power Plant Engineering": [
+   "mechanical_manufacturing_engineering.thermodynamics",
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Industrial Robotics": [],
+  "Computer Aided Simulation and Analysis Laboratory": null,
+  "Design and Fabrication Project": [],
+  "Mechatronics": [
+   "engineering.mechatronics"
+  ],
+  "Essentials of Data Analytics": null,
+  "Composite Material and Mechanics": [
+   "chemistry_materials.materials_science",
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Operations Research": [
+   "mathematics_statistics.optimization_numerics"
+  ],
+  "Renewable Energy Sources": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Mechatronics Laboratory": [
+   "engineering.mechatronics"
+  ],
+  "Technical Seminar": [],
+  "Project Work": []
+ },
+ "label_changes": [
+  "03.11.2026 after batch 1, Koushik approved: Statistics and Numerical Methods: + calculus_analysis (taxonomy: numerical methods belongs to BOTH calculus_analysis and optimization_numerics)"
+ ]
+}

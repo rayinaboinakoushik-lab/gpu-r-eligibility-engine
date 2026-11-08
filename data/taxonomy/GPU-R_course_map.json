@@ -1,0 +1,8436 @@
+{
+ "_version": "JNTUH R22+R25+R18 course map, record names (2026-10-26)",
+ "_rule": "title -> categories; a lab follows its theory course; [] = no category; branch_specific = same title mapped differently in that branch; same-subject rules S1-S3 already applied",
+ "courses": [
+  {
+   "title": "5G Communications",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.communications"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "5G Technologies",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "5G and beyond Communications",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.communications"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "AI Applications in Civil Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "AI Techniques in Electrical Engineering",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "AI for Signal and Image Processing",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai",
+    "electrical_electronic_engineering.digital_signal_processing"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "AI/ML for Design Analysis",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Additive Manufacturing",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Adhoc and Sensor Networks",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Advanced Computer Architecture",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Advanced Construction Technology",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.construction_management"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Advanced Engineering Physics",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Advanced Machining Processes",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Advanced Operating Systems",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.operating_systems",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_26_10": "added computer_engineering (R18 content: units on distributed systems, logical clocks, distributed file systems and DSM (rule S3: distributed -> computer_engineering); Koushik approved)"
+  },
+  {
+   "title": "Advanced Structural Analysis",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_engineering",
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Advanced Water Resources Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.water_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Agile Methodology",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.software_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Air Pollution",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.environmental_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Air Pollution & Control",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.environmental_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Airports, Railways and Waterways",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.transportation_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Algorithm Design and Analysis",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.algorithms_data_structures"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Analog Circuits",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Analog Electronic Circuits",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Analog Electronics",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Analog and Digital Communications",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.communications"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Analog and Mixed Signal IC Design",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.microelectronics_semiconductors"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Antenna Design and Wave Propagation",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electromagnetic_field_theory",
+    "electrical_electronic_engineering.communications"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_30_10": "title variant aligned with approved fix 3: antennas and propagation courses count in EM fields and communications (30.10.2026)"
+  },
+  {
+   "title": "Antennas and Wave Propagation",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electromagnetic_field_theory",
+    "electrical_electronic_engineering.communications"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_30_10": "title variant aligned with approved fix 3: antennas and propagation courses count in EM fields and communications (30.10.2026)"
+  },
+  {
+   "title": "Applications of Electrical Energy",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Applied Chemistry",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "physics_natural_sciences.chemistry"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Applied Mechanics",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Applied Physics",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Artificial Intelligence",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Artificial Intelligence in Mechanical Engineering",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Artificial Neural Networks",
+   "branches": [
+    "ECE",
+    "Mechanical"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Artificial Neural Networks and Deep Learning",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Augmented Reality & Virtual Reality",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.graphics_visual_computing"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Automata Theory and Compiler Design",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.theoretical_cs",
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Automation in Manufacturing",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Automobile Engineering",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "engineering.automotive_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Automotive Electronics",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "engineering.automotive_engineering",
+    "electrical_electronic_engineering.electronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Autonomous and Connected Vehicles",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "engineering.automotive_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Basic Electrical Engineering",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.circuit_theory"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Basic Electrical and Electronics Engineering",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.circuit_theory",
+    "electrical_electronic_engineering.electronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Battery Management Systems",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_electronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Big Data Technologies",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "data_science.foundational_methods",
+    "computer_science_informatics.data_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_27_10": "added data_engineering: Hadoop/Spark big-data frameworks = data engineering (kept data science too)"
+  },
+  {
+   "title": "Big data-Spark",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.data_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Biomedical Instrumentation",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "engineering.biomedical_engineering",
+    "electrical_electronic_engineering.measurement_instrumentation"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Biomedical Signal and Image Processing",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "engineering.biomedical_engineering",
+    "electrical_electronic_engineering.digital_signal_processing"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Biometrics",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.graphics_visual_computing",
+    "computer_science_informatics.it_security"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_26_10": "added it_security (R18 content: units on biometric privacy, cryptography and watermarking; Koushik approved)"
+  },
+  {
+   "title": "Blockchain Technology",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.it_security"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Building Materials and Concrete Technology",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "chemistry_materials.materials_science"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Building Materials, Construction and Planning",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "chemistry_materials.materials_science",
+    "civil_engineering.construction_management"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Building Planning and Construction",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.construction_management"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Building Science and Technology",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.construction_management"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Building Services Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.construction_management"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Business Economics and Financial Analysis",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "business_economics_management.business_administration"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "C Programming",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "C Programming and Data Structures",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs",
+    "computer_science_informatics.algorithms_data_structures"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "C Programming for Engineers",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "C and Data Structures",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs",
+    "computer_science_informatics.algorithms_data_structures"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "CAD/CAM",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements",
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "CMOS Analog IC Design",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.microelectronics_semiconductors"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "CMOS Fabrication and Technology",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.microelectronics_semiconductors"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "CMOS VLSI Design",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.microelectronics_semiconductors"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Charging Infrastructure for Electric Vehicles",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering",
+    "engineering.automotive_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Chemistry",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "physics_natural_sciences.chemistry"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Climate Change Adaptation & Mitigation",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.environmental_engineering",
+    "civil_engineering.geotechnics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Cloud Computing",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Compiler Design",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs",
+    "computer_science_informatics.theoretical_cs"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Composite Materials",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "chemistry_materials.materials_science"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Computational Fluid Dynamics",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "civil_engineering.fluid_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_26_10": "added optimization_numerics (R18 content: units on finite difference methods, stability, SIMPLE algorithm are numerical methods; Koushik approved)",
+   "change_31_10": "removed optimization_numerics (maths): FEM/CFD are engineering modules, not maths (TU Braunschweig BSc MB 2022, FAU BSc MB 2024 module handbooks); Koushik 31.10.2026"
+  },
+  {
+   "title": "Computer Aided Electrical Machine Design",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electrical_machines_drives"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Computer Aided Engineering Graphics",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Computer Aided Machine Drawing",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Computer Graphics",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.graphics_visual_computing"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Computer Networks",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Computer Organization & Operating Systems",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering",
+    "computer_science_informatics.operating_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Computer Organization and Architecture",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Computer Organization and Microprocessor",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering",
+    "electrical_electronic_engineering.digital_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_31_10": "added digital_systems: microprocessor courses count in computer_engineering AND digital_systems (approved fix 1, 30.10.2026); Koushik approved 31.10.2026"
+  },
+  {
+   "title": "Computer Oriented Statistical Methods",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "mathematics_statistics.statistics_probability"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Computer Vision",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.graphics_visual_computing"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Computer Vision and Digital Image Processing in Civil Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "computer_science_informatics.graphics_visual_computing"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Computer Vision and Image Processing",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "computer_science_informatics.graphics_visual_computing",
+    "electrical_electronic_engineering.digital_signal_processing"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Concrete Technology",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "chemistry_materials.materials_science"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Constitution of India",
+   "branches": [
+    "all"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Construction Planning & Management",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.construction_management"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Control Systems",
+   "branches": [
+    "ECE",
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.control_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Conventional and Computer Aided Machine Drawing",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Cryptography and Network Security",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.it_security"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Cyber Forensics",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.it_security"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Cyber Security",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.it_security"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Cyber-Physical Systems",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering",
+    "electrical_electronic_engineering.control_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "DSP Processors and Architectures",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.digital_signal_processing"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Data Analytics",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "data_science.foundational_methods",
+    "mathematics_statistics.statistics_probability"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_26_10": "added statistics_probability (R18 content: units on regression, logistic regression and ARIMA time series are statistics; Koushik approved)"
+  },
+  {
+   "title": "Data Analytics and Python for Engineers",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "data_science.foundational_methods",
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Data Communications and Computer Networks",
+   "branches": [
+    "CS/IT/CSIT",
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Data Engineering with Python",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.data_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Data Mining",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "data_science.foundational_methods",
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_27_10": "added machine_learning_ai: classification and clustering units = machine learning (ML includes \"data mining algorithms\")"
+  },
+  {
+   "title": "Data Stream Mining",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "data_science.foundational_methods",
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_27_10": "added machine_learning_ai: stream classification/clustering = machine learning"
+  },
+  {
+   "title": "Data Structures",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "computer_science_informatics.algorithms_data_structures"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Data Visualization",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "data_science.foundational_methods"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Database Management Systems",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "computer_science_informatics.databases_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Deep Learning",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Design Thinking and Ideation",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Design for Manufacturing and Assembly",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements",
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Design for Testability",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.microelectronics_semiconductors"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Design of Hydraulic Structures",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.water_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Design of Machine Elements",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Design of Reinforced Concrete Members",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Design of Steel Structures",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Design of Transmission Elements",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "DevOps",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.software_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Digital Control Systems",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.control_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Digital Electronics",
+   "branches": [
+    "CS/IT/CSIT",
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.digital_systems",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "branch_specific": {
+    "EEE": [
+     "electrical_electronic_engineering.digital_systems"
+    ]
+   },
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Digital Energy Systems",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Digital Forensics",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.it_security"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Digital Image Processing",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.digital_signal_processing",
+    "computer_science_informatics.graphics_visual_computing"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_30_10": "+ graphics_visual_computing: JNTUH R18 EC713PE units are image transforms, restoration, segmentation, morphology (image processing is in that category's definition); Koushik approved"
+  },
+  {
+   "title": "Digital Logic Design",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.digital_systems",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Digital Manufacturing",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Digital Signal Processing",
+   "branches": [
+    "ECE",
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.digital_signal_processing"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Disaster Management",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Discrete Mathematics",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "mathematics_statistics.discrete_math_logic"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Distributed Databases",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering",
+    "computer_science_informatics.databases_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Distributed Systems",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Drone Technology",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "engineering.robotics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Dynamics of Machinery",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "EIA & Life Cycle Analysis",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.environmental_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "EV Charging Infrastructure",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering",
+    "engineering.automotive_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Earth Retaining Structures",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.geotechnics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Edge Computing",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electric and Hybrid Vehicles",
+   "branches": [
+    "EEE",
+    "Mechanical"
+   ],
+   "categories": [
+    "engineering.automotive_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electrical Circuit Analysis – I",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.circuit_theory"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electrical Circuit Analysis – II",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.circuit_theory"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electrical Circuits - I",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.circuit_theory"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electrical Circuits - II",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.circuit_theory"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electrical Design, Estimation and Costing",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electrical Distribution Systems",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electrical Distribution and Automation",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electrical Machines – I",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electrical_machines_drives"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electrical Machines – II",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electrical_machines_drives"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electrical Measurements and Sensors",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.measurement_instrumentation"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electrical Safety",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electro Magnetic Fields",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electromagnetic_field_theory"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electromagnetic Fields",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electromagnetic_field_theory"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electromagnetic Fields and Transmission Lines",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electromagnetic_field_theory"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electronic Circuit Analysis",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electronic Devices and Circuits",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electronic Measurements and Instrumentation",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.measurement_instrumentation"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electronic Sensors",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.measurement_instrumentation"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Electronics for Health Care",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "engineering.biomedical_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Elements of Civil Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Elements of Computer Science & Engineering",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Elements of Earthquake Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Elements of Electrical and Electronics Engineering",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.circuit_theory",
+    "electrical_electronic_engineering.electronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Elements of Electronics and Communication Engineering",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Elements of Mechanical Engineering",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Embedded System Design",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Embedded Systems",
+   "branches": [
+    "CS/IT/CSIT",
+    "EEE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Embedded Systems Applications",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Energy Audit and Policies",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Energy Conservation and Audit",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Energy Conservation and Management",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Energy Storage Systems",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Engineering Chemistry",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "physics_natural_sciences.chemistry"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Engineering Geology",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.geotechnics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Engineering Graphics and Computer Aided Drafting",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Engineering Materials",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "chemistry_materials.materials_science"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Engineering Mechanics",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics",
+    "physics_natural_sciences.general_physics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Engineering Workshop",
+   "branches": [
+    "all"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "English for Skill Enhancement",
+   "branches": [
+    "all"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Environmental Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.environmental_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Environmental Impact Assessment",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.environmental_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Environmental Science",
+   "branches": [
+    "all"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Estimation Quantity Surveying & Valuation",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.construction_management"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "FPGA based System Design",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.digital_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Field Based Project / Internship",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "other.thesis_scientific_work"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Finite Element Methods",
+   "branches": [
+    "Civil",
+    "Mechanical"
+   ],
+   "categories": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_31_10": "removed optimization_numerics (maths): FEM/CFD are engineering modules, not maths (TU Braunschweig BSc MB 2022, FAU BSc MB 2024 module handbooks); Koushik 31.10.2026"
+  },
+  {
+   "title": "Fluid Mechanics",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.fluid_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Fluid Mechanics & Hydraulic Machines",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "civil_engineering.fluid_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Fluid Mechanics and Hydraulic Machines",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "civil_engineering.fluid_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Fluid Power System",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "civil_engineering.fluid_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Formal Languages and Automata Theory",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.theoretical_cs"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Foundation Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.geotechnics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Full Stack Development",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Fundamental of Electric Vehicles",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "engineering.automotive_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Fundamentals of Cyber Physical Systems",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Fundamentals of Image Processing",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.digital_signal_processing",
+    "computer_science_informatics.graphics_visual_computing"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_30_10": "title variant aligned with approved fix 5: image processing counts in DSP and visual computing (30.10.2026)"
+  },
+  {
+   "title": "Fundamentals of Management",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "business_economics_management.business_administration"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Fundamentals of Management for Engineers",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "business_economics_management.business_administration"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Fuzzy Logic and ANN",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Fuzzy Logic and ANN Applications in Civil Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Game Theory",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "mathematics_statistics.optimization_numerics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Gender Sensitization Lab",
+   "branches": [
+    "all"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Generative AI",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Geomatic Applications in Civil Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.surveying_geodesy"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Geotechnical Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.geotechnics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Graph Theory",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "mathematics_statistics.discrete_math_logic"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Green Building Technologies",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.environmental_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Green Computing",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Ground Improvement Techniques",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.geotechnics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Ground Water Hydrology",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.water_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "HVDC Transmission",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Heat Transfer",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "High Performance Computing",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "High Voltage Engineering",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Human Computer Interaction",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.hci"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Human Values and Professional Ethics",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "society_law_ethics.ethics_law_society"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Hybrid Electric Vehicles",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "engineering.automotive_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Hydraulic Structures",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.water_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Hydraulics & Hydraulic Machinery",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.fluid_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Hydraulics and Hydraulics Machinery",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.fluid_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Hydraulics and Pneumatics",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "civil_engineering.fluid_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Hydrology and Water Resources Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.water_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "IC Engines & Gas Turbines",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "IT Workshop",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Image Processing",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.graphics_visual_computing",
+    "electrical_electronic_engineering.digital_signal_processing"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Image and Video Processing",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.digital_signal_processing"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Indian Knowledge System",
+   "branches": [
+    "all"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Industrial Automation and Control",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.control_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Industrial Engineering and Management",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "business_economics_management.business_administration"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Industrial Management",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "business_economics_management.business_administration"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Industrial Robotics",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "engineering.robotics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Industrial Waste Water Treatment",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.environmental_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Industry 4.0",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Industry Oriented Mini Project / Internship",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "other.thesis_scientific_work"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Industry Oriented Mini Project / Summer Internship",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "other.thesis_scientific_work"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Information Retrieval Systems",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.databases_systems",
+    "information_science.knowledge_organisation"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_26_10": "added knowledge_organisation (R18 content: indexing, inverted/signature files, clustering = information retrieval (knowledge_organisation definition); Koushik approved)"
+  },
+  {
+   "title": "Information Security",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.it_security"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Innovation and Entrepreneurship",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "business_economics_management.business_administration"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Instrumentation",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.measurement_instrumentation"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Instrumentation and Control Systems",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.measurement_instrumentation",
+    "electrical_electronic_engineering.control_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Intellectual Property Rights",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "society_law_ethics.ethics_law_society"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_30_10": "IPR -> ethics_law_society: the category's definition includes 'IT law, data protection, IPR' (Koushik approved 30.10.2026)"
+  },
+  {
+   "title": "Intelligent Transportation Systems",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.transportation_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Intelligent e-Computer Aided Design",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.microelectronics_semiconductors"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Internet of Things",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Introduction to Data Science",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "data_science.foundational_methods"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Introduction to IoT",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Introduction to Wireless Communications",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.communications"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Intrusion Detection Systems",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.it_security"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "IoT Applications in Civil Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "IoT Applications in Electrical Engineering",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "IoT Architectures and Protocols",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering",
+    "computer_science_informatics.computer_networks"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Java Programming",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Kinematics of Machinery",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Linear and Digital IC Applications",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electronics",
+    "electrical_electronic_engineering.digital_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Linux and Shell Scripting",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.operating_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Low Cost Materials and Green Buildings",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "chemistry_materials.materials_science",
+    "civil_engineering.environmental_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Low Power VLSI Design",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.microelectronics_semiconductors"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Machine Design",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Machine Learning",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Machine Learning & Deep Learning and Its Applications",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Machine Learning Applications to Electrical Engineering",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Machine Learning and Data Analytics in Civil Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai",
+    "data_science.foundational_methods"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Material Science and Metallurgy",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "chemistry_materials.materials_science"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Mathematical and Statistical Foundation",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "mathematics_statistics.discrete_math_logic",
+    "mathematics_statistics.statistics_probability"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Mathematics for Machine Learning",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "mathematics_statistics.linear_algebra",
+    "mathematics_statistics.optimization_numerics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Mathematics – III",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "mathematics_statistics.calculus_analysis"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Matrices and Calculus",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "mathematics_statistics.calculus_analysis",
+    "mathematics_statistics.linear_algebra"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Measurements and Instrumentation",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.measurement_instrumentation"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Measuring Instruments",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.measurement_instrumentation"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Mechanical Vibrations",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Mechanics of Composite Materials and Structures",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "chemistry_materials.materials_science",
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Mechanics of Solids",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Mechatronic Systems",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "engineering.mechatronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Mechatronics",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "engineering.mechatronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Metallurgy & Material Science",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "chemistry_materials.materials_science"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Metrology & Machine Tools",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.manufacturing_production",
+    "electrical_electronic_engineering.measurement_instrumentation"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Metrology and Machine Tools",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.manufacturing_production",
+    "electrical_electronic_engineering.measurement_instrumentation"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Micro Manufacturing",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Microcontrollers",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering",
+    "electrical_electronic_engineering.digital_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_30_10": "title variant aligned with approved fix 1: microprocessor / microcontroller courses count in computer engineering and digital systems (30.10.2026)"
+  },
+  {
+   "title": "Microprocessors & Microcontrollers",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering",
+    "electrical_electronic_engineering.digital_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Microprocessors and Microcontrollers",
+   "branches": [
+    "EEE",
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering",
+    "electrical_electronic_engineering.digital_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Microprocessors in Automation",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "engineering.mechatronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Microwave and Optical Communications",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electromagnetic_field_theory",
+    "electrical_electronic_engineering.communications"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Mining Massive Datasets",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "data_science.foundational_methods",
+    "computer_science_informatics.machine_learning_ai",
+    "computer_science_informatics.data_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_27_10": "added machine_learning_ai, data_engineering: clustering, recommender systems = ML; MapReduce / large-scale processing = data engineering"
+  },
+  {
+   "title": "Mobile Application Development",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Mobile Application Security",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.it_security"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Mobile Communications and Networks",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.communications",
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Mobile Computing",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Model Based System Engineering",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "engineering.model_based_systems_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Modelling and Simulation Tools",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Multimedia Database Management Systems",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.databases_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Natural Language Processing",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Nature Inspired Computing",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Network Analysis and Synthesis",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.circuit_theory"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Network Security and Cryptography",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.it_security"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Non-Conventional Energy Sources",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Non-Conventional Sources of Energy",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Number Theory & Cryptography",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.it_security",
+    "mathematics_statistics.discrete_math_logic"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Numerical Methods and Complex Variables",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "mathematics_statistics.optimization_numerics",
+    "mathematics_statistics.calculus_analysis"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Object Oriented Programming through Java",
+   "branches": [
+    "CS/IT/CSIT",
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Object Oriented Programming using C++",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Operating Systems",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.operating_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Operations Research",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mathematics_statistics.optimization_numerics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Optimization Methods",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mathematics_statistics.optimization_numerics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Optimization Techniques",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "mathematics_statistics.optimization_numerics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Ordinary Differential Equations and Vector Calculus",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "mathematics_statistics.calculus_analysis"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Organisational Behaviour",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "business_economics_management.business_administration"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "PCB Design / FPGA Fundamentals",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.digital_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Pattern Recognition",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Pavement Analysis & Design",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.transportation_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Pavement Asset Management",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.transportation_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Physics",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Plant Maintenance and Reliability Engineering",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Power Electronic Applications to Renewable Energy Systems",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_electronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Power Electronics",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_electronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Power Electronics for Renewable Energy Systems",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_electronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Power Plant Engineering",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.thermodynamics",
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_26_10": "added power_engineering (R18 content: units on steam, hydro and nuclear power stations and plant economics = power generation; Koushik approved)"
+  },
+  {
+   "title": "Power Quality & FACTS",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering",
+    "electrical_electronic_engineering.power_electronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Power Quality Techniques",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering",
+    "electrical_electronic_engineering.power_electronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Power Semiconductor Drives",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electrical_machines_drives",
+    "electrical_electronic_engineering.power_electronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Power System Operation and Control",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Power System Protection",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Power System Reliability",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Power System – I",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Power System – II",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Power Systems - I",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Power Systems - II",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Pre Engineered Buildings",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Prestressed Concrete",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Principles of Communication",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.communications"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Principles of Programming Languages",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Probability Theory and Stochastic Processes",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "mathematics_statistics.statistics_probability"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Probability and Statistics",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "mathematics_statistics.statistics_probability"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Probability, Statistics & Complex Variables",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mathematics_statistics.statistics_probability",
+    "mathematics_statistics.calculus_analysis"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Probability, Statistics and Complex Variables",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mathematics_statistics.statistics_probability",
+    "mathematics_statistics.calculus_analysis"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Product Design and Manufacturing",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements",
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Production Planning & Control",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "business_economics_management.business_administration"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Production Planning and Control",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "business_economics_management.business_administration"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Production Technology",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Professional Practice, Law & Ethics",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "society_law_ethics.ethics_law_society"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Programmable Logic Controllers",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.control_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Programming for Problem Solving",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Project Management",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "business_economics_management.business_administration"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Project Stage – I",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "other.thesis_scientific_work"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Project Stage – II including Seminar",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "other.thesis_scientific_work"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Project Work",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "other.thesis_scientific_work"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Python Programming",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Quantity Survey & Valuation",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.construction_management"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Quantum Computing",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.theoretical_cs"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Quantum Computing Applications in Civil Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Quantum Technologies",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "RF Circuit Design",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electromagnetic_field_theory",
+    "electrical_electronic_engineering.electronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "RISC and Microcontroller Architectures",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Radar Systems",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.communications"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Railways, Airports & Waterways",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.transportation_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Re-Engineering",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Real Time Systems",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.operating_systems",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Real-time Research Project / Field-Based Project",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "other.thesis_scientific_work"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Refrigeration & Air Conditioning",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Refrigeration and Air-Conditioning",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Reinforcement Learning",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Reliability Engineering",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Remote Sensing & GIS",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.surveying_geodesy"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Renewable Energy Sources",
+   "branches": [
+    "EEE",
+    "Mechanical"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Renewable Energy Systems",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Road Safety Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.transportation_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Robotic Process Automation",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.software_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Robotics and Automation",
+   "branches": [
+    "EEE",
+    "Mechanical"
+   ],
+   "categories": [
+    "engineering.robotics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Satellite Communications",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.communications"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Scalable Architecture for Large Applications",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.software_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Scripting Languages",
+   "branches": [
+    "CS/IT/CSIT",
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Secure Coding Principles",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.it_security"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Signals and Systems",
+   "branches": [
+    "ECE",
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.signals_systems"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Smart Cities",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.construction_management"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Smart Cities Planning and Management",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.construction_management"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Smart Grid Technologies",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Smart Metering and Communication Protocols",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.measurement_instrumentation",
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Social Media Mining",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "data_science.foundational_methods",
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_27_10": "added machine_learning_ai: ML includes \"social network analysis / mining\""
+  },
+  {
+   "title": "Software Engineering",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.software_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Software Process & Project Management",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.software_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Software Project Management",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.software_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Software Testing Methodologies",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.software_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Solar Energy Technology",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Solar Power Batteries",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Solid & Hazardous Waste Management",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.environmental_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Solid Mechanics & Hydraulic Machines",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics",
+    "civil_engineering.fluid_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Solid Waste Management",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.environmental_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Stability Analysis of Slopes",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.geotechnics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Steam Power & Jet Propulsion",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Strength of Materials",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Strength of Materials – I",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Strength of Materials – II",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Structural Analysis",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_engineering",
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Structural Analysis - I",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_engineering",
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Structural Analysis - II",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_engineering",
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Structural Dynamics & Earthquake Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Structural Engineering -I (RCC)",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Structural Engineering -II (Steel Structures)",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Structural Health Monitoring & Retrofitting of Structures",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Structural Mechanics",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics",
+    "civil_engineering.structural_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Surveying",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.surveying_geodesy"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Surveying and Geomatics",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.surveying_geodesy"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Sustainability for Electronics",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Sustainable Energy Technologies",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Sustainable Engineering",
+   "branches": [
+    "all"
+   ],
+   "categories": [
+    "civil_engineering.environmental_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Sustainable Engineering Technologies",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.environmental_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Switched Mode Power Conversion",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_electronics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "System on Chip Architecture",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.microelectronics_semiconductors",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_30_10": "+ computer_engineering: JNTUH R18 EC821PE units are processor architectures, cache/memory design, buses and interconnect (about 90% computer architecture); Koushik approved"
+  },
+  {
+   "title": "Theory of Structures",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Thermal Engineering - I",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Thermal Engineering - II",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Thermodynamics",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Total Quality Management",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "business_economics_management.business_administration"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Transportation Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.transportation_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Troubleshooting of Mechanical Systems",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Turbo Machinery",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "civil_engineering.fluid_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics",
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Unconventional Machining Processes",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Unmanned Aerial Vehicles and Satellite Imaging",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "engineering.robotics"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Urban Hydrology & Hydraulics",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.water_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Utilization of Electric Energy",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "VLSI Design",
+   "branches": [
+    "EEE",
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.microelectronics_semiconductors"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Vulnerability and Penetration Testing",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.it_security"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Water Resources and Irrigation Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.water_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Web Programming",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Web Security",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.it_security"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Web and Mobile Applications",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Wind and Solar Energy Systems",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Wireless Communication Networks",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.communications",
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25"
+   ],
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  {
+   "title": "Wireless Sensor Networks",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R22",
+    "R25",
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "change_31_10": "removed communications: JNTUH R18 EC813PE units = WSN architectures, MANETs, routing, MAC protocols, data dissemination, node design, TinyOS (no communication-systems content); Koushik 31.10.2026"
+  },
+  {
+   "title": "Surveying Lab",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.surveying_geodesy"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CE306PC",
+   "why": "LAB follows Surveying and Geomatics",
+   "r18_unit_topics": "chain, compass, levelling, theodolite, total station, curve setting",
+   "source": "https://nrcmec.org/pdf/Regulations/R18/R18"
+  },
+  {
+   "title": "Strength of Materials Lab",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CE307PC",
+   "why": "LAB follows Strength of Materials - I",
+   "r18_unit_topics": "tension, bending, torsion, hardness, impact tests",
+   "source": "https://nrcmec.org/pdf/Regulations/R18/R18"
+  },
+  {
+   "title": "Engineering Geology Lab",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.geotechnics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CE308PC",
+   "why": "LAB follows Engineering Geology",
+   "r18_unit_topics": "minerals, rocks, geological maps",
+   "source": "https://nrcmec.org/pdf/Regulations/R18/R18"
+  },
+  {
+   "title": "Basic Mechanical Engineering for Civil Engineers",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements",
+    "mechanical_manufacturing_engineering.thermodynamics",
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CE402ES",
+   "why": "cams, gears, drives; engines, refrigeration, heat transfer; welding, casting, machine tools",
+   "r18_unit_topics": "cams, riveted joints, gears, belt drives, material handling, engines, refrigeration, heat transfer basics, welding, casting, machine tools",
+   "source": "https://nrcmec.org/pdf/Regulations/R18/R18"
+  },
+  {
+   "title": "Computer aided Civil Engineering Drawing",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.construction_management"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CE407PC",
+   "why": "AutoCAD building plans, sections, elevations = building planning",
+   "r18_unit_topics": "AutoCAD, building plans, sections, elevations",
+   "source": "jntuh.ac.in R18B.TECHCIVILENGG.IIYearSyllabus.pdf"
+  },
+  {
+   "title": "Hydraulics and Hydraulic Machinery Lab",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.fluid_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CE409PC",
+   "why": "LAB follows Hydraulics and Hydraulic Machinery",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Engineering Economics and Accountancy",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "business_economics_management.business_administration"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "SM505MS",
+   "why": "demand, national income, capital budgeting, accounting, costing",
+   "r18_unit_topics": "demand, supply, national income, inflation, capital budgeting, NPV, IRR, accounting, costing, break-even",
+   "source": "jntuh.ac.in R18B.Tech.CivilEngg.IIIYearSyllabus.pdf"
+  },
+  {
+   "title": "Highway Engineering and Concrete Technology Lab",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.transportation_engineering",
+    "chemistry_materials.materials_science"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CE506PC",
+   "why": "LAB follows Transportation Engineering",
+   "r18_unit_topics": "",
+   "source": "",
+   "change_30_10": "combined lab: also practises concrete technology / material science -> + materials_science (rule 7, Koushik approved)"
+  },
+  {
+   "title": "Geotechnical Engineering Lab",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.geotechnics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CE507PC",
+   "why": "LAB follows Geotechnical Engineering",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Structural Engineering-II (Steel)",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CE604PC",
+   "why": "limit state steel design",
+   "r18_unit_topics": "bolted and welded connections, tension and compression members, plastic analysis, beams, plate girders, trusses, gantry girders",
+   "source": "jntuh.ac.in R18B.Tech.CivilEngg.IIIYearSyllabus.pdf"
+  },
+  {
+   "title": "Environmental Engineering Lab",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.environmental_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CE605PC",
+   "why": "LAB follows Environmental Engineering",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Computer Aided Design Lab",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CE606PC",
+   "why": "LAB follows Structural Engineering-I (RCC)",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Estimation, Costing and Project Management",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.construction_management"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CE701PC",
+   "why": "quantities, estimates, contracts, valuation, CPM/PERT",
+   "r18_unit_topics": "quantities, estimates, rebar schedules, earthwork, contracts, valuation, specifications, planning, Gantt charts, CPM, PERT",
+   "source": "inspirenignite.com (copy of JNTUH text, partial)"
+  },
+  {
+   "title": "Theory of Elasticity",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CE512PE",
+   "why": "stress/strain, plane problems, energy theorems, torsion (elasticity theory = technical mechanics)",
+   "r18_unit_topics": "stress and strain, plane stress and strain, stress function, 2D problems, 3D stress, energy theorems, torsion",
+   "source": "jntuh.ac.in R18B.Tech.CivilEngg.IIIYearSyllabus.pdf"
+  },
+  {
+   "title": "Rock Mechanics",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.geotechnics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CE513PE",
+   "why": "rock classification, testing, slopes, blasting",
+   "r18_unit_topics": "rock classification, testing, strength, rock slopes, blasting",
+   "source": "jntuh.ac.in R18B.Tech.CivilEngg.IIIYearSyllabus.pdf"
+  },
+  {
+   "title": "Advanced Structural Design",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CE713PE",
+   "why": "retaining walls, water tanks, bridges",
+   "r18_unit_topics": "retaining walls, RCC water tanks, bridges, IRC loading, slab bridge decks",
+   "source": "same (partial)"
+  },
+  {
+   "title": "Irrigation and Hydraulic Structures",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.water_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CE721PE",
+   "why": "dams, spillways, headworks, weirs",
+   "r18_unit_topics": "reservoirs, dams, earth dams, spillways, stilling basins, diversion headworks, weirs",
+   "source": "same (partial)"
+  },
+  {
+   "title": "Pipeline Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.water_engineering",
+    "civil_engineering.fluid_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CE722PE",
+   "why": "pipeline hydraulics, pumps, valves, network analysis",
+   "r18_unit_topics": "pipeline design, hydraulics, route selection, pumps, valves, network analysis, Hardy Cross",
+   "source": "same (partial)"
+  },
+  {
+   "title": "Urban Transportation Planning",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.transportation_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CE822PE",
+   "why": "trip generation, distribution, assignment",
+   "r18_unit_topics": "trip generation, trip distribution, gravity models, route assignment",
+   "source": "inspirenignite.com (copy of JNTUH text, partial)"
+  },
+  {
+   "title": "Finite Element Methods for Civil Engineering",
+   "branches": [
+    "Civil"
+   ],
+   "categories": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CE823PE",
+   "why": "FEM, elasticity, beam and 2D elements (mechanics only since 31.10.2026: FEM is an engineering module, not maths)",
+   "r18_unit_topics": "FEM basics, elasticity, plane stress/strain, beam elements, CST/LST, isoparametric elements",
+   "source": "inspirenignite.com (copy of JNTUH text, partial)",
+   "change_31_10": "removed optimization_numerics (maths): FEM/CFD are engineering modules, not maths (TU Braunschweig BSc MB 2022, FAU BSc MB 2024 module handbooks); Koushik 31.10.2026"
+  },
+  {
+   "title": "Mathematics - I",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "mathematics_statistics.calculus_analysis",
+    "mathematics_statistics.linear_algebra"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "MA101BS",
+   "why": "matrices, eigenvalues, series, mean value theorems, partial derivatives",
+   "r18_unit_topics": "Matrices, rank, linear systems, eigenvalues, quadratic forms, sequences and series, mean value theorems, Beta/Gamma functions, partial derivatives, extrema",
+   "source": "https://scce.ac.in/web1/CSE/R18.pdf"
+  },
+  {
+   "title": "English",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "EN105HS",
+   "why": "language course",
+   "r18_unit_topics": "Vocabulary, grammar, reading, technical writing",
+   "source": "https://scce.ac.in/web1/CSE/R18.pdf"
+  },
+  {
+   "title": "Engineering Chemistry Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "physics_natural_sciences.chemistry"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CH106BS",
+   "why": "LAB follows Chemistry",
+   "r18_unit_topics": "hardness, titrations, viscosity, TLC",
+   "source": "https://scce.ac.in/web1/CSE/R18.pdf"
+  },
+  {
+   "title": "English Language and Communication Skills Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EN107HS",
+   "why": "LAB follows English",
+   "r18_unit_topics": "phonetics, speaking",
+   "source": "https://scce.ac.in/web1/CSE/R18.pdf"
+  },
+  {
+   "title": "Basic Electrical Engineering Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.circuit_theory"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EE108ES",
+   "why": "LAB follows Basic Electrical Engineering",
+   "r18_unit_topics": "Ohm's law, KVL/KCL, transients, resonance, transformer and machine characteristics",
+   "source": "https://scce.ac.in/web1/CSE/R18.pdf"
+  },
+  {
+   "title": "Mathematics - II",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "mathematics_statistics.calculus_analysis"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "MA201BS",
+   "why": "ODEs, multiple integrals, vector calculus",
+   "r18_unit_topics": "First- and higher-order ODEs, multiple integrals, vector differentiation, line/surface/volume integrals",
+   "source": "https://scce.ac.in/web1/CSE/R18.pdf"
+  },
+  {
+   "title": "Engineering Graphics",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "ME204ES",
+   "why": "projections, sections, isometric views (as Computer Aided Engineering Graphics in R22)",
+   "r18_unit_topics": "Conic sections, orthographic projection, sections, development, isometric views",
+   "source": "https://scce.ac.in/web1/CSE/R18.pdf"
+  },
+  {
+   "title": "Applied Physics Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "AP205BS",
+   "why": "LAB follows Applied Physics",
+   "r18_unit_topics": "diode energy gap, solar cell, LED, Hall effect, lasers, optical fibre",
+   "source": "https://scce.ac.in/web1/CSE/R18.pdf"
+  },
+  {
+   "title": "Programming for Problem Solving Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CS206ES",
+   "why": "LAB follows Programming for Problem Solving",
+   "r18_unit_topics": "C programs",
+   "source": "https://scce.ac.in/web1/CSE/R18.pdf"
+  },
+  {
+   "title": "Analog and Digital Electronics",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electronics",
+    "electrical_electronic_engineering.digital_systems",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CS301ES",
+   "why": "diodes, BJT/FET amplifiers; logic families, Boolean, flip-flops, counters, memory (digital part as Digital Logic Design)",
+   "r18_unit_topics": "diodes, rectifiers, BJT/FET amplifiers, biasing, logic families (DTL, TTL, CMOS), Boolean algebra, combinational circuits, flip-flops, counters, shift registers, RAM, ROM",
+   "source": "https://scce.ac.in/web1/CSE/R18.pdf"
+  },
+  {
+   "title": "Analog and Digital Electronics Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electronics",
+    "electrical_electronic_engineering.digital_systems",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CS306ES",
+   "why": "LAB follows Analog and Digital Electronics",
+   "r18_unit_topics": "rectifiers, amplifiers, gates, adders, counters",
+   "source": "https://scce.ac.in/web1/CSE/R18.pdf"
+  },
+  {
+   "title": "Data Structures Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.algorithms_data_structures"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CS307PC",
+   "why": "LAB follows Data Structures",
+   "r18_unit_topics": "lists, stacks, queues, sorting, searching, tree and graph traversal",
+   "source": "https://scce.ac.in/web1/CSE/R18.pdf"
+  },
+  {
+   "title": "IT Workshop Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CS308PC",
+   "why": "LAB follows IT Workshop",
+   "r18_unit_topics": "PC hardware, OS installation, internet, cyber hygiene, Word, Excel, LaTeX",
+   "source": "https://scce.ac.in/web1/CSE/R18.pdf"
+  },
+  {
+   "title": "C++ Programming Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CS309PC",
+   "why": "LAB follows Object Oriented Programming using C++",
+   "r18_unit_topics": "classes, inheritance, pointers, virtual functions",
+   "source": "https://scce.ac.in/web1/CSE/R18.pdf"
+  },
+  {
+   "title": "Operating Systems Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.operating_systems"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CS406PC",
+   "why": "LAB follows Operating Systems",
+   "r18_unit_topics": "scheduling simulation, system calls, Banker's algorithm, IPC",
+   "source": "https://scce.ac.in/web1/CSE/R18.pdf"
+  },
+  {
+   "title": "Database Management Systems Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.databases_systems"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CS407PC",
+   "why": "LAB follows Database Management Systems",
+   "r18_unit_topics": "SQL, triggers, procedures, cursors",
+   "source": "https://scce.ac.in/web1/CSE/R18.pdf"
+  },
+  {
+   "title": "Java Programming Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CS408PC",
+   "why": "LAB follows Java Programming",
+   "r18_unit_topics": "Java programs, GUI, threads",
+   "source": "https://scce.ac.in/web1/CSE/R18.pdf"
+  },
+  {
+   "title": "Web Technologies",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CS504PC",
+   "why": "PHP, HTML/CSS, XML, servlets, JSP, JavaScript",
+   "r18_unit_topics": "PHP, HTML/CSS, XML DOM/SAX, servlets, JSP, JDBC, JavaScript, form validation",
+   "source": "jntuh.ac.in R18B.Tech.CSEIIIYearSyllabus.pdf"
+  },
+  {
+   "title": "Software Engineering Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.software_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CS505PC",
+   "why": "LAB follows Software Engineering",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Computer Networks & Web Technologies Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CS506PC",
+   "why": "LAB follows Computer Networks",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Design and Analysis of Algorithms",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.algorithms_data_structures"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CS603PC",
+   "why": "divide and conquer, DP, greedy, backtracking, NP-completeness",
+   "r18_unit_topics": "asymptotic notation, divide and conquer, disjoint sets, backtracking, dynamic programming, greedy, branch and bound, NP-hard/NP-complete",
+   "source": "jntuh.ac.in R18B.Tech.CSEIIIYearSyllabus.pdf"
+  },
+  {
+   "title": "Machine Learning Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CS604PC",
+   "why": "LAB follows Machine Learning",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Compiler Design Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs",
+    "computer_science_informatics.theoretical_cs"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CS605PC",
+   "why": "LAB follows Compiler Design",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Cryptography & Network Security Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.it_security"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "CS703PC",
+   "why": "LAB follows Cryptography & Network Security",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Organizational Behaviour",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "business_economics_management.business_administration"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "SM801MS",
+   "why": "personality, motivation, teams, leadership",
+   "r18_unit_topics": "perception, personality, motivation, communication, decision making, conflict, power, teams, leadership",
+   "source": "studentservices.jntuh.ac.in (R18) B.Tech. CSE Syllabus.pdf"
+  },
+  {
+   "title": "Information Theory & Coding",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.information_theory"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CS511PE",
+   "why": "entropy, source coding, block/cyclic/convolutional codes",
+   "r18_unit_topics": "entropy, Shannon-Fano, Huffman, linear block, cyclic, convolutional codes, Viterbi, BCH",
+   "source": "jntuh.ac.in R18B.Tech.CSEIIIYearSyllabus.pdf"
+  },
+  {
+   "title": "Concurrent Programming",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.operating_systems"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CS611PE",
+   "why": "locks, mutual exclusion, linearizability, concurrent data structures = synchronization/concurrency (operating_systems includes concurrent programming, as in the PC taxonomy)",
+   "r18_unit_topics": "mutual exclusion, locks, linearizability, consensus, spin locks, concurrent lists, queues, stacks, transactional memory",
+   "source": "jntuh.ac.in R18B.Tech.CSEIIIYearSyllabus.pdf"
+  },
+  {
+   "title": "Network Programming",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs",
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CS612PE",
+   "why": "socket API, TCP/UDP client-server, multicast, raw sockets",
+   "r18_unit_topics": "socket API, TCP/UDP client-server, select/poll, socket options, name resolution, daemons, broadcast, multicast, raw sockets",
+   "source": "jntuh.ac.in R18B.Tech.CSEIIIYearSyllabus.pdf"
+  },
+  {
+   "title": "Introduction to Embedded Systems",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CS712PE",
+   "why": "embedded hardware, firmware, RTOS",
+   "r18_unit_topics": "embedded classification, hardware components, embedded C firmware, RTOS tasks, scheduling, synchronization, integration and testing",
+   "source": "studentservices.jntuh.ac.in (R18) B.Tech. CSE Syllabus.pdf"
+  },
+  {
+   "title": "Advanced Algorithms",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.algorithms_data_structures"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CS721PE",
+   "why": "graph algorithms, max flow, string matching, approximation",
+   "r18_unit_topics": "recurrences, sorting, dynamic programming, greedy, graph algorithms, max flow, sorting networks, string matching, NP-completeness, approximation",
+   "source": "studentservices.jntuh.ac.in (R18) B.Tech. CSE Syllabus.pdf"
+  },
+  {
+   "title": "Soft Computing",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CS723PE",
+   "why": "fuzzy logic, genetic algorithms, PSO, rough sets",
+   "r18_unit_topics": "fuzzy sets, fuzzy logic, rule systems, particle swarm optimization, genetic algorithms, rough sets",
+   "source": "studentservices.jntuh.ac.in (R18) B.Tech. CSE Syllabus.pdf"
+  },
+  {
+   "title": "Computational Complexity",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.theoretical_cs",
+    "computer_science_informatics.algorithms_data_structures"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CS811PE",
+   "why": "P vs NP, reductions, randomized and approximation algorithms",
+   "r18_unit_topics": "polynomial time, reductions, P vs NP, algorithm design paradigms, randomized algorithms, approximation, advanced data structures",
+   "source": "studentservices.jntuh.ac.in (R18) B.Tech. CSE Syllabus.pdf"
+  },
+  {
+   "title": "Neural Networks & Deep Learning",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.machine_learning_ai"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "CS813PE",
+   "why": "ANN, deep feedforward networks, regularization, optimization",
+   "r18_unit_topics": "ANN basics, supervised and unsupervised networks, deep feedforward networks, regularization, optimization, vision/speech/NLP applications",
+   "source": "studentservices.jntuh.ac.in (R18) B.Tech. CSE Syllabus.pdf"
+  },
+  {
+   "title": "Network Analysis and Transmission Lines",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.circuit_theory",
+    "electrical_electronic_engineering.electromagnetic_field_theory"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "EC302PC",
+   "why": "RLC transients, two-port, filters; transmission lines, Smith chart",
+   "r18_unit_topics": "RLC transient and steady state, two-port parameters, filters, attenuators, transmission line equations, Smith chart, stub matching",
+   "source": "https://scce.ac.in/web1/ece/R18.pdf"
+  },
+  {
+   "title": "Digital System Design",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.digital_systems",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "EC303PC",
+   "why": "Boolean algebra, K-map, combinational/sequential circuits, FSM (as Digital Logic Design)",
+   "r18_unit_topics": "number systems, Boolean algebra, K-map, combinational and sequential circuits, counters, FSMs, logic families",
+   "source": "https://scce.ac.in/web1/ece/R18.pdf"
+  },
+  {
+   "title": "Electronic Devices and Circuits Lab",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EC306PC",
+   "why": "LAB follows Electronic Devices and Circuits",
+   "r18_unit_topics": "diodes, rectifiers, BJT/FET characteristics",
+   "source": "https://scce.ac.in/web1/ece/R18.pdf"
+  },
+  {
+   "title": "Digital System Design Lab",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.digital_systems",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EC307PC",
+   "why": "LAB follows Digital System Design",
+   "r18_unit_topics": "gates, adders, counters, multiplexers",
+   "source": "https://scce.ac.in/web1/ece/R18.pdf"
+  },
+  {
+   "title": "Basic Simulation Lab",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.signals_systems"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EC308ES",
+   "why": "LAB follows Signals and Systems",
+   "r18_unit_topics": "MATLAB signals, convolution, Fourier, Laplace, sampling",
+   "source": "https://scce.ac.in/web1/ece/R18.pdf"
+  },
+  {
+   "title": "Laplace Transforms, Numerical Methods & Complex Variables",
+   "branches": [
+    "ECE",
+    "EEE"
+   ],
+   "categories": [
+    "mathematics_statistics.calculus_analysis",
+    "mathematics_statistics.optimization_numerics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "MA401BS",
+   "why": "Laplace, numerical methods, complex analysis",
+   "r18_unit_topics": "Laplace transforms, root finding, interpolation, numerical integration and ODE, complex differentiation, Cauchy, residues",
+   "source": "https://nrcmec.org/pdf/Regulations/R18/R18"
+  },
+  {
+   "title": "Electromagnetic Fields and Waves",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electromagnetic_field_theory"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "EC402PC",
+   "why": "Maxwell equations, plane waves, waveguides",
+   "r18_unit_topics": "electrostatics, magnetostatics, Maxwell equations, plane waves, reflection, waveguides, microstrip",
+   "source": "https://scce.ac.in/web1/ece/R18.pdf"
+  },
+  {
+   "title": "Linear IC Applications",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "EC404PC",
+   "why": "op-amps, active filters, 555, PLL, ADC/DAC",
+   "r18_unit_topics": "op-amp fundamentals, instrumentation amplifier, comparators, Schmitt trigger, active filters, oscillators, 555 timer, PLL, D/A and A/D converters",
+   "source": "jntuh.ac.in R18B.TECHECEIIYearSyllabus.pdf"
+  },
+  {
+   "title": "Analog and Digital Communications Lab",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.communications"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EC406PC",
+   "why": "LAB follows Analog and Digital Communications",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "IC Applications Lab",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EC407PC",
+   "why": "LAB follows Linear IC Applications",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Electronic Circuit Analysis Lab",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EC408PC",
+   "why": "LAB follows Electronic Circuit Analysis",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Data Communications and Networks",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "EC502PC",
+   "why": "OSI/TCP-IP, MAC, IP, TCP, DNS",
+   "r18_unit_topics": "OSI/TCP-IP; data link error detection, framing, MAC; IP addressing, ICMP, IPv6; UDP, TCP congestion; FTP, SMTP, DNS",
+   "source": "jntuh.ac.in R18B.Tech.ECEIIIYearSyllabus.pdf"
+  },
+  {
+   "title": "Microprocessors & Microcontrollers Lab",
+   "branches": [
+    "ECE",
+    "EEE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering",
+    "electrical_electronic_engineering.digital_systems"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EC505PC",
+   "why": "LAB follows Microprocessors & Microcontrollers",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Data Communications and Networks Lab",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EC506PC",
+   "why": "LAB follows Data Communications and Networks",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Antennas and Propagation",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electromagnetic_field_theory",
+    "electrical_electronic_engineering.communications"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "EC601PC",
+   "why": "antenna parameters, arrays, wave propagation",
+   "r18_unit_topics": "antenna parameters, dipoles, arrays, Yagi, helical, horn, microstrip, reflector antennas, wave propagation",
+   "source": "jntuh.ac.in R18B.Tech.ECEIIIYearSyllabus.pdf"
+  },
+  {
+   "title": "Digital Signal Processing Lab",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.digital_signal_processing"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EC604PC",
+   "why": "LAB follows Digital Signal Processing",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "e-CAD Lab",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.microelectronics_semiconductors"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EC605PC",
+   "why": "LAB follows VLSI Design",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Scripting Languages Lab",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EC606PC",
+   "why": "LAB follows Scripting Languages",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Microwave and Optical Communications Lab",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electromagnetic_field_theory",
+    "electrical_electronic_engineering.communications"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EC703PC",
+   "why": "LAB follows Microwave and Optical Communications",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Error Correcting Codes",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.information_theory",
+    "electrical_electronic_engineering.communications"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "EC512PE",
+   "why": "block, cyclic, convolutional, LDPC, turbo codes",
+   "r18_unit_topics": "information measures, linear block, Hamming, cyclic, convolutional, Viterbi, LDPC, turbo, space-time codes",
+   "source": "jntuh.ac.in R18B.Tech.ECEIIIYearSyllabus.pdf"
+  },
+  {
+   "title": "Test and Testability",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.microelectronics_semiconductors",
+    "electrical_electronic_engineering.digital_systems"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "EC822PE",
+   "why": "fault models, test generation, DFT, scan",
+   "r18_unit_topics": "fault models, test pattern generation, D-algorithm, LFSR, design for test, scan",
+   "source": "studentservices.jntuh.ac.in (R18) B.Tech. ECE Syllabus.pdf (IV year)"
+  },
+  {
+   "title": "Electrical Circuit Analysis",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.circuit_theory"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "EE302PC",
+   "why": "network theorems, transients, Laplace analysis, two-port",
+   "r18_unit_topics": "network theorems, node and mesh analysis, transients, sinusoidal steady state, Laplace circuit analysis, two-port parameters",
+   "source": "https://nrcmec.org/pdf/Regulations/R18/R18"
+  },
+  {
+   "title": "Electrical Machines Lab - I",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electrical_machines_drives"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EE306PC",
+   "why": "LAB follows Electrical Machines - I",
+   "r18_unit_topics": "DC machine tests",
+   "source": "https://nrcmec.org/pdf/Regulations/R18/R18"
+  },
+  {
+   "title": "Analog Electronics Lab",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EE307PC",
+   "why": "LAB follows Analog Electronics",
+   "r18_unit_topics": "diodes, rectifiers, amplifiers, op-amps, oscillators",
+   "source": "https://nrcmec.org/pdf/Regulations/R18/R18"
+  },
+  {
+   "title": "Electrical Circuits Lab",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.circuit_theory"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EE308PC",
+   "why": "LAB follows Electrical Circuit Analysis",
+   "r18_unit_topics": "network theorems, resonance, two-port, three-phase power",
+   "source": "https://nrcmec.org/pdf/Regulations/R18/R18"
+  },
+  {
+   "title": "Digital Electronics Lab",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.digital_systems",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EE406PC",
+   "why": "LAB follows Digital Electronics",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Electrical Machines Lab - II",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electrical_machines_drives"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EE407PC",
+   "why": "LAB follows Electrical Machines – II",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Control Systems Lab",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.control_systems"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EE408PC",
+   "why": "LAB follows Control Systems",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Power System Simulation Lab",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EE505PC",
+   "why": "LAB follows Power System-II",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Power Electronics Lab",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_electronics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EE506PC",
+   "why": "LAB follows Power Electronics",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Measurements and Instrumentation Lab",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.measurement_instrumentation"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EE507PC",
+   "why": "LAB follows Measurements and Instrumentation",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Power System Lab",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EE605PC",
+   "why": "LAB follows Power System Protection",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Signals and Systems Lab",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.signals_systems"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EE607PC",
+   "why": "LAB follows Signals and Systems",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Electrical & Electronics Design Lab",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electronics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EE701PC",
+   "why": "LAB follows Analog Electronics",
+   "r18_unit_topics": "fabrication of reactors and stators, wiring, regulated supplies, filters, precision rectifiers, PCB design",
+   "source": "studentservices.jntuh.ac.in (R18) B.Tech.EEESyllabus.pdf (IV year)"
+  },
+  {
+   "title": "Computer Architecture",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "EE511PE",
+   "why": "memory and I/O organization, 80x86, VLIW, SoC",
+   "r18_unit_topics": "memory and I/O organization, 80x86 architecture, addressing, instructions, VLIW, DSP, SoC, MIPS",
+   "source": "inspirenignite.com (copy of JNTUH text, units II, III, V)"
+  },
+  {
+   "title": "Electrical Machine Design",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electrical_machines_drives"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "EE513PE",
+   "why": "transformer and induction motor design",
+   "r18_unit_topics": "transformer design, cooling, induction motor design, CAD, optimization, FEM",
+   "source": "inspirenignite.com (copy of JNTUH text, units II, III, V)"
+  },
+  {
+   "title": "Electrical and Hybrid Vehicles",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "engineering.automotive_engineering",
+    "electrical_electronic_engineering.electrical_machines_drives"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "EE713PE",
+   "why": "hybrid/electric drive trains, motor drive control, energy storage",
+   "r18_unit_topics": "vehicle performance, hybrid and electric drive trains, motor drive control, energy storage, energy management",
+   "source": "studentservices.jntuh.ac.in (R18) B.Tech.EEESyllabus.pdf (IV year)"
+  },
+  {
+   "title": "Industrial Electrical Systems",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "EE723PE",
+   "why": "LT systems, wiring, illumination, substations, power factor, UPS",
+   "r18_unit_topics": "LT components, protection, wiring, load calculation, illumination, industrial substations, power factor correction, DG, UPS, battery sizing",
+   "source": "studentservices.jntuh.ac.in (R18) B.Tech.EEESyllabus.pdf (IV year)"
+  },
+  {
+   "title": "Control Systems Design",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.control_systems"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "EE812PE",
+   "why": "compensator and PID design, pole placement",
+   "r18_unit_topics": "time and frequency specifications, lag/lead compensators, Bode compensation, PID, pole placement, observers, nonlinearity",
+   "source": "studentservices.jntuh.ac.in (R18) B.Tech.EEESyllabus.pdf (IV year)"
+  },
+  {
+   "title": "Advanced Control of Electric Drives",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.electrical_machines_drives",
+    "electrical_electronic_engineering.power_electronics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "EE823PE",
+   "why": "PWM, vector and direct torque control",
+   "r18_unit_topics": "PWM, space vector, vector control, direct torque control, PM and SRM drives, DSP-based motion control",
+   "source": "studentservices.jntuh.ac.in (R18) B.Tech.EEESyllabus.pdf (IV year)"
+  },
+  {
+   "title": "IT Workshop and Microprocessor Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering",
+    "electrical_electronic_engineering.digital_systems"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "IT308PC",
+   "why": "LAB follows Computer Organization and Microprocessor",
+   "r18_unit_topics": "PC hardware, OS installation, internet, Office, LaTeX, 8086 assembly",
+   "source": "nnrg.edu.in R18_B.Tech_IT_Syllabus.pdf (JNTUH header)",
+   "change_31_10": "added digital_systems: microprocessor courses count in computer_engineering AND digital_systems (approved fix 1, 30.10.2026); Koushik approved 31.10.2026"
+  },
+  {
+   "title": "Data Communication & Computer Networks",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "IT503PC",
+   "why": "OSI, switching, MAC, routing, TCP/UDP, DNS",
+   "r18_unit_topics": "OSI model, transmission media, switching, framing, error control, MAC, addressing, routing, UDP, TCP, congestion, QoS, DNS, email, HTTP, SNMP",
+   "source": "mgit.ac.in R18B.Tech.ITIIIYearSyllabus.pdf (JNTUH)"
+  },
+  {
+   "title": "Computer Networks & Web Programming Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "IT506PC",
+   "why": "LAB follows Data Communication & Computer Networks",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Principles of Compiler Construction",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs",
+    "computer_science_informatics.theoretical_cs"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "IT602PC",
+   "why": "lexical analysis, parsing, code generation (as Compiler Design)",
+   "r18_unit_topics": "lexical analysis, LEX, top-down and LR parsing, syntax-directed translation, type checking, intermediate code, run-time, code generation, optimization",
+   "source": "mgit.ac.in R18B.Tech.ITIIIYearSyllabus.pdf (JNTUH)"
+  },
+  {
+   "title": "Embedded Systems & Internet of Things Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "IT605PC",
+   "why": "LAB follows Introduction to Embedded Systems",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Compiler Construction Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.programming_practical_cs",
+    "computer_science_informatics.theoretical_cs"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "IT606PC",
+   "why": "LAB follows Principles of Compiler Construction",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Information Security Lab",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.it_security"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "IT703PC",
+   "why": "LAB follows Information Security",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Database Security",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.it_security",
+    "computer_science_informatics.databases_systems"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "IT521PE",
+   "why": "access control models, statistical DB protection, intrusion detection",
+   "r18_unit_topics": "access matrix models, Bell-LaPadula, Biba, statistical database protection, intrusion detection, secure DB design",
+   "source": "mgit.ac.in R18B.Tech.ITIIIYearSyllabus.pdf (JNTUH)"
+  },
+  {
+   "title": "Ethical Hacking",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "computer_science_informatics.it_security"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "IT611PE",
+   "why": "reconnaissance, enumeration, exploitation, defence",
+   "r18_unit_topics": "security models, test planning, controlled attacks, reconnaissance, enumeration, exploitation, defence planning",
+   "source": "mgit.ac.in R18B.Tech.ITIIIYearSyllabus.pdf (JNTUH)"
+  },
+  {
+   "title": "Engineering Physics",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "PH102BS",
+   "why": "mechanics, oscillations, waves, optics, lasers",
+   "r18_unit_topics": "mechanics in polar coordinates, harmonic oscillators, one-dimensional waves, wave optics, lasers, fibre optics",
+   "source": "https://scce.ac.in/web1/mech/R18.pdf"
+  },
+  {
+   "title": "Engineering Physics Lab",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "PH105BS",
+   "why": "LAB follows Engineering Physics",
+   "r18_unit_topics": "oscillations, Newton's rings, diffraction grating, LCR, lasers",
+   "source": "https://scce.ac.in/web1/mech/R18.pdf"
+  },
+  {
+   "title": "Probability and Statistics & Complex Variables",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mathematics_statistics.statistics_probability",
+    "mathematics_statistics.calculus_analysis"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "MA301BS",
+   "why": "probability, distributions, testing; complex analysis",
+   "r18_unit_topics": "probability, random variables, binomial/Poisson/normal/exponential, hypothesis testing, complex differentiation, Cauchy theorems, residues, Laurent series",
+   "source": "https://scce.ac.in/web1/mech/R18.pdf"
+  },
+  {
+   "title": "Production Technology Lab",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "ME306PC",
+   "why": "LAB follows Production Technology",
+   "r18_unit_topics": "moulding sand, casting, welding, press tools",
+   "source": "https://scce.ac.in/web1/mech/R18.pdf"
+  },
+  {
+   "title": "Machine Drawing Practice",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "ME307PC",
+   "why": "drawing of screws, keys, couplings, bearings, assemblies",
+   "r18_unit_topics": "screws, keys, joints, couplings, bearings, assembly drawings",
+   "source": "https://scce.ac.in/web1/mech/R18.pdf"
+  },
+  {
+   "title": "Material Science and Mechanics of Solids Lab",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics",
+    "chemistry_materials.materials_science"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "ME308PC",
+   "why": "LAB follows Mechanics of Solids",
+   "r18_unit_topics": "microstructures, Jominy, tensile, torsion, hardness, impact tests",
+   "source": "https://scce.ac.in/web1/mech/R18.pdf",
+   "change_30_10": "combined lab: also practises concrete technology / material science -> + materials_science (rule 7, Koushik approved)"
+  },
+  {
+   "title": "Basic Electrical and Electronics Engineering Lab",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.circuit_theory",
+    "electrical_electronic_engineering.electronics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "EE409ES",
+   "why": "LAB follows Basic Electrical and Electronics Engineering",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Fluid Mechanics and Hydraulic Machines Lab",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "civil_engineering.fluid_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "ME407PC",
+   "why": "LAB follows Fluid Mechanics and Hydraulic Machines",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Instrumentation and Control Systems Lab",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.measurement_instrumentation",
+    "electrical_electronic_engineering.control_systems"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "ME408PC",
+   "why": "LAB follows Instrumentation and Control Systems",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Design of Machine Members-I",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "ME502PC",
+   "why": "static/fatigue design, joints, shafts, couplings",
+   "r18_unit_topics": "static and fatigue design, stress concentration, failure theories, riveted/welded/bolted joints, keys, cotters, shafts, couplings",
+   "source": "mgit.ac.in R18B.Tech.MechanicalEngg.IIIYearSyllabus.pdf (JNTUH header)"
+  },
+  {
+   "title": "Thermal Engineering Lab",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "ME507PC",
+   "why": "LAB follows Thermal Engineering-II",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Metrology & Machine Tools Lab",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.manufacturing_production",
+    "electrical_electronic_engineering.measurement_instrumentation"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "ME508PC",
+   "why": "LAB follows Metrology & Machine Tools",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Kinematics & Dynamics Lab",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "ME509PC",
+   "why": "LAB follows Dynamics of Machinery",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Design of Machine Members-II",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "ME601PC",
+   "why": "bearings, springs, belts, gears",
+   "r18_unit_topics": "journal and rolling bearings, connecting rods, pistons, springs, belts, pulleys, gear design",
+   "source": "mgit.ac.in R18B.Tech.MechanicalEngg.IIIYearSyllabus.pdf (JNTUH header)"
+  },
+  {
+   "title": "CAD & CAM",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements",
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "ME603PC",
+   "why": "geometric and solid modelling; CNC, process planning, FMS, CIM (as CAD/CAM in R22)",
+   "r18_unit_topics": "geometric and solid modelling, NC/CNC programming, group technology, process planning, MRP/ERP, FMS, CIM",
+   "source": "mgit.ac.in R18B.Tech.MechanicalEngg.IIIYearSyllabus.pdf (JNTUH header)"
+  },
+  {
+   "title": "Heat Transfer Lab",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "ME605PC",
+   "why": "LAB follows Heat Transfer",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "CAD & CAM Lab",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements",
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "r18_code": "ME606PC",
+   "why": "LAB follows CAD & CAM",
+   "r18_unit_topics": "",
+   "source": ""
+  },
+  {
+   "title": "Machine Tool Design",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements",
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "ME612PE",
+   "why": "machine tool drives, gearboxes, structures, spindles",
+   "r18_unit_topics": "machine tool drives, gearboxes, structures, guideways, spindles, dynamic stiffness",
+   "source": "mgit.ac.in R18B.Tech.MechanicalEngg.IIIYearSyllabus.pdf (JNTUH header)"
+  },
+  {
+   "title": "MEMS",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.microelectronics_semiconductors",
+    "engineering.mechatronics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "ME713PE",
+   "why": "microfabrication, MEMS sensors and actuators, microfluidics",
+   "r18_unit_topics": "microfabrication, micromachining, MEMS materials mechanics, sensors, actuators, microfluidics",
+   "source": "studentservices.jntuh.ac.in (R18) B.Tech.MechanicalEngg.Syllabus.pdf (IV year)"
+  },
+  {
+   "title": "Fluid Power Systems",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "civil_engineering.fluid_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "ME733PE",
+   "why": "hydraulic and pneumatic circuits, pumps, valves (as Fluid Power System in R22)",
+   "r18_unit_topics": "hydraulic and pneumatic fundamentals, pumps, motors, actuators, valves, servo valves, circuit design",
+   "source": "studentservices.jntuh.ac.in (R18) B.Tech.MechanicalEngg.Syllabus.pdf (IV year)"
+  },
+  {
+   "title": "Production and Operations Management",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "business_economics_management.business_administration"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "ME822PE",
+   "why": "aggregate planning, MRP, JIT, scheduling, TQM (operations management, as PPC)",
+   "r18_unit_topics": "production systems, product design, value engineering, layout, aggregate planning, MRP, JIT, scheduling, PERT/CPM, TQM, Six Sigma",
+   "source": "studentservices.jntuh.ac.in (R18) B.Tech.MechanicalEngg.Syllabus.pdf (IV year)"
+  },
+  {
+   "title": "Tribology",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "regulations": [
+    "R18"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "r18_code": "ME823PE",
+   "why": "lubrication, hydrodynamic bearings, bearing materials",
+   "r18_unit_topics": "lubrication, hydrodynamic theory, Reynolds equation, journal bearing friction, thrust bearings, bearing materials",
+   "source": "studentservices.jntuh.ac.in (R18) B.Tech.MechanicalEngg.Syllabus.pdf (IV year)"
+  },
+  {
+   "title": "Utilization of Electrical Energy",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "why": "title variant of approved 'Utilization of Electric Energy'",
+   "added_03_11": "pilot evaluation 03.11.2026: title variant left 'not counted' by the AI; Koushik approved"
+  },
+  {
+   "title": "Power Quality Engineering",
+   "branches": [
+    "EEE"
+   ],
+   "categories": [
+    "electrical_electronic_engineering.power_engineering",
+    "electrical_electronic_engineering.power_electronics"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "why": "same subject as approved 'Power Quality Techniques'",
+   "added_03_11": "pilot evaluation 03.11.2026: title variant left 'not counted' by the AI; Koushik approved"
+  },
+  {
+   "title": "Industrial Tribology",
+   "branches": [
+    "Mechanical"
+   ],
+   "categories": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "why": "same subject as approved 'Tribology'; NIT Karnataka syllabus: friction, lubrication, wear, bearings",
+   "source": "https://mech.nitk.ac.in/node/648",
+   "added_03_11": "pilot evaluation 03.11.2026: title variant left 'not counted' by the AI; Koushik approved"
+  },
+  {
+   "title": "Communication Networks",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "status": "SUPPORTED_BY_SYLLABUS",
+   "why": "ECE 'Communication Networks' = OSI/TCP-IP layers (Kamaraj College EC1501); same pattern as approved 'Computer Networks'",
+   "source": "https://www.kamarajengg.edu.in/media/student_survey/ECE_-_R2020_V__VI_SEMESTER.pdf",
+   "added_03_11": "pilot evaluation 03.11.2026: title variant left 'not counted' by the AI; Koushik approved"
+  },
+  {
+   "title": "Communication Networks Laboratory",
+   "branches": [
+    "ECE"
+   ],
+   "categories": [
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "status": "LAB_FOLLOWS_THEORY",
+   "why": "LAB follows Communication Networks",
+   "added_03_11": "pilot evaluation 03.11.2026: title variant left 'not counted' by the AI; Koushik approved"
+  },
+  {
+   "title": "Big Data and Analytics",
+   "branches": [
+    "CS/IT/CSIT"
+   ],
+   "categories": [
+    "data_science.foundational_methods",
+    "computer_science_informatics.data_engineering"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "why": "same subject as approved 'Big Data Technologies' (big data analytics + big data frameworks)",
+   "added_03_11": "pilot evaluation 03.11.2026: title variant left 'not counted' by the AI; Koushik approved"
+  },
+  {
+   "title": "Universal Human Values",
+   "branches": [
+    "all"
+   ],
+   "categories": [],
+   "status": "SUPPORTED_BY_TITLE",
+   "why": "AICTE UHV course: 5 units (value education, harmony in self, family/society, nature, professional ethics); ethics is 1 of 5 units, below the 40% rule, so no category",
+   "added_03_11": "pilot evaluation 03.11.2026: a saved knowledge-base answer put it into ethics_law_society; the map (checked first) stops that; Koushik approved"
+  },
+  {
+   "title": "Finite Element Method",
+   "branches": [
+    "Civil",
+    "Mechanical"
+   ],
+   "categories": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "why": "singular title variant of approved 'Finite Element Methods'",
+   "added_04_11": "batch 1 evaluation 04.11.2026 (S07): exact lookup missed the singular title, AI left it MEDIUM, lab stayed flagged; Koushik approved"
+  }
+ ],
+ "_source": "R22/R25 course structures; R18 syllabi of CSE, IT, ECE, EEE, Mechanical, Civil (unit content, approved 26.10.2026)"
+}

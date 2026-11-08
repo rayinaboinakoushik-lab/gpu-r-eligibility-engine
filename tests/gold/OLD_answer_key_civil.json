@@ -1,0 +1,562 @@
+{
+  "_about": "Correct categories for every JNTUH R18 civil subject, using the 8 civil matching categories.",
+  "field": "civil",
+  "source": "JNTUH R18 B.Tech Civil Engineering course structure and syllabi (AY_2019-20.pdf, pp. 1-121)",
+  "courses": [
+    {
+      "id": "MA101BS",
+      "title": "MATHEMATICS - I",
+      "credits": 4.0,
+      "expected": [
+        "mathematics_statistics.general_mathematics"
+      ],
+      "basis": "syllabus",
+      "note": "Generic maths title: the pipeline always asks for its syllabus."
+    },
+    {
+      "id": "MA201BS",
+      "title": "MATHEMATICS - II",
+      "credits": 4.0,
+      "expected": [
+        "mathematics_statistics.general_mathematics"
+      ],
+      "basis": "syllabus",
+      "note": "Generic maths title: the pipeline always asks for its syllabus."
+    },
+    {
+      "id": "PH102BS",
+      "title": "ENGINEERING PHYSICS",
+      "credits": 4.0,
+      "expected": [
+        "physics_natural_sciences.general_physics"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "PH105BS",
+      "title": "ENGINEERING PHYSICS LAB",
+      "credits": 1.5,
+      "expected": [
+        "physics_natural_sciences.general_physics"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "CS103ES",
+      "title": "PROGRAMMING FOR PROBLEM SOLVING",
+      "credits": 4.0,
+      "expected": [
+        "computer_science_informatics.general_cs"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "CS106ES",
+      "title": "PROGRAMMING FOR PROBLEM SOLVING LAB",
+      "credits": 1.5,
+      "expected": [
+        "computer_science_informatics.general_cs"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "ME104ES",
+      "title": "ENGINEERING GRAPHICS",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "title",
+      "note": "Technical drawing; no Civil category."
+    },
+    {
+      "id": "MC109ES",
+      "title": "ENVIRONMENTAL SCIENCE",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CH202BS",
+      "title": "CHEMISTRY",
+      "credits": 4.0,
+      "expected": [],
+      "basis": "title",
+      "note": "No Civil program asks for chemistry."
+    },
+    {
+      "id": "CH206BS",
+      "title": "ENGINEERING CHEMISTRY LAB",
+      "credits": 1.5,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "ME203ES",
+      "title": "ENGINEERING MECHANICS",
+      "credits": 4.0,
+      "expected": [
+        "civil_engineering.structural_mechanics"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "ME205ES",
+      "title": "ENGINEERING WORKSHOP",
+      "credits": 2.5,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "EN205HS",
+      "title": "ENGLISH",
+      "credits": 2.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "EN207HS",
+      "title": "ENGLISH LANGUAGE AND COMMUNICATION SKILLS LAB",
+      "credits": 1.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE301PC",
+      "title": "SURVEYING AND GEOMATICS",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE302PC",
+      "title": "ENGINEERING GEOLOGY",
+      "credits": 2.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE303PC",
+      "title": "STRENGTH OF MATERIALS - I",
+      "credits": 4.0,
+      "expected": [
+        "civil_engineering.structural_mechanics"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "MA304BS",
+      "title": "PROBABILITY AND STATISTICS",
+      "credits": 4.0,
+      "expected": [
+        "mathematics_statistics.statistics_probability",
+        "mathematics_statistics.general_mathematics"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "CE305PC",
+      "title": "FLUID MECHANICS",
+      "credits": 4.0,
+      "expected": [
+        "civil_engineering.fluid_mechanics"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "CE306PC",
+      "title": "SURVEYING LAB",
+      "credits": 1.5,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE307PC",
+      "title": "STRENGTH OF MATERIALS LAB",
+      "credits": 1.5,
+      "expected": [
+        "civil_engineering.structural_mechanics"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "CE308PC",
+      "title": "ENGINEERING GEOLOGY LAB",
+      "credits": 1.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "EE401ES",
+      "title": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+      "credits": 3.0,
+      "expected": [
+        "electrical_electronic_engineering.general_ee"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "EE409ES",
+      "title": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING LAB",
+      "credits": 1.0,
+      "expected": [
+        "electrical_electronic_engineering.general_ee"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "CE402ES",
+      "title": "BASIC MECHANICAL ENGINEERING FOR CIVIL ENGINEERS",
+      "credits": 2.0,
+      "expected": [],
+      "basis": "syllabus",
+      "note": "Machine elements, thermal and manufacturing survey; no Civil category."
+    },
+    {
+      "id": "CE403PC",
+      "title": "BUILDING MATERIALS, CONSTRUCTION AND PLANNING",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE404PC",
+      "title": "STRENGTH OF MATERIALS - II",
+      "credits": 3.0,
+      "expected": [
+        "civil_engineering.structural_mechanics"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "CE405PC",
+      "title": "HYDRAULICS AND HYDRAULIC MACHINERY",
+      "credits": 3.0,
+      "expected": [
+        "civil_engineering.fluid_mechanics"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "CE406PC",
+      "title": "STRUCTURAL ANALYSIS - I",
+      "credits": 3.0,
+      "expected": [
+        "civil_engineering.structural_mechanics"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "CE407PC",
+      "title": "COMPUTER AIDED CIVIL ENGINEERING DRAWING",
+      "credits": 1.5,
+      "expected": [],
+      "basis": "title",
+      "note": "Drafting with software is not CS."
+    },
+    {
+      "id": "CE409PC",
+      "title": "HYDRAULICS AND HYDRAULIC MACHINERY LAB",
+      "credits": 1.5,
+      "expected": [
+        "civil_engineering.fluid_mechanics"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "CE501",
+      "title": "STRUCTURAL ANALYSIS - II",
+      "credits": 3.0,
+      "expected": [
+        "civil_engineering.structural_mechanics"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "CE502PC",
+      "title": "GEOTECHNICAL ENGINEERING",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE503PC",
+      "title": "STRUCTURAL ENGINEERING - I (RCC)",
+      "credits": 4.0,
+      "expected": [],
+      "basis": "title",
+      "note": "Code-based design, not mechanics."
+    },
+    {
+      "id": "CE504PC",
+      "title": "TRANSPORTATION ENGINEERING",
+      "credits": 3.0,
+      "expected": [
+        "civil_engineering.transportation_engineering"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "SM505MS",
+      "title": "ENGINEERING ECONOMICS AND ACCOUNTANCY",
+      "credits": 2.0,
+      "expected": [],
+      "basis": "title",
+      "note": "No Civil program asks for economics."
+    },
+    {
+      "id": "CE506PC",
+      "title": "HIGHWAY ENGINEERING AND CONCRETE TECHNOLOGY LAB",
+      "credits": 1.5,
+      "expected": [
+        "civil_engineering.transportation_engineering"
+      ],
+      "basis": "syllabus",
+      "note": "About half the experiments are highway materials tests (aggregates, bitumen); follows the Transportation Engineering lecture."
+    },
+    {
+      "id": "CE507PC",
+      "title": "GEOTECHNICAL ENGINEERING LAB",
+      "credits": 1.5,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "EN508HS",
+      "title": "ADVANCED COMMUNICATION SKILLS LAB",
+      "credits": 1.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE601PC",
+      "title": "HYDROLOGY & WATER RESOURCES ENGINEERING",
+      "credits": 4.0,
+      "expected": [],
+      "basis": "title",
+      "note": "Hydrology, not fluid mechanics."
+    },
+    {
+      "id": "CE602PC",
+      "title": "ENVIRONMENTAL ENGINEERING",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE603PC",
+      "title": "FOUNDATION ENGINEERING",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE604PC",
+      "title": "STRUCTURAL ENGINEERING - II (STEEL)",
+      "credits": 4.0,
+      "expected": [],
+      "basis": "title",
+      "note": "Code-based design, not mechanics."
+    },
+    {
+      "id": "CE605PC",
+      "title": "ENVIRONMENTAL ENGINEERING LAB",
+      "credits": 1.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE606PC",
+      "title": "COMPUTER AIDED DESIGN LAB",
+      "credits": 1.0,
+      "expected": [],
+      "basis": "title",
+      "note": "Using analysis/design software is not CS."
+    },
+    {
+      "id": "CE701PC",
+      "title": "ESTIMATION, COSTING AND PROJECT MANAGEMENT",
+      "credits": 4.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "SM702MS",
+      "title": "PROFESSIONAL PRACTICE, LAW & ETHICS",
+      "credits": 2.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE703PC",
+      "title": "INDUSTRIAL ORIENTED MINI PROJECT/ SUMMER INTERNSHIP",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE704PC",
+      "title": "SEMINAR",
+      "credits": 1.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE705PC",
+      "title": "PROJECT STAGE - I",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE801PC",
+      "title": "PROJECT STAGE-II",
+      "credits": 7.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE511PE",
+      "title": "CONCRETE TECHNOLOGY",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE512PE",
+      "title": "THEORY OF ELASTICITY",
+      "credits": 3.0,
+      "expected": [
+        "civil_engineering.structural_mechanics"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "CE513PE",
+      "title": "ROCK MECHANICS",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "title",
+      "note": "Geotechnical."
+    },
+    {
+      "id": "CE611PE",
+      "title": "PRESTRESSED CONCRETE",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE612PE",
+      "title": "ELEMENTS OF EARTH QUAKE ENGINEERING",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "title",
+      "note": "Seismic design to codes."
+    },
+    {
+      "id": "CE613PE",
+      "title": "ADVANCED STRUCTURAL ANALYSIS",
+      "credits": 3.0,
+      "expected": [
+        "civil_engineering.structural_mechanics"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "CE711PE",
+      "title": "REMOTE SENSING & GIS",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE712PE",
+      "title": "GROUND IMPROVEMENT TECHNIQUES",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE713PE",
+      "title": "ADVANCED STRUCTURAL DESIGN",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE721PE",
+      "title": "IRRIGATION AND HYDRAULIC STRUCTURES",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "syllabus",
+      "note": "Reservoirs, dams, spillways, weirs: design of water structures."
+    },
+    {
+      "id": "CE722PE",
+      "title": "PIPELINE ENGINEERING",
+      "credits": 3.0,
+      "expected": [
+        "civil_engineering.fluid_mechanics"
+      ],
+      "basis": "syllabus",
+      "note": "Pipe-flow hydraulics, head losses, water hammer, pumps and network analysis."
+    },
+    {
+      "id": "CE723PE",
+      "title": "GROUND WATER HYDROLOGY",
+      "credits": 3.0,
+      "expected": [
+        "civil_engineering.fluid_mechanics"
+      ],
+      "basis": "syllabus",
+      "note": "Units I-III: Darcy's law, groundwater flow equation, steady and unsteady flow to wells (over 40%)."
+    },
+    {
+      "id": "CE811PE",
+      "title": "SOLID WASTE MANAGEMENT",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE812PE",
+      "title": "ENVIRONMENTAL IMPACT ASSESSMENT",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE813PE",
+      "title": "AIR POLLUTION",
+      "credits": 3.0,
+      "expected": [],
+      "basis": "title"
+    },
+    {
+      "id": "CE821PE",
+      "title": "AIRPORTS, RAILWAYS AND WATERWAYS",
+      "credits": 3.0,
+      "expected": [
+        "civil_engineering.transportation_engineering"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "CE822PE",
+      "title": "URBAN TRANSPORTATION PLANNING",
+      "credits": 3.0,
+      "expected": [
+        "civil_engineering.transportation_engineering"
+      ],
+      "basis": "title"
+    },
+    {
+      "id": "CE823PE",
+      "title": "FINITE ELEMENT METHODS FOR CIVIL ENGINEERING",
+      "credits": 3.0,
+      "expected": [
+        "civil_engineering.structural_mechanics"
+      ],
+      "basis": "title"
+    }
+  ]
+}

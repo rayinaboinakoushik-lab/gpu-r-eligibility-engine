@@ -1,0 +1,341 @@
+{
+ "id": "S18_makaut_it",
+ "field": "cs",
+ "degree": "B.Tech Information Technology",
+ "university": "Maulana Abul Kalam Azad University of Technology, West Bengal",
+ "institution": "MAKAUT-affiliated college (university curriculum)",
+ "regulation": "AICTE model curriculum (IT, 2019)",
+ "entry": "regular",
+ "years": 4,
+ "credits_for_award_printed": 162,
+ "grading": [
+  [
+   "O",
+   10
+  ],
+  [
+   "E",
+   9
+  ],
+  [
+   "A",
+   8
+  ],
+  [
+   "B",
+   7
+  ],
+  [
+   "C",
+   6
+  ],
+  [
+   "D",
+   5
+  ]
+ ],
+ "pass_min": 5,
+ "layout": "two_column",
+ "seed": 1818,
+ "target_cgpa": 7.0,
+ "source": [
+  "https://www.makautexam.net/aicte_details/CourseStructureI/IT19.pdf"
+ ],
+ "abbreviate": true,
+ "provenance": {
+  "institution_status": "MAKAUT university curriculum for affiliated (non-autonomous) colleges; no college named",
+  "curriculum_check": "semester sums equal printed totals (17.5/20.5/20/21/26/24/18/15 = 162)",
+  "grading_source": null,
+  "grading_verified": false,
+  "grading_note": "MAKAUT-style O/E/A/B/C/D, pass D = 5 assumed",
+  "electives": "electives and open electives chosen from the options printed in each slot",
+  "omitted": [
+   "3-week induction programme (no code, no credits)",
+   "second 'Programming for Problem Solving' row (ES-CS291, 2 credits) printed with ' Laboratory' to tell it apart from the theory row; spacing in 'Computer Organization &Architecture' and 'Internet&webTechnology' normalised"
+  ]
+ },
+ "degree_field_id": "information_technology",
+ "split": "dev",
+ "semesters": [
+  {
+   "name": "1",
+   "courses": [
+    {
+     "code": "BS-PH101",
+     "title": "Physics-I",
+     "credits": 4
+    },
+    {
+     "code": "BS-M101",
+     "title": "Mathematics –IA",
+     "credits": 4
+    },
+    {
+     "code": "ES-EE101",
+     "title": "Basic Electrical Engineering",
+     "credits": 4
+    },
+    {
+     "code": "BS-PH191",
+     "title": "Physics-I Laboratory",
+     "credits": 1.5
+    },
+    {
+     "code": "ES-EE191",
+     "title": "Basic Electrical Engineering Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "ES-ME191",
+     "title": "Workshop",
+     "credits": 3
+    }
+   ]
+  },
+  {
+   "name": "2",
+   "courses": [
+    {
+     "code": "BS-CH201",
+     "title": "Chemistry-I",
+     "credits": 4
+    },
+    {
+     "code": "BS-M202",
+     "title": "Mathematics –IIA",
+     "credits": 4
+    },
+    {
+     "code": "ES-CS201",
+     "title": "Programming for Problem Solving",
+     "credits": 3
+    },
+    {
+     "code": "HM-HU201",
+     "title": "English",
+     "credits": 2
+    },
+    {
+     "code": "BS-CH291",
+     "title": "Chemistry-I Laboratory",
+     "credits": 1.5
+    },
+    {
+     "code": "ES-CS291",
+     "title": "Programming for Problem Solving Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "ES-ME291",
+     "title": "Engineering Graphics & Design",
+     "credits": 3
+    },
+    {
+     "code": "HM-HU291",
+     "title": "Language Laboratory",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "3",
+   "courses": [
+    {
+     "code": "ESC-301",
+     "title": "Digital Electronics",
+     "credits": 5
+    },
+    {
+     "code": "PCC-IT301",
+     "title": "Data Structure & Algorithms",
+     "credits": 5
+    },
+    {
+     "code": "ESC302",
+     "title": "Signals & System",
+     "credits": 3
+    },
+    {
+     "code": "PCC-IT302",
+     "title": "IT Workshop (Sci Lab/R)",
+     "credits": 2
+    },
+    {
+     "code": "BSC-301",
+     "title": "Mathematics-III",
+     "credits": 2
+    },
+    {
+     "code": "BSC-302",
+     "title": "Biology",
+     "credits": 3
+    }
+   ]
+  },
+  {
+   "name": "4",
+   "courses": [
+    {
+     "code": "PCC-IT401",
+     "title": "Discrete Mathematics",
+     "credits": 4
+    },
+    {
+     "code": "PCC-IT402",
+     "title": "Computer Organization & Architecture",
+     "credits": 5
+    },
+    {
+     "code": "PCC-IT403",
+     "title": "Formal Language & Automata Theory",
+     "credits": 3
+    },
+    {
+     "code": "PCC-IT404",
+     "title": "Communication Engineering",
+     "credits": 5
+    },
+    {
+     "code": "HSMC401",
+     "title": "Economics For Engineers",
+     "credits": 3
+    },
+    {
+     "code": "MC-401",
+     "title": "Environmental Sciences",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "5",
+   "courses": [
+    {
+     "code": "PCCIT501",
+     "title": "Design Analysis & Algorithm",
+     "credits": 5
+    },
+    {
+     "code": "PCCIT502",
+     "title": "DBMS",
+     "credits": 5
+    },
+    {
+     "code": "PCCIT503",
+     "title": "Operating Systems",
+     "credits": 5
+    },
+    {
+     "code": "PCCIT504",
+     "title": "Object Oriented Programming with Python",
+     "credits": 4
+    },
+    {
+     "code": "HSMC501",
+     "title": "Introduction to Industrial Management (Humanities III)",
+     "credits": 3
+    },
+    {
+     "code": "PECIT501",
+     "title": "Computer Graphics",
+     "credits": 3
+    },
+    {
+     "code": "MC-IT501",
+     "title": "Constitution of India",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "6",
+   "courses": [
+    {
+     "code": "PCCIT601",
+     "title": "Software Engineering",
+     "credits": 5
+    },
+    {
+     "code": "PCC-IT602",
+     "title": "Computer Networks",
+     "credits": 5
+    },
+    {
+     "code": "PEC-IT601",
+     "title": "Distributed Systems",
+     "credits": 5
+    },
+    {
+     "code": "PEC-IT602",
+     "title": "Machine Learning",
+     "credits": 3
+    },
+    {
+     "code": "OEC-IT601",
+     "title": "Robotics",
+     "credits": 3
+    },
+    {
+     "code": "PROJ-IT601",
+     "title": "Project-1",
+     "credits": 3
+    }
+   ]
+  },
+  {
+   "name": "7",
+   "courses": [
+    {
+     "code": "PCC-IT701",
+     "title": "Internet & Web Technology",
+     "credits": 3
+    },
+    {
+     "code": "PEC-IT702",
+     "title": "Information Theory and Coding",
+     "credits": 3
+    },
+    {
+     "code": "OEC-IT701",
+     "title": "Numerical Methods",
+     "credits": 3
+    },
+    {
+     "code": "HSMC701",
+     "title": "Management 1 (Organizational Behaviour)",
+     "credits": 3
+    },
+    {
+     "code": "PROJIT701",
+     "title": "Project-II",
+     "credits": 6
+    }
+   ]
+  },
+  {
+   "name": "8",
+   "courses": [
+    {
+     "code": "PCCIT801",
+     "title": "Information Security",
+     "credits": 3
+    },
+    {
+     "code": "OECIT801",
+     "title": "Digital Signal Processing",
+     "credits": 3
+    },
+    {
+     "code": "OECIT802",
+     "title": "Remote Sensing & GIS",
+     "credits": 3
+    },
+    {
+     "code": "PROJIT801",
+     "title": "Project-III",
+     "credits": 6
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1991 @@
+{
+ "_version": "3.0-field (2026-10-26)",
+ "_field": "mechanical",
+ "_note": "Mechanical Engineering field. Contains EXACTLY the 43 categories used by the frozen mechanical_engineering records of 24.10.2026 (sums expanded to their parts), nothing else. GPU-R has 66 categories in total across all fields (the 65 record categories + surveying_geodesy, approved 26.10.2026).",
+ "_classification_rules": [
+  "1. REFERENCE, NOT A LOOKUP TABLE. Decide every course by what it actually teaches (syllabus/unit content when available, otherwise your best reading of the title). Definitions, includes, excludes and typical topics describe each category; example course titles only illustrate it. They come from one Indian university (JNTUH) and are never a list a course must match.",
+  "2. NEVER FORCE A COURSE INTO A CATEGORY. If a course's real content does not fit any category in this file, return no category for it. Languages, workshops, constitution, gender/ethics awareness, environmental awareness, internships, seminars and projects normally get no subject category.",
+  "3. NEVER INVENT A CATEGORY. Use only the exact category IDs listed in category_evidence_status of THIS file. Never create, rename, merge or split categories, and never use an ID from another field's file. GPU-R has one fixed set of categories for all fields; this file contains the ones this field needs.",
+  "4. SEVERAL CATEGORIES ARE NORMAL. A course may get several categories if it really teaches each of them. Just list them; never split, divide or repeat its credits. The engine does all counting (inside one requirement or sum a course counts once; across separate requirements the engine applies the regulation rules).",
+  "5. SAME-SUBJECT RULES (_implies) are applied automatically after you classify: a course in the first category is also placed in the implied one. They describe one subject with two names, or a part of a larger category.",
+  "6. SUMS ARE COMPUTED, NOT ASSIGNED. aggregate_categories and contextual_categories (e.g. general_mathematics, general_cs) are calculated by the engine from the categories you assign. Never assign a sum ID to a course.",
+  "7. LABS follow their theory course: a lab gets the categories of the subject it practises.",
+  "8. When unsure between categories, use the excludes lines: they say where a topic belongs instead.",
+  "9. MIXED COURSES. Many courses teach two subjects. Look at the units: every category that makes up a substantial, dedicated part of the content (as a guide, at least 40% of the units) is assigned. Typical mixed courses: Data Mining (data analysis + machine learning), Compiler Design (programming + theoretical CS), Analog and Digital Electronics (electronics + digital systems), Computer Networks (networks, and computer engineering by rule S3). Do not drop a category just because the course title names only one subject."
+ ],
+ "_architecture": "ATOMIC categories (the LLM assigns these) + AGGREGATE / CONTEXTUAL sums (the engine computes these). A course may carry several atomic categories.",
+ "_aggregation_method": "UNION of unique course-instance credits, NOT sum of category totals. A single dual-mapped course's credits are counted once per aggregate, never double-counted.",
+ "_evidence_status_definitions": {
+  "VERIFIED": "Credits confirmed via actual syllabus/module handbook content, not just course title. May be used for automatic hard-requirement matching.",
+  "SUPPORTED_BY_TITLE": "Course title strongly suggests this category, based on official curriculum documents. Provisional -- do not use alone for hard rejection of a program requirement; treat as a strong candidate pending confirmation.",
+  "REQUIRES_SYLLABUS_VERIFICATION": "No confident title-based match found, but this does not establish the student lacks qualifying coursework. Request module handbook/study regulation before concluding ineligibility.",
+  "NO_EVIDENCE": "Reserved for cases where transcript and verified curriculum evidence together genuinely establish no qualifying coursework exists. Not currently used anywhere in this taxonomy -- we have not reached this level of certainty for any category."
+ },
+ "_matching_engine_rule": "PASS: category total (VERIFIED credits only, or SUPPORTED_BY_TITLE if the program allows provisional matching) meets or exceeds the requirement. FAIL: only when NO_EVIDENCE status applies AND the requirement is unmet -- this state is not currently used in this taxonomy. NEEDS_VERIFICATION: SUPPORTED_BY_TITLE or REQUIRES_SYLLABUS_VERIFICATION credits are insufficient alone to meet a requirement -- request additional evidence before rejecting the student. Never silently convert REQUIRES_SYLLABUS_VERIFICATION into a 0-credit assumption.",
+ "_implies": {
+  "computer_science_informatics.computer_networks": [
+   "computer_science_informatics.computer_engineering"
+  ]
+ },
+ "aggregate_categories": {
+  "computer_science_informatics.general_cs": {
+   "type": "AGGREGATE",
+   "formula_components": [
+    "computer_science_informatics.algorithms_data_structures",
+    "computer_science_informatics.computer_engineering",
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.data_engineering",
+    "computer_science_informatics.databases_systems",
+    "computer_science_informatics.graphics_visual_computing",
+    "computer_science_informatics.hci",
+    "computer_science_informatics.it_security",
+    "computer_science_informatics.machine_learning_ai",
+    "computer_science_informatics.operating_systems",
+    "computer_science_informatics.programming_practical_cs",
+    "computer_science_informatics.software_engineering",
+    "computer_science_informatics.theoretical_cs"
+   ]
+  },
+  "mathematics_statistics.general_mathematics": {
+   "type": "AGGREGATE",
+   "formula_components": [
+    "mathematics_statistics.calculus_analysis",
+    "mathematics_statistics.linear_algebra",
+    "mathematics_statistics.discrete_math_logic",
+    "mathematics_statistics.statistics_probability",
+    "mathematics_statistics.optimization_numerics"
+   ],
+   "note": "numerics included (Koushik 26.10.2026; German \"Mathematik\" includes Numerik)"
+  },
+  "mechanical_manufacturing_engineering.general_mechanical": {
+   "type": "AGGREGATE",
+   "formula_components": [
+    "mechanical_manufacturing_engineering.design_machine_elements",
+    "mechanical_manufacturing_engineering.manufacturing_production",
+    "mechanical_manufacturing_engineering.mechanics_dynamics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics",
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ]
+  },
+  "electrical_electronic_engineering.general_ee": {
+   "type": "AGGREGATE",
+   "formula_components": [
+    "electrical_electronic_engineering.circuit_theory",
+    "electrical_electronic_engineering.communications",
+    "electrical_electronic_engineering.control_systems",
+    "electrical_electronic_engineering.digital_signal_processing",
+    "electrical_electronic_engineering.digital_systems",
+    "electrical_electronic_engineering.electrical_machines_drives",
+    "electrical_electronic_engineering.electromagnetic_field_theory",
+    "electrical_electronic_engineering.electronics",
+    "electrical_electronic_engineering.information_theory",
+    "electrical_electronic_engineering.measurement_instrumentation",
+    "electrical_electronic_engineering.microelectronics_semiconductors",
+    "electrical_electronic_engineering.power_electronics",
+    "electrical_electronic_engineering.power_engineering",
+    "electrical_electronic_engineering.signals_systems"
+   ]
+  }
+ },
+ "contextual_categories": {},
+ "category_evidence_status": {
+  "business_economics_management.business_administration": {
+   "definition": "Management, business and economics subjects taught within a degree.",
+   "includes": [
+    "principles of management",
+    "organizational behaviour",
+    "managerial / business economics",
+    "financial and cost accounting, financial analysis",
+    "marketing",
+    "human resource management",
+    "entrepreneurship and innovation",
+    "business strategy",
+    "operations management (management side)",
+    "micro and macro economics",
+    "demand, supply, cost and pricing",
+    "financial analysis and accounting when taught together with economics",
+    "production planning and control (operations management side; HAW Hamburg PPS module)",
+    "quality management (TQM)",
+    "industrial management",
+    "industrial engineering: productivity, work study (method study, time study), plant layout, value engineering (KIT CoEK B.Tech Mechanical syllabus; Koushik 04.11.2026)",
+    "project management (no own category)"
+   ],
+   "excludes": [
+    "software project management -> software_engineering",
+    "law, IPR, ethics, soft-skills courses -> no category"
+   ],
+   "typical_topics": [
+    "demand",
+    "supply",
+    "accounting",
+    "break-even",
+    "motivation",
+    "decision making",
+    "leadership",
+    "aggregate planning",
+    "scheduling",
+    "pert/cpm",
+    "national income",
+    "inflation",
+    "capital budgeting",
+    "costing",
+    "perception",
+    "personality",
+    "communication",
+    "conflict",
+    "power",
+    "teams",
+    "production systems",
+    "product design",
+    "value engineering",
+    "layout",
+    "six sigma"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Business Economics and Financial Analysis",
+    "Engineering Economics and Accountancy",
+    "Fundamentals of Management",
+    "Fundamentals of Management for Engineers",
+    "Industrial Engineering and Management",
+    "Industrial Management",
+    "Innovation and Entrepreneurship",
+    "Organisational Behaviour",
+    "Organizational Behaviour",
+    "Production Planning & Control",
+    "Production Planning and Control",
+    "Production and Operations Management",
+    "Project Management",
+    "Total Quality Management"
+   ]
+  },
+  "chemistry_materials.materials_science": {
+   "definition": "Materials science and engineering.",
+   "includes": [
+    "crystal structure, phase diagrams, heat treatment",
+    "ferrous and non-ferrous metals, metallurgy",
+    "ceramics, polymers and composite materials",
+    "material testing"
+   ],
+   "excludes": [
+    "mechanics of solids (stress / strain analysis) -> structural_mechanics (not part of this field: no category here) + mechanical_manufacturing_engineering.mechanics_dynamics (rule S1)"
+   ],
+   "typical_topics": [
+    "cement",
+    "admixtures",
+    "aggregates",
+    "fresh and hardened concrete",
+    "creep",
+    "shrinkage",
+    "mix design",
+    "special concretes",
+    "crystal structures",
+    "defects",
+    "phase diagrams",
+    "iron-carbon diagram",
+    "heat treatment",
+    "alloy steels",
+    "cast irons",
+    "non-ferrous alloys",
+    "composite classification",
+    "fibres",
+    "polymer/ceramic/metal matrix fabrication",
+    "carbon fibre",
+    "micromechanics"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Building Materials and Concrete Technology",
+    "Building Materials, Construction and Planning",
+    "Composite Materials",
+    "Concrete Technology",
+    "Engineering Materials",
+    "Low Cost Materials and Green Buildings",
+    "Material Science and Metallurgy",
+    "Mechanics of Composite Materials and Structures",
+    "Metallurgy & Material Science"
+   ]
+  },
+  "computer_science_informatics.algorithms_data_structures": {
+   "definition": "Design, analysis and implementation of data structures and algorithms.",
+   "includes": [
+    "arrays, linked lists, stacks, queues",
+    "trees, heaps, hashing, graphs",
+    "sorting and searching",
+    "algorithm design paradigms: divide and conquer, greedy, dynamic programming, backtracking, branch and bound",
+    "time/space complexity analysis of algorithms (Big-O)",
+    "advanced, randomized and approximation algorithms"
+   ],
+   "excludes": [
+    "complexity THEORY as the main content (P vs NP, computability) -> theoretical_cs",
+    "courses mainly teaching a programming language -> programming_practical_cs"
+   ],
+   "typical_topics": [
+    "dynamic programming",
+    "greedy",
+    "asymptotic notation",
+    "divide and conquer",
+    "disjoint sets",
+    "backtracking",
+    "branch and bound",
+    "np-completeness",
+    "np-hard/np-complete",
+    "recurrences",
+    "sorting",
+    "graph algorithms",
+    "max flow",
+    "sorting networks",
+    "string matching",
+    "approximation",
+    "adts",
+    "linked lists",
+    "stacks",
+    "queues",
+    "hashing",
+    "bst/avl/red-black/splay trees",
+    "graphs",
+    "heap and merge sort",
+    "pattern matching"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Advanced Algorithms",
+    "Algorithm Design and Analysis",
+    "C Programming and Data Structures",
+    "C and Data Structures",
+    "Computational Complexity",
+    "Data Structures",
+    "Design and Analysis of Algorithms"
+   ]
+  },
+  "computer_science_informatics.computer_engineering": {
+   "definition": "Computer hardware and systems: architecture, digital design, embedded systems, plus computer networks and distributed systems (record meaning kept).",
+   "includes": [
+    "digital logic and digital/analog electronics for computing",
+    "computer organization and architecture",
+    "microprocessors, microcontrollers, assembly language",
+    "embedded systems",
+    "Internet of Things (devices, sensors, platforms)",
+    "data communication, OSI / TCP-IP layers",
+    "network protocols and network programming",
+    "wireless, mobile, 5G and sensor networks",
+    "network management",
+    "distributed systems and algorithms",
+    "cloud, edge and fog computing",
+    "parallel and high-performance computing",
+    "storage systems"
+   ],
+   "excludes": [
+    "compiler design -> programming_practical_cs and theoretical_cs (CS2023: Foundations of Programming Languages; some German programmes list Compilerbau under Theoretische Informatik), counted once (C4)",
+    "operating systems -> operating_systems"
+   ],
+   "typical_topics": [
+    "scheduling",
+    "embedded classification",
+    "embedded c firmware",
+    "pipelining",
+    "hardware components",
+    "rtos tasks",
+    "synchronization",
+    "integration and testing",
+    "memory and i/o organization",
+    "80x86 architecture",
+    "addressing",
+    "instructions",
+    "vliw",
+    "mips",
+    "memory hierarchy",
+    "python",
+    "cloud storage",
+    "rest apis",
+    "interfaces",
+    "rtos",
+    "register transfer",
+    "microprogrammed control",
+    "computer arithmetic",
+    "cache",
+    "risc/cisc"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Adhoc and Sensor Networks",
+    "Advanced Computer Architecture",
+    "Advanced Operating Systems",
+    "Cloud Computing",
+    "Computer Networks",
+    "Digital Electronics",
+    "Distributed Databases",
+    "Distributed Systems",
+    "Embedded System Design",
+    "High Performance Computing",
+    "Internet of Things",
+    "Microprocessors and Microcontrollers",
+    "Mobile Communications and Networks",
+    "Real Time Systems",
+    "Wireless Sensor Networks"
+   ]
+  },
+  "computer_science_informatics.computer_networks": {
+   "definition": "Data communication and computer networks.",
+   "includes": [
+    "data communication, OSI / TCP-IP layers",
+    "network protocols and network programming",
+    "wireless, mobile, 5G and sensor networks",
+    "network management",
+    "IoT courses whose main content is network protocols and communication between devices (e.g. IoT architectures and protocols, sensor networks) (Koushik 31.10.2026)"
+   ],
+   "excludes": [
+    "communication systems (modulation, coding) -> electrical_electronic_engineering.communications",
+    "network security -> it_security",
+    "IoT devices, sensors, platforms and applications -> computer_science_informatics.computer_engineering only (Koushik 31.10.2026)"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "5G Technologies",
+    "Adhoc and Sensor Networks",
+    "Computer Networks",
+    "Data Communication & Computer Networks",
+    "Data Communications and Computer Networks",
+    "Data Communications and Networks",
+    "IoT Architectures and Protocols",
+    "Mobile Communications and Networks",
+    "Mobile Computing",
+    "Network Programming",
+    "Smart Metering and Communication Protocols",
+    "Wireless Communication Networks",
+    "Wireless Sensor Networks"
+   ]
+  },
+  "computer_science_informatics.data_engineering": {
+   "definition": "Building systems and pipelines that collect, store, move and process large-scale data.",
+   "includes": [
+    "data pipelines and ETL",
+    "data warehouse architecture",
+    "big data frameworks (Hadoop, Spark, Kafka)",
+    "stream processing",
+    "distributed data processing, data lakes"
+   ],
+   "excludes": [
+    "analysing data for insight -> foundational_methods (not part of this field: no category here)"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Big Data Technologies",
+    "Big data-Spark",
+    "Data Engineering with Python",
+    "Mining Massive Datasets"
+   ]
+  },
+  "computer_science_informatics.databases_systems": {
+   "definition": "Storing, managing, querying and retrieving data with database systems.",
+   "includes": [
+    "data models, ER modelling",
+    "relational model and relational algebra",
+    "SQL",
+    "normalization",
+    "transactions, concurrency control, recovery",
+    "indexing and query processing",
+    "distributed, NoSQL, spatial and multimedia databases",
+    "information retrieval systems"
+   ],
+   "excludes": [
+    "data warehousing, big data analytics -> foundational_methods (not part of this field: no category here) / computer_science_informatics.data_engineering",
+    "storage hardware / SAN -> computer_engineering",
+    "database SECURITY -> it_security"
+   ],
+   "typical_topics": [
+    "indexing",
+    "relational model",
+    "normalization",
+    "transactions",
+    "er model",
+    "algebra and calculus",
+    "concurrency",
+    "recovery",
+    "b+ trees",
+    "ir capabilities",
+    "inverted files",
+    "signature files",
+    "automatic indexing",
+    "clustering",
+    "search",
+    "relevance feedback",
+    "multimedia retrieval",
+    "er design"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Database Management Systems",
+    "Database Security",
+    "Distributed Databases",
+    "Information Retrieval Systems",
+    "Multimedia Database Management Systems"
+   ]
+  },
+  "computer_science_informatics.graphics_visual_computing": {
+   "definition": "Creating, processing and interpreting images and visual content.",
+   "includes": [
+    "computer graphics: 2D/3D transformations, rendering",
+    "image processing",
+    "computer vision",
+    "augmented and virtual reality",
+    "animation, multimedia"
+   ],
+   "excludes": [
+    "business data visualization / dashboards (Power BI, Tableau) -> foundational_methods (not part of this field: no category here)",
+    "UI/UX design -> hci"
+   ],
+   "typical_topics": [
+    "raster displays",
+    "line/circle algorithms",
+    "polygon filling",
+    "2d/3d transformations",
+    "clipping",
+    "splines",
+    "bezier",
+    "illumination",
+    "animation",
+    "visible surfaces",
+    "biometric architecture",
+    "face",
+    "iris",
+    "fingerprint",
+    "vein biometrics",
+    "privacy",
+    "multimodal",
+    "watermarking",
+    "image enhancement",
+    "standards"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Augmented Reality & Virtual Reality",
+    "Biometrics",
+    "Computer Graphics",
+    "Computer Vision",
+    "Computer Vision and Digital Image Processing in Civil Engineering",
+    "Computer Vision and Image Processing",
+    "Digital Image Processing",
+    "Image Processing"
+   ]
+  },
+  "computer_science_informatics.hci": {
+   "definition": "Design and evaluation of user interfaces and user experience.",
+   "includes": [
+    "HCI principles, usability",
+    "user-centred and interaction design",
+    "UI/UX design, prototyping",
+    "user evaluation, accessibility"
+   ],
+   "excludes": [
+    "courses mainly about coding an app with a UI framework (Flutter, Android) -> programming_practical_cs"
+   ],
+   "typical_topics": [
+    "interface design",
+    "screen layout",
+    "navigation",
+    "controls",
+    "colour",
+    "multimedia",
+    "hci in lifecycle",
+    "evaluation",
+    "universal design"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Human Computer Interaction"
+   ]
+  },
+  "computer_science_informatics.it_security": {
+   "definition": "Protecting systems, networks, software and data against attacks.",
+   "includes": [
+    "cryptography",
+    "network, web, cloud, IoT, mobile and wireless security",
+    "cyber security",
+    "secure coding",
+    "ethical hacking, penetration testing, vulnerability assessment",
+    "intrusion detection, malware analysis",
+    "digital and cyber forensics",
+    "authentication, biometrics",
+    "blockchain and distributed ledgers",
+    "security audit, incident response, SOC",
+    "data privacy"
+   ],
+   "excludes": [
+    "IoT / networking courses without a security focus -> computer_engineering",
+    "cyber LAW / legal courses -> no category"
+   ],
+   "typical_topics": [
+    "security models",
+    "test planning",
+    "controlled attacks",
+    "reconnaissance",
+    "enumeration",
+    "exploitation",
+    "defence planning",
+    "signatures",
+    "key distribution",
+    "ipsec",
+    "firewalls",
+    "security attacks",
+    "classical and modern ciphers",
+    "hashing",
+    "web/wireless/transport security",
+    "email",
+    "cybercrime",
+    "incident response",
+    "forensic duplication",
+    "network forensics",
+    "email and mobile investigation",
+    "file systems",
+    "hash",
+    "ip and web security",
+    "security basics"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Biometrics",
+    "Blockchain Technology",
+    "Cryptography and Network Security",
+    "Cyber Forensics",
+    "Cyber Security",
+    "Digital Forensics",
+    "Ethical Hacking",
+    "Information Security",
+    "Intrusion Detection Systems",
+    "Mobile Application Security",
+    "Network Security and Cryptography",
+    "Number Theory & Cryptography",
+    "Secure Coding Principles",
+    "Vulnerability and Penetration Testing",
+    "Web Security"
+   ]
+  },
+  "computer_science_informatics.machine_learning_ai": {
+   "definition": "Building systems that learn from data or act intelligently.",
+   "includes": [
+    "artificial intelligence: search, knowledge representation, reasoning, planning, expert systems",
+    "machine learning: supervised and unsupervised learning, model evaluation",
+    "neural networks and deep learning",
+    "natural language processing",
+    "reinforcement learning",
+    "generative AI, chatbots, prompt engineering",
+    "pattern recognition",
+    "soft computing, nature-inspired computing",
+    "data mining algorithms: classification, clustering, association rules",
+    "social network analysis / mining",
+    "semantic web, ontologies (knowledge representation)"
+   ],
+   "excludes": [
+    "data handling, BI, visualization, analytics workflow -> foundational_methods (not part of this field: no category here); a course with both (e.g. Data Mining) gets BOTH categories",
+    "big data platforms and pipelines -> data_engineering",
+    "mathematics courses for ML (linear algebra, calculus, probability) -> mathematics_statistics.optimization_numerics categories"
+   ],
+   "typical_topics": [
+    "genetic algorithms",
+    "fuzzy sets",
+    "decision trees",
+    "neural networks",
+    "backpropagation",
+    "fuzzy logic",
+    "rule systems",
+    "particle swarm optimization",
+    "rough sets",
+    "ann basics",
+    "supervised and unsupervised networks",
+    "deep feedforward networks",
+    "regularization",
+    "optimization",
+    "vision/speech/nlp applications",
+    "concept learning",
+    "bayesian learning",
+    "reinforcement learning",
+    "morphology",
+    "semantic parsing",
+    "hopfield",
+    "learning theory",
+    "instance-based",
+    "rule learning",
+    "syntax"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "AI Techniques in Electrical Engineering",
+    "AI/ML for Design Analysis",
+    "Artificial Intelligence",
+    "Artificial Neural Networks",
+    "Data Mining",
+    "Data Stream Mining",
+    "Deep Learning",
+    "Fuzzy Logic and ANN",
+    "Generative AI",
+    "Machine Learning",
+    "Mining Massive Datasets",
+    "Natural Language Processing",
+    "Pattern Recognition",
+    "Reinforcement Learning",
+    "Social Media Mining"
+   ]
+  },
+  "computer_science_informatics.operating_systems": {
+   "definition": "How operating systems manage processes, memory, files and devices.",
+   "includes": [
+    "processes and threads",
+    "CPU scheduling",
+    "synchronization and concurrency",
+    "deadlocks",
+    "memory management, virtual memory",
+    "file systems, I/O",
+    "system calls",
+    "real-time and distributed operating systems",
+    "Unix/Linux internals",
+    "concurrent programming"
+   ],
+   "excludes": [
+    "networks -> computer_engineering",
+    "shell/Linux scripting courses -> programming_practical_cs"
+   ],
+   "typical_topics": [
+    "mutual exclusion",
+    "locks",
+    "linearizability",
+    "consensus",
+    "spin locks",
+    "concurrent lists",
+    "queues",
+    "stacks",
+    "transactional memory",
+    "os structures",
+    "system calls",
+    "processes",
+    "threads",
+    "cpu scheduling",
+    "deadlocks",
+    "synchronization",
+    "paging",
+    "virtual memory",
+    "file systems",
+    "distributed system architecture",
+    "logical clocks",
+    "causal ordering",
+    "distributed mutual exclusion",
+    "deadlock detection",
+    "multiprocessor os"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Advanced Operating Systems",
+    "Computer Organization & Operating Systems",
+    "Concurrent Programming",
+    "Linux and Shell Scripting",
+    "Operating Systems",
+    "Real Time Systems"
+   ]
+  },
+  "computer_science_informatics.programming_practical_cs": {
+   "definition": "Writing programs in programming languages and building software applications.",
+   "includes": [
+    "programming fundamentals and problem solving (C, C++, Java, Python, ...)",
+    "object-oriented programming",
+    "scripting languages",
+    "web programming, web technologies, full-stack development",
+    "mobile application development",
+    "functional and logic programming",
+    "principles / concepts of programming languages and programming paradigms",
+    "R programming",
+    "programming labs"
+   ],
+   "excludes": [
+    "a course where code is only the tool for another subject goes to that subject (data structures -> algorithms_data_structures, SQL -> databases_systems, ML in Python -> machine_learning_ai)",
+    "a lab belongs to the same category as the lecture course it practises, EXCEPT when that lecture is a theory subject (theoretical_cs or mathematics): a lab is hands-on practical work, never theory, so it goes to programming_practical_cs (e.g. Compiler Design Lab, Automata Lab -> programming_practical_cs)",
+    "a course where code is only the tool for another subject goes to that subject's category (data structures, databases, machine learning -> their own computer_science categories; MATLAB for signals -> signals_systems / digital_signal_processing)",
+    "a lab belongs to the same category as the lecture course it practises",
+    "digital logic design -> digital_systems; microprocessor hardware -> computer_engineering"
+   ],
+   "typical_topics": [
+    "exceptions",
+    "servlets",
+    "jdbc",
+    "javascript",
+    "inheritance",
+    "multithreading",
+    "applets",
+    "html/css",
+    "xml dom/sax",
+    "form validation",
+    "packages",
+    "interfaces",
+    "generics",
+    "swing",
+    "perl",
+    "c fundamentals",
+    "arrays",
+    "strings",
+    "structures",
+    "pointers",
+    "files",
+    "functions",
+    "dynamic memory",
+    "basic algorithms",
+    "classes"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "C Programming",
+    "C Programming and Data Structures",
+    "C Programming for Engineers",
+    "C and Data Structures",
+    "Compiler Design",
+    "Full Stack Development",
+    "Java Programming",
+    "Mobile Application Development",
+    "Object Oriented Programming through Java",
+    "Object Oriented Programming using C++",
+    "Principles of Programming Languages",
+    "Programming for Problem Solving",
+    "Python Programming",
+    "Scripting Languages",
+    "Web Programming"
+   ]
+  },
+  "computer_science_informatics.software_engineering": {
+   "definition": "Processes and practices for building and maintaining software systems.",
+   "includes": [
+    "software life cycle and process models",
+    "requirements engineering",
+    "software design, UML",
+    "software architecture and design patterns",
+    "software testing and quality assurance",
+    "software project management and estimation",
+    "agile, scrum",
+    "DevOps, CI/CD",
+    "configuration management, maintenance"
+   ],
+   "excludes": [
+    "learning a specific programming language -> programming_practical_cs"
+   ],
+   "typical_topics": [
+    "metrics",
+    "process models",
+    "requirements",
+    "architecture",
+    "uml design",
+    "testing strategies",
+    "risk",
+    "quality management",
+    "iso 9000",
+    "bug taxonomy",
+    "flow graphs",
+    "path testing",
+    "transaction flow",
+    "data-flow testing",
+    "domain testing",
+    "decision tables",
+    "state graphs",
+    "cmmi",
+    "psp/tsp",
+    "software economics",
+    "life-cycle phases",
+    "workflows",
+    "planning",
+    "project organization"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Agile Methodology",
+    "DevOps",
+    "Robotic Process Automation",
+    "Scalable Architecture for Large Applications",
+    "Software Engineering",
+    "Software Process & Project Management",
+    "Software Project Management",
+    "Software Testing Methodologies"
+   ]
+  },
+  "computer_science_informatics.theoretical_cs": {
+   "definition": "The mathematical theory of computation (German: Theoretische Informatik).",
+   "includes": [
+    "finite automata, pushdown automata, Turing machines",
+    "formal languages and grammars, regular expressions",
+    "computability and decidability",
+    "computational complexity: P, NP, NP-completeness",
+    "logic for computer science, formal semantics and verification",
+    "compiler construction (lexical and syntax analysis theory)"
+   ],
+   "excludes": [
+    "programming language concepts and paradigms -> programming_practical_cs",
+    "optimization / operations research -> mathematics_statistics.optimization_numerics",
+    "semantic web -> machine_learning_ai",
+    "LAB / practical courses, even on compiler or automata topics -> programming_practical_cs (a lab is never theory)"
+   ],
+   "typical_topics": [
+    "finite automata",
+    "regular expressions",
+    "pumping lemma",
+    "cfgs",
+    "pdas",
+    "normal forms",
+    "turing machines",
+    "undecidability"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Automata Theory and Compiler Design",
+    "Compiler Design",
+    "Computational Complexity",
+    "Formal Languages and Automata Theory",
+    "Principles of Compiler Construction",
+    "Quantum Computing"
+   ]
+  },
+  "electrical_electronic_engineering.circuit_theory": {
+   "definition": "Electric circuit and network analysis.",
+   "includes": [
+    "DC and AC circuit analysis, Kirchhoff's laws, mesh and nodal analysis; network theorems (Thevenin, Norton, superposition, maximum power transfer); single-phase and three-phase circuits, resonance; transient analysis of RL, RC and RLC circuits"
+   ],
+   "excludes": [
+    "electronic circuits with active devices -> electronics",
+    "transmission lines -> electromagnetic_field_theory"
+   ],
+   "typical_topics": [
+    "network theorems",
+    "node and mesh analysis",
+    "transients",
+    "sinusoidal steady state",
+    "laplace circuit analysis",
+    "two-port parameters",
+    "dc and ac circuits",
+    "transformers",
+    "induction/dc/synchronous machines",
+    "lt switchgear",
+    "batteries"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Basic Electrical Engineering",
+    "Basic Electrical and Electronics Engineering",
+    "Electrical Circuit Analysis",
+    "Electrical Circuit Analysis – I",
+    "Electrical Circuit Analysis – II",
+    "Electrical Circuits - I",
+    "Electrical Circuits - II",
+    "Elements of Electrical and Electronics Engineering",
+    "Network Analysis and Synthesis",
+    "Network Analysis and Transmission Lines"
+   ]
+  },
+  "electrical_electronic_engineering.communications": {
+   "definition": "Communication systems and theory.",
+   "includes": [
+    "analog modulation (AM, FM, PM)",
+    "digital modulation and digital communication",
+    "noise in communication systems",
+    "information theory and coding, error-correcting codes",
+    "mobile / cellular, satellite and radar communication systems",
+    "optical fiber communication systems",
+    "wireless communication",
+    "communication labs"
+   ],
+   "excludes": [
+    "computer network protocols (OSI / TCP-IP layers) -> computer_science_informatics.computer_networks",
+    "microwave engineering (microwave tubes, solid-state microwave devices, waveguide components, S-parameters) -> electromagnetic_field_theory, EVEN when the course title also says 'communications' (e.g. 'Microwave and Optical Communications' is mostly microwave devices); communications counts only when communication systems are the main content | Antennas and propagation courses count in both electromagnetic_field_theory and communications (approved 30.10.2026).",
+    "introductory survey courses of the whole branch (e.g. 'Elements of / Introduction to Electronics and Communication Engineering') -> no category (survey course); the word 'communication' in a branch name is not communication-systems content"
+   ],
+   "typical_topics": [
+    "dsb-sc",
+    "fm/pm",
+    "transmitters and receivers",
+    "delta modulation",
+    "orbital mechanics",
+    "subsystems",
+    "link budget",
+    "fdma/tdma/cdma",
+    "earth stations",
+    "radar equation",
+    "fm-cw",
+    "pulse doppler",
+    "tracking radar",
+    "matched filter",
+    "phased arrays"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "5G Communications",
+    "5G and beyond Communications",
+    "Analog and Digital Communications",
+    "Antennas and Propagation",
+    "Error Correcting Codes",
+    "Introduction to Wireless Communications",
+    "Microwave and Optical Communications",
+    "Mobile Communications and Networks",
+    "Principles of Communication",
+    "Radar Systems",
+    "Satellite Communications",
+    "Wireless Communication Networks"
+   ]
+  },
+  "electrical_electronic_engineering.control_systems": {
+   "definition": "Control engineering and systems theory.",
+   "includes": [
+    "system modelling, transfer functions, block diagrams",
+    "time-domain and frequency-domain analysis",
+    "stability: Routh-Hurwitz, root locus, Bode, Nyquist",
+    "compensator and controller design (PID, lead/lag)",
+    "state-space analysis",
+    "digital / discrete-time control",
+    "control system design",
+    "control systems labs",
+    "feedback control, transfer functions, block diagrams",
+    "time and frequency response, stability (Routh, root locus, Bode, Nyquist)",
+    "controllers (PID) and state-space basics"
+   ],
+   "excludes": [
+    "electric drive control -> electrical_machines_drives",
+    "signal processing -> signals_systems / digital_signal_processing",
+    "measurement and instrumentation -> no category (unless control is at least 40% of the course)"
+   ],
+   "typical_topics": [
+    "pole placement",
+    "observers",
+    "state space",
+    "time and frequency specifications",
+    "lag/lead compensators",
+    "bode compensation",
+    "nonlinearity",
+    "time response",
+    "root locus",
+    "bode",
+    "nyquist",
+    "controllability",
+    "transfer function",
+    "routh-hurwitz",
+    "lead-lag",
+    "discrete-time",
+    "stability",
+    "margins",
+    "discrete systems",
+    "sampling",
+    "z-transform",
+    "jury stability",
+    "observability",
+    "discrete pid",
+    "state feedback"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Control Systems",
+    "Control Systems Design",
+    "Cyber-Physical Systems",
+    "Digital Control Systems",
+    "Industrial Automation and Control",
+    "Instrumentation and Control Systems",
+    "Programmable Logic Controllers"
+   ]
+  },
+  "electrical_electronic_engineering.digital_signal_processing": {
+   "definition": "Digital signal processing.",
+   "includes": [
+    "DFT/FFT",
+    "digital filter design (FIR, IIR)",
+    "multirate processing",
+    "DSP processors",
+    "image processing as signal processing"
+   ],
+   "excludes": [
+    "continuous-time signals and transforms only -> signals_systems"
+   ],
+   "typical_topics": [
+    "multirate",
+    "finite word length",
+    "discrete-time signals",
+    "iir and fir filter design",
+    "structures",
+    "2-d transforms",
+    "enhancement",
+    "restoration",
+    "segmentation",
+    "morphology",
+    "compression",
+    "discrete signals",
+    "iir and fir design",
+    "realization"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "AI for Signal and Image Processing",
+    "Biomedical Signal and Image Processing",
+    "Computer Vision and Image Processing",
+    "DSP Processors and Architectures",
+    "Digital Image Processing",
+    "Digital Signal Processing",
+    "Fundamentals of Image Processing",
+    "Image Processing",
+    "Image and Video Processing"
+   ]
+  },
+  "electrical_electronic_engineering.digital_systems": {
+   "definition": "Digital electronics and digital system design.",
+   "includes": [
+    "number systems and Boolean algebra; combinational logic: gates, adders, multiplexers, decoders; sequential logic: flip-flops, counters, registers, state machines; logic families, memories, PLDs",
+    "HDL-based digital design (Verilog, VHDL, SystemVerilog), FPGA, HW/SW co-design"
+   ],
+   "excludes": [
+    "pure computer architecture courses -> computer_science_informatics.computer_engineering; microprocessor / microcontroller courses also teach digital systems and count in both (approved 30.10.2026)"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Analog and Digital Electronics",
+    "Digital Electronics",
+    "Digital Logic Design",
+    "Digital System Design",
+    "FPGA based System Design",
+    "Linear and Digital IC Applications",
+    "Microprocessors & Microcontrollers",
+    "Microprocessors and Microcontrollers",
+    "PCB Design / FPGA Fundamentals",
+    "Test and Testability"
+   ]
+  },
+  "electrical_electronic_engineering.electrical_machines_drives": {
+   "definition": "Electrical machines and electric drives.",
+   "includes": [
+    "DC machines; transformers; induction machines; synchronous machines, alternators",
+    "electric drives and their control",
+    "machine design"
+   ],
+   "excludes": [
+    "power converters themselves -> power_electronics"
+   ],
+   "typical_topics": [
+    "transformer design",
+    "cooling",
+    "induction motor design",
+    "optimization",
+    "starting",
+    "speed control",
+    "dc generators and motors",
+    "excitation",
+    "testing",
+    "single-phase transformers",
+    "polyphase connections",
+    "induction machines",
+    "torque",
+    "synchronous machines",
+    "regulation",
+    "parallel operation",
+    "single-phase motors"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Advanced Control of Electric Drives",
+    "Computer Aided Electrical Machine Design",
+    "Electrical Machine Design",
+    "Electrical Machines – I",
+    "Electrical Machines – II",
+    "Electrical and Hybrid Vehicles",
+    "Power Semiconductor Drives"
+   ]
+  },
+  "electrical_electronic_engineering.electromagnetic_field_theory": {
+   "definition": "Electromagnetic fields, waves, transmission lines, antennas and microwaves.",
+   "includes": [
+    "electrostatics, magnetostatics, Maxwell's equations; electromagnetic waves and propagation; transmission lines, Smith chart, impedance matching; waveguides and microwave components, microwave tubes and devices",
+    "antennas and wave propagation"
+   ],
+   "excludes": [
+    "communication systems -> communications"
+   ],
+   "typical_topics": [
+    "electrostatics",
+    "magnetostatics",
+    "maxwell equations",
+    "plane waves",
+    "reflection",
+    "waveguides",
+    "microstrip",
+    "gauss law",
+    "dielectrics",
+    "laplace and poisson equations",
+    "em waves"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Antenna Design and Wave Propagation",
+    "Antennas and Propagation",
+    "Antennas and Wave Propagation",
+    "Electro Magnetic Fields",
+    "Electromagnetic Fields",
+    "Electromagnetic Fields and Transmission Lines",
+    "Electromagnetic Fields and Waves",
+    "Microwave and Optical Communications",
+    "Network Analysis and Transmission Lines",
+    "RF Circuit Design"
+   ]
+  },
+  "electrical_electronic_engineering.electronics": {
+   "definition": "Electronic devices and analog electronic circuits.",
+   "includes": [
+    "semiconductor physics of devices: diodes, BJTs, FETs, MOSFETs; rectifiers, biasing, small-signal models; amplifiers, feedback amplifiers, oscillators, power amplifiers; operational amplifiers and linear IC applications, timers, analog filters"
+   ],
+   "excludes": [
+    "digital logic -> digital_systems",
+    "IC fabrication, VLSI -> microelectronics_semiconductors"
+   ],
+   "typical_topics": [
+    "oscillators",
+    "op-amp fundamentals",
+    "instrumentation amplifier",
+    "comparators",
+    "schmitt trigger",
+    "active filters",
+    "555 timer",
+    "d/a and a/d converters",
+    "feedback amplifiers",
+    "diode circuits",
+    "rectifiers",
+    "clippers",
+    "clampers",
+    "bjt and fet biasing",
+    "zener",
+    "small-signal bjt/fet amplifier analysis",
+    "multistage amplifiers",
+    "high-frequency transistor model",
+    "power amplifiers",
+    "tuned amplifiers",
+    "multivibrators",
+    "diode and bjt circuits",
+    "mosfet circuits",
+    "multistage and power amplifiers",
+    "op-amp circuits"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Analog Circuits",
+    "Analog Electronic Circuits",
+    "Analog Electronics",
+    "Analog and Digital Electronics",
+    "Automotive Electronics",
+    "Basic Electrical and Electronics Engineering",
+    "Electronic Circuit Analysis",
+    "Electronic Devices and Circuits",
+    "Elements of Electrical and Electronics Engineering",
+    "Linear IC Applications",
+    "Linear and Digital IC Applications",
+    "RF Circuit Design"
+   ]
+  },
+  "electrical_electronic_engineering.information_theory": {
+   "definition": "Information theory and coding.",
+   "includes": [
+    "entropy, channel capacity",
+    "source coding",
+    "error-correcting codes"
+   ],
+   "excludes": [
+    "communication systems as a whole -> communications"
+   ],
+   "typical_topics": [
+    "entropy",
+    "shannon-fano",
+    "huffman",
+    "linear block",
+    "cyclic",
+    "convolutional codes",
+    "viterbi"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Error Correcting Codes",
+    "Information Theory & Coding"
+   ]
+  },
+  "electrical_electronic_engineering.measurement_instrumentation": {
+   "definition": "Electrical and electronic measurements, sensors and instrumentation.",
+   "includes": [
+    "measuring instruments and errors; bridges, meters, oscilloscopes; sensors and transducers; electronic measurements and instrumentation",
+    "metrology: measurement of length, angles, surface finish, gauges and comparators (approved 30.10.2026)"
+   ],
+   "excludes": [
+    "control theory -> control_systems"
+   ],
+   "typical_topics": [
+    "transducers",
+    "measurement errors",
+    "meters",
+    "signal generators",
+    "analyzers",
+    "bridges",
+    "flow/level/temperature measurement",
+    "potentiometers",
+    "instrument transformers",
+    "power and energy measurement",
+    "lvdt",
+    "strain gauges",
+    "digital meters",
+    "metrology"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Biomedical Instrumentation",
+    "Electrical Measurements and Sensors",
+    "Electronic Measurements and Instrumentation",
+    "Electronic Sensors",
+    "Instrumentation",
+    "Instrumentation and Control Systems",
+    "Measurements and Instrumentation",
+    "Measuring Instruments",
+    "Metrology & Machine Tools",
+    "Metrology and Machine Tools",
+    "Smart Metering and Communication Protocols"
+   ]
+  },
+  "electrical_electronic_engineering.microelectronics_semiconductors": {
+   "definition": "Semiconductor devices physics, IC technology and VLSI design.",
+   "includes": [
+    "IC fabrication technology; MOS / CMOS circuit design; VLSI design flow, layout; low-power VLSI",
+    "semiconductor device physics"
+   ],
+   "excludes": [
+    "discrete electronic circuits -> electronics"
+   ],
+   "typical_topics": [
+    "multipliers",
+    "mos/bicmos",
+    "cmos inverter",
+    "layout",
+    "stick diagrams",
+    "scaling",
+    "gate delays",
+    "adders",
+    "memories",
+    "fpga",
+    "cpld",
+    "testing",
+    "soc architecture",
+    "processor microarchitecture",
+    "memory",
+    "caches",
+    "bus interconnects",
+    "reconfigurable customization",
+    "power dissipation",
+    "low-power design",
+    "low-voltage adders",
+    "low-power memories"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Analog and Mixed Signal IC Design",
+    "CMOS Analog IC Design",
+    "CMOS Fabrication and Technology",
+    "CMOS VLSI Design",
+    "Design for Testability",
+    "Intelligent e-Computer Aided Design",
+    "Low Power VLSI Design",
+    "MEMS",
+    "System on Chip Architecture",
+    "Test and Testability",
+    "VLSI Design"
+   ]
+  },
+  "electrical_electronic_engineering.power_electronics": {
+   "definition": "Power electronics.",
+   "includes": [
+    "power semiconductor devices: thyristors, power MOSFETs, IGBTs; rectifiers and controlled converters; choppers / DC-DC converters; inverters, PWM, AC voltage controllers, cycloconverters"
+   ],
+   "excludes": [
+    "electric-drive courses without converter content -> electrical_machines_drives; drive-control courses that cover converters / inverters count in both (approved 30.10.2026)"
+   ],
+   "typical_topics": [
+    "phase-controlled rectifiers",
+    "dc-dc choppers",
+    "smps",
+    "ac voltage controllers",
+    "cycloconverters"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Advanced Control of Electric Drives",
+    "Battery Management Systems",
+    "Power Electronic Applications to Renewable Energy Systems",
+    "Power Electronics",
+    "Power Electronics for Renewable Energy Systems",
+    "Power Quality & FACTS",
+    "Power Quality Techniques",
+    "Power Semiconductor Drives",
+    "Switched Mode Power Conversion"
+   ]
+  },
+  "electrical_electronic_engineering.power_engineering": {
+   "definition": "Electric power systems: generation, transmission, distribution, protection.",
+   "includes": [
+    "power generation (conventional and renewable: wind, solar); transmission and distribution, HVDC; power system analysis: load flow, faults, stability; power system protection, switchgear",
+    "high-voltage engineering",
+    "renewable and non-conventional energy systems, energy conservation",
+    "smart grids"
+   ],
+   "excludes": [
+    "power converters -> power_electronics",
+    "electrical machines -> electrical_machines_drives"
+   ],
+   "typical_topics": [
+    "lt components",
+    "protection",
+    "wiring",
+    "load calculation",
+    "illumination",
+    "industrial substations",
+    "power factor correction",
+    "battery sizing",
+    "generation economics",
+    "tariffs",
+    "insulators",
+    "cables",
+    "ac and dc distribution",
+    "voltage control",
+    "load compensation",
+    "per-unit",
+    "travelling waves",
+    "symmetrical components",
+    "fault calculations",
+    "over-current and distance protection",
+    "pilot relaying",
+    "machine and bus protection",
+    "circuit breakers",
+    "fuses",
+    "economic operation"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Electrical Distribution Systems",
+    "HVDC Transmission",
+    "High Voltage Engineering",
+    "Power Plant Engineering",
+    "Power Quality & FACTS",
+    "Power System Operation and Control",
+    "Power System Protection",
+    "Power System Reliability",
+    "Power System – I",
+    "Power System – II",
+    "Power Systems - I",
+    "Power Systems - II",
+    "Renewable Energy Sources",
+    "Smart Grid Technologies",
+    "Wind and Solar Energy Systems"
+   ]
+  },
+  "electrical_electronic_engineering.signals_systems": {
+   "definition": "Signals and systems theory.",
+   "includes": [
+    "continuous and discrete-time signals and systems; convolution, correlation, LTI systems; Fourier series, Fourier / Laplace / Z-transforms applied to signals; sampling"
+   ],
+   "excludes": [
+    "digital filter design and DSP algorithms -> digital_signal_processing",
+    "control systems -> control_systems"
+   ],
+   "typical_topics": [
+    "laplace and z-transforms",
+    "fourier series and transforms",
+    "lti systems",
+    "filtering",
+    "sampling",
+    "correlation",
+    "signal analysis",
+    "orthogonal functions",
+    "convolution",
+    "lti transmission"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Signals and Systems"
+   ]
+  },
+  "engineering.automotive_engineering": {
+   "definition": "Automotive / vehicle engineering incl. electric vehicles.",
+   "includes": [
+    "vehicle dynamics and design",
+    "automotive powertrains",
+    "electric and hybrid vehicles"
+   ],
+   "excludes": [
+    "IC engines thermodynamics -> mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "typical_topics": [
+    "engine systems",
+    "transmission",
+    "suspension",
+    "braking",
+    "steering",
+    "emissions",
+    "alternative fuels"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Automobile Engineering",
+    "Automotive Electronics",
+    "Autonomous and Connected Vehicles",
+    "Charging Infrastructure for Electric Vehicles",
+    "EV Charging Infrastructure",
+    "Electric and Hybrid Vehicles",
+    "Electrical and Hybrid Vehicles",
+    "Fundamental of Electric Vehicles",
+    "Hybrid Electric Vehicles"
+   ]
+  },
+  "engineering.mechatronics": {
+   "definition": "Mechatronics: integration of mechanics, electronics and control.",
+   "includes": [
+    "mechatronic components and systems",
+    "actuators and sensors in systems",
+    "mechatronics design processes"
+   ],
+   "excludes": [
+    "pure control theory -> control_systems"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "MEMS",
+    "Mechatronic Systems",
+    "Mechatronics",
+    "Microprocessors in Automation"
+   ]
+  },
+  "mathematics_statistics.calculus_analysis": {
+   "definition": "Calculus and mathematical analysis.",
+   "includes": [
+    "limits, differentiation, integration",
+    "sequences and series",
+    "multivariable and vector calculus",
+    "ordinary and partial differential equations",
+    "Laplace and Fourier transforms",
+    "numerical methods",
+    "complex analysis"
+   ],
+   "excludes": [
+    "matrices and linear algebra -> linear_algebra (a combined course can belong to both)",
+    "numerical methods: belongs to BOTH calculus_analysis and optimization_numerics (kept broad)"
+   ],
+   "typical_topics": [
+    "first- and higher-order odes",
+    "multiple integrals",
+    "vector differentiation",
+    "line/surface/volume integrals"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Laplace Transforms, Numerical Methods & Complex Variables",
+    "Mathematics - I",
+    "Mathematics - II",
+    "Mathematics – III",
+    "Matrices and Calculus",
+    "Numerical Methods and Complex Variables",
+    "Ordinary Differential Equations and Vector Calculus",
+    "Probability and Statistics & Complex Variables",
+    "Probability, Statistics & Complex Variables",
+    "Probability, Statistics and Complex Variables"
+   ]
+  },
+  "mathematics_statistics.discrete_math_logic": {
+   "definition": "Discrete mathematics and mathematical logic.",
+   "includes": [
+    "sets, relations, functions",
+    "propositional and predicate logic, proof techniques",
+    "combinatorics, recurrence relations",
+    "graph theory",
+    "algebraic structures, lattices, Boolean algebra",
+    "number theory",
+    "game theory"
+   ],
+   "excludes": [
+    "automata and formal languages -> theoretical_cs"
+   ],
+   "typical_topics": [
+    "trees",
+    "spanning trees",
+    "propositional and predicate logic",
+    "proofs",
+    "sets",
+    "relations",
+    "induction",
+    "recursion",
+    "probability",
+    "recurrences",
+    "generating functions",
+    "graphs",
+    "graph representations",
+    "shortest paths",
+    "connectivity",
+    "euler and hamilton graphs",
+    "matchings",
+    "colouring"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Discrete Mathematics",
+    "Graph Theory",
+    "Mathematical and Statistical Foundation",
+    "Number Theory & Cryptography"
+   ]
+  },
+  "mathematics_statistics.linear_algebra": {
+   "definition": "Linear algebra and matrix theory.",
+   "includes": [
+    "matrices and determinants",
+    "systems of linear equations",
+    "vector spaces, linear transformations",
+    "eigenvalues and eigenvectors, diagonalization",
+    "orthogonality, matrix decompositions"
+   ],
+   "excludes": [],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Mathematics - I",
+    "Mathematics for Machine Learning",
+    "Matrices and Calculus"
+   ]
+  },
+  "mathematics_statistics.optimization_numerics": {
+   "definition": "Numerical methods and mathematical optimization.",
+   "includes": [
+    "numerical solution of equations, interpolation, numerical differentiation and integration",
+    "numerical solution of ODEs/PDEs",
+    "numerical linear algebra",
+    "linear programming, simplex, transportation and assignment problems",
+    "nonlinear and convex optimization",
+    "operations research"
+   ],
+   "excludes": [
+    "machine-learning optimizers taught inside ML courses -> machine_learning_ai",
+    "engineering courses that apply numerical methods (finite element methods, computational fluid dynamics) -> their engineering category only; numerics counts only for courses that teach numerical mathematics itself (numerical methods / Numerik, operations research, optimization) (Koushik 31.10.2026; TU Braunschweig and FAU module handbooks)"
+   ],
+   "typical_topics": [
+    "simplex",
+    "transportation",
+    "dynamic programming",
+    "linear programming",
+    "unconstrained optimization",
+    "assignment",
+    "sequencing",
+    "replacement",
+    "game theory",
+    "inventory",
+    "queueing"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Game Theory",
+    "Laplace Transforms, Numerical Methods & Complex Variables",
+    "Mathematics for Machine Learning",
+    "Numerical Methods and Complex Variables",
+    "Operations Research",
+    "Optimization Methods",
+    "Optimization Techniques"
+   ]
+  },
+  "mathematics_statistics.statistics_probability": {
+   "definition": "Probability theory and statistics.",
+   "includes": [
+    "probability, random variables, distributions",
+    "sampling and estimation",
+    "hypothesis testing",
+    "correlation and regression",
+    "statistical inference",
+    "stochastic processes, queuing basics"
+   ],
+   "excludes": [
+    "machine learning -> machine_learning_ai",
+    "hydrology frequency analysis as a small part of a water-resources course -> not statistics"
+   ],
+   "typical_topics": [
+    "probability",
+    "random variables",
+    "distributions",
+    "least squares",
+    "correlation",
+    "regression",
+    "hypothesis tests",
+    "bayes",
+    "estimation",
+    "hypothesis testing",
+    "markov chains",
+    "random processes",
+    "spectral analysis",
+    "noise",
+    "information theory"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Computer Oriented Statistical Methods",
+    "Data Analytics",
+    "Mathematical and Statistical Foundation",
+    "Probability Theory and Stochastic Processes",
+    "Probability and Statistics",
+    "Probability and Statistics & Complex Variables",
+    "Probability, Statistics & Complex Variables",
+    "Probability, Statistics and Complex Variables"
+   ]
+  },
+  "mechanical_manufacturing_engineering.design_machine_elements": {
+   "definition": "Machine design / design engineering: technical drawing and the design of machine elements.",
+   "includes": [
+    "engineering graphics and machine drawing (technical drawing, projections, assembly drawings)",
+    "design of machine members: joints, shafts, keys, couplings, springs, bearings, gears",
+    "computer-aided design (CAD)",
+    "machine tool design",
+    "selection and design of bearings (sliding and rolling)"
+   ],
+   "excludes": [
+    "analysis of mechanisms and dynamics without sizing elements -> structural_mechanics (not part of this field: no category here) + mechanical_manufacturing_engineering.mechanics_dynamics (rule S1)"
+   ],
+   "typical_topics": [
+    "keys",
+    "couplings",
+    "conic sections",
+    "orthographic projection",
+    "sections",
+    "development",
+    "isometric views",
+    "screws",
+    "joints",
+    "bearings",
+    "assembly drawings",
+    "static and fatigue design",
+    "stress concentration",
+    "failure theories",
+    "riveted/welded/bolted joints",
+    "cotters",
+    "shafts",
+    "journal and rolling bearings",
+    "connecting rods",
+    "pistons",
+    "springs",
+    "belts",
+    "pulleys",
+    "gear design",
+    "lubrication"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "CAD & CAM",
+    "CAD/CAM",
+    "Computer Aided Engineering Graphics",
+    "Computer Aided Machine Drawing",
+    "Conventional and Computer Aided Machine Drawing",
+    "Design for Manufacturing and Assembly",
+    "Design of Machine Elements",
+    "Design of Transmission Elements",
+    "Engineering Graphics",
+    "Engineering Graphics and Computer Aided Drafting",
+    "Machine Design",
+    "Machine Drawing Practice",
+    "Machine Tool Design",
+    "Product Design and Manufacturing",
+    "Tribology"
+   ]
+  },
+  "mechanical_manufacturing_engineering.manufacturing_production": {
+   "definition": "Manufacturing and production engineering.",
+   "includes": [
+    "production technology: casting, welding, forming, forging",
+    "metal cutting and machine tools",
+    "metrology and measurement of parts",
+    "unconventional / non-traditional machining",
+    "computer-aided manufacturing (CAM, CNC)",
+    "additive manufacturing",
+    "automation in manufacturing",
+    "micro-fabrication processes (deposition, lithography, etching, micromachining)"
+   ],
+   "excludes": [
+    "production planning and control, operations management, industrial management -> no category (management, not manufacturing processes)",
+    "first-year engineering workshop / workshop practice (basic trades: fitting, carpentry, welding, smithy) -> no category (skills course, not manufacturing science) (Koushik 30.10.2026)"
+   ],
+   "typical_topics": [
+    "casting",
+    "patterns",
+    "welding",
+    "hot and cold working",
+    "sheet metal",
+    "rolling",
+    "drawing",
+    "extrusion",
+    "forging",
+    "plasma",
+    "chemical machining",
+    "rapid prototyping",
+    "liquid/solid/powder rp",
+    "rapid tooling",
+    "rp software",
+    "automation",
+    "fluid circuits",
+    "flow lines",
+    "line balancing",
+    "material handling",
+    "industrial controls"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Additive Manufacturing",
+    "Advanced Machining Processes",
+    "Automation in Manufacturing",
+    "CAD & CAM",
+    "CAD/CAM",
+    "Design for Manufacturing and Assembly",
+    "Digital Manufacturing",
+    "Industry 4.0",
+    "Machine Tool Design",
+    "Metrology & Machine Tools",
+    "Metrology and Machine Tools",
+    "Micro Manufacturing",
+    "Product Design and Manufacturing",
+    "Production Technology",
+    "Unconventional Machining Processes"
+   ]
+  },
+  "mechanical_manufacturing_engineering.mechanics_dynamics": {
+   "definition": "Engineering (technical) mechanics of solids, structures and machines: statics, dynamics, kinematics, strength of materials (German: Technische Mechanik).",
+   "includes": [
+    "engineering mechanics: statics, friction, centroids, moments of inertia, dynamics of particles and rigid bodies",
+    "mechanics of solids / strength of materials: stress, strain, bending, torsion, columns",
+    "kinematics of machinery: mechanisms, linkages, cams, gears",
+    "dynamics of machinery: balancing, governors, gyroscopes, flywheels",
+    "mechanical vibrations",
+    "finite element methods for structural / stress analysis",
+    "robot kinematics and dynamics (when a substantial part of the course)",
+    "engineering mechanics: statics, friction, centroids, moments of inertia, kinematics and dynamics of bodies",
+    "strength of materials: stress, strain, bending, shear, torsion, deflection, columns",
+    "structural analysis: determinate and indeterminate structures, moment distribution, slope deflection, influence lines, matrix methods",
+    "theory of elasticity",
+    "finite element methods for structures"
+   ],
+   "excludes": [
+    "design of structures (RCC, steel, timber design) -> structural_engineering (not part of this field: no category here); structural analysis belongs to BOTH (kept broad)",
+    "fluid mechanics -> fluid_mechanics (not part of this field: no category here) + mechanical_manufacturing_engineering.mechanics_fluid_dynamics (rule S2)"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Advanced Structural Analysis",
+    "Applied Mechanics",
+    "Dynamics of Machinery",
+    "Engineering Mechanics",
+    "Finite Element Methods",
+    "Kinematics of Machinery",
+    "Mechanical Vibrations",
+    "Mechanics of Solids",
+    "Strength of Materials",
+    "Strength of Materials – I",
+    "Strength of Materials – II",
+    "Structural Analysis",
+    "Structural Analysis - I",
+    "Structural Analysis - II",
+    "Structural Mechanics"
+   ]
+  },
+  "mechanical_manufacturing_engineering.mechanics_fluid_dynamics": {
+   "definition": "Fluid mechanics, hydraulics and fluid machinery.",
+   "includes": [
+    "fluid properties, fluid statics, kinematics and dynamics",
+    "flow through pipes, boundary layers",
+    "hydraulic machines: turbines and pumps",
+    "computational fluid dynamics",
+    "fluid power: hydraulic and pneumatic systems",
+    "turbomachinery (also thermodynamics when it covers compressors, steam and gas turbines)",
+    "lubrication theory (hydrodynamic / hydrostatic fluid films, Reynolds equation)",
+    "fluid properties, statics, kinematics and dynamics",
+    "flow measurement, pipe flow, boundary layers",
+    "open channel flow",
+    "pipeline hydraulics and water hammer",
+    "groundwater flow through porous media (Darcy's law, flow to wells)"
+   ],
+   "excludes": [
+    "hydrology and water resources -> water_engineering (not part of this field: no category here)",
+    "thermodynamics -> mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Computational Fluid Dynamics",
+    "Fluid Mechanics",
+    "Fluid Mechanics & Hydraulic Machines",
+    "Fluid Mechanics and Hydraulic Machines",
+    "Fluid Power System",
+    "Fluid Power Systems",
+    "Hydraulics & Hydraulic Machinery",
+    "Hydraulics and Hydraulics Machinery",
+    "Hydraulics and Pneumatics",
+    "Pipeline Engineering",
+    "Solid Mechanics & Hydraulic Machines",
+    "Turbo Machinery"
+   ]
+  },
+  "mechanical_manufacturing_engineering.thermodynamics": {
+   "definition": "Engineering thermodynamics, heat transfer and thermal engineering.",
+   "includes": [
+    "laws of thermodynamics, properties of steam, gas and vapour power cycles",
+    "thermal engineering: IC engines, compressors, steam boilers, nozzles, steam and gas turbines",
+    "heat and mass transfer: conduction, convection, radiation, heat exchangers",
+    "refrigeration and air conditioning",
+    "power plant engineering"
+   ],
+   "excludes": [
+    "pure fluid mechanics -> fluid_mechanics (not part of this field: no category here) + mechanical_manufacturing_engineering.mechanics_fluid_dynamics (rule S2)"
+   ],
+   "typical_topics": [
+    "psychrometrics",
+    "systems",
+    "first and second laws",
+    "entropy",
+    "ideal and real gases",
+    "power and refrigeration cycles",
+    "ic engine cycles",
+    "combustion in si/ci engines",
+    "engine testing",
+    "reciprocating",
+    "rotary",
+    "centrifugal and axial compressors",
+    "gas turbine cycles",
+    "steam cycles",
+    "boilers",
+    "nozzles",
+    "impulse and reaction turbines",
+    "condensers",
+    "gas turbines",
+    "jet propulsion",
+    "conduction",
+    "fins",
+    "transient conduction",
+    "convection",
+    "free convection"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Basic Mechanical Engineering for Civil Engineers",
+    "Heat Transfer",
+    "IC Engines & Gas Turbines",
+    "Power Plant Engineering",
+    "Refrigeration & Air Conditioning",
+    "Refrigeration and Air-Conditioning",
+    "Steam Power & Jet Propulsion",
+    "Thermal Engineering - I",
+    "Thermal Engineering - II",
+    "Thermodynamics",
+    "Turbo Machinery"
+   ]
+  },
+  "physics_natural_sciences.chemistry": {
+   "definition": "Chemistry.",
+   "includes": [
+    "engineering, physical, organic and inorganic chemistry",
+    "electrochemistry",
+    "materials chemistry",
+    "water and fuel chemistry",
+    "engineering chemistry",
+    "electrochemistry and corrosion",
+    "polymers chemistry",
+    "chemistry labs"
+   ],
+   "excludes": [
+    "environmental awareness courses -> no category"
+   ],
+   "typical_topics": [
+    "molecular orbitals",
+    "crystal field theory",
+    "water treatment",
+    "electrochemistry",
+    "corrosion",
+    "stereochemistry",
+    "reaction mechanisms",
+    "spectroscopy"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Applied Chemistry",
+    "Chemistry",
+    "Engineering Chemistry"
+   ]
+  },
+  "physics_natural_sciences.general_physics": {
+   "definition": "Physics.",
+   "includes": [
+    "mechanics",
+    "waves and optics",
+    "electromagnetism",
+    "quantum physics",
+    "semiconductor and solid-state physics",
+    "applied / engineering physics",
+    "engineering mechanics: statics, friction, centroids, moments of inertia, dynamics of particles and rigid bodies",
+    "engineering / applied physics",
+    "waves, optics and lasers",
+    "quantum and modern physics",
+    "physics labs"
+   ],
+   "excludes": [
+    "physics used only as brief background in another subject (Rule 6) -> not physics",
+    "electromagnetic field theory taught as an engineering subject -> electrical_electronic_engineering.electromagnetic_field_theory",
+    "strength of materials, fluid mechanics and thermodynamics taught as engineering subjects -> their engineering category"
+   ],
+   "typical_topics": [
+    "lasers",
+    "fibre optics",
+    "mechanics in polar coordinates",
+    "harmonic oscillators",
+    "one-dimensional waves",
+    "wave optics",
+    "quantum mechanics",
+    "semiconductors",
+    "optoelectronics",
+    "electromagnetism",
+    "magnetic materials"
+   ],
+   "status": "SUPPORTED_BY_TITLE",
+   "note": "Definitions describe topics, not titles, so they apply to any university. Example titles come from JNTUH course structures and syllabi (several regulations) and only illustrate the category.",
+   "candidate_courses": [
+    "Advanced Engineering Physics",
+    "Applied Physics",
+    "Engineering Mechanics",
+    "Engineering Physics",
+    "Physics",
+    "Quantum Technologies"
+   ]
+  }
+ }
+}

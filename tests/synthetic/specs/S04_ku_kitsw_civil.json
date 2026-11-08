@@ -1,0 +1,449 @@
+{
+ "id": "S04_ku_kitsw_civil",
+ "field": "civil",
+ "degree": "B.Tech Civil Engineering",
+ "university": "Kakatiya University, Warangal",
+ "institution": "Kakatiya Institute of Technology & Science, Warangal (Autonomous, affiliated to Kakatiya University)",
+ "regulation": "URR-14",
+ "entry": "regular",
+ "years": 4,
+ "credits_for_award_printed": 224,
+ "grading": [
+  [
+   "S",
+   10
+  ],
+  [
+   "A",
+   9
+  ],
+  [
+   "B",
+   8
+  ],
+  [
+   "C",
+   7
+  ],
+  [
+   "D",
+   6
+  ],
+  [
+   "P",
+   4
+  ]
+ ],
+ "pass_min": 4,
+ "layout": "table",
+ "seed": 404,
+ "target_cgpa": 6.9,
+ "source": [
+  "https://kitsw.ac.in/academics/URRScheme-2019/urr-14/Civil Engg Scheme-urr14.pdf"
+ ],
+ "semesters": [
+  {
+   "name": "I",
+   "courses": [
+    {
+     "code": "U14MH101",
+     "title": "Engineering Mathematics-I",
+     "credits": 4
+    },
+    {
+     "code": "U14CS102",
+     "title": "Programming in C",
+     "credits": 4
+    },
+    {
+     "code": "U14PH103",
+     "title": "Engg. Physics",
+     "credits": 4
+    },
+    {
+     "code": "U14MH104",
+     "title": "English for Communication",
+     "credits": 3
+    },
+    {
+     "code": "U14EI105",
+     "title": "Basic Electronics Engg.",
+     "credits": 3
+    },
+    {
+     "code": "U14ME106",
+     "title": "Basic Mechanical Engg.",
+     "credits": 3
+    },
+    {
+     "code": "U14CS107",
+     "title": "Programming in “C” Lab",
+     "credits": 2
+    },
+    {
+     "code": "U14PH108",
+     "title": "Engg. Physics Lab",
+     "credits": 2
+    },
+    {
+     "code": "U14ME109",
+     "title": "Engg. Workshop Practice",
+     "credits": 2
+    },
+    {
+     "code": "U14EA110",
+     "title": "EAA: Physical Education & NSS",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "II",
+   "courses": [
+    {
+     "code": "U14MH201",
+     "title": "Engineering Mathematics-II",
+     "credits": 4
+    },
+    {
+     "code": "U14CS202",
+     "title": "Object Oriented Programming through C++",
+     "credits": 4
+    },
+    {
+     "code": "U14CH203",
+     "title": "Engg. Chemistry",
+     "credits": 4
+    },
+    {
+     "code": "U14ME204",
+     "title": "Engineering Drawing",
+     "credits": 4
+    },
+    {
+     "code": "U14EE205",
+     "title": "Basic Electrical Engg.",
+     "credits": 3
+    },
+    {
+     "code": "U14CE206",
+     "title": "Basic Engg. Mechanics",
+     "credits": 4
+    },
+    {
+     "code": "U14CS207",
+     "title": "Object Oriented Programming (OOP) Lab",
+     "credits": 2
+    },
+    {
+     "code": "U14CH208",
+     "title": "Engg. Chemistry Lab",
+     "credits": 2
+    },
+    {
+     "code": "U14CH209",
+     "title": "Environmental Studies",
+     "credits": 2
+    },
+    {
+     "code": "U14EA210",
+     "title": "EAA: Physical Education & NSS",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "III",
+   "courses": [
+    {
+     "code": "U14MH301",
+     "title": "Engineering Mathematics – III",
+     "credits": 4
+    },
+    {
+     "code": "U14CE302",
+     "title": "Strength of Materials – I",
+     "credits": 4
+    },
+    {
+     "code": "U14CE303",
+     "title": "Fluid Mechanics",
+     "credits": 4
+    },
+    {
+     "code": "U14CE304",
+     "title": "Surveying - I",
+     "credits": 4
+    },
+    {
+     "code": "U14CE305",
+     "title": "Building Materials and Construction",
+     "credits": 4
+    },
+    {
+     "code": "U14CE306",
+     "title": "Engineering Geology",
+     "credits": 4
+    },
+    {
+     "code": "U14CE307",
+     "title": "Survey Field Work - I",
+     "credits": 2
+    },
+    {
+     "code": "U14CE308",
+     "title": "Fluid Mechanics Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "U14MH309",
+     "title": "Soft and Inter Personal Skills",
+     "credits": 0
+    }
+   ]
+  },
+  {
+   "name": "IV",
+   "courses": [
+    {
+     "code": "U14MH401",
+     "title": "Engineering Mathematics - IV",
+     "credits": 4
+    },
+    {
+     "code": "U14CE402",
+     "title": "Strength of Materials - II",
+     "credits": 4
+    },
+    {
+     "code": "U14CE403",
+     "title": "Hydraulics and Hydraulic Machines",
+     "credits": 4
+    },
+    {
+     "code": "U14CE404",
+     "title": "Surveying - II",
+     "credits": 4
+    },
+    {
+     "code": "U14CE405",
+     "title": "Concrete Technology",
+     "credits": 4
+    },
+    {
+     "code": "U14CE406",
+     "title": "Survey Field Work - II",
+     "credits": 2
+    },
+    {
+     "code": "U14CE407",
+     "title": "Hydraulics and Hydraulic Machines Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "U14EE410",
+     "title": "Basic Electrical Measurements and Instrumentation Laboratory",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "V",
+   "courses": [
+    {
+     "code": "U14CE501",
+     "title": "Structural Analysis - I",
+     "credits": 4
+    },
+    {
+     "code": "U14CE502",
+     "title": "Design of Reinforced Concrete Structures",
+     "credits": 4
+    },
+    {
+     "code": "U14CE503",
+     "title": "Geotechnical Engineering - I",
+     "credits": 4
+    },
+    {
+     "code": "U14CE504",
+     "title": "Highway Engineering",
+     "credits": 4
+    },
+    {
+     "code": "U14CE505",
+     "title": "Environmental Engineering",
+     "credits": 4
+    },
+    {
+     "code": "U14CE506",
+     "title": "Material Testing Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "U14CE507",
+     "title": "Concrete Technology Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "U14CE508",
+     "title": "Computer Aided Building Drawing Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "U14CE509",
+     "title": "Seminar",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "VI",
+   "courses": [
+    {
+     "code": "U14OE601A",
+     "title": "Disaster Management",
+     "credits": 4
+    },
+    {
+     "code": "U14CE602",
+     "title": "Structural Analysis-II",
+     "credits": 4
+    },
+    {
+     "code": "U14CE603",
+     "title": "Design of Steel Structures",
+     "credits": 4
+    },
+    {
+     "code": "U14CE604",
+     "title": "Geotechnical Engineering - II",
+     "credits": 4
+    },
+    {
+     "code": "U14CE605",
+     "title": "Engineering Hydrology",
+     "credits": 4
+    },
+    {
+     "code": "U14CE606A",
+     "title": "Prestressed Concrete",
+     "credits": 4
+    },
+    {
+     "code": "U14CE607",
+     "title": "Highway Engineering Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "U14CE608",
+     "title": "Geotechnical Engineering Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "U14CE609",
+     "title": "Mini Project",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "VII",
+   "courses": [
+    {
+     "code": "U14OE701A",
+     "title": "Operation Research",
+     "credits": 4
+    },
+    {
+     "code": "U14CE702",
+     "title": "Irrigation Engineering and Hydraulic Structures",
+     "credits": 4
+    },
+    {
+     "code": "U14CE703",
+     "title": "Estimation and Valuation",
+     "credits": 4
+    },
+    {
+     "code": "U14CE704B",
+     "title": "Bridge Engineering",
+     "credits": 4
+    },
+    {
+     "code": "U14CE705B",
+     "title": "Airport Engineering",
+     "credits": 4
+    },
+    {
+     "code": "U14CE706",
+     "title": "Environmental Engineering Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "U14CE707",
+     "title": "Civil Engineering Detailing Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "U14CE708",
+     "title": "Major Project Work: Phase - I",
+     "credits": 4
+    }
+   ]
+  },
+  {
+   "name": "VIII",
+   "courses": [
+    {
+     "code": "U14MH801",
+     "title": "Management Economics and Accountancy",
+     "credits": 4
+    },
+    {
+     "code": "U14CE802",
+     "title": "Construction Technology and Management",
+     "credits": 4
+    },
+    {
+     "code": "U14CE803A",
+     "title": "Finite Elements Analysis",
+     "credits": 4
+    },
+    {
+     "code": "U14CE804C",
+     "title": "Traffic Engineering and Transportation Planning",
+     "credits": 4
+    },
+    {
+     "code": "U14CE805",
+     "title": "Civil Engineering Software Applications Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "U14CE806",
+     "title": "Engineering Geology Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "U14CE807",
+     "title": "Major Project Work: Phase - II",
+     "credits": 7
+    }
+   ]
+  }
+ ],
+ "provenance": {
+  "institution_status": "autonomous institute affiliated to Kakatiya University",
+  "curriculum_check": "two independent readings: every course, credit and semester total agree; titles as printed (Stream I for semesters I-II)",
+  "grading_source": "https://kitsw.ac.in/academics/Rules and Regulations for B.TEch(URR-18).pdf (URR-18 grading S10 A9 B8 C7 D6 P4; URR-14 rules not readable)",
+  "grading_verified": false,
+  "grading_note": "URR-18 scale used for a URR-14 curriculum",
+  "electives": "chosen from the options listed in the source",
+  "omitted": [
+   "III-sem Soft and Inter Personal Skills printed with 0 credits (mandatory, outside the semester total)",
+   "IV-sem Compliance with Current English (no credits printed)"
+  ]
+ },
+ "degree_field_id": "civil_engineering"
+}

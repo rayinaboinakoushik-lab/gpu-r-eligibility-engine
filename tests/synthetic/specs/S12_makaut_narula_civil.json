@@ -1,0 +1,536 @@
+{
+ "id": "S12_makaut_narula_civil",
+ "field": "civil",
+ "degree": "B.Tech Civil Engineering",
+ "university": "Maulana Abul Kalam Azad University of Technology, West Bengal",
+ "institution": "Narula Institute of Technology, Kolkata (Autonomous, affiliated to MAKAUT)",
+ "regulation": "Autonomy curriculum, 2018-19 batch",
+ "entry": "regular",
+ "years": 4,
+ "credits_for_award_printed": null,
+ "grading": [
+  [
+   "O",
+   10
+  ],
+  [
+   "E",
+   9
+  ],
+  [
+   "A",
+   8
+  ],
+  [
+   "B",
+   7
+  ],
+  [
+   "C",
+   6
+  ],
+  [
+   "D",
+   5
+  ]
+ ],
+ "pass_min": 5,
+ "layout": "table",
+ "seed": 1212,
+ "target_cgpa": 7.6,
+ "source": [
+  "https://nit.ac.in/other-courses/pdf/CE-Curriculum(1-to-8th-semester).pdf"
+ ],
+ "abbreviate": false,
+ "provenance": {
+  "institution_status": "autonomous college affiliated to MAKAUT (file on Narula's domain; it names no college)",
+  "curriculum_check": "semester sums equal printed totals incl. project-based-learning credits (17.5/24/24.5/23/21.5/20/19/15.5 = 165)",
+  "grading_source": null,
+  "grading_verified": false,
+  "grading_note": "MAKAUT-style O/E/A/B/C/D, pass D = 5 assumed",
+  "electives": "PE/OE slots and the 0.5-credit project-based-learning options chosen from the listed options",
+  "omitted": [
+   "non-credit 'units' activities (extra-curricular, technical skill development, environmental science, seminars)",
+   "' Project' appended to semester III-VI PBL rows, which the source lists under the project column with the theory title"
+  ]
+ },
+ "degree_field_id": "civil_engineering",
+ "split": "dev",
+ "semesters": [
+  {
+   "name": "1",
+   "courses": [
+    {
+     "code": "M 101",
+     "title": "Mathematics -I",
+     "credits": 4
+    },
+    {
+     "code": "PH 101",
+     "title": "Physics - I",
+     "credits": 3
+    },
+    {
+     "code": "EC 101",
+     "title": "Basic Electronics Engineering",
+     "credits": 3
+    },
+    {
+     "code": "HU 101",
+     "title": "English",
+     "credits": 2
+    },
+    {
+     "code": "PH191",
+     "title": "Physics-I Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "EC 191",
+     "title": "Basic Electronics Engineering Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "ME 192",
+     "title": "Workshop/Manufacturing Practices",
+     "credits": 1.5
+    },
+    {
+     "code": "M 151",
+     "title": "Mathematics Project",
+     "credits": 0.5
+    },
+    {
+     "code": "PH 151",
+     "title": "Physics Project",
+     "credits": 0.5
+    }
+   ]
+  },
+  {
+   "name": "2",
+   "courses": [
+    {
+     "code": "M 201",
+     "title": "Mathematics -II",
+     "credits": 4
+    },
+    {
+     "code": "CH 201",
+     "title": "Chemistry-I",
+     "credits": 3
+    },
+    {
+     "code": "EE 201",
+     "title": "Basic Electrical Engineering",
+     "credits": 3
+    },
+    {
+     "code": "CS 201",
+     "title": "Programming for Problem Solving",
+     "credits": 3
+    },
+    {
+     "code": "ME 201",
+     "title": "Engineering Mechanics",
+     "credits": 3
+    },
+    {
+     "code": "CS291",
+     "title": "Programming for Problem Solving Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "CH 291",
+     "title": "Chemistry I Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "EE 291",
+     "title": "Basic Electrical Engineering Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "ME 191",
+     "title": "Engineering Graphics & Design",
+     "credits": 1.5
+    },
+    {
+     "code": "HU 291",
+     "title": "Language Lab and Seminar Presentation",
+     "credits": 1
+    },
+    {
+     "code": "CS 251",
+     "title": "Programming for Problem Solving Project",
+     "credits": 0.5
+    },
+    {
+     "code": "ME 251",
+     "title": "Engineering Mechanics Project",
+     "credits": 0.5
+    }
+   ]
+  },
+  {
+   "name": "3",
+   "courses": [
+    {
+     "code": "M(CS)301",
+     "title": "Numerical Methods",
+     "credits": 3
+    },
+    {
+     "code": "PH(CE)301",
+     "title": "Physics - II",
+     "credits": 3
+    },
+    {
+     "code": "CE301",
+     "title": "Surveying",
+     "credits": 3
+    },
+    {
+     "code": "CE302",
+     "title": "Strength of Material",
+     "credits": 3
+    },
+    {
+     "code": "CE303",
+     "title": "Building Material and Construction",
+     "credits": 3
+    },
+    {
+     "code": "CE304",
+     "title": "Engineering Geology",
+     "credits": 2.5
+    },
+    {
+     "code": "M(CS)391",
+     "title": "Numerical Methods Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "CE391",
+     "title": "Engineering Geology Lab",
+     "credits": 1
+    },
+    {
+     "code": "CE392",
+     "title": "Surveying Practice",
+     "credits": 1.5
+    },
+    {
+     "code": "PH (CE)391",
+     "title": "Physics-II Lab",
+     "credits": 1
+    },
+    {
+     "code": "M(CS)351",
+     "title": "Numerical Methods Project",
+     "credits": 0.5
+    },
+    {
+     "code": "CE351",
+     "title": "Surveying Project",
+     "credits": 0.5
+    },
+    {
+     "code": "CE352",
+     "title": "Strength of Material Project",
+     "credits": 0.5
+    },
+    {
+     "code": "CE354",
+     "title": "Engineering Geology Project",
+     "credits": 0.5
+    }
+   ]
+  },
+  {
+   "name": "4",
+   "courses": [
+    {
+     "code": "M401",
+     "title": "Mathematics III",
+     "credits": 4
+    },
+    {
+     "code": "HU402",
+     "title": "Values & Ethics in Profession",
+     "credits": 2
+    },
+    {
+     "code": "CE401",
+     "title": "Structural Analysis",
+     "credits": 3
+    },
+    {
+     "code": "CE402",
+     "title": "Concrete Technology",
+     "credits": 3
+    },
+    {
+     "code": "CE403",
+     "title": "Soil Mechanics",
+     "credits": 3
+    },
+    {
+     "code": "CE491",
+     "title": "Building Planning And Drawing",
+     "credits": 1.5
+    },
+    {
+     "code": "CE492",
+     "title": "Concrete Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "CE493",
+     "title": "Soil Mechanics Lab-I",
+     "credits": 1.5
+    },
+    {
+     "code": "CE494",
+     "title": "Quantity Surveying, Specifications and Valuation",
+     "credits": 1.5
+    },
+    {
+     "code": "M451",
+     "title": "Mathematics III Project",
+     "credits": 0.5
+    },
+    {
+     "code": "CE451",
+     "title": "Structural Analysis Project",
+     "credits": 0.5
+    },
+    {
+     "code": "CE452",
+     "title": "Concrete Technology Project",
+     "credits": 0.5
+    },
+    {
+     "code": "CE453",
+     "title": "Soil Mechanics Project",
+     "credits": 0.5
+    }
+   ]
+  },
+  {
+   "name": "5",
+   "courses": [
+    {
+     "code": "HU503",
+     "title": "Economics for Engineers",
+     "credits": 3
+    },
+    {
+     "code": "CE501",
+     "title": "Structural Design-I",
+     "credits": 3
+    },
+    {
+     "code": "CE502",
+     "title": "Foundation Engineering",
+     "credits": 3
+    },
+    {
+     "code": "CE503B",
+     "title": "Water Supply and Plumbing",
+     "credits": 3
+    },
+    {
+     "code": "CE504",
+     "title": "Transportation Engineering",
+     "credits": 3
+    },
+    {
+     "code": "CE591",
+     "title": "Transportation and Highway Engineering Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "CE592",
+     "title": "Soil Mechanics Lab-II",
+     "credits": 1.5
+    },
+    {
+     "code": "CE593",
+     "title": "Civil Engineering Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "HU553",
+     "title": "Economics for Engineers Project",
+     "credits": 0.5
+    },
+    {
+     "code": "CE551",
+     "title": "Structural Design-I Project",
+     "credits": 0.5
+    },
+    {
+     "code": "CE552",
+     "title": "Foundation Engineering Project",
+     "credits": 0.5
+    },
+    {
+     "code": "CE553B",
+     "title": "Water Supply and Plumbing Project",
+     "credits": 0.5
+    }
+   ]
+  },
+  {
+   "name": "6",
+   "courses": [
+    {
+     "code": "CE601",
+     "title": "Structural Design – II",
+     "credits": 3
+    },
+    {
+     "code": "CE602",
+     "title": "Construction Planning And Management",
+     "credits": 3
+    },
+    {
+     "code": "M(CE)604A",
+     "title": "Operations Research",
+     "credits": 2
+    },
+    {
+     "code": "CE605C",
+     "title": "Structural Dynamics and Earthquake Engineering",
+     "credits": 4
+    },
+    {
+     "code": "CS691",
+     "title": "Advanced Programming for Problem solving",
+     "credits": 1.5
+    },
+    {
+     "code": "CE691",
+     "title": "Computer Aided Design and Drafting",
+     "credits": 1.5
+    },
+    {
+     "code": "CE681",
+     "title": "Mini Project",
+     "credits": 1.5
+    },
+    {
+     "code": "CE682",
+     "title": "Structural Design And Detailing",
+     "credits": 1.5
+    },
+    {
+     "code": "CE651",
+     "title": "Structural Design – II Project",
+     "credits": 0.5
+    },
+    {
+     "code": "CE652",
+     "title": "Construction Planning And Management Project",
+     "credits": 0.5
+    },
+    {
+     "code": "CE653",
+     "title": "Transportation Engineering Project",
+     "credits": 0.5
+    },
+    {
+     "code": "CE655C",
+     "title": "Structural Dynamics and Earthquake Engineering Project",
+     "credits": 0.5
+    }
+   ]
+  },
+  {
+   "name": "7",
+   "courses": [
+    {
+     "code": "CE701",
+     "title": "Water Resource And Irrigation Engineering",
+     "credits": 2.5
+    },
+    {
+     "code": "CE702",
+     "title": "Environmental Engineering",
+     "credits": 2.5
+    },
+    {
+     "code": "CE703C",
+     "title": "Traffic Engineering & Planning",
+     "credits": 3.5
+    },
+    {
+     "code": "EE(CE)704B",
+     "title": "Electrical And Electronics Measurement",
+     "credits": 3
+    },
+    {
+     "code": "CE791",
+     "title": "Environmental Engineering Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "EE(CE)794B",
+     "title": "Electrical and Electronic Measurement Laboratory",
+     "credits": 1.5
+    },
+    {
+     "code": "CE781",
+     "title": "Project-I",
+     "credits": 2
+    },
+    {
+     "code": "CE782",
+     "title": "Civil Engineering Practice Sessional",
+     "credits": 1.5
+    },
+    {
+     "code": "CE783",
+     "title": "Industrial Training /Internship",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "8",
+   "courses": [
+    {
+     "code": "CE801B",
+     "title": "Finite Element Analysis",
+     "credits": 3
+    },
+    {
+     "code": "CE802C",
+     "title": "Pavement Design",
+     "credits": 3
+    },
+    {
+     "code": "CE803C",
+     "title": "Remote Sensing And GIS",
+     "credits": 2.5
+    },
+    {
+     "code": "HU806",
+     "title": "Project Management",
+     "credits": 2
+    },
+    {
+     "code": "CE881",
+     "title": "Project-II",
+     "credits": 3
+    },
+    {
+     "code": "CE882",
+     "title": "Grand Viva",
+     "credits": 2
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,327 @@
+{
+ "_version": "TEST FIXTURE 2026-10-26",
+ "_field": "all",
+ "_note": "Test-only taxonomy: every category used by the frozen records, measurable, with the agreed pools (T2 maths sum; R15 general_cs/general_ee/general_mechanical = all sub-categories of their branch). Not the production taxonomy.",
+ "_aggregation_method": "UNION of unique course-instance credits",
+ "aggregate_categories": {
+  "computer_science_informatics.general_cs": {
+   "type": "AGGREGATE",
+   "formula_components": [
+    "computer_science_informatics.algorithms_data_structures",
+    "computer_science_informatics.computer_engineering",
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.data_engineering",
+    "computer_science_informatics.databases_systems",
+    "computer_science_informatics.graphics_visual_computing",
+    "computer_science_informatics.hci",
+    "computer_science_informatics.it_security",
+    "computer_science_informatics.machine_learning_ai",
+    "computer_science_informatics.operating_systems",
+    "computer_science_informatics.programming_practical_cs",
+    "computer_science_informatics.software_engineering",
+    "computer_science_informatics.theoretical_cs"
+   ]
+  },
+  "computer_science_informatics.practical_cs": {
+   "type": "AGGREGATE",
+   "formula_components": [
+    "computer_science_informatics.programming_practical_cs",
+    "computer_science_informatics.algorithms_data_structures",
+    "computer_science_informatics.databases_systems",
+    "computer_science_informatics.software_engineering"
+   ]
+  },
+  "mathematics_statistics.general_mathematics": {
+   "type": "AGGREGATE",
+   "formula_components": [
+    "mathematics_statistics.calculus_analysis",
+    "mathematics_statistics.linear_algebra",
+    "mathematics_statistics.discrete_math_logic",
+    "mathematics_statistics.statistics_probability"
+   ]
+  },
+  "electrical_electronic_engineering.general_ee": {
+   "type": "AGGREGATE",
+   "formula_components": [
+    "electrical_electronic_engineering.circuit_theory",
+    "electrical_electronic_engineering.communications",
+    "electrical_electronic_engineering.control_systems",
+    "electrical_electronic_engineering.digital_signal_processing",
+    "electrical_electronic_engineering.digital_systems",
+    "electrical_electronic_engineering.electrical_machines_drives",
+    "electrical_electronic_engineering.electromagnetic_field_theory",
+    "electrical_electronic_engineering.electronics",
+    "electrical_electronic_engineering.information_theory",
+    "electrical_electronic_engineering.measurement_instrumentation",
+    "electrical_electronic_engineering.microelectronics_semiconductors",
+    "electrical_electronic_engineering.power_electronics",
+    "electrical_electronic_engineering.power_engineering",
+    "electrical_electronic_engineering.signals_systems"
+   ]
+  },
+  "mechanical_manufacturing_engineering.general_mechanical": {
+   "type": "AGGREGATE",
+   "formula_components": [
+    "mechanical_manufacturing_engineering.design_machine_elements",
+    "mechanical_manufacturing_engineering.manufacturing_production",
+    "mechanical_manufacturing_engineering.mechanics_dynamics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics",
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ]
+  }
+ },
+ "contextual_categories": {
+  "mathematics_statistics.math_and_theoretical_cs_combined": {
+   "type": "CONTEXTUAL",
+   "formula_components": [
+    "mathematics_statistics.calculus_analysis",
+    "mathematics_statistics.linear_algebra",
+    "mathematics_statistics.discrete_math_logic",
+    "mathematics_statistics.statistics_probability",
+    "computer_science_informatics.theoretical_cs"
+   ]
+  }
+ },
+ "category_evidence_status": {
+  "business_economics_management.business_administration": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "chemistry_materials.materials_science": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "civil_engineering.construction_management": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "civil_engineering.environmental_engineering": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "civil_engineering.fluid_mechanics": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "civil_engineering.geotechnics": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "civil_engineering.structural_engineering": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "civil_engineering.structural_mechanics": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "civil_engineering.transportation_engineering": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "civil_engineering.water_engineering": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "computer_science_informatics.algorithms_data_structures": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "computer_science_informatics.computer_engineering": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "computer_science_informatics.computer_networks": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "computer_science_informatics.data_engineering": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "computer_science_informatics.databases_systems": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "computer_science_informatics.graphics_visual_computing": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "computer_science_informatics.hci": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "computer_science_informatics.it_security": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "computer_science_informatics.machine_learning_ai": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "computer_science_informatics.operating_systems": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "computer_science_informatics.programming_practical_cs": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "computer_science_informatics.software_engineering": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "computer_science_informatics.theoretical_cs": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "data_science.foundational_methods": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "electrical_electronic_engineering.circuit_theory": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "electrical_electronic_engineering.communications": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "electrical_electronic_engineering.control_systems": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "electrical_electronic_engineering.digital_signal_processing": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "electrical_electronic_engineering.digital_systems": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "electrical_electronic_engineering.electrical_machines_drives": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "electrical_electronic_engineering.electromagnetic_field_theory": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "electrical_electronic_engineering.electronics": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "electrical_electronic_engineering.information_theory": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "electrical_electronic_engineering.measurement_instrumentation": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "electrical_electronic_engineering.microelectronics_semiconductors": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "electrical_electronic_engineering.power_electronics": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "electrical_electronic_engineering.power_engineering": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "electrical_electronic_engineering.signals_systems": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "engineering.automotive_engineering": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "engineering.biomedical_engineering": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "engineering.mechatronics": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "engineering.model_based_systems_engineering": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "engineering.robotics": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "information_science.knowledge_organisation": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "interdisciplinary.cognitive_foundations": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "mathematics_statistics.calculus_analysis": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "mathematics_statistics.discrete_math_logic": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "mathematics_statistics.linear_algebra": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "mathematics_statistics.optimization_numerics": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "mathematics_statistics.statistics_probability": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "mechanical_manufacturing_engineering.design_machine_elements": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "mechanical_manufacturing_engineering.manufacturing_production": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "mechanical_manufacturing_engineering.mechanics_dynamics": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "mechanical_manufacturing_engineering.mechanics_fluid_dynamics": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "mechanical_manufacturing_engineering.thermodynamics": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "other.thesis_scientific_work": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "physics_natural_sciences.chemistry": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "physics_natural_sciences.general_physics": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "society_law_ethics.ethics_law_society": {
+   "definition": "test fixture",
+   "status": "SUPPORTED_BY_TITLE"
+  },
+  "civil_engineering.surveying_geodesy": {
+   "definition": "test fixture (added 26.10.2026: surveying, geodesy, geomatics)",
+   "status": "SUPPORTED_BY_TITLE"
+  }
+ }
+}

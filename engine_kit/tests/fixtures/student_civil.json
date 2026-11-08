@@ -1,0 +1,220 @@
+{
+  "country": "India",
+  "total_ects": 240,
+  "confirmations": {},
+  "excluded_courses": [],
+  "_note": "SYNTHETIC test student (JNTUH-style course names); ECTS invented for testing, not a real transcript.",
+  "name": "test_civil",
+  "field": "civil",
+  "degree_field": "civil_engineering",
+  "degree_subfield": "civil",
+  "german_grade": 2.6,
+  "courses": [
+    {
+      "id": "c01",
+      "title": "Mathematics I (Calculus)",
+      "ects": 6,
+      "categories": [
+        "mathematics_statistics.calculus_analysis"
+      ]
+    },
+    {
+      "id": "c02",
+      "title": "Mathematics II (Linear Algebra)",
+      "ects": 6,
+      "categories": [
+        "mathematics_statistics.linear_algebra"
+      ]
+    },
+    {
+      "id": "c03",
+      "title": "Probability and Statistics",
+      "ects": 4.5,
+      "categories": [
+        "mathematics_statistics.statistics_probability"
+      ]
+    },
+    {
+      "id": "c04",
+      "title": "Numerical Methods",
+      "ects": 4.5,
+      "categories": [
+        "mathematics_statistics.optimization_numerics"
+      ]
+    },
+    {
+      "id": "c05",
+      "title": "Engineering Physics",
+      "ects": 6,
+      "categories": [
+        "physics_natural_sciences.general_physics"
+      ]
+    },
+    {
+      "id": "c06",
+      "title": "Engineering Chemistry",
+      "ects": 6,
+      "categories": [
+        "physics_natural_sciences.chemistry"
+      ]
+    },
+    {
+      "id": "c07",
+      "title": "Programming for Problem Solving",
+      "ects": 6,
+      "categories": [
+        "computer_science_informatics.programming_practical_cs"
+      ]
+    },
+    {
+      "id": "c08",
+      "title": "Engineering Mechanics",
+      "ects": 6,
+      "categories": [
+        "civil_engineering.structural_mechanics"
+      ]
+    },
+    {
+      "id": "c09",
+      "title": "Strength of Materials I",
+      "ects": 6,
+      "categories": [
+        "civil_engineering.structural_mechanics"
+      ]
+    },
+    {
+      "id": "c10",
+      "title": "Strength of Materials II",
+      "ects": 6,
+      "categories": [
+        "civil_engineering.structural_mechanics"
+      ]
+    },
+    {
+      "id": "c11",
+      "title": "Fluid Mechanics",
+      "ects": 6,
+      "categories": [
+        "civil_engineering.fluid_mechanics"
+      ]
+    },
+    {
+      "id": "c12",
+      "title": "Hydraulics and Hydraulic Machinery",
+      "ects": 6,
+      "categories": [
+        "civil_engineering.fluid_mechanics"
+      ]
+    },
+    {
+      "id": "c13",
+      "title": "Structural Analysis I",
+      "ects": 6,
+      "categories": [
+        "civil_engineering.structural_engineering"
+      ]
+    },
+    {
+      "id": "c14",
+      "title": "Structural Analysis II",
+      "ects": 6,
+      "categories": [
+        "civil_engineering.structural_engineering"
+      ]
+    },
+    {
+      "id": "c15",
+      "title": "Design of Reinforced Concrete Structures",
+      "ects": 6,
+      "categories": [
+        "civil_engineering.structural_engineering"
+      ]
+    },
+    {
+      "id": "c16",
+      "title": "Design of Steel Structures",
+      "ects": 6,
+      "categories": [
+        "civil_engineering.structural_engineering"
+      ]
+    },
+    {
+      "id": "c17",
+      "title": "Geotechnical Engineering I",
+      "ects": 6,
+      "categories": [
+        "civil_engineering.geotechnics"
+      ]
+    },
+    {
+      "id": "c18",
+      "title": "Geotechnical Engineering II",
+      "ects": 4.5,
+      "categories": [
+        "civil_engineering.geotechnics"
+      ]
+    },
+    {
+      "id": "c19",
+      "title": "Transportation Engineering",
+      "ects": 6,
+      "categories": [
+        "civil_engineering.transportation_engineering"
+      ]
+    },
+    {
+      "id": "c20",
+      "title": "Water Resources Engineering",
+      "ects": 6,
+      "categories": [
+        "civil_engineering.water_engineering"
+      ]
+    },
+    {
+      "id": "c21",
+      "title": "Engineering Hydrology",
+      "ects": 4.5,
+      "categories": [
+        "civil_engineering.water_engineering"
+      ]
+    },
+    {
+      "id": "c22",
+      "title": "Environmental Engineering",
+      "ects": 6,
+      "categories": [
+        "civil_engineering.environmental_engineering"
+      ]
+    },
+    {
+      "id": "c23",
+      "title": "Building Materials and Construction",
+      "ects": 4.5,
+      "categories": [
+        "chemistry_materials.materials_science"
+      ]
+    },
+    {
+      "id": "c24",
+      "title": "Surveying",
+      "ects": 6,
+      "categories": []
+    },
+    {
+      "id": "c25",
+      "title": "Construction Management",
+      "ects": 4.5,
+      "categories": [
+        "civil_engineering.construction_management"
+      ]
+    },
+    {
+      "id": "c26",
+      "title": "Basic Electrical Engineering",
+      "ects": 4.5,
+      "categories": [
+        "electrical_electronic_engineering.circuit_theory"
+      ]
+    }
+  ]
+}

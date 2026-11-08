@@ -1,0 +1,331 @@
+{
+ "id": "S11_ou_methodist_civil_lateral",
+ "field": "civil",
+ "degree": "B.E. Civil Engineering",
+ "university": "Osmania University",
+ "institution": "Methodist College of Engineering and Technology, Hyderabad (Autonomous, affiliated to Osmania University)",
+ "regulation": "M21",
+ "entry": "lateral_entry",
+ "years": 3,
+ "credits_for_award_printed": null,
+ "grading": [
+  [
+   "O",
+   10
+  ],
+  [
+   "A+",
+   9
+  ],
+  [
+   "A",
+   8
+  ],
+  [
+   "B+",
+   7
+  ],
+  [
+   "B",
+   6
+  ],
+  [
+   "C",
+   5
+  ],
+  [
+   "P",
+   4
+  ]
+ ],
+ "pass_min": 4,
+ "layout": "two_column",
+ "seed": 1111,
+ "target_cgpa": 7.3,
+ "source": [
+  "https://methodist.edu.in/web/uploads/files/CIVIL M21- Scheme and SYLLABI of III to VIII Semesters.pdf"
+ ],
+ "abbreviate": true,
+ "provenance": {
+  "institution_status": "autonomous college affiliated to Osmania University (own M21 scheme, semesters III-VIII)",
+  "curriculum_check": "semester sums equal printed totals 22/21/24/23/24/10 except V-VII (open electives omitted, see below)",
+  "grading_source": null,
+  "grading_verified": false,
+  "grading_note": "10-point O..P scale, pass P = 4 assumed",
+  "electives": "PE I-VI chosen from the listed options (3 credits per slot as printed)",
+  "omitted": [
+   "open electives I-III (3 credits each): only the civil department's offers to other branches are listed",
+   "Practise School-1 (IV) and Practise School-2/Mini Project (VI) rows printed without credits",
+   "'Soil MechanicsLaboratory' spacing normalised"
+  ]
+ },
+ "degree_field_id": "civil_engineering",
+ "split": "heldout",
+ "semesters": [
+  {
+   "name": "III",
+   "courses": [
+    {
+     "code": "2BS303HS",
+     "title": "Numerical Methods and Partial Differential Equations",
+     "credits": 4
+    },
+    {
+     "code": "2HS302HS",
+     "title": "Managerial Economics & Financial Accountancy",
+     "credits": 3
+    },
+    {
+     "code": "2ES301CS",
+     "title": "Programming for Problem Solving (C)",
+     "credits": 3
+    },
+    {
+     "code": "2PC301CE",
+     "title": "Building Materials and Concrete Technology",
+     "credits": 3
+    },
+    {
+     "code": "2PC302CE",
+     "title": "Solid Mechanics",
+     "credits": 3
+    },
+    {
+     "code": "2PC303CE",
+     "title": "Surveying",
+     "credits": 3
+    },
+    {
+     "code": "2MC302HS",
+     "title": "Essence of Indian Traditional Knowledge",
+     "credits": 0
+    },
+    {
+     "code": "2ES351CS",
+     "title": "Programming for Problem Solving Laboratory (C)",
+     "credits": 1
+    },
+    {
+     "code": "2PC351CE",
+     "title": "Surveying Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "2PC352CE",
+     "title": "Concrete Technology Laboratory",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "IV",
+   "courses": [
+    {
+     "code": "2HS403HS",
+     "title": "Human Values and Professional Ethics",
+     "credits": 2
+    },
+    {
+     "code": "2ES403CS",
+     "title": "Python Programming",
+     "credits": 3
+    },
+    {
+     "code": "2PC404CE",
+     "title": "Mechanics of Materials and Structures",
+     "credits": 3
+    },
+    {
+     "code": "2PC405CE",
+     "title": "Design of Reinforced Concrete Structures",
+     "credits": 3
+    },
+    {
+     "code": "2PC406CE",
+     "title": "Fluid Mechanics",
+     "credits": 3
+    },
+    {
+     "code": "2PC407CE",
+     "title": "Hydrology",
+     "credits": 2
+    },
+    {
+     "code": "2MC403HS",
+     "title": "Indian Constitution",
+     "credits": 0
+    },
+    {
+     "code": "2PC453CE",
+     "title": "Mechanics of Materials Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "2PC454CE",
+     "title": "Building Drawing & Drafting Laboratory",
+     "credits": 3
+    },
+    {
+     "code": "2ES453CS",
+     "title": "Python Programming Lab",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "V",
+   "courses": [
+    {
+     "code": "2ES506CE",
+     "title": "Disaster Preparedness and Planning",
+     "credits": 2
+    },
+    {
+     "code": "2PC508CE",
+     "title": "Structural Analysis",
+     "credits": 3
+    },
+    {
+     "code": "2PC509CE",
+     "title": "Soil Mechanics",
+     "credits": 3
+    },
+    {
+     "code": "2PC510CE",
+     "title": "Hydraulics Engineering",
+     "credits": 3
+    },
+    {
+     "code": "2PC511CE",
+     "title": "Water Resources Engineering",
+     "credits": 3
+    },
+    {
+     "code": "2PC512CE",
+     "title": "Design of Steel Structures",
+     "credits": 3
+    },
+    {
+     "code": "2PC555CE",
+     "title": "Soil Mechanics Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "2PC556CE",
+     "title": "Fluid Mechanics & Hydraulic Engineering Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "PW501CE",
+     "title": "Practise School-1/ Internship Evaluation",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "VI",
+   "courses": [
+    {
+     "code": "2PC613CE",
+     "title": "Construction Engineering & Management",
+     "credits": 2
+    },
+    {
+     "code": "2PC614CE",
+     "title": "Transportation Engineering",
+     "credits": 3
+    },
+    {
+     "code": "2PC615CE",
+     "title": "Environmental Engineering",
+     "credits": 3
+    },
+    {
+     "code": "2PC616CE",
+     "title": "Foundation Engineering",
+     "credits": 3
+    },
+    {
+     "code": "2PE601CE",
+     "title": "Prestressed Structures",
+     "credits": 3
+    },
+    {
+     "code": "2PE604CE",
+     "title": "Advanced Surveying",
+     "credits": 3
+    },
+    {
+     "code": "2HS653HS",
+     "title": "Soft Skills Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "2PC657CE",
+     "title": "Transportation Engineering Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "2PC658CE",
+     "title": "Environmental Engineering Laboratory",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "VII",
+   "courses": [
+    {
+     "code": "2PC717CE",
+     "title": "Estimation and Specification",
+     "credits": 2
+    },
+    {
+     "code": "2PC718CE",
+     "title": "Highway Engineering and Pavement Design",
+     "credits": 3
+    },
+    {
+     "code": "2PE706CE",
+     "title": "Sustainable Civil Engineering Materials",
+     "credits": 3
+    },
+    {
+     "code": "2PE708CE",
+     "title": "Data Analytics in Civil Engineering",
+     "credits": 3
+    },
+    {
+     "code": "2PE710CE",
+     "title": "Construction Project Management",
+     "credits": 3
+    },
+    {
+     "code": "2PE712CE",
+     "title": "Infrastructure Engineering",
+     "credits": 3
+    },
+    {
+     "code": "PW702CE",
+     "title": "Guided Self-Study Software Certification courses",
+     "credits": 2
+    },
+    {
+     "code": "PW703CE",
+     "title": "Technical Report and Seminar/Mini Project (Case Study Based)",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "VIII",
+   "courses": [
+    {
+     "code": "PW804CE",
+     "title": "Major Project (OR) Professional Practice School-II",
+     "credits": 10
+    }
+   ]
+  }
+ ]
+}

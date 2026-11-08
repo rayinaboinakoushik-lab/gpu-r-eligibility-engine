@@ -1,0 +1,5 @@
+# Tests and evaluation tools (not needed on the server)
+-r requirements.txt
+pytest>=8
+httpx>=0.27
+Pillow>=10

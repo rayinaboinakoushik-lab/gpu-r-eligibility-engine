@@ -1,0 +1,373 @@
+{
+ "id": "S03_sppu_sanjivani_mech_lateral",
+ "field": "mechanical",
+ "degree": "B.Tech Mechanical Engineering",
+ "university": "Savitribai Phule Pune University",
+ "institution": "Sanjivani College of Engineering, Kopargaon (Autonomous, affiliated to SPPU)",
+ "regulation": "2019 Pattern",
+ "entry": "lateral_entry",
+ "years": 3,
+ "credits_for_award_printed": null,
+ "grading": [
+  [
+   "O",
+   10
+  ],
+  [
+   "A+",
+   9
+  ],
+  [
+   "A",
+   8
+  ],
+  [
+   "B+",
+   7
+  ],
+  [
+   "B",
+   6
+  ],
+  [
+   "C",
+   5
+  ],
+  [
+   "P",
+   4
+  ]
+ ],
+ "pass_min": 4,
+ "layout": "two_column",
+ "seed": 303,
+ "target_cgpa": 7.1,
+ "source": [
+  "https://mail.sanjivanicoe.org.in/images/Mechanical/pdf/Structure_2019_Pattern_31_12_2021.pdf"
+ ],
+ "semesters": [
+  {
+   "name": "III",
+   "courses": [
+    {
+     "code": "ME201",
+     "title": "Professional Internship-I",
+     "credits": 1
+    },
+    {
+     "code": "BS202",
+     "title": "Vector Calculus and Differential Equations",
+     "credits": 4
+    },
+    {
+     "code": "ME203",
+     "title": "Basic Thermodynamics",
+     "credits": 3
+    },
+    {
+     "code": "ME204",
+     "title": "Manufacturing Processes",
+     "credits": 3
+    },
+    {
+     "code": "ME205",
+     "title": "Strength of Materials",
+     "credits": 3
+    },
+    {
+     "code": "HS206",
+     "title": "Universal Human Values & Ethics",
+     "credits": 3
+    },
+    {
+     "code": "ME207",
+     "title": "Basic Thermodynamics Lab",
+     "credits": 1
+    },
+    {
+     "code": "ME208",
+     "title": "Machine Shop - I",
+     "credits": 1
+    },
+    {
+     "code": "ME209",
+     "title": "Strength of Materials Lab",
+     "credits": 1
+    },
+    {
+     "code": "MC210",
+     "title": "Constitution of India",
+     "credits": 0
+    }
+   ]
+  },
+  {
+   "name": "IV",
+   "courses": [
+    {
+     "code": "ME211",
+     "title": "Numerical Methods",
+     "credits": 3
+    },
+    {
+     "code": "ME212",
+     "title": "Fluid Mechanics",
+     "credits": 4
+    },
+    {
+     "code": "ME213",
+     "title": "Materials Science & Metallurgy",
+     "credits": 3
+    },
+    {
+     "code": "ME214",
+     "title": "Kinematics of Machines",
+     "credits": 4
+    },
+    {
+     "code": "ME215",
+     "title": "Seminar",
+     "credits": 1
+    },
+    {
+     "code": "ME216",
+     "title": "Machine Drawing & Geometrical Modeling",
+     "credits": 3
+    },
+    {
+     "code": "ME217",
+     "title": "Numerical Methods Lab",
+     "credits": 1
+    },
+    {
+     "code": "ME218",
+     "title": "Fluid Mechanics Lab",
+     "credits": 1
+    },
+    {
+     "code": "ME219",
+     "title": "Materials Science & Metallurgy Lab",
+     "credits": 1
+    },
+    {
+     "code": "ME220",
+     "title": "Kinematics of Machines Lab",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "V",
+   "courses": [
+    {
+     "code": "ME301",
+     "title": "Professional Internship-II",
+     "credits": 2
+    },
+    {
+     "code": "ME302",
+     "title": "Production Technology",
+     "credits": 3
+    },
+    {
+     "code": "ME303",
+     "title": "Machine Design –I",
+     "credits": 3
+    },
+    {
+     "code": "ME304",
+     "title": "Metrology and QC",
+     "credits": 3
+    },
+    {
+     "code": "ME305",
+     "title": "Heat Transfer",
+     "credits": 3
+    },
+    {
+     "code": "ME306C",
+     "title": "Industrial Tribology",
+     "credits": 3
+    },
+    {
+     "code": "ME307",
+     "title": "Machine Design –I Lab",
+     "credits": 1
+    },
+    {
+     "code": "ME308",
+     "title": "Metrology and QC Lab",
+     "credits": 1
+    },
+    {
+     "code": "ME309",
+     "title": "Heat Transfer Lab",
+     "credits": 1
+    },
+    {
+     "code": "ME310",
+     "title": "Skill based Credit Course/PBL",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "VI",
+   "courses": [
+    {
+     "code": "ME312",
+     "title": "Applied Thermodynamics",
+     "credits": 3
+    },
+    {
+     "code": "ME313",
+     "title": "Machine Design –II",
+     "credits": 3
+    },
+    {
+     "code": "ME314B",
+     "title": "Operation Research",
+     "credits": 3
+    },
+    {
+     "code": "ME315E",
+     "title": "Renewable Energy Sources",
+     "credits": 4
+    },
+    {
+     "code": "PR316",
+     "title": "IPR & EDP",
+     "credits": 2
+    },
+    {
+     "code": "PR317",
+     "title": "IPR & EDP Lab",
+     "credits": 1
+    },
+    {
+     "code": "HS318",
+     "title": "Corporate Readiness",
+     "credits": 2
+    },
+    {
+     "code": "ME319",
+     "title": "Applied Thermodynamics Lab",
+     "credits": 1
+    },
+    {
+     "code": "ME320",
+     "title": "Machine Design –II Lab",
+     "credits": 1
+    },
+    {
+     "code": "ME321",
+     "title": "Machine Shop-II Lab",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "VII",
+   "courses": [
+    {
+     "code": "ME401",
+     "title": "Professional Internship-III",
+     "credits": 2
+    },
+    {
+     "code": "ME402",
+     "title": "Finite Element Analysis",
+     "credits": 3
+    },
+    {
+     "code": "ME403",
+     "title": "Mechatronics",
+     "credits": 3
+    },
+    {
+     "code": "ME404B",
+     "title": "Computational Fluid Dynamics",
+     "credits": 3
+    },
+    {
+     "code": "ME405A",
+     "title": "Optimization Techniques",
+     "credits": 3
+    },
+    {
+     "code": "ME406A",
+     "title": "Industrial Safety",
+     "credits": 2
+    },
+    {
+     "code": "ME407",
+     "title": "Finite Element Analysis Lab",
+     "credits": 1
+    },
+    {
+     "code": "ME408",
+     "title": "Mechatronics Lab",
+     "credits": 1
+    },
+    {
+     "code": "ME409",
+     "title": "Project Stage-I",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "VIII",
+   "courses": [
+    {
+     "code": "ME411",
+     "title": "HVAC Heating Ventilation and Air Conditioning",
+     "credits": 3
+    },
+    {
+     "code": "ME412",
+     "title": "Hydraulic and Pneumatics",
+     "credits": 3
+    },
+    {
+     "code": "ME413",
+     "title": "Dynamics of Machines",
+     "credits": 3
+    },
+    {
+     "code": "ME414C",
+     "title": "Automobile Engg",
+     "credits": 3
+    },
+    {
+     "code": "ME415",
+     "title": "Lab-I (HVAC and HPLab)",
+     "credits": 1
+    },
+    {
+     "code": "ME416",
+     "title": "Dynamics of Machines Lab",
+     "credits": 1
+    },
+    {
+     "code": "ME417",
+     "title": "Project Stage-II",
+     "credits": 4
+    }
+   ]
+  }
+ ],
+ "abbreviate": true,
+ "provenance": {
+  "institution_status": "autonomous institute affiliated to SPPU (Sanjivani's own 2019-pattern structure)",
+  "curriculum_check": "two independent readings: every course, credit and semester total agree; titles as printed",
+  "grading_source": null,
+  "grading_verified": false,
+  "grading_note": "SPPU-style 10-point scale with P = 4 assumed (Sanjivani's grading rules were not reachable)",
+  "electives": "chosen from the options listed in the source",
+  "omitted": [
+   "0-credit mandatory learning courses of semesters IV-VIII (titles not printed); MC210 shown as Constitution of India (first reading)"
+  ]
+ },
+ "degree_field_id": "mechanical_engineering"
+}

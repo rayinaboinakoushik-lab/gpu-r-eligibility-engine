@@ -1,0 +1,388 @@
+{
+ "id": "S06_anna_klnce_mech",
+ "field": "mechanical",
+ "degree": "B.E. Mechanical Engineering",
+ "university": "Anna University, Chennai",
+ "institution": "K.L.N. College of Engineering, Pottapalayam (Autonomous, affiliated to Anna University)",
+ "regulation": "Regulations 2020 (CBCS)",
+ "entry": "regular",
+ "years": 4,
+ "credits_for_award_printed": 170,
+ "grading": [
+  [
+   "O",
+   10
+  ],
+  [
+   "A+",
+   9
+  ],
+  [
+   "A",
+   8
+  ],
+  [
+   "B+",
+   7
+  ],
+  [
+   "B",
+   6
+  ],
+  [
+   "C",
+   5
+  ]
+ ],
+ "pass_min": 5,
+ "layout": "table",
+ "seed": 606,
+ "target_cgpa": 7.4,
+ "source": [
+  "https://www.klnce.edu/circular/2020-21/Academics/Admitted/2021_2022/1.MECH_2021-2025 BATCH  curriculum and syllabus.pdf"
+ ],
+ "abbreviate": false,
+ "provenance": {
+  "institution_status": "autonomous college affiliated to Anna University (own R2020 curriculum, 2021-25 batch)",
+  "curriculum_check": "every course, credit and semester total read from the curriculum; semester sums equal printed totals (21/23/23/24/26/24/19/10 = 170)",
+  "grading_source": null,
+  "grading_verified": false,
+  "grading_note": "Anna-University-style 10-point scale (O..C, pass C = 5) assumed; KLNCE grading rules not read",
+  "electives": "PE I-VI, OE I-II and the management elective chosen from the options listed in the source",
+  "omitted": []
+ },
+ "degree_field_id": "mechanical_engineering",
+ "split": "dev",
+ "semesters": [
+  {
+   "name": "I",
+   "courses": [
+    {
+     "code": "20HS101",
+     "title": "English for Technical Communication",
+     "credits": 3
+    },
+    {
+     "code": "20BS101",
+     "title": "Fundamentals of Engineering Mathematics",
+     "credits": 4
+    },
+    {
+     "code": "20BS102",
+     "title": "Engineering Physics",
+     "credits": 3
+    },
+    {
+     "code": "20BS103",
+     "title": "Engineering Chemistry",
+     "credits": 3
+    },
+    {
+     "code": "20GE101",
+     "title": "Problem Solving using Python Programming",
+     "credits": 3
+    },
+    {
+     "code": "20BS1L1",
+     "title": "Basic Science Laboratory",
+     "credits": 1.5
+    },
+    {
+     "code": "20GE1L1",
+     "title": "Python Programming Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "20GE1L2",
+     "title": "Industrial Practices Workshop",
+     "credits": 1.5
+    }
+   ]
+  },
+  {
+   "name": "II",
+   "courses": [
+    {
+     "code": "20HS201",
+     "title": "Advanced Technical Communication",
+     "credits": 3
+    },
+    {
+     "code": "20BS201",
+     "title": "Laplace Transform and Advanced Calculus",
+     "credits": 4
+    },
+    {
+     "code": "20BS202",
+     "title": "Applied Physics",
+     "credits": 3
+    },
+    {
+     "code": "20GE201",
+     "title": "Engineering Graphics",
+     "credits": 3
+    },
+    {
+     "code": "20GE202",
+     "title": "Engineering Mechanics",
+     "credits": 4
+    },
+    {
+     "code": "20GE203",
+     "title": "Basic Electrical, Electronics and Instrumentation Engineering",
+     "credits": 3
+    },
+    {
+     "code": "20HS2L1",
+     "title": "Communication Skills Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "20GE2L1",
+     "title": "Electrical, Electronics and Instrumentation Laboratory",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "III",
+   "courses": [
+    {
+     "code": "20BS301",
+     "title": "Transforms and Partial Differential Equations",
+     "credits": 4
+    },
+    {
+     "code": "20ME301",
+     "title": "Strength of Materials",
+     "credits": 3
+    },
+    {
+     "code": "20ME302",
+     "title": "Fluid Mechanics and Machinery",
+     "credits": 3
+    },
+    {
+     "code": "20ME303",
+     "title": "Manufacturing Processes",
+     "credits": 3
+    },
+    {
+     "code": "20ME304",
+     "title": "Engineering Thermodynamics",
+     "credits": 4
+    },
+    {
+     "code": "20HS301",
+     "title": "Universal Human Values",
+     "credits": 3
+    },
+    {
+     "code": "20ME3L1",
+     "title": "Strength of Materials Laboratory",
+     "credits": 1.5
+    },
+    {
+     "code": "20ME3L2",
+     "title": "Fluid Mechanics and Machinery Laboratory",
+     "credits": 1.5
+    }
+   ]
+  },
+  {
+   "name": "IV",
+   "courses": [
+    {
+     "code": "20BS401",
+     "title": "Statistics and Numerical Methods",
+     "credits": 4
+    },
+    {
+     "code": "20ME401",
+     "title": "Kinematics of Machines",
+     "credits": 4
+    },
+    {
+     "code": "20ME402",
+     "title": "Manufacturing Technology",
+     "credits": 3
+    },
+    {
+     "code": "20ME403",
+     "title": "Thermal Engineering",
+     "credits": 4
+    },
+    {
+     "code": "20HS401",
+     "title": "Environmental Science and Engineering",
+     "credits": 2
+    },
+    {
+     "code": "20ME404",
+     "title": "Metrology and Measurement Practices",
+     "credits": 4
+    },
+    {
+     "code": "20ME4L1",
+     "title": "Manufacturing Technology Laboratory",
+     "credits": 1.5
+    },
+    {
+     "code": "20ME4L2",
+     "title": "Thermal Engineering Laboratory",
+     "credits": 1.5
+    }
+   ]
+  },
+  {
+   "name": "V",
+   "courses": [
+    {
+     "code": "20ME501",
+     "title": "Design of Machine Elements",
+     "credits": 4
+    },
+    {
+     "code": "20ME506",
+     "title": "Dynamics of Machines",
+     "credits": 4
+    },
+    {
+     "code": "20ME503",
+     "title": "CAD / CAM",
+     "credits": 3
+    },
+    {
+     "code": "20ME507",
+     "title": "Heat and Mass Transfer",
+     "credits": 4
+    },
+    {
+     "code": "20ME603",
+     "title": "Lean Manufacturing",
+     "credits": 3
+    },
+    {
+     "code": "20MEV11",
+     "title": "Product Design and Development",
+     "credits": 3
+    },
+    {
+     "code": "20MC501",
+     "title": "Constitution of India",
+     "credits": 0
+    },
+    {
+     "code": "20ME5L1",
+     "title": "Dynamics Laboratory",
+     "credits": 1.5
+    },
+    {
+     "code": "20ME5L2",
+     "title": "CAD / CAM Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "20ME5L3",
+     "title": "Heat and Mass Transfer Laboratory",
+     "credits": 1.5
+    }
+   ]
+  },
+  {
+   "name": "VI",
+   "courses": [
+    {
+     "code": "20ME605",
+     "title": "Design of Transmission Systems",
+     "credits": 4
+    },
+    {
+     "code": "20ME606",
+     "title": "Finite Element Analysis",
+     "credits": 4
+    },
+    {
+     "code": "20OE401",
+     "title": "Fundamentals of Artificial Intelligence",
+     "credits": 3
+    },
+    {
+     "code": "20HS7A2",
+     "title": "Total Quality Management",
+     "credits": 3
+    },
+    {
+     "code": "20MEV23",
+     "title": "Power Plant Engineering",
+     "credits": 3
+    },
+    {
+     "code": "20MEV24",
+     "title": "Industrial Robotics",
+     "credits": 3
+    },
+    {
+     "code": "20ME6L3",
+     "title": "Computer Aided Simulation and Analysis Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "20ME6L4",
+     "title": "Design and Fabrication Project",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "VII",
+   "courses": [
+    {
+     "code": "20ME701",
+     "title": "Mechatronics",
+     "credits": 3
+    },
+    {
+     "code": "20OE408",
+     "title": "Essentials of Data Analytics",
+     "credits": 3
+    },
+    {
+     "code": "20MEV32",
+     "title": "Composite Material and Mechanics",
+     "credits": 3
+    },
+    {
+     "code": "20MEV75",
+     "title": "Operations Research",
+     "credits": 3
+    },
+    {
+     "code": "20MEV53",
+     "title": "Renewable Energy Sources",
+     "credits": 3
+    },
+    {
+     "code": "20ME7L1",
+     "title": "Mechatronics Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "20ME7L3",
+     "title": "Technical Seminar",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "VIII",
+   "courses": [
+    {
+     "code": "20ME8L1",
+     "title": "Project Work",
+     "credits": 10
+    }
+   ]
+  }
+ ]
+}

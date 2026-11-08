@@ -1,0 +1,331 @@
+{
+ "id": "S16_thapar_coe",
+ "field": "cs",
+ "degree": "B.E. Computer Engineering",
+ "university": "Thapar Institute of Engineering and Technology, Patiala",
+ "institution": "Thapar Institute of Engineering and Technology, Patiala (Deemed to be University)",
+ "regulation": "BE-COE 2019 scheme",
+ "entry": "regular",
+ "years": 4,
+ "credits_for_award_printed": null,
+ "grading": [
+  [
+   "A",
+   10
+  ],
+  [
+   "A-",
+   9
+  ],
+  [
+   "B",
+   8
+  ],
+  [
+   "B-",
+   7
+  ],
+  [
+   "C",
+   6
+  ],
+  [
+   "C-",
+   5
+  ],
+  [
+   "E",
+   4
+  ]
+ ],
+ "pass_min": 4,
+ "layout": "table",
+ "seed": 1616,
+ "target_cgpa": 7.9,
+ "source": [
+  "https://thapar.edu/upload/files/BE-COE_2019_Scheme.pdf"
+ ],
+ "abbreviate": false,
+ "provenance": {
+  "institution_status": "deemed university, own scheme (titles printed in capitals)",
+  "curriculum_check": "semester sums equal printed totals 22/23.5/26/26.5/21/26/23/15 except VII (generic elective omitted); programme 183 printed, 181 here",
+  "grading_source": null,
+  "grading_verified": false,
+  "grading_note": "letter scale A..E with E = 4 assumed (Thapar grading rules not read)",
+  "electives": "electives I-IV from the listed options; semester VIII = the 15-credit project-semester alternative",
+  "omitted": [
+   "VII generic elective (2 credits): options not listed",
+   "'(2 SELF-EFFORTS HOURS)' note and '*'/'++' markers removed from titles",
+   "0-credit 'CAPSTONE PROJECT - STARTS' marker row in VI"
+  ]
+ },
+ "degree_field_id": "computer_science",
+ "split": "heldout",
+ "semesters": [
+  {
+   "name": "I",
+   "courses": [
+    {
+     "code": "UCB008",
+     "title": "APPLIED CHEMISTRY",
+     "credits": 4.5
+    },
+    {
+     "code": "UTA003",
+     "title": "COMPUTER PROGRAMMING",
+     "credits": 4.0
+    },
+    {
+     "code": "UEE001",
+     "title": "ELECTRICAL ENGINEERING",
+     "credits": 4.5
+    },
+    {
+     "code": "UEN002",
+     "title": "ENERGY AND ENVIRONMENT",
+     "credits": 3.0
+    },
+    {
+     "code": "UMA010",
+     "title": "MATHEMATICS – I",
+     "credits": 3.5
+    },
+    {
+     "code": "UES009",
+     "title": "MECHANICS",
+     "credits": 2.5
+    }
+   ]
+  },
+  {
+   "name": "II",
+   "courses": [
+    {
+     "code": "UPH004",
+     "title": "APPLIED PHYSICS",
+     "credits": 4.5
+    },
+    {
+     "code": "UTA018",
+     "title": "OBJECT ORIENTED PROGRAMMING",
+     "credits": 4.0
+    },
+    {
+     "code": "UEC001",
+     "title": "ELECTRONICS ENGINEERING",
+     "credits": 4.5
+    },
+    {
+     "code": "UTA015",
+     "title": "ENGINEERING DRAWING",
+     "credits": 4.0
+    },
+    {
+     "code": "UHU003",
+     "title": "PROFESSIONAL COMMUNICATION",
+     "credits": 3.0
+    },
+    {
+     "code": "UMA004",
+     "title": "MATHEMATICS – II",
+     "credits": 3.5
+    }
+   ]
+  },
+  {
+   "name": "III",
+   "courses": [
+    {
+     "code": "UCS303",
+     "title": "OPERATING SYSTEMS",
+     "credits": 4.0
+    },
+    {
+     "code": "UCS405",
+     "title": "DISCRETE MATHEMATICAL STRUCTURES",
+     "credits": 3.5
+    },
+    {
+     "code": "UCS301",
+     "title": "DATA STRUCTURES",
+     "credits": 4.0
+    },
+    {
+     "code": "UES012",
+     "title": "ENGINEERING MATERIALS",
+     "credits": 4.5
+    },
+    {
+     "code": "UMA011",
+     "title": "NUMERICAL ANALYSIS",
+     "credits": 4.0
+    },
+    {
+     "code": "UCS311",
+     "title": "PRACTICAL COMPUTING",
+     "credits": 2.0
+    },
+    {
+     "code": "UTA016",
+     "title": "ENGINEERING DESIGN PROJECT – I",
+     "credits": 4.0
+    }
+   ]
+  },
+  {
+   "name": "IV",
+   "courses": [
+    {
+     "code": "UTA002",
+     "title": "MANUFACTURING PROCESSES",
+     "credits": 3.5
+    },
+    {
+     "code": "UCS521",
+     "title": "ARTIFICIAL INTELLIGENCE",
+     "credits": 4.0
+    },
+    {
+     "code": "UCS411",
+     "title": "MEASUREMENT SCIENCE AND TECHNIQUES",
+     "credits": 4.0
+    },
+    {
+     "code": "UCS310",
+     "title": "DATABASE MANAGEMENT SYSTEMS",
+     "credits": 4.0
+    },
+    {
+     "code": "UCS414",
+     "title": "COMPUTER NETWORKS",
+     "credits": 3.0
+    },
+    {
+     "code": "UCS415",
+     "title": "DESIGN AND ANALYSIS OF ALGORITHMS",
+     "credits": 4.0
+    },
+    {
+     "code": "UTA024",
+     "title": "ENGINEERING DESIGN PROJECT – II",
+     "credits": 4.0
+    }
+   ]
+  },
+  {
+   "name": "V",
+   "courses": [
+    {
+     "code": "UCS503",
+     "title": "SOFTWARE ENGINEERING",
+     "credits": 4.0
+    },
+    {
+     "code": "UCS510",
+     "title": "COMPUTER ARCHITECTURE AND ORGANIZATION",
+     "credits": 3.0
+    },
+    {
+     "code": "UML501",
+     "title": "MACHINE LEARNING",
+     "credits": 4.0
+    },
+    {
+     "code": "UCS410",
+     "title": "PROBABILITY AND STATISTICS",
+     "credits": 4.0
+    },
+    {
+     "code": "UCS413",
+     "title": "NETWORK PROGRAMMING",
+     "credits": 3.0
+    },
+    {
+     "code": "UCS533",
+     "title": "DATA ANALYTICS & VISUALIZATION",
+     "credits": 3.0
+    }
+   ]
+  },
+  {
+   "name": "VI",
+   "courses": [
+    {
+     "code": "UCS701",
+     "title": "THEORY OF COMPUTATION",
+     "credits": 3.5
+    },
+    {
+     "code": "UCS505",
+     "title": "COMPUTER GRAPHICS",
+     "credits": 4.0
+    },
+    {
+     "code": "UCS617",
+     "title": "MICROPROCESSOR-BASED SYSTEMS DESIGN",
+     "credits": 4.0
+    },
+    {
+     "code": "UMA037",
+     "title": "OPTIMIZATION TECHNIQUES",
+     "credits": 4.0
+    },
+    {
+     "code": "UCS622",
+     "title": "MATRIX COMPUTATION",
+     "credits": 3.0
+    },
+    {
+     "code": "UCS647",
+     "title": "NATURAL LANGUAGE PROCESSING",
+     "credits": 3.0
+    },
+    {
+     "code": "UTA012",
+     "title": "INNOVATION AND ENTREPRENEURSHIP",
+     "credits": 4.5
+    }
+   ]
+  },
+  {
+   "name": "VII",
+   "courses": [
+    {
+     "code": "UCS704",
+     "title": "EMBEDDED SYSTEMS DESIGN",
+     "credits": 3.0
+    },
+    {
+     "code": "UCS802",
+     "title": "COMPILER CONSTRUCTION",
+     "credits": 4.0
+    },
+    {
+     "code": "UHU005",
+     "title": "HUMANITIES FOR ENGINEERS",
+     "credits": 3.0
+    },
+    {
+     "code": "UCS751",
+     "title": "SIMULATION & MODELLING",
+     "credits": 3.0
+    },
+    {
+     "code": "UCS794",
+     "title": "CAPSTONE PROJECT",
+     "credits": 8.0
+    }
+   ]
+  },
+  {
+   "name": "VIII",
+   "courses": [
+    {
+     "code": "UCS898",
+     "title": "PROJECT SEMESTER",
+     "credits": 15.0
+    }
+   ]
+  }
+ ]
+}

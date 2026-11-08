@@ -1,0 +1,184 @@
+{
+  "country": "India",
+  "total_ects": 240,
+  "confirmations": {},
+  "excluded_courses": [],
+  "_note": "SYNTHETIC test student (JNTUH-style course names); ECTS invented for testing, not a real transcript.",
+  "name": "test_eee",
+  "field": "eee",
+  "degree_field": "electrical_electronic_engineering",
+  "degree_subfield": "electrical_and_electronics",
+  "german_grade": 2.2,
+  "courses": [
+    {
+      "id": "c01",
+      "title": "Mathematics I (Calculus)",
+      "ects": 6,
+      "categories": [
+        "mathematics_statistics.calculus_analysis"
+      ]
+    },
+    {
+      "id": "c02",
+      "title": "Mathematics II (Linear Algebra)",
+      "ects": 6,
+      "categories": [
+        "mathematics_statistics.linear_algebra"
+      ]
+    },
+    {
+      "id": "c03",
+      "title": "Mathematics III (Probability and Statistics)",
+      "ects": 4.5,
+      "categories": [
+        "mathematics_statistics.statistics_probability"
+      ]
+    },
+    {
+      "id": "c04",
+      "title": "Engineering Physics",
+      "ects": 6,
+      "categories": [
+        "physics_natural_sciences.general_physics"
+      ]
+    },
+    {
+      "id": "c05",
+      "title": "Engineering Chemistry",
+      "ects": 6,
+      "categories": [
+        "physics_natural_sciences.chemistry"
+      ]
+    },
+    {
+      "id": "c06",
+      "title": "Programming for Problem Solving",
+      "ects": 6,
+      "categories": [
+        "computer_science_informatics.programming_practical_cs"
+      ]
+    },
+    {
+      "id": "c07",
+      "title": "Data Structures",
+      "ects": 4.5,
+      "categories": [
+        "computer_science_informatics.algorithms_data_structures"
+      ]
+    },
+    {
+      "id": "c08",
+      "title": "Electrical Circuit Analysis",
+      "ects": 6,
+      "categories": [
+        "electrical_electronic_engineering.circuit_theory"
+      ]
+    },
+    {
+      "id": "c09",
+      "title": "Network Theory",
+      "ects": 4.5,
+      "categories": [
+        "electrical_electronic_engineering.circuit_theory"
+      ]
+    },
+    {
+      "id": "c10",
+      "title": "Electromagnetic Fields",
+      "ects": 6,
+      "categories": [
+        "electrical_electronic_engineering.electromagnetic_field_theory"
+      ]
+    },
+    {
+      "id": "c11",
+      "title": "Signals and Systems",
+      "ects": 4.5,
+      "categories": [
+        "electrical_electronic_engineering.signals_systems"
+      ]
+    },
+    {
+      "id": "c12",
+      "title": "Analog Electronics",
+      "ects": 6,
+      "categories": [
+        "electrical_electronic_engineering.electronics"
+      ]
+    },
+    {
+      "id": "c13",
+      "title": "Digital Electronics",
+      "ects": 4.5,
+      "categories": [
+        "electrical_electronic_engineering.electronics",
+        "electrical_electronic_engineering.digital_systems"
+      ]
+    },
+    {
+      "id": "c14",
+      "title": "Electrical Machines I",
+      "ects": 6,
+      "categories": [
+        "electrical_electronic_engineering.electrical_machines_drives"
+      ]
+    },
+    {
+      "id": "c15",
+      "title": "Electrical Machines II",
+      "ects": 6,
+      "categories": [
+        "electrical_electronic_engineering.electrical_machines_drives"
+      ]
+    },
+    {
+      "id": "c16",
+      "title": "Power Systems I",
+      "ects": 6,
+      "categories": [
+        "electrical_electronic_engineering.power_engineering"
+      ]
+    },
+    {
+      "id": "c17",
+      "title": "Power Systems II",
+      "ects": 6,
+      "categories": [
+        "electrical_electronic_engineering.power_engineering"
+      ]
+    },
+    {
+      "id": "c18",
+      "title": "Power Electronics",
+      "ects": 6,
+      "categories": [
+        "electrical_electronic_engineering.power_electronics"
+      ]
+    },
+    {
+      "id": "c19",
+      "title": "Control Systems",
+      "ects": 6,
+      "categories": [
+        "electrical_electronic_engineering.control_systems"
+      ]
+    },
+    {
+      "id": "c20",
+      "title": "Electrical Measurements and Instrumentation",
+      "ects": 4.5,
+      "categories": [
+        "electrical_electronic_engineering.measurement_instrumentation"
+      ]
+    },
+    {
+      "id": "c21",
+      "title": "Microprocessors and Microcontrollers",
+      "ects": 4.5,
+      "categories": [
+        "computer_science_informatics.computer_engineering",
+        "electrical_electronic_engineering.digital_systems"
+      ]
+    }
+  ]
+}

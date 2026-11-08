@@ -1,0 +1,181 @@
+{
+ "id": "S13_anna_velalar_eee",
+ "labeller": "Claude 03.11.2026 (course map first, exactly as the pipeline's own map lookup; generic maths titles null; then taxonomy rules); null = unsure (needs the syllabus), not scored",
+ "label_sources": {
+  "map": 11,
+  "generic": 0,
+  "manual": 56
+ },
+ "labels": {
+  "Induction Programme": [],
+  "Communicative English": [],
+  "Matrices and Differential Equations": [
+   "mathematics_statistics.linear_algebra",
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Engineering Physics": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Engineering Chemistry": [
+   "physics_natural_sciences.chemistry"
+  ],
+  "Python Programming": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Heritage of Tamils": [],
+  "Physics and Chemistry Laboratory I": [
+   "physics_natural_sciences.general_physics",
+   "physics_natural_sciences.chemistry"
+  ],
+  "Python Programming Laboratory": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Workshop Practices Laboratory": [],
+  "Universal Human Values": [],
+  "Professional English": [],
+  "Calculus and Complex Analysis": [
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Physics for Electrical Sciences": null,
+  "Programming in C": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Engineering Graphics": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Electric Circuit Theory": [
+   "electrical_electronic_engineering.circuit_theory"
+  ],
+  "Tamils and Technology": [],
+  "Physics and Chemistry Laboratory II": [
+   "physics_natural_sciences.general_physics",
+   "physics_natural_sciences.chemistry"
+  ],
+  "Electric Circuits Laboratory": [
+   "electrical_electronic_engineering.circuit_theory"
+  ],
+  "Environmental Science and Engineering": [],
+  "Transform Techniques & Numerical Methods": [
+   "mathematics_statistics.calculus_analysis",
+   "mathematics_statistics.optimization_numerics"
+  ],
+  "Electronic Devices and Circuits": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Electromagnetic Field": [
+   "electrical_electronic_engineering.electromagnetic_field_theory"
+  ],
+  "DC machines and Transformers": [
+   "electrical_electronic_engineering.electrical_machines_drives"
+  ],
+  "Measurement and Instrumentation Systems": [
+   "electrical_electronic_engineering.measurement_instrumentation"
+  ],
+  "Electronic Devices and Circuits Laboratory": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "DC machines and Transformers Laboratory": [
+   "electrical_electronic_engineering.electrical_machines_drives"
+  ],
+  "Digital Logic Circuits": [
+   "electrical_electronic_engineering.digital_systems",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Linear Integrated Circuits and Applications": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Induction and Synchronous Machines": [
+   "electrical_electronic_engineering.electrical_machines_drives"
+  ],
+  "Transmission and Distribution": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Control Systems": [
+   "electrical_electronic_engineering.control_systems"
+  ],
+  "Object Oriented Programming using JAVA": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Induction and Synchronous Machines Laboratory": [
+   "electrical_electronic_engineering.electrical_machines_drives"
+  ],
+  "Linear and Digital Integrated Circuits Laboratory": [
+   "electrical_electronic_engineering.electronics",
+   "electrical_electronic_engineering.digital_systems",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Object Oriented Programming Laboratory": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "English for Professionals": [],
+  "Power Electronics": [
+   "electrical_electronic_engineering.power_electronics"
+  ],
+  "Power System Analysis": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Microprocessor and Microcontroller": [
+   "computer_science_informatics.computer_engineering",
+   "electrical_electronic_engineering.digital_systems"
+  ],
+  "Power Quality": [
+   "electrical_electronic_engineering.power_engineering",
+   "electrical_electronic_engineering.power_electronics"
+  ],
+  "Special Electrical Machines": [
+   "electrical_electronic_engineering.electrical_machines_drives"
+  ],
+  "Data Science for Engineers": null,
+  "Microprocessor and Microcontroller Laboratory": [
+   "computer_science_informatics.computer_engineering",
+   "electrical_electronic_engineering.digital_systems"
+  ],
+  "Control Systems and Instrumentation Laboratory": [
+   "electrical_electronic_engineering.control_systems",
+   "electrical_electronic_engineering.measurement_instrumentation"
+  ],
+  "Aptitude and Logical Reasoning": [],
+  "Solid State Drives": [
+   "electrical_electronic_engineering.electrical_machines_drives",
+   "electrical_electronic_engineering.power_electronics"
+  ],
+  "Digital Signal Processing": [
+   "electrical_electronic_engineering.digital_signal_processing"
+  ],
+  "Power System Operation and Control": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Embedded Systems": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "PLC and Automation": null,
+  "IOT System Design and Applications": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Power Electronics and Drives Laboratory": [
+   "electrical_electronic_engineering.power_electronics",
+   "electrical_electronic_engineering.electrical_machines_drives"
+  ],
+  "Innovative Design Project": [],
+  "Communication Skills Laboratory": [],
+  "Protection and Switchgear": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Economics and Management for Engineers": [],
+  "Electric Vehicle Architecture": null,
+  "VLSI Design": [
+   "electrical_electronic_engineering.microelectronics_semiconductors"
+  ],
+  "Product Design and Development": null,
+  "Human Values and Professional Ethics": [],
+  "Renewable Energy Systems Laboratory": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Power System Simulation Laboratory": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Indian Constitution and Traditional Knowledge": [],
+  "Internship": [],
+  "Project Work": []
+ }
+}

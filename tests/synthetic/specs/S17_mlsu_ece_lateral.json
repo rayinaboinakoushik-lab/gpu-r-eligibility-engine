@@ -1,0 +1,403 @@
+{
+ "id": "S17_mlsu_ece_lateral",
+ "field": "eee",
+ "degree": "B.Tech Electronics & Communication Engineering",
+ "university": "Mohanlal Sukhadia University, Udaipur",
+ "institution": "Mohanlal Sukhadia University, Udaipur (University Department)",
+ "regulation": "Course structure 2021-22 onwards",
+ "entry": "lateral_entry",
+ "years": 3,
+ "credits_for_award_printed": null,
+ "grading": [
+  [
+   "A++",
+   10
+  ],
+  [
+   "A+",
+   9
+  ],
+  [
+   "A",
+   8.5
+  ],
+  [
+   "B+",
+   8
+  ],
+  [
+   "B",
+   7.5
+  ],
+  [
+   "C+",
+   7
+  ],
+  [
+   "C",
+   6.5
+  ],
+  [
+   "D+",
+   6
+  ],
+  [
+   "D",
+   5.5
+  ],
+  [
+   "E+",
+   5
+  ],
+  [
+   "E",
+   4
+  ]
+ ],
+ "pass_min": 4,
+ "layout": "two_column",
+ "seed": 1717,
+ "target_cgpa": 7.5,
+ "source": [
+  "https://www.mlsu.ac.in/../syllabus/cbcs/11597_B. Tech. ECE Course Structure & Syllabus MLSU 2021-22 Onwards.pdf"
+ ],
+ "abbreviate": true,
+ "provenance": {
+  "institution_status": "state university department (RTU-style scheme, semesters III-VIII)",
+  "curriculum_check": "semester sums equal printed totals (24.5/23.5/23/23.5/15/15.5 = 125)",
+  "grading_source": null,
+  "grading_verified": false,
+  "grading_note": "RTU-style A++..E scale with half-points assumed (MLSU grading rules not read)",
+  "electives": "programme electives and open electives I-II chosen from the listed options; Technical Communication in III, MEFA in IV (alternatives as printed)",
+  "omitted": []
+ },
+ "degree_field_id": "electronics_communication",
+ "split": "dev",
+ "semesters": [
+  {
+   "name": "III",
+   "courses": [
+    {
+     "code": "BT3EC2-01",
+     "title": "Advanced Engineering Mathematics-I",
+     "credits": 3
+    },
+    {
+     "code": "BT3EC1-02",
+     "title": "Technical Communication",
+     "credits": 2
+    },
+    {
+     "code": "BT3EC4-04",
+     "title": "Digital System Design",
+     "credits": 3
+    },
+    {
+     "code": "BT3EC4-05",
+     "title": "Signal & Systems",
+     "credits": 3
+    },
+    {
+     "code": "BT3EC4-06",
+     "title": "Network Theory",
+     "credits": 4
+    },
+    {
+     "code": "BT3EC4-07",
+     "title": "Electronics Devices",
+     "credits": 4
+    },
+    {
+     "code": "BT3EC4-21",
+     "title": "Electronics Devices Lab",
+     "credits": 1
+    },
+    {
+     "code": "BT3EC4-22",
+     "title": "Digital System Design Lab",
+     "credits": 1
+    },
+    {
+     "code": "BT3EC4-23",
+     "title": "Signal Processing Lab",
+     "credits": 1
+    },
+    {
+     "code": "BT3EC3-24",
+     "title": "Computer Programming Lab-I",
+     "credits": 1
+    },
+    {
+     "code": "BT3EC7-30",
+     "title": "Industrial Training",
+     "credits": 1
+    },
+    {
+     "code": "BT3EC8-00",
+     "title": "Social Outreach, Discipline & Extra Curricular Activities",
+     "credits": 0.5
+    }
+   ]
+  },
+  {
+   "name": "IV",
+   "courses": [
+    {
+     "code": "BT4EC2-01",
+     "title": "Advanced Engineering Mathematics-II",
+     "credits": 3
+    },
+    {
+     "code": "BT4EC1-03",
+     "title": "Managerial Economics and Financial Accounting",
+     "credits": 2
+    },
+    {
+     "code": "BT4EC4-04",
+     "title": "Analog Circuits",
+     "credits": 3
+    },
+    {
+     "code": "BT4EC4-05",
+     "title": "Microcontrollers",
+     "credits": 3
+    },
+    {
+     "code": "BT4EC3-06",
+     "title": "Electronics Measurement & Instrumentation",
+     "credits": 3
+    },
+    {
+     "code": "BT4EC4-07",
+     "title": "Analog and Digital Communication",
+     "credits": 3
+    },
+    {
+     "code": "BT4EC4-21",
+     "title": "Analog and Digital Communication Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "BT4EC4-22",
+     "title": "Analog Circuits Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "BT4EC4-23",
+     "title": "Microcontrollers Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "BT4EC4-24",
+     "title": "Electronics Measurement & Instrumentation Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "BT4EC8-00",
+     "title": "Social Outreach, Discipline & Extra Curricular Activities",
+     "credits": 0.5
+    }
+   ]
+  },
+  {
+   "name": "V",
+   "courses": [
+    {
+     "code": "BT5EC3-01",
+     "title": "Computer Architecture",
+     "credits": 2
+    },
+    {
+     "code": "BT5EC4-02",
+     "title": "Electromagnetics Waves",
+     "credits": 3
+    },
+    {
+     "code": "BT5EC4-03",
+     "title": "Control system",
+     "credits": 3
+    },
+    {
+     "code": "BT5EC4-04",
+     "title": "Digital Signal Processing",
+     "credits": 3
+    },
+    {
+     "code": "BT5EC4-05",
+     "title": "Microwave Theory & Techniques",
+     "credits": 3
+    },
+    {
+     "code": "BT5EC5-14",
+     "title": "Satellite Communication",
+     "credits": 2
+    },
+    {
+     "code": "BT5EC4-21",
+     "title": "RF Simulation Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "BT5EC4-22",
+     "title": "Digital Signal Processing Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "BT5EC4-23",
+     "title": "Microwave Lab",
+     "credits": 1
+    },
+    {
+     "code": "BT5EC7-30",
+     "title": "Industrial Training",
+     "credits": 2.5
+    },
+    {
+     "code": "BT5EC8-00",
+     "title": "Social Outreach, Discipline & Extra Curricular Activities",
+     "credits": 0.5
+    }
+   ]
+  },
+  {
+   "name": "VI",
+   "courses": [
+    {
+     "code": "BT6EC3-01",
+     "title": "Power Electronics",
+     "credits": 2
+    },
+    {
+     "code": "BT6EC4-02",
+     "title": "Computer Network",
+     "credits": 3
+    },
+    {
+     "code": "BT6EC4-03",
+     "title": "Fiber Optics Communications",
+     "credits": 3
+    },
+    {
+     "code": "BT6EC4-04",
+     "title": "Antennas and Propagation",
+     "credits": 3
+    },
+    {
+     "code": "BT6EC4-05",
+     "title": "Information theory and coding",
+     "credits": 3
+    },
+    {
+     "code": "BT6EC5-13",
+     "title": "Neural Network And Fuzzy Logic Control",
+     "credits": 3
+    },
+    {
+     "code": "BT6EC4-21",
+     "title": "Computer Network Lab",
+     "credits": 2
+    },
+    {
+     "code": "BT6EC4-22",
+     "title": "Antenna and wave propagation Lab",
+     "credits": 1
+    },
+    {
+     "code": "BT6EC4-23",
+     "title": "Electronics Design Lab",
+     "credits": 2
+    },
+    {
+     "code": "BT6EC4-24",
+     "title": "Power Electronics Lab",
+     "credits": 1
+    },
+    {
+     "code": "BT6EC8-00",
+     "title": "Social Outreach, Discipline & Extra Curricular Activities",
+     "credits": 0.5
+    }
+   ]
+  },
+  {
+   "name": "VII",
+   "courses": [
+    {
+     "code": "BT7EC5-11",
+     "title": "VLSI Design",
+     "credits": 3
+    },
+    {
+     "code": "BT7CH6-60.1",
+     "title": "Optimization Techniques",
+     "credits": 3
+    },
+    {
+     "code": "BT7EC4-21",
+     "title": "VLSI Design Lab",
+     "credits": 2
+    },
+    {
+     "code": "BT7EC4-22",
+     "title": "Advance communication lab (MATLAB Simulation)",
+     "credits": 1
+    },
+    {
+     "code": "BT7EC4-23",
+     "title": "Optical Communication Lab",
+     "credits": 1
+    },
+    {
+     "code": "BT7EC7-30",
+     "title": "Industrial Training",
+     "credits": 2.5
+    },
+    {
+     "code": "BT7EC7-40",
+     "title": "Seminar",
+     "credits": 2
+    },
+    {
+     "code": "BT7EC8-00",
+     "title": "Social Outreach, Discipline & Extra Curricular Activities",
+     "credits": 0.5
+    }
+   ]
+  },
+  {
+   "name": "VIII",
+   "courses": [
+    {
+     "code": "BT8EC5-12",
+     "title": "Digital Image and Video Processing",
+     "credits": 3
+    },
+    {
+     "code": "BT8EE6-60.2",
+     "title": "Soft Computing",
+     "credits": 3
+    },
+    {
+     "code": "BT8EC4-21",
+     "title": "Internet of Things (IOT) Lab",
+     "credits": 1
+    },
+    {
+     "code": "BT8EC4-22",
+     "title": "Skill Development Lab",
+     "credits": 1
+    },
+    {
+     "code": "BT8EC7-50",
+     "title": "Project",
+     "credits": 7
+    },
+    {
+     "code": "BT8EC8-00",
+     "title": "Social Outreach, Discipline & Extra Curricular Activities",
+     "credits": 0.5
+    }
+   ]
+  }
+ ]
+}

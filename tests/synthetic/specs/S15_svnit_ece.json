@@ -1,0 +1,322 @@
+{
+ "id": "S15_svnit_ece",
+ "field": "eee",
+ "degree": "B.Tech Electronics and Communication Engineering",
+ "university": "Sardar Vallabhbhai National Institute of Technology, Surat",
+ "institution": "Sardar Vallabhbhai National Institute of Technology, Surat (Institute of National Importance)",
+ "regulation": "New scheme effective 2022-23",
+ "entry": "regular",
+ "years": 4,
+ "credits_for_award_printed": null,
+ "grading": [
+  [
+   "AA",
+   10
+  ],
+  [
+   "AB",
+   9
+  ],
+  [
+   "BB",
+   8
+  ],
+  [
+   "BC",
+   7
+  ],
+  [
+   "CC",
+   6
+  ],
+  [
+   "CD",
+   5
+  ],
+  [
+   "DD",
+   4
+  ]
+ ],
+ "pass_min": 4,
+ "layout": "table",
+ "seed": 1515,
+ "target_cgpa": 7.2,
+ "source": [
+  "https://www.svnit.ac.in/web/department/Electronics/pdf/btech/B.Tech. (EC) New Scheme(Effective from Academic Year 2022-23).pdf"
+ ],
+ "abbreviate": false,
+ "provenance": {
+  "institution_status": "NIT (degree-awarding institute), own scheme",
+  "curriculum_check": "semester sums equal printed totals (22/22/24/23/22/23/20/10 = 166); VII/VIII split as printed (VIII = industry internship)",
+  "grading_source": null,
+  "grading_verified": false,
+  "grading_note": "NIT-style AA..DD letter pairs, pass DD = 4 assumed",
+  "electives": "department electives I-VI and institute electives 1-2 chosen from the listed options (slot credits as printed)",
+  "omitted": []
+ },
+ "degree_field_id": "electronics_communication",
+ "split": "dev",
+ "semesters": [
+  {
+   "name": "I",
+   "courses": [
+    {
+     "code": "MA 101 S1",
+     "title": "Mathematics-I",
+     "credits": 4
+    },
+    {
+     "code": "EC 101",
+     "title": "Semiconductor Physics and Devices",
+     "credits": 3
+    },
+    {
+     "code": "CS 109 S1",
+     "title": "Fundamentals of Computer & Programming",
+     "credits": 4
+    },
+    {
+     "code": "EE 101 S1",
+     "title": "Basic Electrical Engineering",
+     "credits": 4
+    },
+    {
+     "code": "CEME 106",
+     "title": "Energy and Environmental Engineering",
+     "credits": 4
+    },
+    {
+     "code": "HU 108",
+     "title": "Holistic Empowerment and Human Values",
+     "credits": 3
+    }
+   ]
+  },
+  {
+   "name": "II",
+   "courses": [
+    {
+     "code": "MA 114 S2",
+     "title": "Mathematics-II",
+     "credits": 4
+    },
+    {
+     "code": "HU 110 S2",
+     "title": "English & Professional Communication",
+     "credits": 3
+    },
+    {
+     "code": "EC 102",
+     "title": "Electronic Circuits",
+     "credits": 4
+    },
+    {
+     "code": "EC 104",
+     "title": "Digital Logic Design",
+     "credits": 4
+    },
+    {
+     "code": "EC 106",
+     "title": "Python Programming",
+     "credits": 4
+    },
+    {
+     "code": "EE 102",
+     "title": "Network Analysis and Synthesis",
+     "credits": 3
+    }
+   ]
+  },
+  {
+   "name": "III",
+   "courses": [
+    {
+     "code": "MA 217",
+     "title": "Mathematics-III",
+     "credits": 4
+    },
+    {
+     "code": "EC 201",
+     "title": "Analog Circuits",
+     "credits": 4
+    },
+    {
+     "code": "EC 203",
+     "title": "Signals and Systems",
+     "credits": 4
+    },
+    {
+     "code": "EC 205",
+     "title": "Data Structures and Algorithms",
+     "credits": 4
+    },
+    {
+     "code": "EC 207",
+     "title": "Digital Integrated Circuits",
+     "credits": 4
+    },
+    {
+     "code": "EC 209",
+     "title": "Principles of Communication Systems",
+     "credits": 4
+    }
+   ]
+  },
+  {
+   "name": "IV",
+   "courses": [
+    {
+     "code": "EC 202",
+     "title": "Electromagnetic Waves",
+     "credits": 4
+    },
+    {
+     "code": "EC 204",
+     "title": "Statistical Signal Analysis",
+     "credits": 4
+    },
+    {
+     "code": "EC 206",
+     "title": "Microprocessor and Microcontrollers",
+     "credits": 4
+    },
+    {
+     "code": "EC 208",
+     "title": "Linear IC Applications",
+     "credits": 4
+    },
+    {
+     "code": "EC 210",
+     "title": "Computer Architecture and Organization",
+     "credits": 4
+    },
+    {
+     "code": "EE 214",
+     "title": "Control Systems",
+     "credits": 3
+    }
+   ]
+  },
+  {
+   "name": "V",
+   "courses": [
+    {
+     "code": "HU 301",
+     "title": "Professional Ethics, Economics, and Business Management",
+     "credits": 3
+    },
+    {
+     "code": "EC 301",
+     "title": "Digital Signal Processing",
+     "credits": 4
+    },
+    {
+     "code": "EC 305",
+     "title": "Digital Communication",
+     "credits": 4
+    },
+    {
+     "code": "EC 307",
+     "title": "Data Communication Networks",
+     "credits": 4
+    },
+    {
+     "code": "EC 327",
+     "title": "Antenna Theory",
+     "credits": 4
+    },
+    {
+     "code": "EC 361",
+     "title": "Sensors and Transducers",
+     "credits": 3
+    }
+   ]
+  },
+  {
+   "name": "VI",
+   "courses": [
+    {
+     "code": "EC 302",
+     "title": "VLSI Design",
+     "credits": 4
+    },
+    {
+     "code": "EC 304",
+     "title": "Wireless and Mobile Communication",
+     "credits": 4
+    },
+    {
+     "code": "EC 306",
+     "title": "Machine Learning",
+     "credits": 4
+    },
+    {
+     "code": "EC 308",
+     "title": "Seminar",
+     "credits": 1
+    },
+    {
+     "code": "EC 326",
+     "title": "Optical Fiber Communication",
+     "credits": 4
+    },
+    {
+     "code": "EC 334",
+     "title": "Adaptive Signal Processing",
+     "credits": 3
+    },
+    {
+     "code": "EC 364",
+     "title": "Computer Vision",
+     "credits": 3
+    }
+   ]
+  },
+  {
+   "name": "VII",
+   "courses": [
+    {
+     "code": "EC 401",
+     "title": "Microwave Engineering",
+     "credits": 4
+    },
+    {
+     "code": "EC 403",
+     "title": "Information Theory and Coding",
+     "credits": 3
+    },
+    {
+     "code": "EC 405",
+     "title": "Project",
+     "credits": 3
+    },
+    {
+     "code": "EC 425",
+     "title": "CMOS Analog VLSI Design",
+     "credits": 4
+    },
+    {
+     "code": "EC 437",
+     "title": "EM Interference and Compatibility",
+     "credits": 3
+    },
+    {
+     "code": "EC 455",
+     "title": "Ad-Hoc Networks",
+     "credits": 3
+    }
+   ]
+  },
+  {
+   "name": "VIII",
+   "courses": [
+    {
+     "code": "EC 402",
+     "title": "Internship training in Industry / Research Organization/ Academic Institute",
+     "credits": 10
+    }
+   ]
+  }
+ ]
+}

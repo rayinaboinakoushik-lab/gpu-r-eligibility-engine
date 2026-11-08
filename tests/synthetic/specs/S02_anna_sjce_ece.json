@@ -1,0 +1,420 @@
+{
+ "id": "S02_anna_sjce_ece",
+ "field": "eee",
+ "degree": "B.E. Electronics and Communication Engineering",
+ "university": "Anna University, Chennai",
+ "institution": "St. Joseph's College of Engineering, Chennai (Autonomous, affiliated to Anna University)",
+ "regulation": "Regulations 2021",
+ "entry": "regular",
+ "years": 4,
+ "credits_for_award_printed": 182,
+ "grading": [
+  [
+   "O",
+   10
+  ],
+  [
+   "A+",
+   9
+  ],
+  [
+   "A",
+   8
+  ],
+  [
+   "B+",
+   7
+  ],
+  [
+   "B",
+   6
+  ],
+  [
+   "C",
+   5
+  ]
+ ],
+ "pass_min": 5,
+ "layout": "two_column",
+ "abbreviate": true,
+ "seed": 202,
+ "target_cgpa": 7.6,
+ "source": [
+  "https://www.stjosephs.ac.in/DW/ECE/syllabus/R2021 year 2024 admitted.pdf"
+ ],
+ "provenance": {
+  "institution_status": "autonomous college affiliated to Anna University (the source page names no university; R2021 structure matches Anna University's framework)",
+  "curriculum_check": "one reading; all eight semester totals and the 182-credit total reconcile exactly with the printed totals",
+  "grading_source": null,
+  "grading_verified": false,
+  "grading_note": "typical Anna-framework 10-point scale (O..C, pass C = 5) assumed",
+  "electives": "chosen from the professional and open elective options listed in the source",
+  "omitted": [
+   "III-sem Audit Course (0 credits, title not printed)",
+   "VI-sem Value Added Course and VII-sem Internship (outside the 182-credit total)"
+  ]
+ },
+ "semesters": [
+  {
+   "name": "I",
+   "courses": [
+    {
+     "code": "HS1101",
+     "title": "Communicative English",
+     "credits": 3
+    },
+    {
+     "code": "MA1102",
+     "title": "Engineering Mathematics- I",
+     "credits": 4
+    },
+    {
+     "code": "PH1103",
+     "title": "Engineering Physics",
+     "credits": 3
+    },
+    {
+     "code": "CY1104",
+     "title": "Engineering Chemistry",
+     "credits": 3
+    },
+    {
+     "code": "GE1109",
+     "title": "Problem solving and Programming in C",
+     "credits": 3
+    },
+    {
+     "code": "GE1106",
+     "title": "Engineering Graphics",
+     "credits": 4
+    },
+    {
+     "code": "GE1209",
+     "title": "Heritage of Tamils",
+     "credits": 1
+    },
+    {
+     "code": "GE1110",
+     "title": "Programming in C Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "BS1108",
+     "title": "Physics and Chemistry Laboratory",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "II",
+   "courses": [
+    {
+     "code": "HS1201",
+     "title": "Professional English",
+     "credits": 3
+    },
+    {
+     "code": "MA1202",
+     "title": "Engineering Mathematics -II",
+     "credits": 4
+    },
+    {
+     "code": "PH1253",
+     "title": "Physics for Electronics Engineering",
+     "credits": 3
+    },
+    {
+     "code": "GE1204",
+     "title": "Environmental Science and Engineering",
+     "credits": 3
+    },
+    {
+     "code": "EC1205",
+     "title": "Circuit Analysis",
+     "credits": 3
+    },
+    {
+     "code": "EC1206",
+     "title": "Electronic Devices",
+     "credits": 3
+    },
+    {
+     "code": "GE1210",
+     "title": "Tamils & Technology",
+     "credits": 1
+    },
+    {
+     "code": "GE1207",
+     "title": "Engineering Practices Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "EC1208",
+     "title": "Circuits and Devices Laboratory",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "III",
+   "courses": [
+    {
+     "code": "MA1352",
+     "title": "Linear Algebra and Partial Differential Equations",
+     "credits": 4
+    },
+    {
+     "code": "EC1302",
+     "title": "Electronic Circuits - I",
+     "credits": 3
+    },
+    {
+     "code": "EC1303",
+     "title": "Signals and Systems",
+     "credits": 3
+    },
+    {
+     "code": "EC1304",
+     "title": "Digital Electronics",
+     "credits": 3
+    },
+    {
+     "code": "EC1305",
+     "title": "Electromagnetic Fields",
+     "credits": 3
+    },
+    {
+     "code": "EE1351",
+     "title": "Basic Electrical and Instrumentation Engineering",
+     "credits": 3
+    },
+    {
+     "code": "EC1307",
+     "title": "Analog and Digital Circuits Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "HS1310",
+     "title": "Professional Skills Laboratory",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "IV",
+   "courses": [
+    {
+     "code": "MA1451",
+     "title": "Probability and Random Processes",
+     "credits": 4
+    },
+    {
+     "code": "EC1402",
+     "title": "Electronic Circuits- II",
+     "credits": 3
+    },
+    {
+     "code": "EC1403",
+     "title": "Communication Theory",
+     "credits": 3
+    },
+    {
+     "code": "EC1404",
+     "title": "Linear Integrated Circuits",
+     "credits": 3
+    },
+    {
+     "code": "CS1302",
+     "title": "Data Structures",
+     "credits": 3
+    },
+    {
+     "code": "EC1406",
+     "title": "Control Systems Engineering",
+     "credits": 3
+    },
+    {
+     "code": "EC1407",
+     "title": "Circuits Design Simulation and Linear Integrated Circuits Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "CS1307",
+     "title": "Data Structures Laboratory using C",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "V",
+   "courses": [
+    {
+     "code": "EC1502",
+     "title": "Discrete-Time Signal Processing",
+     "credits": 4
+    },
+    {
+     "code": "EC1503",
+     "title": "Communication Networks",
+     "credits": 3
+    },
+    {
+     "code": "EC1504",
+     "title": "Transmission lines and RF Systems",
+     "credits": 3
+    },
+    {
+     "code": "EC1505",
+     "title": "Digital Waveform Coding and Modulation Techniques",
+     "credits": 3
+    },
+    {
+     "code": "IT1811",
+     "title": "Information Theory and Coding",
+     "credits": 3
+    },
+    {
+     "code": "OEE102",
+     "title": "Renewable Energy Sources",
+     "credits": 3
+    },
+    {
+     "code": "EC1507",
+     "title": "Digital Signal Processing Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "EC1508",
+     "title": "Communication Systems Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "EC1509",
+     "title": "Communication Networks Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "EC1510",
+     "title": "Internship",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "VI",
+   "courses": [
+    {
+     "code": "EC1602",
+     "title": "VLSI Design",
+     "credits": 3
+    },
+    {
+     "code": "EC1603",
+     "title": "Wireless Communication",
+     "credits": 3
+    },
+    {
+     "code": "EC1604",
+     "title": "Antennas and Microwave Engineering",
+     "credits": 3
+    },
+    {
+     "code": "EC1605",
+     "title": "Microprocessors and Microcontrollers",
+     "credits": 3
+    },
+    {
+     "code": "EC1006",
+     "title": "Wireless Networks",
+     "credits": 3
+    },
+    {
+     "code": "EC1606",
+     "title": "Digital Image Processing",
+     "credits": 4
+    },
+    {
+     "code": "EC1607",
+     "title": "Microprocessors and Microcontrollers Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "EC1608",
+     "title": "VLSI Design Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "EC1609",
+     "title": "Mini Project",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "VII",
+   "courses": [
+    {
+     "code": "EC1701",
+     "title": "Adaptive Learning Techniques",
+     "credits": 3
+    },
+    {
+     "code": "EC1702",
+     "title": "Optical Communication",
+     "credits": 3
+    },
+    {
+     "code": "EC1703",
+     "title": "Embedded Systems and IoT",
+     "credits": 3
+    },
+    {
+     "code": "EC1704",
+     "title": "Adhoc and Wireless Sensor Networks",
+     "credits": 3
+    },
+    {
+     "code": "OEI101",
+     "title": "Sensors and Transducers",
+     "credits": 3
+    },
+    {
+     "code": "EC1020",
+     "title": "5G Communication Technology",
+     "credits": 3
+    },
+    {
+     "code": "EC1707",
+     "title": "Advanced Communication Laboratory",
+     "credits": 2
+    },
+    {
+     "code": "EC1708",
+     "title": "Embedded Laboratory",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "VIII",
+   "courses": [
+    {
+     "code": "EC1024",
+     "title": "Satellite Communication",
+     "credits": 3
+    },
+    {
+     "code": "EC1035",
+     "title": "Computer Vision",
+     "credits": 3
+    },
+    {
+     "code": "EC1803",
+     "title": "Project work",
+     "credits": 10
+    }
+   ]
+  }
+ ],
+ "degree_field_id": "electronics_communication"
+}

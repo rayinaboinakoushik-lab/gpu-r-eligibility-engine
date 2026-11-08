@@ -1,0 +1,419 @@
+{
+ "id": "S09_au_eee_c22",
+ "field": "eee",
+ "degree": "B.Tech Electrical and Electronics Engineering",
+ "university": "Andhra University",
+ "institution": "Andhra University College of Engineering (A), Visakhapatnam",
+ "regulation": "C22",
+ "entry": "regular",
+ "years": 4,
+ "credits_for_award_printed": 160,
+ "grading": [
+  [
+   "O",
+   10
+  ],
+  [
+   "A+",
+   9
+  ],
+  [
+   "A",
+   8
+  ],
+  [
+   "B+",
+   7
+  ],
+  [
+   "B",
+   6
+  ],
+  [
+   "C",
+   5
+  ],
+  [
+   "P",
+   4
+  ]
+ ],
+ "pass_min": 4,
+ "layout": "table",
+ "seed": 909,
+ "target_cgpa": 7.7,
+ "source": [
+  "https://www.andhrauniversity.edu.in/syllabus/2022-2023/engineering/EEE_Course_structure_C22.pdf"
+ ],
+ "abbreviate": false,
+ "provenance": {
+  "institution_status": "university college; Andhra University EEE course structure C22",
+  "curriculum_check": "semester sums equal printed totals (19.5/19.5/21.5/20/22/21.5/22/14 = 160)",
+  "grading_source": null,
+  "grading_verified": false,
+  "grading_note": "10-point O..P scale, pass P = 4 assumed (AU grading rules not read)",
+  "electives": "PE I-V, OE I-IV and the HSS elective chosen from the listed options; each elective slot carries 3 credits as printed in the scheme",
+  "omitted": [
+   "duplicate 'Internship I/II' rows printed without credits (the credited EE3109/EE4108 rows are kept)"
+  ]
+ },
+ "degree_field_id": "electrical_electronic_engineering",
+ "split": "dev",
+ "semesters": [
+  {
+   "name": "I",
+   "courses": [
+    {
+     "code": "EE1101",
+     "title": "Mathematics – I",
+     "credits": 3
+    },
+    {
+     "code": "EE1102",
+     "title": "Physics",
+     "credits": 3
+    },
+    {
+     "code": "EE1103",
+     "title": "Introduction to Python",
+     "credits": 3
+    },
+    {
+     "code": "EE1104",
+     "title": "Fundamentals of Electrical Engg.",
+     "credits": 3
+    },
+    {
+     "code": "EE1105",
+     "title": "Basic Electronic Engg.",
+     "credits": 3
+    },
+    {
+     "code": "EE1106",
+     "title": "Python Programming Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "EE1107",
+     "title": "Physics Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "EE1108",
+     "title": "Electrical Engg Workshop",
+     "credits": 1.5
+    }
+   ]
+  },
+  {
+   "name": "II",
+   "courses": [
+    {
+     "code": "EE1201",
+     "title": "Mathematics – II",
+     "credits": 3
+    },
+    {
+     "code": "EE1202",
+     "title": "Green Chemistry",
+     "credits": 3
+    },
+    {
+     "code": "EE1203",
+     "title": "English",
+     "credits": 3
+    },
+    {
+     "code": "EE1204",
+     "title": "Computer Programming and Numerical Methods",
+     "credits": 3
+    },
+    {
+     "code": "EE1205",
+     "title": "Industry 4.0",
+     "credits": 3
+    },
+    {
+     "code": "EE1206",
+     "title": "English Language Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "EE1207",
+     "title": "Green Chemistry Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "EE1208",
+     "title": "Computer Programming and Numerical Methods Lab",
+     "credits": 1.5
+    }
+   ]
+  },
+  {
+   "name": "III",
+   "courses": [
+    {
+     "code": "EE2101",
+     "title": "Operations Research",
+     "credits": 3
+    },
+    {
+     "code": "EE2102",
+     "title": "Network Theory",
+     "credits": 3
+    },
+    {
+     "code": "EE2103",
+     "title": "Electronic Circuits",
+     "credits": 3
+    },
+    {
+     "code": "EE2104",
+     "title": "Electrical Machines - I",
+     "credits": 3
+    },
+    {
+     "code": "EE2105",
+     "title": "Managerial Economics",
+     "credits": 3
+    },
+    {
+     "code": "EE2106",
+     "title": "Electrical Networks Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "EE2107",
+     "title": "Electrical Machines – I lab",
+     "credits": 1.5
+    },
+    {
+     "code": "EE2108",
+     "title": "Electronics Circuits Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "EE2109",
+     "title": "Matlab & Interfacing",
+     "credits": 2
+    },
+    {
+     "code": "EE2110",
+     "title": "Professional Ethics & Universal Human values",
+     "credits": 0
+    },
+    {
+     "code": "EE2111",
+     "title": "NCC/NSS",
+     "credits": 0
+    }
+   ]
+  },
+  {
+   "name": "IV",
+   "courses": [
+    {
+     "code": "EE2201",
+     "title": "Signals & Systems",
+     "credits": 3
+    },
+    {
+     "code": "EE2202",
+     "title": "Electrical Measurements",
+     "credits": 3
+    },
+    {
+     "code": "EE2203",
+     "title": "Electrical Machines – II",
+     "credits": 3
+    },
+    {
+     "code": "EE2204",
+     "title": "EMF Theory",
+     "credits": 3
+    },
+    {
+     "code": "EE2205",
+     "title": "Electrical Engineering Materials",
+     "credits": 3
+    },
+    {
+     "code": "EE2206",
+     "title": "Electrical Machines – II Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "EE2207",
+     "title": "Electrical Measurements lab",
+     "credits": 1.5
+    },
+    {
+     "code": "EE2208",
+     "title": "Electrical CAD",
+     "credits": 2
+    },
+    {
+     "code": "EE2209",
+     "title": "Environmental Science",
+     "credits": 0
+    }
+   ]
+  },
+  {
+   "name": "V",
+   "courses": [
+    {
+     "code": "EE3101",
+     "title": "Pulse & Digital Circuits",
+     "credits": 3
+    },
+    {
+     "code": "EE3102",
+     "title": "Power Electronics",
+     "credits": 3
+    },
+    {
+     "code": "EE3103",
+     "title": "Power Systems – I",
+     "credits": 3
+    },
+    {
+     "code": "EE-PE02",
+     "title": "Utilization Of Electrical Energy",
+     "credits": 3
+    },
+    {
+     "code": "EE-OE08",
+     "title": "Microprocessors & Microcontrollers",
+     "credits": 3
+    },
+    {
+     "code": "EE3106",
+     "title": "PDC Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "EE3107",
+     "title": "Power Electronics Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "EE3108",
+     "title": "PLCs",
+     "credits": 2
+    },
+    {
+     "code": "EE3109",
+     "title": "Internship I",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "VI",
+   "courses": [
+    {
+     "code": "EE3201",
+     "title": "Power System Analysis & Stability",
+     "credits": 3
+    },
+    {
+     "code": "EE3202",
+     "title": "Power Systems – II",
+     "credits": 3
+    },
+    {
+     "code": "EE3203",
+     "title": "Control Systems",
+     "credits": 3
+    },
+    {
+     "code": "EE-PE14",
+     "title": "Power System Protection",
+     "credits": 3
+    },
+    {
+     "code": "EE-OE04",
+     "title": "Computer Networks",
+     "credits": 3
+    },
+    {
+     "code": "EE3206",
+     "title": "Microprocessors & Microcontrollers Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "EE3207",
+     "title": "Control Systems Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "EE3208",
+     "title": "Power Systems Simulation Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "EE3209",
+     "title": "Soft Skills",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "VII",
+   "courses": [
+    {
+     "code": "EE-PE08",
+     "title": "High Voltage Engineering",
+     "credits": 3
+    },
+    {
+     "code": "EE-PE09",
+     "title": "Smart Grids",
+     "credits": 3
+    },
+    {
+     "code": "EE-PE13",
+     "title": "HVDC Transmission",
+     "credits": 3
+    },
+    {
+     "code": "EE-OE05",
+     "title": "Renewable Energy Sources",
+     "credits": 3
+    },
+    {
+     "code": "EE-OE12",
+     "title": "Artificial Intelligence & Machine Learning",
+     "credits": 3
+    },
+    {
+     "code": "HSSE02",
+     "title": "Industrial management and entrepreneurship",
+     "credits": 3
+    },
+    {
+     "code": "EE4107",
+     "title": "IoT",
+     "credits": 2
+    },
+    {
+     "code": "EE4108",
+     "title": "Internship II",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "VIII",
+   "courses": [
+    {
+     "code": "EE4201",
+     "title": "Project work",
+     "credits": 14
+    }
+   ]
+  }
+ ]
+}

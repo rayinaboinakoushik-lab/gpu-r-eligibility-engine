@@ -1,0 +1,189 @@
+{
+ "id": "S04_ku_kitsw_civil",
+ "labeller": "Claude 31.10.2026 (course map first, then taxonomy rules); null = unsure (needs the syllabus), not scored",
+ "labels": {
+  "Engineering Mathematics-I": null,
+  "Programming in C": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Engg. Physics": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "English for Communication": [],
+  "Basic Electronics Engg.": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Basic Mechanical Engg.": null,
+  "Programming in “C” Lab": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Engg. Physics Lab": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Engg. Workshop Practice": [],
+  "EAA: Physical Education & NSS": [],
+  "Engineering Mathematics-II": null,
+  "Object Oriented Programming through C++": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Engg. Chemistry": [
+   "physics_natural_sciences.chemistry"
+  ],
+  "Engineering Drawing": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Basic Electrical Engg.": [
+   "electrical_electronic_engineering.circuit_theory"
+  ],
+  "Basic Engg. Mechanics": [
+   "civil_engineering.structural_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_dynamics",
+   "physics_natural_sciences.general_physics"
+  ],
+  "Object Oriented Programming (OOP) Lab": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Engg. Chemistry Lab": [
+   "physics_natural_sciences.chemistry"
+  ],
+  "Environmental Studies": [],
+  "Engineering Mathematics – III": null,
+  "Strength of Materials – I": [
+   "civil_engineering.structural_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Fluid Mechanics": [
+   "civil_engineering.fluid_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Surveying - I": [
+   "civil_engineering.surveying_geodesy"
+  ],
+  "Building Materials and Construction": [
+   "chemistry_materials.materials_science",
+   "civil_engineering.construction_management"
+  ],
+  "Engineering Geology": [
+   "civil_engineering.geotechnics"
+  ],
+  "Survey Field Work - I": [
+   "civil_engineering.surveying_geodesy"
+  ],
+  "Fluid Mechanics Laboratory": [
+   "civil_engineering.fluid_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Soft and Inter Personal Skills": [],
+  "Engineering Mathematics - IV": null,
+  "Strength of Materials - II": [
+   "civil_engineering.structural_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Hydraulics and Hydraulic Machines": [
+   "civil_engineering.fluid_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Surveying - II": [
+   "civil_engineering.surveying_geodesy"
+  ],
+  "Concrete Technology": [
+   "chemistry_materials.materials_science"
+  ],
+  "Survey Field Work - II": [
+   "civil_engineering.surveying_geodesy"
+  ],
+  "Hydraulics and Hydraulic Machines Laboratory": [
+   "civil_engineering.fluid_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Basic Electrical Measurements and Instrumentation Laboratory": [
+   "electrical_electronic_engineering.measurement_instrumentation"
+  ],
+  "Structural Analysis - I": [
+   "civil_engineering.structural_engineering",
+   "civil_engineering.structural_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Design of Reinforced Concrete Structures": [
+   "civil_engineering.structural_engineering"
+  ],
+  "Geotechnical Engineering - I": [
+   "civil_engineering.geotechnics"
+  ],
+  "Highway Engineering": [
+   "civil_engineering.transportation_engineering"
+  ],
+  "Environmental Engineering": [
+   "civil_engineering.environmental_engineering"
+  ],
+  "Material Testing Laboratory": null,
+  "Concrete Technology Laboratory": [
+   "chemistry_materials.materials_science"
+  ],
+  "Computer Aided Building Drawing Laboratory": null,
+  "Seminar": [],
+  "Disaster Management": [],
+  "Structural Analysis-II": [
+   "civil_engineering.structural_engineering",
+   "civil_engineering.structural_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Design of Steel Structures": [
+   "civil_engineering.structural_engineering"
+  ],
+  "Geotechnical Engineering - II": [
+   "civil_engineering.geotechnics"
+  ],
+  "Engineering Hydrology": [
+   "civil_engineering.water_engineering"
+  ],
+  "Prestressed Concrete": [
+   "civil_engineering.structural_engineering"
+  ],
+  "Highway Engineering Laboratory": [
+   "civil_engineering.transportation_engineering"
+  ],
+  "Geotechnical Engineering Laboratory": [
+   "civil_engineering.geotechnics"
+  ],
+  "Mini Project": [],
+  "Operation Research": [
+   "mathematics_statistics.optimization_numerics"
+  ],
+  "Irrigation Engineering and Hydraulic Structures": [
+   "civil_engineering.water_engineering"
+  ],
+  "Estimation and Valuation": [
+   "civil_engineering.construction_management"
+  ],
+  "Bridge Engineering": [
+   "civil_engineering.structural_engineering"
+  ],
+  "Airport Engineering": [
+   "civil_engineering.transportation_engineering"
+  ],
+  "Environmental Engineering Laboratory": [
+   "civil_engineering.environmental_engineering"
+  ],
+  "Civil Engineering Detailing Laboratory": null,
+  "Major Project Work: Phase - I": [],
+  "Management Economics and Accountancy": [
+   "business_economics_management.business_administration"
+  ],
+  "Construction Technology and Management": [
+   "civil_engineering.construction_management"
+  ],
+  "Finite Elements Analysis": [
+   "civil_engineering.structural_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Traffic Engineering and Transportation Planning": [
+   "civil_engineering.transportation_engineering"
+  ],
+  "Civil Engineering Software Applications Laboratory": null,
+  "Engineering Geology Laboratory": [
+   "civil_engineering.geotechnics"
+  ],
+  "Major Project Work: Phase - II": []
+ }
+}

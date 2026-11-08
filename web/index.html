@@ -1,0 +1,885 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GPU-R admission check</title>
+<meta name="description" content="Check which German master's programmes your Indian bachelor's degree meets, against each programme's published admission rules.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231E2A5A'/%3E%3Cpath d='M6 20c4-8 6-8 10 0s6 8 10 0' fill='none' stroke='%23CFE0D7' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
+<!--
+  GPU-R student website (Day 8, 05.11.2026). One page, no framework, no outside requests:
+  it talks only to the GPU-R API on the same server and uses fonts served from /fonts.
+  The access code is kept in this browser tab only (sessionStorage) and sent as the X-Access-Key header.
+-->
+<style>
+@font-face{font-family:"Schibsted Grotesk";src:url(fonts/schibsted-grotesk-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Schibsted Grotesk";src:url(fonts/schibsted-grotesk-latin-500-normal.woff2) format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:"Schibsted Grotesk";src:url(fonts/schibsted-grotesk-latin-700-normal.woff2) format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:"Source Serif 4";src:url(fonts/source-serif-4-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Source Serif 4";src:url(fonts/source-serif-4-latin-400-italic.woff2) format("woff2");font-weight:400;font-style:italic;font-display:swap}
+
+:root{
+  color-scheme: light;
+  /* security-paper ground and document ink */
+  --paper:#F2F5F3;
+  --sheet:#FFFFFF;
+  --ink:#1E2A5A;
+  --text:#1F2430;
+  --muted:#5B6372;
+  --rule:#D3DCD7;
+  --guilloche:#BCD0C6;
+  --focus:#2F6FEB;
+  /* the four result lists: colour carries meaning, always paired with a word */
+  --l1:#1F6B4A; --l1-bg:#E3F1EA;
+  --l2:#2F4FA8; --l2-bg:#E5EAF8;
+  --l3:#9A6112; --l3-bg:#F6ECDB;
+  --l4:#94403F; --l4-bg:#F5E5E4;
+  --pass:#1F6B4A; --fail:#94403F;
+
+  --sans:"Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --r-sm:6px; --r-md:10px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--text);font:400 17px/1.55 var(--sans);font-feature-settings:"tnum" 0}
+img,svg{display:block}
+button,input,select,textarea{font:inherit;color:inherit}
+a{color:var(--ink)}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:4px}
+.sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.num{font-variant-numeric:tabular-nums}
+
+/* ---------- frame ---------- */
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px clamp(16px,4vw,40px);border-bottom:1px solid var(--rule);background:var(--paper)}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink)}
+.brand svg{width:30px;height:30px}
+.brand b{font-weight:700;font-size:19px;letter-spacing:-.01em}
+.brand span{color:var(--muted);font-size:14px}
+.top .who{font-size:14px;color:var(--muted)}
+.frame{display:grid;grid-template-columns:200px minmax(0,1fr);gap:clamp(24px,5vw,64px);max-width:1120px;margin:0 auto;padding:40px clamp(16px,4vw,40px) 80px}
+main{min-width:0;max-width:760px}
+main.wide{max-width:none}
+
+/* step rail: the flow really is a sequence, so it is numbered */
+.rail{position:sticky;top:24px;align-self:start;margin:0;padding:0;list-style:none;counter-reset:step}
+.rail li{counter-increment:step;display:flex;gap:12px;align-items:center;padding:9px 0;color:var(--muted);font-size:15px}
+.rail li::before{content:counter(step);display:grid;place-items:center;width:26px;height:26px;border-radius:50%;border:1.5px solid var(--rule);font-size:13px;font-weight:500;background:var(--sheet);flex:none}
+.rail li.done{color:var(--text)}
+.rail li.done::before{content:"✓";border-color:var(--ink);color:var(--ink)}
+.rail li.now{color:var(--ink);font-weight:500}
+.rail li.now::before{background:var(--ink);border-color:var(--ink);color:#fff}
+.rail-mobile{display:none;font-size:14px;color:var(--muted);margin:0 0 18px}
+
+/* ---------- type ---------- */
+h1{font-weight:700;font-size:clamp(34px,5.2vw,54px);line-height:1.04;letter-spacing:-.025em;color:var(--ink);margin:0 0 20px;max-width:18ch}
+h2{font-weight:700;font-size:clamp(26px,3.4vw,34px);line-height:1.12;letter-spacing:-.018em;color:var(--ink);margin:0 0 12px}
+h3{font-weight:700;font-size:19px;line-height:1.3;margin:0 0 8px;color:var(--text)}
+p{margin:0 0 14px;max-width:66ch}
+.lede{font-size:19px;color:#3A4152;max-width:58ch;margin-bottom:34px}
+.small{font-size:14px;color:var(--muted)}
+.quote{font-family:var(--serif);font-size:16.5px;line-height:1.62}
+
+/* ---------- conversion panel: the one loud element ---------- */
+.convert{position:relative;overflow:hidden;background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r-md);padding:26px clamp(18px,3vw,32px) 96px;margin:0 0 28px}
+.convert .guilloche{position:absolute;inset:auto 0 0 0;height:84px;width:100%;pointer-events:none}
+.convert-grid{position:relative;display:grid;grid-template-columns:repeat(3,minmax(0,1fr)) auto;gap:16px 22px;align-items:end}
+.field label{display:block;font-size:14px;font-weight:500;margin:0 0 6px;color:var(--text)}
+.field .hint{display:block;font-size:13px;color:var(--muted);margin-top:5px}
+input[type=text],input[type=number],input[type=password],select,textarea{width:100%;background:var(--sheet);border:1.5px solid #C5CFCA;border-radius:var(--r-sm);padding:10px 12px;line-height:1.3}
+input:focus,select:focus,textarea:focus{border-color:var(--ink);outline:none;box-shadow:0 0 0 3px rgba(47,111,235,.25)}
+input.invalid{border-color:var(--fail);background:#FDF6F5}
+.result-grade{grid-column:4;grid-row:1 / span 2;text-align:right;padding-left:18px;border-left:1px solid var(--rule)}
+.result-grade .g{font-size:clamp(56px,9vw,92px);line-height:.9;font-weight:700;letter-spacing:-.04em;color:var(--ink);font-variant-numeric:tabular-nums}
+.result-grade .gl{font-size:14px;color:var(--muted);margin-top:6px}
+.formula{position:relative;grid-column:1 / span 3;font-family:var(--serif);font-style:italic;font-size:18px;color:#3A4152;margin:2px 0 0}
+.convert .note{position:relative;font-size:13.5px;color:var(--muted);margin:18px 0 0;max-width:64ch}
+
+/* ---------- forms and buttons ---------- */
+.drop{display:flex;align-items:center;gap:18px;border:1.5px dashed #9FB3A9;border-radius:var(--r-md);padding:20px 22px;background:var(--sheet);cursor:pointer;transition:border-color .15s,background .15s}
+.drop:hover,.drop.over{border-color:var(--ink);background:#F7F9FD}
+.drop svg{width:38px;height:38px;flex:none;color:var(--ink)}
+.drop b{display:block;font-weight:500}
+.drop.has b{color:var(--ink)}
+.row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.stack{display:grid;gap:18px}
+.btn{appearance:none;border:0;border-radius:var(--r-sm);padding:13px 22px;font-weight:500;font-size:16px;cursor:pointer;background:var(--ink);color:#fff;transition:background .15s,transform .05s}
+.btn:hover{background:#15204A}
+.btn:active{transform:translateY(1px)}
+.btn[disabled]{opacity:.55;cursor:not-allowed}
+.btn.quiet{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--ink)}
+.btn.quiet:hover{background:#E9EEF8}
+.btn.link{background:none;color:var(--ink);padding:8px 4px;text-decoration:underline;text-underline-offset:3px}
+.btn.danger{background:transparent;color:var(--fail);box-shadow:inset 0 0 0 1.5px var(--fail)}
+.error{border-left:4px solid var(--fail);background:#FBEFEE;padding:12px 16px;border-radius:0 var(--r-sm) var(--r-sm) 0;margin:16px 0;font-size:15.5px}
+.demo-banner{display:flex;flex-wrap:wrap;gap:14px 24px;align-items:center;justify-content:space-between;background:var(--sheet);border:1.5px solid var(--l2);border-left-width:6px;border-radius:var(--r-md);padding:16px 20px;margin:0 0 26px}
+.demo-banner p{margin:0;max-width:62ch}
+.frame.demo .rail{visibility:hidden}
+.accuracy{margin-top:40px;padding-top:26px;border-top:1px solid var(--rule)}
+.acc-figs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:14px 0 16px}
+.acc-figs div{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r-md);padding:14px 16px;display:flex;flex-direction:column-reverse;justify-content:flex-end;gap:6px}
+.acc-figs dd{margin:0;font-size:28px;font-weight:700;letter-spacing:-.02em;color:var(--ink);line-height:1.05}
+.acc-figs div:last-child dd{color:var(--l1)}
+.acc-figs dt{font-size:13.5px;color:var(--muted);line-height:1.35}
+.privacy{display:flex;gap:10px;font-size:14px;color:var(--muted);margin-top:22px;max-width:62ch}
+.privacy svg{width:18px;height:18px;flex:none;margin-top:2px;color:var(--l1)}
+.section{margin:34px 0 0}
+.section:first-child{margin-top:0}
+
+/* ---------- waiting ---------- */
+.wait{padding:30px 0}
+.wait .line{height:90px;margin:28px 0 22px;color:var(--ink)}
+.wait .line path{stroke-dasharray:6 10;animation:flow 1.4s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-32}}
+.wait .clock{font-size:15px;color:var(--muted)}
+
+/* ---------- check screen ---------- */
+.values{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 20px;background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r-md);padding:22px}
+.values .wide{grid-column:1 / -1}
+.need{color:var(--fail);font-weight:500}
+.courses-wrap{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r-md);overflow:hidden}
+.courses-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:14px 18px;border-bottom:1px solid var(--rule)}
+.courses-scroll{max-height:440px;overflow:auto}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th{text-align:left;font-weight:500;color:var(--muted);font-size:13.5px;padding:8px 10px;position:sticky;top:0;background:#F7F9F8;border-bottom:1px solid var(--rule)}
+td{padding:4px 10px;border-bottom:1px solid #EAEFEC;vertical-align:middle}
+td.i{color:var(--muted);width:40px;text-align:right}
+td input{border-color:transparent;background:transparent;padding:7px 8px}
+td input:hover{border-color:#C5CFCA}
+td input.changed{background:#FFF8E6;border-color:#E2C27A}
+td.cr{width:96px} td.gr{width:64px;color:var(--muted)}
+.choices{display:grid;gap:10px}
+.choice{display:flex;gap:14px;align-items:flex-start;background:var(--sheet);border:1.5px solid var(--rule);border-radius:var(--r-md);padding:14px 16px;cursor:pointer}
+.choice:hover{border-color:#9FB3A9}
+.choice input{margin:4px 0 0;width:18px;height:18px;accent-color:var(--ink);flex:none}
+.choice:has(input:checked){border-color:var(--ink);background:#F7F9FD}
+.choice b{font-weight:500;display:block}
+.choice .small{display:block}
+.tag{display:inline-block;font-size:12.5px;font-weight:500;padding:2px 8px;border-radius:999px;background:var(--l1-bg);color:var(--l1);margin-left:8px;vertical-align:2px}
+details.more{margin-top:14px}
+details.more summary{cursor:pointer;color:var(--ink);font-weight:500}
+
+/* ---------- syllabus ---------- */
+.flagged{list-style:none;margin:0 0 22px;padding:0;background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r-md)}
+.flagged li{padding:14px 18px;border-bottom:1px solid #EAEFEC}
+.flagged li:last-child{border-bottom:0}
+.flagged b{display:block;font-weight:500}
+
+/* ---------- degree / profile ---------- */
+.profile{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r-md);margin:0 0 8px}
+.profile>div{padding:18px 20px;border-left:1px solid var(--rule)}
+.profile>div:first-child{border-left:0}
+.profile .v{font-size:32px;font-weight:700;color:var(--ink);letter-spacing:-.02em;line-height:1.1}
+.profile .k{font-size:14px;color:var(--muted)}
+.yn{display:flex;gap:8px;margin-top:10px}
+.yn label{display:flex;gap:8px;align-items:center;padding:8px 14px;border:1.5px solid var(--rule);border-radius:var(--r-sm);background:var(--sheet);cursor:pointer;font-size:15px}
+.yn label:has(input:checked){border-color:var(--ink);background:#F7F9FD}
+.yn input{accent-color:var(--ink)}
+.confirm-q{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r-md);padding:16px 18px;margin-bottom:12px}
+.confirm-q ul{margin:8px 0 0;padding-left:18px;font-size:14.5px;color:var(--muted)}
+
+/* ---------- results ---------- */
+.res-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:14px 24px;margin-bottom:22px}
+.res-head p{margin:0;color:var(--muted)}
+.verdict{display:flex;height:18px;border-radius:999px;overflow:hidden;background:#E4EAE7;margin:0 0 14px}
+.verdict span{display:block;height:100%;transform-origin:left;animation:grow .9s cubic-bezier(.2,.7,.2,1) both}
+.verdict span+span{box-shadow:inset 2px 0 0 var(--paper)}
+@keyframes grow{from{transform:scaleX(0)}}
+.tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:0 0 22px}
+.tab{appearance:none;text-align:left;border:1.5px solid var(--rule);background:var(--sheet);border-radius:var(--r-md);padding:14px 16px 13px;cursor:pointer;position:relative}
+.tab .n{font-size:34px;font-weight:700;line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.tab .t{display:block;font-weight:500;font-size:15px;margin-top:8px;line-height:1.3}
+.tab::before{content:"";position:absolute;left:16px;right:16px;top:-1.5px;height:4px;border-radius:0 0 3px 3px;background:var(--c)}
+.tab[aria-selected=true]{border-color:var(--c);background:var(--cbg)}
+.tab[disabled]{cursor:default;opacity:.6}
+.tab .n{color:var(--c)}
+.meaning{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 20px;align-items:center;margin:0 0 14px}
+.meaning p{margin:0;color:#3A4152}
+.search{max-width:280px}
+.prog{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r-md);margin-bottom:10px}
+.prog>button{all:unset;box-sizing:border-box;display:grid;grid-template-columns:minmax(0,1fr) auto 22px;gap:18px;align-items:center;width:100%;padding:16px 18px;cursor:pointer;border-radius:var(--r-md)}
+.prog>button:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.prog .u{font-size:14px;color:var(--muted);display:block}
+.prog .pn{font-weight:500;font-size:17px;line-height:1.35;display:block}
+.pips{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end;max-width:160px}
+.pip{width:22px;height:22px;border-radius:5px;display:grid;place-items:center;font-size:13px;font-weight:700;color:#fff}
+.pip.p{background:var(--pass)} .pip.f{background:var(--fail)}
+.chev{transition:transform .2s;color:var(--muted)}
+.prog.open .chev{transform:rotate(180deg)}
+.detail{display:none;padding:4px 18px 20px;border-top:1px solid #EAEFEC}
+.prog.open .detail{display:block}
+.checks{list-style:none;margin:14px 0 0;padding:0}
+.checks li{display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;padding:12px 0;border-bottom:1px solid #EEF2F0}
+.checks li:last-child{border-bottom:0}
+.mark{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:14px;color:#fff;margin-top:1px}
+.mark.p{background:var(--pass)} .mark.f{background:var(--fail)}
+.checks .lab{font-weight:500}
+.checks .lab.reg{font-family:var(--serif);font-weight:400;font-size:16.5px}
+.checks .fig{font-size:14.5px;color:var(--muted);margin-top:3px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.chip{font-size:12.5px;background:#EEF2F0;border-radius:4px;padding:3px 7px;color:#3A4152}
+.block{margin-top:18px}
+.block h4{font-size:15px;font-weight:700;margin:0 0 6px}
+.block ul{margin:0;padding-left:18px}
+.block li{margin:4px 0}
+.block .quote li{font-size:16px}
+.why{background:var(--l4-bg);color:#5C2725;border-radius:var(--r-sm);padding:10px 14px;margin-top:14px;font-size:15.5px}
+.gap{background:var(--l3-bg);color:#5E3C0B;border-radius:var(--r-sm);padding:10px 14px;margin-top:14px;font-size:15.5px}
+.empty{background:var(--sheet);border:1px dashed var(--rule);border-radius:var(--r-md);padding:26px;color:var(--muted)}
+.footer-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px;padding-top:24px;border-top:1px solid var(--rule)}
+.foot{max-width:1120px;margin:0 auto;padding:0 clamp(16px,4vw,40px) 40px;font-size:13.5px;color:var(--muted)}
+
+[hidden]{display:none!important}
+
+@media (max-width:860px){
+  .acc-figs{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .frame{grid-template-columns:1fr;padding-top:24px}
+  .rail{display:none}
+  .rail-mobile{display:block}
+  .tabs{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:620px){
+  body{font-size:16px}
+  .brand span{display:none}
+  .convert-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .result-grade{grid-column:1 / -1;grid-row:auto;text-align:left;border-left:0;border-top:1px solid var(--rule);padding:14px 0 0}
+  .formula{grid-column:1 / -1}
+  .values{grid-template-columns:1fr;padding:16px}
+  .profile{grid-template-columns:1fr}
+  .profile>div{border-left:0;border-top:1px solid var(--rule)}
+  .profile>div:first-child{border-top:0}
+  .prog>button{grid-template-columns:minmax(0,1fr) 22px}
+  .pips{grid-column:1;justify-content:flex-start}
+  .chev{grid-row:1;grid-column:2}
+  td.gr{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="/" aria-label="GPU-R home">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#1E2A5A"/><path d="M6 20c4-8 6-8 10 0s6 8 10 0" fill="none" stroke="#CFE0D7" stroke-width="2.4" stroke-linecap="round"/></svg>
+    <b>GPU-R</b><span>Admission check for German master's programmes</span>
+  </a>
+  <span class="who" id="who" hidden></span>
+</header>
+
+<div class="frame">
+  <ol class="rail" id="rail" aria-label="Steps">
+    <li>Upload</li><li>Check</li><li>Syllabus</li><li>Degree</li><li>Results</li>
+  </ol>
+  <main id="main">
+    <p class="rail-mobile" id="railMobile"></p>
+
+    <!-- 1 upload -->
+    <section id="s-start" hidden>
+      <h1>Find the German master's programmes your degree meets.</h1>
+      <p class="lede">Upload your marks memo. GPU-R reads every course, converts your grade the way German universities do, and checks you against each programme's published admission rules, showing the rule behind every decision.</p>
+
+      <form id="startForm" novalidate>
+        <div class="convert" aria-labelledby="convTitle">
+          <svg class="guilloche" id="guilloche" viewBox="0 0 800 150" preserveAspectRatio="none" aria-hidden="true"></svg>
+          <h3 id="convTitle" style="position:relative;margin-bottom:16px">Your grading scale</h3>
+          <div class="convert-grid">
+            <div class="field">
+              <label for="nmax">Best possible grade</label>
+              <input id="nmax" type="number" inputmode="decimal" step="any" min="0" value="10" required>
+            </div>
+            <div class="field">
+              <label for="nmin">Lowest passing grade</label>
+              <input id="nmin" type="number" inputmode="decimal" step="any" min="0" value="5" required>
+            </div>
+            <div class="field">
+              <label for="cgpa">Your CGPA <span class="small">(preview)</span></label>
+              <input id="cgpa" type="number" inputmode="decimal" step="any" min="0" placeholder="e.g. 7.4">
+            </div>
+            <div class="result-grade" aria-live="polite">
+              <div class="g num" id="gGrade">–</div>
+              <div class="gl">German grade</div>
+            </div>
+            <p class="formula num" id="formula">Enter your CGPA to see the conversion.</p>
+          </div>
+          <p class="note">German universities convert foreign grades with the modified Bavarian formula: 1.0 is the best grade and 4.0 the lowest pass. Your marks memo states your scale; most Indian universities use 10 and a pass grade of 4, 5 or 5.5.</p>
+        </div>
+
+        <div class="stack">
+          <label class="drop" id="drop" for="file">
+            <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M11 5h13l8 8v22H11z"/><path d="M24 5v8h8"/><path d="M21.5 30V18m-5 5 5-5 5 5"/></svg>
+            <span><b id="fileName">Choose your marks memo</b><span class="small">PDF or photo, up to 15 MB. Consolidated memo or all semester memos in one file.</span></span>
+            <input id="file" type="file" accept=".pdf,image/*" class="sr">
+          </label>
+          <div class="field" style="max-width:360px">
+            <label for="key">Access code</label>
+            <input id="key" type="password" autocomplete="off" spellcheck="false">
+            <span class="hint">This test version is open to invited users only.</span>
+          </div>
+          <div id="startError" class="error" role="alert" hidden></div>
+          <div class="row"><button class="btn" id="startBtn" type="submit">Check my eligibility</button>
+            <button class="btn link" type="button" id="demoBtn">No access code? See a sample result</button></div>
+        </div>
+      </form>
+      <p class="privacy"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 2 3.5 4.5v5c0 4 2.8 6.9 6.5 8.5 3.7-1.6 6.5-4.5 6.5-8.5v-5z"/><path d="m7 10 2.2 2.2L13.5 8"/></svg>
+        <span>Your file is deleted as soon as it has been read. Only the course list and your results are kept, until you delete them at the end.</span></p>
+
+      <section class="accuracy" aria-labelledby="accTitle">
+        <h3 id="accTitle">How accurate is it?</h3>
+        <dl class="acc-figs">
+          <div><dt>Courses found on the memo (1,051 of 1,051)</dt><dd class="num">100%</dd></div>
+          <div><dt>Courses classified correctly</dt><dd class="num">94%</dd></div>
+          <div><dt>Programme decisions matching a hand-checked answer</dt><dd class="num">98.6%</dd></div>
+          <div><dt>Decisions wrongly in the student's favour</dt><dd class="num">0</dd></div>
+        </dl>
+        <p>Tested on 18 transcripts from 15 Indian universities. When a course title was unclear, GPU-R asked for the syllabus instead of guessing. Of 1,037 programme decisions, every difference from the hand-checked answer was stricter, never looser.</p>
+        <p class="small">Synthetic test transcripts based on real curricula, as of November 2026.</p>
+      </section>
+    </section>
+
+    <!-- waiting (reading, classifying, building profile) -->
+    <section id="s-wait" class="wait" hidden aria-live="polite">
+      <h2 id="waitTitle">Reading your marks memo</h2>
+      <p id="waitText"></p>
+      <svg class="line" viewBox="0 0 600 90" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 45 C 50 5, 100 5, 150 45 S 250 85, 300 45 S 400 5, 450 45 S 550 85, 600 45" fill="none" stroke="currentColor" stroke-width="2"/>
+        <path d="M0 45 C 50 85, 100 85, 150 45 S 250 5, 300 45 S 400 85, 450 45 S 550 5, 600 45" fill="none" stroke="#9FB3A9" stroke-width="1.5"/>
+      </svg>
+      <p class="clock num" id="clock"></p>
+    </section>
+
+    <!-- 2 check -->
+    <section id="s-check" hidden>
+      <h2>Check what we read</h2>
+      <p>Correct anything that differs from your marks memo. Your CGPA and credits decide the results, so they matter most.</p>
+      <div class="section">
+        <div class="values" id="values"></div>
+      </div>
+      <div class="section courses-wrap">
+        <div class="courses-head"><span><h3 style="margin:0">Courses</h3><span class="small">Click a title or credit value to correct it.</span></span><span class="small num" id="courseSum"></span></div>
+        <div class="courses-scroll">
+          <table>
+            <thead><tr><th class="sr">Number</th><th>Course title</th><th>Credits</th><th>Grade</th></tr></thead>
+            <tbody id="courses"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="section">
+        <h3>Your subject area</h3>
+        <p class="small">Choose the closest one. We compare your courses with the requirements of programmes in this area.</p>
+        <div class="choices" id="fields"></div>
+      </div>
+      <details class="more section">
+        <summary>GATE score (optional)</summary>
+        <p class="small" style="margin-top:10px">Only used for the University of Rostock programmes in Electrical Engineering and Computational Science and Engineering.</p>
+        <div class="field" style="max-width:200px"><label for="gate">GATE score</label><input id="gate" type="number" min="0" max="1000" step="any"></div>
+      </details>
+      <div id="checkError" class="error" role="alert" hidden></div>
+      <div class="row section"><button class="btn" id="confirmBtn">Confirm and continue</button></div>
+    </section>
+
+    <!-- 3 syllabus -->
+    <section id="s-syllabus" hidden>
+      <h2 id="sylTitle">A few courses need their syllabus</h2>
+      <p>These titles don't say clearly enough what the course teaches. Upload the syllabus pages for them and we'll read the units. If you skip, these courses are not counted, so your results can only get stricter, never wrongly positive.</p>
+      <ul class="flagged" id="flagged"></ul>
+      <div class="stack">
+        <label class="drop" id="drop2" for="file2">
+          <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M11 5h13l8 8v22H11z"/><path d="M24 5v8h8"/><path d="M21.5 30V18m-5 5 5-5 5 5"/></svg>
+          <span><b id="fileName2">Choose the syllabus pages</b><span class="small">One PDF or photo with the pages for these courses, up to 15 MB.</span></span>
+          <input id="file2" type="file" accept=".pdf,image/*" class="sr">
+        </label>
+        <div id="sylError" class="error" role="alert" hidden></div>
+        <div class="row">
+          <button class="btn" id="sylBtn" disabled>Read the syllabus</button>
+          <button class="btn quiet" id="skipBtn">Skip, don't count these courses</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 degree -->
+    <section id="s-degree" hidden>
+      <h2>Your profile</h2>
+      <div class="profile" id="profile"></div>
+      <div id="profileNotes"></div>
+      <div class="section">
+        <h3>Your degree</h3>
+        <p class="small">Programmes accept specific degree fields. We matched the name on your marks memo; change it if it's wrong.</p>
+        <div class="choices" id="degrees"></div>
+      </div>
+      <div class="section" id="confirmBox" hidden>
+        <h3>A few programmes ask about things your marks memo doesn't show</h3>
+        <p class="small">Answer only if you're sure. Without a yes, these routes stay closed.</p>
+        <div id="confirmQs"></div>
+      </div>
+      <div id="degError" class="error" role="alert" hidden></div>
+      <div class="row section"><button class="btn" id="eligBtn">Show my results</button></div>
+    </section>
+
+    <!-- 5 results -->
+    <section id="s-results" hidden>
+      <div class="demo-banner" id="demoBanner" hidden>
+        <p><b>Sample result.</b> <span id="demoWho"></span> This is a stored result from a real run of GPU-R; nothing is uploaded or computed while you look.</p>
+        <button class="btn" type="button" id="demoStart">Start your own check</button>
+      </div>
+      <div class="res-head">
+        <div>
+          <h2 id="resTitle"></h2>
+          <p id="resSub" class="num"></p>
+        </div>
+      </div>
+      <div class="verdict" id="verdict" role="img"></div>
+      <div class="tabs" id="tabs" role="tablist" aria-label="Result lists"></div>
+      <div class="meaning">
+        <p id="meaning"></p>
+        <div class="search"><label class="sr" for="q">Search programmes</label><input id="q" type="text" placeholder="Search university or programme"></div>
+      </div>
+      <div id="progs" role="tabpanel"></div>
+      <div class="footer-actions">
+        <button class="btn quiet" id="reportBtn">Download report</button>
+        <button class="btn quiet" id="againBtn">Start a new check</button>
+        <button class="btn danger" id="deleteBtn">Delete my data</button>
+      </div>
+      <p class="small" style="margin-top:14px">Results follow the programmes' published regulations as recorded by GPU-R. The university decides; check the programme page before you apply.</p>
+    </section>
+
+    <!-- error -->
+    <section id="s-error" hidden>
+      <h2>This check stopped</h2>
+      <div class="error" id="failText"></div>
+      <div class="row"><button class="btn" id="restartBtn">Start again</button></div>
+    </section>
+  </main>
+</div>
+<p class="foot">GPU-R, a research project by Koushik Rayinaboina. Test version: results are a guide, not an admission decision.</p>
+
+<script>
+"use strict";
+const API = new URLSearchParams(location.search).get("api") || "";
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt = (n, d = 2) => (n == null || isNaN(n)) ? "–" : Number(n).toFixed(d);
+const fmtN = (n) => (n == null || isNaN(n)) ? "–" : (Math.round(Number(n) * 100) / 100).toString();
+const store = {
+  get(k) { try { return sessionStorage.getItem(k); } catch { return null; } },
+  set(k, v) { try { v == null ? sessionStorage.removeItem(k) : sessionStorage.setItem(k, v); } catch {} },
+};
+
+const LISTS = {
+  1: {name: "Eligible, no selection step", c: "var(--l1)", bg: "var(--l1-bg)", text: "You meet every published requirement and there is no selection step."},
+  2: {name: "Eligible, with selection", c: "var(--l2)", bg: "var(--l2-bg)", text: "You meet every published requirement; the university then ranks or selects applicants."},
+  3: {name: "Bridging possible", c: "var(--l3)", bg: "var(--l3-bg)", text: "A subject gap the regulation allows you to close with conditions (Auflagen) after admission."},
+  4: {name: "Not eligible", c: "var(--l4)", bg: "var(--l4-bg)", text: "A requirement is not met, or the gap is larger than the regulation allows."},
+};
+const QUESTIONS = {   // same questions as the terminal script (pipeline/run_eligibility.py)
+  water_thesis: "Was your bachelor thesis on a water-related topic?",
+  module_average_confirmed: "Is your average in the listed modules good enough for these programmes?",
+  subject_points_confirmed: "Do you have at least 10 subject or thesis points as these programmes require?",
+};
+const STEP_OF = {reading: 0, awaiting_confirmation: 1, classifying: 1, awaiting_syllabus: 2, building_profile: 2, awaiting_eligibility: 3, done: 4};
+const WAITING = {
+  reading: ["Reading your marks memo", "We're reading every course, credit and grade from your file. This usually takes 30 to 60 seconds."],
+  classifying: ["Sorting your courses into subjects", "Each course is matched to the subjects German programmes ask for, like programming, mathematics or electronics. Known course titles are answered instantly; new ones take a little longer."],
+  building_profile: ["Building your profile", "We're adding up your credits per subject and converting them to ECTS."],
+};
+
+let state = {key: store.get("gpur_key") || "", sid: store.get("gpur_sid"), view: null, list: null, timer: null, t0: null};
+
+/* ---------------- API ---------------- */
+async function api(method, path, body) {
+  const opt = {method, headers: {"X-Access-Key": state.key}};
+  if (body instanceof FormData) opt.body = body;
+  else if (body !== undefined) { opt.body = JSON.stringify(body); opt.headers["Content-Type"] = "application/json"; }
+  let r;
+  try { r = await fetch(API + path, opt); }
+  catch { throw new Error("The server can't be reached. Check your connection and try again. A sleeping server needs up to a minute to wake up."); }
+  const isJson = (r.headers.get("content-type") || "").includes("json");
+  const data = isJson ? await r.json() : await r.text();
+  if (!r.ok) {
+    if (r.status === 401) throw new Error("That access code isn't valid. Check it and try again.");
+    let d = isJson ? data.detail : data;
+    if (Array.isArray(d)) d = d.map((x) => x.msg).join("; ");
+    throw Object.assign(new Error(d || `Request failed (${r.status})`), {status: r.status});
+  }
+  return data;
+}
+
+/* ---------------- screens ---------------- */
+const SCREENS = ["s-start", "s-wait", "s-check", "s-syllabus", "s-degree", "s-results", "s-error"];
+function show(id, step) {
+  SCREENS.forEach((s) => ($(s).hidden = s !== id));
+  $("main").classList.toggle("wide", id === "s-results");
+  const items = [...$("rail").children];
+  items.forEach((li, i) => { li.className = i < step ? "done" : i === step ? "now" : ""; });
+  $("railMobile").textContent = state.demo ? "" : `Step ${step + 1} of 5: ${items[step].textContent}`;
+  document.querySelector(".frame").classList.toggle("demo", !!state.demo);
+  $("demoBanner").hidden = !state.demo;
+  $("reportBtn").hidden = $("deleteBtn").hidden = !!state.demo;
+  $("againBtn").textContent = state.demo ? "Start your own check" : "Start a new check";
+  window.scrollTo({top: 0});
+  const h = $(id).querySelector("h1,h2");
+  if (h) { h.setAttribute("tabindex", "-1"); h.focus({preventScroll: true}); }
+}
+
+/* ---------------- 1 start: conversion + upload ---------------- */
+function bavarian(nmax, nmin, nd) {
+  if (!(nmax > nmin) || nd == null || isNaN(nd)) return null;
+  const g = 1 + 3 * (nmax - nd) / (nmax - nmin);
+  return Math.min(Math.max(g, 1), 4);
+}
+function updateConversion() {
+  const nmax = parseFloat($("nmax").value), nmin = parseFloat($("nmin").value), nd = parseFloat($("cgpa").value);
+  $("nmin").classList.toggle("invalid", !(nmax > nmin));
+  const g = bavarian(nmax, nmin, nd);
+  if (g == null || nd > nmax || nd < nmin) {
+    $("gGrade").textContent = "–";
+    $("formula").textContent = !(nmax > nmin) ? "The best grade must be higher than the lowest passing grade."
+      : (!isNaN(nd) && (nd > nmax || nd < nmin)) ? `Your CGPA must be between ${fmtN(nmin)} and ${fmtN(nmax)}.`
+      : "Enter your CGPA to see the conversion.";
+    drawGuilloche(0.5);
+    return;
+  }
+  $("gGrade").textContent = fmt(g);
+  $("formula").textContent = `1 + 3 × (${fmtN(nmax)} − ${fmtN(nd)}) ÷ (${fmtN(nmax)} − ${fmtN(nmin)}) = ${fmt(g)}`;
+  drawGuilloche((g - 1) / 3);
+}
+function drawGuilloche(t) {   // certificate-style line band; its waves tighten as the grade improves
+  const svg = $("guilloche"), W = 800, H = 150, lines = 16, amp = 18 + 22 * (1 - t), freq = 3 + 3 * (1 - t);
+  let out = "";
+  for (let k = 0; k < lines; k++) {
+    const ph = k * 0.39, y0 = 40 + k * 5.2;
+    let d = "";
+    for (let x = 0; x <= W; x += 8) {
+      const y = y0 + amp * Math.sin((x / W) * Math.PI * 2 * freq + ph) * Math.sin((x / W) * Math.PI);
+      d += (x ? "L" : "M") + x + " " + y.toFixed(1);
+    }
+    out += `<path d="${d}" fill="none" stroke="var(--guilloche)" stroke-width="0.8"/>`;
+  }
+  svg.innerHTML = out;
+}
+function pickFile(input, label, empty, btn) {
+  const f = input.files[0];
+  label.textContent = f ? f.name : empty;
+  label.closest(".drop").classList.toggle("has", !!f);
+  if (btn) btn.disabled = !f;
+}
+function wireDrop(drop, input, onPick) {
+  ["dragenter", "dragover"].forEach((e) => drop.addEventListener(e, (ev) => { ev.preventDefault(); drop.classList.add("over"); }));
+  ["dragleave", "drop"].forEach((e) => drop.addEventListener(e, (ev) => { ev.preventDefault(); drop.classList.remove("over"); }));
+  drop.addEventListener("drop", (ev) => { if (ev.dataTransfer.files.length) { input.files = ev.dataTransfer.files; onPick(); } });
+  input.addEventListener("change", onPick);
+}
+function err(box, msg) { box.textContent = msg || ""; box.hidden = !msg; }
+
+async function start(ev) {
+  ev.preventDefault();
+  const nmax = parseFloat($("nmax").value), nmin = parseFloat($("nmin").value), f = $("file").files[0];
+  const key = $("key").value.trim();
+  if (!(nmax > nmin)) return err($("startError"), "The best grade must be higher than the lowest passing grade (not zero).");
+  if (!f) return err($("startError"), "Choose your marks memo first.");
+  if (f.size > 15 * 1024 * 1024) return err($("startError"), "This file is larger than 15 MB. Save it at a lower resolution and try again.");
+  if (!key) return err($("startError"), "Enter your access code.");
+  err($("startError"));
+  state.key = key; store.set("gpur_key", key);
+  const fd = new FormData(); fd.append("file", f); fd.append("n_max", nmax); fd.append("n_min", nmin);
+  $("startBtn").disabled = true;
+  try {
+    const r = await api("POST", "/sessions", fd);
+    state.sid = r.session_id; store.set("gpur_sid", r.session_id); state.t0 = Date.now();
+    await refresh();
+  } catch (e) { err($("startError"), e.message); }
+  finally { $("startBtn").disabled = false; }
+}
+
+/* ---------------- polling ---------------- */
+async function refresh() {
+  clearTimeout(state.timer);
+  let v;
+  try { v = await api("GET", `/sessions/${state.sid}`); }
+  catch (e) {
+    if (e.status === 404) { resetSession(); return renderStart("This check no longer exists on the server (it may have restarted). Please start again."); }
+    if (e.status === 401) { resetSession(); return renderStart(e.message); }
+    state.timer = setTimeout(refresh, 5000); return;
+  }
+  state.view = v;
+  if (v.status in WAITING) { renderWait(v.status); state.timer = setTimeout(refresh, 2500); return; }
+  ({awaiting_confirmation: renderCheck, awaiting_syllabus: renderSyllabus, awaiting_eligibility: renderDegree,
+    done: renderResults, failed: renderFailed}[v.status] || renderFailed)(v);
+}
+function renderWait(status) {
+  const [t, p] = WAITING[status];
+  if ($("s-wait").hidden || $("waitTitle").textContent !== t) {
+    $("waitTitle").textContent = t; $("waitText").textContent = p;
+    if (!state.t0 || $("s-wait").hidden) state.t0 = state.t0 || Date.now();
+    show("s-wait", STEP_OF[status]);
+  }
+  const s = Math.round((Date.now() - (state.t0 || Date.now())) / 1000);
+  $("clock").textContent = `${s} seconds`;
+}
+function tick() { if (!$("s-wait").hidden && state.t0) $("clock").textContent = `${Math.round((Date.now() - state.t0) / 1000)} seconds`; }
+setInterval(tick, 1000);
+
+/* ---------------- 2 check ---------------- */
+const ORDER = ["stated_cgpa", "entry_type", "years_studied", "credits_registered", "credits_for_award", "student_name", "institution", "program", "regulation"];
+function renderCheck(v) {
+  const cs = v.check_screen, vals = cs.values, missing = new Set(cs.missing || []);
+  $("values").innerHTML = ORDER.filter((k) => k in cs.labels).map((k) => {
+    const label = cs.labels[k].replace(/\s*\(regular \/ lateral_entry\)/, "");
+    const need = missing.has(k) ? ' <span class="need">needed</span>' : "";
+    const wide = ["student_name", "institution", "program"].includes(k) ? " wide" : "";
+    if (k === "entry_type") {
+      return `<div class="field${wide}"><label for="v_${k}">${esc(label)}${need}</label>
+        <select id="v_${k}" data-k="${k}" data-orig="${esc(vals[k] ?? "")}">
+          <option value="regular"${vals[k] === "regular" ? " selected" : ""}>Regular (four years from the first semester)</option>
+          <option value="lateral_entry"${vals[k] === "lateral_entry" ? " selected" : ""}>Lateral entry (joined in the second year)</option>
+        </select></div>`;
+    }
+    const num = ["stated_cgpa", "years_studied", "credits_registered", "credits_for_award"].includes(k);
+    return `<div class="field${wide}"><label for="v_${k}">${esc(label)}${need}</label>
+      <input id="v_${k}" data-k="${k}" type="${num ? "number" : "text"}" ${num ? 'step="any" inputmode="decimal"' : ""}
+        value="${esc(vals[k] ?? "")}" data-orig="${esc(vals[k] ?? "")}" class="${missing.has(k) ? "invalid" : ""}"></div>`;
+  }).join("");
+  $("courses").innerHTML = cs.courses.map((c) => `<tr>
+      <td class="i num">${c.index}</td>
+      <td><input aria-label="Title of course ${c.index}" data-i="${c.index}" data-f="title" value="${esc(c.title)}" data-orig="${esc(c.title)}"></td>
+      <td class="cr"><input aria-label="Credits of course ${c.index}" class="num" type="number" step="any" data-i="${c.index}" data-f="credits" value="${esc(c.credits)}" data-orig="${esc(c.credits)}"></td>
+      <td class="gr">${esc(c.grade ?? "")}</td></tr>`).join("");
+  const sum = cs.courses.reduce((a, c) => a + (Number(c.credits) || 0), 0);
+  $("courseSum").textContent = `${cs.courses.length} courses, ${fmtN(sum)} credits`;
+  $("fields").innerHTML = cs.field_options.map((o) => {
+    const [main, rest] = o.label.split(/ \((.*)\)$/);
+    return `<label class="choice"><input type="radio" name="field" value="${esc(o.id)}"${v.field === o.id ? " checked" : ""}>
+      <span><b>${esc(main)}</b>${rest ? `<span class="small">${esc(rest)}</span>` : ""}</span></label>`;
+  }).join("");
+  err($("checkError"));
+  show("s-check", 1);
+}
+document.addEventListener("input", (e) => {
+  const t = e.target;
+  if (t.dataset && "orig" in t.dataset && t.closest("#courses")) t.classList.toggle("changed", t.value !== t.dataset.orig);
+});
+async function confirmCheck() {
+  const field = (document.querySelector('input[name=field]:checked') || {}).value;
+  if (!field) return err($("checkError"), "Choose your subject area.");
+  const values = {};
+  for (const el of $("values").querySelectorAll("[data-k]")) {
+    if (el.value.trim() !== el.dataset.orig) {
+      if (!el.value.trim()) return err($("checkError"), `${el.labels[0].textContent.replace(" needed", "")} can't be empty.`);
+      values[el.dataset.k] = el.value.trim();
+    }
+  }
+  const byIdx = {};
+  for (const el of $("courses").querySelectorAll("input")) {
+    if (el.value.trim() === el.dataset.orig) continue;
+    const c = byIdx[el.dataset.i] ||= {index: Number(el.dataset.i)};
+    if (el.dataset.f === "credits") {
+      const n = parseFloat(el.value);
+      if (isNaN(n) || n < 0) return err($("checkError"), `Course ${el.dataset.i}: credits must be a number.`);
+      c.credits = n;
+    } else c.title = el.value.trim();
+  }
+  const gate = $("gate").value.trim();
+  $("confirmBtn").disabled = true;
+  try {
+    await api("POST", `/sessions/${state.sid}/confirm`, {field, values, course_corrections: Object.values(byIdx), gate_score: gate ? Number(gate) : null});
+    state.t0 = Date.now(); await refresh();
+  } catch (e) { err($("checkError"), e.message); }
+  finally { $("confirmBtn").disabled = false; }
+}
+
+/* ---------------- 3 syllabus ---------------- */
+function renderSyllabus(v) {
+  const f = v.classification.needs_syllabus;
+  $("sylTitle").textContent = f.length === 1 ? "One course needs its syllabus" : `${f.length} courses need their syllabus`;
+  $("flagged").innerHTML = f.map((x) => `<li><b>${esc(x.title)}</b><span class="small">${esc(x.why)}</span></li>`).join("");
+  err($("sylError"));
+  show("s-syllabus", 2);
+}
+async function sendSyllabus(skip) {
+  const fd = new FormData();
+  if (skip) fd.append("skip", "true"); else fd.append("file", $("file2").files[0]);
+  $("sylBtn").disabled = $("skipBtn").disabled = true;
+  try { await api("POST", `/sessions/${state.sid}/syllabus`, fd); state.t0 = Date.now(); await refresh(); }
+  catch (e) { err($("sylError"), e.message); }
+  finally { $("skipBtn").disabled = false; $("sylBtn").disabled = !$("file2").files[0]; }
+}
+
+/* ---------------- 4 degree ---------------- */
+function friendlyWarning(w) {   // the pipeline's scale note, said for a student
+  const m = /^Computed with Nmax=([\d.]+), Nmin=([\d.]+)\./.exec(w);
+  return m ? `Converted with best grade ${fmtN(m[1])} and lowest passing grade ${fmtN(m[2])}. If your university's lowest passing grade is different, start again with the right value: it changes your German grade.` : w;
+}
+const prettyId = (id) => id.replace(/_/g, " ").replace(/\bcse\b/gi, "CSE").replace(/^./, (c) => c.toUpperCase());
+const plain = (t) => String(t ?? "").replace(/the engine cannot read/g, "your marks memo doesn't show").replace(/the engine cannot compute/g, "GPU-R can't compute yet");
+function renderDegree(v) {
+  const p = v.profile;
+  $("profile").innerHTML = `
+    <div><div class="v num">${fmt(p.german_grade)}</div><div class="k">German grade</div></div>
+    <div><div class="v num">${fmtN(p.ects)}</div><div class="k">ECTS credits</div></div>
+    <div><div class="v num">${p.not_counted.length}</div><div class="k">${p.not_counted.length === 1 ? "course" : "courses"} not counted</div></div>`;
+  let notes = "";
+  if (p.not_counted.length) notes += `<details class="more"><summary>Which courses aren't counted, and why</summary><ul class="small">${
+    p.not_counted.map((c) => `<li><b>${esc(c.title)}</b>: ${esc(c.reason)}</li>`).join("")}</ul></details>`;
+  if (p.warnings && p.warnings.length) notes += `<div class="block"><h4>Notes on your profile</h4><ul class="small">${p.warnings.map((w) => `<li>${esc(friendlyWarning(w))}</li>`).join("")}</ul></div>`;
+  $("profileNotes").innerHTML = notes;
+  const d = v.degree, ex = d.examples || {};
+  const ids = d.guess ? [d.guess, ...d.options.filter((x) => x !== d.guess)] : d.options;
+  $("degrees").innerHTML = ids.map((id, i) => `<label class="choice"${i >= 5 && id !== d.guess ? ' data-more hidden' : ""}><input type="radio" name="degree" value="${esc(id)}"${id === d.guess ? " checked" : ""}>
+      <span><b>${esc(prettyId(id))}${id === d.guess ? '<span class="tag">Matches your marks memo</span>' : ""}</b><span class="small">for example ${esc(ex[id] || "")}</span></span></label>`).join("")
+    + (ids.length > 5 ? `<button class="btn link" type="button" id="moreDeg">Show all ${ids.length} degree fields</button>` : "");
+  const more = $("moreDeg");
+  if (more) more.onclick = () => { $("degrees").querySelectorAll("[data-more]").forEach((x) => (x.hidden = false)); more.remove(); };
+  const pend = v.pending_confirmations || {};
+  const needs = Object.keys(pend);
+  $("confirmBox").hidden = !needs.length;
+  $("confirmQs").innerHTML = needs.map((n) => `<div class="confirm-q" data-need="${esc(n)}">
+      <b>${esc(QUESTIONS[n] || "Can you confirm this requirement?")}</b>
+      <ul>${pend[n].map((w) => `<li>${esc(plain(w))}</li>`).join("")}</ul>
+      <div class="yn" role="radiogroup" aria-label="${esc(QUESTIONS[n] || n)}">
+        <label><input type="radio" name="c_${esc(n)}" value="yes"> Yes</label>
+        <label><input type="radio" name="c_${esc(n)}" value="no"> No</label>
+        <label><input type="radio" name="c_${esc(n)}" value="" checked> Not sure</label>
+      </div></div>`).join("");
+  err($("degError"));
+  show("s-degree", 3);
+}
+async function eligibility() {
+  const degree = (document.querySelector('input[name=degree]:checked') || {}).value;
+  if (!degree) return err($("degError"), "Choose your degree.");
+  const confirmations = {};
+  document.querySelectorAll(".confirm-q").forEach((q) => {
+    const a = (q.querySelector("input:checked") || {}).value;
+    if (a === "yes") confirmations[q.dataset.need] = true;     // "no" and "not sure" leave the route closed
+  });
+  $("eligBtn").disabled = true;
+  try { await api("POST", `/sessions/${state.sid}/eligibility`, {degree_field_id: degree, confirmations}); await refresh(); }
+  catch (e) { err($("degError"), e.message); }
+  finally { $("eligBtn").disabled = false; }
+}
+
+/* ---------------- 5 results ---------------- */
+function renderResults(v) {
+  const res = v.results, counts = res.counts, total = Object.values(counts).reduce((a, b) => a + b, 0);
+  const p = v.profile || {};
+  const deg = (v.degree && v.degree.options && state.lastDegree) || null;
+  $("resTitle").textContent = `${total} programmes checked`;
+  $("resSub").textContent = `German grade ${fmt(p.german_grade)}, ${fmtN(p.ects)} ECTS` + (v.field ? `, ${fieldName(v)}` : "");
+  $("verdict").innerHTML = [1, 2, 3, 4].filter((k) => counts[k]).map((k, i) =>
+    `<span style="width:${(100 * counts[k] / total).toFixed(2)}%;background:${LISTS[k].c};animation-delay:${i * 0.12}s" title="${LISTS[k].name}: ${counts[k]}"></span>`).join("");
+  $("verdict").setAttribute("aria-label", [1, 2, 3, 4].map((k) => `${LISTS[k].name}: ${counts[k]}`).join(", "));
+  if (!state.list || !counts[state.list]) state.list = [1, 2, 3, 4].find((k) => counts[k]) || 4;
+  $("tabs").innerHTML = [1, 2, 3, 4].map((k) => `<button class="tab" role="tab" data-l="${k}" aria-selected="${k === state.list}"
+      style="--c:${LISTS[k].c};--cbg:${LISTS[k].bg}" ${counts[k] ? "" : "disabled"}>
+      <span class="n">${counts[k]}</span><span class="t">${LISTS[k].name}</span></button>`).join("");
+  $("tabs").querySelectorAll(".tab").forEach((b) => (b.onclick = () => { state.list = Number(b.dataset.l); renderResults(state.view); }));
+  $("meaning").textContent = LISTS[state.list].text;
+  renderProgs();
+  if ($("s-results").hidden) show("s-results", 4);
+}
+function fieldName(v) {
+  const o = (v.check_screen && v.check_screen.field_options || []).find((x) => x.id === v.field);
+  return o ? o.label.split(" (")[0] : v.field;
+}
+function renderProgs() {
+  const q = $("q").value.trim().toLowerCase();
+  const rows = (state.view.results.lists[state.list] || []).filter((r) => !q || `${r.university} ${r.program}`.toLowerCase().includes(q));
+  if (!rows.length) { $("progs").innerHTML = `<div class="empty">${q ? "No programme in this list matches your search." : "No programmes in this list."}</div>`; return; }
+  $("progs").innerHTML = rows.map((r, i) => `<div class="prog" id="p${i}">
+      <button aria-expanded="false" aria-controls="d${i}">
+        <span><span class="u">${esc(r.university)}</span><span class="pn">${esc(r.program)}</span></span>
+        <span class="pips" aria-label="${r.checks.filter((c) => c.status === "PASS").length} of ${r.checks.length} checks met">${
+          r.checks.map((c) => `<span class="pip ${c.status === "PASS" ? "p" : "f"}" aria-hidden="true">${c.status === "PASS" ? "✓" : "✕"}</span>`).join("")}</span>
+        <svg class="chev" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m5 8 5 5 5-5"/></svg>
+      </button>
+      <div class="detail" id="d${i}">${detail(r)}</div></div>`).join("");
+  $("progs").querySelectorAll(".prog>button").forEach((b) => (b.onclick = () => {
+    const box = b.parentElement, open = !box.classList.contains("open");
+    box.classList.toggle("open", open); b.setAttribute("aria-expanded", open);
+  }));
+}
+function checkFigure(c) {
+  if (c.kind === "degree") { const m = /^(\S+) vs accepted \[(.*)\]$/.exec(c.detail || ""); return m ? `Your degree: ${esc(prettyId(m[1]))}. Accepted: ${esc(m[2].split(",").map((x) => prettyId(x.trim().replace(/'/g, ""))).join(", "))}.` : esc(c.detail || ""); }
+  if (c.kind === "grade") return c.required != null ? `Your German grade ${fmt(c.achieved)}, limit ${fmt(c.required)}` : `Your German grade ${fmt(c.achieved)}, ${esc(c.detail || "no fixed limit")}`;
+  if (c.presence_only) return c.status === "PASS" ? `Covered by ${fmtN(c.achieved)} ECTS of your courses` : "Not covered by any of your courses";
+  if (c.required != null) return `${fmtN(c.achieved)} of ${fmtN(c.required)} ECTS` + (c.shortfall > 0 ? `, ${fmtN(c.shortfall)} short` : "");
+  return c.achieved != null ? `${fmtN(c.achieved)} ECTS` : "";
+}
+function detail(r) {
+  const label = (c) => c.kind === "degree" ? "Degree field" : c.kind === "grade" ? "Minimum grade" : c.label;
+  let h = `<ul class="checks">${r.checks.map((c) => `<li>
+      <span class="mark ${c.status === "PASS" ? "p" : "f"}" aria-label="${c.status === "PASS" ? "met" : "not met"}">${c.status === "PASS" ? "✓" : "✕"}</span>
+      <div><div class="lab${c.kind === "subject" ? " reg" : ""}">${esc(label(c))}</div>
+        <div class="fig num">${checkFigure(c)}</div>
+        ${c.courses && c.courses.length ? `<div class="chips">${c.courses.map((t) => `<span class="chip">${esc(t)}</span>`).join("")}</div>` : ""}
+      </div></li>`).join("")}</ul>`;
+  if (r.reasons && r.reasons.length) h += `<div class="why"><b>Why not:</b> ${r.reasons.map(esc).join("; ")}</div>`;
+  if (r.list === 3 && r.real_gap) h += `<div class="gap"><b>Gap to close:</b> ${fmtN(r.real_gap)} ECTS, as conditions after admission.</div>`;
+  if (r.unmet_areas && r.unmet_areas.length) h += `<div class="block"><h4>Subject areas not covered</h4><ul>${r.unmet_areas.map((x) => `<li>${esc(typeof x === "string" ? x : JSON.stringify(x))}</li>`).join("")}</ul></div>`;
+  if (r.important_notes && r.important_notes.length) h += `<div class="block"><h4>Important</h4><ul>${r.important_notes.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>`;
+  if (r.selection_step && r.selection_notes && r.selection_notes.length) h += `<div class="block"><h4>How the university selects</h4><ul class="quote">${r.selection_notes.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>`;
+  if (r.also_required && r.also_required.length) h += `<div class="block"><h4>Also needed for your application</h4><ul>${r.also_required.map((x) => `<li>${esc(x.replace(/\s*\(Koushik [^)]*\)/, ""))}</li>`).join("")}</ul></div>`;
+  if (r.skipped_routes && r.skipped_routes.length) h += `<div class="block"><h4>Other admission routes</h4><ul>${r.skipped_routes.map((x) => `<li>A route that ${esc(plain(x.why))}: closed, because you didn't confirm it.</li>`).join("")}</ul></div>`;
+  return h;
+}
+async function downloadReport() {
+  try {
+    const md = await api("GET", `/sessions/${state.sid}/report`);
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([md], {type: "text/markdown"}));
+    a.download = "GPU-R_eligibility_report.md"; a.click(); URL.revokeObjectURL(a.href);
+  } catch (e) { alert(e.message); }
+}
+async function deleteData() {
+  if (!confirm("Delete everything stored for this check? Your results will be gone.")) return;
+  try { await api("DELETE", `/sessions/${state.sid}`); } catch (e) { if (e.status !== 404) return alert(e.message); }
+  resetSession(); renderStart(null, "Your data has been deleted from the server.");
+}
+
+/* ---------------- sample result (no access code) ---------------- */
+async function showDemo() {
+  $("demoBtn").disabled = true;
+  try {
+    const r = await fetch(API + "/demo");
+    if (!r.ok) throw new Error("The sample result isn't available right now.");
+    const v = await r.json();
+    state.demo = true; state.view = v; state.list = null;
+    $("demoWho").textContent = `A fictional ${v.student.program} graduate, CGPA ${fmtN(v.student.cgpa)} of ${fmtN(v.student.n_max)}.`;
+    $("s-results").hidden = true;          // so renderResults shows the screen fresh
+    renderResults(v);
+  } catch (e) { err($("startError"), e.message.includes("fetch") ? "The server can't be reached right now. Try again in a minute." : e.message); }
+  finally { $("demoBtn").disabled = false; }
+}
+
+/* ---------------- failed / reset ---------------- */
+function renderFailed(v) { $("failText").textContent = v.error || "Something went wrong on the server."; show("s-error", STEP_OF[v.status] ?? 0); }
+function resetSession() { clearTimeout(state.timer); state.demo = false; state.sid = null; state.view = null; state.list = null; state.t0 = null; store.set("gpur_sid", null); }
+function renderStart(error, info) {
+  $("key").value = state.key || "";
+  err($("startError"), error);
+  if (info) { $("startError").hidden = false; $("startError").textContent = info; $("startError").style.borderColor = "var(--l1)"; $("startError").style.background = "var(--l1-bg)"; }
+  else { $("startError").style.borderColor = ""; $("startError").style.background = ""; }
+  show("s-start", 0);
+}
+
+/* ---------------- wiring ---------------- */
+["nmax", "nmin", "cgpa"].forEach((id) => $(id).addEventListener("input", updateConversion));
+wireDrop($("drop"), $("file"), () => pickFile($("file"), $("fileName"), "Choose your marks memo"));
+wireDrop($("drop2"), $("file2"), () => pickFile($("file2"), $("fileName2"), "Choose the syllabus pages", $("sylBtn")));
+$("startForm").addEventListener("submit", start);
+$("confirmBtn").onclick = confirmCheck;
+$("sylBtn").onclick = () => sendSyllabus(false);
+$("skipBtn").onclick = () => sendSyllabus(true);
+$("eligBtn").onclick = eligibility;
+$("q").addEventListener("input", renderProgs);
+$("reportBtn").onclick = downloadReport;
+$("againBtn").onclick = () => { if (state.demo) { state.demo = false; return renderStart(); } resetSession(); renderStart(); };
+$("demoStart").onclick = () => { state.demo = false; state.view = null; state.list = null; renderStart(); };
+$("demoBtn").onclick = showDemo;
+$("restartBtn").onclick = () => { resetSession(); renderStart(); };
+$("deleteBtn").onclick = deleteData;
+
+updateConversion();
+if (state.sid && state.key) refresh(); else renderStart();
+</script>
+</body>
+</html>

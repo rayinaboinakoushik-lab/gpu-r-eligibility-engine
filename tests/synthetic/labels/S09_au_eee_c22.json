@@ -1,0 +1,170 @@
+{
+ "id": "S09_au_eee_c22",
+ "labeller": "Claude 03.11.2026 (course map first, exactly as the pipeline's own map lookup; generic maths titles null; then taxonomy rules); null = unsure (needs the syllabus), not scored",
+ "label_sources": {
+  "map": 18,
+  "generic": 2,
+  "manual": 43
+ },
+ "labels": {
+  "Mathematics – I": null,
+  "Physics": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Introduction to Python": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Fundamentals of Electrical Engg.": [
+   "electrical_electronic_engineering.circuit_theory"
+  ],
+  "Basic Electronic Engg.": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Python Programming Lab": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Physics Lab": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Electrical Engg Workshop": [],
+  "Mathematics – II": null,
+  "Green Chemistry": [
+   "physics_natural_sciences.chemistry"
+  ],
+  "English": [],
+  "Computer Programming and Numerical Methods": [
+   "computer_science_informatics.programming_practical_cs",
+   "mathematics_statistics.optimization_numerics",
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Industry 4.0": null,
+  "English Language Lab": [],
+  "Green Chemistry Lab": [
+   "physics_natural_sciences.chemistry"
+  ],
+  "Computer Programming and Numerical Methods Lab": [
+   "computer_science_informatics.programming_practical_cs",
+   "mathematics_statistics.optimization_numerics",
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Operations Research": [
+   "mathematics_statistics.optimization_numerics"
+  ],
+  "Network Theory": [
+   "electrical_electronic_engineering.circuit_theory"
+  ],
+  "Electronic Circuits": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Electrical Machines - I": [
+   "electrical_electronic_engineering.electrical_machines_drives"
+  ],
+  "Managerial Economics": [],
+  "Electrical Networks Lab": [
+   "electrical_electronic_engineering.circuit_theory"
+  ],
+  "Electrical Machines – I lab": [
+   "electrical_electronic_engineering.electrical_machines_drives"
+  ],
+  "Electronics Circuits Lab": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Matlab & Interfacing": null,
+  "Professional Ethics & Universal Human values": [],
+  "NCC/NSS": [],
+  "Signals & Systems": [
+   "electrical_electronic_engineering.signals_systems"
+  ],
+  "Electrical Measurements": [
+   "electrical_electronic_engineering.measurement_instrumentation"
+  ],
+  "Electrical Machines – II": [
+   "electrical_electronic_engineering.electrical_machines_drives"
+  ],
+  "EMF Theory": [
+   "electrical_electronic_engineering.electromagnetic_field_theory"
+  ],
+  "Electrical Engineering Materials": null,
+  "Electrical Machines – II Lab": [
+   "electrical_electronic_engineering.electrical_machines_drives"
+  ],
+  "Electrical Measurements lab": [
+   "electrical_electronic_engineering.measurement_instrumentation"
+  ],
+  "Electrical CAD": null,
+  "Environmental Science": [],
+  "Pulse & Digital Circuits": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Power Electronics": [
+   "electrical_electronic_engineering.power_electronics"
+  ],
+  "Power Systems – I": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Utilization Of Electrical Energy": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Microprocessors & Microcontrollers": [
+   "computer_science_informatics.computer_engineering",
+   "electrical_electronic_engineering.digital_systems"
+  ],
+  "PDC Lab": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Power Electronics Lab": [
+   "electrical_electronic_engineering.power_electronics"
+  ],
+  "PLCs": null,
+  "Internship I": [],
+  "Power System Analysis & Stability": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Power Systems – II": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Control Systems": [
+   "electrical_electronic_engineering.control_systems"
+  ],
+  "Power System Protection": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Computer Networks": [
+   "computer_science_informatics.computer_networks",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Microprocessors & Microcontrollers Lab": [
+   "computer_science_informatics.computer_engineering",
+   "electrical_electronic_engineering.digital_systems"
+  ],
+  "Control Systems Lab": [
+   "electrical_electronic_engineering.control_systems"
+  ],
+  "Power Systems Simulation Lab": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Soft Skills": [],
+  "High Voltage Engineering": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Smart Grids": null,
+  "HVDC Transmission": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Renewable Energy Sources": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Artificial Intelligence & Machine Learning": [
+   "computer_science_informatics.machine_learning_ai"
+  ],
+  "Industrial management and entrepreneurship": [],
+  "IoT": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Internship II": [],
+  "Project work": []
+ },
+ "label_changes": [
+  "03.11.2026 after batch 1, Koushik approved: Computer Programming and Numerical Methods (+ Lab): + calculus_analysis (same taxonomy rule)"
+ ]
+}

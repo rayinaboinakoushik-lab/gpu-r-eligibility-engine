@@ -1,0 +1,2631 @@
+{
+ "_version": "GPU-R taxonomy 65 (2026-10-26)",
+ "_field": "all",
+ "_status": "DRAFT for Koushik review. 65 category names exactly as used by the 228 frozen records of 24.10.2026 + 1 new (surveying_geodesy, approved 26.10.2026). No renames.",
+ "_aggregation_method": "UNION of unique course-instance credits (a course counts once in a sum or item)",
+ "_classification_rule": "A course may carry several categories. The same-subject rules below are applied after classification, before any counting.",
+ "_same_subject_rules": [
+  {
+   "id": "S1",
+   "categories": [
+    "civil_engineering.structural_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "type": "SAME_SUBJECT",
+   "rule": "Technische Mechanik: statics, strength of materials, kinematics, dynamics. The civil and the mechanical name mean the same subject. A course classified as one is ALWAYS also classified as the other; it is counted once in every item and sum (R17 C4 / union of course credits)."
+  },
+  {
+   "id": "S2",
+   "categories": [
+    "civil_engineering.fluid_mechanics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "type": "SAME_SUBJECT",
+   "rule": "Fluid mechanics / hydromechanics. The civil and the mechanical name mean the same subject. A course classified as one is ALWAYS also classified as the other; counted once."
+  },
+  {
+   "id": "S3",
+   "categories": [
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.computer_engineering"
+   ],
+   "type": "PART_OF",
+   "rule": "computer_engineering keeps its record meaning (hardware + networks + distributed systems). A course classified as computer_networks is ALWAYS also classified as computer_engineering; counted once. A distributed / cloud / parallel computing course is classified as computer_engineering."
+  }
+ ],
+ "_kept_broad_on_purpose": [
+  "calculus_analysis keeps \"numerical methods\" (old meaning); a numerics course is also optimization_numerics",
+  "general_physics keeps engineering-mechanics topics (old meaning); an Engineering Mechanics course is also general_physics",
+  "structural_mechanics / mechanics_dynamics keep structural analysis and FEM (old meaning); a Structural Analysis course is also structural_engineering",
+  "Narrowing any of these waits for the before/after check (Koushik 26.10.2026)"
+ ],
+ "aggregate_categories": {
+  "computer_science_informatics.general_cs": {
+   "type": "AGGREGATE",
+   "formula_components": [
+    "computer_science_informatics.algorithms_data_structures",
+    "computer_science_informatics.computer_engineering",
+    "computer_science_informatics.computer_networks",
+    "computer_science_informatics.data_engineering",
+    "computer_science_informatics.databases_systems",
+    "computer_science_informatics.graphics_visual_computing",
+    "computer_science_informatics.hci",
+    "computer_science_informatics.it_security",
+    "computer_science_informatics.machine_learning_ai",
+    "computer_science_informatics.operating_systems",
+    "computer_science_informatics.programming_practical_cs",
+    "computer_science_informatics.software_engineering",
+    "computer_science_informatics.theoretical_cs"
+   ]
+  },
+  "computer_science_informatics.practical_cs": {
+   "type": "AGGREGATE",
+   "formula_components": [
+    "computer_science_informatics.programming_practical_cs",
+    "computer_science_informatics.algorithms_data_structures",
+    "computer_science_informatics.databases_systems",
+    "computer_science_informatics.software_engineering"
+   ]
+  },
+  "electrical_electronic_engineering.general_ee": {
+   "type": "AGGREGATE",
+   "formula_components": [
+    "electrical_electronic_engineering.circuit_theory",
+    "electrical_electronic_engineering.communications",
+    "electrical_electronic_engineering.control_systems",
+    "electrical_electronic_engineering.digital_signal_processing",
+    "electrical_electronic_engineering.digital_systems",
+    "electrical_electronic_engineering.electrical_machines_drives",
+    "electrical_electronic_engineering.electromagnetic_field_theory",
+    "electrical_electronic_engineering.electronics",
+    "electrical_electronic_engineering.information_theory",
+    "electrical_electronic_engineering.measurement_instrumentation",
+    "electrical_electronic_engineering.microelectronics_semiconductors",
+    "electrical_electronic_engineering.power_electronics",
+    "electrical_electronic_engineering.power_engineering",
+    "electrical_electronic_engineering.signals_systems"
+   ]
+  },
+  "mathematics_statistics.general_mathematics": {
+   "type": "AGGREGATE",
+   "formula_components": [
+    "mathematics_statistics.calculus_analysis",
+    "mathematics_statistics.linear_algebra",
+    "mathematics_statistics.discrete_math_logic",
+    "mathematics_statistics.statistics_probability",
+    "mathematics_statistics.optimization_numerics"
+   ],
+   "note": "numerics included (Koushik 26.10.2026; German \"Mathematik\" includes Numerik)"
+  },
+  "mechanical_manufacturing_engineering.general_mechanical": {
+   "type": "AGGREGATE",
+   "formula_components": [
+    "mechanical_manufacturing_engineering.design_machine_elements",
+    "mechanical_manufacturing_engineering.manufacturing_production",
+    "mechanical_manufacturing_engineering.mechanics_dynamics",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics",
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ]
+  }
+ },
+ "contextual_categories": {
+  "mathematics_statistics.math_and_theoretical_cs_combined": {
+   "type": "CONTEXTUAL",
+   "formula_components": [
+    "mathematics_statistics.calculus_analysis",
+    "mathematics_statistics.linear_algebra",
+    "mathematics_statistics.discrete_math_logic",
+    "mathematics_statistics.statistics_probability",
+    "mathematics_statistics.optimization_numerics",
+    "computer_science_informatics.theoretical_cs"
+   ]
+  }
+ },
+ "category_evidence_status": {
+  "business_economics_management.business_administration": {
+   "definition": "Management, business and economics subjects taught within a degree.",
+   "includes": [
+    "principles of management",
+    "organizational behaviour",
+    "managerial / business economics",
+    "financial and cost accounting, financial analysis",
+    "marketing",
+    "human resource management",
+    "entrepreneurship and innovation",
+    "business strategy",
+    "operations management (management side)",
+    "micro and macro economics",
+    "demand, supply, cost and pricing",
+    "financial analysis and accounting when taught together with economics",
+    "production planning and control (operations management side; HAW Hamburg PPS module)",
+    "quality management (TQM)",
+    "industrial management",
+    "industrial engineering: productivity, work study (method study, time study), plant layout, value engineering (KIT CoEK B.Tech Mechanical syllabus; Koushik 04.11.2026)",
+    "project management (no own category)"
+   ],
+   "excludes": [
+    "software project management -> software_engineering",
+    "law, IPR, ethics, soft-skills courses -> no category"
+   ],
+   "pc_sources": [
+    "cs:business_economics_management.business_administration",
+    "mechanical:business_economics_management.economics"
+   ],
+   "note": "Industrial management and project management included (Koushik 26.10.2026).",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Business Economics & Financial Analysis",
+    "Business Economics and Financial Analysis",
+    "Fundamentals of Management",
+    "Fundamentals of Management for Engineers",
+    "Innovation and Entrepreneurship",
+    "Organizational Behaviour",
+    "Industrial Management"
+   ],
+   "candidate_courses": [
+    "Business Economics and Financial Analysis",
+    "Fundamentals of Management",
+    "Fundamentals of Management for Engineers",
+    "Industrial Engineering and Management",
+    "Industrial Management",
+    "Innovation and Entrepreneurship",
+    "Organisational Behaviour",
+    "Production Planning & Control",
+    "Production Planning and Control",
+    "Total Quality Management"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "chemistry_materials.materials_science": {
+   "definition": "Materials science and engineering.",
+   "includes": [
+    "crystal structure, phase diagrams, heat treatment",
+    "ferrous and non-ferrous metals, metallurgy",
+    "ceramics, polymers and composite materials",
+    "material testing"
+   ],
+   "excludes": [
+    "mechanics of solids (stress / strain analysis) -> civil_engineering.structural_mechanics + mechanical_manufacturing_engineering.mechanics_dynamics (rule S1)"
+   ],
+   "pc_sources": [
+    "mechanical:chemistry_materials.materials_science"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Material Science and Metallurgy",
+    "Material Science and Mechanics of Solids Lab",
+    "Composite Materials",
+    "Engineering Materials",
+    "Metallurgy & Material Science",
+    "Building Materials, Construction and Planning (materials part)",
+    "Concrete Technology"
+   ],
+   "candidate_courses": [
+    "Building Materials and Concrete Technology",
+    "Building Materials, Construction and Planning",
+    "Composite Materials",
+    "Concrete Technology",
+    "Engineering Materials",
+    "Low Cost Materials and Green Buildings",
+    "Material Science and Metallurgy",
+    "Mechanics of Composite Materials and Structures",
+    "Metallurgy & Material Science"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures",
+   "v3_proposal_name_on_hold": "natural_sciences.materials_science"
+  },
+  "civil_engineering.construction_management": {
+   "definition": "Construction technology, planning and management.",
+   "includes": [
+    "construction planning and scheduling",
+    "quantity surveying and valuation",
+    "construction methods and equipment",
+    "building planning"
+   ],
+   "excludes": [
+    "general project management -> business_economics_management.business_administration"
+   ],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Quantity Survey & Valuation",
+    "Building Materials, Construction and Planning (construction part)",
+    "Smart Cities Planning and Management"
+   ],
+   "candidate_courses": [
+    "Advanced Construction Technology",
+    "Building Materials, Construction and Planning",
+    "Building Planning and Construction",
+    "Building Science and Technology",
+    "Building Services Engineering",
+    "Construction Planning & Management",
+    "Estimation Quantity Surveying & Valuation",
+    "Quantity Survey & Valuation",
+    "Smart Cities",
+    "Smart Cities Planning and Management"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "civil_engineering.environmental_engineering": {
+   "definition": "Environmental engineering and sustainability engineering.",
+   "includes": [
+    "water and wastewater treatment",
+    "solid waste management",
+    "air pollution control",
+    "environmental impact assessment",
+    "sustainability / green building"
+   ],
+   "excludes": [
+    "ecology as biology -> no category (biology is not measured)"
+   ],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Environmental Engineering",
+    "Solid Waste Management",
+    "Environmental Impact Assessment",
+    "Air Pollution",
+    "Green Building Technologies"
+   ],
+   "candidate_courses": [
+    "Air Pollution",
+    "Air Pollution & Control",
+    "Climate Change Adaptation & Mitigation",
+    "EIA & Life Cycle Analysis",
+    "Environmental Engineering",
+    "Environmental Impact Assessment",
+    "Green Building Technologies",
+    "Industrial Waste Water Treatment",
+    "Low Cost Materials and Green Buildings",
+    "Solid & Hazardous Waste Management",
+    "Solid Waste Management",
+    "Sustainable Engineering",
+    "Sustainable Engineering Technologies"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "civil_engineering.fluid_mechanics": {
+   "definition": "Fluid mechanics, hydraulics and fluid machinery.",
+   "includes": [
+    "fluid properties, fluid statics, kinematics and dynamics",
+    "flow through pipes, boundary layers",
+    "hydraulic machines: turbines and pumps",
+    "computational fluid dynamics",
+    "fluid power: hydraulic and pneumatic systems",
+    "turbomachinery (also thermodynamics when it covers compressors, steam and gas turbines)",
+    "lubrication theory (hydrodynamic / hydrostatic fluid films, Reynolds equation)",
+    "fluid properties, statics, kinematics and dynamics",
+    "flow measurement, pipe flow, boundary layers",
+    "open channel flow",
+    "pipeline hydraulics and water hammer",
+    "groundwater flow through porous media (Darcy's law, flow to wells)"
+   ],
+   "excludes": [
+    "hydrology and water resources -> civil_engineering.water_engineering",
+    "thermodynamics -> mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "pc_sources": [
+    "mechanical:mechanical_manufacturing_engineering.mechanics_fluid_dynamics",
+    "civil:civil_engineering.fluid_mechanics"
+   ],
+   "note": "Merges civil_engineering.fluid_mechanics + mechanical_manufacturing_engineering.mechanics_fluid_dynamics (D1).",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Fluid Mechanics and Hydraulic Machines",
+    "Fluid Mechanics and Hydraulic Machines Lab",
+    "Computational Fluid Dynamics",
+    "Turbo Machinery",
+    "Fluid Power Systems",
+    "Tribology",
+    "Fluid Mechanics",
+    "Hydraulics and Hydraulic Machinery",
+    "Hydraulics and Hydraulic Machinery Lab",
+    "Pipeline Engineering",
+    "Ground Water Hydrology",
+    "Hydraulics and Hydraulics Machinery",
+    "Fluid Mechanics & Hydraulic Machines"
+   ],
+   "candidate_courses": [
+    "Computational Fluid Dynamics",
+    "Fluid Mechanics",
+    "Fluid Mechanics & Hydraulic Machines",
+    "Fluid Mechanics and Hydraulic Machines",
+    "Fluid Power System",
+    "Hydraulics & Hydraulic Machinery",
+    "Hydraulics and Hydraulics Machinery",
+    "Hydraulics and Pneumatics",
+    "Solid Mechanics & Hydraulic Machines",
+    "Turbo Machinery"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures",
+   "v3_proposal_name_on_hold": "engineering_mechanics.fluid_mechanics",
+   "same_subject_as": [
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "same_subject_rule": "S2"
+  },
+  "civil_engineering.geotechnics": {
+   "definition": "Geotechnical engineering: soil and rock mechanics, foundations.",
+   "includes": [
+    "soil mechanics",
+    "foundation engineering",
+    "rock mechanics",
+    "ground improvement, slopes, retaining structures",
+    "engineering geology (no own category)"
+   ],
+   "excludes": [],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Geotechnical Engineering",
+    "Foundation Engineering",
+    "Earth Retaining Structures",
+    "Ground Improvement Techniques",
+    "Stability Analysis of Slopes"
+   ],
+   "candidate_courses": [
+    "Earth Retaining Structures",
+    "Foundation Engineering",
+    "Geotechnical Engineering",
+    "Ground Improvement Techniques",
+    "Stability Analysis of Slopes"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "civil_engineering.structural_engineering": {
+   "definition": "Structural analysis and design of structures (concrete, steel, timber).",
+   "includes": [
+    "structural analysis (determinate/indeterminate)",
+    "reinforced and prestressed concrete design",
+    "steel structure design",
+    "earthquake engineering"
+   ],
+   "excludes": [
+    "statics and strength of materials -> civil_engineering.structural_mechanics + mechanical_manufacturing_engineering.mechanics_dynamics (rule S1)"
+   ],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Structural Analysis - I",
+    "Structural Analysis - II",
+    "Structural Engineering -I (RCC)",
+    "Structural Engineering -II (Steel Structures)",
+    "Prestressed Concrete",
+    "Elements of Earthquake Engineering",
+    "Advanced Structural Analysis"
+   ],
+   "candidate_courses": [
+    "Advanced Structural Analysis",
+    "Design of Reinforced Concrete Members",
+    "Design of Steel Structures",
+    "Elements of Earthquake Engineering",
+    "Pre Engineered Buildings",
+    "Prestressed Concrete",
+    "Structural Analysis",
+    "Structural Analysis - I",
+    "Structural Analysis - II",
+    "Structural Dynamics & Earthquake Engineering",
+    "Structural Engineering -I (RCC)",
+    "Structural Engineering -II (Steel Structures)",
+    "Structural Health Monitoring & Retrofitting of Structures",
+    "Structural Mechanics",
+    "Theory of Structures"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "civil_engineering.structural_mechanics": {
+   "definition": "Engineering (technical) mechanics of solids, structures and machines: statics, dynamics, kinematics, strength of materials (German: Technische Mechanik).",
+   "includes": [
+    "engineering mechanics: statics, friction, centroids, moments of inertia, dynamics of particles and rigid bodies",
+    "mechanics of solids / strength of materials: stress, strain, bending, torsion, columns",
+    "kinematics of machinery: mechanisms, linkages, cams, gears",
+    "dynamics of machinery: balancing, governors, gyroscopes, flywheels",
+    "mechanical vibrations",
+    "finite element methods for structural / stress analysis",
+    "robot kinematics and dynamics (when a substantial part of the course)",
+    "engineering mechanics: statics, friction, centroids, moments of inertia, kinematics and dynamics of bodies",
+    "strength of materials: stress, strain, bending, shear, torsion, deflection, columns",
+    "structural analysis: determinate and indeterminate structures, moment distribution, slope deflection, influence lines, matrix methods",
+    "theory of elasticity",
+    "finite element methods for structures"
+   ],
+   "excludes": [
+    "design of structures (RCC, steel, timber design) -> civil_engineering.structural_engineering; structural analysis belongs to BOTH (kept broad)",
+    "fluid mechanics -> civil_engineering.fluid_mechanics + mechanical_manufacturing_engineering.mechanics_fluid_dynamics (rule S2)"
+   ],
+   "pc_sources": [
+    "mechanical:mechanical_manufacturing_engineering.mechanics_dynamics",
+    "civil:civil_engineering.structural_mechanics"
+   ],
+   "note": "Merges civil_engineering.structural_mechanics + mechanical_manufacturing_engineering.mechanics_dynamics (D1/D2).",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Engineering Mechanics",
+    "Mechanics of Solids",
+    "Material Science and Mechanics of Solids Lab",
+    "Kinematics of Machinery",
+    "Dynamics of Machinery",
+    "Kinematics & Dynamics Lab",
+    "Finite Element Methods",
+    "Industrial Robotics",
+    "Mechanical Vibrations",
+    "Strength of Materials - I",
+    "Strength of Materials Lab",
+    "Strength of Materials - II",
+    "Structural Analysis - I",
+    "Structural Analysis - II",
+    "Theory of Elasticity",
+    "Advanced Structural Analysis",
+    "Finite Element Methods for Civil Engineering",
+    "Applied Mechanics",
+    "Strength of Materials – I",
+    "Strength of Materials – II",
+    "Solid Mechanics & Hydraulic Machines (solid-mechanics part)"
+   ],
+   "candidate_courses": [
+    "Applied Mechanics",
+    "Dynamics of Machinery",
+    "Engineering Mechanics",
+    "Kinematics of Machinery",
+    "Mechanical Vibrations",
+    "Mechanics of Composite Materials and Structures",
+    "Mechanics of Solids",
+    "Solid Mechanics & Hydraulic Machines",
+    "Strength of Materials",
+    "Strength of Materials – I",
+    "Strength of Materials – II",
+    "Structural Mechanics"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures",
+   "v3_proposal_name_on_hold": "engineering_mechanics.technical_mechanics",
+   "same_subject_as": [
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "same_subject_rule": "S1"
+  },
+  "civil_engineering.transportation_engineering": {
+   "definition": "Transportation / transport engineering.",
+   "includes": [
+    "highway planning, geometric design and pavement design",
+    "traffic engineering",
+    "highway materials testing",
+    "railways, airports, ports and waterways",
+    "urban transportation planning"
+   ],
+   "excludes": [
+    "general construction management -> no category"
+   ],
+   "pc_sources": [
+    "civil:civil_engineering.transportation_engineering"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Transportation Engineering",
+    "Highway Engineering and Concrete Technology Lab",
+    "Airports, Railways and Waterways",
+    "Urban Transportation Planning",
+    "Pavement Analysis & Design",
+    "Pavement Asset Management"
+   ],
+   "candidate_courses": [
+    "Airports, Railways and Waterways",
+    "Intelligent Transportation Systems",
+    "Pavement Analysis & Design",
+    "Pavement Asset Management",
+    "Railways, Airports & Waterways",
+    "Road Safety Engineering",
+    "Transportation Engineering"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "civil_engineering.water_engineering": {
+   "definition": "Water engineering and management: hydrology, hydraulic engineering, water resources, urban water.",
+   "includes": [
+    "hydrology, groundwater",
+    "water resources engineering and management",
+    "hydraulic structures, river engineering",
+    "urban water management (water supply, sewerage)"
+   ],
+   "excludes": [
+    "fluid mechanics basics -> civil_engineering.fluid_mechanics + mechanical_manufacturing_engineering.mechanics_fluid_dynamics (rule S2)",
+    "wastewater treatment processes -> environmental_engineering"
+   ],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Hydrology and Water Resources Engineering",
+    "Design of Hydraulic Structures",
+    "Advanced Water Resources Engineering",
+    "Ground Water Hydrology"
+   ],
+   "candidate_courses": [
+    "Advanced Water Resources Engineering",
+    "Design of Hydraulic Structures",
+    "Ground Water Hydrology",
+    "Hydraulic Structures",
+    "Hydrology and Water Resources Engineering",
+    "Urban Hydrology & Hydraulics",
+    "Water Resources and Irrigation Engineering"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "computer_science_informatics.algorithms_data_structures": {
+   "definition": "Design, analysis and implementation of data structures and algorithms.",
+   "includes": [
+    "arrays, linked lists, stacks, queues",
+    "trees, heaps, hashing, graphs",
+    "sorting and searching",
+    "algorithm design paradigms: divide and conquer, greedy, dynamic programming, backtracking, branch and bound",
+    "time/space complexity analysis of algorithms (Big-O)",
+    "advanced, randomized and approximation algorithms"
+   ],
+   "excludes": [
+    "complexity THEORY as the main content (P vs NP, computability) -> theoretical_cs",
+    "courses mainly teaching a programming language -> programming_practical_cs"
+   ],
+   "pc_sources": [
+    "cs:computer_science_informatics.algorithms_data_structures"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Advanced Algorithms (PE)",
+    "Advanced Data Structures using Python Lab",
+    "Algorithm Design and Analysis",
+    "Algorithm design and Analysis",
+    "Algorithms Design and Analysis",
+    "Analysis and Design of Algorithms",
+    "Data Structures",
+    "Data Structures (+Lab)",
+    "Design and Analysis of Algorithms",
+    "Open Elective-III: Algorithms Design and Analysis",
+    "Randomized Algorithms (PE)",
+    "C Programming and Data Structures (data-structures part)"
+   ],
+   "candidate_courses": [
+    "Algorithm Design and Analysis",
+    "C Programming and Data Structures",
+    "C and Data Structures",
+    "Data Structures"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "computer_science_informatics.computer_engineering": {
+   "definition": "Computer hardware and systems: architecture, digital design, embedded systems, plus computer networks and distributed systems (record meaning kept).",
+   "includes": [
+    "digital logic and digital/analog electronics for computing",
+    "computer organization and architecture",
+    "microprocessors, microcontrollers, assembly language",
+    "embedded systems",
+    "Internet of Things (devices, sensors, platforms)",
+    "data communication, OSI / TCP-IP layers",
+    "network protocols and network programming",
+    "wireless, mobile, 5G and sensor networks",
+    "network management",
+    "distributed systems and algorithms",
+    "cloud, edge and fog computing",
+    "parallel and high-performance computing",
+    "storage systems"
+   ],
+   "excludes": [
+    "compiler design -> programming_practical_cs and theoretical_cs (CS2023: Foundations of Programming Languages; some German programmes list Compilerbau under Theoretische Informatik), counted once (C4)",
+    "operating systems -> operating_systems"
+   ],
+   "pc_sources": [
+    "cs:computer_science_informatics.computer_engineering"
+   ],
+   "note": "Split 26.10.2026: networks and distributed systems moved to their own categories (D5).",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Advanced Computer Architecture (PE)",
+    "Analog and Digital Electronics",
+    "Computer Organization",
+    "Computer Organization and Architecture",
+    "Computer Organization and Microprocessor",
+    "Embedded Systems (PE)",
+    "Introduction to Embedded Systems (PE)",
+    "Internet of Things Laboratory",
+    "Introduction to IoT",
+    "Microcontrollers",
+    "Microprocessors & Microcontrollers",
+    "IoT Architectures and Protocols (device part)",
+    "Embedded System Design"
+   ],
+   "candidate_courses": [
+    "5G Technologies",
+    "Adhoc and Sensor Networks",
+    "Advanced Computer Architecture",
+    "Cloud Computing",
+    "Computer Networks",
+    "Computer Organization & Operating Systems",
+    "Computer Organization and Architecture",
+    "Computer Organization and Microprocessor",
+    "Cyber-Physical Systems",
+    "Data Communications and Computer Networks",
+    "Digital Electronics",
+    "Digital Logic Design",
+    "Distributed Databases",
+    "Distributed Systems",
+    "Edge Computing",
+    "Embedded System Design",
+    "Embedded Systems",
+    "Embedded Systems Applications",
+    "Fundamentals of Cyber Physical Systems",
+    "Green Computing",
+    "High Performance Computing",
+    "Internet of Things",
+    "Introduction to IoT",
+    "IoT Applications in Civil Engineering",
+    "IoT Applications in Electrical Engineering",
+    "IoT Architectures and Protocols",
+    "Microcontrollers",
+    "Microprocessors & Microcontrollers",
+    "Microprocessors and Microcontrollers",
+    "Mobile Communications and Networks",
+    "Mobile Computing",
+    "RISC and Microcontroller Architectures",
+    "Real Time Systems",
+    "Smart Metering and Communication Protocols",
+    "Wireless Communication Networks",
+    "Wireless Sensor Networks"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures",
+   "part_of_rule": "S3"
+  },
+  "computer_science_informatics.computer_networks": {
+   "definition": "Data communication and computer networks.",
+   "includes": [
+    "data communication, OSI / TCP-IP layers",
+    "network protocols and network programming",
+    "wireless, mobile, 5G and sensor networks",
+    "network management",
+    "IoT courses whose main content is network protocols and communication between devices (e.g. IoT architectures and protocols, sensor networks) (Koushik 31.10.2026)"
+   ],
+   "excludes": [
+    "communication systems (modulation, coding) -> electrical_electronic_engineering.communications",
+    "network security -> it_security",
+    "IoT devices, sensors, platforms and applications -> computer_science_informatics.computer_engineering only (Koushik 31.10.2026)"
+   ],
+   "pc_sources": [
+    "cs:computer_science_informatics.computer_engineering"
+   ],
+   "note": "Split from computer_engineering (D5).",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "5G Technologies (PE)",
+    "5G Technology (PE)",
+    "Ad-hoc & Sensor Networks (PE)",
+    "Adhoc and Sensor Networks (PE)",
+    "Computer Networks",
+    "Computer Networks (+Lab)",
+    "Data Communication & Computer Networks",
+    "Data Communications",
+    "Data Communications and Computer Networks",
+    "Mobile Computing (PE)",
+    "Network Management Systems and Operations",
+    "Network Management Systems and Operations (PE)",
+    "Network Programming",
+    "Network Programming (PE)",
+    "Network Protocols (PE)",
+    "Open Elective-II: Introduction to Computer Networks",
+    "PE-4: Distributed Systems Networks",
+    "PE-5: 5G Technologies",
+    "Storage Area Networks (PE)",
+    "PE-4: Information Storage Area Networks",
+    "Mobile Communications and Networks (network part)"
+   ],
+   "candidate_courses": [
+    "5G Technologies",
+    "Adhoc and Sensor Networks",
+    "Computer Networks",
+    "Data Communications and Computer Networks",
+    "IoT Architectures and Protocols",
+    "Mobile Communications and Networks",
+    "Mobile Computing",
+    "Smart Metering and Communication Protocols",
+    "Wireless Communication Networks",
+    "Wireless Sensor Networks"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures",
+   "also_counts_as": [
+    "computer_science_informatics.computer_engineering"
+   ],
+   "part_of_rule": "S3"
+  },
+  "computer_science_informatics.data_engineering": {
+   "definition": "Building systems and pipelines that collect, store, move and process large-scale data.",
+   "includes": [
+    "data pipelines and ETL",
+    "data warehouse architecture",
+    "big data frameworks (Hadoop, Spark, Kafka)",
+    "stream processing",
+    "distributed data processing, data lakes"
+   ],
+   "excludes": [
+    "analysing data for insight -> data_science.foundational_methods"
+   ],
+   "pc_sources": [
+    "cs:computer_science_informatics.data_engineering"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Big Data Technologies",
+    "Data Stream Processing",
+    "Data Warehousing and Business Intelligence (PE)",
+    "Mining Massive Datasets (PE)",
+    "PE-4: Data Engineering with Python"
+   ],
+   "candidate_courses": [
+    "Big data-Spark",
+    "Data Engineering with Python"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "computer_science_informatics.databases_systems": {
+   "definition": "Storing, managing, querying and retrieving data with database systems.",
+   "includes": [
+    "data models, ER modelling",
+    "relational model and relational algebra",
+    "SQL",
+    "normalization",
+    "transactions, concurrency control, recovery",
+    "indexing and query processing",
+    "distributed, NoSQL, spatial and multimedia databases",
+    "information retrieval systems"
+   ],
+   "excludes": [
+    "data warehousing, big data analytics -> data_science.foundational_methods / computer_science_informatics.data_engineering",
+    "storage hardware / SAN -> computer_engineering",
+    "database SECURITY -> it_security"
+   ],
+   "pc_sources": [
+    "cs:computer_science_informatics.databases_systems"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Data Base Management System",
+    "Database Management System",
+    "Database Management Systems",
+    "Database Management Systems (+Lab)",
+    "Distributed Databases (PE)",
+    "Information Retrieval Systems (PE)",
+    "Informational Retrieval Systems (PE)",
+    "Open Elective-I: Database Management Systems",
+    "PE-3: Distributed Database",
+    "PE-4: Retrieval Systems",
+    "Professional Elective-III: Information Retrieval Systems",
+    "Professional Elective-VI: Distributed Databases",
+    "Spatial and Multimedia Databases (PE)"
+   ],
+   "candidate_courses": [
+    "Database Management Systems",
+    "Distributed Databases",
+    "Information Retrieval Systems",
+    "Multimedia Database Management Systems"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "computer_science_informatics.graphics_visual_computing": {
+   "definition": "Creating, processing and interpreting images and visual content.",
+   "includes": [
+    "computer graphics: 2D/3D transformations, rendering",
+    "image processing",
+    "computer vision",
+    "augmented and virtual reality",
+    "animation, multimedia"
+   ],
+   "excludes": [
+    "business data visualization / dashboards (Power BI, Tableau) -> data_science.foundational_methods",
+    "UI/UX design -> hci"
+   ],
+   "pc_sources": [
+    "cs:computer_science_informatics.graphics_visual_computing"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Augmented Reality & Virtual Reality (PE)",
+    "Augmented Reality and Virtual Reality (PE)",
+    "Computer Graphics (PE)",
+    "Computer Vision (PE)",
+    "Computer Vision and Robotics (PE)",
+    "Computer Vision with Open CV (OE)",
+    "Image Processing (PE)",
+    "PE-5: Augmented Reality & Virtual Reality",
+    "Professional Elective-I: Computer Graphics",
+    "Professional Elective-II: Image Processing",
+    "Professional Elective-III: Computer Vision",
+    "Professional Elective-IV: Augmented Reality & Virtual Reality"
+   ],
+   "candidate_courses": [
+    "Augmented Reality & Virtual Reality",
+    "Biometrics",
+    "Computer Graphics",
+    "Computer Vision",
+    "Computer Vision and Digital Image Processing in Civil Engineering",
+    "Computer Vision and Image Processing",
+    "Digital Image Processing",
+    "Image Processing"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "computer_science_informatics.hci": {
+   "definition": "Design and evaluation of user interfaces and user experience.",
+   "includes": [
+    "HCI principles, usability",
+    "user-centred and interaction design",
+    "UI/UX design, prototyping",
+    "user evaluation, accessibility"
+   ],
+   "excludes": [
+    "courses mainly about coding an app with a UI framework (Flutter, Android) -> programming_practical_cs"
+   ],
+   "pc_sources": [
+    "cs:computer_science_informatics.hci"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Human Computer Interaction (PE)",
+    "Professional Elective-V: Human Computer Interaction",
+    "UI/UX Design (PE)"
+   ],
+   "candidate_courses": [
+    "Human Computer Interaction"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "computer_science_informatics.it_security": {
+   "definition": "Protecting systems, networks, software and data against attacks.",
+   "includes": [
+    "cryptography",
+    "network, web, cloud, IoT, mobile and wireless security",
+    "cyber security",
+    "secure coding",
+    "ethical hacking, penetration testing, vulnerability assessment",
+    "intrusion detection, malware analysis",
+    "digital and cyber forensics",
+    "authentication, biometrics",
+    "blockchain and distributed ledgers",
+    "security audit, incident response, SOC",
+    "data privacy"
+   ],
+   "excludes": [
+    "IoT / networking courses without a security focus -> computer_engineering",
+    "cyber LAW / legal courses -> no category"
+   ],
+   "pc_sources": [
+    "cs:computer_science_informatics.it_security"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Artificial Intelligence in Cyber Security (PE)",
+    "Authentication Techniques (PE)",
+    "Biometrics (PE)",
+    "Blockchain Technology",
+    "Blockchain Technology (PE)",
+    "Cloud Security (PE)",
+    "Computer Security & Audit Assurance (PE)",
+    "Cryptography & Network Security",
+    "Cryptography and Network Security",
+    "Cryptography and Network Security (PE)",
+    "Cryptography and Networks Security (+Lab)",
+    "Cyber Crime Investigation & Digital Forensics",
+    "Cyber Crime Investigations and Digital Forensics",
+    "Cyber Defense Techniques (SDC)",
+    "Cyber Forensics (PE)",
+    "Cyber Security",
+    "Cyber Security (+Lab)",
+    "Cyber Security (OE)",
+    "Cyber Security (PE)",
+    "Cyber Security Essentials",
+    "Data Privacy (PE)",
+    "Data Privacy (PE/OE)",
+    "Digital Forensics (PE)",
+    "Digital Water Marking and Steganography (PE)",
+    "Digital Watermarking and Steganography (PE)",
+    "Distributed Ledger Technology (PE)",
+    "Ethical Hacking (PE)",
+    "Information Security",
+    "Information System Audit & Assurance (PE/OE)",
+    "Intrusion Detection Systems (PE)",
+    "IoT Security",
+    "IoT Security (PE)",
+    "Malware Analysis (PE)",
+    "Mathematical Foundations of Cryptography",
+    "Mobile Application Security (PE)",
+    "Open Elective-III: Fundamentals of Cyber Security",
+    "PE-3: Number Theory & Cryptography",
+    "PE-3: Vulnerability Assessments & Penetration Testing",
+    "PE-3: Web Security",
+    "PE-4: Secure Coding Principles",
+    "PE-5: Blockchain Technology",
+    "PE-6: Digital Forensics",
+    "Penetration Testing and Incident Response (PE)",
+    "Professional Elective-II: Blockchain Technology",
+    "Professional Elective-III: Vulnerability and Penetration Testing",
+    "Professional Elective-IV: Cyber Forensics",
+    "Quantum Cryptography (PE)",
+    "Secure Coding Practices",
+    "Security Incident & Response Management/SOC (PE)",
+    "Security Incident & Response Management/SOC (PE/OE)",
+    "Security Incident and Response Management (PE)",
+    "Security in Computing (PE)",
+    "Social Media Security (PE)",
+    "Social Media Security (PE/OE)",
+    "Vulnerability Assessment & Penetration Testing",
+    "Vulnerability Assessment & Penetration Testing (PE)",
+    "Vulnerability Assessment and Penetration Testing",
+    "Vulnerability Assessment and Penetration Testing (PE)",
+    "Web & Database Security (PE)",
+    "Web Security (PE)",
+    "Wireless Security (PE)",
+    "Database Security (PE)"
+   ],
+   "candidate_courses": [
+    "Blockchain Technology",
+    "Cryptography and Network Security",
+    "Cyber Forensics",
+    "Cyber Security",
+    "Digital Forensics",
+    "Information Security",
+    "Intrusion Detection Systems",
+    "Mobile Application Security",
+    "Network Security and Cryptography",
+    "Number Theory & Cryptography",
+    "Secure Coding Principles",
+    "Vulnerability and Penetration Testing",
+    "Web Security"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "computer_science_informatics.machine_learning_ai": {
+   "definition": "Building systems that learn from data or act intelligently.",
+   "includes": [
+    "artificial intelligence: search, knowledge representation, reasoning, planning, expert systems",
+    "machine learning: supervised and unsupervised learning, model evaluation",
+    "neural networks and deep learning",
+    "natural language processing",
+    "reinforcement learning",
+    "generative AI, chatbots, prompt engineering",
+    "pattern recognition",
+    "soft computing, nature-inspired computing",
+    "data mining algorithms: classification, clustering, association rules",
+    "social network analysis / mining",
+    "semantic web, ontologies (knowledge representation)"
+   ],
+   "excludes": [
+    "data handling, BI, visualization, analytics workflow -> data_science.foundational_methods; a course with both (e.g. Data Mining) gets BOTH categories",
+    "big data platforms and pipelines -> data_engineering",
+    "mathematics courses for ML (linear algebra, calculus, probability) -> mathematics_statistics.optimization_numerics categories"
+   ],
+   "pc_sources": [
+    "cs:computer_science_informatics.machine_learning_ai"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "AI applications (OE)",
+    "Artificial Intelligence",
+    "Artificial Intelligence (+Lab)",
+    "Artificial Intelligence (PE)",
+    "Artificial Intelligence of Things (PE)",
+    "Chatbots (OE)",
+    "Chatbots Lab",
+    "Cognitive Computing (PE)",
+    "Data Mining",
+    "Data Mining (PE)",
+    "Data Stream Mining",
+    "Deep Learning",
+    "Deep Learning (+Lab)",
+    "Deep Learning (PE)",
+    "Expert Systems (PE)",
+    "Federated Machine Learning (PE)",
+    "Fundamentals of AI (OE)",
+    "Generative AI",
+    "Introduction to Natural Language Processing (OE)",
+    "Machine Learning",
+    "Machine Learning (+Lab)",
+    "Machine Learning (PE)",
+    "Machine Learning Basics (OE)",
+    "Natural Language Processing",
+    "Natural Language Processing (+Lab)",
+    "Natural Language Processing (PE)",
+    "Nature Inspired Computing (PE)",
+    "Neural Networks & Deep Learning",
+    "Neural Networks & Deep Learning (PE)",
+    "PE-1: Artificial Intelligence",
+    "PE-2: Data Mining",
+    "PE-5: Reinforcement Learning",
+    "PE-6: Generative AI",
+    "Pattern Recognition (PE)",
+    "Professional Elective-I: Data Mining",
+    "Professional Elective-II: Generative AI",
+    "Professional Elective-II: Mining Massive Datasets",
+    "Professional Elective-III: Data Stream Mining",
+    "Professional Elective-V: Nature Inspired Computing",
+    "Professional Elective-V: Social Media Mining",
+    "Prompt Engineering (skill dev)",
+    "Reinforcement Learning",
+    "Social Media Mining (PE)",
+    "Social Network Analysis (PE)",
+    "Soft Computing (PE)",
+    "Semantic Web (PE)"
+   ],
+   "candidate_courses": [
+    "AI Applications in Civil Engineering",
+    "AI Techniques in Electrical Engineering",
+    "AI for Signal and Image Processing",
+    "AI/ML for Design Analysis",
+    "Artificial Intelligence",
+    "Artificial Intelligence in Mechanical Engineering",
+    "Artificial Neural Networks",
+    "Artificial Neural Networks and Deep Learning",
+    "Deep Learning",
+    "Fuzzy Logic and ANN",
+    "Fuzzy Logic and ANN Applications in Civil Engineering",
+    "Generative AI",
+    "Machine Learning",
+    "Machine Learning & Deep Learning and Its Applications",
+    "Machine Learning Applications to Electrical Engineering",
+    "Machine Learning and Data Analytics in Civil Engineering",
+    "Natural Language Processing",
+    "Nature Inspired Computing",
+    "Pattern Recognition",
+    "Reinforcement Learning"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "computer_science_informatics.operating_systems": {
+   "definition": "How operating systems manage processes, memory, files and devices.",
+   "includes": [
+    "processes and threads",
+    "CPU scheduling",
+    "synchronization and concurrency",
+    "deadlocks",
+    "memory management, virtual memory",
+    "file systems, I/O",
+    "system calls",
+    "real-time and distributed operating systems",
+    "Unix/Linux internals",
+    "concurrent programming"
+   ],
+   "excludes": [
+    "networks -> computer_engineering",
+    "shell/Linux scripting courses -> programming_practical_cs"
+   ],
+   "pc_sources": [
+    "cs:computer_science_informatics.operating_systems"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Advanced Operating Systems (PE)",
+    "Concurrent Programming (PE)",
+    "Open Elective-I: Operating Systems",
+    "Operating Systems",
+    "Operating Systems (+Lab)",
+    "Real Time Systems (PE)"
+   ],
+   "candidate_courses": [
+    "Advanced Operating Systems",
+    "Computer Organization & Operating Systems",
+    "Linux and Shell Scripting",
+    "Operating Systems",
+    "Real Time Systems"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "computer_science_informatics.programming_practical_cs": {
+   "definition": "Writing programs in programming languages and building software applications.",
+   "includes": [
+    "programming fundamentals and problem solving (C, C++, Java, Python, ...)",
+    "object-oriented programming",
+    "scripting languages",
+    "web programming, web technologies, full-stack development",
+    "mobile application development",
+    "functional and logic programming",
+    "principles / concepts of programming languages and programming paradigms",
+    "R programming",
+    "programming labs"
+   ],
+   "excludes": [
+    "a course where code is only the tool for another subject goes to that subject (data structures -> algorithms_data_structures, SQL -> databases_systems, ML in Python -> machine_learning_ai)",
+    "a lab belongs to the same category as the lecture course it practises, EXCEPT when that lecture is a theory subject (theoretical_cs or mathematics): a lab is hands-on practical work, never theory, so it goes to programming_practical_cs (e.g. Compiler Design Lab, Automata Lab -> programming_practical_cs)",
+    "a course where code is only the tool for another subject goes to that subject's category (data structures, databases, machine learning -> their own computer_science categories; MATLAB for signals -> signals_systems / digital_signal_processing)",
+    "a lab belongs to the same category as the lecture course it practises",
+    "digital logic design -> digital_systems; microprocessor hardware -> computer_engineering"
+   ],
+   "pc_sources": [
+    "cs:computer_science_informatics.programming_practical_cs",
+    "eee:computer_science_informatics.programming_practical_cs"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Full Stack Development (PE)",
+    "Full Stack Development (SDC)",
+    "JAVA Programming",
+    "Java Programming",
+    "Linux Programming Lab",
+    "MERN Stack Development (OE)",
+    "Mobile Application Development (PE)",
+    "Node JS/React JS/Django, UI Design - Flutter (SDC)",
+    "Node Js/React JS/Django (skill dev)",
+    "Object Oriented Programming through Java",
+    "Object Oriented Programming through Java (+Lab)",
+    "Object Oriented Programming using C++",
+    "Open Elective-I: Java Programming",
+    "Open Elective-II: Full Stack Development",
+    "Open Elective-II: Scripting Languages",
+    "PE-V: Mobile Application Development",
+    "Professional Elective-I: Web Programming",
+    "Professional Elective-II: Full Stack Development",
+    "Professional Elective-III: Scripting Languages",
+    "Professional Elective-V: Mobile Application Development",
+    "Programming for Problem Solving",
+    "Programming for Problem Solving (+Lab)",
+    "Python Programming",
+    "Python Programming Lab",
+    "Scripting Languages (PE)",
+    "UI Design-Flutter (SDC)",
+    "Web Programming",
+    "Web Programming (PE)",
+    "Web Technologies",
+    "Principles of Programming Languages (PE)",
+    "UI Design – Flutter/Android Studio (skill dev)",
+    "R Programming (OE)",
+    "Programming for Problem Solving Lab",
+    "Scripting Languages Lab",
+    "Scripting Languages",
+    "C Programming and Data Structures (programming part)",
+    "C Programming for Engineers",
+    "Python Programming Laboratory",
+    "Applied Python Programming Laboratory"
+   ],
+   "candidate_courses": [
+    "Automata Theory and Compiler Design",
+    "C Programming",
+    "C Programming and Data Structures",
+    "C Programming for Engineers",
+    "C and Data Structures",
+    "Compiler Design",
+    "Data Analytics and Python for Engineers",
+    "Full Stack Development",
+    "Java Programming",
+    "Mobile Application Development",
+    "Object Oriented Programming through Java",
+    "Object Oriented Programming using C++",
+    "Principles of Programming Languages",
+    "Programming for Problem Solving",
+    "Python Programming",
+    "Scripting Languages",
+    "Web Programming",
+    "Web and Mobile Applications"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "computer_science_informatics.software_engineering": {
+   "definition": "Processes and practices for building and maintaining software systems.",
+   "includes": [
+    "software life cycle and process models",
+    "requirements engineering",
+    "software design, UML",
+    "software architecture and design patterns",
+    "software testing and quality assurance",
+    "software project management and estimation",
+    "agile, scrum",
+    "DevOps, CI/CD",
+    "configuration management, maintenance"
+   ],
+   "excludes": [
+    "learning a specific programming language -> programming_practical_cs"
+   ],
+   "pc_sources": [
+    "cs:computer_science_informatics.software_engineering"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Agile Methodology (PE)",
+    "DevOps",
+    "DevOps (+Lab)",
+    "DevOps (PE)",
+    "DevOps Lab",
+    "Development Operations (DevOps) Laboratory",
+    "Development and Operations (DevOps) Lab",
+    "Open Elective-II: Software Engineering",
+    "Open Elective-III: Development and Operations (DevOps)",
+    "PE-2: Software Testing Methodology",
+    "PE-4: Software Project Management",
+    "Professional Elective-I: Software Testing Methodologies",
+    "Professional Elective-II: Software Project Management",
+    "Professional Elective-IV: Agile Methodology",
+    "Software Engineering",
+    "Software Engineering (+Lab)",
+    "Software Process & Project Management (PE)",
+    "Software Project Management (PE)",
+    "Software Testing Methodologies (PE)"
+   ],
+   "candidate_courses": [
+    "Agile Methodology",
+    "DevOps",
+    "Robotic Process Automation",
+    "Scalable Architecture for Large Applications",
+    "Software Engineering",
+    "Software Process & Project Management",
+    "Software Project Management",
+    "Software Testing Methodologies"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "computer_science_informatics.theoretical_cs": {
+   "definition": "The mathematical theory of computation (German: Theoretische Informatik).",
+   "includes": [
+    "finite automata, pushdown automata, Turing machines",
+    "formal languages and grammars, regular expressions",
+    "computability and decidability",
+    "computational complexity: P, NP, NP-completeness",
+    "logic for computer science, formal semantics and verification",
+    "compiler construction (lexical and syntax analysis theory)"
+   ],
+   "excludes": [
+    "programming language concepts and paradigms -> programming_practical_cs",
+    "optimization / operations research -> mathematics_statistics.optimization_numerics",
+    "semantic web -> machine_learning_ai",
+    "LAB / practical courses, even on compiler or automata topics -> programming_practical_cs (a lab is never theory)"
+   ],
+   "pc_sources": [
+    "cs:computer_science_informatics.theoretical_cs"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Automata Theory and Compiler Design",
+    "Automata Theory and Compiler Design (+Lab)",
+    "Automata theory and Compiler Design",
+    "Compiler Design",
+    "Compiler Design (PE)",
+    "Computational Complexity (PE)",
+    "Formal Languages & Automata Theory",
+    "Information Theory & Coding (PE)",
+    "Principles of Compiler Construction",
+    "Professional Elective-IV: Quantum Computing"
+   ],
+   "candidate_courses": [
+    "Automata Theory and Compiler Design",
+    "Compiler Design",
+    "Formal Languages and Automata Theory",
+    "Quantum Computing"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "data_science.foundational_methods": {
+   "definition": "Analysing data to extract insight: the data-analysis workflow and its tools.",
+   "includes": [
+    "data science process",
+    "data collection, cleaning, wrangling",
+    "exploratory data analysis",
+    "data visualization (R, Python, Power BI, Tableau)",
+    "predictive analytics",
+    "big data analytics",
+    "data warehousing and business intelligence",
+    "web and social media analytics",
+    "data analysis with R/Python"
+   ],
+   "excludes": [
+    "engineering big data platforms / pipelines -> data_engineering",
+    "machine-learning algorithms (classification, clustering, association rules, neural networks) -> computer_science_informatics.machine_learning_ai; a course that teaches them as a substantial part (e.g. Data Mining) gets BOTH categories"
+   ],
+   "pc_sources": [
+    "cs:data_science.foundational_methods"
+   ],
+   "note": "Renamed from data_science.foundational_methods (D8); content unchanged.",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Big Data Analytics",
+    "Big Data Analytics (PE)",
+    "Big Data Technologies",
+    "Big Data Technologies (PE)",
+    "Big Data-Spark (SDC)",
+    "Big data-Spark (SDC)",
+    "Data Analytics (PE)",
+    "Data Analytics and Visualization",
+    "Data Analytics for Fraud Detection (PE)",
+    "Data Science (PE)",
+    "Data Science Applications (PE)",
+    "Data Stream Mining (PE)",
+    "Data Stream Processing",
+    "Data Visualization Techniques (PE)",
+    "Data Visualization- R/Python/Power BI (skill dev)",
+    "Data Visualization-R Programming/Power BI/Tableau/Google Chart (SDC)",
+    "Data Warehousing and Business Intelligence (PE)",
+    "Data Warehousing and Data Mining (PE)",
+    "Exploratory Data Analysis (PE)",
+    "Exploratory Data Analysis Lab",
+    "Introduction to Data Science",
+    "Introduction to Data Science (PE)",
+    "Mining Massive Datasets (PE)",
+    "Open Elective-III: Big Data Technologies",
+    "Predictive Analytics",
+    "Privacy Preserving in Data Mining (PE)",
+    "Professional Elective-I: Introduction to Data Science",
+    "Professional Elective-IV: Big Data Analytics",
+    "R Programming (OE)",
+    "Web and Social Media Analytics",
+    "PE-2: Data Analytics"
+   ],
+   "candidate_courses": [
+    "Big Data Technologies",
+    "Data Analytics",
+    "Data Analytics and Python for Engineers",
+    "Data Mining",
+    "Data Stream Mining",
+    "Data Visualization",
+    "Introduction to Data Science",
+    "Machine Learning and Data Analytics in Civil Engineering",
+    "Mining Massive Datasets",
+    "Social Media Mining"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures",
+   "v3_proposal_name_on_hold": "data_science.data_analytics"
+  },
+  "electrical_electronic_engineering.circuit_theory": {
+   "definition": "Electric circuit and network analysis.",
+   "includes": [
+    "DC and AC circuit analysis, Kirchhoff's laws, mesh and nodal analysis; network theorems (Thevenin, Norton, superposition, maximum power transfer); single-phase and three-phase circuits, resonance; transient analysis of RL, RC and RLC circuits"
+   ],
+   "excludes": [
+    "electronic circuits with active devices -> electronics",
+    "transmission lines -> electromagnetic_field_theory"
+   ],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Electrical Circuit Analysis – I",
+    "Electrical Circuit Analysis – II",
+    "Network Analysis and Synthesis",
+    "Basic Electrical Engineering",
+    "Elements of Electrical and Electronics Engineering",
+    "Basic Electrical and Electronics Engineering (electrical part)"
+   ],
+   "candidate_courses": [
+    "Basic Electrical Engineering",
+    "Basic Electrical and Electronics Engineering",
+    "Electrical Circuit Analysis – I",
+    "Electrical Circuit Analysis – II",
+    "Electrical Circuits - I",
+    "Electrical Circuits - II",
+    "Elements of Electrical and Electronics Engineering",
+    "Network Analysis and Synthesis"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "electrical_electronic_engineering.communications": {
+   "definition": "Communication systems and theory.",
+   "includes": [
+    "analog modulation (AM, FM, PM)",
+    "digital modulation and digital communication",
+    "noise in communication systems",
+    "information theory and coding, error-correcting codes",
+    "mobile / cellular, satellite and radar communication systems",
+    "optical fiber communication systems",
+    "wireless communication",
+    "communication labs"
+   ],
+   "excludes": [
+    "computer network protocols (OSI / TCP-IP layers) -> computer_science_informatics.computer_networks",
+    "microwave engineering (microwave tubes, solid-state microwave devices, waveguide components, S-parameters) -> electromagnetic_field_theory, EVEN when the course title also says 'communications' (e.g. 'Microwave and Optical Communications' is mostly microwave devices); communications counts only when communication systems are the main content | Antennas and propagation courses count in both electromagnetic_field_theory and communications (approved 30.10.2026).",
+    "introductory survey courses of the whole branch (e.g. 'Elements of / Introduction to Electronics and Communication Engineering') -> no category (survey course); the word 'communication' in a branch name is not communication-systems content"
+   ],
+   "pc_sources": [
+    "eee:electrical_electronic_engineering.communications"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Analog and Digital Communications",
+    "Analog and Digital Communications Lab",
+    "Error Correcting Codes",
+    "Mobile Communications and Networks",
+    "Satellite Communications",
+    "Radar Systems"
+   ],
+   "candidate_courses": [
+    "5G Communications",
+    "5G and beyond Communications",
+    "Analog and Digital Communications",
+    "Introduction to Wireless Communications",
+    "Microwave and Optical Communications",
+    "Mobile Communications and Networks",
+    "Principles of Communication",
+    "Radar Systems",
+    "Satellite Communications",
+    "Wireless Communication Networks"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "electrical_electronic_engineering.control_systems": {
+   "definition": "Control engineering and systems theory.",
+   "includes": [
+    "system modelling, transfer functions, block diagrams",
+    "time-domain and frequency-domain analysis",
+    "stability: Routh-Hurwitz, root locus, Bode, Nyquist",
+    "compensator and controller design (PID, lead/lag)",
+    "state-space analysis",
+    "digital / discrete-time control",
+    "control system design",
+    "control systems labs",
+    "feedback control, transfer functions, block diagrams",
+    "time and frequency response, stability (Routh, root locus, Bode, Nyquist)",
+    "controllers (PID) and state-space basics"
+   ],
+   "excludes": [
+    "electric drive control -> electrical_machines_drives",
+    "signal processing -> signals_systems / digital_signal_processing",
+    "measurement and instrumentation -> no category (unless control is at least 40% of the course)"
+   ],
+   "pc_sources": [
+    "eee:electrical_electronic_engineering.control_systems",
+    "mechanical:electrical_electronic_engineering.control_systems"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Control Systems",
+    "Control Systems Lab",
+    "Digital Control Systems",
+    "Control Systems Design",
+    "Instrumentation and Control Systems (control part)"
+   ],
+   "candidate_courses": [
+    "Control Systems",
+    "Cyber-Physical Systems",
+    "Digital Control Systems",
+    "Industrial Automation and Control",
+    "Instrumentation and Control Systems",
+    "Programmable Logic Controllers"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "electrical_electronic_engineering.digital_signal_processing": {
+   "definition": "Digital signal processing.",
+   "includes": [
+    "DFT/FFT",
+    "digital filter design (FIR, IIR)",
+    "multirate processing",
+    "DSP processors",
+    "image processing as signal processing"
+   ],
+   "excludes": [
+    "continuous-time signals and transforms only -> signals_systems"
+   ],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026); Koushik note 20.10 (DSP/filters)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Digital Signal Processing",
+    "Digital Image Processing"
+   ],
+   "candidate_courses": [
+    "AI for Signal and Image Processing",
+    "Biomedical Signal and Image Processing",
+    "Computer Vision and Image Processing",
+    "DSP Processors and Architectures",
+    "Digital Image Processing",
+    "Digital Signal Processing",
+    "Fundamentals of Image Processing",
+    "Image Processing",
+    "Image and Video Processing"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "electrical_electronic_engineering.digital_systems": {
+   "definition": "Digital electronics and digital system design.",
+   "includes": [
+    "number systems and Boolean algebra; combinational logic: gates, adders, multiplexers, decoders; sequential logic: flip-flops, counters, registers, state machines; logic families, memories, PLDs",
+    "HDL-based digital design (Verilog, VHDL, SystemVerilog), FPGA, HW/SW co-design"
+   ],
+   "excludes": [
+    "pure computer architecture courses -> computer_science_informatics.computer_engineering; microprocessor / microcontroller courses also teach digital systems and count in both (approved 30.10.2026)"
+   ],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026); Koushik note 20.10 (4513: HW/SW codesign, SystemVerilog)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Digital Electronics",
+    "Digital Logic Design",
+    "Digital System Design",
+    "Linear and Digital IC Applications (digital part)"
+   ],
+   "candidate_courses": [
+    "Digital Electronics",
+    "Digital Electronics (EEE)",
+    "Digital Logic Design",
+    "FPGA based System Design",
+    "Linear and Digital IC Applications",
+    "Microprocessors & Microcontrollers",
+    "Microprocessors and Microcontrollers",
+    "PCB Design / FPGA Fundamentals"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "electrical_electronic_engineering.electrical_machines_drives": {
+   "definition": "Electrical machines and electric drives.",
+   "includes": [
+    "DC machines; transformers; induction machines; synchronous machines, alternators",
+    "electric drives and their control",
+    "machine design"
+   ],
+   "excludes": [
+    "power converters themselves -> power_electronics"
+   ],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026); Koushik note 19.10 (AC/DC machines, transformers, induction/synchronous, drives)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Electrical Machines – I",
+    "Electrical Machines – II",
+    "Power Semiconductor Drives",
+    "Computer Aided Electrical Machine Design"
+   ],
+   "candidate_courses": [
+    "Computer Aided Electrical Machine Design",
+    "Electrical Machines – I",
+    "Electrical Machines – II",
+    "Power Semiconductor Drives"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "electrical_electronic_engineering.electromagnetic_field_theory": {
+   "definition": "Electromagnetic fields, waves, transmission lines, antennas and microwaves.",
+   "includes": [
+    "electrostatics, magnetostatics, Maxwell's equations; electromagnetic waves and propagation; transmission lines, Smith chart, impedance matching; waveguides and microwave components, microwave tubes and devices",
+    "antennas and wave propagation"
+   ],
+   "excludes": [
+    "communication systems -> communications"
+   ],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026); Koushik note 19.10 (Electromagnetic Waves, Antennas & Wave Propagation)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Electro Magnetic Fields",
+    "Electromagnetic Fields and Transmission Lines",
+    "Antennas and Wave Propagation",
+    "Microwave and Optical Communications (microwave part)"
+   ],
+   "candidate_courses": [
+    "Antenna Design and Wave Propagation",
+    "Antennas and Wave Propagation",
+    "Electro Magnetic Fields",
+    "Electromagnetic Fields",
+    "Electromagnetic Fields and Transmission Lines",
+    "Microwave and Optical Communications",
+    "RF Circuit Design"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "electrical_electronic_engineering.electronics": {
+   "definition": "Electronic devices and analog electronic circuits.",
+   "includes": [
+    "semiconductor physics of devices: diodes, BJTs, FETs, MOSFETs; rectifiers, biasing, small-signal models; amplifiers, feedback amplifiers, oscillators, power amplifiers; operational amplifiers and linear IC applications, timers, analog filters"
+   ],
+   "excludes": [
+    "digital logic -> digital_systems",
+    "IC fabrication, VLSI -> microelectronics_semiconductors"
+   ],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Electronic Devices and Circuits",
+    "Analog Electronic Circuits",
+    "Analog Circuits",
+    "Electronic Circuit Analysis",
+    "Linear and Digital IC Applications (linear part)",
+    "Basic Electrical and Electronics Engineering (electronics part)"
+   ],
+   "candidate_courses": [
+    "Analog Circuits",
+    "Analog Electronic Circuits",
+    "Analog Electronics",
+    "Automotive Electronics",
+    "Basic Electrical and Electronics Engineering",
+    "Electronic Circuit Analysis",
+    "Electronic Devices and Circuits",
+    "Elements of Electrical and Electronics Engineering",
+    "Linear and Digital IC Applications",
+    "RF Circuit Design"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "electrical_electronic_engineering.information_theory": {
+   "definition": "Information theory and coding.",
+   "includes": [
+    "entropy, channel capacity",
+    "source coding",
+    "error-correcting codes"
+   ],
+   "excludes": [
+    "communication systems as a whole -> communications"
+   ],
+   "pc_sources": [],
+   "note": "Kept under EE (D10); T1 keeps it out of theoretical CS.",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Error Correcting Codes",
+    "Information Theory and Coding"
+   ],
+   "candidate_courses": [],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "electrical_electronic_engineering.measurement_instrumentation": {
+   "definition": "Electrical and electronic measurements, sensors and instrumentation.",
+   "includes": [
+    "measuring instruments and errors; bridges, meters, oscilloscopes; sensors and transducers; electronic measurements and instrumentation",
+    "metrology: measurement of length, angles, surface finish, gauges and comparators (approved 30.10.2026)"
+   ],
+   "excludes": [
+    "control theory -> control_systems"
+   ],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026); Koushik note 20.10 (sensors here)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Measurements and Instrumentation",
+    "Electronic Measurements and Instrumentation",
+    "Instrumentation and Control Systems (instrumentation part)",
+    "Biomedical Instrumentation",
+    "Electronic Sensors",
+    "Measuring Instruments"
+   ],
+   "candidate_courses": [
+    "Biomedical Instrumentation",
+    "Electrical Measurements and Sensors",
+    "Electronic Measurements and Instrumentation",
+    "Electronic Sensors",
+    "Instrumentation",
+    "Instrumentation and Control Systems",
+    "Measurements and Instrumentation",
+    "Measuring Instruments",
+    "Metrology & Machine Tools",
+    "Metrology and Machine Tools",
+    "Smart Metering and Communication Protocols"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures",
+   "typical_topics": [
+    "metrology"
+   ]
+  },
+  "electrical_electronic_engineering.microelectronics_semiconductors": {
+   "definition": "Semiconductor devices physics, IC technology and VLSI design.",
+   "includes": [
+    "IC fabrication technology; MOS / CMOS circuit design; VLSI design flow, layout; low-power VLSI",
+    "semiconductor device physics"
+   ],
+   "excludes": [
+    "discrete electronic circuits -> electronics"
+   ],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "CMOS VLSI Design",
+    "CMOS Analog IC Design",
+    "System on Chip Architecture",
+    "Low Power VLSI Design",
+    "Test and Testability"
+   ],
+   "candidate_courses": [
+    "Analog and Mixed Signal IC Design",
+    "CMOS Analog IC Design",
+    "CMOS Fabrication and Technology",
+    "CMOS VLSI Design",
+    "Design for Testability",
+    "Intelligent e-Computer Aided Design",
+    "Low Power VLSI Design",
+    "System on Chip Architecture",
+    "VLSI Design"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "electrical_electronic_engineering.power_electronics": {
+   "definition": "Power electronics.",
+   "includes": [
+    "power semiconductor devices: thyristors, power MOSFETs, IGBTs; rectifiers and controlled converters; choppers / DC-DC converters; inverters, PWM, AC voltage controllers, cycloconverters"
+   ],
+   "excludes": [
+    "electric-drive courses without converter content -> electrical_machines_drives; drive-control courses that cover converters / inverters count in both (approved 30.10.2026)"
+   ],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Power Electronics",
+    "Power Electronic Applications to Renewable Energy Systems",
+    "Power Quality & FACTS"
+   ],
+   "candidate_courses": [
+    "Battery Management Systems",
+    "Power Electronic Applications to Renewable Energy Systems",
+    "Power Electronics",
+    "Power Electronics for Renewable Energy Systems",
+    "Power Quality & FACTS",
+    "Power Quality Techniques",
+    "Power Semiconductor Drives",
+    "Switched Mode Power Conversion"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "electrical_electronic_engineering.power_engineering": {
+   "definition": "Electric power systems: generation, transmission, distribution, protection.",
+   "includes": [
+    "power generation (conventional and renewable: wind, solar); transmission and distribution, HVDC; power system analysis: load flow, faults, stability; power system protection, switchgear",
+    "high-voltage engineering",
+    "renewable and non-conventional energy systems, energy conservation",
+    "smart grids"
+   ],
+   "excludes": [
+    "power converters -> power_electronics",
+    "electrical machines -> electrical_machines_drives"
+   ],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026); Koushik note 19.10 (BTU 3883)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Power System – I",
+    "Power System – II",
+    "Power System Protection",
+    "Power System Operation and Control",
+    "High Voltage Engineering",
+    "HVDC Transmission",
+    "Smart Grid Technologies",
+    "Electrical Distribution Systems",
+    "Renewable Energy Sources"
+   ],
+   "candidate_courses": [
+    "Applications of Electrical Energy",
+    "Charging Infrastructure for Electric Vehicles",
+    "Digital Energy Systems",
+    "EV Charging Infrastructure",
+    "Electrical Design, Estimation and Costing",
+    "Electrical Distribution Systems",
+    "Electrical Distribution and Automation",
+    "Energy Audit and Policies",
+    "Energy Conservation and Audit",
+    "Energy Conservation and Management",
+    "Energy Storage Systems",
+    "HVDC Transmission",
+    "High Voltage Engineering",
+    "Non-Conventional Energy Sources",
+    "Non-Conventional Sources of Energy",
+    "Power Quality & FACTS",
+    "Power Quality Techniques",
+    "Power System Operation and Control",
+    "Power System Protection",
+    "Power System Reliability",
+    "Power System – I",
+    "Power System – II",
+    "Power Systems - I",
+    "Power Systems - II",
+    "Renewable Energy Sources",
+    "Renewable Energy Systems",
+    "Smart Grid Technologies",
+    "Solar Energy Technology",
+    "Solar Power Batteries",
+    "Sustainable Energy Technologies",
+    "Utilization of Electric Energy",
+    "Wind and Solar Energy Systems"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "electrical_electronic_engineering.signals_systems": {
+   "definition": "Signals and systems theory.",
+   "includes": [
+    "continuous and discrete-time signals and systems; convolution, correlation, LTI systems; Fourier series, Fourier / Laplace / Z-transforms applied to signals; sampling"
+   ],
+   "excludes": [
+    "digital filter design and DSP algorithms -> digital_signal_processing",
+    "control systems -> control_systems"
+   ],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Signals and Systems",
+    "Principles of Signal Processing"
+   ],
+   "candidate_courses": [
+    "Signals and Systems"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "engineering.automotive_engineering": {
+   "definition": "Automotive / vehicle engineering incl. electric vehicles.",
+   "includes": [
+    "vehicle dynamics and design",
+    "automotive powertrains",
+    "electric and hybrid vehicles"
+   ],
+   "excludes": [
+    "IC engines thermodynamics -> mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Automobile Engineering",
+    "Electric and Hybrid Vehicles",
+    "Fundamental of Electric Vehicles"
+   ],
+   "candidate_courses": [
+    "Automobile Engineering",
+    "Automotive Electronics",
+    "Autonomous and Connected Vehicles",
+    "Charging Infrastructure for Electric Vehicles",
+    "EV Charging Infrastructure",
+    "Electric and Hybrid Vehicles",
+    "Fundamental of Electric Vehicles",
+    "Hybrid Electric Vehicles"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures",
+   "v3_proposal_name_on_hold": "interdisciplinary_engineering.automotive_engineering"
+  },
+  "engineering.biomedical_engineering": {
+   "definition": "Biomedical engineering.",
+   "includes": [
+    "medical devices and instrumentation",
+    "biomedical signal processing",
+    "biomaterials"
+   ],
+   "excludes": [
+    "biology itself -> no category (biology is not measured)"
+   ],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Biomedical Instrumentation",
+    "Electronics for Health Care"
+   ],
+   "candidate_courses": [
+    "Biomedical Instrumentation",
+    "Biomedical Signal and Image Processing",
+    "Electronics for Health Care"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures",
+   "v3_proposal_name_on_hold": "interdisciplinary_engineering.biomedical_engineering"
+  },
+  "engineering.mechatronics": {
+   "definition": "Mechatronics: integration of mechanics, electronics and control.",
+   "includes": [
+    "mechatronic components and systems",
+    "actuators and sensors in systems",
+    "mechatronics design processes"
+   ],
+   "excludes": [
+    "pure control theory -> control_systems"
+   ],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026); Koushik note 20.10 (FAU AT, 4513)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Mechatronics",
+    "Microprocessors in Automation",
+    "Industry 4.0"
+   ],
+   "candidate_courses": [
+    "Mechatronic Systems",
+    "Mechatronics",
+    "Microprocessors in Automation"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures",
+   "v3_proposal_name_on_hold": "interdisciplinary_engineering.mechatronics"
+  },
+  "engineering.model_based_systems_engineering": {
+   "definition": "Systems engineering and model-based systems engineering.",
+   "includes": [
+    "MBSE, SysML",
+    "requirements engineering for systems",
+    "systems design processes"
+   ],
+   "excludes": [
+    "software requirements engineering -> software_engineering"
+   ],
+   "pc_sources": [],
+   "note": "Koushik note 20.10 (4513).",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Cyber-Physical Systems (partial)"
+   ],
+   "candidate_courses": [
+    "Model Based System Engineering"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures",
+   "v3_proposal_name_on_hold": "interdisciplinary_engineering.model_based_systems_engineering"
+  },
+  "engineering.robotics": {
+   "definition": "Robotics.",
+   "includes": [
+    "robot kinematics and dynamics",
+    "robot control and programming",
+    "industrial robots"
+   ],
+   "excludes": [],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Industrial Robotics"
+   ],
+   "candidate_courses": [
+    "Drone Technology",
+    "Industrial Robotics",
+    "Robotics and Automation",
+    "Unmanned Aerial Vehicles and Satellite Imaging"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures",
+   "v3_proposal_name_on_hold": "interdisciplinary_engineering.robotics"
+  },
+  "information_science.knowledge_organisation": {
+   "definition": "Knowledge organisation and information science.",
+   "includes": [
+    "classification, metadata, indexing",
+    "information retrieval as information science"
+   ],
+   "excludes": [],
+   "pc_sources": [],
+   "note": "Renamed from information_science.knowledge_organisation (D9).",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [],
+   "candidate_courses": [],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures",
+   "v3_proposal_name_on_hold": "other.knowledge_organisation"
+  },
+  "interdisciplinary.cognitive_foundations": {
+   "definition": "Cognitive science foundations.",
+   "includes": [
+    "cognitive psychology",
+    "perception and cognition"
+   ],
+   "excludes": [],
+   "pc_sources": [],
+   "note": "Renamed from interdisciplinary.cognitive_foundations (D9).",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [],
+   "candidate_courses": [],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures",
+   "v3_proposal_name_on_hold": "other.cognitive_science"
+  },
+  "mathematics_statistics.calculus_analysis": {
+   "definition": "Calculus and mathematical analysis.",
+   "includes": [
+    "limits, differentiation, integration",
+    "sequences and series",
+    "multivariable and vector calculus",
+    "ordinary and partial differential equations",
+    "Laplace and Fourier transforms",
+    "numerical methods",
+    "complex analysis"
+   ],
+   "excludes": [
+    "matrices and linear algebra -> linear_algebra (a combined course can belong to both)",
+    "numerical methods: belongs to BOTH calculus_analysis and optimization_numerics (kept broad)"
+   ],
+   "pc_sources": [
+    "cs:mathematics_statistics.calculus_analysis"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Computational Mathematics Lab",
+    "Mathematics - I",
+    "Mathematics - I (Matrices, Eigenvalues, Sequences, Series, Calculus)",
+    "Mathematics - II",
+    "Mathematics - II (ODEs, Multiple Integrals, Vector Calculus)",
+    "Matrices and Calculus",
+    "Ordinary Differential Equations and Vector Calculus",
+    "Matrices and Calculus (calculus part)",
+    "Numerical Methods and Complex Variables (complex variables part)"
+   ],
+   "candidate_courses": [
+    "Mathematics – III",
+    "Matrices and Calculus",
+    "Numerical Methods and Complex Variables",
+    "Ordinary Differential Equations and Vector Calculus",
+    "Probability, Statistics & Complex Variables",
+    "Probability, Statistics and Complex Variables"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "mathematics_statistics.discrete_math_logic": {
+   "definition": "Discrete mathematics and mathematical logic.",
+   "includes": [
+    "sets, relations, functions",
+    "propositional and predicate logic, proof techniques",
+    "combinatorics, recurrence relations",
+    "graph theory",
+    "algebraic structures, lattices, Boolean algebra",
+    "number theory",
+    "game theory"
+   ],
+   "excludes": [
+    "automata and formal languages -> theoretical_cs"
+   ],
+   "pc_sources": [
+    "cs:mathematics_statistics.discrete_math_logic"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Discrete Mathematics",
+    "Game Theory (PE)",
+    "Graph Theory (PE)",
+    "Optimization Techniques (PE)",
+    "Professional Elective-V: Game Theory",
+    "Professional Elective-VI: Graph Theory"
+   ],
+   "candidate_courses": [
+    "Discrete Mathematics",
+    "Graph Theory",
+    "Mathematical and Statistical Foundation",
+    "Number Theory & Cryptography"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "mathematics_statistics.linear_algebra": {
+   "definition": "Linear algebra and matrix theory.",
+   "includes": [
+    "matrices and determinants",
+    "systems of linear equations",
+    "vector spaces, linear transformations",
+    "eigenvalues and eigenvectors, diagonalization",
+    "orthogonality, matrix decompositions"
+   ],
+   "excludes": [],
+   "pc_sources": [
+    "cs:mathematics_statistics.linear_algebra"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Matrices and Calculus",
+    "Mathematics - I (Matrices, Eigenvalues, Sequences, Series, Calculus)",
+    "Mathematics for Machine Learning (OE)",
+    "Open Elective-I: Mathematics for Machine Learning",
+    "Matrices and Calculus (matrices part)"
+   ],
+   "candidate_courses": [
+    "Mathematics for Machine Learning",
+    "Matrices and Calculus"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "mathematics_statistics.optimization_numerics": {
+   "definition": "Numerical methods and mathematical optimization.",
+   "includes": [
+    "numerical solution of equations, interpolation, numerical differentiation and integration",
+    "numerical solution of ODEs/PDEs",
+    "numerical linear algebra",
+    "linear programming, simplex, transportation and assignment problems",
+    "nonlinear and convex optimization",
+    "operations research"
+   ],
+   "excludes": [
+    "machine-learning optimizers taught inside ML courses -> machine_learning_ai",
+    "engineering courses that apply numerical methods (finite element methods, computational fluid dynamics) -> their engineering category only; numerics counts only for courses that teach numerical mathematics itself (numerical methods / Numerik, operations research, optimization) (Koushik 31.10.2026; TU Braunschweig and FAU module handbooks)"
+   ],
+   "pc_sources": [],
+   "note": "JNTUH R22 course structure (read 26.10.2026)",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Numerical Methods and Complex Variables (numerical part)",
+    "Numerical Methods",
+    "Operations Research",
+    "Optimization Techniques"
+   ],
+   "candidate_courses": [
+    "Game Theory",
+    "Mathematics for Machine Learning",
+    "Numerical Methods and Complex Variables",
+    "Operations Research",
+    "Optimization Methods",
+    "Optimization Techniques"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "mathematics_statistics.statistics_probability": {
+   "definition": "Probability theory and statistics.",
+   "includes": [
+    "probability, random variables, distributions",
+    "sampling and estimation",
+    "hypothesis testing",
+    "correlation and regression",
+    "statistical inference",
+    "stochastic processes, queuing basics"
+   ],
+   "excludes": [
+    "machine learning -> machine_learning_ai",
+    "hydrology frequency analysis as a small part of a water-resources course -> not statistics"
+   ],
+   "pc_sources": [
+    "cs:mathematics_statistics.statistics_probability",
+    "civil:mathematics_statistics.statistics_probability"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Computer Oriented Statistical Methods",
+    "Computer oriented Statistical Methods",
+    "Mathematical and Statistical Foundation",
+    "Mathematical and Statistical Foundations",
+    "Probability and Statistics",
+    "Probability, Statistics & Complex Variables",
+    "Probability Theory and Stochastic Processes"
+   ],
+   "candidate_courses": [
+    "Computer Oriented Statistical Methods",
+    "Mathematical and Statistical Foundation",
+    "Probability Theory and Stochastic Processes",
+    "Probability and Statistics",
+    "Probability, Statistics & Complex Variables",
+    "Probability, Statistics and Complex Variables"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "mechanical_manufacturing_engineering.design_machine_elements": {
+   "definition": "Machine design / design engineering: technical drawing and the design of machine elements.",
+   "includes": [
+    "engineering graphics and machine drawing (technical drawing, projections, assembly drawings)",
+    "design of machine members: joints, shafts, keys, couplings, springs, bearings, gears",
+    "computer-aided design (CAD)",
+    "machine tool design",
+    "selection and design of bearings (sliding and rolling)"
+   ],
+   "excludes": [
+    "analysis of mechanisms and dynamics without sizing elements -> civil_engineering.structural_mechanics + mechanical_manufacturing_engineering.mechanics_dynamics (rule S1)"
+   ],
+   "pc_sources": [
+    "mechanical:mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Engineering Graphics",
+    "Machine Drawing Practice",
+    "Design of Machine Members-I",
+    "Design of Machine Members-II",
+    "CAD & CAM",
+    "CAD & CAM Lab",
+    "Machine Tool Design",
+    "Tribology",
+    "Computer Aided Engineering Graphics",
+    "Computer Aided Machine Drawing",
+    "Design of Machine Elements",
+    "Machine Design",
+    "CAD/CAM (design part)"
+   ],
+   "candidate_courses": [
+    "CAD/CAM",
+    "Computer Aided Engineering Graphics",
+    "Computer Aided Machine Drawing",
+    "Conventional and Computer Aided Machine Drawing",
+    "Design for Manufacturing and Assembly",
+    "Design of Machine Elements",
+    "Design of Transmission Elements",
+    "Engineering Graphics and Computer Aided Drafting",
+    "Machine Design",
+    "Product Design and Manufacturing"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "mechanical_manufacturing_engineering.manufacturing_production": {
+   "definition": "Manufacturing and production engineering.",
+   "includes": [
+    "production technology: casting, welding, forming, forging",
+    "metal cutting and machine tools",
+    "metrology and measurement of parts",
+    "unconventional / non-traditional machining",
+    "computer-aided manufacturing (CAM, CNC)",
+    "additive manufacturing",
+    "automation in manufacturing",
+    "micro-fabrication processes (deposition, lithography, etching, micromachining)"
+   ],
+   "excludes": [
+    "production planning and control, operations management, industrial management -> no category (management, not manufacturing processes)",
+    "first-year engineering workshop / workshop practice (basic trades: fitting, carpentry, welding, smithy) -> no category (skills course, not manufacturing science) (Koushik 30.10.2026)"
+   ],
+   "pc_sources": [
+    "mechanical:mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Engineering Workshop",
+    "Production Technology",
+    "Production Technology Lab",
+    "Metrology & Machine Tools",
+    "Metrology & Machine Tools Lab",
+    "CAD & CAM",
+    "CAD & CAM Lab",
+    "Unconventional Machining Processes",
+    "Machine Tool Design",
+    "Additive Manufacturing",
+    "Automation in Manufacturing",
+    "MEMS"
+   ],
+   "candidate_courses": [
+    "Additive Manufacturing",
+    "Advanced Machining Processes",
+    "Automation in Manufacturing",
+    "CAD/CAM",
+    "Design for Manufacturing and Assembly",
+    "Digital Manufacturing",
+    "Industry 4.0",
+    "Metrology & Machine Tools",
+    "Metrology and Machine Tools",
+    "Micro Manufacturing",
+    "Product Design and Manufacturing",
+    "Production Technology",
+    "Unconventional Machining Processes"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "mechanical_manufacturing_engineering.mechanics_dynamics": {
+   "definition": "Engineering (technical) mechanics of solids, structures and machines: statics, dynamics, kinematics, strength of materials (German: Technische Mechanik).",
+   "includes": [
+    "engineering mechanics: statics, friction, centroids, moments of inertia, dynamics of particles and rigid bodies",
+    "mechanics of solids / strength of materials: stress, strain, bending, torsion, columns",
+    "kinematics of machinery: mechanisms, linkages, cams, gears",
+    "dynamics of machinery: balancing, governors, gyroscopes, flywheels",
+    "mechanical vibrations",
+    "finite element methods for structural / stress analysis",
+    "robot kinematics and dynamics (when a substantial part of the course)",
+    "engineering mechanics: statics, friction, centroids, moments of inertia, kinematics and dynamics of bodies",
+    "strength of materials: stress, strain, bending, shear, torsion, deflection, columns",
+    "structural analysis: determinate and indeterminate structures, moment distribution, slope deflection, influence lines, matrix methods",
+    "theory of elasticity",
+    "finite element methods for structures"
+   ],
+   "excludes": [
+    "design of structures (RCC, steel, timber design) -> civil_engineering.structural_engineering; structural analysis belongs to BOTH (kept broad)",
+    "fluid mechanics -> civil_engineering.fluid_mechanics + mechanical_manufacturing_engineering.mechanics_fluid_dynamics (rule S2)"
+   ],
+   "pc_sources": [
+    "mechanical:mechanical_manufacturing_engineering.mechanics_dynamics",
+    "civil:civil_engineering.structural_mechanics"
+   ],
+   "note": "Merges civil_engineering.structural_mechanics + mechanical_manufacturing_engineering.mechanics_dynamics (D1/D2).",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Engineering Mechanics",
+    "Mechanics of Solids",
+    "Material Science and Mechanics of Solids Lab",
+    "Kinematics of Machinery",
+    "Dynamics of Machinery",
+    "Kinematics & Dynamics Lab",
+    "Finite Element Methods",
+    "Industrial Robotics",
+    "Mechanical Vibrations",
+    "Strength of Materials - I",
+    "Strength of Materials Lab",
+    "Strength of Materials - II",
+    "Structural Analysis - I",
+    "Structural Analysis - II",
+    "Theory of Elasticity",
+    "Advanced Structural Analysis",
+    "Finite Element Methods for Civil Engineering",
+    "Applied Mechanics",
+    "Strength of Materials – I",
+    "Strength of Materials – II",
+    "Solid Mechanics & Hydraulic Machines (solid-mechanics part)"
+   ],
+   "candidate_courses": [
+    "Applied Mechanics",
+    "Dynamics of Machinery",
+    "Engineering Mechanics",
+    "Kinematics of Machinery",
+    "Mechanical Vibrations",
+    "Mechanics of Composite Materials and Structures",
+    "Mechanics of Solids",
+    "Solid Mechanics & Hydraulic Machines",
+    "Strength of Materials",
+    "Strength of Materials – I",
+    "Strength of Materials – II",
+    "Structural Mechanics"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures",
+   "v3_proposal_name_on_hold": "engineering_mechanics.technical_mechanics",
+   "same_subject_as": [
+    "civil_engineering.structural_mechanics"
+   ],
+   "same_subject_rule": "S1"
+  },
+  "mechanical_manufacturing_engineering.mechanics_fluid_dynamics": {
+   "definition": "Fluid mechanics, hydraulics and fluid machinery.",
+   "includes": [
+    "fluid properties, fluid statics, kinematics and dynamics",
+    "flow through pipes, boundary layers",
+    "hydraulic machines: turbines and pumps",
+    "computational fluid dynamics",
+    "fluid power: hydraulic and pneumatic systems",
+    "turbomachinery (also thermodynamics when it covers compressors, steam and gas turbines)",
+    "lubrication theory (hydrodynamic / hydrostatic fluid films, Reynolds equation)",
+    "fluid properties, statics, kinematics and dynamics",
+    "flow measurement, pipe flow, boundary layers",
+    "open channel flow",
+    "pipeline hydraulics and water hammer",
+    "groundwater flow through porous media (Darcy's law, flow to wells)"
+   ],
+   "excludes": [
+    "hydrology and water resources -> civil_engineering.water_engineering",
+    "thermodynamics -> mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "pc_sources": [
+    "mechanical:mechanical_manufacturing_engineering.mechanics_fluid_dynamics",
+    "civil:civil_engineering.fluid_mechanics"
+   ],
+   "note": "Merges civil_engineering.fluid_mechanics + mechanical_manufacturing_engineering.mechanics_fluid_dynamics (D1).",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Fluid Mechanics and Hydraulic Machines",
+    "Fluid Mechanics and Hydraulic Machines Lab",
+    "Computational Fluid Dynamics",
+    "Turbo Machinery",
+    "Fluid Power Systems",
+    "Tribology",
+    "Fluid Mechanics",
+    "Hydraulics and Hydraulic Machinery",
+    "Hydraulics and Hydraulic Machinery Lab",
+    "Pipeline Engineering",
+    "Ground Water Hydrology",
+    "Hydraulics and Hydraulics Machinery",
+    "Fluid Mechanics & Hydraulic Machines"
+   ],
+   "candidate_courses": [
+    "Computational Fluid Dynamics",
+    "Fluid Mechanics",
+    "Fluid Mechanics & Hydraulic Machines",
+    "Fluid Mechanics and Hydraulic Machines",
+    "Fluid Power System",
+    "Hydraulics & Hydraulic Machinery",
+    "Hydraulics and Hydraulics Machinery",
+    "Hydraulics and Pneumatics",
+    "Solid Mechanics & Hydraulic Machines",
+    "Turbo Machinery"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures",
+   "v3_proposal_name_on_hold": "engineering_mechanics.fluid_mechanics",
+   "same_subject_as": [
+    "civil_engineering.fluid_mechanics"
+   ],
+   "same_subject_rule": "S2"
+  },
+  "mechanical_manufacturing_engineering.thermodynamics": {
+   "definition": "Engineering thermodynamics, heat transfer and thermal engineering.",
+   "includes": [
+    "laws of thermodynamics, properties of steam, gas and vapour power cycles",
+    "thermal engineering: IC engines, compressors, steam boilers, nozzles, steam and gas turbines",
+    "heat and mass transfer: conduction, convection, radiation, heat exchangers",
+    "refrigeration and air conditioning",
+    "power plant engineering"
+   ],
+   "excludes": [
+    "pure fluid mechanics -> civil_engineering.fluid_mechanics + mechanical_manufacturing_engineering.mechanics_fluid_dynamics (rule S2)"
+   ],
+   "pc_sources": [
+    "mechanical:mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Thermodynamics",
+    "Thermal Engineering - I",
+    "Thermal Engineering-II",
+    "Thermal Engineering Lab",
+    "Heat Transfer",
+    "Heat Transfer Lab",
+    "Refrigeration & Air Conditioning",
+    "Power Plant Engineering",
+    "Turbo Machinery",
+    "IC Engines & Gas Turbines",
+    "Steam Power & Jet Propulsion"
+   ],
+   "candidate_courses": [
+    "Heat Transfer",
+    "IC Engines & Gas Turbines",
+    "Power Plant Engineering",
+    "Refrigeration & Air Conditioning",
+    "Refrigeration and Air-Conditioning",
+    "Steam Power & Jet Propulsion",
+    "Thermal Engineering - I",
+    "Thermal Engineering - II",
+    "Thermodynamics",
+    "Turbo Machinery"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "other.thesis_scientific_work": {
+   "definition": "Independent project, thesis, research, seminar or internship work.",
+   "includes": [
+    "bachelor thesis",
+    "major / mini project, project work",
+    "research project",
+    "seminar",
+    "technical writing and presentation of own work",
+    "industry internship"
+   ],
+   "excludes": [
+    "a lab tied to a subject -> that subject"
+   ],
+   "pc_sources": [
+    "cs:other.thesis_scientific_work"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Field Based Project/Internship",
+    "Field-Based Research Project",
+    "Industrial Oriented Mini Project/Summer Internship",
+    "Industry Oriented Mini Project/Internship",
+    "Industry Oriented Mini Project/Summer Internship",
+    "Project Stage - I",
+    "Project Stage - II",
+    "Project Work",
+    "Seminar"
+   ],
+   "candidate_courses": [
+    "Field Based Project / Internship",
+    "Industry Oriented Mini Project / Internship",
+    "Industry Oriented Mini Project / Summer Internship",
+    "Project Stage – I",
+    "Project Stage – II including Seminar",
+    "Project Work",
+    "Real-time Research Project / Field-Based Project"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "physics_natural_sciences.chemistry": {
+   "definition": "Chemistry.",
+   "includes": [
+    "engineering, physical, organic and inorganic chemistry",
+    "electrochemistry",
+    "materials chemistry",
+    "water and fuel chemistry",
+    "engineering chemistry",
+    "electrochemistry and corrosion",
+    "polymers chemistry",
+    "chemistry labs"
+   ],
+   "excludes": [
+    "environmental awareness courses -> no category"
+   ],
+   "pc_sources": [
+    "cs:physics_natural_sciences.chemistry",
+    "mechanical:chemistry_materials.general_chemistry"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Chemistry",
+    "Engineering Chemistry",
+    "Engineering Chemistry (+Lab)",
+    "Engineering Chemistry Lab"
+   ],
+   "candidate_courses": [
+    "Applied Chemistry",
+    "Chemistry",
+    "Engineering Chemistry"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures",
+   "v3_proposal_name_on_hold": "natural_sciences.chemistry"
+  },
+  "physics_natural_sciences.general_physics": {
+   "definition": "Physics.",
+   "includes": [
+    "mechanics",
+    "waves and optics",
+    "electromagnetism",
+    "quantum physics",
+    "semiconductor and solid-state physics",
+    "applied / engineering physics",
+    "engineering mechanics: statics, friction, centroids, moments of inertia, dynamics of particles and rigid bodies",
+    "engineering / applied physics",
+    "waves, optics and lasers",
+    "quantum and modern physics",
+    "physics labs"
+   ],
+   "excludes": [
+    "physics used only as brief background in another subject (Rule 6) -> not physics",
+    "electromagnetic field theory taught as an engineering subject -> electrical_electronic_engineering.electromagnetic_field_theory",
+    "strength of materials, fluid mechanics and thermodynamics taught as engineering subjects -> their engineering category"
+   ],
+   "pc_sources": [
+    "cs:physics_natural_sciences.general_physics",
+    "eee:physics_natural_sciences.general_physics",
+    "mechanical:physics_natural_sciences.general_physics",
+    "civil:physics_natural_sciences.general_physics"
+   ],
+   "note": "",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Advanced Engineering Physics",
+    "Advanced Engineering Physics (+Lab)",
+    "Applied Physics",
+    "Applied Physics Lab",
+    "Engineering Mechanics",
+    "Engineering Physics",
+    "Engineering Physics Lab",
+    "Applied Physics Laboratory"
+   ],
+   "candidate_courses": [
+    "Advanced Engineering Physics",
+    "Applied Physics",
+    "Physics",
+    "Quantum Technologies"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures",
+   "v3_proposal_name_on_hold": "natural_sciences.physics"
+  },
+  "society_law_ethics.ethics_law_society": {
+   "definition": "Ethics, law, data protection and society (TH Köln \"Acting Responsibly\").",
+   "includes": [
+    "professional ethics",
+    "IT law, data protection, IPR",
+    "technology and society"
+   ],
+   "excludes": [],
+   "pc_sources": [],
+   "note": "T3 (Koushik 15.10). JNTUH mandatory courses carry 0 credits.",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Intellectual Property Rights (0 credits at JNTUH)",
+    "Professional Practice, Law & Ethics",
+    "Constitution of India (0 credits)"
+   ],
+   "candidate_courses": [
+    "Human Values and Professional Ethics",
+    "Professional Practice, Law & Ethics"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  },
+  "civil_engineering.surveying_geodesy": {
+   "definition": "Surveying, geodesy and geomatics.",
+   "includes": [
+    "plane and geodetic surveying",
+    "total station, GPS/GNSS",
+    "remote sensing and GIS",
+    "photogrammetry"
+   ],
+   "excludes": [],
+   "pc_sources": [],
+   "note": "NEW 26.10.2026 (Koushik): only new category. Regulations: 5229 (surveying), 9921 (Geodäsie). Records must be edited to use it (separate approval).",
+   "status": "SUPPORTED_BY_TITLE",
+   "candidate_courses_r18_and_older": [
+    "Surveying",
+    "Surveying Laboratory - I",
+    "Surveying Laboratory - II",
+    "Geomatic Applications in Civil Engineering"
+   ],
+   "candidate_courses": [
+    "Geomatic Applications in Civil Engineering",
+    "Remote Sensing & GIS",
+    "Surveying",
+    "Surveying and Geomatics"
+   ],
+   "candidate_courses_source": "JNTUH R22 (2022) + R25 (2025) course structures"
+  }
+ }
+}

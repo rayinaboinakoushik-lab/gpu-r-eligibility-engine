@@ -1,0 +1,436 @@
+{
+ "id": "S13_anna_velalar_eee",
+ "field": "eee",
+ "degree": "B.E. Electrical and Electronics Engineering",
+ "university": "Anna University, Chennai",
+ "institution": "Velalar College of Engineering and Technology, Erode (Autonomous, affiliated to Anna University)",
+ "regulation": "Regulations 2022",
+ "entry": "regular",
+ "years": 4,
+ "credits_for_award_printed": 162,
+ "grading": [
+  [
+   "O",
+   10
+  ],
+  [
+   "A+",
+   9
+  ],
+  [
+   "A",
+   8
+  ],
+  [
+   "B+",
+   7
+  ],
+  [
+   "B",
+   6
+  ],
+  [
+   "C",
+   5
+  ]
+ ],
+ "pass_min": 5,
+ "layout": "two_column",
+ "seed": 1313,
+ "target_cgpa": 8.2,
+ "source": [
+  "https://www.velalarengg.ac.in/wp-content/uploads/2025/01/EEE-Curriculum_Syllabus_R2022.pdf"
+ ],
+ "abbreviate": true,
+ "provenance": {
+  "institution_status": "autonomous college affiliated to Anna University (own R2022 curriculum)",
+  "curriculum_check": "semester sums equal printed totals for the batch variant chosen (20/24/20/24/22/22/18/12 = 162)",
+  "grading_source": null,
+  "grading_verified": false,
+  "grading_note": "Anna-University-style O..C scale, pass C = 5 assumed",
+  "electives": "PE 1-6 from the department's verticals, OE 1-3 from other departments' listed offers",
+  "omitted": [
+   "batch-specific rows: the variant whose rows match the printed semester totals was used (Programming in C 4 credits; Heritage of Tamils in I, Tamils and Technology in II)",
+   "Tamil part of the bilingual titles; trailing full stops removed"
+  ]
+ },
+ "degree_field_id": "electrical_electronic_engineering",
+ "split": "heldout",
+ "semesters": [
+  {
+   "name": "I",
+   "courses": [
+    {
+     "code": "22MCT01",
+     "title": "Induction Programme",
+     "credits": 0
+    },
+    {
+     "code": "22ENT11",
+     "title": "Communicative English",
+     "credits": 3
+    },
+    {
+     "code": "22MAT11",
+     "title": "Matrices and Differential Equations",
+     "credits": 4
+    },
+    {
+     "code": "22PHT11",
+     "title": "Engineering Physics",
+     "credits": 3
+    },
+    {
+     "code": "22CYT11",
+     "title": "Engineering Chemistry",
+     "credits": 3
+    },
+    {
+     "code": "22CST11",
+     "title": "Python Programming",
+     "credits": 3
+    },
+    {
+     "code": "22HST11",
+     "title": "Heritage of Tamils",
+     "credits": 1
+    },
+    {
+     "code": "22PHL11",
+     "title": "Physics and Chemistry Laboratory I",
+     "credits": 1
+    },
+    {
+     "code": "22CSL11",
+     "title": "Python Programming Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "22MEL11",
+     "title": "Workshop Practices Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "22MCT02",
+     "title": "Universal Human Values",
+     "credits": 0
+    }
+   ]
+  },
+  {
+   "name": "II",
+   "courses": [
+    {
+     "code": "22ENT21",
+     "title": "Professional English",
+     "credits": 3
+    },
+    {
+     "code": "22MAT21",
+     "title": "Calculus and Complex Analysis",
+     "credits": 4
+    },
+    {
+     "code": "22PHT23",
+     "title": "Physics for Electrical Sciences",
+     "credits": 3
+    },
+    {
+     "code": "22ITC21",
+     "title": "Programming in C",
+     "credits": 4
+    },
+    {
+     "code": "22MET11",
+     "title": "Engineering Graphics",
+     "credits": 4
+    },
+    {
+     "code": "22EET23",
+     "title": "Electric Circuit Theory",
+     "credits": 3
+    },
+    {
+     "code": "22HST21",
+     "title": "Tamils and Technology",
+     "credits": 1
+    },
+    {
+     "code": "22PHL21",
+     "title": "Physics and Chemistry Laboratory II",
+     "credits": 1
+    },
+    {
+     "code": "22EEL21",
+     "title": "Electric Circuits Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "22MCT03",
+     "title": "Environmental Science and Engineering",
+     "credits": 0
+    }
+   ]
+  },
+  {
+   "name": "III",
+   "courses": [
+    {
+     "code": "22MAT33",
+     "title": "Transform Techniques & Numerical Methods",
+     "credits": 4
+    },
+    {
+     "code": "22EET31",
+     "title": "Electronic Devices and Circuits",
+     "credits": 3
+    },
+    {
+     "code": "22EET32",
+     "title": "Electromagnetic Field",
+     "credits": 4
+    },
+    {
+     "code": "22EET33",
+     "title": "DC machines and Transformers",
+     "credits": 4
+    },
+    {
+     "code": "22EET34",
+     "title": "Measurement and Instrumentation Systems",
+     "credits": 3
+    },
+    {
+     "code": "22EEL31",
+     "title": "Electronic Devices and Circuits Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "22EEL32",
+     "title": "DC machines and Transformers Laboratory",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "IV",
+   "courses": [
+    {
+     "code": "22EET41",
+     "title": "Digital Logic Circuits",
+     "credits": 4
+    },
+    {
+     "code": "22EET42",
+     "title": "Linear Integrated Circuits and Applications",
+     "credits": 3
+    },
+    {
+     "code": "22EET43",
+     "title": "Induction and Synchronous Machines",
+     "credits": 4
+    },
+    {
+     "code": "22EET44",
+     "title": "Transmission and Distribution",
+     "credits": 3
+    },
+    {
+     "code": "22EET45",
+     "title": "Control Systems",
+     "credits": 4
+    },
+    {
+     "code": "22ITT31",
+     "title": "Object Oriented Programming using JAVA",
+     "credits": 3
+    },
+    {
+     "code": "22EEL41",
+     "title": "Induction and Synchronous Machines Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "22EEL42",
+     "title": "Linear and Digital Integrated Circuits Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "22ITL31",
+     "title": "Object Oriented Programming Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "22MCL04",
+     "title": "English for Professionals",
+     "credits": 0
+    }
+   ]
+  },
+  {
+   "name": "V",
+   "courses": [
+    {
+     "code": "22EET51",
+     "title": "Power Electronics",
+     "credits": 4
+    },
+    {
+     "code": "22EET52",
+     "title": "Power System Analysis",
+     "credits": 4
+    },
+    {
+     "code": "22EET53",
+     "title": "Microprocessor and Microcontroller",
+     "credits": 3
+    },
+    {
+     "code": "22EEE14",
+     "title": "Power Quality",
+     "credits": 3
+    },
+    {
+     "code": "22EEE22",
+     "title": "Special Electrical Machines",
+     "credits": 3
+    },
+    {
+     "code": "22ADO02",
+     "title": "Data Science for Engineers",
+     "credits": 3
+    },
+    {
+     "code": "22EEL51",
+     "title": "Microprocessor and Microcontroller Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "22EEL52",
+     "title": "Control Systems and Instrumentation Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "22MCT05",
+     "title": "Aptitude and Logical Reasoning",
+     "credits": 0
+    }
+   ]
+  },
+  {
+   "name": "VI",
+   "courses": [
+    {
+     "code": "22EET61",
+     "title": "Solid State Drives",
+     "credits": 3
+    },
+    {
+     "code": "22EET62",
+     "title": "Digital Signal Processing",
+     "credits": 4
+    },
+    {
+     "code": "22EET63",
+     "title": "Power System Operation and Control",
+     "credits": 3
+    },
+    {
+     "code": "22EEE31",
+     "title": "Embedded Systems",
+     "credits": 3
+    },
+    {
+     "code": "22EEE44",
+     "title": "PLC and Automation",
+     "credits": 3
+    },
+    {
+     "code": "22ECO04",
+     "title": "IOT System Design and Applications",
+     "credits": 3
+    },
+    {
+     "code": "22EEL61",
+     "title": "Power Electronics and Drives Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "22EEL62",
+     "title": "Innovative Design Project",
+     "credits": 2
+    },
+    {
+     "code": "22MCL06",
+     "title": "Communication Skills Laboratory",
+     "credits": 0
+    }
+   ]
+  },
+  {
+   "name": "VII",
+   "courses": [
+    {
+     "code": "22EET71",
+     "title": "Protection and Switchgear",
+     "credits": 3
+    },
+    {
+     "code": "22EET72",
+     "title": "Economics and Management for Engineers",
+     "credits": 3
+    },
+    {
+     "code": "22EEE51",
+     "title": "Electric Vehicle Architecture",
+     "credits": 3
+    },
+    {
+     "code": "22EEE61",
+     "title": "VLSI Design",
+     "credits": 3
+    },
+    {
+     "code": "22MEO02",
+     "title": "Product Design and Development",
+     "credits": 3
+    },
+    {
+     "code": "22HST71",
+     "title": "Human Values and Professional Ethics",
+     "credits": 1
+    },
+    {
+     "code": "22EEL71",
+     "title": "Renewable Energy Systems Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "22EEL72",
+     "title": "Power System Simulation Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "22MCT07",
+     "title": "Indian Constitution and Traditional Knowledge",
+     "credits": 0
+    }
+   ]
+  },
+  {
+   "name": "VIII",
+   "courses": [
+    {
+     "code": "22EEL81",
+     "title": "Internship",
+     "credits": 2
+    },
+    {
+     "code": "22EEL82",
+     "title": "Project Work",
+     "credits": 10
+    }
+   ]
+  }
+ ]
+}

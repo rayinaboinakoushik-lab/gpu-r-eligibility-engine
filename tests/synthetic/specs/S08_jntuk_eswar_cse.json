@@ -1,0 +1,428 @@
+{
+ "id": "S08_jntuk_eswar_cse",
+ "field": "cs",
+ "degree": "B.Tech Computer Science and Engineering",
+ "university": "Jawaharlal Nehru Technological University Kakinada",
+ "institution": "Eswar College of Engineering, Narasaraopet (affiliated to JNTUK)",
+ "regulation": "R20",
+ "entry": "regular",
+ "years": 4,
+ "credits_for_award_printed": 160,
+ "grading": [
+  [
+   "O",
+   10
+  ],
+  [
+   "A",
+   9
+  ],
+  [
+   "B",
+   8
+  ],
+  [
+   "C",
+   7
+  ],
+  [
+   "D",
+   6
+  ],
+  [
+   "E",
+   5
+  ]
+ ],
+ "pass_min": 5,
+ "layout": "two_column",
+ "seed": 808,
+ "target_cgpa": 8.3,
+ "source": [
+  "https://eswarcollegeofengg.org/CSE-R20.pdf"
+ ],
+ "abbreviate": false,
+ "provenance": {
+  "institution_status": "JNTUK-affiliated college; JNTUK R20 CSE course structure (the file names JNTUK, not the college)",
+  "curriculum_check": "semester sums equal printed totals (19.5/19.5/21.5/21.5/21.5/21.5/23/12 = 160)",
+  "grading_source": null,
+  "grading_verified": false,
+  "grading_note": "JNTUK R20 10-point letters O/A/B/C/D/E, pass E = 5 assumed",
+  "electives": "PE I-V and the job-oriented open-elective alternatives printed in each OE slot; skill courses: one of the two printed options",
+  "omitted": [
+   "course codes (not printed in the source)",
+   "semester VI 2-month internship (no credits printed)",
+   "minor/honours courses (outside the printed totals)",
+   "long slot names shortened to the chosen option title"
+  ]
+ },
+ "degree_field_id": "computer_science",
+ "split": "dev",
+ "semesters": [
+  {
+   "name": "I",
+   "courses": [
+    {
+     "code": "",
+     "title": "Communicative English",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Mathematics - I (Calculus And Differential Equations)",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Applied Physics",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Programming for Problem Solving using C",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Computer Engineering Workshop",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "English Communication Skills Laboratory",
+     "credits": 1.5
+    },
+    {
+     "code": "",
+     "title": "Applied Physics Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "",
+     "title": "Programming for Problem Solving using C Lab",
+     "credits": 1.5
+    }
+   ]
+  },
+  {
+   "name": "II",
+   "courses": [
+    {
+     "code": "",
+     "title": "Mathematics – II (Linear Algebra And Numerical Methods)",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Applied Chemistry",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Computer Organization",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Python Programming",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Data Structures",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Applied Chemistry Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "",
+     "title": "Python Programming Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "",
+     "title": "Data Structures Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "",
+     "title": "Environment Science",
+     "credits": 0
+    }
+   ]
+  },
+  {
+   "name": "III",
+   "courses": [
+    {
+     "code": "",
+     "title": "Mathematics III",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Object Oriented Programming through C++",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Operating Systems",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Software Engineering",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Mathematical Foundations of Computer Science",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Object Oriented Programming through C++ Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "",
+     "title": "Operating Systems Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "",
+     "title": "Software Engineering Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "",
+     "title": "Applications of Python - Num Py",
+     "credits": 2
+    },
+    {
+     "code": "",
+     "title": "Constitution of India",
+     "credits": 0
+    }
+   ]
+  },
+  {
+   "name": "IV",
+   "courses": [
+    {
+     "code": "",
+     "title": "Probability and Statistics",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Database Management Systems",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Formal Languages and Automata Theory",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Java Programming",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Managerial Economics and Financial Accountancy",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Database Management Systems Lab",
+     "credits": 1
+    },
+    {
+     "code": "",
+     "title": "R Programming Lab",
+     "credits": 2
+    },
+    {
+     "code": "",
+     "title": "Java Programming Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "",
+     "title": "Applications of Python-Pandas",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "V",
+   "courses": [
+    {
+     "code": "",
+     "title": "Computer Networks",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Design and Analysis of Algorithms",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Data Warehousing and Data Mining",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Optimization in Operations Research",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Artificial Intelligence",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Data Warehousing and Data Mining Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "",
+     "title": "Computer Networks Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "",
+     "title": "Continuous Integration and Continuous Delivery using Dev Ops",
+     "credits": 2
+    },
+    {
+     "code": "",
+     "title": "Employability Skills-I",
+     "credits": 0
+    },
+    {
+     "code": "",
+     "title": "Summer Internship",
+     "credits": 1.5
+    }
+   ]
+  },
+  {
+   "name": "VI",
+   "courses": [
+    {
+     "code": "",
+     "title": "Machine Learning",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Compiler Design",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Cryptography and Network Security",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Big Data Analytics",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "MEAN Stack Development",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Machine Learning using Python Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "",
+     "title": "Compiler Design Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "",
+     "title": "Cryptography and Network Security Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "",
+     "title": "Big Data: Spark",
+     "credits": 2
+    },
+    {
+     "code": "",
+     "title": "Employability skills-II",
+     "credits": 0
+    }
+   ]
+  },
+  {
+   "name": "VII",
+   "courses": [
+    {
+     "code": "",
+     "title": "Cloud Computing",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Computer Vision",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Block-Chain Technologies",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "API and Microservices",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Secure Coding Techniques",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "Universal Human Values 2: Understanding Harmony",
+     "credits": 3
+    },
+    {
+     "code": "",
+     "title": "PYTHON: Deep Learning",
+     "credits": 2
+    },
+    {
+     "code": "",
+     "title": "Industrial/Research Internship",
+     "credits": 3
+    }
+   ]
+  },
+  {
+   "name": "VIII",
+   "courses": [
+    {
+     "code": "",
+     "title": "Major Project Work, Seminar Internship",
+     "credits": 12
+    }
+   ]
+  }
+ ]
+}

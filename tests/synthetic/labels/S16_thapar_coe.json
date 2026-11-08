@@ -1,0 +1,130 @@
+{
+ "id": "S16_thapar_coe",
+ "labeller": "Claude 03.11.2026 (course map first, exactly as the pipeline's own map lookup; generic maths titles null; then taxonomy rules); null = unsure (needs the syllabus), not scored",
+ "label_sources": {
+  "map": 16,
+  "generic": 2,
+  "manual": 27
+ },
+ "labels": {
+  "APPLIED CHEMISTRY": [
+   "physics_natural_sciences.chemistry"
+  ],
+  "COMPUTER PROGRAMMING": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "ELECTRICAL ENGINEERING": null,
+  "ENERGY AND ENVIRONMENT": [],
+  "MATHEMATICS – I": null,
+  "MECHANICS": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "APPLIED PHYSICS": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "OBJECT ORIENTED PROGRAMMING": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "ELECTRONICS ENGINEERING": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "ENGINEERING DRAWING": [],
+  "PROFESSIONAL COMMUNICATION": [],
+  "MATHEMATICS – II": null,
+  "OPERATING SYSTEMS": [
+   "computer_science_informatics.operating_systems"
+  ],
+  "DISCRETE MATHEMATICAL STRUCTURES": [
+   "mathematics_statistics.discrete_math_logic"
+  ],
+  "DATA STRUCTURES": [
+   "computer_science_informatics.algorithms_data_structures"
+  ],
+  "ENGINEERING MATERIALS": [],
+  "NUMERICAL ANALYSIS": [
+   "mathematics_statistics.optimization_numerics",
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "PRACTICAL COMPUTING": null,
+  "ENGINEERING DESIGN PROJECT – I": null,
+  "MANUFACTURING PROCESSES": [],
+  "ARTIFICIAL INTELLIGENCE": [
+   "computer_science_informatics.machine_learning_ai"
+  ],
+  "MEASUREMENT SCIENCE AND TECHNIQUES": [
+   "electrical_electronic_engineering.measurement_instrumentation"
+  ],
+  "DATABASE MANAGEMENT SYSTEMS": [
+   "computer_science_informatics.databases_systems"
+  ],
+  "COMPUTER NETWORKS": [
+   "computer_science_informatics.computer_networks",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "DESIGN AND ANALYSIS OF ALGORITHMS": [
+   "computer_science_informatics.algorithms_data_structures"
+  ],
+  "ENGINEERING DESIGN PROJECT – II": null,
+  "SOFTWARE ENGINEERING": [
+   "computer_science_informatics.software_engineering"
+  ],
+  "COMPUTER ARCHITECTURE AND ORGANIZATION": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "MACHINE LEARNING": [
+   "computer_science_informatics.machine_learning_ai"
+  ],
+  "PROBABILITY AND STATISTICS": [
+   "mathematics_statistics.statistics_probability"
+  ],
+  "NETWORK PROGRAMMING": [
+   "computer_science_informatics.programming_practical_cs",
+   "computer_science_informatics.computer_networks",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "DATA ANALYTICS & VISUALIZATION": [
+   "data_science.foundational_methods"
+  ],
+  "THEORY OF COMPUTATION": [
+   "computer_science_informatics.theoretical_cs"
+  ],
+  "COMPUTER GRAPHICS": [
+   "computer_science_informatics.graphics_visual_computing"
+  ],
+  "MICROPROCESSOR-BASED SYSTEMS DESIGN": [
+   "computer_science_informatics.computer_engineering",
+   "electrical_electronic_engineering.digital_systems"
+  ],
+  "OPTIMIZATION TECHNIQUES": [
+   "mathematics_statistics.optimization_numerics"
+  ],
+  "MATRIX COMPUTATION": [
+   "mathematics_statistics.linear_algebra",
+   "mathematics_statistics.optimization_numerics"
+  ],
+  "NATURAL LANGUAGE PROCESSING": [
+   "computer_science_informatics.machine_learning_ai"
+  ],
+  "INNOVATION AND ENTREPRENEURSHIP": [
+   "business_economics_management.business_administration"
+  ],
+  "EMBEDDED SYSTEMS DESIGN": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "COMPILER CONSTRUCTION": [
+   "computer_science_informatics.programming_practical_cs",
+   "computer_science_informatics.theoretical_cs"
+  ],
+  "HUMANITIES FOR ENGINEERS": [],
+  "SIMULATION & MODELLING": null,
+  "CAPSTONE PROJECT": [
+   "other.thesis_scientific_work"
+  ],
+  "PROJECT SEMESTER": [
+   "other.thesis_scientific_work"
+  ]
+ },
+ "label_changes": [
+  "04.11.2026, Koushik approved (held-out sample, corrected against official syllabus evidence before any re-run): ELECTRICAL ENGINEERING -> unsure (null). Thapar UEE001 syllabus: DC/AC circuits about 50%, electromagnetism, transformers, motors and generators about 50%"
+ ]
+}

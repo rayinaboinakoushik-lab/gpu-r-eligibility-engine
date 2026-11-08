@@ -1,0 +1,152 @@
+{
+ "id": "S17_mlsu_ece_lateral",
+ "labeller": "Claude 03.11.2026 (course map first, exactly as the pipeline's own map lookup; generic maths titles null; then taxonomy rules); null = unsure (needs the syllabus), not scored",
+ "label_sources": {
+  "map": 12,
+  "generic": 2,
+  "manual": 38
+ },
+ "labels": {
+  "Advanced Engineering Mathematics-I": null,
+  "Technical Communication": [],
+  "Digital System Design": [
+   "electrical_electronic_engineering.digital_systems",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Signal & Systems": [
+   "electrical_electronic_engineering.signals_systems"
+  ],
+  "Network Theory": [
+   "electrical_electronic_engineering.circuit_theory"
+  ],
+  "Electronics Devices": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Electronics Devices Lab": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Digital System Design Lab": [
+   "electrical_electronic_engineering.digital_systems",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Signal Processing Lab": [
+   "electrical_electronic_engineering.signals_systems"
+  ],
+  "Computer Programming Lab-I": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Industrial Training": [],
+  "Social Outreach, Discipline & Extra Curricular Activities": [],
+  "Advanced Engineering Mathematics-II": null,
+  "Managerial Economics and Financial Accounting": [],
+  "Analog Circuits": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Microcontrollers": [
+   "computer_science_informatics.computer_engineering",
+   "electrical_electronic_engineering.digital_systems"
+  ],
+  "Electronics Measurement & Instrumentation": [
+   "electrical_electronic_engineering.measurement_instrumentation"
+  ],
+  "Analog and Digital Communication": [
+   "electrical_electronic_engineering.communications"
+  ],
+  "Analog and Digital Communication Lab": [
+   "electrical_electronic_engineering.communications"
+  ],
+  "Analog Circuits Lab": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Microcontrollers Lab": [
+   "computer_science_informatics.computer_engineering",
+   "electrical_electronic_engineering.digital_systems"
+  ],
+  "Electronics Measurement & Instrumentation Lab": [
+   "electrical_electronic_engineering.measurement_instrumentation"
+  ],
+  "Computer Architecture": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Electromagnetics Waves": [
+   "electrical_electronic_engineering.electromagnetic_field_theory"
+  ],
+  "Control system": [
+   "electrical_electronic_engineering.control_systems"
+  ],
+  "Digital Signal Processing": [
+   "electrical_electronic_engineering.digital_signal_processing"
+  ],
+  "Microwave Theory & Techniques": null,
+  "Satellite Communication": [
+   "electrical_electronic_engineering.communications"
+  ],
+  "RF Simulation Lab": null,
+  "Digital Signal Processing Lab": [
+   "electrical_electronic_engineering.digital_signal_processing"
+  ],
+  "Microwave Lab": null,
+  "Power Electronics": [
+   "electrical_electronic_engineering.power_electronics"
+  ],
+  "Computer Network": [
+   "computer_science_informatics.computer_networks",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Fiber Optics Communications": [
+   "electrical_electronic_engineering.communications"
+  ],
+  "Antennas and Propagation": [
+   "electrical_electronic_engineering.electromagnetic_field_theory",
+   "electrical_electronic_engineering.communications"
+  ],
+  "Information theory and coding": [
+   "electrical_electronic_engineering.information_theory",
+   "electrical_electronic_engineering.communications"
+  ],
+  "Neural Network And Fuzzy Logic Control": [
+   "computer_science_informatics.machine_learning_ai"
+  ],
+  "Computer Network Lab": [
+   "computer_science_informatics.computer_networks",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Antenna and wave propagation Lab": [
+   "electrical_electronic_engineering.electromagnetic_field_theory",
+   "electrical_electronic_engineering.communications"
+  ],
+  "Electronics Design Lab": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Power Electronics Lab": [
+   "electrical_electronic_engineering.power_electronics"
+  ],
+  "VLSI Design": [
+   "electrical_electronic_engineering.microelectronics_semiconductors"
+  ],
+  "Optimization Techniques": [
+   "mathematics_statistics.optimization_numerics"
+  ],
+  "VLSI Design Lab": [
+   "electrical_electronic_engineering.microelectronics_semiconductors"
+  ],
+  "Advance communication lab (MATLAB Simulation)": [
+   "electrical_electronic_engineering.communications"
+  ],
+  "Optical Communication Lab": [
+   "electrical_electronic_engineering.communications"
+  ],
+  "Seminar": [],
+  "Digital Image and Video Processing": [
+   "electrical_electronic_engineering.digital_signal_processing"
+  ],
+  "Soft Computing": [
+   "computer_science_informatics.machine_learning_ai"
+  ],
+  "Internet of Things (IOT) Lab": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Skill Development Lab": [],
+  "Project": []
+ }
+}

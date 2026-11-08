@@ -1,0 +1,17 @@
+name: GPU-R CI
+on: [push, pull_request]
+jobs:
+  validate-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements-dev.txt
+      - name: Validate frozen records (checksums, key order, schema, categories)
+        run: python scripts/validate_records.py --data data/frozen --taxonomy data/taxonomy/GPU-R_taxonomy_master.json
+      - name: Field taxonomies cover their records
+        run: python scripts/check_field_taxonomies.py
+      - name: Tests
+        run: python -m pytest -q -rs

@@ -1,0 +1,123 @@
+{
+ "id": "S07_makaut_heritage_mech_lateral",
+ "labeller": "Claude 03.11.2026 (course map first, exactly as the pipeline's own map lookup; generic maths titles null; then taxonomy rules); null = unsure (needs the syllabus), not scored",
+ "label_sources": {
+  "map": 7,
+  "generic": 0,
+  "manual": 40
+ },
+ "labels": {
+  "Physics – II": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Mathematical Methods": null,
+  "Biology": [],
+  "Engineering Mechanics": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics",
+   "physics_natural_sciences.general_physics"
+  ],
+  "Fluid Mechanics & Hydraulics": [
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Human Values & Professional Ethics": [],
+  "Environmental Science": [],
+  "Machine Drawing-I": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Workshop Practice-II": [],
+  "Strength of Materials": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Fluid Machinery": [
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Engineering Thermodynamics": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Manufacturing Processes": [
+   "mechanical_manufacturing_engineering.manufacturing_production"
+  ],
+  "Kinematics of Machines": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Applied Mechanics Lab": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Fluid Mechanics & Hydraulic Machines Lab": [
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Machine Drawing-II": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Machine Design-I": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Heat Transfer": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Engineering Materials": [
+   "chemistry_materials.materials_science"
+  ],
+  "Machining & Machine Tools": [
+   "mechanical_manufacturing_engineering.manufacturing_production"
+  ],
+  "Dynamics of Machines": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Refrigeration & Air Conditioning": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Indian Constitution and Civil Society": [],
+  "Applied Thermodynamics & Heat Transfer Lab": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Dynamics of Machines Lab": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Refrigeration & Air Conditioning Lab": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Economics for Engineers": [
+   "business_economics_management.business_administration"
+  ],
+  "Machine Design- II": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Finite Element Method": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Turbo Machinery": [
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics",
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Industrial Engineering": [
+   "business_economics_management.business_administration"
+  ],
+  "Machining & Machine Tools Lab": [
+   "mechanical_manufacturing_engineering.manufacturing_production"
+  ],
+  "Finite Element Method Lab": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Seminar & Term Thesis": [],
+  "Principles of Management": [
+   "business_economics_management.business_administration"
+  ],
+  "Materials Handling": null,
+  "Engineering Computational Techniques": null,
+  "Industrial Robotics": [],
+  "Industrial Training /Summer internship": [],
+  "Project - I": [],
+  "Gas Dynamics and Jet Propulsion": [
+   "mechanical_manufacturing_engineering.thermodynamics",
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Quantitative Decision Making": null,
+  "Advanced Manufacturing Lab": [
+   "mechanical_manufacturing_engineering.manufacturing_production"
+  ],
+  "Design of an Industrial Product": null,
+  "Project - II": [],
+  "Comprehensive Viva-voce": []
+ }
+}

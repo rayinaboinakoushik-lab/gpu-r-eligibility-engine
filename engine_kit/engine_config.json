@@ -1,0 +1,385 @@
+{
+ "_version": "1.0 (2026-10-26)",
+ "_source": "GPU-R Matching Engine Spec v1 + REVIEW_LOG decisions; records = frozen files of 24.10.2026",
+ "frozen_files": {
+  "cs": "GPU-R_computer_science_FROZEN_2026-10-24.json",
+  "eee": "GPU-R_electrical_electronic_engineering_FROZEN_2026-10-24.json",
+  "mechanical": "GPU-R_mechanical_engineering_FROZEN_2026-10-24.json",
+  "civil": "GPU-R_civil_engineering_FROZEN_2026-10-24.json",
+  "manifest": "MANIFEST.json"
+ },
+ "route_groups": {
+  "_rule": "same base id; evaluate every member, show ONE result = best list, then fewest gaps; name the route used",
+  "civil": {
+   "4124": [
+    "4124_A",
+    "4124_B"
+   ]
+  },
+  "cs": {
+   "10332": [
+    "10332_T1",
+    "10332_T2"
+   ],
+   "10469": [
+    "10469_A",
+    "10469_B"
+   ],
+   "3903": [
+    "3903_DIRECT",
+    "3903_CONDITIONAL"
+   ],
+   "4092": [
+    "4092_A",
+    "4092_B"
+   ],
+   "4634": [
+    "4634_A",
+    "4634_B"
+   ],
+   "4879": [
+    "4879_A",
+    "4879_B",
+    "4879_C",
+    "4879_D"
+   ],
+   "5351": [
+    "5351_A",
+    "5351_B",
+    "5351_C",
+    "5351_D"
+   ],
+   "manual_fau_ds": [
+    "manual_fau_ds_DIRECT",
+    "manual_fau_ds_INTERVIEW"
+   ],
+   "manual_ovgu_mdke": [
+    "manual_ovgu_mdke_A",
+    "manual_ovgu_mdke_B"
+   ]
+  },
+  "eee": {
+   "3904": [
+    "3904_A",
+    "3904_B"
+   ],
+   "4399": [
+    "4399_A",
+    "4399_B"
+   ],
+   "4513": [
+    "4513_A",
+    "4513_B",
+    "4513_C",
+    "4513_D"
+   ],
+   "4593": [
+    "4593_A",
+    "4593_B"
+   ],
+   "4594": [
+    "4594_A",
+    "4594_B"
+   ],
+   "9723": [
+    "9723_A",
+    "9723_B"
+   ]
+  },
+  "mechanical": {
+   "6445": [
+    "6445_A",
+    "6445_B"
+   ]
+  }
+ },
+ "separate_variants": {
+  "_rule": "different content; show each as its own programme",
+  "cs": [
+   "8353_BIS",
+   "8353_DIS",
+   "8353_SAR"
+  ],
+  "eee": [
+   "7927_A",
+   "7927_B"
+  ]
+ },
+ "gated_routes": {
+  "_rule": "offer the route only when the student profile carries the confirmation; otherwise skip it and show what is needed",
+  "4594_B": {
+   "needs": "gate_score",
+   "min": 500,
+   "why": "Route B has no grade limit; GATE >= 500 replaces the 85 % CGPA (SPSO § 2 Abs. 2 Nr. 2)"
+  },
+  "4593_B": {
+   "needs": "gate_score",
+   "min": 500,
+   "why": "GATE >= 500 replaces the 85 % CGPA (SPSO 2018 § 2 Abs. 2)"
+  },
+  "4124_B": {
+   "needs": "water_thesis",
+   "equals": true,
+   "why": "20 LP route needs a water-related bachelor thesis (ZO § 2(1))"
+  },
+  "5351_B": {
+   "needs": "module_average_confirmed",
+   "equals": true,
+   "why": "grade band plus a module average the engine cannot compute"
+  },
+  "5351_D": {
+   "needs": "module_average_confirmed",
+   "equals": true,
+   "why": "grade band plus a module average the engine cannot compute"
+  },
+  "4092_B": {
+   "needs": "subject_points_confirmed",
+   "equals": true,
+   "why": "needs at least 10 subject/thesis points the engine cannot read"
+  }
+ },
+ "exclusions": {
+  "_rule": "checked first; a hit = list 4 with this reason",
+  "4352": {
+   "field": "mechanical",
+   "country": "India",
+   "reason": "Regulation: Indian bachelor degrees not equivalent / extra conditions (R16)"
+  },
+  "4202": {
+   "field": "mechanical",
+   "country": "India",
+   "reason": "Regulation: Indian bachelor degrees not equivalent / extra conditions (R16)"
+  },
+  "10623": {
+   "field": "eee",
+   "only_degree_subfields": [
+    "electrical",
+    "electrical_and_electronics"
+   ],
+   "reason": "Shown only to Electrical / Electrical and Electronics Engineering degree holders (Koushik 20.10.2026; PO § 7 Abs. 1)"
+  }
+ },
+ "area_caps": {
+  "_rule": "v1 engine config (v2: record field conditional_admission.area_caps, pending Koushik). 'items' = indices into subject_credit_requirements.items, with the label start for a safety check. A real gap above any cap = not eligible.",
+  "6318": {
+   "total": 20,
+   "areas": [
+    {
+     "name": "higher mathematics",
+     "items": [
+      1
+     ],
+     "label_starts": [
+      "PO § 3(2)b: Mathematik 16"
+     ],
+     "max": 10
+    },
+    {
+     "name": "engineering + civil + subject-specific fundamentals (PO § 3(3)b; mechanics/hydromechanics belong to the maths-physics block, capped only by the total)",
+     "items": [
+      5,
+      6,
+      7
+     ],
+     "label_starts": [
+      "PO § 3(2)b: further engineering",
+      "PO § 3(2)b: subject-specific",
+      "PO § 3(2)b: further subject-specific"
+     ],
+     "max": 20
+    }
+   ]
+  },
+  "4881": {
+   "total": 20,
+   "areas": [
+    {
+     "name": "mathematics/statistics",
+     "items": [
+      0,
+      1,
+      2
+     ],
+     "label_starts": [
+      "PO § 3: Mathematik und Statistik",
+      "PO § 3: of which Mathematik",
+      "PO § 3: of which Statistik"
+     ],
+     "max": 8
+    },
+    {
+     "name": "mechanics",
+     "items": [
+      3
+     ],
+     "label_starts": [
+      "PO § 3: Mechanik"
+     ],
+     "max": 9
+    },
+    {
+     "name": "further engineering basics",
+     "items": [
+      5
+     ],
+     "label_starts": [
+      "PO § 3: further engineering"
+     ],
+     "max": 8
+    },
+    {
+     "name": "subject-specific basics",
+     "items": [
+      6,
+      7,
+      8
+     ],
+     "label_starts": [
+      "PO § 3: subject-specific",
+      "PO § 3: of which transport",
+      "PO § 3: of which mechanical"
+     ],
+     "max": 8
+    }
+   ]
+  }
+ },
+ "always_display": {
+  "aps_for_country": "India",
+  "text": "APS certificate required for applicants from India (Koushik 24.10.2026)"
+ },
+ "presence_gap_with_conditions": {
+  "result": "bridging possible",
+  "gap_text": "one module, size decided by the university",
+  "counts_against_max_ects": false,
+  "decided": "Koushik 26.10.2026"
+ },
+ "max_unmet_presence_items": {
+  "_rule": "Tolerance rules: at most N of the listed presence-only items may be unmet; no conditions/bridging. N or fewer unmet = eligible (listed as an unmet area in the report); more = not eligible. 'items' = indices into subject_credit_requirements.items, with label starts as a safety check.",
+  "manual_tud_nes": {
+   "max": 1,
+   "items": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "label_starts": [
+    "EFO § 5 Abs. 1: fundierte Kenntnisse 'Höhere Mathematik",
+    "EFO § 5 Abs. 1: 'digitale und analoge",
+    "EFO § 5 Abs. 1: 'elektrische und magnetische",
+    "EFO § 5 Abs. 1: 'Systemtheorie",
+    "EFO § 5 Abs. 1: 'Aufbau und Funktionsweise",
+    "EFO § 5 Abs. 1: 'Objektorientierte"
+   ],
+   "source": "EFO § 5 Abs. 1 Satz 2; Koushik 27.10.2026"
+  }
+ },
+ "degree_fields_file": "data/taxonomy/degree_fields.json (degree gate equivalences, approved 26.10.2026)",
+ "separate_subjects": {
+  "_rule": "Koushik 27.10.2026: where the regulation names Mathematik and Statistik side by side (not 'of which'), a statistics course counts under Statistik only, never under Mathematik. Item index -> categories removed from that item's target set. 8911 ('Mathematik 20, of which Statistik 5') is nested and NOT listed.",
+  "6318": {
+   "1": [
+    "mathematics_statistics.statistics_probability"
+   ],
+   "why": "PO § 3(2)b: Mathematik 16 + Statistik 3 + Mechanik 16 + Hydromechanik 6 = 41 (separate parts)"
+  },
+  "4881": {
+   "1": [
+    "mathematics_statistics.statistics_probability"
+   ],
+   "why": "PO § 3: Mathematik und Statistik 18 (at least 14 maths, at least 2 statistics)"
+  }
+ },
+ "committee_check": {
+  "_rule": "Koushik rule 30.10.2026: the regulation says a committee decides comparability -> eligible WITH a following step (list 2, never list 1). Only records whose regulation says so (read 30.10.2026).",
+  "4103": {
+   "field": "eee",
+   "note": "A committee checks whether your degree is comparable before admission (Prüfungsausschuss, Studienordnung § 3 Abs. 2).",
+   "source": "Prüfungsausschuss, Studienordnung § 3 Abs. 2"
+  },
+  "4269": {
+   "field": "eee",
+   "note": "A committee checks whether your degree is comparable before admission (Prüfungsausschuss, Studienordnung § 3 Abs. 2).",
+   "source": "Prüfungsausschuss, Studienordnung § 3 Abs. 2"
+  },
+  "4493": {
+   "field": "eee",
+   "note": "A committee checks whether your degree is comparable before admission (Prüfungsausschuss, Studienordnung § 3 Abs. 2).",
+   "source": "Prüfungsausschuss, Studienordnung § 3 Abs. 2"
+  },
+  "9622": {
+   "field": "eee",
+   "note": "A committee checks whether your degree is comparable before admission (Prüfungsausschuss, Studienordnung § 3 Abs. 2).",
+   "source": "Prüfungsausschuss, Studienordnung § 3 Abs. 2"
+  },
+  "3815": {
+   "field": "eee",
+   "note": "A committee checks whether your degree is comparable before admission (Admission Board, PO Teil II § 4 Abs. 2).",
+   "source": "Admission Board, PO Teil II § 4 Abs. 2"
+  },
+  "5226": {
+   "field": "eee",
+   "note": "A committee checks whether your degree is comparable before admission (examination board, comparability with RWTH B.Sc.).",
+   "source": "examination board, comparability with RWTH B.Sc."
+  },
+  "8996": {
+   "field": "eee",
+   "note": "A committee checks whether your degree is comparable before admission (Prüfungsausschuss, TU Dortmund).",
+   "source": "Prüfungsausschuss, TU Dortmund"
+  },
+  "8963": {
+   "field": "eee",
+   "note": "A committee checks whether your degree is comparable before admission (Prüfungsausschuss, TU Dortmund).",
+   "source": "Prüfungsausschuss, TU Dortmund"
+  },
+  "5245": {
+   "field": "cs",
+   "note": "A committee checks whether your degree is comparable before admission (Prüfungsausschuss, FPSO § 3 Abs. 2).",
+   "source": "Prüfungsausschuss, FPSO § 3 Abs. 2"
+  },
+  "6924": {
+   "field": "cs",
+   "note": "A committee checks whether your degree is comparable before admission (Prüfungsausschuss, GPO § 33 Abs. 1, 4).",
+   "source": "Prüfungsausschuss, GPO § 33 Abs. 1, 4"
+  },
+  "3632": {
+   "field": "cs",
+   "note": "A committee checks whether your degree is comparable before admission (Prüfungsausschuss, MPO § 4 Abs. 2).",
+   "source": "Prüfungsausschuss, MPO § 4 Abs. 2"
+  },
+  "4655": {
+   "field": "cs",
+   "note": "A committee checks whether your degree is comparable before admission (Prüfungsausschuss, Studienordnung § 3 Abs. 2).",
+   "source": "Prüfungsausschuss, Studienordnung § 3 Abs. 2"
+  },
+  "manual_fau_ds_DIRECT": {
+   "field": "cs",
+   "note": "A committee checks whether your degree is comparable before admission (Zugangskommission, ABMPO/NatFak § 35).",
+   "source": "Zugangskommission, ABMPO/NatFak § 35"
+  },
+  "6445_A": {
+   "field": "mechanical",
+   "note": "A committee checks whether your degree is comparable before admission (Zulassungsausschuss, § 2 Abs. 8).",
+   "source": "Zulassungsausschuss, § 2 Abs. 8"
+  },
+  "6445_B": {
+   "field": "mechanical",
+   "note": "A committee checks whether your degree is comparable before admission (Zulassungsausschuss, § 2 Abs. 8).",
+   "source": "Zulassungsausschuss, § 2 Abs. 8"
+  }
+ },
+ "add_subjects": {
+  "_rule": "Koushik 30.10.2026: categories ADDED to one item's target set because the regulation text names that area. Item index -> categories added. Frozen records stay unchanged.",
+  "10473": {
+   "field": "eee",
+   "0": [
+    "computer_science_informatics.computer_engineering",
+    "computer_science_informatics.computer_networks"
+   ],
+   "why": "ZAO § 2 Abs. 1 names 'Informations- und Kommunikationstechnik' beside Elektronik: its core (computer engineering, computer networks) counts. General CS (programming, OS, AI, databases, graphics) still does NOT count (replaces part of the 20.10.2026 decision)."
+  }
+ }
+}

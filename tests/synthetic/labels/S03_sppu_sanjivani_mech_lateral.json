@@ -1,0 +1,143 @@
+{
+ "id": "S03_sppu_sanjivani_mech_lateral",
+ "labeller": "Claude 31.10.2026 (course map first, then taxonomy rules); null = unsure (needs the syllabus), not scored",
+ "labels": {
+  "Professional Internship-I": [],
+  "Vector Calculus and Differential Equations": [
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Basic Thermodynamics": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Manufacturing Processes": [
+   "mechanical_manufacturing_engineering.manufacturing_production"
+  ],
+  "Strength of Materials": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Universal Human Values & Ethics": [],
+  "Basic Thermodynamics Lab": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Machine Shop - I": null,
+  "Strength of Materials Lab": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Constitution of India": [],
+  "Numerical Methods": [
+   "mathematics_statistics.optimization_numerics",
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Fluid Mechanics": [
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Materials Science & Metallurgy": [
+   "chemistry_materials.materials_science"
+  ],
+  "Kinematics of Machines": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Seminar": [],
+  "Machine Drawing & Geometrical Modeling": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Numerical Methods Lab": [
+   "mathematics_statistics.optimization_numerics",
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Fluid Mechanics Lab": [
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Materials Science & Metallurgy Lab": [
+   "chemistry_materials.materials_science"
+  ],
+  "Kinematics of Machines Lab": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Professional Internship-II": [],
+  "Production Technology": [
+   "mechanical_manufacturing_engineering.manufacturing_production"
+  ],
+  "Machine Design –I": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Metrology and QC": null,
+  "Heat Transfer": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Industrial Tribology": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Machine Design –I Lab": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Metrology and QC Lab": null,
+  "Heat Transfer Lab": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Skill based Credit Course/PBL": [],
+  "Applied Thermodynamics": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Machine Design –II": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Operation Research": [
+   "mathematics_statistics.optimization_numerics"
+  ],
+  "Renewable Energy Sources": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "IPR & EDP": null,
+  "IPR & EDP Lab": null,
+  "Corporate Readiness": [],
+  "Applied Thermodynamics Lab": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Machine Design –II Lab": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Machine Shop-II Lab": null,
+  "Professional Internship-III": [],
+  "Finite Element Analysis": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Mechatronics": [
+   "engineering.mechatronics"
+  ],
+  "Computational Fluid Dynamics": [
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Optimization Techniques": [
+   "mathematics_statistics.optimization_numerics"
+  ],
+  "Industrial Safety": [],
+  "Finite Element Analysis Lab": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Mechatronics Lab": [
+   "engineering.mechatronics"
+  ],
+  "Project Stage-I": [],
+  "HVAC Heating Ventilation and Air Conditioning": [
+   "mechanical_manufacturing_engineering.thermodynamics"
+  ],
+  "Hydraulic and Pneumatics": [
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Dynamics of Machines": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Automobile Engg": [
+   "engineering.automotive_engineering"
+  ],
+  "Lab-I (HVAC and HPLab)": [
+   "mechanical_manufacturing_engineering.thermodynamics",
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Dynamics of Machines Lab": [
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Project Stage-II": []
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "id": "S11_ou_methodist_civil_lateral",
+ "labeller": "Claude 03.11.2026 (course map first, exactly as the pipeline's own map lookup; generic maths titles null; then taxonomy rules); null = unsure (needs the syllabus), not scored",
+ "label_sources": {
+  "map": 10,
+  "generic": 0,
+  "manual": 37
+ },
+ "labels": {
+  "Numerical Methods and Partial Differential Equations": [
+   "mathematics_statistics.optimization_numerics",
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Managerial Economics & Financial Accountancy": [
+   "business_economics_management.business_administration"
+  ],
+  "Programming for Problem Solving (C)": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Building Materials and Concrete Technology": [
+   "chemistry_materials.materials_science"
+  ],
+  "Solid Mechanics": [
+   "civil_engineering.structural_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Surveying": [
+   "civil_engineering.surveying_geodesy"
+  ],
+  "Essence of Indian Traditional Knowledge": [],
+  "Programming for Problem Solving Laboratory (C)": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Surveying Laboratory": [
+   "civil_engineering.surveying_geodesy"
+  ],
+  "Concrete Technology Laboratory": [
+   "chemistry_materials.materials_science"
+  ],
+  "Human Values and Professional Ethics": [],
+  "Python Programming": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Mechanics of Materials and Structures": [
+   "civil_engineering.structural_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Design of Reinforced Concrete Structures": [
+   "civil_engineering.structural_engineering"
+  ],
+  "Fluid Mechanics": [
+   "civil_engineering.fluid_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Hydrology": [
+   "civil_engineering.water_engineering"
+  ],
+  "Indian Constitution": [],
+  "Mechanics of Materials Laboratory": [
+   "civil_engineering.structural_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Building Drawing & Drafting Laboratory": null,
+  "Python Programming Lab": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Disaster Preparedness and Planning": [],
+  "Structural Analysis": [
+   "civil_engineering.structural_engineering",
+   "civil_engineering.structural_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_dynamics"
+  ],
+  "Soil Mechanics": [
+   "civil_engineering.geotechnics"
+  ],
+  "Hydraulics Engineering": [
+   "civil_engineering.fluid_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Water Resources Engineering": [
+   "civil_engineering.water_engineering"
+  ],
+  "Design of Steel Structures": [
+   "civil_engineering.structural_engineering"
+  ],
+  "Soil Mechanics Laboratory": [
+   "civil_engineering.geotechnics"
+  ],
+  "Fluid Mechanics & Hydraulic Engineering Laboratory": [
+   "civil_engineering.fluid_mechanics",
+   "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+  ],
+  "Practise School-1/ Internship Evaluation": [],
+  "Construction Engineering & Management": [
+   "civil_engineering.construction_management"
+  ],
+  "Transportation Engineering": [
+   "civil_engineering.transportation_engineering"
+  ],
+  "Environmental Engineering": [
+   "civil_engineering.environmental_engineering"
+  ],
+  "Foundation Engineering": [
+   "civil_engineering.geotechnics"
+  ],
+  "Prestressed Structures": [
+   "civil_engineering.structural_engineering"
+  ],
+  "Advanced Surveying": [
+   "civil_engineering.surveying_geodesy"
+  ],
+  "Soft Skills Laboratory": [],
+  "Transportation Engineering Laboratory": [
+   "civil_engineering.transportation_engineering"
+  ],
+  "Environmental Engineering Laboratory": [
+   "civil_engineering.environmental_engineering"
+  ],
+  "Estimation and Specification": [
+   "civil_engineering.construction_management"
+  ],
+  "Highway Engineering and Pavement Design": [
+   "civil_engineering.transportation_engineering"
+  ],
+  "Sustainable Civil Engineering Materials": [
+   "chemistry_materials.materials_science"
+  ],
+  "Data Analytics in Civil Engineering": null,
+  "Construction Project Management": [
+   "civil_engineering.construction_management"
+  ],
+  "Infrastructure Engineering": null,
+  "Guided Self-Study Software Certification courses": [],
+  "Technical Report and Seminar/Mini Project (Case Study Based)": [],
+  "Major Project (OR) Professional Practice School-II": []
+ }
+}

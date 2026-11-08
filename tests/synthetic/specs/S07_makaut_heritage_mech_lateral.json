@@ -1,0 +1,326 @@
+{
+ "id": "S07_makaut_heritage_mech_lateral",
+ "field": "mechanical",
+ "degree": "B.Tech Mechanical Engineering",
+ "university": "Maulana Abul Kalam Azad University of Technology, West Bengal",
+ "institution": "Heritage Institute of Technology, Kolkata (Autonomous, affiliated to MAKAUT)",
+ "regulation": "B.Tech ME curriculum 2019-2022",
+ "entry": "lateral_entry",
+ "years": 3,
+ "credits_for_award_printed": null,
+ "grading": [
+  [
+   "O",
+   10
+  ],
+  [
+   "E",
+   9
+  ],
+  [
+   "A",
+   8
+  ],
+  [
+   "B",
+   7
+  ],
+  [
+   "C",
+   6
+  ],
+  [
+   "D",
+   5
+  ]
+ ],
+ "pass_min": 5,
+ "layout": "two_column",
+ "seed": 707,
+ "target_cgpa": 7.0,
+ "source": [
+  "https://www.heritageit.edu/PDF/BTech_ME_2019-2022.pdf"
+ ],
+ "abbreviate": true,
+ "provenance": {
+  "institution_status": "autonomous institute affiliated to MAKAUT (own curriculum; the file names no college, the domain is Heritage IT)",
+  "curriculum_check": "semester sums equal printed totals (III-VIII: 22/21/23.5/19.5/18/18 = 122 of 160; lateral entry starts in semester III)",
+  "grading_source": null,
+  "grading_verified": false,
+  "grading_note": "MAKAUT-style 10-point scale O/E/A/B/C/D, pass D = 5 assumed",
+  "electives": "PE I-V and OE I-IV chosen from the options listed in the source; PE-I and PE-II labs follow the chosen theory",
+  "omitted": [
+   "Honours courses (not in the printed semester totals)",
+   "'Fluid Mechanics& Hydraulics' spacing normalised"
+  ]
+ },
+ "degree_field_id": "mechanical_engineering",
+ "split": "heldout",
+ "semesters": [
+  {
+   "name": "III",
+   "courses": [
+    {
+     "code": "PHYS 2101",
+     "title": "Physics – II",
+     "credits": 4
+    },
+    {
+     "code": "MATH 2001",
+     "title": "Mathematical Methods",
+     "credits": 4
+    },
+    {
+     "code": "BIOT 2105",
+     "title": "Biology",
+     "credits": 2
+    },
+    {
+     "code": "MECH 2101",
+     "title": "Engineering Mechanics",
+     "credits": 3
+    },
+    {
+     "code": "MECH 2102",
+     "title": "Fluid Mechanics & Hydraulics",
+     "credits": 3
+    },
+    {
+     "code": "HMTS 2001",
+     "title": "Human Values & Professional Ethics",
+     "credits": 3
+    },
+    {
+     "code": "EVSC 2016",
+     "title": "Environmental Science",
+     "credits": 0
+    },
+    {
+     "code": "MECH 2156",
+     "title": "Machine Drawing-I",
+     "credits": 1.5
+    },
+    {
+     "code": "MECH 2157",
+     "title": "Workshop Practice-II",
+     "credits": 1.5
+    }
+   ]
+  },
+  {
+   "name": "IV",
+   "courses": [
+    {
+     "code": "MECH 2201",
+     "title": "Strength of Materials",
+     "credits": 4
+    },
+    {
+     "code": "MECH 2202",
+     "title": "Fluid Machinery",
+     "credits": 3
+    },
+    {
+     "code": "MECH 2203",
+     "title": "Engineering Thermodynamics",
+     "credits": 4
+    },
+    {
+     "code": "MECH 2204",
+     "title": "Manufacturing Processes",
+     "credits": 3
+    },
+    {
+     "code": "MECH 2205",
+     "title": "Kinematics of Machines",
+     "credits": 3
+    },
+    {
+     "code": "MECH 2251",
+     "title": "Applied Mechanics Lab",
+     "credits": 1
+    },
+    {
+     "code": "MECH 2252",
+     "title": "Fluid Mechanics & Hydraulic Machines Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "MECH 2256",
+     "title": "Machine Drawing-II",
+     "credits": 1.5
+    }
+   ]
+  },
+  {
+   "name": "V",
+   "courses": [
+    {
+     "code": "MECH 3101",
+     "title": "Machine Design-I",
+     "credits": 3
+    },
+    {
+     "code": "MECH 3102",
+     "title": "Heat Transfer",
+     "credits": 4
+    },
+    {
+     "code": "MECH 3103",
+     "title": "Engineering Materials",
+     "credits": 3
+    },
+    {
+     "code": "MECH 3104",
+     "title": "Machining & Machine Tools",
+     "credits": 3
+    },
+    {
+     "code": "MECH 3105",
+     "title": "Dynamics of Machines",
+     "credits": 3
+    },
+    {
+     "code": "MECH 3132",
+     "title": "Refrigeration & Air Conditioning",
+     "credits": 3
+    },
+    {
+     "code": "INCO 3016",
+     "title": "Indian Constitution and Civil Society",
+     "credits": 0
+    },
+    {
+     "code": "MECH 3152",
+     "title": "Applied Thermodynamics & Heat Transfer Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "MECH 3155",
+     "title": "Dynamics of Machines Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "MECH 3182",
+     "title": "Refrigeration & Air Conditioning Lab",
+     "credits": 1.5
+    }
+   ]
+  },
+  {
+   "name": "VI",
+   "courses": [
+    {
+     "code": "HMTS 3201",
+     "title": "Economics for Engineers",
+     "credits": 3
+    },
+    {
+     "code": "MECH 3201",
+     "title": "Machine Design- II",
+     "credits": 3
+    },
+    {
+     "code": "MECH 3231",
+     "title": "Finite Element Method",
+     "credits": 3
+    },
+    {
+     "code": "MECH 3237",
+     "title": "Turbo Machinery",
+     "credits": 3
+    },
+    {
+     "code": "MECH 3224",
+     "title": "Industrial Engineering",
+     "credits": 3
+    },
+    {
+     "code": "MECH 3256",
+     "title": "Machining & Machine Tools Lab",
+     "credits": 1.5
+    },
+    {
+     "code": "MECH 3281",
+     "title": "Finite Element Method Lab",
+     "credits": 1
+    },
+    {
+     "code": "MECH 3293",
+     "title": "Seminar & Term Thesis",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "VII",
+   "courses": [
+    {
+     "code": "HMTS 4101",
+     "title": "Principles of Management",
+     "credits": 3
+    },
+    {
+     "code": "MECH 4142",
+     "title": "Materials Handling",
+     "credits": 3
+    },
+    {
+     "code": "MECH 4124",
+     "title": "Engineering Computational Techniques",
+     "credits": 3
+    },
+    {
+     "code": "MECH 4127",
+     "title": "Industrial Robotics",
+     "credits": 3
+    },
+    {
+     "code": "MECH 4191",
+     "title": "Industrial Training /Summer internship",
+     "credits": 2
+    },
+    {
+     "code": "MECH 4195",
+     "title": "Project - I",
+     "credits": 4
+    }
+   ]
+  },
+  {
+   "name": "VIII",
+   "courses": [
+    {
+     "code": "MECH 4243",
+     "title": "Gas Dynamics and Jet Propulsion",
+     "credits": 3
+    },
+    {
+     "code": "MECH 4221",
+     "title": "Quantitative Decision Making",
+     "credits": 3
+    },
+    {
+     "code": "MECH 4251",
+     "title": "Advanced Manufacturing Lab",
+     "credits": 1
+    },
+    {
+     "code": "MECH 4256",
+     "title": "Design of an Industrial Product",
+     "credits": 2
+    },
+    {
+     "code": "MECH 4295",
+     "title": "Project - II",
+     "credits": 8
+    },
+    {
+     "code": "MECH 4297",
+     "title": "Comprehensive Viva-voce",
+     "credits": 1
+    }
+   ]
+  }
+ ]
+}

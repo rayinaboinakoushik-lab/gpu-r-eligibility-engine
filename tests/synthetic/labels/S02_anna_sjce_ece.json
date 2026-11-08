@@ -1,0 +1,187 @@
+{
+ "id": "S02_anna_sjce_ece",
+ "labeller": "Claude 31.10.2026 (course map first, then taxonomy rules); null = unsure (needs the syllabus), not scored",
+ "labels": {
+  "Communicative English": [],
+  "Engineering Mathematics- I": null,
+  "Engineering Physics": [
+   "physics_natural_sciences.general_physics"
+  ],
+  "Engineering Chemistry": [
+   "physics_natural_sciences.chemistry"
+  ],
+  "Problem solving and Programming in C": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Engineering Graphics": [
+   "mechanical_manufacturing_engineering.design_machine_elements"
+  ],
+  "Heritage of Tamils": [],
+  "Programming in C Laboratory": [
+   "computer_science_informatics.programming_practical_cs"
+  ],
+  "Physics and Chemistry Laboratory": [
+   "physics_natural_sciences.general_physics",
+   "physics_natural_sciences.chemistry"
+  ],
+  "Professional English": [],
+  "Engineering Mathematics -II": null,
+  "Physics for Electronics Engineering": null,
+  "Environmental Science and Engineering": [],
+  "Circuit Analysis": [
+   "electrical_electronic_engineering.circuit_theory"
+  ],
+  "Electronic Devices": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Tamils & Technology": [],
+  "Engineering Practices Laboratory": [],
+  "Circuits and Devices Laboratory": [
+   "electrical_electronic_engineering.circuit_theory",
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Linear Algebra and Partial Differential Equations": [
+   "mathematics_statistics.linear_algebra",
+   "mathematics_statistics.calculus_analysis"
+  ],
+  "Electronic Circuits - I": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Signals and Systems": [
+   "electrical_electronic_engineering.signals_systems"
+  ],
+  "Digital Electronics": [
+   "electrical_electronic_engineering.digital_systems",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Electromagnetic Fields": [
+   "electrical_electronic_engineering.electromagnetic_field_theory"
+  ],
+  "Basic Electrical and Instrumentation Engineering": null,
+  "Analog and Digital Circuits Laboratory": [
+   "electrical_electronic_engineering.electronics",
+   "electrical_electronic_engineering.digital_systems",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Professional Skills Laboratory": [],
+  "Probability and Random Processes": [
+   "mathematics_statistics.statistics_probability"
+  ],
+  "Electronic Circuits- II": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Communication Theory": [
+   "electrical_electronic_engineering.communications"
+  ],
+  "Linear Integrated Circuits": [
+   "electrical_electronic_engineering.electronics"
+  ],
+  "Data Structures": [
+   "computer_science_informatics.algorithms_data_structures"
+  ],
+  "Control Systems Engineering": [
+   "electrical_electronic_engineering.control_systems"
+  ],
+  "Circuits Design Simulation and Linear Integrated Circuits Laboratory": null,
+  "Data Structures Laboratory using C": [
+   "computer_science_informatics.algorithms_data_structures"
+  ],
+  "Discrete-Time Signal Processing": [
+   "electrical_electronic_engineering.digital_signal_processing"
+  ],
+  "Communication Networks": [
+   "computer_science_informatics.computer_networks",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Transmission lines and RF Systems": null,
+  "Digital Waveform Coding and Modulation Techniques": [
+   "electrical_electronic_engineering.communications"
+  ],
+  "Information Theory and Coding": [
+   "electrical_electronic_engineering.information_theory",
+   "electrical_electronic_engineering.communications"
+  ],
+  "Renewable Energy Sources": [
+   "electrical_electronic_engineering.power_engineering"
+  ],
+  "Digital Signal Processing Laboratory": [
+   "electrical_electronic_engineering.digital_signal_processing"
+  ],
+  "Communication Systems Laboratory": [
+   "electrical_electronic_engineering.communications"
+  ],
+  "Communication Networks Laboratory": [
+   "computer_science_informatics.computer_networks",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Internship": [],
+  "VLSI Design": [
+   "electrical_electronic_engineering.microelectronics_semiconductors"
+  ],
+  "Wireless Communication": [
+   "electrical_electronic_engineering.communications"
+  ],
+  "Antennas and Microwave Engineering": [
+   "electrical_electronic_engineering.electromagnetic_field_theory",
+   "electrical_electronic_engineering.communications"
+  ],
+  "Microprocessors and Microcontrollers": [
+   "computer_science_informatics.computer_engineering",
+   "electrical_electronic_engineering.digital_systems"
+  ],
+  "Wireless Networks": [
+   "computer_science_informatics.computer_networks",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Digital Image Processing": [
+   "electrical_electronic_engineering.digital_signal_processing",
+   "computer_science_informatics.graphics_visual_computing"
+  ],
+  "Microprocessors and Microcontrollers Laboratory": [
+   "computer_science_informatics.computer_engineering",
+   "electrical_electronic_engineering.digital_systems"
+  ],
+  "VLSI Design Laboratory": [
+   "electrical_electronic_engineering.microelectronics_semiconductors"
+  ],
+  "Mini Project": [],
+  "Adaptive Learning Techniques": null,
+  "Optical Communication": [
+   "electrical_electronic_engineering.communications"
+  ],
+  "Embedded Systems and IoT": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Adhoc and Wireless Sensor Networks": [
+   "computer_science_informatics.computer_networks",
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Sensors and Transducers": [
+   "electrical_electronic_engineering.measurement_instrumentation"
+  ],
+  "5G Communication Technology": null,
+  "Advanced Communication Laboratory": [
+   "electrical_electronic_engineering.communications"
+  ],
+  "Embedded Laboratory": [
+   "computer_science_informatics.computer_engineering"
+  ],
+  "Satellite Communication": [
+   "electrical_electronic_engineering.communications"
+  ],
+  "Computer Vision": [
+   "computer_science_informatics.graphics_visual_computing"
+  ],
+  "Project work": []
+ },
+ "label_changes": [
+  {
+   "title": "Information Theory and Coding",
+   "to": [
+    "electrical_electronic_engineering.information_theory",
+    "electrical_electronic_engineering.communications"
+   ],
+   "why": "03.11.2026 per-course review: my label was too narrow (taxonomy/approved-map pattern supports the AI's answer)"
+  }
+ ]
+}

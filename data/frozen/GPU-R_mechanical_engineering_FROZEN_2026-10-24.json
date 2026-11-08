@@ -1,0 +1,2721 @@
+[
+  {
+    "id": "9024",
+    "program": "Applied AI for Digital Production Management (M.Eng.)",
+    "university": "Deggendorf Institute of Technology",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://ec.th-deg.de/dm-m-en",
+      "admission_regulation": {
+        "url": "https://th-deg.de/Studierende/Antraege-und-Organisatorisches/Pruefungsordnungen/Master/applied_AI_for_digital_production_management_master_2025_2.pdf",
+        "title": "Studien- und Prüfungsordnung für den Masterstudiengang Applied AI for Digital Production Management an der Technischen Hochschule Deggendorf",
+        "version": "vom 23.07.2025 (bekanntgemacht 24.07.2025, in Kraft 01.10.2025) — new SPO replacing the 2023 version; read 21.10.2026"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "SPO § 3: first degree 'im Umfang von mindestens 210 ECTS-Punkten' 'aus dem Bereich Wirtschaftsingenieurwesen, Produktionstechnik oder Mechatronik' or closely related; 'Über die Gleichwertigkeit der Abschlüsse entscheidet die Prüfungskommission.' 180–209 ECTS: see § 4 (top-up). primary_fields = GPU-R domain (GPU-R policy)."
+    },
+    "gpa_rule_type": "NO_GRADE_THRESHOLD",
+    "grade_requirement": {
+      "value": null,
+      "note": "No minimum grade. A grade of 'gut' (better than 2,5) or 2,5 or better in the named subjects only allows the board to waive the aptitude test (SPO § 5)."
+    },
+    "subject_credit_requirements": {
+      "items": [],
+      "note": "SPO 2025 sets no subject credit minimums; subject knowledge is checked in the aptitude test (§ 5)."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "SPO § 4: degrees with 180–209 ECTS are admitted; the missing ECTS (max. 30) are made up by the start of the 3rd semester through a 20-week internship or bachelor modules — a total-credit top-up, not a subject condition (owner rule → false). No rule for missing subject knowledge; suitability is tested in the aptitude test."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "Mandatory aptitude test (SPO § 5): written or online exam, 90 minutes, on higher engineering mathematics and basics of mechatronics, mechanical engineering and business administration (reference modules: Mathematik 1 and 2, Physik, Informatik 1 and 2; indirectly Projektmanagement, Prozessoptimierung); passed 'mit Erfolg abgelegt', assessed by two lecturers. One retake at the next date.",
+        "Waiver (SPO § 5): the examination board may waive the test for applicants with an overall grade 'gut' (better than 2,5) or better, or 2,5 or better in mathematics, physics, computer science, business administration or production engineering."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 5.5,
+      "toefl_ibt_min": 72,
+      "pte_min": 59,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "English native language",
+        "German university entrance qualification with English (B2 only; THD language requirements PDF)"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "SPO § 3: English 'auf dem Sprachniveau B2' (CEFR); proof per § 3 of the THD Rahmenprüfungsordnung. Re-verified 21.10.2026 in the THD Campus Cham language requirements PDF (https://www.th-deg.de/Studieninteressierte/Bewerbung/Sprachanforderungen_Deutsch-Englisch_CHAM.pdf): this programme is listed with English B2 and the B2 score band (PTE 59–75; TOEFL iBT 72–94); B2 band for THD = TOEFL iBT 72–94, IELTS 5,5–6,5 in each section, PTE 59–75 (band minimum stored, as for approved THD records 9841/4870/7124; 7744 used the band maximum — Koushik to confirm). Only TOEFL iBT accepted (no Home Edition, 'Test Date Score' counts); IELTS General or Academic (not Indicator); certificates not older than 2 years. ENGLISH DECISION: MyGermanUniversity (checked at Koushik's request 22.10.2026): TOEFL iBT min 72, IELTS min 5.5 (at least 5.5 in each section), PTE min 59, TOEIC 400/385, telc B2-C1 → band MINIMUM stored. THD B2 band: TOEFL iBT 72–94, IELTS 5.5–6.5, PTE 59–75."
+    },
+    "language_german": {
+      "required": true,
+      "required_level": "A2",
+      "due": "by the end of studies (THD Campus Cham language requirements PDF: 'Das Sprachniveau Deutsch A2 ist spätestens bis Studienende … nachzuweisen'); not needed at application"
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [
+        "India"
+      ],
+      "note": "THD application page (as stored for approved THD records): APS certificate required for applicants from China, India and Vietnam; dMAT for Indian Master's applicants from summer semester 2027 for 'zahlreiche Studiengänge' (not confirmed for this programme)."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "Application via the THD online portal"
+    ],
+    "admission_type": {
+      "restricted": null,
+      "numerus_clausus": null
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter",
+        "summer"
+      ],
+      "non_eu_deadlines": {
+        "winter": "15 June (applications open 15 April) — MyGermanUniversity, third-party, checked at Koushik's request",
+        "summer": "1 December (applications open 1 October) — MyGermanUniversity, third-party"
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.th-deg.de/hochschulrecht",
+      "documents_seen": [
+        "SPO Applied AI for Digital Production Management 23.07.2025 | read 21.10.2026 | https://th-deg.de/Studierende/Antraege-und-Organisatorisches/Pruefungsordnungen/Master/applied_AI_for_digital_production_management_master_2025_2.pdf",
+        "SPO 2023 (superseded) | https://www.cs-mariakirchen.th-deg.de/Studierende/Antraege-und-Organisatorisches/Pruefungsordnungen/Master/spo_applied%20ai%20for%20digital%20production%20management_master_2023_2.pdf",
+        "THD Campus Cham language requirements PDF | read 21.10.2026 | https://www.th-deg.de/Studieninteressierte/Bewerbung/Sprachanforderungen_Deutsch-Englisch_CHAM.pdf",
+        "THD university-law page (EN) | read 21.10.2026: newest versions confirmed — Applied AI DPM: SPO WS 2025/26 | https://www.th-deg.de/en/dit/university-law"
+      ]
+    },
+    "last_checked": "2026-10-22",
+    "last_updated": "2026-10-22"
+  },
+  {
+    "id": "7691",
+    "program": "Artificial Intelligence for Smart Sensors and Actuators (M.Eng.)",
+    "university": "Deggendorf Institute of Technology",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://www.th-deg.de/ki-m-en",
+      "admission_regulation": {
+        "url": "https://www.th-deg.de/Studierende/Antraege-und-Organisatorisches/Pruefungsordnungen/Master/spo_k%C3%BCnstliche%20Intelligenz%20f%C3%BCr%20smarte%20sensorik-aktorik_master_2021_1_EN.pdf",
+        "title": "Studien- und Prüfungsordnung für den Masterstudiengang Künstliche Intelligenz für smarte Sensorik/Aktorik an der TH Deggendorf (English version)",
+        "version": "vom 15.03.2021, amended 01.10.2021 (aptitude test each semester), 22.03.2023 (module table) and 20.12.2023 (3rd amendment, in force 15.03.2024: exam content, thesis 40 ECTS) — no amendment changes § 3/§ 4 admission (all read 21.10.2026, English versions)"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "SPO § 3: first degree 'with a minimum of 210 ECTS points from the field of mechatronics or a related degree programme'; 'The examination board shall decide on the equivalence of the degrees.' primary_fields = GPU-R domain (GPU-R policy)."
+    },
+    "gpa_rule_type": "NO_GRADE_THRESHOLD",
+    "grade_requirement": {
+      "value": null,
+      "note": "No minimum grade; grades only allow a waiver of the aptitude test (SPO § 5)."
+    },
+    "subject_credit_requirements": {
+      "items": [],
+      "note": "No subject credit minimums; subject knowledge is checked in the aptitude test (§ 5)."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "SPO § 4: degrees with 180–209 ECTS are admitted; the missing ECTS (max. 30) are made up by the start of the 3rd semester through a 20-week internship or bachelor modules — a total-credit top-up, not a subject condition (owner rule → false). No rule for missing subject knowledge; suitability is tested in the aptitude test."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "Mandatory aptitude test (SPO § 5): written or online exam, 90 minutes, on higher engineering mathematics and fundamentals of mechatronics, mechanical engineering and electrical engineering (reference modules: engineering mathematics, physics, computer science 1–2, electrical engineering, control engineering); held each semester (1st amendment); passed 'mit Erfolg abgelegt', assessed by two lecturers. One retake at the next date.",
+        "Waiver (SPO § 5): the examination board may waive the test for applicants with a 'good' degree (better than 2,5) or better, or grades of 2,5 or better in mathematics, physics, computer science, electrical engineering and control engineering."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 6.5,
+      "toefl_ibt_min": 94,
+      "pte_min": 75,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "English native language",
+        "German university entrance qualification with English (B2 only; THD language requirements PDF)"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "SPO § 3: English 'auf dem Sprachniveau B2' (CEFR); proof per § 3 of the THD Rahmenprüfungsordnung. Re-verified 21.10.2026 in the THD Campus Cham language requirements PDF (https://www.th-deg.de/Studieninteressierte/Bewerbung/Sprachanforderungen_Deutsch-Englisch_CHAM.pdf): this programme is listed with English B2 and the B2 score band (PTE 59–75); B2 band for THD = TOEFL iBT 72–94, IELTS 5,5–6,5 in each section, PTE 59–75 (band minimum stored, as for approved THD records 9841/4870/7124; 7744 used the band maximum — Koushik to confirm). Only TOEFL iBT accepted (no Home Edition, 'Test Date Score' counts); IELTS General or Academic (not Indicator); certificates not older than 2 years. ENGLISH DECISION: Not found on MyGermanUniversity (22.10.2026); official flyer gives no scores → band MAXIMUM stored (Koushik rule 22.10.2026). THD B2 band: TOEFL iBT 72–94, IELTS 5.5–6.5, PTE 59–75."
+    },
+    "language_german": {
+      "required": true,
+      "required_level": "A2",
+      "due": "by the end of studies (official flyer: 'German A2 level, which must be completed by the end of the studies'); SPO § 3"
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [
+        "India"
+      ],
+      "note": "THD application page (as stored for approved THD records): APS certificate required for applicants from China, India and Vietnam; dMAT for Indian Master's applicants from summer semester 2027 for 'zahlreiche Studiengänge' (not confirmed for this programme)."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "Application via the THD online portal"
+    ],
+    "admission_type": {
+      "restricted": null,
+      "numerus_clausus": null
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter",
+        "summer"
+      ],
+      "non_eu_deadlines": {
+        "winter": "15 June (official programme flyer: required documents)",
+        "summer": "15 January (official programme flyer: required documents; semester starts 15 March)"
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.th-deg.de/hochschulrecht",
+      "documents_seen": [
+        "SPO KI für smarte Sensorik/Aktorik 15.03.2021 (EN) | read 21.10.2026 | https://www.th-deg.de/Studierende/Antraege-und-Organisatorisches/Pruefungsordnungen/Master/spo_k%C3%BCnstliche%20Intelligenz%20f%C3%BCr%20smarte%20sensorik-aktorik_master_2021_1_EN.pdf",
+        "1st amendment 01.10.2021 (EN) | read",
+        "2nd amendment 22.03.2023 (EN) | read — module table only",
+        "3rd amendment 20.12.2023 | read — no admission change | https://ec.th-deg.de/Studierende/Antraege-und-Organisatorisches/Pruefungsordnungen/Master/3_aenderungssatzung_mss_master_2024_1.pdf",
+        "THD Campus Cham language requirements PDF | read 21.10.2026 | https://www.th-deg.de/Studieninteressierte/Bewerbung/Sprachanforderungen_Deutsch-Englisch_CHAM.pdf",
+        "THD university-law page (EN) | read 21.10.2026: newest versions confirmed — KI smarte Sensorik/Aktorik: no newer SPO listed (2021 + amendments to 2024) | https://www.th-deg.de/en/dit/university-law",
+        "Programme flyer (EN) | read 22.10.2026 | https://ec.th-deg.de/Fakult%C3%A4ten/Studiengangsflyer/flyer-ki-m-en.pdf"
+      ]
+    },
+    "last_checked": "2026-10-22",
+    "last_updated": "2026-10-22"
+  },
+  {
+    "id": "5378",
+    "program": "Mechatronic and Cyber-Physical Systems (M.Eng.)",
+    "university": "Deggendorf Institute of Technology",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://www.th-deg.de/mcs-m-en",
+      "admission_regulation": {
+        "url": "https://ec.th-deg.de/Studierende/Antraege-und-Organisatorisches/Pruefungsordnungen/Master/spo_mechatronische%20und%20cyberphysische%20systeme_master_2021_1.pdf",
+        "title": "Studien- und Prüfungsordnung für den Master-Studiengang Mechatronische und cyberphysische Systeme an der Technischen Hochschule Deggendorf",
+        "version": "vom 15.03.2021; 1. Änderungssatzung vom 20.12.2023 (in Kraft 15.03.2024) changes only exam content, thesis registration (40 ECTS) and module table — admission unchanged (read 21.10.2026)"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "SPO § 3: first degree 'mindestens 210 ECTS-Punkten aus dem Bereich Mechatronik oder eines verwandten Studiengangs' or equivalent; 'Über die Gleichwertigkeit der Abschlüsse entscheidet die Prüfungskommission.' (old record's list of fields not in the SPO). primary_fields = GPU-R domain (GPU-R policy)."
+    },
+    "gpa_rule_type": "NO_GRADE_THRESHOLD",
+    "grade_requirement": {
+      "value": null,
+      "note": "No minimum grade; grades only allow a waiver of the aptitude test (SPO § 5 Abs. 2)."
+    },
+    "subject_credit_requirements": {
+      "items": [],
+      "note": "No subject credit minimums; subject knowledge is checked in the aptitude test (§ 5)."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "SPO § 4: degrees with 180–209 ECTS are admitted; the missing ECTS (max. 30) are made up by the start of the 3rd semester through a 20-week internship or bachelor modules — a total-credit top-up, not a subject condition (owner rule → false). No rule for missing subject knowledge; suitability is tested in the aptitude test."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "Mandatory aptitude test (SPO § 5): written or online exam, 90 minutes, on higher engineering mathematics and basics of mechatronics, mechanical engineering and electrical engineering (reference modules MDP-02/03 Mathematics 1–2, MDP-04 Physics, MDP-09/10 Computer Science 1–2, MDP-11 Electrical Engineering, MDP-12 Control Engineering); passed 'mit Erfolg abgelegt', assessed by two lecturers. One retake at the next date.",
+        "Waiver (SPO § 5): the examination board may waive the test for applicants with an overall grade 'gut' (better than 2,5) or better, or 2,5 or better in Mathematik, Physik, Informatik, Elektrotechnik und Regelungstechnik."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 6.5,
+      "toefl_ibt_min": 94,
+      "pte_min": 75,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "English native language",
+        "German university entrance qualification with English (B2 only; THD language requirements PDF)"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "SPO § 3: English 'auf dem Sprachniveau B2' (CEFR); proof per § 3 of the THD Rahmenprüfungsordnung. Re-verified 21.10.2026 in the THD Campus Cham language requirements PDF (https://www.th-deg.de/Studieninteressierte/Bewerbung/Sprachanforderungen_Deutsch-Englisch_CHAM.pdf): this programme is listed with English B2 and the B2 score band (PTE 59–75); B2 band for THD = TOEFL iBT 72–94, IELTS 5,5–6,5 in each section, PTE 59–75 (band minimum stored, as for approved THD records 9841/4870/7124; 7744 used the band maximum — Koushik to confirm). Only TOEFL iBT accepted (no Home Edition, 'Test Date Score' counts); IELTS General or Academic (not Indicator); certificates not older than 2 years. ENGLISH DECISION: MyGermanUniversity (22.10.2026) shows only TOEIC listening 400 / reading 385, no IELTS/TOEFL/PTE → band MAXIMUM stored (Koushik rule 22.10.2026). THD B2 band: TOEFL iBT 72–94, IELTS 5.5–6.5, PTE 59–75."
+    },
+    "language_german": {
+      "required": true,
+      "required_level": "A2",
+      "due": "by the end of studies (THD Campus Cham language requirements PDF: 'Das Sprachniveau Deutsch A2 ist spätestens bis Studienende … nachzuweisen'); not needed at application"
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [
+        "India"
+      ],
+      "note": "THD application page (as stored for approved THD records): APS certificate required for applicants from China, India and Vietnam; dMAT for Indian Master's applicants from summer semester 2027 for 'zahlreiche Studiengänge' (not confirmed for this programme)."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "Application via the THD online portal"
+    ],
+    "admission_type": {
+      "restricted": null,
+      "numerus_clausus": null
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter",
+        "summer"
+      ],
+      "non_eu_deadlines": {
+        "winter": "probably 15 June — THD Robotics (approved 9838, same Cham campus) official page: 15 April – 15 June; this programme page is unreadable (JavaScript) (GPU-R inference, check)",
+        "summer": "probably 1 December — THD Robotics official page: 15 October – 1 December (GPU-R inference, check)"
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.th-deg.de/hochschulrecht",
+      "documents_seen": [
+        "SPO MCS 15.03.2021 | read 21.10.2026 | https://ec.th-deg.de/Studierende/Antraege-und-Organisatorisches/Pruefungsordnungen/Master/spo_mechatronische%20und%20cyberphysische%20systeme_master_2021_1.pdf",
+        "1. Änderungssatzung 20.12.2023 | read — no admission change | https://www.cs-mariakirchen.th-deg.de/Studierende/Antraege-und-Organisatorisches/Pruefungsordnungen/Master/spo_mechatronische%20und%20cyberphysische%20systeme_master_1.%20%C3%84S_2024_1.pdf",
+        "THD Campus Cham language requirements PDF | read 21.10.2026 | https://www.th-deg.de/Studieninteressierte/Bewerbung/Sprachanforderungen_Deutsch-Englisch_CHAM.pdf",
+        "THD university-law page (EN) | read 21.10.2026: newest versions confirmed — MCS: SPO SS 2021 + 1st amendment SS 2024 | https://www.th-deg.de/en/dit/university-law"
+      ]
+    },
+    "last_checked": "2026-10-22",
+    "last_updated": "2026-10-22"
+  },
+  {
+    "id": "9838_me",
+    "program": "Robotics (MEng)",
+    "university": "Deggendorf Institute of Technology (Technische Hochschule Deggendorf), Campus Cham",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://th-deg.de/mro-m-en",
+      "admission_regulation": {
+        "url": "https://th-deg.de/Studierende/Antraege-und-Organisatorisches/Pruefungsordnungen/Master/robotik_master_2025_2.pdf",
+        "title": "Studien- und Prüfungsordnung für den Master-Studiengang Robotik/ Robotics an der Technischen Hochschule Deggendorf (§ 2 Qualifikationsvoraussetzungen, § 5, § 8 Eignungsprüfung)",
+        "version": "SPO vom 23. Juli 2025 (published by notice 24.07.2025), in force 1 October (2025), for students starting from WS 2025/26 (§ 13). Previous SPO vom 19. Februar 2025 (for students from SS 2025; same admission rules as far as visible). The university-law page lists no Änderungssatzung for this programme (checked 2026-10-17; re-checked for batch 10 on 2026-10-17: the page still lists only the SS 2025 and WS 2025/26 SPOs, no amendment). Language proof refers to § 3 of the Rahmenprüfungsordnung für die Zusatzausbildung im Bereich der Fremdsprachen und Allgemeinwissenschaftlichen Wahlpflichtfächer vom 01.10.2018 (not opened)."
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "SPO § 2 Abs. 1: a first degree 'im Umfang von mindestens 210 ECTS-Punkten aus dem Bereich' Robotik, Mechatronik, Maschinenbau, Elektrotechnik, Wirtschaftsingenieur, Produktionsingenieur, Regelungstechnik, Informatik, Elektronik, Bioinformatik, Gesundheitsinformatik, Automatisierungstechnik or a related/equivalent degree; 'Über die Gleichwertigkeit der Abschlüsse entscheidet die Prüfungskommission.' Plus a passed aptitude test (§ 8) unless waived. Programme page: 'at least 210 ECTS credits in robotics or a closely related engineering discipline'. SPO § 2 Abs. 1 names Elektrotechnik and Elektronik explicitly. This electrical_electronic_engineering record is one field copy of a multi-field programme (9838_cs rebuilt in batch 9 from the same evidence; a mechanical copy exists in another field file). primary_fields reflects the GPU-R domain of this record, not regulation wording. COPY of approved EEE record 9838_eee for the mechanical file (also 9838_cs); keep all three identical."
+    },
+    "gpa_rule_type": "NO_GRADE_THRESHOLD",
+    "grade_requirement": {
+      "value": null,
+      "note": "No grade limit for access. SPO § 8 Abs. 2: the Prüfungskommission 'kann' waive the aptitude test for above-average qualifications: 'Als überdurchschnittlich gelten Abschlüsse mit der Note „gut” (<2,5) und besser' or grade 2,5 and better in Mathematik, Regelungstechnik, Physik, Informatik and Mechatronik or Robotik (or related subjects). No conversion method stated."
+    },
+    "subject_credit_requirements": {
+      "items": [],
+      "note": "No subject credit requirements in the SPO. Subject knowledge is checked by the aptitude test (§ 8): 90-minute written or online exam on higher mathematics for engineers and fundamentals of robotics, computer science and programming, mechatronics, control engineering and electrical engineering."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "No Auflagen for missing subject competences. SPO § 5 only covers degrees with at least 180 but fewer than 210 ECTS: the missing ECTS (max. 30) must be proven by the start of the third semester (internship of at least 20 weeks or relevant undergraduate courses of the university) as a condition for passing the Masterprüfung — a total-credit rule, not a subject condition (lesson 8)."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "Aptitude test (SPO § 8) unless waived: written or online exam of 90 minutes on higher mathematics for engineers and fundamentals of robotics, computer science/programming, mechatronics, control engineering and electrical engineering; graded by two professors who must agree; passed 'mit Erfolg abgelegt'; held every semester; one retake at the next half-year date.",
+        "Waiver possible (Prüfungskommission 'kann'): degree grade 'gut' (<2,5) or better, or grade 2,5 or better in Mathematik, Regelungstechnik, Physik, Informatik and Mechatronik or Robotik (SPO § 8 Abs. 2).",
+        "Specialisation (Intelligent Robotics or Assistive Robotics) must be chosen in the application; no entitlement that a specialisation runs (SPO § 4)."
+      ]
+    },
+    "minimum_total_ects": 210,
+    "language_english": {
+      "ielts_min": 5.5,
+      "toefl_ibt_min": 72,
+      "pte_min": null,
+      "required_level": "B2",
+      "allowed_exemptions": [],
+      "moi_not_accepted": null,
+      "due": null,
+      "note": "SPO § 2 Abs. 2: 'Englische Sprachkenntnisse auf dem Sprachniveau B2 des Gemeinsamen Europäischen Referenzrahmens für Sprachen'; proof under § 3 of the Rahmenprüfungsordnung (not opened). THD language-requirements PDF: Robotics B2; only TOEFL iBT accepted; IELTS General and Academic accepted (not IELTS Indicator); certificates not older than 2 years; the score table could not be attributed reliably to tests, so no minimum scores are stored. MyGermanUniversity (checked 24.10.2026): B2 — IELTS 5.5 overall (5.5 in each section), TOEFL iBT 72."
+    },
+    "language_german": {
+      "required": true,
+      "required_level": "A2",
+      "due": "by the end of studies"
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": null,
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "Bachelor's with 180-209 ECTS: missing ECTS (max. 30) by the start of the 3rd semester via a 20-week relevant internship or undergraduate courses after advising (SPO § 5)",
+      "choice of specialisation (Intelligent Robotics or Assistive Robotics) in the application (SPO § 4)",
+      "German A2 to be proven by the end of studies (SPO § 2 Abs. 2; THD language-requirements PDF)",
+      "GATE or GRE scores encouraged but not mandatory for degrees from non-signatory states of the Lisbon Recognition Convention; Home Editions not accepted (programme page)"
+    ],
+    "admission_type": {
+      "restricted": null,
+      "numerus_clausus": null
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter",
+        "summer"
+      ],
+      "non_eu_deadlines": {
+        "winter": "15 June (application period 15 April - 15 June; programme page, no separate international deadline listed)",
+        "summer": "1 December (application period 15 October - 1 December; programme page)"
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://th-deg.de/en/dit/university-law#accordion-spo-nuw",
+      "documents_seen": [
+        "Studien- und Prüfungsordnung für den Master-Studiengang Robotik/ Robotics | 23.07.2025, from WS 2025/26 — CURRENT, opened | https://th-deg.de/Studierende/Antraege-und-Organisatorisches/Pruefungsordnungen/Master/robotik_master_2025_2.pdf",
+        "Studien- und Prüfungsordnung für den Master-Studiengang Robotik/ Robotics | 19.02.2025, from SS 2025 — opened | https://th-deg.de/Studierende/Antraege-und-Organisatorisches/Pruefungsordnungen/Master/spo_robotik_master_2025_1.pdf (read via mirror https://cs-mariakirchen.th-deg.de/Studierende/Antraege-und-Organisatorisches/Pruefungsordnungen/Master/spo_robotik_master_2025_1.pdf)",
+        "Rahmenprüfungsordnung für die Zusatzausbildung im Bereich der Fremdsprachen und Allgemeinwissenschaftlichen Wahlpflichtfächer | 01.10.2018 — not opened | https://th-deg.de/Studierende/Antraege-und-Organisatorisches/Hochschulrecht/fremdsprachenzertifikat.pdf",
+        "Language requirements German/English Campus Cham (information sheet) | undated ('15.10.2026' printed) — opened | https://www.th-deg.de/Studieninteressierte/Bewerbung/language_requirements_German-English_CHAM.pdf"
+      ]
+    },
+    "last_checked": "2026-10-17",
+    "last_updated": "2026-10-24"
+  },
+  {
+    "id": "4202",
+    "program": "Mechanical Engineering/Mechatronics (MSc)",
+    "university": "Kaiserslautern University of Applied Sciences",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://hs-kl.de/angewandte-ingenieurwissenschaften/studiengaenge/master/mechanical-engineeringmechatronics/application-admission",
+      "admission_regulation": {
+        "url": "https://www.hs-kl.de/fileadmin/angewandte-ingenieurwissenschaften/pruefungsordnung/LESE_MA_MB_MT_2021.pdf",
+        "title": "Fachprüfungsordnung für den Masterstudiengang Maschinenbau/Mechatronik an der Hochschule Kaiserslautern",
+        "version": "vom 26.05.2021 (Hochschulanzeiger Nr. 5/2021), geändert durch Ordnung vom 04.11.2021 (Hochschulanzeiger Nr. 9/2021, S. 8) und Ordnung zur zweiten Änderung vom 18.07.2023 (Hochschulanzeiger Nr. 6/2023, S. 3). Both amendments checked against the Hochschulanzeiger originals (10.10.2026): neither changes Anlage 3 § 1 (grade 2,8, 210 ECTS, degree fields) or § 3 (points system)."
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "FPO Anlage 3 § 1(1): professional Bachelor's degree of 210 ECTS in Maschinenbau, Mechatronik or Wirtschaftsingenieurwesen mit Vertiefungsrichtung Maschinenbau. § 1(4): applicants with a degree in another programme may apply if equivalence (Gleichwertigkeit) is established; Auflagen possible. Program page: comparable qualifications accepted, but not 'in the subjects of Electrical Engineering, IT, or Informatics' (exclusion stated only on the website). EXCLUDED FOR INDIAN BACHELOR DEGREES (Koushik 22.10.2026): engine must hard-code this programme as not shown / NOT_ELIGIBLE for applicants with an Indian bachelor's degree."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 2.8,
+      "note": "FPO Anlage 3 § 1(1): 'mit einer Note von mindestens 2,8 und besser'. No conversion method for foreign grades is stated; the ECTS grade is also considered in the aptitude points."
+    },
+    "subject_credit_requirements": {
+      "items": [],
+      "note": "No subject-credit minimums in the FPO; the requirement is the degree field (plus aptitude points)."
+    },
+    "conditional_admission": {
+      "allowed": true,
+      "max_ects": null,
+      "mechanism": "FPO Anlage 3 § 1(4): applicants from another programme may be admitted if equivalence is established, with Auflagen (programme-level rule → true, no cap). § 1(2): 180–209 ECTS degrees are admitted with Auflagen to reach 210 (bachelor modules, study abroad, professional experience) by thesis registration — a total-credit top-up, not a subject condition (same handling as THD/Lübeck: minimum_total_ects 180)."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "Aptitude by points system (FPO Anlage 3 § 3), max 14 points: subject aptitude (degree grade considering the ECTS grade) 0-8, personal aptitude - career/background 0-3, personal aptitude - motivation letter 0-3. At least 7 points in total and at least 1 point in each category required. The grade-to-points conversion is not published.",
+        "Program page: 'Applicants with a Bachelor's degree completed in India require an additional 3 years of professional experience' and a degree 'with distinction' (not in the FPO).",
+        "Evaluation in mid-December (summer semester) and first half of July (winter semester) (program page)."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 6.0,
+      "toefl_ibt_min": 87,
+      "pte_min": null,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "native_english_speaker"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "FPO Anlage 3 § 1(6): applicants whose native language is not English need B2 at the latest at application; TOEIC Listening 400 and Reading 385, TOEIC Speaking 160 and Writing 150, TOEFL iBT 87, TOEFL ITP 543, IELTS 6.0 or equivalent; certificate not older than 24 months. § 1(7): admission under language Auflagen possible for lower skills."
+    },
+    "language_german": {
+      "required": true,
+      "required_level": "A2",
+      "due": "at application — FPO Anlage 3 § 1(6) (binding, mandatory wording): 'benötigen für die Zulassung zum Studium zum Zeitpunkt der Bewerbung Deutschkenntnisse mindestens auf dem Niveau A2' (Koushik 22.10.2026: A2 stored because the regulation states it as mandatory). Programme page says B1 (not stored). § 1(7): admission under language Auflagen possible for lower skills."
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": null,
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "EXCLUDED FOR INDIAN BACHELOR DEGREES (Koushik 22.10.2026): engine must hard-code this programme as not shown / NOT_ELIGIBLE for applicants with an Indian bachelor's degree. Reason: HS Kaiserslautern programme page: applicants with an Indian bachelor need an additional 3 years of professional experience and a degree 'with distinction'.",
+      "Motivation letter",
+      "CV",
+      "Online application followed by documents sent by mail",
+      "German C1 (TestDaF-4, DSH-2 or equivalent) by module start if German-taught modules are chosen (FPO); program page currently says B1 for all non-native German speakers and B2/TestDaF-3/DSH-1 for German-taught modules"
+    ],
+    "admission_type": {
+      "restricted": null,
+      "numerus_clausus": null
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter",
+        "summer"
+      ],
+      "non_eu_deadlines": {
+        "winter": "31 May",
+        "summer": "30 November (program page); FPO Anlage 3 § 2(3): 01 December"
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": null,
+      "documents_seen": [
+        "Fachprüfungsordnung Master Maschinenbau/Mechatronik, Lesefassung PO 2021 | 26.05.2021 (Hochschulanzeiger 5/2021) | https://www.hs-kl.de/fileadmin/angewandte-ingenieurwissenschaften/pruefungsordnung/LESE_MA_MB_MT_2021.pdf",
+        "Lesefassung Master Mb-MT 2021, English version | 2021 | https://www.hs-kl.de/fileadmin/angewandte-ingenieurwissenschaften/pruefungsordnung/Lese_MA_Mb-MT_2021_eng.pdf",
+        "Ordnung zur ersten Änderung der FPO Master Maschinenbau/Mechatronik | 04.11.2021, Hochschulanzeiger Nr. 9/2021 (30.11.2021), S. 8 | https://hs-kl.de/fileadmin/hochschule/aktuelles/hochschulanzeiger/hochschulanzeiger_2021_nr9_20211130.pdf (changes § 10 (3) wording, Anlage 3 § 2 (1) application documents, Anlage 4 grade table University West; Anlage 3 § 1 admission requirements unchanged)",
+        "Ordnung zur zweiten Änderung | 18.07.2023, Hochschulanzeiger Nr. 6/2023, S. 3 | https://www.hs-kl.de/fileadmin/hochschule/aktuelles/hochschulanzeiger/Nr.06_31_06_2023.pdf (replaces Anlage 4 grade table University West only; admission rules unchanged)",
+        "Programme page re-checked 22.10.2026: grade 2.8, 210 ECTS, TOEFL 87 / IELTS 6.0, German B1, deadlines 31 May / 30 Nov, Indian bachelor: +3 years professional experience and degree 'with distinction'"
+      ]
+    },
+    "last_checked": "2026-10-22",
+    "last_updated": "2026-10-22"
+  },
+  {
+    "id": "10548",
+    "program": "AI-Driven Mechatronics and Robotics (M.Sc. Mechatronics and Robotics, English track)",
+    "university": "Leibniz University Hannover",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://www.uni-hannover.de/studium/studienangebot/info/studiengang/detail/mechatronik-und-robotik",
+      "admission_regulation": {
+        "url": "https://www.uni-hannover.de/fileadmin/luh/studium/ordnungen/zugang/master/zo_m_maschinenbau_mechatronik_und_robotik_produktion_und_logistik_biomedizintechnik_optische_technologien.pdf",
+        "title": "Ordnung über den Zugang und die Zulassung für die konsekutiven Masterstudiengänge Maschinenbau, Mechatronik und Robotik, Produktion und Logistik, Biomedizintechnik und Optische Technologien (Anlage 1: Mechatronik und Robotik)",
+        "version": "Verkündungsblatt LUH Nr. 05/2026 vom 15.06.2026, S. 255 (new order, in force the day after publication) — read 22.10.2026"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "ZO § 2(1) + Anlage 1: Bachelor (or equivalent) in Mechatronik or a suitable field; foreign degrees per anabin. Programme page examples: Energietechnik, Mechatronik, Nachhaltige Ingenieurwissenschaft. Apply under 'Mechatronics and Robotics' (old record: assigned to the AI-driven English track after admission; the ZO has no separate track). primary_fields = GPU-R domain (GPU-R policy)."
+    },
+    "gpa_rule_type": "NO_GRADE_THRESHOLD",
+    "grade_requirement": {
+      "value": null,
+      "note": "No minimum grade (ZO). The programme is admission-free ('zulassungsfrei')."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "ZO Anlage 1 Abs. 1: Elektrotechnik/Antriebstechnik at least 20 ECTS-LP",
+          "canonical_category": "electrical_electronic_engineering.general_ee",
+          "covered_categories": [],
+          "min_ects": 20,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "ZO Anlage 1 Abs. 1: Technische Mechanik at least 15 ECTS-LP",
+          "canonical_category": "mechanical_manufacturing_engineering.mechanics_dynamics",
+          "covered_categories": [],
+          "min_ects": 15,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "ZO Anlage 1 Abs. 1: Mathematik at least 15 ECTS-LP",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [],
+          "min_ects": 15,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "ZO Anlage 1 Abs. 1: Mess-/Regelungstechnik at least 10 ECTS-LP",
+          "canonical_category": "electrical_electronic_engineering.measurement_instrumentation",
+          "covered_categories": [
+            "electrical_electronic_engineering.control_systems"
+          ],
+          "min_ects": 10,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "ZO Anlage 1 Abs. 1 minimums. 'Elektrotechnik/Antriebstechnik' = general_ee (all EE subjects incl. drives; Koushik rule 20.10: no sub-categories under general_ee). TAXONOMY GAPS: mechanics_dynamics, measurement_instrumentation (count 0 until the taxonomy phase)."
+    },
+    "conditional_admission": {
+      "allowed": true,
+      "max_ects": null,
+      "mechanism": "ZO § 2(1), (5), (6): missing modules can be imposed as Auflagen — 'maximal 4 Module', to be completed within 2 semesters from enrolment (extension possible if not at fault). With up to 4 Auflagen the applicant chooses between an entrance exam and the Auflagen. Cap is in MODULES, not ECTS (max_ects null; GPU-R cannot convert). More than 4 missing modules: admission only via a passed Eignungsprüfung (see notes)."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "If more than 4 modules are missing: admission only through a passed aptitude exam (Eignungsprüfung) — 90-minute written exam on the Anlage 1 fundamentals (electrical engineering/drives, engineering mechanics, mathematics, measurement/control); one retake (ZO § 2(6)).",
+        "Conditions (up to 4 modules) must be completed within 2 semesters; otherwise enrolment lapses (§ 4(4)).",
+        "Unfinished degree: apply with at least 83.33 % of the credits (150 of 180 LP); degree proof by 15 April (winter start) / 15 October (summer start) (§ 2(2), § 4(4))."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 7.0,
+      "toefl_ibt_min": null,
+      "pte_min": null,
+      "required_level": "C1",
+      "allowed_exemptions": [],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "ZO § 2(4): English at least C1 (CEFR) as alternative to German C1; accepted certificates per the LUH certificates page (not opened). IELTS 7.0 from the old record — not re-verified."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Not stated (non-EU applications via uni-assist with VPD; global APS rule for India still open)."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "Non-EU: uni-assist preliminary examination document (VPD) required",
+      "Apply under the degree title 'Mechatronics and Robotics' (old record)",
+      "ZO § 2(3)/(4): German C1 OR English C1"
+    ],
+    "admission_type": {
+      "restricted": false,
+      "numerus_clausus": false
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter",
+        "summer"
+      ],
+      "non_eu_deadlines": {
+        "winter": "15 April – 31 May (programme page)",
+        "summer": "15 October – 30 November of the previous year (programme page)"
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.uni-hannover.de/studium/im-studium/pruefungsinfos-fachberatung/mechatronik-msc/ordnungen",
+      "documents_seen": [
+        "Zugangsordnung konsekutive Master FK Maschinenbau, VkBl. 05/2026 (15.06.2026) | read 22.10.2026 | https://www.uni-hannover.de/fileadmin/luh/studium/ordnungen/zugang/master/zo_m_maschinenbau_mechatronik_und_robotik_produktion_und_logistik_biomedizintechnik_optische_technologien.pdf",
+        "Programme page (German) | read 22.10.2026",
+        "PO Mechatronik 23.09.2025 with changes 18.09.2026 | not opened (exam rules) | https://www.uni-hannover.de/fileadmin/luh/studium/ordnungen/stpo/f_mechatr_mpo26_PO26.pdf"
+      ]
+    },
+    "last_checked": "2026-10-22",
+    "last_updated": "2026-10-22"
+  },
+  {
+    "id": "9061",
+    "program": "Computational Methods in Engineering (M.Sc.)",
+    "university": "Otto von Guericke University Magdeburg",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://egotectest1.ovgu.de/unimagdeburg/en/Study/Study+Programmes/Master/Computational+Methods+in+Engineering.html",
+      "admission_regulation": {
+        "url": "https://www.bekanntmachungen.ovgu.de/media/Archiv+_+Amtliche+Bekanntmachungen/2023/35_2023+_+Studiengangspezifische+Studien_+und+Pr%C3%BCfungsordnung+f%C3%BCr+den+Masterstudiengang+Computational+Methods+in+Engineering+%28M_CoME%29+vom+16_+Mai+2023-p-20118.pdf",
+        "title": "Studiengangspezifische Studien- und Prüfungsordnung für den Masterstudiengang Computational Methods in Engineering (M-CoME), with the Allgemeine Studien- und Prüfungsordnung (aSPO-Master) of the engineering campus",
+        "version": "vom 16.05.2023 — read 22.10.2026 from the text pasted by Koushik. 1st amendment 11.11.2023 read 22.10.2026 (Koushik's paste): replaces only the study plan (Anlage) and adds § 34 validity from WS 2023/24 — § 4 unchanged. 2nd amendment 11.03.2025 read 22.10.2026 (Koushik's paste): new § 4 Abs. 2–4 and new Abs. 13 + Anlage 2 (GRE/GATE), applies from WS 2025/26 — fields below follow it. NOT READ: aSPO-Master § 4 Abs. 2 a (degree field)."
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "sSPO § 4 refers to aSPO-M § 4 Abs. 2 a for the degree (not read); programme page: 'Relevant bachelor's degree (at least 180 CP)'. Target group (§ 2): engineers at the interface of mechanical, process and electrical engineering, computer science and mathematics. primary_fields = GPU-R domain (GPU-R policy)."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 2.3,
+      "note": "sSPO § 4 Abs. 3 as amended 11.03.2025 (from WS 2025/26): previous degree completed 'mindestens mit dem Notendurchschnitt von 2,300' (was 2,500). No conversion method stated."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "sSPO CoME § 4 Abs. 2 b: (2nd amendment 2025) Kompetenzbereiche Mathematik und Informatik at least 25 CP",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [
+            "computer_science_informatics.general_cs"
+          ],
+          "min_ects": 25,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "sSPO CoME § 4 Abs. 2 b: (2nd amendment 2025) of which Mathematik at least 15 CP",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [],
+          "min_ects": 15,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "sSPO CoME § 4 Abs. 2 b: (2nd amendment 2025) of which Informatik at least 5 CP",
+          "canonical_category": "computer_science_informatics.general_cs",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "sSPO CoME § 4 Abs. 2 b: Kompetenzbereich ingenieurwissenschaftliche Grundlagen 40 CP",
+          "canonical_category": "mechanical_manufacturing_engineering.general_mechanical",
+          "covered_categories": [
+            "chemistry_materials.materials_science",
+            "electrical_electronic_engineering.general_ee"
+          ],
+          "min_ects": 40,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "sSPO CoME § 4 Abs. 2 b: of which Technische Mechanik 10 CP",
+          "canonical_category": "mechanical_manufacturing_engineering.mechanics_dynamics",
+          "covered_categories": [],
+          "min_ects": 10,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "sSPO CoME § 4 Abs. 2 b: of which Strömungsmechanik oder Thermodynamik 5 CP",
+          "canonical_category": "mechanical_manufacturing_engineering.mechanics_fluid_dynamics",
+          "covered_categories": [
+            "mechanical_manufacturing_engineering.thermodynamics"
+          ],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "sSPO § 4 Abs. 2 b as amended 11.03.2025: maths + informatics at least 25 CP (maths at least 15, informatics at least 5); engineering fundamentals 40 CP, including 10 CP engineering mechanics and 5 CP fluid mechanics OR thermodynamics (nested; overlap allowed; add-up within each item). 'Ingenieurwissenschaftliche Grundlagen' = all mechanical categories + materials + general_ee (GPU-R mapping; the target group includes EE). TAXONOMY GAPS: mechanical categories, materials_science (count 0 until the taxonomy phase). Koushik rule 22.10.2026: general_mechanical = all ME subjects (like general_ee / general_cs), so ME sub-categories are removed from items containing it."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "sSPO § 4 has no Auflagen rule for missing subject credits. § 4 Abs. 4: unfinished bachelor allowed with at most 25 CP outstanding (provisional, time-limited enrolment), not a subject condition."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": false,
+      "descriptive_notes": [
+        "IMPORTANT — GRE OR GATE REQUIRED (Indian bachelors): you must submit EITHER the GRE General Test (Quantitative Reasoning at least 158 and Analytical Writing at least 3.5) OR a valid GATE score (not older than 2 years, marks above the General qualifying marks). Graduates of an IIT or IISc Bengaluru are exempt (sSPO § 4 Abs. 13 + Anlage 2, from WS 2025/26).",
+        "Unfinished bachelor: apply if at most 25 CP are still open and your current average is 2.3 or better; degree proof by 15 December (winter intake) / 15 June (summer), otherwise exmatriculation (sSPO § 4 Abs. 4, 2025).",
+        "English equivalence can be requested from the examination board (§ 4 Abs. 6)."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 7.0,
+      "toefl_ibt_min": 95,
+      "pte_min": null,
+      "required_level": "C1",
+      "allowed_exemptions": [
+        "Equivalence determination by the examination board on request (sSPO § 4 Abs. 6)"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "sSPO § 4 Abs. 6: C1 (CEFR), no scores in the regulation. Scores from an OVGU programme page on a test server (egotectest1.ovgu.de): TOEFL C1 (95–120 iBT), IELTS C1 (7.0), CAE — not the live page (UNVERIFIED)."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [
+      {
+        "test": "GATE or GRE General",
+        "required_for": "applicants with a bachelor from India (also Bangladesh, Pakistan: GRE only)",
+        "details": "sSPO § 4 Abs. 13 + Anlage 2 (2nd amendment 11.03.2025): mandatory at application. GRE General: Quantitative Reasoning at least 158, Analytical Writing at least 3.5. GATE: valid (2 years) and 'Marks out of 100' higher than the stated General qualifying marks. Graduates of an IIT or IISc Bengaluru need no GATE (submit the IIT/IISc transcript instead)."
+      }
+    ],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Not stated in the sSPO."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "Mainly English-taught (sSPO § 1)",
+      "GATE (qualifying) or GRE (QR 158, AW 3.5) mandatory for Indian bachelors; IIT/IISc graduates exempt (sSPO § 4 Abs. 13, 2025)"
+    ],
+    "admission_type": {
+      "restricted": null,
+      "numerus_clausus": null
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "15 July via uni-assist (OVGU test-server programme page — UNVERIFIED; SEFM's live page says 15 June)",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.bekanntmachungen.ovgu.de/",
+      "documents_seen": [
+        "sSPO CoME 16.05.2023 | read 22.10.2026 from Koushik's paste | https://www.bekanntmachungen.ovgu.de/media/Archiv+_+Amtliche+Bekanntmachungen/2023/35_2023+_+Studiengangspezifische+Studien_+und+Pr%C3%BCfungsordnung+f%C3%BCr+den+Masterstudiengang+Computational+Methods+in+Engineering+%28M_CoME%29+vom+16_+Mai+2023-p-20118.pdf",
+        "1. Änderung 11.11.2023 (Amtl. Bek. 64/2023) | read 22.10.2026 from Koushik's paste — study plan only, § 4 unchanged",
+        "2. Änderung 11.03.2025 | read 22.10.2026 from Koushik's paste — new § 4 Abs. 2–4, Abs. 13, Anlage 2 (GRE/GATE)",
+        "aSPO-Master (engineering campus) | NOT READ"
+      ]
+    },
+    "last_checked": "2026-10-22",
+    "last_updated": "2026-10-22"
+  },
+  {
+    "id": "manual_ovgu_sefm",
+    "program": "Systems Engineering for Manufacturing (M.Sc.)",
+    "university": "Otto von Guericke University Magdeburg",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://ovgu.de/unimagdeburg/en/Study/Study+Programmes/Master/Systems+Engineering+for+Manufacturing.html",
+      "admission_regulation": {
+        "url": "https://www.bekanntmachungen.ovgu.de/media/A_Rundschreiben/1_05+Studienordnungen/Master+_+Studieng%C3%A4nge/Systems+Engineering+for+Manufacturing/Studien_+und+Pr%C3%BCfungsordnung+Systems+Engineering+for+Manufacturing+vom+04_03_2020/Studien_+und+Pr%C3%BCfungsordnung+M_Sc_+Systems+Engineering+for+Manufacturing+vom+04_03_2020-p-12406.pdf",
+        "title": "Studien- und Prüfungsordnung für den Masterstudiengang Systems Engineering for Manufacturing (§ 4 Zulassung zum Studium / Zulassungsvoraussetzungen)",
+        "version": "vom 04.03.2020 — read 22.10.2026 from the text pasted by Koushik (URL too long for the fetch tool); OVGU regulations page lists no later amendment"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "SPO § 4 Abs. 2 a: bachelor (or diploma etc.) 'im Ingenieursbereich, den Naturwissenschaften oder eng verwandter Richtung' with at least 180 CP; the examination board decides (§ 4 Abs. 6). primary_fields = GPU-R domain (GPU-R policy)."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 2.5,
+      "note": "SPO § 4 Abs. 3: previous degree completed 'mindestens mit der Bewertung 2,500'. No conversion method stated."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "SPO SEM § 4 Abs. 2 b: Kompetenzbereich Naturwissenschaft und Informatik at least 25 CP",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [
+            "physics_natural_sciences.general_physics",
+            "physics_natural_sciences.chemistry",
+            "computer_science_informatics.general_cs"
+          ],
+          "min_ects": 25,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "SPO SEM § 4 Abs. 2 b: of which Mathematik at least 10 CP",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [],
+          "min_ects": 10,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "SPO SEM § 4 Abs. 2 b: of which Physik at least 5 CP",
+          "canonical_category": "physics_natural_sciences.general_physics",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "SPO SEM § 4 Abs. 2 b: of which Informatik at least 5 CP",
+          "canonical_category": "computer_science_informatics.general_cs",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "SPO SEM § 4 Abs. 2 b: Kompetenzbereich Konstruktion 10 CP",
+          "canonical_category": "mechanical_manufacturing_engineering.design_machine_elements",
+          "covered_categories": [],
+          "min_ects": 10,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "SPO SEM § 4 Abs. 2 b: Kompetenzbereich Technische Mechanik 10 CP",
+          "canonical_category": "mechanical_manufacturing_engineering.mechanics_dynamics",
+          "covered_categories": [],
+          "min_ects": 10,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "SPO SEM § 4 Abs. 2 b: Kompetenzbereich Ingenieurtechnik at least 20 CP",
+          "canonical_category": "mechanical_manufacturing_engineering.general_mechanical",
+          "covered_categories": [
+            "chemistry_materials.materials_science",
+            "electrical_electronic_engineering.general_ee"
+          ],
+          "min_ects": 20,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "SPO SEM § 4 Abs. 2 b: of which Fertigung at least 5 CP",
+          "canonical_category": "mechanical_manufacturing_engineering.manufacturing_production",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "SPO SEM § 4 Abs. 2 b: of which Werkstofftechnik at least 5 CP",
+          "canonical_category": "chemistry_materials.materials_science",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "SPO SEM § 4 Abs. 2 b: Kompetenzbereich Wirtschaftswissenschaften at least 10 CP",
+          "canonical_category": "business_economics_management.business_administration",
+          "covered_categories": [],
+          "min_ects": 10,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "SPO § 4 Abs. 2 b competence fields (nested: sub-minimums count toward their field total; overlap allowed, D13 removed; add-up within each item). 'Ingenieurtechnik' (engineering technology) = general_mechanical + manufacturing + materials + general_ee (GPU-R mapping). 'Wirtschaftswissenschaften' mapped to business_administration (no separate economics category in use). TAXONOMY GAPS: mechanical categories, materials_science (count 0 until the taxonomy phase). Koushik rule 22.10.2026: general_mechanical = all ME subjects (like general_ee / general_cs), so ME sub-categories are removed from items containing it."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "SPO § 4 has no Auflagen rule; § 4 Abs. 5 requires a complete bachelor degree with at least 180 ECTS."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": false,
+      "descriptive_notes": [
+        "Complete bachelor degree required at application (SPO § 4 Abs. 5) — no provisional admission.",
+        "English exceptions and special rules for English-taught education are decided by the examination board (§ 4 Abs. 4)."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 7.0,
+      "toefl_ibt_min": 108,
+      "pte_min": null,
+      "required_level": "C1",
+      "allowed_exemptions": [
+        "Exceptions decided by the examination board; special rules for applicants with specific English-taught education (SPO § 4 Abs. 4)"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "SPO § 4 Abs. 4: C1 proven by TOEFL iBT at least 108, IELTS Academic overall band at least 7.0, CAE, or UNIcert III. (Programme page links the OVGU language framework 2026, not opened; the SPO value 108 is stored.)"
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Not stated in the SPO."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "Full-time, on-campus programme (SPO § 6 Abs. 1)"
+    ],
+    "admission_type": {
+      "restricted": null,
+      "numerus_clausus": null
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "15 June via uni-assist (official programme page)",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.bekanntmachungen.ovgu.de/",
+      "documents_seen": [
+        "SPO SEM 04.03.2020 | read 22.10.2026 from Koushik's paste | https://www.bekanntmachungen.ovgu.de/media/A_Rundschreiben/1_05+Studienordnungen/Master+_+Studieng%C3%A4nge/Systems+Engineering+for+Manufacturing/Studien_+und+Pr%C3%BCfungsordnung+Systems+Engineering+for+Manufacturing+vom+04_03_2020/Studien_+und+Pr%C3%BCfungsordnung+M_Sc_+Systems+Engineering+for+Manufacturing+vom+04_03_2020-p-12406.pdf",
+        "Programme page (EN) | read 22.10.2026"
+      ]
+    },
+    "last_checked": "2026-10-22",
+    "last_updated": "2026-10-22"
+  },
+  {
+    "id": "10396",
+    "program": "Additive Manufacturing (M.Sc.)",
+    "university": "Paderborn University",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://www.uni-paderborn.de/en/studyoffer/course_of_study/additive-manufacturing-master",
+      "admission_regulation": {
+        "url": "https://mb.uni-paderborn.de/fileadmin-mb/fakultaet/Studiengaenge/Pruefungsordnungen/Pruefungsordnungen_ab_WS_2526/ENG_SpecProv_AM_MastersDegr.pdf",
+        "title": "Special provisions of the examination regulations for the master's degree programme in Additive Manufacturing at Paderborn University (§ 35), with the General Provisions for master's degrees of the Faculty of Mechanical Engineering",
+        "version": "Besondere Bestimmungen of 20.05.2025, in force 01.10.2025 (§ 38) — read 21.10.2026 in the official English version; the German text is binding (not read)."
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "BB § 35 Abs. 1: a degree containing at least the listed subject areas and credit points (see items); the General Provisions (§ 5) apply. Old record: Paderborn bachelor or comparable degree. primary_fields = GPU-R domain (GPU-R policy)."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 2.5,
+      "note": "BB § 35 Abs. 2: degree completed 'with an overall grade of at least 2.5' (or an equivalent foreign grade). No conversion method stated."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "BB AM § 35 Abs. 1: 'Mathematical, scientific and technical subjects' overall 120 LP",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [
+            "physics_natural_sciences.general_physics",
+            "physics_natural_sciences.chemistry",
+            "mechanical_manufacturing_engineering.general_mechanical",
+            "electrical_electronic_engineering.general_ee",
+            "computer_science_informatics.general_cs",
+            "chemistry_materials.materials_science"
+          ],
+          "min_ects": 120,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "BB AM § 35 Abs. 1: Advanced mathematics 20 LP",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [],
+          "min_ects": 20,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "BB AM § 35 Abs. 1: Engineering Mechanics and Fluid Mechanics 18 LP",
+          "canonical_category": "mechanical_manufacturing_engineering.mechanics_dynamics",
+          "covered_categories": [
+            "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+          ],
+          "min_ects": 18,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "BB AM § 35 Abs. 1: Design Engineering and Machine Elements 18 LP",
+          "canonical_category": "mechanical_manufacturing_engineering.design_machine_elements",
+          "covered_categories": [],
+          "min_ects": 18,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "BB AM § 35 Abs. 1: Electrical Engineering, Computer Science, Measurement and Control Engineering 15 LP",
+          "canonical_category": "electrical_electronic_engineering.general_ee",
+          "covered_categories": [
+            "computer_science_informatics.general_cs"
+          ],
+          "min_ects": 15,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "BB AM § 35 Abs. 1: Natural sciences 5 LP",
+          "canonical_category": "physics_natural_sciences.general_physics",
+          "covered_categories": [
+            "physics_natural_sciences.chemistry"
+          ],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "BB AM § 35 Abs. 1: Materials engineering 5 LP",
+          "canonical_category": "chemistry_materials.materials_science",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "BB AM § 35 Abs. 1: Thermodynamics 5 LP",
+          "canonical_category": "mechanical_manufacturing_engineering.thermodynamics",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "BB AM § 35 Abs. 1: Manufacturing Engineering 5 LP",
+          "canonical_category": "mechanical_manufacturing_engineering.manufacturing_production",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "BB § 35 Abs. 1 table: mathematical, scientific and technical subjects 120 LP overall, of which advanced mathematics 20, engineering mechanics + fluid mechanics 18, design engineering + machine elements 18, EE/CS/measurement/control 15, natural sciences 5, materials 5, thermodynamics 5, manufacturing 5 (nested: the specific areas count toward the 120; overlap allowed, D13 removed). Add-up rule within each item. Item 1 (120 LP 'mathematical, scientific and technical subjects') = all maths, sciences, engineering and CS categories (GPU-R mapping). TAXONOMY GAPS: mechanical categories, materials_science, chemistry, measurement_instrumentation (count 0 until the taxonomy phase)."
+    },
+    "conditional_admission": {
+      "allowed": true,
+      "max_ects": 30,
+      "mechanism": "General Provisions (Faculty of Mechanical Engineering, EN, read 21.10.2026) § 5 (1) 2 b, referenced by BB § 35: 'If credit points are missing, enrolment can be granted with the condition that the credit points be made up by taking appropriate courses and by passing the associated examinations by the time of registration for the master's thesis.' 'The missing studies to be made up may not exceed 30 credit points.' Courses 'should be taken in the first semester'. Programme regulation refers to it → allowed, cap 30 (as approved Paderborn 5625)."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": false,
+      "descriptive_notes": [
+        "GRE (§ 35 Abs. 5): international applicants not treated like Germans need the GRE General Test — Quantitative Reasoning at least 157, Analytical Writing at least 4.0; waived for an excellent bachelor grade, a German university entrance qualification or a German qualifying degree.",
+        "Paderborn international application page: 'The GRE or dMAT is required for this master's programme' (the regulation § 35(5) names the GRE; dMAT as alternative per the page)."
+      ]
+    },
+    "minimum_total_ects": null,
+    "language_english": {
+      "ielts_min": 6.5,
+      "toefl_ibt_min": 87,
+      "pte_min": null,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "Abitur stating B2, or at least seven years of continuous English with at least satisfactory results",
+        "bachelor's degree from an English-speaking country or an accredited English-taught programme in Germany"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "BB § 35 Abs. 3: B2; TOEFL ≥ 585 paper / 87 iBT; Cambridge First grade B; IELTS ≥ 6.5; or a comparable test."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [
+      {
+        "test": "GRE General",
+        "required_for": "international applicants not treated like German applicants (includes India), unless the qualifying degree grade is excellent",
+        "details": "BB § 35 Abs. 5: Quantitative Reasoning ≥ 157, Analytical Writing ≥ 4.0."
+      }
+    ],
+    "aps_certificate": {
+      "required_for": [
+        "India"
+      ],
+      "note": "Paderborn international application page (22.10.2026): APS certificate required for applicants from India, China or Vietnam."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "Application details and deadlines: programme page / Paderborn international office (not opened for this record)"
+    ],
+    "admission_type": {
+      "restricted": null,
+      "numerus_clausus": null
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter",
+        "summer"
+      ],
+      "non_eu_deadlines": {
+        "winter": "31 May via uni-assist (extended deadline for additional documents 15 July) — Paderborn international application page",
+        "summer": "30 November via uni-assist (English-taught; additional documents by 15 January)"
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://mb.uni-paderborn.de/fileadmin-mb/fakultaet/Studiengaenge/Pruefungsordnungen/Pruefungsordnungen_ab_WS_2526/",
+      "documents_seen": [
+        "Special provisions AM master (EN) 20.05.2025, in force 01.10.2025 | read 21.10.2026 | https://mb.uni-paderborn.de/fileadmin-mb/fakultaet/Studiengaenge/Pruefungsordnungen/Pruefungsordnungen_ab_WS_2526/ENG_SpecProv_AM_MastersDegr.pdf",
+        "General Provisions master (EN) | read 21.10.2026 — § 5 conditions cap 30 LP | https://mb.uni-paderborn.de/fileadmin-mb/fakultaet/Studiengaenge/Pruefungsordnungen/Pruefungsordnungen_ab_WS_2526/ENG_GenProv_MastersDegr.pdf",
+        "International application procedure page | read 22.10.2026 | https://www.uni-paderborn.de/en/studies/international-students/application-for-admission-terms/application-for-admission-procedure-and-documents"
+      ]
+    },
+    "last_checked": "2026-10-22",
+    "last_updated": "2026-10-22"
+  },
+  {
+    "id": "4599",
+    "program": "Automotive Engineering (M.Sc.)",
+    "university": "RWTH Aachen University",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://www.ika.rwth-aachen.de/en/studies/study-programs/automotive-engineering-msc.html",
+      "admission_regulation": {
+        "url": null,
+        "title": "Course of Study-Specific Examination Regulations for the Master's Course of Study in Automotive Engineering at RWTH Aachen University (§ 3), with the General Examination Regulations (GER/ÜPO)",
+        "version": "Examination Regulations – 2020 Version, first revised version dated 11.10.2024, Official Announcement 2024/126 of 17.10.2024 — read 22.10.2026 from the official English reading aid uploaded by Koushik (German text binding, not read). Program page URL not verified."
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "MPO § 3 Abs. 1: recognised first university degree (§ 3 Abs. 4 GER); the programme builds on the RWTH bachelor in Mechanical Engineering (§ 2 Abs. 1). Fit is decided by the credit areas of § 3 Abs. 2. primary_fields = GPU-R domain (GPU-R policy)."
+    },
+    "gpa_rule_type": "NO_GRADE_THRESHOLD",
+    "grade_requirement": {
+      "value": null,
+      "note": "No minimum grade in MPO § 3."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "RWTH MPO Automotive Engineering § 3 Abs. 2: 120 CP from engineering, mathematics and natural sciences (excluding internships)",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [
+            "physics_natural_sciences.general_physics",
+            "physics_natural_sciences.chemistry",
+            "mechanical_manufacturing_engineering.general_mechanical",
+            "electrical_electronic_engineering.general_ee",
+            "computer_science_informatics.general_cs",
+            "chemistry_materials.materials_science",
+            "engineering.mechatronics",
+            "engineering.automotive_engineering"
+          ],
+          "min_ects": 120,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "RWTH MPO Automotive Engineering § 3 Abs. 2: Mechanics I–III 18 CP",
+          "canonical_category": "mechanical_manufacturing_engineering.mechanics_dynamics",
+          "covered_categories": [],
+          "min_ects": 18,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "RWTH MPO Automotive Engineering § 3 Abs. 2: Machine Design I–III and Introduction to CAD 13 CP",
+          "canonical_category": "mechanical_manufacturing_engineering.design_machine_elements",
+          "covered_categories": [],
+          "min_ects": 13,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "RWTH MPO Automotive Engineering § 3 Abs. 2: Thermodynamics I–II 7 CP + Heat and Mass Transfer I 6 CP = 13 CP (combined, R2)",
+          "canonical_category": "mechanical_manufacturing_engineering.thermodynamics",
+          "covered_categories": [],
+          "min_ects": 13,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "RWTH MPO Automotive Engineering § 3 Abs. 2: Materials Science I–II 8 CP",
+          "canonical_category": "chemistry_materials.materials_science",
+          "covered_categories": [],
+          "min_ects": 8,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "RWTH MPO Automotive Engineering § 3 Abs. 2: Automatic Control 6 CP",
+          "canonical_category": "electrical_electronic_engineering.control_systems",
+          "covered_categories": [],
+          "min_ects": 6,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "RWTH MPO Automotive Engineering § 3 Abs. 2: Fluid Mechanics I 6 CP",
+          "canonical_category": "mechanical_manufacturing_engineering.mechanics_fluid_dynamics",
+          "covered_categories": [],
+          "min_ects": 6,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "RWTH MPO Automotive Engineering § 3 Abs. 2: Mathematics I–III 17 CP",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [],
+          "min_ects": 17,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "RWTH MPO Automotive Engineering § 3 Abs. 2: Automotive Engineering I (longitudinal dynamics) 6 + II (vertical and lateral dynamics) 6 + Mobile Propulsion Fundamentals 4 = 16 CP (combined, R2)",
+          "canonical_category": "engineering.automotive_engineering",
+          "covered_categories": [],
+          "min_ects": 16,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "RWTH MPO Automotive Engineering § 3 Abs. 2: Mechatronic Systems 6 CP",
+          "canonical_category": "engineering.mechatronics",
+          "covered_categories": [],
+          "min_ects": 6,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "MPO § 3 Abs. 2: 120 CP in engineering/maths/natural sciences, comparable to the listed RWTH basic modules, plus the listed basic vehicle-technology modules 'to the extent listed or comparable credit points'. Same-category modules combined (R2): thermodynamics 7+6, automotive 6+6+4. Maths 17 CP = latest MPO version (2024/126); MyGermanUniversity gives no number (Koushik 22.10.2026: use the latest version value). NEW CATEGORY engineering.automotive_engineering (vehicle dynamics, propulsion) — taxonomy gap, counts 0. Other TAXONOMY GAPS: mechanical categories, materials_science, mechatronics (count 0 until the taxonomy phase)."
+    },
+    "conditional_admission": {
+      "allowed": true,
+      "max_ects": 30,
+      "mechanism": "MPO § 3 Abs. 3: conditional admission per § 3 Abs. 6 GER (RWTH bachelor modules, proof before thesis registration). § 3 Abs. 8: for 6-semester bachelors at least 30 CP by thesis registration; 'If further additional requirements amounting to more than 30 CP are imposed due to gaps in the foundational academic skills and knowledge defined in paragraph 2, admission … cannot be granted.' Cap 30 stored."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": false,
+      "descriptive_notes": [
+        "Internship: 16 weeks of industry practice per the RWTH mechanical-engineering bachelor internship guidelines; a shortfall leads to admission with the condition to complete it before thesis registration (MPO § 3 Abs. 5).",
+        "GRE General Test is mandatory for non-EU/EEA applicants — applications without GRE are not considered.",
+        "DAAD listing: no minimum GPA, no ranking; conditions can extend studies by up to one semester; >30 CP of conditions → rejection. GRE exemption on request only for war/sanctions/personal impossibility (masterprog@ika.rwth-aachen.de)."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 6.0,
+      "toefl_ibt_min": 90,
+      "pte_min": 60,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "University entrance qualification or English-taught degree from the UK, Ireland, Australia, New Zealand, Canada or the USA (ÜPO § 3 Abs. 9)"
+      ],
+      "moi_not_accepted": null,
+      "due": "at enrollment",
+      "note": "MPO § 3 Abs. 4: English per § 3 Abs. 9 GER/ÜPO. Scores as in the approved RWTH records (ÜPO 21st version): TOEFL iBT 90, IELTS 6.0, PTE 60, Cambridge B2 First grade B+, UNIcert II. DAAD listing 4599: TOEFL iBT 90 (before 2026) with section minimums Reading 18, Listening 17, Speaking 20, Writing 17; IELTS Academic 6. Taught entirely in English."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [
+      {
+        "test": "GRE General",
+        "required_for": "all applicants except EU/EEA citizens and Bildungsinländer",
+        "details": "MPO § 3 Abs. 2: Verbal Reasoning 145, Quantitative Reasoning 160, Analytical Writing 3; 'Applications without GRE will not be considered.'"
+      }
+    ],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Not stated in the MPO (global APS rule for India still open)."
+    },
+    "practical_experience_requirement": {
+      "required": true,
+      "duration_weeks": 16,
+      "note": "MPO § 3 Abs. 5: 16 weeks industry internship; shortfall → condition to complete before thesis registration (not a rejection)."
+    },
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "Mainly taught in English; a few courses in German (MPO § 2 Abs. 3)"
+    ],
+    "admission_type": {
+      "restricted": null,
+      "numerus_clausus": null
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "1 December – 1 March (DAAD listing 4599)",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.rwth-aachen.de/",
+      "documents_seen": [
+        "MPO Automotive Engineering, Amtl. Bek. 2024/126 (17.10.2024), English reading aid | read 22.10.2026 from Koushik's upload (18.10.2026)",
+        "DAAD listing 4599 | read 22.10.2026 | https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4599"
+      ]
+    },
+    "last_checked": "2026-10-22",
+    "last_updated": "2026-10-22"
+  },
+  {
+    "id": "10347",
+    "program": "Mechanical Engineering for Industrial Systems (M.Sc.)",
+    "university": "RPTU Kaiserslautern-Landau",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://mv.rptu.de/studium-lehre/studium/master/mechanical-engineering-for-industrial-systems",
+      "admission_regulation": {
+        "url": "https://rptu.de/fileadmin/ha-4/42-Pruefung/Pruefungsordnungen/Archiv-PO_s/FB_MV/Master/Master-PO_MEfIS_vom_23.03.2026.pdf",
+        "title": "Prüfungsordnung für den Masterstudiengang Mechanical Engineering for Industrial Systems (RPTU)",
+        "version": "vom 23.03.2026 (Amtliche Bekanntmachung Nr. 3 vom 31.03.2026, S. 68) — § 2 read 22.10.2026 from the full text pasted by Koushik (site blocks the fetch tool); admission list of 07.01.2026 also pasted"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "PO § 2 Abs. 1 Nr. 2: Bachelorprüfung in Maschinenbau at RPTU or at least equivalent studies — a degree of at least six semesters with at least 180 LP; equivalence by overall assessment, not schematic comparison. Admission is for the chosen specialisation (VR1 Industrial Drive Technology, VR2 Digital Production Technologies, VR3 Advanced Mechanics for Digital Engineering; § 2 Abs. 3). primary_fields = GPU-R domain (GPU-R policy)."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 2.0,
+      "note": "PO § 2 Abs. 3: degree 'sollte mit einer Note von mindestens 2,0 … oder einer vergleichbaren Gesamtnote abgeschlossen worden sein' ('sollte'). Programme page states it as a requirement: 'at least 3.0 out of 4 … with 1.0 as the minimum grade (equivalent to 2.0 in the German grading system)'. Stored as a hard 2.0 (Koushik 22.10.2026): 'soll/sollte' in German regulations is binding in normal cases, deviations only in atypical cases; programme page states it as the minimum. MyGermanUniversity (third-party, checked at Koushik's request) also says 'should be 2.0 or better'."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "Admission list 07.01.2026: Mathematics 15-20 ECTS / 3 courses (Analysis, Linear Algebra, Vector analysis, Differential Equations, Numerics)",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [],
+          "min_ects": 15,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "Admission list: Mechanics 15-20 ECTS / 3 courses (Statics, Elastostatics/Strength of Materials, Dynamics, Vibrations/Dynamics of Machines)",
+          "canonical_category": "mechanical_manufacturing_engineering.mechanics_dynamics",
+          "covered_categories": [],
+          "min_ects": 15,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "Admission list: Material Science 5 ECTS / 2 courses or integrated lab (Material Science Lecture, Material Science Lab)",
+          "canonical_category": "chemistry_materials.materials_science",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "Admission list: Manufacturing Engineering 5 ECTS / 1 course (Manufacturing Engineering basics, Advanced Methods)",
+          "canonical_category": "mechanical_manufacturing_engineering.manufacturing_production",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "Admission list: Design of Machine Elements 15-20 ECTS / 3 courses (Industrial Drawing, CAD, Design of Machine Elements I and II)",
+          "canonical_category": "mechanical_manufacturing_engineering.design_machine_elements",
+          "covered_categories": [],
+          "min_ects": 15,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "Admission list: Fluid mechanics 5 ECTS / 1 course",
+          "canonical_category": "mechanical_manufacturing_engineering.mechanics_fluid_dynamics",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "Admission list: Thermodynamics 5 ECTS / 1 course (Thermodynamics I, II, Heat transfer/Combustion Engines)",
+          "canonical_category": "mechanical_manufacturing_engineering.thermodynamics",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "Admission list: Electric Engineering 5 ECTS / 1 course",
+          "canonical_category": "electrical_electronic_engineering.general_ee",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "Admission list: Measurement and control engineering 5 ECTS / 1 course (Measurement technology/Metrology, Control engineering)",
+          "canonical_category": "electrical_electronic_engineering.measurement_instrumentation",
+          "covered_categories": [
+            "electrical_electronic_engineering.control_systems"
+          ],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "Admission list: Computer Science 5-10 ECTS / 1 course (Data Processing/Data Science, IT for mechanical engineers, Programming)",
+          "canonical_category": "computer_science_informatics.general_cs",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "Source: 'Admission requirements for the master's program in Mechanical Engineering for Industrial Systems', 07.01.2026 (RPTU FB MV PDF, pasted by Koushik 22.10.2026 — fetch blocked). Columns: required field, exemplary modules, ECTS required, equivalent number of lectures/courses, then '+1' extras per specialization. Ranges (15-20, 5-10) stored as the lower value (GPU-R policy: minimum). Items = rows with ECTS/courses 'required for all specializations' (column layout confirmed from Koushik's uploaded PDF 18.10.2026). Finite Elements is required only for VR3 (note). SPECIALIZATION EXTRAS (not gates; GPU-R cannot know the chosen specialization) — see subsequent_selection notes. TAXONOMY GAPS: mechanical categories, materials_science, measurement_instrumentation, FE (count 0 until the taxonomy phase)."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "PO § 2 has no Auflagen rule for missing subject competences. § 2 Abs. 2 (max. 20 LP) is only for applicants who have not yet finished their bachelor (at most 20 LP outstanding; proof before the end of the 2nd semester of double enrolment) — provisional enrolment, not a subject condition. Old record's '20 missing ECTS' cap was a misreading → false."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": false,
+      "descriptive_notes": [
+        "Grade: the regulation says the degree 'sollte' (should) be 2.0 or better — exceptions are possible only in atypical cases, e.g. outstanding achievements (scholarships, awards, prizes, publications) via an aptitude interview (PO § 2 Abs. 3).",
+        "Specialization extras (admission list 07.01.2026, additional courses): Industrial Drive Technology — +1 Mechanics, +1 Design of Machine Elements, Digital Engineering (1), Gear Technology (1); Digital Production Technologies — +1 Manufacturing Engineering, +1 Computer Science, Digital Engineering (1), Production Technologies (1: Machine Tools / Automation Engineering); Advanced Mechanics for Digital Engineering — +1 Mathematics, +1 Mechanics, +1 Computer Science, Finite Elements (1: Finite Elements / Continuum mechanics). Admission is per specialization (PO § 2 Abs. 3).",
+        "Exception (PO § 2 Abs. 3): applicants with outstanding achievements (scholarships, awards, prizes, scientific publications) who do not meet the required competences can be admitted via an aptitude interview (Eignungsfeststellungsgespräch).",
+        "Students not yet finished: admission possible with at most 20 LP outstanding; degree proof before the end of the 2nd semester (§ 2 Abs. 2).",
+        "Optional: up to 2 letters of recommendation (programme page).",
+        "Partially admission-restricted (rptu.de programme page: 'Zulassungsbeschränkt: teilweise')."
+      ]
+    },
+    "minimum_total_ects": null,
+    "language_english": {
+      "ielts_min": null,
+      "toefl_ibt_min": 95,
+      "pte_min": null,
+      "required_level": "C1",
+      "allowed_exemptions": [
+        "Hochschulzugangsberechtigung acquired in Germany (§ 2 Abs. 6 Nr. 1)",
+        "Determination by the examination board (§ 2 Abs. 6 Nr. 4)"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "PO § 2 Abs. 6: German entrance qualification (or equivalent English training), TOEFL iBT at least 95 or an equivalent result, CEFR C1, or determination by the examination board. IELTS equivalent not stated (old record 7.0 removed)."
+    },
+    "language_german": {
+      "required": true,
+      "required_level": null,
+      "due": "within one year of enrolment (internal basic German exam; third-party source). PO § 2 Abs. 5: applicants whose entrance qualification is not from a German-language institution must prove 'hinreichende deutsche Sprachkenntnisse' per the President's rule 'Deutscher Sprachnachweis für Studierende in internationalen Studiengängen (DSI)'; details in the RPTU Einschreibeordnung. DSI document not located. MyGermanUniversity (third-party): German not required for admission; an internal basic German exam must be passed within one year of enrolment."
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [
+        "India"
+      ],
+      "note": "Programme page: 'Candidates must include an APS certificate' (India, China, Vietnam, Mongolia)."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "Apply online via https://applydpe.mv.rptu.de/ (only online applications valid)"
+    ],
+    "admission_type": {
+      "restricted": null,
+      "numerus_clausus": null
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter",
+        "summer"
+      ],
+      "non_eu_deadlines": {
+        "winter": "15 June via uni-assist (MyGermanUniversity, third-party; it also lists 15 Jul / 15 Sep unexplained). Programme page: platform open until 15 July for students without visa need.",
+        "summer": "first-semester start in summer only if admitted in the winter application round (PO § 3 Abs. 1)"
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://rptu.de/studium/im-studium/pruefungsordnungen",
+      "documents_seen": [
+        "Programme page (mv.rptu.de) | read 21.10.2026",
+        "Master-PO MEfIS 23.03.2026 (Amtl. Bek. 3/2026) | § 2–3 read 22.10.2026 from Koushik's paste (fetch blocked) | https://rptu.de/fileadmin/ha-4/42-Pruefung/Pruefungsordnungen/Archiv-PO_s/FB_MV/Master/Master-PO_MEfIS_vom_23.03.2026.pdf",
+        "Admission requirements MEfIS 07.01.2026 | read 22.10.2026 from Koushik's paste (fetch blocked) | https://mv.rptu.de/fileadmin/mv/Studium_Lehre/Zulassungskriterien/Admission_requirements_MEfIS.pdf",
+        "DSI German-language rule | NOT FOUND",
+        "MyGermanUniversity MEfIS (third-party, at Koushik's request) | read 22.10.2026 | https://www.mygermanuniversity.com/master/mechanical-engineering-for-industrial-systems/25262"
+      ]
+    },
+    "last_checked": "2026-10-21",
+    "last_updated": "2026-10-21"
+  },
+  {
+    "id": "4062_me",
+    "program": "Advanced Engineering and Engineering Management (M.Sc.)",
+    "university": "South Westphalia University of Applied Sciences (Fachhochschule Südwestfalen), Soest",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://www.fh-swf.de/cms/mse",
+      "admission_regulation": {
+        "url": "https://publikationen.fhb.fh-swf.de/servlets/MCRFileNodeServlet/fhswf_derivate_00000759/Nr.%201255%20vom%2015.11.2023%20-%20FPO%20f%C3%BCr%20den%20Masterstudiengang%20Advanced%20Engineering%20and%20Engineerin%20Management%20an%20der%20FH%20SWF%20in%20Soest.pdf",
+        "title": "Fachprüfungsordnung für den Masterstudiengang Advanced Engineering and Engineering Management an der Fachhochschule Südwestfalen, Standort Soest, vom 15. November 2023 (§ 3), with the Rahmenprüfungsordnung (RPO) of the Fachhochschule Südwestfalen",
+        "version": "Amtliche Bekanntmachungen der FH Südwestfalen Nr. 1255 vom 15.11.2023, in force the day after publication, first applies to students in their first semester in WS 2024/25 (§ 23). Amendments: 'Ordnung zur Änderung der Fachprüfungsordnung … vom 05. März 2026' (Amtliche Bekanntmachungen Nr. 1422 vom 17.03.2026, in force the day after publication) — scanned PDF, read 17.10.2026 from Koushik's screenshots: Art. I Nr. 1 gives § 3 a completely new wording (fields below follow it); also changes §§ 6, 11, 20 (not admission-relevant)."
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "FPO § 3 Abs. 1 (new wording 05.03.2026): 'erfolgreichen Abschluss ... in einem mindestens siebensemestrigen Bachelorstudiengang oder einem Diplomstudiengang im Bereich Elektrotechnik, Maschinenbau, Mechatronik oder einem vergleichbaren einschlägigen Studiengang mit überwiegenden Inhalten der Ingenieurwissenschaften, der Informatik oder des Software Engineerings'. The former six-semester route with 30-ECTS Ergänzungsqualifizierung (old § 3 Abs. 1 b) is no longer in the text. The Prüfungsausschuss decides relevance. primary_fields reflects the GPU-R domain of this record (a mechanical copy exists in another field file). COPY of approved EEE record 4062_eee for the mechanical file; keep both identical."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 2.5,
+      "note": "FPO § 3 Abs. 1 (2026): 'mit mindestens der Gesamtnote „Gut“ (2,5) oder mit einer Einstufung gemäß ECTS-Einstufungstabelle innerhalb der besten 35 Prozent der Absolventinnen und Absolventen eines mindestens zweijährigen Abschlusszeitraums'. The best-35-% alternative cannot be checked by the engine (DECISION). No conversion method for foreign grades stated."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "FPO § 3 Abs. 1 (2026): 'Außerdem müssen in diesem Studiengang mindestens 10 ECTS-Credits in informatiknahen Modulen erbracht worden sein.'",
+          "canonical_category": "computer_science_informatics.general_cs",
+          "covered_categories": [],
+          "min_ects": 10,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "NEW requirement from the 2026 amendment (not in the 2023 FPO). 'informatiknahe Module' stored as general_cs + programming pool (POOLED). The Prüfungsausschuss decides on '10 ECTS-Credits in informatiknahen Modulen'. Koushik rule 20.10.2026: general_cs counts ALL CS subjects, so CS sub-categories under a general_cs main item are removed (redundant)."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "New § 3 (2026) contains no Auflagen/make-up rule; the old six-semester Ergänzungsqualifizierung was removed with the new wording."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": false,
+      "descriptive_notes": [
+        "Grade alternative: instead of 'Gut' (2,5), a ranking within the best 35 % of graduates (ECTS grading table, at least a two-year cohort) also qualifies (FPO § 3 Abs. 1)."
+      ]
+    },
+    "minimum_total_ects": 210,
+    "language_english": {
+      "ielts_min": 6.5,
+      "toefl_ibt_min": 90,
+      "pte_min": null,
+      "required_level": null,
+      "allowed_exemptions": [
+        "Bachelor's taught exclusively in English at a university in Germany (FPO § 3)",
+        "(Fach)hochschulreife from Australia, Canada, Ireland, New Zealand, the United Kingdom or the United States (FPO § 3)"
+      ],
+      "moi_not_accepted": null,
+      "due": null,
+      "note": "FPO § 3 Abs. 2 (2026): TOEFL 575 paper / 232 computer / 90 iBT for results obtained until 20.01.2026; for results from 21.01.2026: 575 / 232 / 'mit einem Ergebnis von mindestens 4.5, wobei die Teildisziplin Schreiben ebenfalls mit 4.5 bewertet sein muss' (new TOEFL 1–6 scale; GPU-R stores iBT 90 for old-scale results). IELTS 'mindestens 6.5, wobei die Teildisziplin Schreiben mit mindestens 6.5 bewertet sein muss'. § 3 Abs. 3: if no certificate, a combined oral/written English exam on application (max. two attempts)."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [
+        "India"
+      ],
+      "note": "Programme page: 'New: Applicants from India have to provide APS (Academic Evaluation Center)'."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "Non-EU applicants apply via uni-assist (programme page)",
+      "Minimum 7-semester bachelor (stored as 210 ECTS, GPU-R arithmetic) — FPO § 3 Abs. 1 (2026)",
+      "IELTS writing ≥ 6.5; TOEFL (from 21.01.2026) overall and writing ≥ 4.5"
+    ],
+    "admission_type": {
+      "restricted": false,
+      "numerus_clausus": false
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter",
+        "summer"
+      ],
+      "non_eu_deadlines": {
+        "winter": "mid-November to 15 May (programme page)",
+        "summer": "mid-May to 15 November (programme page)"
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.fh-swf.de/de/studienangebot/studiengaenge/systems_engineering_and_engineering_management_m_sc_/pruefungsordnungen_125/pruefungsordnungen_126.php",
+      "documents_seen": [
+        "Fachprüfungsordnung Master Advanced Engineering and Engineering Management, Soest, vom 15. November 2023 | Amtl. Bek. Nr. 1255 vom 15.11.2023 — opened | https://publikationen.fhb.fh-swf.de/receive/fhswf_mods_00001982",
+        "Ordnung zur Änderung der FPO Master Advanced Engineering and Engineering Management vom 05. März 2026 | Amtl. Bek. Nr. 1422 vom 17.03.2026 — read 17.10.2026 from Koushik's screenshots (scanned PDF) | https://publikationen.fhb.fh-swf.de/receive/fhswf_mods_00003049",
+        "Master Examination Regulations as from November 15th, 2023 (English, not binding) — not opened | https://www.fh-swf.de/media/neu_np/hv_2/prfungsundnderungsordnungen/fbee/FPO_MA_AEM_23_englisch.pdf",
+        "Masterprüfungsordnung Systems Engineering and Engineering Management vom 24. Juni 2016 (predecessor) — not opened | https://www.fh-swf.de/media/neu_np/hv_2/downloads_der_studiengangsseiten/fb_eet_4/system_engineering/MPO_SEEM_2016.pdf"
+      ]
+    },
+    "last_checked": "2026-10-17",
+    "last_updated": "2026-10-17"
+  },
+  {
+    "id": "6445_A",
+    "program": "Simulation and System Design (M.Eng.) — Route A: 3 semesters (210 ECTS + internship)",
+    "university": "Hochschule Stralsund (University of Applied Sciences)",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://www.daad.de/deutschland/studienangebote/international-programmes/en/detail/6445/",
+      "admission_regulation": {
+        "url": "https://hochschule-stralsund.de/storages/hs-stralsund/Ordnungen/Maschinenbau/Maschinenbau-SSDM/Fachpruefungsordnung/SSDM_FPO_Lesefassung_18.05.2017_Stand_7_AES_erstellt_28.05.24.pdf",
+        "title": "Fachprüfungsordnung für den Master-Studiengang Simulation and System Design an der Hochschule Stralsund (§ 2 Zugangsvoraussetzungen)",
+        "version": "vom 18.05.2017 in der Fassung der 7. Änderungssatzung vom 25.04.2024 (nichtamtliche Lesefassung, erstellt 28.05.2024); § 2 last changed by the 6th amendment of 16.08.2022 — read 21.10.2026"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "FPO § 2 Abs. 3: first professional degree in Maschinenbau (B.Eng.) or a comparable related degree ('fachlich verwandt') with at least 210 ECTS, German or foreign. ROUTE A (3 semesters). primary_fields = GPU-R domain (GPU-R policy)."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 1.7,
+      "note": "FPO § 2 Abs. 6: first degree completed with at least 1,7 (or comparable grade)."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "FPO § 2 Abs. 5 Nr. 1: 'höhere Programmiersprache' at least 4 SWS or 5 ECTS, grade at least 1,7",
+          "canonical_category": "computer_science_informatics.programming_practical_cs",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "FPO § 2 Abs. 5 Nr. 2: 'Steuer- und Regelungstechnik' at least 4 SWS or 5 ECTS, grade at least 2,0",
+          "canonical_category": "electrical_electronic_engineering.control_systems",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "FPO § 2 Abs. 5 Nr. 3: '3D-CAD-Konstruktion' at least 4 SWS or 5 ECTS, grade at least 2,0",
+          "canonical_category": "mechanical_manufacturing_engineering.design_machine_elements",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "FPO § 2 Abs. 5 (both routes): each subject at least 4 SWS or 5 ECTS with a minimum module grade (programming 1,7; control 2,0; 3D-CAD 2,0, or comparable grade). Module grades are not checked by the engine yet (E7) — student-visible note. 'die üblichen mathematischen Grundlagen' for these subjects: no number, not stored as an item (R7). TAXONOMY GAP: design_machine_elements / 3D-CAD (counts 0 until the taxonomy phase)."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "FPO § 2 Abs. 6: access is refused if a requirement of Abs. 2–5 is not met or the degree grade is worse than 1,7. No Auflagen rule."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": false,
+      "descriptive_notes": [
+        "Module grade minimums (FPO § 2 Abs. 5): higher programming language 1,7 or better; control engineering 2,0 or better; 3D-CAD design 2,0 or better (or comparable grades). Check your transcript — missing any one means no access.",
+        "The Zulassungsausschuss (programme director + Dean of Studies) checks the subject requirements (§ 2 Abs. 8)."
+      ]
+    },
+    "minimum_total_ects": 210,
+    "language_english": {
+      "ielts_min": 6.0,
+      "toefl_ibt_min": 79,
+      "pte_min": null,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "Circumstances that make a certificate unnecessary, per § 5 Abs. 2 Nr. 5 Immatrikulationsordnung (FPO § 2 Abs. 2)"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "FPO § 2 Abs. 2: B2 (CEFR), no test scores in the FPO. Scores from the DAAD/myGuide listing 6445 (TOEFL iBT 79 / CBT 213 / PBT 550, IELTS 6.0) — university page not opened."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Not stated in the FPO or the listing (global APS rule for India still open)."
+    },
+    "practical_experience_requirement": {
+      "required": true,
+      "duration_weeks": 12,
+      "note": "FPO § 2 Abs. 3: relevant practical work of at least 12 weeks before the start; a relevant practical semester during or after the bachelor counts. The internship officer decides."
+    },
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "Route A only: 210 ECTS + 12-week relevant internship (FPO § 2 Abs. 3). Students with 180–209 ECTS or no internship: see Route B (6445_B)."
+    ],
+    "admission_type": {
+      "restricted": false,
+      "numerus_clausus": false
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter",
+        "summer"
+      ],
+      "non_eu_deadlines": {
+        "winter": "not stated (check university page)",
+        "summer": "not stated"
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.hochschule-stralsund.de/studium/ordnungen",
+      "documents_seen": [
+        "FPO SSD Lesefassung Stand 7. ÄS (28.05.2024) | read 21.10.2026 | https://hochschule-stralsund.de/storages/hs-stralsund/Ordnungen/Maschinenbau/Maschinenbau-SSDM/Fachpruefungsordnung/SSDM_FPO_Lesefassung_18.05.2017_Stand_7_AES_erstellt_28.05.24.pdf",
+        "DAAD/myGuide listing 6445 | read 21.10.2026"
+      ]
+    },
+    "last_checked": "2026-10-21",
+    "last_updated": "2026-10-21"
+  },
+  {
+    "id": "6445_B",
+    "program": "Simulation and System Design (M.Eng.) — Route B: 4 semesters (180 ECTS)",
+    "university": "Hochschule Stralsund (University of Applied Sciences)",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://www.daad.de/deutschland/studienangebote/international-programmes/en/detail/6445/",
+      "admission_regulation": {
+        "url": "https://hochschule-stralsund.de/storages/hs-stralsund/Ordnungen/Maschinenbau/Maschinenbau-SSDM/Fachpruefungsordnung/SSDM_FPO_Lesefassung_18.05.2017_Stand_7_AES_erstellt_28.05.24.pdf",
+        "title": "Fachprüfungsordnung für den Master-Studiengang Simulation and System Design an der Hochschule Stralsund (§ 2 Zugangsvoraussetzungen)",
+        "version": "vom 18.05.2017 in der Fassung der 7. Änderungssatzung vom 25.04.2024 (nichtamtliche Lesefassung, erstellt 28.05.2024); § 2 last changed by the 6th amendment of 16.08.2022 — read 21.10.2026"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "FPO § 2 Abs. 4: same degree requirement (Maschinenbau or comparable related degree) with at least 180 ECTS; no internship needed for access. ROUTE B (4 semesters; the listing says a 21-week internship is part of the 4-semester programme). primary_fields = GPU-R domain (GPU-R policy)."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 1.7,
+      "note": "FPO § 2 Abs. 6: first degree completed with at least 1,7 (or comparable grade)."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "FPO § 2 Abs. 5 Nr. 1: 'höhere Programmiersprache' at least 4 SWS or 5 ECTS, grade at least 1,7",
+          "canonical_category": "computer_science_informatics.programming_practical_cs",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "FPO § 2 Abs. 5 Nr. 2: 'Steuer- und Regelungstechnik' at least 4 SWS or 5 ECTS, grade at least 2,0",
+          "canonical_category": "electrical_electronic_engineering.control_systems",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "FPO § 2 Abs. 5 Nr. 3: '3D-CAD-Konstruktion' at least 4 SWS or 5 ECTS, grade at least 2,0",
+          "canonical_category": "mechanical_manufacturing_engineering.design_machine_elements",
+          "covered_categories": [],
+          "min_ects": 5,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "FPO § 2 Abs. 5 (both routes): each subject at least 4 SWS or 5 ECTS with a minimum module grade (programming 1,7; control 2,0; 3D-CAD 2,0, or comparable grade). Module grades are not checked by the engine yet (E7) — student-visible note. 'die üblichen mathematischen Grundlagen' for these subjects: no number, not stored as an item (R7). TAXONOMY GAP: design_machine_elements / 3D-CAD (counts 0 until the taxonomy phase)."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "FPO § 2 Abs. 6: access is refused if a requirement of Abs. 2–5 is not met or the degree grade is worse than 1,7. No Auflagen rule."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": false,
+      "descriptive_notes": [
+        "Module grade minimums (FPO § 2 Abs. 5): higher programming language 1,7 or better; control engineering 2,0 or better; 3D-CAD design 2,0 or better (or comparable grades). Check your transcript — missing any one means no access.",
+        "The Zulassungsausschuss (programme director + Dean of Studies) checks the subject requirements (§ 2 Abs. 8)."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 6.0,
+      "toefl_ibt_min": 79,
+      "pte_min": null,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "Circumstances that make a certificate unnecessary, per § 5 Abs. 2 Nr. 5 Immatrikulationsordnung (FPO § 2 Abs. 2)"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "FPO § 2 Abs. 2: B2 (CEFR), no test scores in the FPO. Scores from the DAAD/myGuide listing 6445 (TOEFL iBT 79 / CBT 213 / PBT 550, IELTS 6.0) — university page not opened."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Not stated in the FPO or the listing (global APS rule for India still open)."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "Route B starts in the SUMMER semester only (FPO § 2 Abs. 1: 'Eine Immatrikulation erfolgt in den beiden 4-semestrigen Studienwegen nur zum Sommersemester.')"
+    ],
+    "admission_type": {
+      "restricted": false,
+      "numerus_clausus": false
+    },
+    "logistics": {
+      "intake_semesters": [
+        "summer"
+      ],
+      "non_eu_deadlines": {
+        "winter": null,
+        "summer": "not stated (check university page)"
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.hochschule-stralsund.de/studium/ordnungen",
+      "documents_seen": [
+        "FPO SSD Lesefassung Stand 7. ÄS (28.05.2024) | read 21.10.2026 | https://hochschule-stralsund.de/storages/hs-stralsund/Ordnungen/Maschinenbau/Maschinenbau-SSDM/Fachpruefungsordnung/SSDM_FPO_Lesefassung_18.05.2017_Stand_7_AES_erstellt_28.05.24.pdf",
+        "DAAD/myGuide listing 6445 | read 21.10.2026"
+      ]
+    },
+    "last_checked": "2026-10-21",
+    "last_updated": "2026-10-21"
+  },
+  {
+    "id": "7028",
+    "program": "Mechanical and Process Engineering (M.Sc.)",
+    "university": "TU Bergakademie Freiberg",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://tu-freiberg.de/en/master-mechanical-and-process-engineering",
+      "admission_regulation": {
+        "url": "https://tu-freiberg.de/media/12496/download",
+        "title": "Prüfungs- und Studienordnung für den Masterstudiengang Mechanical and Process Engineering (Studienordnung § 4 Zugangsvoraussetzungen, Anlage 2 Qualifikationsfeststellungsverfahren)",
+        "version": "vom 28.06.2024 (Amtliche Bekanntmachungen Nr. 16 vom 02.07.2024); amendments of 18.12.2025 (Nr. 57 PO, Nr. 58 SO) change only the study/exam plan — read 21.10.2026. Anlage 2 (2024) read 22.10.2026 from the full text pasted by Koushik."
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "SO § 4(1) Nr. 1: first professional degree of at least six semesters in Maschinenbau, Verfahrenstechnik or a comparable programme. primary_fields = GPU-R domain (GPU-R policy)."
+    },
+    "gpa_rule_type": "NO_GRADE_THRESHOLD",
+    "grade_requirement": {
+      "value": null,
+      "note": "No minimum grade in SO § 4; the degree grade is one criterion of the qualification assessment (Anlage 2)."
+    },
+    "subject_credit_requirements": {
+      "items": [],
+      "note": "No subject credit minimums. Programme page: 'very good to good knowledge in the fields of mechanics, design, thermodynamics and fluid mechanics' — assessed in the qualification procedure (Anlage 2), not a presence gate."
+    },
+    "conditional_admission": {
+      "allowed": true,
+      "max_ects": null,
+      "mechanism": "SO § 4(2): the examination board may impose Auflagen, to be met before the thesis topic is issued. No cap; programme-level rule → true, cap null."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "Qualification assessment (SO § 4(1) Nr. 3, Anlage 2 of 2024) — mandatory unless selected in a partner mobility programme (Nr. 4). A paper-based evaluation of the submitted documents by a three-member commission (Anlage 2 Nr. 1.2, 3.2); no interview.",
+        "Criteria and weights (Anlage 2 Nr. 4.2): English skills 0.2; motivation letter 0.1; grade of the last degree/GPA 0.3; grades in thermodynamics, fluid mechanics, engineering mechanics and design engineering, which 'mindestens 75% der Maximalleistung entsprechen müssen' 0.3; additional scientific achievements (publications, prizes, research experience) 0.1. Each criterion up to 10 points; 'i. d. R.' selected only with at least 6.5 points.",
+        "Subject grades: aim for at least 75 % of the maximum in thermodynamics, fluid mechanics, engineering mechanics and design (e.g. 7.5/10 CGPA scale per course; GPU-R arithmetic). The regulation scores this inside the weighted assessment; it is not a separate pass/fail gate (confirmed by Koushik 22.10.2026: note only).",
+        "Documents (Nr. 2.2): certified degree certificate and transcript, English test, motivation letter of max. two pages. Admission is valid for two years (Nr. 5.3)."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 6.5,
+      "toefl_ibt_min": 90,
+      "pte_min": null,
+      "required_level": null,
+      "allowed_exemptions": [
+        "English first language (SO § 4(1) Nr. 2)"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "SO § 4(1) Nr. 2: TOEFL iBT at least 90 or IELTS Academic at least 6.5 or an equivalent test."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [
+        "India"
+      ],
+      "note": "DAAD/myGuide listing 7028 (22.10.2026): 'The APS certificate must be submitted with the application. The submission form alone will not be accepted.' (India, China, Vietnam). TU Freiberg apply page: APS required for Indian applicants (visa, since 01.11.2022)."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "German A1 is a compulsory module within the programme (not an admission requirement)"
+    ],
+    "admission_type": {
+      "restricted": false,
+      "numerus_clausus": false
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "15 April (Anlage 2 Nr. 2.3; DAAD listing: application 1 January – 15 April)",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://tu-freiberg.de/en/master-mechanical-and-process-engineering",
+      "documents_seen": [
+        "Prüfungs- und Studienordnung 28.06.2024 (AB Nr. 16/2024) | read 21.10.2026 (Anlage 2 missing) | https://tu-freiberg.de/media/12496/download",
+        "Änderung PO 18.12.2025 (AB Nr. 57) | read | https://tu-freiberg.de/media/19858/download",
+        "Änderung SO 18.12.2025 (AB Nr. 58) | read | https://tu-freiberg.de/media/19859/download",
+        "Anlage 2 Qualifikationsfeststellungsverfahren (2024) | read 22.10.2026 from Koushik's paste",
+        "Änderung SO 2019 (AB Nr. 17/2019, Anlage 2 criteria) | read — superseded | https://tu-freiberg.de/media/1072/download"
+      ]
+    },
+    "last_checked": "2026-10-22",
+    "last_updated": "2026-10-22"
+  },
+  {
+    "id": "4300",
+    "program": "Manufacturing Technology (M.Sc.)",
+    "university": "TU Dortmund University",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://mb.tu-dortmund.de/en/study/study-programs/msc-manufacturing-technology/application/faq",
+      "admission_regulation": {
+        "url": "https://mb.tu-dortmund.de/storages/mb/r/Formulare/Pruefungsordnung/MPO_MMT_17112023_EN.pdf",
+        "title": "Examination Regulations for the Master's degree program Manufacturing Technology at TU Dortmund University (§ 3)",
+        "version": "vom 17.11.2023, in force 01.10.2023 (§ 26); grade rule applies from WS 2024/25 (§ 26 Abs. 2) — read 21.10.2026 in the English version; German version: https://www.tu-dortmund.de/storages/tu_website/Dezernat_4/Dez._4.4/pruefungsordnungen/fachstudiengaenge/master/po-manufacturing-technology-ma-20231117.pdf (binding, not read)"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "PO § 3 Abs. 1: Bachelor in Mechanical Engineering (TU Dortmund) or a comparable degree of at least 3 years (6 semesters); for foreign degrees the admission committee must find no substantial differences (§ 3 Abs. 3–4, KMK/HRK, ZAB). primary_fields = GPU-R domain (GPU-R policy)."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 2.9,
+      "note": "PO § 3 Abs. 5 a: overall grade at least 'satisfactory' (2.9) or foreign equivalent; no conversion method stated."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "PO § 3 Abs. 2: areas Mathematics, Mechanics and Materials/Production/Design/Measurement and control together at least 50 LP",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [
+            "mechanical_manufacturing_engineering.mechanics_dynamics",
+            "chemistry_materials.materials_science",
+            "mechanical_manufacturing_engineering.manufacturing_production",
+            "mechanical_manufacturing_engineering.design_machine_elements",
+            "electrical_electronic_engineering.measurement_instrumentation",
+            "electrical_electronic_engineering.control_systems"
+          ],
+          "min_ects": 50,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3 Abs. 2: Mathematics at least 15 LP",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [],
+          "min_ects": 15,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3 Abs. 2: Mechanics at least 9 LP",
+          "canonical_category": "mechanical_manufacturing_engineering.mechanics_dynamics",
+          "covered_categories": [],
+          "min_ects": 9,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "PO § 3 Abs. 2: Materials, production, design and/or measurement and control engineering at least 15 LP",
+          "canonical_category": "chemistry_materials.materials_science",
+          "covered_categories": [
+            "mechanical_manufacturing_engineering.manufacturing_production",
+            "mechanical_manufacturing_engineering.design_machine_elements",
+            "electrical_electronic_engineering.measurement_instrumentation",
+            "electrical_electronic_engineering.control_systems"
+          ],
+          "min_ects": 15,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "PO § 3 Abs. 2 comparability criteria: maths ≥15, mechanics ≥9, materials/production/design/measurement-control ≥15, total of these areas ≥50 LP (nested; overlap allowed, D13 removed; add-up within each item). 'Mechanics' mapped to mechanics_dynamics only (fluid mechanics not named). TAXONOMY GAPS: mechanical categories, materials_science, measurement_instrumentation (count 0 until the taxonomy phase)."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "PO § 3 has no Auflagen rule for missing subject credits; § 3 Abs. 8 only allows enrolment before the bachelor certificate is issued (all exams passed)."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": false,
+      "descriptive_notes": [
+        "GRE strongly recommended, not required (PO § 3 Abs. 6; FAQ: 'no minimum score, but the score will be taken into account')."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 5.5,
+      "toefl_ibt_min": 72,
+      "pte_min": null,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "English native language",
+        "Bachelor taken in an English-language programme (PO § 3 Abs. 5 b)"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "PO § 3 Abs. 5 b: CEFR B2 certificate; the admission committee decides on recognition. Scores from the official FAQ: TOEFL iBT 72 / PBT 543 / ITP 543, Academic IELTS 5.5, Cambridge First (B2)."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [
+      {
+        "test": "GRE",
+        "status": "strongly recommended, not required",
+        "min_score": null
+      }
+    ],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Official FAQ requires the APS certificate for China, Mongolia and Vietnam (by 15 March); India is not mentioned (global APS rule for India still open)."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "Grading-system document stating the best passing grade required (FAQ)"
+    ],
+    "admission_type": {
+      "restricted": null,
+      "numerus_clausus": null
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "15 March (official FAQ); results mid-June",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://mb.tu-dortmund.de/en/study/study-programs/msc-manufacturing-technology/",
+      "documents_seen": [
+        "MPO MMT 17.11.2023 (EN) | read 21.10.2026 | https://mb.tu-dortmund.de/storages/mb/r/Formulare/Pruefungsordnung/MPO_MMT_17112023_EN.pdf",
+        "Application FAQ | read 21.10.2026 | https://mb.tu-dortmund.de/en/study/study-programs/msc-manufacturing-technology/application/faq"
+      ]
+    },
+    "last_checked": "2026-10-21",
+    "last_updated": "2026-10-21"
+  },
+  {
+    "id": "4352",
+    "program": "Mechanical Engineering (M.Sc.)",
+    "university": "Technische Hochschule Lübeck",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://www.th-luebeck.de/fileadmin/media/02_Studium/05_Bewerbung/MScMechEng-Information_for_applicants_01.pdf",
+      "admission_regulation": {
+        "url": "https://pubdoc.th-luebeck.de/d43cc64a0a",
+        "title": "Studien- und Prüfungsordnung (SPO) 2020 für den Masterstudiengang Mechanical Engineering an der TH Lübeck (§ 5)",
+        "version": "vom 21.06.2019, last amended 16.06.2025, in force 01.09.2025 (Lesefassung) — read 21.10.2026"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "SPO § 5: first degree in Mechanical Engineering (210 ECTS; 180 ECTS with conditions); other engineering fields and foreign degrees subject to the admissions committee. Applicant information: other engineering fields need 210 CP, grade 2.5 and a letter of motivation. primary_fields = GPU-R domain (GPU-R policy). EXCLUDED FOR INDIAN BACHELOR DEGREES (Koushik 22.10.2026): engine must hard-code this programme as not shown / NOT_ELIGIBLE for applicants with an Indian bachelor's degree."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 2.5,
+      "note": "SPO § 5: 'Gesamtnote von mindestens 2,5 oder besser'. Applicant information: European 180-ECTS bachelors need 1.8 or better (not relevant for Indian degrees)."
+    },
+    "subject_credit_requirements": {
+      "items": [],
+      "note": "No subject credit minimums in SPO § 5."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "SPO § 5: 180-ECTS graduates may be admitted on condition of 30 LP of bachelor modules (chosen by the committee) before thesis registration — a total-credit top-up, not a subject condition (owner rule → false; same as THD)."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "Competitive: 15 places per semester (applicant information).",
+        "Letter of motivation required for degrees from other engineering fields."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 5.0,
+      "toefl_ibt_min": 83,
+      "pte_min": null,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "English as official school language",
+        "Six months of study or work in an English-speaking country (SPO § 5)"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "SPO § 5 and applicant information: B2 (CEFR) by TOEFL or a comparable recognised test; no minimum scores in official sources. Scores from MyGermanUniversity (third-party, checked at Koushik's request 23.10.2026): IELTS min 5, TOEFL iBT min 83 (pBT 563, CBT 223), Cambridge PET / BEC Higher."
+    },
+    "language_german": {
+      "required": true,
+      "required_level": "A2",
+      "due": "SPO § 5: A2 required for access; with A2 only, admission is conditional on reaching B1 (German course) before thesis registration. Applicant information says B1 is required, A2 gives conditional admission."
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Not mentioned in the applicant information (global APS rule for India still open)."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "EXCLUDED FOR INDIAN BACHELOR DEGREES (Koushik 22.10.2026): engine must hard-code this programme as not shown / NOT_ELIGIBLE for applicants with an Indian bachelor's degree. Reason: TH Lübeck applicant information: 'Bachelor's degrees from India or Pakistan (Bachelor of Engineering or Technology) are not equivalent'.",
+      "Degree evaluated by uni-assist per KMK/anabin standards"
+    ],
+    "admission_type": {
+      "restricted": true,
+      "numerus_clausus": null
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter",
+        "summer"
+      ],
+      "non_eu_deadlines": {
+        "winter": "1 April – 1 June",
+        "summer": "1 October – 1 December"
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.th-luebeck.de",
+      "documents_seen": [
+        "SPO 2020 MSc Mechanical Engineering, amended 16.06.2025 | read 21.10.2026 | https://pubdoc.th-luebeck.de/d43cc64a0a",
+        "Information for applicants PDF | read 21.10.2026 | https://www.th-luebeck.de/fileadmin/media/02_Studium/05_Bewerbung/MScMechEng-Information_for_applicants_01.pdf"
+      ]
+    },
+    "last_checked": "2026-10-22",
+    "last_updated": "2026-10-22"
+  },
+  {
+    "id": "10686",
+    "program": "Battery and Hydrogen Technology (M.Sc.)",
+    "university": "Technische Universität Braunschweig",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://www.tu-braunschweig.de/en/degree-programmes/battery-and-hydrogen-technology-master",
+      "admission_regulation": {
+        "url": "https://www.tu-braunschweig.de/fileadmin/Redaktionsgruppen/Fakultaeten/FK4/studierende/Master_BHT/EN_Ordnungstext_BZO-MA-BHT.pdf",
+        "title": "Special Regulations on the Access and Admission to the Consecutive Master's Degree Programme 'Battery and Hydrogen Technology' at TU Braunschweig",
+        "version": "decided 17.12.2025, in force 01.02.2026 (first for WS 2026/27) — read 21.10.2026 in the unofficial English translation; German text binding (not read). Exam regulation BPO 06/2026 read: no access rules."
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "Access regulation § 2(1)(a): Bachelor in Battery and Hydrogen Technology, Process Engineering, Mechanical Engineering, Electrical Engineering (and Information Technology), Chemistry, or a relevant scientific or technical programme; foreign degrees per anabin; the selection committee decides academic suitability (§ 2(2)). primary_fields = GPU-R domain (GPU-R policy)."
+    },
+    "gpa_rule_type": "NO_GRADE_THRESHOLD",
+    "grade_requirement": {
+      "value": null,
+      "note": "No minimum grade; grade is used only for ranking if applicants exceed places (§ 4)."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "Appendix 1b: Mathematics",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [],
+          "min_ects": null,
+          "requires_subject_presence_only": true
+        },
+        {
+          "raw_label": "Appendix 1b: Thermodynamics",
+          "canonical_category": "mechanical_manufacturing_engineering.thermodynamics",
+          "covered_categories": [],
+          "min_ects": null,
+          "requires_subject_presence_only": true
+        },
+        {
+          "raw_label": "Appendix 1b: Programming and information processing",
+          "canonical_category": "computer_science_informatics.programming_practical_cs",
+          "covered_categories": [],
+          "min_ects": null,
+          "requires_subject_presence_only": true
+        },
+        {
+          "raw_label": "Appendix 1b: Materials",
+          "canonical_category": "chemistry_materials.materials_science",
+          "covered_categories": [],
+          "min_ects": null,
+          "requires_subject_presence_only": true
+        },
+        {
+          "raw_label": "Appendix 1b: Fundamentals of process engineering",
+          "canonical_category": "mechanical_manufacturing_engineering.general_mechanical",
+          "covered_categories": [],
+          "min_ects": null,
+          "requires_subject_presence_only": true
+        }
+      ],
+      "note": "Appendix 1b knowledge fields, no LP numbers (presence only, R7). A missing 1b field allows conditional admission only if a university certificate confirms the knowledge will be acquired before the first semester (by 30.09 / 31.03, § 4(5)). Appendix 1a fields (fluid process engineering, life cycle assessment, electrochemical fundamentals) are NOT gates: a gap is made up by the linked compulsory elective module or a knowledge test in the first year (§ 2(6)) — student note. TAXONOMY GAPS: thermodynamics, materials_science; process engineering has no category (general_mechanical used; count 0 until the taxonomy phase). Appendix 1b fields are mandatory (re-verified 23.10.2026: § 2(1)(b) 'has acquired the knowledge and skills listed in Appendix 1a and Appendix 1b'; a 1b gap only allows admission with a certificate that it will be acquired before the semester starts, otherwise admission is lost). Appendix 1a gaps are made up after admission → notes only."
+    },
+    "conditional_admission": {
+      "allowed": true,
+      "max_ects": null,
+      "mechanism": "§ 2(1)(b): missing Appendix 1b knowledge — conditional admission with a university certificate that it will be acquired before the start (§ 4(5)); § 2(6): missing Appendix 1a knowledge — condition to pass the linked elective module or a knowledge test in the first year. No credit cap."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": false,
+      "descriptive_notes": [
+        "Appendix 1a (made up after admission): fluid process engineering → 'Computer-aided process engineering I'; life cycle assessment for sustainable engineering → same-name module; electrochemical fundamentals → 'Methods and systems of electrochemistry'.",
+        "Selection only if applicants exceed places: ranking by final grade, ties by lot; 50 % of places for non-EU/EEA nationals (§ 1(3), § 4).",
+        "Provisional application with ≥150 of 180 CP or ≥180 of 210 CP; degree certificate by 31.03 (WS) / 30.09 (SS) (§ 2(3))."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 6.5,
+      "toefl_ibt_min": 88,
+      "pte_min": null,
+      "required_level": null,
+      "allowed_exemptions": [
+        "Qualification from an English-speaking institution",
+        "At least two years of an exclusively English-taught programme (on request) (§ 2(5))"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application; test not older than 3 years",
+      "note": "§ 2(5): TOEFL iBT 88, IELTS 6.5, or TU BS Language Centre certificate (two skills B2 + two skills C1). MyGermanUniversity (checked 23.10.2026) gives only B2, no IELTS/TOEFL scores — regulation values kept."
+    },
+    "language_german": {
+      "required": true,
+      "required_level": "A2",
+      "due": "at application (§ 2(4)): A2 for applicants without German entrance qualification or two years of German-language study"
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [],
+      "note": "Not stated in the access regulation (global APS rule for India still open)."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [],
+    "admission_type": {
+      "restricted": null,
+      "numerus_clausus": null
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter",
+        "summer"
+      ],
+      "non_eu_deadlines": {
+        "winter": "15 March",
+        "summer": "15 September (previous year)"
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.tu-braunschweig.de/en/fmb/students/masters-degree-programmes/battery-and-hydrogen-technology-msc",
+      "documents_seen": [
+        "Access & admission regulation BHT (EN), 17.12.2025 | read 21.10.2026 | https://www.tu-braunschweig.de/fileadmin/Redaktionsgruppen/Fakultaeten/FK4/studierende/Master_BHT/EN_Ordnungstext_BZO-MA-BHT.pdf",
+        "BPO MA BHT 06/2026 | read — exam rules only | https://www.tu-braunschweig.de/fileadmin/Redaktionsgruppen/Fakultaeten/FK4/studierende/Master_BHT/BPO-MA-BHT_062026.pdf"
+      ]
+    },
+    "last_checked": "2026-10-22",
+    "last_updated": "2026-10-22"
+  },
+  {
+    "id": "manual_siegen_mechatronics_me",
+    "program": "Mechatronics (M.Sc.)",
+    "university": "University of Siegen",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://www.uni-siegen.de/en/study/master/mechatronics",
+      "admission_regulation": {
+        "url": "https://www.uni-siegen.de/start/news/amtliche_mitteilungen/jahrgang_2023/72_2023_fpo-m_mech.pdf",
+        "title": "Fachprüfungsordnung (FPO-M) für das Fach Mechatronics (MECH) im Masterstudium an der Universität Siegen vom 28. September 2023 (§ 4), with the Rahmenprüfungsordnung (RPO-M) für das Masterstudium an der Universität Siegen vom 28. Februar 2019",
+        "version": "FPO-M: Amtliche Mitteilungen Nr. 72/2023 of 29.09.2023, in force the day after publication; amended by Ordnung zur Änderung der FPO-M vom 19. September 2024 (AM 58/2024), which only adds module 4ETMA167 to Anlage 4 (no admission change). Searched 17.10.2026 for 2025-2026 amendments (Siegen Amtliche Mitteilungen 'Änderung Fachprüfungsordnung Mechatronics'): none found; the English translation (26.07.2024 file) also names only AM 72/2023 + 58/2024. RPO-M: nichtamtliche Lesefassung incl. Vierte Änderungsordnung vom 12. Juni 2025 (AM 41/2025)."
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "FPO-M § 4 Abs. 1: 'Ergänzend zu § 4 RPO-M ist Voraussetzung für den Zugang zum Masterstudium Mechatronics' a first professional university degree in 'einer ingenieurwissenschaftlichen Disziplin mit Bezügen zur Elektrotechnik oder zum Maschinenbau' or in a 'vergleichbaren Bachelorstudiengang'. § 4 Abs. 2 ties the LP table to the comparable route ('Der vergleichbare Bachelorstudiengang im Sinne von Absatz 1 muss Kompetenzen in den folgenden Bereichen ...'). No separate LP tables per prior field: the only field-specific part of admission is the OR line 'Grundlagen der Elektro- und Messtechnik oder Grundlagen in der Mechanik'; prior field (Elektrotechnik vs Maschinenbau) decides the compulsory Angleichungsblock in the programme (§ 8 Abs. 3-5), not access. Programme page: 'a first professionally qualifying degree in an engineering subject'. primary_fields reflects the GPU-R domain of this record (a mechanical copy exists in another field file), not regulation wording. COPY of approved EEE record manual_siegen_mechatronics_eee for the mechanical file; keep both identical."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 2.7,
+      "note": "FPO-M § 4 Abs. 3: 'Es handelt sich um einen qualifizierten Abschluss, wenn der Bachelorabschluss mindestens mit der Note „2,7“' abgeschlossen wurde (qualifizierter Abschluss per § 4 Abs. 2 RPO-M). No conversion method for foreign grades stated in the FPO-M."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "§ 4 Abs. 2 Mathematische Grundlagen 20 LP",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [],
+          "min_ects": 20,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "§ 4 Abs. 2 Naturwissenschaftliche Grundlagen 15 LP",
+          "canonical_category": "physics_natural_sciences.general_physics",
+          "covered_categories": [
+            "physics_natural_sciences.chemistry"
+          ],
+          "min_ects": 15,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "§ 4 Abs. 2 Grundlagen der Elektro- und Messtechnik oder Grundlagen in der Mechanik 10 LP",
+          "canonical_category": "electrical_electronic_engineering.circuit_theory",
+          "covered_categories": [
+            "electrical_electronic_engineering.electromagnetic_field_theory",
+            "electrical_electronic_engineering.measurement_instrumentation",
+            "mechanical_manufacturing_engineering.mechanics_dynamics"
+          ],
+          "min_ects": 10,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "FPO-M § 4 Abs. 2 table (minimum scope): Mathematische Grundlagen 20 LP, Naturwissenschaftliche Grundlagen 15 LP, Grundlagen der Elektro- und Messtechnik oder Grundlagen in der Mechanik 10 LP, Projektarbeit (einschließlich Bachelorarbeit) 10 LP. The table is worded for the 'vergleichbare Bachelorstudiengang' route; GPU-R applies it to all applicants (strictest reading, GPU-R policy, not regulation wording; see DECISION in notes). 'Naturwissenschaftliche Grundlagen' is stored as physics + chemistry pool; chemistry, technical mechanics and project/thesis have no eee category (TAXONOMY GAP, count 0 until the taxonomy phase — strict). Koushik rule 19.10.2026 (applies to ALL records): thesis / scientific-work credit items are removed — every bachelor graduate has sufficient thesis or project work. Removed item: § 4 Abs. 2 Projektarbeit (einschließlich Bachelorarbeit) 10 LP Koushik decision 20.10.2026 (general_ee now counts ALL EE subjects, so it is no longer used for basics): 'Grundlagen der Elektro- und Messtechnik oder Grundlagen in der Mechanik 10 LP' = circuit_theory + electromagnetic_field_theory (EE basics) + measurement_instrumentation (Messtechnik) + mechanics_dynamics (Mechanik alternative), add-up rule."
+    },
+    "conditional_admission": {
+      "allowed": true,
+      "max_ects": 30,
+      "mechanism": "FPO-M § 4 Abs. 5: 'Eine Zulassung unter Auflagen gemäß § 4 Absatz 4 RPO-M ist möglich; hierüber entscheidet im Einzelfall der Prüfungsausschuss Mechatronics.' RPO-M § 4 Abs. 4: 'Auflagen können nur im Umfang von maximal 30 Leistungspunkten erteilt werden.'; they should be completed in the first two semesters and must be proven at the latest at registration of the Masterarbeit."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "Access is refused if the applicant has definitively failed a required examination in a closely related programme (FPO-M § 4 Abs. 6).",
+        "Department application page (marked as no longer updated): main criteria are the final Bachelor grade and language skills; 'we have to apply an admission limit'; 'there will be no interview.'",
+        "Compulsory Angleichungsblock in the programme by prior field: Elektrotechnik graduates take 4MECHMA001/002 (6 LP each), Maschinenbau graduates 4MECHMA011/012 (6 LP each); unclear cases decided by the Prüfungsausschuss (FPO-M § 8 Abs. 3-5)."
+      ]
+    },
+    "minimum_total_ects": null,
+    "language_english": {
+      "ielts_min": 6.0,
+      "toefl_ibt_min": 88,
+      "pte_min": 61,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "native speakers from USA, Canada, Great Britain, New Zealand and Australia (programme pages)"
+      ],
+      "moi_not_accepted": true,
+      "due": "at application",
+      "note": "FPO-M § 4 Abs. 4: 'der Nachweis englischer Sprachkenntnisse mindestens auf dem Niveau B2 gemäß des Gemeinsamen Europäischen Referenzrahmens' or TOEFL iBT at least 88 or IELTS 6.0; no exemptions in the FPO-M. Department application page: 'TOEFL iBT = min. 88 or IELTS (academic) = minimum 6.0 or Cambridge First = minimum 175 or PTE Academic = minimum 61'; 'Score cards NOT older than 2 years'; 'Medium of instruction letter (MOI) is not acceptable!' PTE 61 and Cambridge First 175 are from the programme pages only."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": null,
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "online application via the University of Siegen portal (unisono) with digital scans of transcript of records and certificates (department application page)"
+    ],
+    "admission_type": {
+      "restricted": null,
+      "numerus_clausus": null
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "1 January - 30 April (programme page; no separate non-EU deadline listed)",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.eti.uni-siegen.de/dekanat/pruefungsamt/mechatronik/",
+      "documents_seen": [
+        "Fachprüfungsordnung (FPO-M) für das Fach Mechatronics (MECH) im Masterstudium vom 28. September 2023 | AM 72/2023 vom 29.09.2023 — opened | https://www.uni-siegen.de/start/news/amtliche_mitteilungen/jahrgang_2023/72_2023_fpo-m_mech.pdf",
+        "Ordnung zur Änderung der FPO-M Mechatronics vom 19. September 2024 | AM 58/2024 (Anlage 4 only) — opened | https://www.uni-siegen.de/start/news/amtliche_mitteilungen/jahrgang_2024/58_2024_aeo_fpo-m_mech_72_23.pdf",
+        "Departmental Examination Regulations (FPO-M) Mechatronics, English translation as amended 19.09.2024 (not binding) — opened | https://www.uni-siegen.de/incoming/organization/regulations/2024-07-26_fpo-m_mechatronics_englisch.pdf",
+        "Rahmenprüfungsordnung (RPO-M) für das Masterstudium vom 28.02.2019, nichtamtliche Lesefassung incl. 4. Änderung vom 12.06.2025 (AM 41/2025) — opened | https://www.uni-siegen.de/media/18495/download",
+        "PO Master Mechatronics 2013 and 2. Änderungsordnung (superseded) — not opened | https://pruefungsamt.eti.uni-siegen.de/dokumente/mechatronik/po_13/po_m_mechatronics.pdf"
+      ]
+    },
+    "last_checked": "2026-10-17",
+    "last_updated": "2026-10-19"
+  },
+  {
+    "id": "manual_siegen_me",
+    "program": "Mechanical Engineering (MSc)",
+    "university": "University of Siegen",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://www.uni-siegen.de/en/student-information-master-mechanical-engineering-english",
+      "admission_regulation": {
+        "url": "https://www.uni-siegen.de/media/21528/download",
+        "title": "Fachprüfungsordnung (FPO-M) für das Fach Maschinenbau (MB) im Masterstudium an der Universität Siegen",
+        "version": "vom 21. Juli 2023 (AM 48/2023), geändert durch AM 87/2023, 25/2024 und 79/2024, 'zuletzt geändert am 8. November 2024' (nichtamtliche Lesefassung, document page dated 02.09.2026). Auflagen rule: RPO-M vom 28. Februar 2019, zuletzt geändert am 12. Juni 2025 (AM 41/2025). Reference curriculum for the 70% rule: FPO-B Maschinenbau vom 21. Juli 2023, zuletzt geändert am 10. April 2025 (Lesefassung 14.07.2025), Anlage 1a"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "FPO-M Art. 2 § 4(1): Bachelor in Maschinenbau or Fahrzeugbau (vehicle/automotive engineering) of the University of Siegen, or another subject-comparable study of at least three years with a completed Bachelor examination. Comparability is assumed if subjects of category 1 (mathematical fundamentals), 2 (engineering fundamentals), 3 (engineering applications) and 4 (ME-specific specialization) or 5 (vehicle-specific specialization) were studied to the extent of in each case ('jeweils') at least 70% of the LP of the Siegen BSc Maschinenbau per Anlage 1a of its FPO. Category 5 alternative (vehicle-specific specialization, compulsory part 36 LP: Strömungslehre, FB-Labore, Kraftfahrzeugtechnik 1 and 2, Fahrzeugbau, PEP; 70% = 25.2 LP, derived) is not stored as an item."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 3.0,
+      "note": "FPO-M Art. 2 § 4(2): degree 'mit mindestens der Note (3,0)'. No conversion method for foreign grades is stated."
+    },
+    "subject_credit_requirements": {
+      "items": [
+        {
+          "raw_label": "Kategorie 1 'mathematische Grundlagen': at least 70% of 33 LP (Siegen BSc MB: Höhere Mathematik I 9, II 6, III 6, Numerische Methoden 6, Informatik 6) = 23.1 LP (derived)",
+          "canonical_category": "mathematics_statistics.general_mathematics",
+          "covered_categories": [
+            "computer_science_informatics.general_cs"
+          ],
+          "min_ects": 23.1,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "Kategorie 2 'ingenieurwissenschaftliche Grundlagen': at least 70% of 51 LP (Technische Mechanik I-III 18, Technische Thermodynamik 6, Elektrotechnik 6, Regelungstechnik 6, Werkstofftechnik I 9 and II 6) = 35.7 LP (derived)",
+          "canonical_category": "mechanical_manufacturing_engineering.mechanics_dynamics",
+          "covered_categories": [
+            "mechanical_manufacturing_engineering.thermodynamics",
+            "electrical_electronic_engineering.control_systems",
+            "chemistry_materials.materials_science",
+            "electrical_electronic_engineering.general_ee"
+          ],
+          "min_ects": 35.7,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "Kategorie 3 'Ingenieuranwendungen': at least 70% of 30 LP (Konstruktion I 6, II 6, III 9, Fertigungstechnik 9) = 21 LP (derived)",
+          "canonical_category": "mechanical_manufacturing_engineering.design_machine_elements",
+          "covered_categories": [
+            "mechanical_manufacturing_engineering.manufacturing_production"
+          ],
+          "min_ects": 21,
+          "requires_subject_presence_only": false
+        },
+        {
+          "raw_label": "Kategorie 4 'Maschinenbau-spezifische Vertiefung': at least 70% of 30 LP compulsory part (Strömungslehre, Wärmeübertragung, Maschinendynamik, Labore, PEP in der Vertiefung, 6 LP each) = 21 LP (derived)",
+          "canonical_category": "mechanical_manufacturing_engineering.mechanics_fluid_dynamics",
+          "covered_categories": [
+            "mechanical_manufacturing_engineering.thermodynamics",
+            "mechanical_manufacturing_engineering.mechanics_dynamics"
+          ],
+          "min_ects": 21,
+          "requires_subject_presence_only": false
+        }
+      ],
+      "note": "DERIVED VALUES: the FPO-M states the rule as '70% of the LP of the Siegen BSc Maschinenbau per Anlage 1a', not as absolute numbers. min_ects = 0.7 x the category totals of FPO-B MB § 8(3) (33 / 51 / 30 / 30 LP). Open points: (1) whether category 4 means only the 30 LP compulsory part or also the 12 LP elective ME-specific part (then 70% of 42 = 29.4); the compulsory part was used; (2) Elektrotechnik (6 LP) in category 2 is now pooled as general_ee (22.10.2026, general_ee = all EE subjects); (3) Informatik counts as mathematical fundamentals at Siegen, hence general_cs pooled in item 1; (4) thermodynamics and mechanics_dynamics are pooled in both item 2 and item 4 (Siegen splits them between categories), so the same credits can count twice. Category 4 may be replaced by category 5 (vehicle-specific, see accepted_degree_fields.note). A shortfall leads to Auflagen and/or restriction to certain specializations, not rejection."
+    },
+    "conditional_admission": {
+      "allowed": true,
+      "max_ects": 30,
+      "mechanism": "Auflagen gemäß § 4 Abs. 4 RPO-M (FPO-M Art. 2 § 4 Abs. 1): only Bachelor modules, at most 30 LP, to be proven at the latest at registration of the Master's thesis; and/or admission only for certain specializations (Vertiefungsrichtungen)"
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "SELECTION (latest official version, how-to-apply page last modified 19.05.2026, re-verified 23.10.2026): after document review, eligible candidates are invited to a short ONLINE TEST (basic concepts of mechanical engineering and the specific study areas); test, transcript and prerequisite sheet are reviewed, and applicants with a positive review are invited to an ONLINE INTERVIEW. The older department FAQ PDFs (folder 2026-03) still say 'currently entry test and interview are not part of our selection process' — superseded by the newer page. Note: the how-to-apply page also mentions CS focus areas (embedded systems, software systems, visual computing), which looks copied from the CS page.",
+        "The comparability check (70% per category) is done by the university against its own Bachelor curriculum; a shortfall can restrict admission to certain of the eight specializations: VT I Produktentwicklung, VT II Produktionstechnik, VT III Werkstofftechnik, VT IV Energie- und Prozesstechnik, VT V Numerische Methoden, VT VI Zustandsüberwachung, VT VII Fahrzeugbau, VT VIII Allgemeiner Maschinenbau (FPO-M § 8(3))."
+      ]
+    },
+    "minimum_total_ects": null,
+    "language_english": {
+      "ielts_min": 6.0,
+      "toefl_ibt_min": 87,
+      "pte_min": null,
+      "required_level": "B2",
+      "allowed_exemptions": [
+        "Applicants from countries with English as the primary official language (list on the student-information page, e.g. UK, USA, Australia, Canada except Quebec)"
+      ],
+      "moi_not_accepted": true,
+      "due": "at application; valid certificate needed at the latest at enrollment",
+      "note": "FPO-M § 4(3) (binding): B2 (CEFR) or TOEFL iBT at least 87 or IELTS 6.0. The department page lists TOEFL iBT 88, IELTS 6.5, CAE level C or CEFR B2. Medium-of-instruction confirmations are not accepted. Timing: the student-information page says proof 'must be submitted by the application deadline' and also that a valid certificate is needed 'the latest when you enroll'."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [
+        "India"
+      ],
+      "note": "How-to-apply page: 'For applicants from India, the APS certificate is required for getting a German student visa.'"
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "Enrollment refused if a required examination under this FPO was definitively failed (FPO-M § 4(4))"
+    ],
+    "admission_type": {
+      "restricted": false,
+      "numerus_clausus": false
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "1 January – 30 April (how-to-apply page, 19.05.2026); winter intake only for non-EU",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.uni-siegen.de/mb/pruefungsamtmaschinenbau?lang=de",
+      "documents_seen": [
+        "FPO M.Sc MB (nichtamtliche Lesefassung, file lf_fpo-m_mb_48_23_87_23_25_24_79_24) | zuletzt geändert 08.11.2024; document page 02.09.2026 | https://www.uni-siegen.de/dokument/fpo-msc-mb",
+        "Übersicht Studieninhalt M.Sc MB | file dated 12.04.2026 | https://www.uni-siegen.de/dokument/uebersicht-msc-mb",
+        "Studienplan Maschinenbau (MB), Master | n/a | https://www.uni-siegen.de/dokument/studienplan-ma-mb",
+        "Search 21.10.2026: no FPO-M MB amendment newer than AM 79/2024 found (amendments seen: 87/2023, 25/2024) — record unchanged",
+        "How-to-apply page (last modified 19.05.2026) | re-verified 23.10.2026 | https://www.uni-siegen.de/master-in-mechanical-engineering-how-to-apply",
+        "Department FAQ PDFs (folder 2026-03, undated) | read 23.10.2026 — 'no entry test and interview' (superseded) | https://www.uni-siegen.de/files/default/media/documents/2026-03/application_process_and_requirements_4.pdf"
+      ]
+    },
+    "last_checked": "2026-10-22",
+    "last_updated": "2026-10-22"
+  },
+  {
+    "id": "8296_me",
+    "program": "Electromobility – ACES (M.Sc.)",
+    "university": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://fau.eu/degree-program/electromobility-aces-m-sc",
+      "admission_regulation": {
+        "url": "https://www.doc.zuv.fau.de//L1/PO/Tech/Elektromobilität-ACES/English Version of Examination Regulations e-mobility-ACES/FPO_ACES_20230822_idF_20250227_en.pdf",
+        "title": "Examination Regulations for the Bachelor's and Master's degree programmes Electromobility – ACES at FAU (§ 49, Appendix 1, Appendix 2)",
+        "version": "FPO of 22.08.2023 as amended 27.02.2025 (English version, not binding) — read 21.10.2026"
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "FPO § 49(1): Bachelor Electromobility – ACES (FAU) or an equivalent German or foreign degree with equivalent learning outcomes; graduates of other programmes case by case. primary_fields = GPU-R domain (GPU-R policy)."
+    },
+    "gpa_rule_type": "NO_GRADE_THRESHOLD",
+    "grade_requirement": {
+      "value": null,
+      "note": "No overall grade requirement. FAU's qualification assessment uses a module average (see IMPORTANT note) — stored as a student note only (Koushik 22.10.2026); it never fails a student, because the oral exam route stays open."
+    },
+    "subject_credit_requirements": {
+      "items": [],
+      "note": "Reference K modules (Appendix 1, 52.5 ECTS): Foundations of EE II 5, Signals and systems I 5, Statics and mechanics of materials 7.5, Dynamics of rigid bodies 7.5, Foundations of metrology and applied statistics 7.5, Engineering drawing I+II 5, Production engineering I+II 5, Machine elements I 5, Automotive engineering 5. Module-average rule stored as an IMPORTANT note only (Koushik 22.10.2026)."
+    },
+    "conditional_admission": {
+      "allowed": true,
+      "max_ects": null,
+      "mechanism": "FPO § 49(5) and Appendix 2 fn. 2: the admissions committee may require specific bachelor modules from Appendix 1 and language courses; no cap."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": true,
+      "descriptive_notes": [
+        "IMPORTANT: FAU qualification assessment — you qualify DIRECTLY if at least 20 ECTS of your bachelor courses comparable to these modules (Foundations of EE II, Signals and systems I, Statics and mechanics of materials, Dynamics of rigid bodies, Foundations of metrology and applied statistics, Engineering drawing I+II, Production engineering I+II, Machine elements I, Automotive engineering) have an average grade of 3.0 or better (German scale). Otherwise you are invited to an oral admission exam (not a rejection).",
+        "Qualification assessment (§ 49): direct qualification with ≥20 ECTS of K modules averaging 3.0 or better; otherwise an oral exam weighted: basic engineering/science/maths 25 %, bachelor knowledge for the chosen specialisation 25 %, presentation of an engineering project (e.g. bachelor thesis) 30 %, academic progress prognosis 20 %.",
+        "Applicants without a degree from a Lisbon Convention country are strongly advised to submit GRE or GATE; results may be decisive in their favour (§ 49(2)–(3))."
+      ]
+    },
+    "minimum_total_ects": null,
+    "language_english": {
+      "ielts_min": 7.0,
+      "toefl_ibt_min": 95,
+      "pte_min": 70,
+      "required_level": "C1",
+      "allowed_exemptions": [],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "FPO § 49(2): English-track applicants need CEFR C1, proofs per the FAU Language Center equivalency table. FAU Sprachenzentrum 'Äquivalenztabelle Englisch Sprachtests' (Stand Mai 2016, file 2019): C1 = IELTS 7.0, TOEFL iBT 95, PTE Academic 70 (min. 67 in all skills), Cambridge CAE / BEC Higher."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [
+      {
+        "test": "GRE or GATE",
+        "status": "strongly recommended for non-Lisbon-Convention degrees",
+        "min_score": null
+      }
+    ],
+    "aps_certificate": {
+      "required_for": [
+        "India"
+      ],
+      "note": "Old record: APS mandatory for India and China. FAU programme page (21.10.2026) does not mention APS — not re-verified."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [
+      "State the study language (English or German) with the application (§ 49(1)); German track needs DSH-2 (74 %) or TestDaF 4×4 with one 5"
+    ],
+    "admission_type": {
+      "restricted": false,
+      "numerus_clausus": false
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter",
+        "summer"
+      ],
+      "non_eu_deadlines": {
+        "winter": "31 May",
+        "summer": "31 October"
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.doc.zuv.fau.de/L1/PO/Tech/",
+      "documents_seen": [
+        "FPO ACES 22.08.2023 i.d.F. 27.02.2025 (EN) | read 21.10.2026 | https://www.doc.zuv.fau.de//L1/PO/Tech/Elektromobilität-ACES/English Version of Examination Regulations e-mobility-ACES/FPO_ACES_20230822_idF_20250227_en.pdf",
+        "Programme page | read 21.10.2026 | https://fau.eu/degree-program/electromobility-aces-m-sc"
+      ]
+    },
+    "last_checked": "2026-10-22",
+    "last_updated": "2026-10-22"
+  },
+  {
+    "id": "3847_me",
+    "program": "Computational Engineering (M.Sc.)",
+    "university": "Ruhr-Universität Bochum",
+    "_domain": "mechanical_engineering",
+    "official_sources": {
+      "program_page": "https://www.compeng.ruhr-uni-bochum.de/ce/admission/admission.html.en",
+      "admission_regulation": {
+        "url": "https://www.compeng.ruhr-uni-bochum.de/ce/mam/ab1095.pdf",
+        "title": "Master-Prüfungsordnung für den Studiengang 'Computational Engineering' an der Ruhr-Universität Bochum (§ 2)",
+        "version": "of 28.09.2015 (AB 1095), amended by AB 1147 (21.04.2016) — read 23.10.2026 (German + official English translation). AB 1426 (23.08.2021) read 23.10.2026 from Koushik's paste: changes only § 17(2) (thesis supervision) — admission (§ 2) unchanged."
+      }
+    },
+    "accepted_degree_fields": {
+      "primary_fields": [
+        "mechanical_engineering"
+      ],
+      "note": "PO § 2: bachelor in civil engineering, mechanical engineering or a related engineering discipline, or mathematics / comparable subject, at least six semesters; the examination committee decides equivalence. Official admission page (updated 13.10.2026): bachelors in computer science, architecture or an MBA are NOT accepted; PhD holders not accepted; master's holders only to a limited extent. primary_fields reflects the GPU-R domain of this record. COPY of approved civil record 3847 for the mechanical file (Koushik 24.10.2026: also a best fit for mechanical — PO § 2 names mechanical engineering; compulsory core includes continuum mechanics, mechanical modelling of materials, fluid dynamics, FEM); keep both identical."
+    },
+    "gpa_rule_type": "HARD_MAX_GRADE",
+    "grade_requirement": {
+      "value": 2.5,
+      "note": "PO § 2: at least 'gut' / overall result of at least 75%. Official admission page (13.10.2026): German average at least 2.5; percentage scales at least 75%; 4.0 GPA scales at least 3.3; division systems: one of the two best ratings."
+    },
+    "subject_credit_requirements": {
+      "items": [],
+      "note": "PO § 2 sets no subject credit minimums."
+    },
+    "conditional_admission": {
+      "allowed": false,
+      "max_ects": null,
+      "mechanism": "PO § 2 has no Auflagen rule (AB 1147 and AB 1426 do not add one)."
+    },
+    "subsequent_selection_criteria_display": {
+      "has_subsequent_hurdles": false,
+      "descriptive_notes": [
+        "IMPORTANT: computer science, architecture and MBA bachelors are NOT accepted; PhD holders are not accepted (official admission page, 13.10.2026).",
+        "IMPORTANT: minimum grade 'gut' — at least 75% / German 2.5 / 3.3 on a 4.0 scale (PO § 2; admission page).",
+        "IMPORTANT: APS certificate required for Indian applicants (admission page).",
+        "IMPORTANT: deadline 15 June per the admission page, but the faculty page says 15 May — apply by 15 May to be safe.",
+        "IMPORTANT: English — regulation TOEFL iBT 79 / IELTS 6.0, but the admission page now asks TOEFL 86 — aim for 86.",
+        "Not admitted if you definitively failed a Computational Engineering (or related) bachelor/master/diploma exam (PO § 2(2)).",
+        "Advising on subject choice is required before starting (PO § 2).",
+        "Solid programming skills in C, C++ and Python are expected (official admission page)."
+      ]
+    },
+    "minimum_total_ects": 180,
+    "language_english": {
+      "ielts_min": 6.0,
+      "toefl_ibt_min": 79,
+      "pte_min": null,
+      "required_level": null,
+      "allowed_exemptions": [
+        "Degree from an exclusively English-language institution",
+        "English native speaker"
+      ],
+      "moi_not_accepted": null,
+      "due": "at application",
+      "note": "PO § 2 (binding): TOEFL 79 internet, IELTS at least 6.0. Official admission page (13.10.2026) now asks TOEFL iBT 86, IELTS 6.0, PTE 55, Oxford Test 120, UNIcert II (2.0) — regulation value 79 stored; aim for 86 to be safe."
+    },
+    "language_german": {
+      "required": false,
+      "required_level": null,
+      "due": null
+    },
+    "standardized_test_requirements": [],
+    "aps_certificate": {
+      "required_for": [
+        "India"
+      ],
+      "note": "Official admission page (13.10.2026): APS required for applicants from China, India and Vietnam."
+    },
+    "practical_experience_requirement": null,
+    "final_scientific_work_requirement": null,
+    "other_requirements": [],
+    "admission_type": {
+      "restricted": null,
+      "numerus_clausus": null
+    },
+    "logistics": {
+      "intake_semesters": [
+        "winter"
+      ],
+      "non_eu_deadlines": {
+        "winter": "15 June (official admission page, updated 13.10.2026: application period 15 December – 15 June for non-European citizens); the faculty page still says 15 May — apply by 15 May to be safe",
+        "summer": null
+      }
+    },
+    "regulation_watch": {
+      "regulations_page": "https://www.compeng.ruhr-uni-bochum.de/ce/examination-office/examination-office.html.en",
+      "documents_seen": [
+        "PO CE 2015 (AB 1095) | read 23.10.2026 | https://www.compeng.ruhr-uni-bochum.de/ce/mam/ab1095.pdf",
+        "PO CE English translation (with AB 1147) | read | https://www.compeng.ruhr-uni-bochum.de/ce/mam/po_master_ce_eng.pdf",
+        "AB 1426 (23.08.2021) | read 23.10.2026 from Koushik's paste — § 17(2) thesis supervision only | https://www.compeng.ruhr-uni-bochum.de/ce/mam/ab1426.pdf",
+        "Official CompEng admission page (updated 13.10.2026) | read 24.10.2026 | https://www.compeng.ruhr-uni-bochum.de/ce/admission/admission.html.en",
+        "Faculty page (15 May non-EU; CS excluded) | read 24.10.2026 | https://www.fbi.ruhr-uni-bochum.de/fbi/studium/studieninteressierte/compeng.html",
+        "PO CE AB 1095 re-read 24.10.2026 (§ 2: civil/mechanical/related engineering or mathematics, ≥6 semesters, 'gut' >75%, TOEFL 79 / IELTS 6.0, winter start, advising) | https://dev2.imp10.ruhr-uni-bochum.de/ce/mam/ab1095.pdf"
+      ]
+    },
+    "last_checked": "2026-10-24",
+    "last_updated": "2026-10-24"
+  }
+]

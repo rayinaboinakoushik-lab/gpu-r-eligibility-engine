@@ -1,0 +1,400 @@
+{
+ "id": "S10_ktu_mbcet_cse",
+ "field": "cs",
+ "degree": "B.Tech Computer Science and Engineering",
+ "university": "APJ Abdul Kalam Technological University, Kerala",
+ "institution": "Mar Baselios College of Engineering and Technology, Thiruvananthapuram (Autonomous)",
+ "regulation": "B.Tech 2020 scheme (revised 2022)",
+ "entry": "regular",
+ "years": 4,
+ "credits_for_award_printed": null,
+ "grading": [
+  [
+   "O",
+   10
+  ],
+  [
+   "A+",
+   9
+  ],
+  [
+   "A",
+   8.5
+  ],
+  [
+   "B+",
+   8
+  ],
+  [
+   "B",
+   7
+  ],
+  [
+   "C",
+   6
+  ],
+  [
+   "P",
+   5
+  ]
+ ],
+ "pass_min": 5,
+ "layout": "table",
+ "seed": 1010,
+ "target_cgpa": 8.0,
+ "source": [
+  "https://mbcet.ac.in/wp-content/uploads/2025/08/CSE_B-Tech2020-revised-2022_Curriculum_17-08-25.pdf"
+ ],
+ "abbreviate": false,
+ "provenance": {
+  "institution_status": "autonomous college under KTU (own 2020 curriculum revised 2022)",
+  "curriculum_check": "semester sums equal printed totals 17/21/22/22/23/23/15/17 except S7 (open elective omitted, see below); printed programme total 162 includes 2 activity-point credits that are not courses",
+  "grading_source": null,
+  "grading_verified": false,
+  "grading_note": "KTU-style scale O/A+/A(8.5)/B+/B/C/P, pass P = 5 assumed",
+  "electives": "S1/S2 alternating slots split as listed; programme electives I-V chosen from the listed options",
+  "omitted": [
+   "S7 open elective (3 credits): only the CSE department's offers to other branches are listed",
+   "optional VAC remedial/minor/honours courses (outside the 162)"
+  ]
+ },
+ "degree_field_id": "computer_science",
+ "split": "dev",
+ "semesters": [
+  {
+   "name": "S1",
+   "courses": [
+    {
+     "code": "MA0U10A",
+     "title": "Linear Algebra and Calculus",
+     "credits": 4
+    },
+    {
+     "code": "HS0U10A",
+     "title": "Life Skills",
+     "credits": 0
+    },
+    {
+     "code": "PH0U10A",
+     "title": "Engineering Physics-A",
+     "credits": 4
+    },
+    {
+     "code": "ES0U10B",
+     "title": "Engineering Graphics",
+     "credits": 3
+    },
+    {
+     "code": "ES0U10C",
+     "title": "Basics of Civil and Mechanical Engineering",
+     "credits": 4
+    },
+    {
+     "code": "PH0U18A",
+     "title": "Engineering Physics Lab",
+     "credits": 1
+    },
+    {
+     "code": "ES0U18A",
+     "title": "Civil and Mechanical Workshop",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "S2",
+   "courses": [
+    {
+     "code": "MA0U10B",
+     "title": "Vector Calculus, Differential Equations and Transforms",
+     "credits": 4
+    },
+    {
+     "code": "HS0U10B",
+     "title": "Professional Communication",
+     "credits": 0
+    },
+    {
+     "code": "ES0U10F",
+     "title": "Introduction to Computer Programming",
+     "credits": 4
+    },
+    {
+     "code": "CY0U10A",
+     "title": "Engineering Chemistry-A",
+     "credits": 4
+    },
+    {
+     "code": "ES0U10A",
+     "title": "Engineering Mechanics",
+     "credits": 3
+    },
+    {
+     "code": "ES0U10D",
+     "title": "Basics of Electrical and Electronics Engineering",
+     "credits": 4
+    },
+    {
+     "code": "CY0U18A",
+     "title": "Engineering Chemistry Lab",
+     "credits": 1
+    },
+    {
+     "code": "ES0U18B",
+     "title": "Electrical and Electronics Workshop",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "S3",
+   "courses": [
+    {
+     "code": "MA0U20G",
+     "title": "Discrete Mathematical Structures",
+     "credits": 4
+    },
+    {
+     "code": "CS1U20A",
+     "title": "Data Structures",
+     "credits": 4
+    },
+    {
+     "code": "CS1U20B",
+     "title": "Logic System Design",
+     "credits": 4
+    },
+    {
+     "code": "CS1U20C",
+     "title": "Object Oriented Programming using Java",
+     "credits": 4
+    },
+    {
+     "code": "ES0U20A",
+     "title": "Design and Engineering",
+     "credits": 2
+    },
+    {
+     "code": "NC0U20A",
+     "title": "Sustainable Engineering",
+     "credits": 0
+    },
+    {
+     "code": "CS1U28A",
+     "title": "Data Structures Lab",
+     "credits": 2
+    },
+    {
+     "code": "CS1U28B",
+     "title": "Object Oriented Programming Lab (in Java)",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "S4",
+   "courses": [
+    {
+     "code": "MA0U20D",
+     "title": "Probability Statistics and Numerical Methods",
+     "credits": 4
+    },
+    {
+     "code": "CS1U20D",
+     "title": "Computer Organization and Architecture",
+     "credits": 4
+    },
+    {
+     "code": "CS1U20E",
+     "title": "Database Management Systems",
+     "credits": 4
+    },
+    {
+     "code": "CS1U20G",
+     "title": "Formal Languages and Automata Theory",
+     "credits": 4
+    },
+    {
+     "code": "HS0U20A",
+     "title": "Professional Ethics",
+     "credits": 2
+    },
+    {
+     "code": "NC0U20B",
+     "title": "Constitution of India",
+     "credits": 0
+    },
+    {
+     "code": "CS1U28C",
+     "title": "Digital Lab",
+     "credits": 2
+    },
+    {
+     "code": "CS1U28E",
+     "title": "Database Management Systems Lab",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "S5",
+   "courses": [
+    {
+     "code": "CS1U30J",
+     "title": "Algorithm Analysis and Design",
+     "credits": 4
+    },
+    {
+     "code": "CS1U30C",
+     "title": "System Software",
+     "credits": 4
+    },
+    {
+     "code": "CS1U30K",
+     "title": "Operating Systems",
+     "credits": 4
+    },
+    {
+     "code": "CS1U30D",
+     "title": "Microprocessors and Microcontrollers",
+     "credits": 4
+    },
+    {
+     "code": "CS1U30E",
+     "title": "Management of Software Systems",
+     "credits": 3
+    },
+    {
+     "code": "NC0U30A",
+     "title": "Disaster Management",
+     "credits": 0
+    },
+    {
+     "code": "CS1U38A",
+     "title": "System Software and Microprocessors Lab",
+     "credits": 2
+    },
+    {
+     "code": "CS1U38D",
+     "title": "Operating Systems Lab",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "S6",
+   "courses": [
+    {
+     "code": "CS1U30F",
+     "title": "Compiler Design",
+     "credits": 4
+    },
+    {
+     "code": "CS1U30G",
+     "title": "Computer Graphics and Image Processing",
+     "credits": 4
+    },
+    {
+     "code": "CS1U30B",
+     "title": "Computer Networks",
+     "credits": 4
+    },
+    {
+     "code": "CS1U31B",
+     "title": "Data Analytics",
+     "credits": 3
+    },
+    {
+     "code": "HS0U30A",
+     "title": "Industrial Economics and Foreign Trade",
+     "credits": 3
+    },
+    {
+     "code": "CS1U30I",
+     "title": "Comprehensive Course Work",
+     "credits": 1
+    },
+    {
+     "code": "CS1U38C",
+     "title": "Networking Lab",
+     "credits": 2
+    },
+    {
+     "code": "CS1U39A",
+     "title": "Mini Project",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "S7",
+   "courses": [
+    {
+     "code": "CS1U40A",
+     "title": "Artificial Intelligence",
+     "credits": 3
+    },
+    {
+     "code": "CS1U41F",
+     "title": "Natural Language Processing",
+     "credits": 3
+    },
+    {
+     "code": "NC0U40A",
+     "title": "Industrial Safety Engineering",
+     "credits": 0
+    },
+    {
+     "code": "CS1U48A",
+     "title": "Compiler Design Lab",
+     "credits": 2
+    },
+    {
+     "code": "CS1U49A",
+     "title": "Seminar",
+     "credits": 2
+    },
+    {
+     "code": "CS1U49B",
+     "title": "Project Phase I",
+     "credits": 2
+    }
+   ]
+  },
+  {
+   "name": "S8",
+   "courses": [
+    {
+     "code": "CS1U40B",
+     "title": "Distributed Computing",
+     "credits": 3
+    },
+    {
+     "code": "CS1U42C",
+     "title": "Cryptography",
+     "credits": 3
+    },
+    {
+     "code": "CS1U43F",
+     "title": "Data Mining",
+     "credits": 3
+    },
+    {
+     "code": "CS1U44D",
+     "title": "Internet of Things",
+     "credits": 3
+    },
+    {
+     "code": "CS1U40C",
+     "title": "Comprehensive Viva Voce",
+     "credits": 1
+    },
+    {
+     "code": "CS1U49C",
+     "title": "Project Phase II",
+     "credits": 4
+    }
+   ]
+  }
+ ]
+}

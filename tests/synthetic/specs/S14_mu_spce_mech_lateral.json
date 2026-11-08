@@ -1,0 +1,330 @@
+{
+ "id": "S14_mu_spce_mech_lateral",
+ "field": "mechanical",
+ "degree": "B.Tech Mechanical Engineering",
+ "university": "University of Mumbai",
+ "institution": "Sardar Patel College of Engineering, Mumbai (Autonomous)",
+ "regulation": "R22",
+ "entry": "lateral_entry",
+ "years": 3,
+ "credits_for_award_printed": null,
+ "grading": [
+  [
+   "O",
+   10
+  ],
+  [
+   "A",
+   9
+  ],
+  [
+   "B",
+   8
+  ],
+  [
+   "C",
+   7
+  ],
+  [
+   "D",
+   6
+  ],
+  [
+   "E",
+   5
+  ],
+  [
+   "P",
+   4
+  ]
+ ],
+ "pass_min": 4,
+ "layout": "table",
+ "seed": 1414,
+ "target_cgpa": 7.8,
+ "source": [
+  "https://spce.ac.in/Documents/Scheme&Syllabus/2024-25/2_R22_Scheme_Mechanical_08082024.pdf"
+ ],
+ "abbreviate": false,
+ "provenance": {
+  "institution_status": "autonomous institute (Mumbai); R22 scheme semesters III-VIII (the file names no university)",
+  "curriculum_check": "semester sums equal printed totals (20/21/23/26/23/12 = 125); Project Stage I credit (1) is the remainder of the printed VI total, not printed itself",
+  "grading_source": null,
+  "grading_verified": false,
+  "grading_note": "Mumbai-style O/A/B/C/D/E/P scale, pass P = 4 assumed",
+  "electives": "PE I-IV and OE I-III chosen from the listed options; abbreviated titles kept as printed ('Mech.', 'Drg.')",
+  "omitted": [
+   "online courses and value-added courses (no credits stated)",
+   "0-credit 'Skill Based Course' row (no title)"
+  ]
+ },
+ "degree_field_id": "mechanical_engineering",
+ "split": "dev",
+ "semesters": [
+  {
+   "name": "III",
+   "courses": [
+    {
+     "code": "BS-BTM301",
+     "title": "Applied Mathematics - I",
+     "credits": 4
+    },
+    {
+     "code": "PC-BTM302",
+     "title": "Strength of Materials",
+     "credits": 3
+    },
+    {
+     "code": "PC-BTM305",
+     "title": "Thermodynamics",
+     "credits": 4
+    },
+    {
+     "code": "PC-BTM306",
+     "title": "Manufacturing Science",
+     "credits": 4
+    },
+    {
+     "code": "HS-BTM307",
+     "title": "Organizational Communication and Interpersonal Skills",
+     "credits": 3
+    },
+    {
+     "code": "PC-BTM352",
+     "title": "Strength of Materials Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "PC-BTM399",
+     "title": "Machine Shop Practice",
+     "credits": 1
+    },
+    {
+     "code": "MC-BT002",
+     "title": "Indian Traditional Knowledge",
+     "credits": 0
+    }
+   ]
+  },
+  {
+   "name": "IV",
+   "courses": [
+    {
+     "code": "BS-BTM401",
+     "title": "Data Analysis and Laplace Transforms",
+     "credits": 4
+    },
+    {
+     "code": "PC-BTM403",
+     "title": "Fluid Mechanics",
+     "credits": 3
+    },
+    {
+     "code": "PC-BTM404",
+     "title": "Mech. Engineering Measurement",
+     "credits": 3
+    },
+    {
+     "code": "PC-BTM406",
+     "title": "Material Science",
+     "credits": 3
+    },
+    {
+     "code": "PC-BTM412",
+     "title": "Kinematics of Machinery",
+     "credits": 4
+    },
+    {
+     "code": "PC-BTM453",
+     "title": "Fluid Mechanics Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "PC-BTM454",
+     "title": "Mechanical Engineering Measurements Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "PC-BTM456",
+     "title": "Material Science Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "PC-BTM499",
+     "title": "Assembly Shop Practice",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "V",
+   "courses": [
+    {
+     "code": "PC-BTM501",
+     "title": "Heat and Mass Transfer",
+     "credits": 3
+    },
+    {
+     "code": "PC-BTM503",
+     "title": "Mechatronics",
+     "credits": 3
+    },
+    {
+     "code": "PC-BTM512",
+     "title": "Dynamics of Machinery",
+     "credits": 3
+    },
+    {
+     "code": "PC-BTM514",
+     "title": "Thermal and Fluid Machines",
+     "credits": 3
+    },
+    {
+     "code": "PC-BTM515",
+     "title": "Computer Aided Machine Drawing",
+     "credits": 2
+    },
+    {
+     "code": "PC-BTM551",
+     "title": "Heat and Mass Transfer Lab.",
+     "credits": 1
+    },
+    {
+     "code": "PC-BTM553",
+     "title": "Mechatronics Lab.",
+     "credits": 1
+    },
+    {
+     "code": "PC-BTM562",
+     "title": "Dynamic of Machinery Lab.",
+     "credits": 1
+    },
+    {
+     "code": "PC-BTM564",
+     "title": "Thermal and Fluid Machines Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "PC-BTM565",
+     "title": "Computer Aided Machine Drg. Lab.",
+     "credits": 1
+    },
+    {
+     "code": "PE-BTM518",
+     "title": "Mechanical Vibrations",
+     "credits": 4
+    },
+    {
+     "code": "MCBTM003",
+     "title": "Health Safety and Environment (HSE)",
+     "credits": 0
+    }
+   ]
+  },
+  {
+   "name": "VI",
+   "courses": [
+    {
+     "code": "PC-BTM605",
+     "title": "Manufacturing Planning and Control",
+     "credits": 4
+    },
+    {
+     "code": "PC-BTM606",
+     "title": "CAD/CAM/CIM",
+     "credits": 2
+    },
+    {
+     "code": "PC-BTM611",
+     "title": "Refrigeration and Air-conditioning",
+     "credits": 2
+    },
+    {
+     "code": "PC-BTM612",
+     "title": "Machine Design",
+     "credits": 4
+    },
+    {
+     "code": "PC-BTM614",
+     "title": "Energy Engineering",
+     "credits": 4
+    },
+    {
+     "code": "PC-BTM656",
+     "title": "CAD/CAM/CIM Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "PC-BTM661",
+     "title": "Refrigeration and Air-cond. Laboratory",
+     "credits": 1
+    },
+    {
+     "code": "PE-BTM511",
+     "title": "Finite Element Methods for Mech. Engineers",
+     "credits": 4
+    },
+    {
+     "code": "OE-BTM611",
+     "title": "Computational Methods",
+     "credits": 3
+    },
+    {
+     "code": "PR-BTM698",
+     "title": "Project Stage I",
+     "credits": 1
+    }
+   ]
+  },
+  {
+   "name": "VII",
+   "courses": [
+    {
+     "code": "PC-BTM711",
+     "title": "Design of Machines and Mechanical Systems",
+     "credits": 4
+    },
+    {
+     "code": "PC-BTM714",
+     "title": "Industrial Engineering and Project Management",
+     "credits": 4
+    },
+    {
+     "code": "PE-BTM752",
+     "title": "Computational Fluid Dynamics",
+     "credits": 4
+    },
+    {
+     "code": "PE-BTM734",
+     "title": "Supply Chain Management",
+     "credits": 4
+    },
+    {
+     "code": "OE-BTM718",
+     "title": "Fundamentals of AI and Machine Learning",
+     "credits": 3
+    },
+    {
+     "code": "PR-BTM798",
+     "title": "Project Stage II",
+     "credits": 4
+    }
+   ]
+  },
+  {
+   "name": "VIII",
+   "courses": [
+    {
+     "code": "OE-BTM719",
+     "title": "Value Engineering",
+     "credits": 3
+    },
+    {
+     "code": "PR-BTM8xx",
+     "title": "External / Internal Internship",
+     "credits": 9
+    }
+   ]
+  }
+ ]
+}

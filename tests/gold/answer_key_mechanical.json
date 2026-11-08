@@ -1,0 +1,893 @@
+{
+ "_about": "GPU-R answer key (mechanical), relabelled 30.10.2026 to the approved 66-category taxonomy (field file mechanical_taxonomy.json). Sources per course in \"relabel_source\". Old labels kept in \"old_expected\".",
+ "field": "mechanical",
+ "source": "JNTUH R18 B.Tech Mechanical Engineering course structure and syllabi (AY_2019-20.pdf, pp. 245-366)",
+ "courses": [
+  {
+   "id": "MA101BS",
+   "title": "MATHEMATICS - I",
+   "credits": 4.0,
+   "basis": "syllabus",
+   "note": "Generic maths title: the pipeline always asks for its syllabus.",
+   "expected": [
+    "mathematics_statistics.calculus_analysis",
+    "mathematics_statistics.linear_algebra"
+   ],
+   "old_expected": [
+    "mathematics_statistics.general_mathematics"
+   ],
+   "relabel_source": "course map (CS/IT/CSIT; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "MA201BS",
+   "title": "MATHEMATICS - II",
+   "credits": 4.0,
+   "basis": "syllabus",
+   "note": "Generic maths title: the pipeline always asks for its syllabus.",
+   "expected": [
+    "mathematics_statistics.calculus_analysis"
+   ],
+   "old_expected": [
+    "mathematics_statistics.general_mathematics"
+   ],
+   "relabel_source": "course map (CS/IT/CSIT; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "PH102BS",
+   "title": "ENGINEERING PHYSICS",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "old_expected": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "PH105BS",
+   "title": "ENGINEERING PHYSICS LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "old_expected": [
+    "physics_natural_sciences.general_physics"
+   ],
+   "relabel_source": "course map (Mechanical; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "CH202BS",
+   "title": "CHEMISTRY",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "physics_natural_sciences.chemistry"
+   ],
+   "old_expected": [
+    "chemistry_materials.general_chemistry"
+   ],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CH206BS",
+   "title": "ENGINEERING CHEMISTRY LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "physics_natural_sciences.chemistry"
+   ],
+   "old_expected": [
+    "chemistry_materials.general_chemistry"
+   ],
+   "relabel_source": "course map (CS/IT/CSIT; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "CS103ES",
+   "title": "PROGRAMMING FOR PROBLEM SOLVING",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "CS106ES",
+   "title": "PROGRAMMING FOR PROBLEM SOLVING LAB",
+   "credits": 1.5,
+   "basis": "title",
+   "expected": [
+    "computer_science_informatics.programming_practical_cs"
+   ],
+   "old_expected": [
+    "computer_science_informatics.general_cs"
+   ],
+   "relabel_source": "course map (CS/IT/CSIT; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "ME104ES",
+   "title": "ENGINEERING GRAPHICS",
+   "credits": 3.0,
+   "basis": "title",
+   "note": "Technical drawing is part of design engineering.",
+   "expected": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "relabel_source": "course map (CS/IT/CSIT; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "ME203ES",
+   "title": "ENGINEERING MECHANICS",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.mechanics_dynamics",
+    "physics_natural_sciences.general_physics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE) -- dropped (not in the mechanical field file): structural_mechanics"
+  },
+  {
+   "id": "ME205ES",
+   "title": "ENGINEERING WORKSHOP",
+   "credits": 2.5,
+   "basis": "title",
+   "note": "Hands-on manufacturing trades.",
+   "expected": [],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "MC109ES",
+   "title": "ENVIRONMENTAL SCIENCE",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EN205HS",
+   "title": "ENGLISH",
+   "credits": 2.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (CS/IT/CSIT; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "EN207HS",
+   "title": "ENGLISH LANGUAGE AND COMMUNICATION SKILLS LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (CS/IT/CSIT; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "MA301BS",
+   "title": "PROBABILITY AND STATISTICS & COMPLEX VARIABLES",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "mathematics_statistics.statistics_probability",
+    "mathematics_statistics.calculus_analysis"
+   ],
+   "old_expected": [
+    "mathematics_statistics.general_mathematics"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "ME302PC",
+   "title": "MECHANICS OF SOLIDS",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE) -- dropped (not in the mechanical field file): structural_mechanics"
+  },
+  {
+   "id": "ME303PC",
+   "title": "MATERIAL SCIENCE AND METALLURGY",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "chemistry_materials.materials_science"
+   ],
+   "old_expected": [
+    "chemistry_materials.materials_science"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME304PC",
+   "title": "PRODUCTION TECHNOLOGY",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME305PC",
+   "title": "THERMODYNAMICS",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME306PC",
+   "title": "PRODUCTION TECHNOLOGY LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "relabel_source": "course map (Mechanical; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "ME307PC",
+   "title": "MACHINE DRAWING PRACTICE",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "ME308PC",
+   "title": "MATERIAL SCIENCE AND MECHANICS OF SOLIDS LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "note": "Two labs in one.",
+   "expected": [
+    "chemistry_materials.materials_science",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "old_expected": [
+    "chemistry_materials.materials_science",
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "relabel_source": "course map (Mechanical; LAB_FOLLOWS_THEORY) -- dropped (not in the mechanical field file): structural_mechanics | 30.10: combined lab follows both theories (rule 7, Koushik approved)"
+  },
+  {
+   "id": "EE401ES",
+   "title": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+   "credits": 3.0,
+   "basis": "title",
+   "note": "The Mechanical program file has no electrical category.",
+   "expected": [
+    "electrical_electronic_engineering.circuit_theory",
+    "electrical_electronic_engineering.electronics"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "EE409ES",
+   "title": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "electrical_electronic_engineering.circuit_theory",
+    "electrical_electronic_engineering.electronics"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Mechanical; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "ME402PC",
+   "title": "KINEMATICS OF MACHINERY",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE) -- dropped (not in the mechanical field file): structural_mechanics"
+  },
+  {
+   "id": "ME403PC",
+   "title": "THERMAL ENGINEERING - I",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME404PC",
+   "title": "FLUID MECHANICS AND HYDRAULIC MACHINES",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE) -- dropped (not in the mechanical field file): fluid_mechanics"
+  },
+  {
+   "id": "ME405PC",
+   "title": "INSTRUMENTATION AND CONTROL SYSTEMS",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "Units I-IV are measurement/instrumentation; control is about one unit of five (below 40%).",
+   "expected": [
+    "electrical_electronic_engineering.measurement_instrumentation",
+    "electrical_electronic_engineering.control_systems"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME407PC",
+   "title": "FLUID MECHANICS AND HYDRAULIC MACHINES LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "relabel_source": "course map (Mechanical; LAB_FOLLOWS_THEORY) -- dropped (not in the mechanical field file): fluid_mechanics"
+  },
+  {
+   "id": "ME408PC",
+   "title": "INSTRUMENTATION AND CONTROL SYSTEMS LAB",
+   "credits": 1.0,
+   "basis": "syllabus",
+   "note": "Follows its lecture: measurement lab.",
+   "expected": [
+    "electrical_electronic_engineering.measurement_instrumentation",
+    "electrical_electronic_engineering.control_systems"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Mechanical; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "ME501PC",
+   "title": "DYNAMICS OF MACHINERY",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE) -- dropped (not in the mechanical field file): structural_mechanics"
+  },
+  {
+   "id": "ME502PC",
+   "title": "DESIGN OF MACHINE MEMBERS-I",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "ME503PC",
+   "title": "METROLOGY & MACHINE TOOLS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.manufacturing_production",
+    "electrical_electronic_engineering.measurement_instrumentation"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "SM504MS",
+   "title": "BUSINESS ECONOMICS & FINANCIAL ANALYSIS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "business_economics_management.business_administration"
+   ],
+   "old_expected": [
+    "business_economics_management.economics"
+   ],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME505PC",
+   "title": "THERMAL ENGINEERING-II",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME506PC",
+   "title": "OPERATIONS RESEARCH",
+   "credits": 3.0,
+   "basis": "title",
+   "note": "Linear programming, transportation, queuing, game theory.",
+   "expected": [
+    "mathematics_statistics.optimization_numerics"
+   ],
+   "old_expected": [
+    "mathematics_statistics.general_mathematics"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME507PC",
+   "title": "THERMAL ENGINEERING LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "relabel_source": "course map (Mechanical; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "ME508PC",
+   "title": "METROLOGY & MACHINE TOOLS LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.manufacturing_production",
+    "electrical_electronic_engineering.measurement_instrumentation"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "relabel_source": "course map (Mechanical; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "ME509PC",
+   "title": "KINEMATICS & DYNAMICS LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "relabel_source": "course map (Mechanical; LAB_FOLLOWS_THEORY) -- dropped (not in the mechanical field file): structural_mechanics"
+  },
+  {
+   "id": "ME601PC",
+   "title": "DESIGN OF MACHINE MEMBERS-II",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "ME602PC",
+   "title": "HEAT TRANSFER",
+   "credits": 4.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME603PC",
+   "title": "CAD & CAM",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.design_machine_elements",
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.design_machine_elements",
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "ME604PC",
+   "title": "FINITE ELEMENT METHODS",
+   "credits": 3.0,
+   "basis": "title",
+   "note": "Stress analysis of bars, trusses, beams.",
+   "expected": [
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.mechanics_dynamics",
+    "mathematics_statistics.optimization_numerics"
+   ],
+   "relabel_source": "removed optimization_numerics (maths): FEM/CFD are engineering modules, not maths (TU Braunschweig BSc MB 2022, FAU BSc MB 2024 module handbooks); Koushik 31.10.2026"
+  },
+  {
+   "id": "ME605PC",
+   "title": "HEAT TRANSFER LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "relabel_source": "course map (Mechanical; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "ME606PC",
+   "title": "CAD & CAM LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.design_machine_elements",
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.design_machine_elements",
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "relabel_source": "course map (Mechanical; LAB_FOLLOWS_THEORY)"
+  },
+  {
+   "id": "EN608HS",
+   "title": "ADVANCED COMMUNICATION SKILLS LAB",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "manual: no subject category (language/communication), like the map's communication-skills labs"
+  },
+  {
+   "id": "ME701PC",
+   "title": "REFRIGERATION & AIR CONDITIONING",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME702PC",
+   "title": "INDUSTRIAL ORIENTED MINI PROJECT/ SUMMER INTERNSHIP",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "manual: map: Industry Oriented Mini Project / Summer Internship -- dropped (not in the mechanical field file): thesis_scientific_work"
+  },
+  {
+   "id": "ME703PC",
+   "title": "SEMINAR",
+   "credits": 1.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "manual: map: Project Stage – II including Seminar -- dropped (not in the mechanical field file): thesis_scientific_work"
+  },
+  {
+   "id": "ME704PC",
+   "title": "PROJECT STAGE - I",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE) -- dropped (not in the mechanical field file): thesis_scientific_work"
+  },
+  {
+   "id": "ME801PC",
+   "title": "PROJECT STAGE - II",
+   "credits": 7.0,
+   "basis": "title",
+   "expected": [],
+   "old_expected": [],
+   "relabel_source": "manual: map: Project Stage – II including Seminar -- dropped (not in the mechanical field file): thesis_scientific_work"
+  },
+  {
+   "id": "ME611PE",
+   "title": "UNCONVENTIONAL MACHINING PROCESSES",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME612PE",
+   "title": "MACHINE TOOL DESIGN",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.design_machine_elements",
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.design_machine_elements",
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "ME613PE",
+   "title": "PRODUCTION PLANNING & CONTROL",
+   "credits": 3.0,
+   "basis": "title",
+   "note": "Operations management, not manufacturing processes.",
+   "expected": [
+    "business_economics_management.business_administration"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME711PE",
+   "title": "ADDITIVE MANUFACTURING",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME712PE",
+   "title": "AUTOMATION IN MANUFACTURING",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME713PE",
+   "title": "MEMS",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "Units I-II (2 of 5 = 40%) are micro-fabrication processes; the rest is mixed.",
+   "expected": [
+    "electrical_electronic_engineering.microelectronics_semiconductors",
+    "engineering.mechatronics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.manufacturing_production"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "ME721PE",
+   "title": "POWER PLANT ENGINEERING",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.thermodynamics",
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME722PE",
+   "title": "AUTOMOBILE ENGINEERING",
+   "credits": 3.0,
+   "basis": "title",
+   "note": "Vehicle systems overview; no single category reaches 40%.",
+   "expected": [
+    "engineering.automotive_engineering"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME723PE",
+   "title": "RENEWABLE ENERGY SOURCES",
+   "credits": 3.0,
+   "basis": "title",
+   "note": "Solar, wind, biomass, geothermal, ocean energy; an energy-resources survey.",
+   "expected": [
+    "electrical_electronic_engineering.power_engineering"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (EEE, Mechanical; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME731PE",
+   "title": "COMPUTATIONAL FLUID DYNAMICS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics",
+    "mathematics_statistics.optimization_numerics"
+   ],
+   "relabel_source": "removed optimization_numerics (maths): FEM/CFD are engineering modules, not maths (TU Braunschweig BSc MB 2022, FAU BSc MB 2024 module handbooks); Koushik 31.10.2026"
+  },
+  {
+   "id": "ME732PE",
+   "title": "TURBO MACHINERY",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "Fluid mechanics of turbomachines plus steam/gas turbines and compressors.",
+   "expected": [
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics",
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics",
+    "mechanical_manufacturing_engineering.thermodynamics"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE) -- dropped (not in the mechanical field file): fluid_mechanics"
+  },
+  {
+   "id": "ME733PE",
+   "title": "FLUID POWER SYSTEMS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_SYLLABUS) -- dropped (not in the mechanical field file): fluid_mechanics"
+  },
+  {
+   "id": "ME811PE",
+   "title": "INDUSTRIAL ROBOTICS",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "Manipulator kinematics and dynamics form the core units.",
+   "expected": [],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE) -- dropped (not in the mechanical field file): robotics"
+  },
+  {
+   "id": "ME812PE",
+   "title": "MECHANICAL VIBRATIONS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.mechanics_dynamics"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE) -- dropped (not in the mechanical field file): structural_mechanics"
+  },
+  {
+   "id": "MM813PE",
+   "title": "COMPOSITE MATERIALS",
+   "credits": 3.0,
+   "basis": "title",
+   "expected": [
+    "chemistry_materials.materials_science"
+   ],
+   "old_expected": [
+    "chemistry_materials.materials_science"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME821PE",
+   "title": "INDUSTRIAL MANAGEMENT",
+   "credits": 3.0,
+   "basis": "title",
+   "note": "General management, not economics.",
+   "expected": [
+    "business_economics_management.business_administration"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (all; SUPPORTED_BY_TITLE)"
+  },
+  {
+   "id": "ME822PE",
+   "title": "PRODUCTION AND OPERATIONS MANAGEMENT",
+   "credits": 3.0,
+   "basis": "title",
+   "note": "Operations management, not manufacturing processes.",
+   "expected": [
+    "business_economics_management.business_administration"
+   ],
+   "old_expected": [],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_SYLLABUS)"
+  },
+  {
+   "id": "ME823PE",
+   "title": "TRIBOLOGY",
+   "credits": 3.0,
+   "basis": "syllabus",
+   "note": "Hydrodynamic/hydrostatic lubrication theory (fluid) and journal/thrust bearing design (machine elements).",
+   "expected": [
+    "mechanical_manufacturing_engineering.design_machine_elements"
+   ],
+   "old_expected": [
+    "mechanical_manufacturing_engineering.design_machine_elements",
+    "mechanical_manufacturing_engineering.mechanics_fluid_dynamics"
+   ],
+   "relabel_source": "course map (Mechanical; SUPPORTED_BY_SYLLABUS)"
+  }
+ ]
+}
