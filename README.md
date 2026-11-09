@@ -4,6 +4,12 @@ GPU-R reads an Indian bachelor's marks memo and checks the student against the p
 
 **Live demo:** [gpu-r-api.onrender.com](https://gpu-r-api.onrender.com), click *"See a sample result"* (no login; a fictional student). The free server sleeps when idle, so the first load can take up to a minute.
 
+**Demo video** (a real marks memo, shared with the owner's consent, name hidden):
+
+
+https://github.com/user-attachments/assets/04d34fb5-2c87-488f-ab57-196264c0a4c9
+
+
 ![Start page with live grade conversion](docs/images/start.png)
 
 ## Why
