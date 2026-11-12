@@ -6,9 +6,7 @@ GPU-R reads an Indian bachelor's marks memo and checks the student against the p
 
 **Demo video** (a real marks memo, shared with the owner's consent, name hidden):
 
-
 https://github.com/user-attachments/assets/04d34fb5-2c87-488f-ab57-196264c0a4c9
-
 
 ![Start page with live grade conversion](docs/images/start.png)
 
@@ -58,7 +56,7 @@ Evaluated on 18 synthetic transcripts built from the real curricula of 15 Indian
 | Programme decisions identical to the answer key | 98.6% (1,023 of 1,037) | 100% (205 of 205) |
 | **Decisions wrongly in the student's favour** | **0** | **0** |
 
-All 14 differing decisions were stricter than the answer key, never looser. Cost is about $0.39 and 66 seconds of model time per student; known course titles are answered from the knowledge base for free. The evaluation harness, the sample specifications and the answer keys are in `tools/` and `tests/synthetic/`.
+All 14 differing decisions were stricter than the answer key, never looser. Cost is about $0.39 and 66 seconds of model time per student; known course titles are answered from the knowledge base for free. The evaluation harness, the sample specifications and the answer keys are in `tools/` and `tests/synthetic/`. These figures compare the pipeline's reading and classification with the answer keys, both run through the same rule engine, and were measured before the condition-limit fix of 11 November 2026 (see Limits).
 
 ## Data and its provenance
 
@@ -67,6 +65,19 @@ The programme list comes from the DAAD International Programmes database, filter
 Every one of the 228 programme records was rebuilt from the programme's **binding admission and examination regulations, including amendments**, with a quote and a source link for each requirement. Extraction was done with an AI research agent; each batch was re-checked independently, then reviewed and approved by me before merging. The records are frozen with SHA-256 checksums and validated against a Pydantic schema in CI (`scripts/validate_records.py`). An audit before the rebuild found that most old records had no source and some had invented limits, which is why nothing enters the data without a source quote.
 
 Regulations change during the year. A weekly monitoring agent watches the regulation pages of the programmes and reports new amendments and broken links for review; it never edits the data. See [docs/regulation-tracker.md](docs/regulation-tracker.md).
+
+## Rules vs RAG: why the rules decide
+
+A separate lab (`rag_lab/`) builds a standard RAG system over the same 228 records: section-based chunks with a context header, OpenAI embeddings in Qdrant, a relevance threshold chosen from data, and grounded answers with citations. Retrieval: hit@5 0.95, MRR 0.74.
+
+An experiment then asked an LLM for the same eligibility decisions in two ways: with the programme's correct record (**oracle**) and with retrieved chunks (**RAG**).
+
+| After the engine fix, 54 cases | Agrees with the rules | Wrongly in the student's favour |
+|---|---|---|
+| LLM with the correct record (oracle) | 98.1% | 0 |
+| LLM with retrieval (RAG) | 85.2% | 4 |
+
+All 4 answers in the student's favour were retrieval errors: the search missed a subject requirement and the model then judged the student eligible. The experiment also found two gaps in the rule engine (condition limits per subject area, and an admission route that needs proof of a special qualification), which were fixed and tested. Details, the manual review of every disagreement and the limits of the experiment: [rag_lab/README.md](rag_lab/README.md).
 
 ## Design decisions
 
@@ -91,6 +102,7 @@ data/frozen/    the 228 programme records, frozen with checksums
 data/taxonomy/  subject taxonomy (master + 4 field files) and the approved course map
 data/knowledge/ reviewed knowledge-base seed
 tools/          evaluation harness: synthetic transcripts, batch runner, evaluation log
+rag_lab/        RAG over the same records (Qdrant) and the rules-vs-RAG experiment
 tests/          unit tests, answer keys, synthetic sample specifications and labels
 docs/           regulation tracker, images
 ```
@@ -100,7 +112,7 @@ docs/           regulation tracker, images
 ```
 python -m pip install -r requirements-dev.txt
 cp .env.example .env          # add your OpenAI key and an access code
-python -m pytest -q           # 140+ tests; no API key needed (the AI is faked in tests)
+python -m pytest -q           # 160+ tests; no API key needed (the AI is faked in tests)
 uvicorn api.main:app --reload # then open http://127.0.0.1:8000
 ```
 
@@ -110,6 +122,7 @@ Record checks: `python scripts/validate_records.py --data data/frozen --taxonomy
 
 - Covers DAAD-listed, English-taught, tuition-free programmes in four fields. Adding a field is data work; the pipeline stays the same.
 - Evaluation uses synthetic transcripts based on real curricula plus a few real memos tested by hand; a larger real-transcript test needs consent and secure storage first.
+- Rules are only as good as their encoding. A rules-versus-RAG experiment found that 14 regulations' per-area condition limits (for example "at most 12 CP of mathematics as a condition") were stored but not enforced. They are enforced since 11 November 2026; on the 18 synthetic transcripts this moved 21 of 1,037 decisions from "bridging possible" to "not eligible", none the other way.
 - Selection steps (aptitude tests, ranking points) are shown as information, not scored.
 - Before real users: EU storage with automatic deletion, a privacy notice, and a data agreement with the model provider.
 - Next: an assistant on the results page that answers "what if I add a statistics course?" by calling the rule engine as a tool, so the rules still decide.

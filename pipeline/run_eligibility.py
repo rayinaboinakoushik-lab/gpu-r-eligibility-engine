@@ -23,6 +23,7 @@ CONFIRMATIONS = {   # gated routes: what the student must confirm (engine_config
     "water_thesis": "Was your bachelor thesis on a water-related topic? (y/n)",
     "module_average_confirmed": "Is your average in the listed modules good enough (see the programme note)? (y/n)",
     "subject_points_confirmed": "Do you have at least 10 subject/thesis points as the programme requires? (y/n)",
+    "special_qualification": "Can you prove a special qualification as the programme describes (see the note)? (y/n)",
 }
 
 

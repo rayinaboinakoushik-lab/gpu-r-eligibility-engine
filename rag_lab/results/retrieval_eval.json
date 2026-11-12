@@ -1,0 +1,671 @@
+{
+ "summary": {
+  "questions": 60,
+  "k": 5,
+  "seconds": 44.6,
+  "hit@1": 0.617,
+  "hit@3": 0.883,
+  "hit@5": 0.933,
+  "mrr": 0.751,
+  "record_hit@1": 0.95,
+  "record_hit@5": 1.0,
+  "by_section_hit@3": {
+   "grade": 0.73,
+   "english": 1.0,
+   "conditional_admission": 0.8,
+   "accepted_degrees": 0.8,
+   "german": 1.0,
+   "subject_requirement": 1.0
+  },
+  "threshold": 0.55,
+  "positives_min_top_score": 0.683,
+  "positives_median_top_score": 0.788,
+  "negatives_max_top_score": 0.462,
+  "positives_below_threshold": 0,
+  "negatives_above_threshold": 0
+ },
+ "questions": [
+  {
+   "question": "What final grade do I need for Mechatronics (M.Sc.) at University of Siegen?",
+   "record_id": "manual_siegen_mechatronics_me",
+   "section": "grade",
+   "field": "Mechanical Engineering",
+   "rank": 2,
+   "record_rank": 2,
+   "top_score": 0.74883187,
+   "top_hit": "Mechatronics (M.Sc.) | University of Siegen | grade"
+  },
+  {
+   "question": "Which English test is accepted for Applied Computer Science (M.Sc.) / Angewandte Informatik / Infotronik at Deggendorf Institute of Technology?",
+   "record_id": "4870",
+   "section": "english",
+   "field": "Computer Science",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.7889774,
+   "top_hit": "Applied Computer Science (M.Sc.) / Angewandte Informatik / Infotronik | Deggendorf Institute of Technology | english"
+  },
+  {
+   "question": "Does Automation & Control (A&C) at RPTU University Kaiserslautern-Landau allow conditional admission?",
+   "record_id": "4818",
+   "section": "conditional_admission",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.8092127,
+   "top_hit": "Automation & Control (A&C) | RPTU University Kaiserslautern-Landau | conditional_admission"
+  },
+  {
+   "question": "Which bachelor degrees are accepted for Electrical Engineering (EE) (M.Sc.) at University of Rostock?",
+   "record_id": "4594_A",
+   "section": "accepted_degrees",
+   "field": "Electrical/Electronic Engineering",
+   "rank": null,
+   "record_rank": 1,
+   "top_score": 0.78579855,
+   "top_hit": "Electrical Engineering (EE) (M.Sc.) | University of Rostock | overview"
+  },
+  {
+   "question": "Do I need German language skills for Embedded Computing Systems (ESY) at RPTU University Kaiserslautern-Landau?",
+   "record_id": "3590",
+   "section": "german",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.7635648,
+   "top_hit": "Embedded Computing Systems (ESY) | RPTU University Kaiserslautern-Landau | german"
+  },
+  {
+   "question": "How many ECTS in general physics does Systems and Automation — Major of Electrical Engineering and Information Technology at RWTH Aachen University require?",
+   "record_id": "5227",
+   "section": "subject_requirement",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.8035037,
+   "top_hit": "Systems and Automation — Major of Electrical Engineering and Information Technology | RWTH Aachen University | subject_requirement"
+  },
+  {
+   "question": "Is there a minimum grade for Systems Engineering at Saarland University?",
+   "record_id": "9723_A",
+   "section": "grade",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 2,
+   "record_rank": 1,
+   "top_score": 0.76870286,
+   "top_hit": "Systems Engineering | Saarland University | selection"
+  },
+  {
+   "question": "What IELTS or TOEFL score does International Energy Engineering (MEng), full-time at Ostbayerische Technische Hochschule Amberg-Weiden (OTH) require?",
+   "record_id": "7704",
+   "section": "english",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.81790435,
+   "top_hit": "International Energy Engineering (MEng), full-time | Ostbayerische Technische Hochschule Amberg-Weiden (OTH) | english"
+  },
+  {
+   "question": "Does Computer Science (Informatik) (M.Sc.) at University of Passau allow conditional admission?",
+   "record_id": "4455",
+   "section": "conditional_admission",
+   "field": "Computer Science",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.82473063,
+   "top_hit": "Computer Science (Informatik) (M.Sc.) | University of Passau | conditional_admission"
+  },
+  {
+   "question": "Which bachelor degrees are accepted for Intelligent Interactive Systems (IISY) at Bielefeld University?",
+   "record_id": "9646",
+   "section": "accepted_degrees",
+   "field": "Computer Science",
+   "rank": 2,
+   "record_rank": 1,
+   "top_score": 0.79671,
+   "top_hit": "Intelligent Interactive Systems (IISY) | Bielefeld University | overview"
+  },
+  {
+   "question": "Do I need German language skills for Data Science (MSc) at Kiel University of Applied Sciences (HAW Kiel, formerly Fachhochschule Kiel)?",
+   "record_id": "manual_kiel_fh_ds",
+   "section": "german",
+   "field": "Computer Science",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.7334821,
+   "top_hit": "Data Science (MSc) | Kiel University of Applied Sciences (HAW Kiel, formerly Fachhochschule Kiel) | german"
+  },
+  {
+   "question": "How many ECTS in general ee does Quantum Technologies in Electrical and Computer Engineering (M.Sc.) at Technische Universität Braunschweig require?",
+   "record_id": "manual_tubs_qtece",
+   "section": "subject_requirement",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.7796248,
+   "top_hit": "Quantum Technologies in Electrical and Computer Engineering (M.Sc.) | Technische Universität Braunschweig | subject_requirement"
+  },
+  {
+   "question": "What final grade do I need for Research in Computer & Systems Engineering (RCSE, M.Sc.) — route A: relevant degree + final grade 'sehr gut' at Technische Universität Ilmenau?",
+   "record_id": "4092_A",
+   "section": "grade",
+   "field": "Computer Science",
+   "rank": null,
+   "record_rank": 1,
+   "top_score": 0.8529786,
+   "top_hit": "Research in Computer & Systems Engineering (RCSE, M.Sc.) — route A: relevant degree + final grade 'sehr gut' | Technische Universität Ilmenau | total_credits"
+  },
+  {
+   "question": "What IELTS or TOEFL score does Systems Engineering for Manufacturing (M.Sc.) at Otto von Guericke University Magdeburg require?",
+   "record_id": "manual_ovgu_sefm",
+   "section": "english",
+   "field": "Mechanical Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.78078157,
+   "top_hit": "Systems Engineering for Manufacturing (M.Sc.) | Otto von Guericke University Magdeburg | english"
+  },
+  {
+   "question": "Does Sustainable Water Management and Engineering (M.Eng.) at Hof University of Applied Sciences allow conditional admission?",
+   "record_id": "7220",
+   "section": "conditional_admission",
+   "field": "Civil Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.84212875,
+   "top_hit": "Sustainable Water Management and Engineering (M.Eng.) | Hof University of Applied Sciences | conditional_admission"
+  },
+  {
+   "question": "Which bachelor degrees are accepted for Mechanical and Process Engineering (M.Sc.) at TU Bergakademie Freiberg?",
+   "record_id": "7028",
+   "section": "accepted_degrees",
+   "field": "Mechanical Engineering",
+   "rank": 2,
+   "record_rank": 1,
+   "top_score": 0.79315,
+   "top_hit": "Mechanical and Process Engineering (M.Sc.) | TU Bergakademie Freiberg | overview"
+  },
+  {
+   "question": "Do I need German language skills for Wirtschaftsinformatik / Information Systems (M.Sc.) at University of Passau?",
+   "record_id": "10672",
+   "section": "german",
+   "field": "Computer Science",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.7342373,
+   "top_hit": "Wirtschaftsinformatik / Information Systems (M.Sc.) | University of Passau | german"
+  },
+  {
+   "question": "How many ECTS in operating systems does Computer Science, MSc at Technische Universität Dresden require?",
+   "record_id": "10354",
+   "section": "subject_requirement",
+   "field": "Computer Science",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.78406596,
+   "top_hit": "Computer Science, MSc | Technische Universität Dresden | subject_requirement"
+  },
+  {
+   "question": "Is there a minimum grade for Applied AI for Digital Production Management (M.Eng.) at Deggendorf Institute of Technology?",
+   "record_id": "9024",
+   "section": "grade",
+   "field": "Mechanical Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.8102594,
+   "top_hit": "Applied AI for Digital Production Management (M.Eng.) | Deggendorf Institute of Technology | grade"
+  },
+  {
+   "question": "What IELTS or TOEFL score does Electrical Communication Engineering (ECE) (M.Sc.) at University of Kassel require?",
+   "record_id": "3759",
+   "section": "english",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.7451675,
+   "top_hit": "Electrical Communication Engineering (ECE) (M.Sc.) | University of Kassel | english"
+  },
+  {
+   "question": "Does Artificial Intelligence (M.Sc.) at Technical University of Applied Sciences Würzburg-Schweinfurt (THWS) allow conditional admission?",
+   "record_id": "7852",
+   "section": "conditional_admission",
+   "field": "Computer Science",
+   "rank": 2,
+   "record_rank": 1,
+   "top_score": 0.80068946,
+   "top_hit": "Artificial Intelligence (M.Sc.) | Technical University of Applied Sciences Würzburg-Schweinfurt (THWS) | selection"
+  },
+  {
+   "question": "Can I apply to Human-Computer Interaction (M.Sc.) at University of Siegen with my bachelor field?",
+   "record_id": "manual_siegen_hci",
+   "section": "accepted_degrees",
+   "field": "Computer Science",
+   "rank": 3,
+   "record_rank": 1,
+   "top_score": 0.77992314,
+   "top_hit": "Human-Computer Interaction (M.Sc.) | University of Siegen | overview"
+  },
+  {
+   "question": "Do I need German language skills for Electrical Engineering and Information Technology (M.Sc.), English-language track Microelectronics Engineering at Technische Universität Braunschweig?",
+   "record_id": "manual_tubs_micro",
+   "section": "german",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 2,
+   "record_rank": 1,
+   "top_score": 0.7867701,
+   "top_hit": "Electrical Engineering and Information Technology (M.Sc.), English-language track Microelectronics Engineering | Technische Universität Braunschweig | english"
+  },
+  {
+   "question": "How many ECTS in general ee does Communication Systems and Networks (M.Sc.) at Technische Hochschule Köln - University of Applied Sciences require?",
+   "record_id": "4354",
+   "section": "subject_requirement",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.80728954,
+   "top_hit": "Communication Systems and Networks (M.Sc.) | Technische Hochschule Köln - University of Applied Sciences | subject_requirement"
+  },
+  {
+   "question": "What final grade do I need for Artificial Intelligence and Intelligent Systems (MSc) at University of Bremen?",
+   "record_id": "manual_bremen_aiis",
+   "section": "grade",
+   "field": "Computer Science",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.7688333,
+   "top_hit": "Artificial Intelligence and Intelligent Systems (MSc) | University of Bremen | grade"
+  },
+  {
+   "question": "Which English test is accepted for Mechatronic and Cyber-Physical Systems (M.Eng.) at Deggendorf Institute of Technology?",
+   "record_id": "5378",
+   "section": "english",
+   "field": "Mechanical Engineering",
+   "rank": 2,
+   "record_rank": 1,
+   "top_score": 0.76196724,
+   "top_hit": "Mechatronic and Cyber-Physical Systems (M.Eng.) | Deggendorf Institute of Technology | selection"
+  },
+  {
+   "question": "Can I be admitted to Industrial Security and Safety at Technical University of Applied Sciences Augsburg if some credits are missing?",
+   "record_id": "6955",
+   "section": "conditional_admission",
+   "field": "Computer Science",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.7522038,
+   "top_hit": "Industrial Security and Safety | Technical University of Applied Sciences Augsburg | conditional_admission"
+  },
+  {
+   "question": "Can I apply to Information Engineering at Technical University of Munich with my bachelor field?",
+   "record_id": "9595",
+   "section": "accepted_degrees",
+   "field": "Computer Science",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.7615309,
+   "top_hit": "Information Engineering | Technical University of Munich | accepted_degrees"
+  },
+  {
+   "question": "Do I need German language skills for Micro- and Nanoelectronics (M.Sc.) at Brandenburg University of Technology Cottbus-Senftenberg (BTU)?",
+   "record_id": "9676",
+   "section": "german",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.744416,
+   "top_hit": "Micro- and Nanoelectronics (M.Sc.) | Brandenburg University of Technology Cottbus-Senftenberg (BTU) | german"
+  },
+  {
+   "question": "How many ECTS in general cs does Artificial Intelligence and Machine Learning (M.Sc.) at Technical University of Darmstadt require?",
+   "record_id": "4258",
+   "section": "subject_requirement",
+   "field": "Computer Science",
+   "rank": 2,
+   "record_rank": 1,
+   "top_score": 0.8073356,
+   "top_hit": "Artificial Intelligence and Machine Learning (M.Sc.) | Technical University of Darmstadt | total_credits"
+  },
+  {
+   "question": "Is there a minimum grade for Automation & IT (M.Eng.) at Technische Hochschule Köln - University of Applied Sciences?",
+   "record_id": "3961",
+   "section": "grade",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.7552111,
+   "top_hit": "Automation & IT (M.Eng.) | Technische Hochschule Köln - University of Applied Sciences | grade"
+  },
+  {
+   "question": "What IELTS or TOEFL score does Master's in Digital Transformation (MDT) — route C: field C 'Digital Systems' at level 4 at Dortmund University of Applied Sciences and Arts require?",
+   "record_id": "4879_C",
+   "section": "english",
+   "field": "Computer Science",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.83699024,
+   "top_hit": "Master's in Digital Transformation (MDT) — route C: field C 'Digital Systems' at level 4 | Dortmund University of Applied Sciences and Arts | english"
+  },
+  {
+   "question": "Can I be admitted to Micro- and Nanotechnologies (M.Sc.) at Technische Universität Ilmenau if some credits are missing?",
+   "record_id": "4823",
+   "section": "conditional_admission",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.734767,
+   "top_hit": "Micro- and Nanotechnologies (M.Sc.) | Technische Universität Ilmenau | conditional_admission"
+  },
+  {
+   "question": "Which bachelor degrees are accepted for Master's in Embedded Systems Engineering (ESE) — route C: Signal Processing at level 4 at Dortmund University of Applied Sciences and Arts?",
+   "record_id": "4513_C",
+   "section": "accepted_degrees",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.86679196,
+   "top_hit": "Master's in Embedded Systems Engineering (ESE) — route C: Signal Processing at level 4 | Dortmund University of Applied Sciences and Arts | accepted_degrees"
+  },
+  {
+   "question": "Do I need German language skills for International Information Systems (IIS) (M.Sc.) at FAU Erlangen-Nürnberg?",
+   "record_id": "4084",
+   "section": "german",
+   "field": "Computer Science",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.7289096,
+   "top_hit": "International Information Systems (IIS) (M.Sc.) | FAU Erlangen-Nürnberg | german"
+  },
+  {
+   "question": "How many ECTS in general mathematics does Subsurface Engineering (M.Sc.) at Ruhr-Universität Bochum require?",
+   "record_id": "8397",
+   "section": "subject_requirement",
+   "field": "Civil Engineering",
+   "rank": 2,
+   "record_rank": 1,
+   "top_score": 0.7895566,
+   "top_hit": "Subsurface Engineering (M.Sc.) | Ruhr-Universität Bochum | total_credits"
+  },
+  {
+   "question": "Is there a minimum grade for Mobility Systems (M.Sc.) at Technische Universität Dresden?",
+   "record_id": "manual_tud_mobility",
+   "section": "grade",
+   "field": "Civil Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.7932546,
+   "top_hit": "Mobility Systems (M.Sc.) | Technische Universität Dresden | grade"
+  },
+  {
+   "question": "Which English test is accepted for Communications and Signal Processing (M.Sc.) at Technische Universität Ilmenau?",
+   "record_id": "3979",
+   "section": "english",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.7897176,
+   "top_hit": "Communications and Signal Processing (M.Sc.) | Technische Universität Ilmenau | english"
+  },
+  {
+   "question": "Can I be admitted to Master's in Digital Transformation (MDT) — route A: field A 'Software Engineering' at level 4 at Dortmund University of Applied Sciences and Arts if some credits are missing?",
+   "record_id": "4879_A",
+   "section": "conditional_admission",
+   "field": "Computer Science",
+   "rank": null,
+   "record_rank": 1,
+   "top_score": 0.8554746,
+   "top_hit": "Master's in Digital Transformation (MDT) — route A: field A 'Software Engineering' at level 4 | Dortmund University of Applied Sciences and Arts | total_credits"
+  },
+  {
+   "question": "Can I apply to Data Science (M.Sc., 1-Fach) — route B: Informatik-type degree, grade 1,8 to 2,2 plus module average at Trier University with my bachelor field?",
+   "record_id": "5351_B",
+   "section": "accepted_degrees",
+   "field": "Computer Science",
+   "rank": null,
+   "record_rank": 1,
+   "top_score": 0.8558217,
+   "top_hit": "Data Science (M.Sc., 1-Fach) — route B: Informatik-type degree, grade 1,8 to 2,2 plus module average | Trier University | total_credits"
+  },
+  {
+   "question": "Do I need German language skills for Computer Science (Master of Science) at RPTU University Kaiserslautern-Landau?",
+   "record_id": "3629",
+   "section": "german",
+   "field": "Computer Science",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.75249773,
+   "top_hit": "Computer Science (Master of Science) | RPTU University Kaiserslautern-Landau | german"
+  },
+  {
+   "question": "How many ECTS in general mathematics does Advanced Semiconductor Nanotechnologies (MSc) at Otto von Guericke University Magdeburg require?",
+   "record_id": "manual_ovgu_asn",
+   "section": "subject_requirement",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 2,
+   "record_rank": 1,
+   "top_score": 0.8175476,
+   "top_hit": "Advanced Semiconductor Nanotechnologies (MSc) | Otto von Guericke University Magdeburg | total_credits"
+  },
+  {
+   "question": "What final grade do I need for Water Resources and Environmental Engineering (WATENV) (M.Sc.) — Route A: 30 LP water/environment at Leibniz University Hannover?",
+   "record_id": "4124_A",
+   "section": "grade",
+   "field": "Civil Engineering",
+   "rank": 5,
+   "record_rank": 1,
+   "top_score": 0.8489101,
+   "top_hit": "Water Resources and Environmental Engineering (WATENV) (M.Sc.) — Route A: 30 LP water/environment | Leibniz University Hannover | subject_requirement"
+  },
+  {
+   "question": "What IELTS or TOEFL score does Engineering of Socio-Technical Systems (M.Sc.) at University of Oldenburg require?",
+   "record_id": "7040",
+   "section": "english",
+   "field": "Computer Science",
+   "rank": 3,
+   "record_rank": 3,
+   "top_score": 0.71074665,
+   "top_hit": "Advanced Engineering and Engineering Management (M.Sc.) | South Westphalia University of Applied Sciences (Fachhochschule Südwestfalen), Soest | english"
+  },
+  {
+   "question": "Does Master's in Embedded Systems Engineering (ESE) — route B: Control Engineering at level 4 at Dortmund University of Applied Sciences and Arts allow conditional admission?",
+   "record_id": "4513_B",
+   "section": "conditional_admission",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.898268,
+   "top_hit": "Master's in Embedded Systems Engineering (ESE) — route B: Control Engineering at level 4 | Dortmund University of Applied Sciences and Arts | conditional_admission"
+  },
+  {
+   "question": "Which bachelor degrees are accepted for Autonomy Technologies (MSc) at FAU Erlangen-Nürnberg?",
+   "record_id": "manual_fau_at",
+   "section": "accepted_degrees",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.8168529,
+   "top_hit": "Autonomy Technologies (MSc) | FAU Erlangen-Nürnberg | accepted_degrees"
+  },
+  {
+   "question": "Do I need German language skills for Artificial Intelligence for Industrial Applications (MSc) at Ostbayerische Technische Hochschule Amberg-Weiden (OTH)?",
+   "record_id": "8977",
+   "section": "german",
+   "field": "Computer Science",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.7517728,
+   "top_hit": "Artificial Intelligence for Industrial Applications (MSc) | Ostbayerische Technische Hochschule Amberg-Weiden (OTH) | german"
+  },
+  {
+   "question": "How many ECTS in theoretical cs does Computer Science International (M.Sc.) at University of Rostock require?",
+   "record_id": "manual_rostock_csi",
+   "section": "subject_requirement",
+   "field": "Computer Science",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.7933698,
+   "top_hit": "Computer Science International (M.Sc.) | University of Rostock | subject_requirement"
+  },
+  {
+   "question": "What final grade do I need for Human-Computer Interaction (M.Sc.) at Bauhaus-Universität Weimar?",
+   "record_id": "4660",
+   "section": "grade",
+   "field": "Computer Science",
+   "rank": 4,
+   "record_rank": 1,
+   "top_score": 0.7261629,
+   "top_hit": "Human-Computer Interaction (M.Sc.) | Bauhaus-Universität Weimar | accepted_degrees"
+  },
+  {
+   "question": "Which English test is accepted for AI-Driven Mechatronics and Robotics (M.Sc. Mechatronics and Robotics, English track) at Leibniz University Hannover?",
+   "record_id": "10548",
+   "section": "english",
+   "field": "Mechanical Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.8188526,
+   "top_hit": "AI-Driven Mechatronics and Robotics (M.Sc. Mechatronics and Robotics, English track) | Leibniz University Hannover | english"
+  },
+  {
+   "question": "Does Artificial Intelligence Engineering (M.Sc.) at University of Passau allow conditional admission?",
+   "record_id": "7784",
+   "section": "conditional_admission",
+   "field": "Computer Science",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.82121265,
+   "top_hit": "Artificial Intelligence Engineering (M.Sc.) | University of Passau | conditional_admission"
+  },
+  {
+   "question": "Which bachelor degrees are accepted for Air Transport and Logistics (M.Sc.) at Technische Universität Dresden?",
+   "record_id": "8911",
+   "section": "accepted_degrees",
+   "field": "Civil Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.7954589,
+   "top_hit": "Air Transport and Logistics (M.Sc.) | Technische Universität Dresden | accepted_degrees"
+  },
+  {
+   "question": "Do I need German language skills for Renewable Energy Systems (MEng) at Nordhausen University of Applied Sciences?",
+   "record_id": "manual_nordhausen_res",
+   "section": "german",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 3,
+   "record_rank": 1,
+   "top_score": 0.73349947,
+   "top_hit": "Renewable Energy Systems (MEng) | Nordhausen University of Applied Sciences | english"
+  },
+  {
+   "question": "Is there a minimum grade for Computer Science (M.Sc.) at Saarland University?",
+   "record_id": "3624",
+   "section": "grade",
+   "field": "Computer Science",
+   "rank": 3,
+   "record_rank": 1,
+   "top_score": 0.7670702,
+   "top_hit": "Computer Science (M.Sc.) | Saarland University | selection"
+  },
+  {
+   "question": "What IELTS or TOEFL score does Master of Science in Data Science at Freie Universität Berlin require?",
+   "record_id": "7066",
+   "section": "english",
+   "field": "Computer Science",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.786381,
+   "top_hit": "Master of Science in Data Science | Freie Universität Berlin | english"
+  },
+  {
+   "question": "Can I be admitted to Computer Science at University of Siegen if some credits are missing?",
+   "record_id": "4591",
+   "section": "conditional_admission",
+   "field": "Computer Science",
+   "rank": 4,
+   "record_rank": 2,
+   "top_score": 0.6830234,
+   "top_hit": "Computer Science (M.Sc.) | University of Bonn | conditional_admission"
+  },
+  {
+   "question": "Which bachelor degrees are accepted for Additive Manufacturing (M.Sc.) at Paderborn University?",
+   "record_id": "10396",
+   "section": "accepted_degrees",
+   "field": "Mechanical Engineering",
+   "rank": 2,
+   "record_rank": 1,
+   "top_score": 0.8018224,
+   "top_hit": "Additive Manufacturing (M.Sc.) | Paderborn University | overview"
+  },
+  {
+   "question": "Do I need German language skills for Communications Engineering — Major of Electrical Engineering and Information Technology at RWTH Aachen University?",
+   "record_id": "3698",
+   "section": "german",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 2,
+   "record_rank": 1,
+   "top_score": 0.75175965,
+   "top_hit": "Communications Engineering — Major of Electrical Engineering and Information Technology | RWTH Aachen University | other_documents"
+  },
+  {
+   "question": "How many ECTS in programming practical cs does Artificial Intelligence (MSc) at University of Bonn require?",
+   "record_id": "manual_bonn_ai",
+   "section": "subject_requirement",
+   "field": "Computer Science",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.78928834,
+   "top_hit": "Artificial Intelligence (MSc) | University of Bonn | subject_requirement"
+  },
+  {
+   "question": "What final grade do I need for Nanoelectronic Systems (Master) at Dresden University of Technology?",
+   "record_id": "manual_tud_nes",
+   "section": "grade",
+   "field": "Electrical/Electronic Engineering",
+   "rank": 1,
+   "record_rank": 1,
+   "top_score": 0.78371865,
+   "top_hit": "Nanoelectronic Systems (Master) | Dresden University of Technology | grade"
+  }
+ ],
+ "negatives": [
+  {
+   "question": "What is the tuition fee for an MBA at Harvard University?",
+   "top_score": 0.30167866
+  },
+  {
+   "question": "How long does a German student visa take to process in India?",
+   "top_score": 0.4623266
+  },
+  {
+   "question": "Which restaurants in Berlin are open on Sunday?",
+   "top_score": 0.23285013
+  },
+  {
+   "question": "What are the admission requirements for medicine (MBBS) in Telangana?",
+   "top_score": 0.37048882
+  },
+  {
+   "question": "How much does a flat cost in Munich?",
+   "top_score": 0.32330334
+  },
+  {
+   "question": "What is the deadline for the Oxford DPhil in History?",
+   "top_score": 0.38467342
+  },
+  {
+   "question": "How do I open a blocked account for Germany?",
+   "top_score": 0.34318116
+  },
+  {
+   "question": "Can I work full time on a student visa in Canada?",
+   "top_score": 0.33536837
+  },
+  {
+   "question": "What is the NEET cutoff for BC-D category?",
+   "top_score": 0.34259334
+  },
+  {
+   "question": "Who won the football World Cup in 2022?",
+   "top_score": 0.16113785
+  }
+ ]
+}

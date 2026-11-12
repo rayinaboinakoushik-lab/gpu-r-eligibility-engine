@@ -1,5 +1,5 @@
 {
- "_about": "GPU-R demo result (05.11.2026, Koushik approved): the real online run of synthetic sample S18 (fictional B.Tech IT graduate, MAKAUT curriculum) on 04/05.11.2026, session run_6820d7ccc15245dc886a22221f06394f: real AI reading and classification, syllabus skipped, degree information_technology, no confirmations. Stored as returned by the API, not recalculated. No personal data.",
+ "_about": "GPU-R demo result (12.11.2026, Koushik approved): the real online run of synthetic sample S18 (fictional B.Tech IT graduate, MAKAUT curriculum), session run_c0427a80376e4d71a6f0a90d9ed6463f: real AI reading and classification, syllabus skipped, degree information_technology, no confirmations. Engine with the per-area condition limits of 11.11.2026 and the Frankfurt HIS gate of 12.11.2026. Stored as returned by the API, not recalculated. No personal data.",
  "status": "done",
  "demo": true,
  "field": "cs",
@@ -34,23 +34,23 @@
  },
  "profile": {
   "german_grade": 2.69,
-  "ects": 243,
+  "ects": 243.0,
   "not_counted": [
    {
     "title": "MATHEMATICS –IA",
-    "reason": "A general mathematics course title does not show what it covers (calculus, linear algebra, differential equations or statistics). This differs between universities, so the syllabus is always needed."
+    "reason": "not counted: no syllabus given"
    },
    {
     "title": "MATHEMATICS –IIA",
-    "reason": "A general mathematics course title does not show what it covers (calculus, linear algebra, differential equations or statistics). This differs between universities, so the syllabus is always needed."
+    "reason": "not counted: no syllabus given"
    },
    {
     "title": "IT WORKSHOP (SCI LAB/R)",
-    "reason": "The title suggests hands-on programming and scripting using Scilab/R. It does not establish substantial instruction in numerical mathematics, statistics, or data analysis beyond using these tools."
+    "reason": "not counted: no syllabus given"
    },
    {
     "title": "MATHEMATICS-III",
-    "reason": "A general mathematics course title does not show what it covers (calculus, linear algebra, differential equations or statistics). This differs between universities, so the syllabus is always needed."
+    "reason": "not counted: no syllabus given"
    }
   ],
   "warnings": [
@@ -61,8 +61,8 @@
   "counts": {
    "1": 0,
    "2": 27,
-   "3": 10,
-   "4": 66
+   "3": 9,
+   "4": 67
   },
   "lists": {
    "1": [],
@@ -82,7 +82,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -91,7 +91,7 @@
        "status": "PASS",
        "achieved": 2.69,
        "required": 2.8,
-       "shortfall": 0
+       "shortfall": 0.0
       }
      ],
      "real_gap": 0,
@@ -123,7 +123,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['electrical_electronic_engineering', 'computer_science']"
       },
       {
@@ -131,7 +131,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
@@ -141,7 +141,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 4.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "COMPUTER GRAPHICS"
        ],
@@ -154,7 +154,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 4.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "MACHINE LEARNING"
        ],
@@ -166,8 +166,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 30,
-       "shortfall": 0,
+       "achieved": 30.0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -207,7 +207,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -215,17 +215,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "wenigstens 60 Anrechnungspunkte in der Informatik und Angewandten Informatik",
        "kind": "subject",
        "status": "PASS",
-       "required": 60,
+       "required": 60.0,
        "presence_only": false,
        "achieved": 103.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -251,10 +251,10 @@
        "label": "wenigstens 15 Anrechnungspunkte in den mathematischen und naturwissenschaftlich-technischen Grundlagen",
        "kind": "subject",
        "status": "PASS",
-       "required": 15,
+       "required": 15.0,
        "presence_only": false,
-       "achieved": 27,
-       "shortfall": 0,
+       "achieved": 27.0,
+       "shortfall": 0.0,
        "courses": [
         "PHYSICS-I",
         "PHYSICS-I LABORATORY",
@@ -266,7 +266,7 @@
        "item": 1
       }
      ],
-     "real_gap": 0,
+     "real_gap": 0.0,
      "reasons": [],
      "important_notes": [],
      "also_required": [
@@ -299,7 +299,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -307,7 +307,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
@@ -316,8 +316,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 18,
-       "shortfall": 0,
+       "achieved": 18.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -333,7 +333,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "SOFTWARE ENGINEERING"
        ],
@@ -346,7 +346,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DBMS"
        ],
@@ -358,8 +358,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 30,
-       "shortfall": 0,
+       "achieved": 30.0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -402,7 +402,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -410,7 +410,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
@@ -420,7 +420,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 103.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -449,7 +449,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 10.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "NUMERICAL METHODS"
@@ -487,7 +487,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -495,7 +495,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
@@ -504,8 +504,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 18,
-       "shortfall": 0,
+       "achieved": 18.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -521,7 +521,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 10.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "NUMERICAL METHODS"
@@ -564,7 +564,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -572,7 +572,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       }
      ],
@@ -604,7 +604,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -612,7 +612,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       }
      ],
@@ -645,7 +645,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -653,7 +653,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
@@ -663,7 +663,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 10.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "NUMERICAL METHODS"
@@ -677,7 +677,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 8.25,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PHYSICS-I",
         "PHYSICS-I LABORATORY"
@@ -691,7 +691,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 103.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -746,7 +746,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -754,7 +754,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
@@ -764,7 +764,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 4.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "FORMAL LANGUAGE & AUTOMATA THEORY"
        ],
@@ -776,8 +776,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 48,
-       "shortfall": 0,
+       "achieved": 48.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -796,8 +796,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 30,
-       "shortfall": 0,
+       "achieved": 30.0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -813,7 +813,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 10.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "NUMERICAL METHODS"
@@ -850,7 +850,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -858,17 +858,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "a) mindestens 5 Leistungspunkte im Bereich der objektorientierten Modellierung und Programmierung (§ 2 Abs. 1 Satz 2)",
        "kind": "subject",
        "status": "PASS",
-       "required": 5,
+       "required": 5.0,
        "presence_only": false,
-       "achieved": 18,
-       "shortfall": 0,
+       "achieved": 18.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -881,10 +881,10 @@
        "label": "b) mindestens 5 Leistungspunkte im Bereich Informationsverarbeitung (§ 2 Abs. 1 Satz 2)",
        "kind": "subject",
        "status": "PASS",
-       "required": 5,
+       "required": 5.0,
        "presence_only": false,
        "achieved": 103.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -910,10 +910,10 @@
        "label": "c) mindestens 10 Leistungspunkte im Bereich Mathematik, insb. lineare Algebra und Analysis (§ 2 Abs. 1 Satz 2)",
        "kind": "subject",
        "status": "PASS",
-       "required": 10,
+       "required": 10.0,
        "presence_only": false,
        "achieved": 10.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "NUMERICAL METHODS"
@@ -921,7 +921,7 @@
        "item": 2
       }
      ],
-     "real_gap": 0,
+     "real_gap": 0.0,
      "reasons": [],
      "important_notes": [],
      "also_required": [
@@ -951,7 +951,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -959,17 +959,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "mindestens 6 Leistungspunkte in den Bereichen mathematische Grundlagen der Informatik (§ 2 Abs. 1 Satz 3)",
        "kind": "subject",
        "status": "PASS",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
        "achieved": 10.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "NUMERICAL METHODS"
@@ -980,10 +980,10 @@
        "label": "6 Leistungspunkte in Algorithmen und Datenstrukturen (§ 2 Abs. 1 Satz 3)",
        "kind": "subject",
        "status": "PASS",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
-       "achieved": 15,
-       "shortfall": 0,
+       "achieved": 15.0,
+       "shortfall": 0.0,
        "courses": [
         "DATA STRUCTURE & ALGORITHMS",
         "DESIGN ANALYSIS & ALGORITHM"
@@ -994,10 +994,10 @@
        "label": "6 Leistungspunkte in Programmierung (§ 2 Abs. 1 Satz 3)",
        "kind": "subject",
        "status": "PASS",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
-       "achieved": 18,
-       "shortfall": 0,
+       "achieved": 18.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -1010,10 +1010,10 @@
        "label": "6 Leistungspunkte in Softwaretechnik (§ 2 Abs. 1 Satz 3)",
        "kind": "subject",
        "status": "PASS",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "SOFTWARE ENGINEERING"
        ],
@@ -1023,10 +1023,10 @@
        "label": "6 Leistungspunkte der Technischen Informatik (§ 2 Abs. 1 Satz 3)",
        "kind": "subject",
        "status": "PASS",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
-       "achieved": 30,
-       "shortfall": 0,
+       "achieved": 30.0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -1039,17 +1039,17 @@
        "label": "Kenntnisse der Signal- und Bildverarbeitung im Umfang von mind. 4 Leistungspunkten (§ 2 Abs. 1 Satz 4)",
        "kind": "subject",
        "status": "PASS",
-       "required": 4,
+       "required": 4.0,
        "presence_only": false,
        "achieved": 4.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "COMPUTER GRAPHICS"
        ],
        "item": 5
       }
      ],
-     "real_gap": 0,
+     "real_gap": 0.0,
      "reasons": [],
      "important_notes": [],
      "also_required": [
@@ -1079,7 +1079,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -1087,7 +1087,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       }
      ],
@@ -1122,7 +1122,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -1130,17 +1130,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "at least 60 CP not significantly different from the entry competencies of the reference programme B.Sc. Informatik TU Darmstadt (Anhang II areas: Theoretical Computer Science — Propositional and Predicate Logic; Automata, Formal Languages and Decidability; Modelling, Specification and Semantics | Practical Computer Science — Algorithms and Data Structures; Operating Systems; Computer Security; Computer Networks and Distributed Systems; Introduction to Compiler Construction; Functional and Object-oriented Programming Concepts; Formal Methods in Software Design; Information Management; Parallel Programming; Probabilistic Methods in Computer Science; Scientific Computing; Software Engineering; Visual Computing | Computer Engineering — Digital Design and Computer Organisation | Artificial Intelligence and Machine Learning — Introduction to Artificial Intelligence; Information Management; Probabilistic Methods in Computer Science)",
        "kind": "subject",
        "status": "PASS",
-       "required": 60,
+       "required": 60.0,
        "presence_only": false,
-       "achieved": 108,
-       "shortfall": 0,
+       "achieved": 108.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -1164,7 +1164,7 @@
        "item": 0
       }
      ],
-     "real_gap": 0,
+     "real_gap": 0.0,
      "reasons": [],
      "important_notes": [],
      "also_required": [
@@ -1198,7 +1198,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -1206,17 +1206,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "Informatik mit einem Studienanteil von mindestens 20 LP in Mathematik, Chemie und/oder Physik",
        "kind": "subject",
        "status": "PASS",
-       "required": 20,
+       "required": 20.0,
        "presence_only": false,
-       "achieved": 27,
-       "shortfall": 0,
+       "achieved": 27.0,
+       "shortfall": 0.0,
        "courses": [
         "PHYSICS-I",
         "PHYSICS-I LABORATORY",
@@ -1228,7 +1228,7 @@
        "item": 0
       }
      ],
-     "real_gap": 0,
+     "real_gap": 0.0,
      "reasons": [],
      "important_notes": [],
      "also_required": [
@@ -1259,7 +1259,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -1267,7 +1267,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       }
      ],
@@ -1303,7 +1303,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -1311,17 +1311,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "at least 60 ECTS credits of coursework … completed in informatics (Satzung über besondere Zugangsvoraussetzungen MIN, Neufassung 17.04.2024, Nr. 12.1, read in the official English translation); Department page: 'Any kind of maths, economics, management, electrical engineering, soft skills courses do not count'",
        "kind": "subject",
        "status": "PASS",
-       "required": 60,
+       "required": 60.0,
        "presence_only": false,
        "achieved": 103.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -1344,7 +1344,7 @@
        "item": 0
       }
      ],
-     "real_gap": 0,
+     "real_gap": 0.0,
      "reasons": [],
      "important_notes": [],
      "also_required": [
@@ -1374,7 +1374,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -1382,7 +1382,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
@@ -1391,8 +1391,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 48,
-       "shortfall": 0,
+       "achieved": 48.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -1412,7 +1412,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 4.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "FORMAL LANGUAGE & AUTOMATA THEORY"
        ],
@@ -1450,7 +1450,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -1458,7 +1458,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       }
      ],
@@ -1490,7 +1490,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -1498,7 +1498,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       }
      ],
@@ -1536,7 +1536,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -1544,7 +1544,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       }
      ],
@@ -1580,7 +1580,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -1588,7 +1588,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       }
      ],
@@ -1622,7 +1622,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -1630,7 +1630,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
@@ -1639,8 +1639,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 18,
-       "shortfall": 0,
+       "achieved": 18.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -1656,7 +1656,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 10.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "NUMERICAL METHODS"
@@ -1696,7 +1696,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -1704,17 +1704,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "Der Nachweis von mindestens 90 CP im Bereich Informatik (insbesondere in den Teilbereichen Mathematik, Künstliche Intelligenz, Machine Learning, Softwaredesign, Theoretische Informatik, Programmieren und/oder Projektarbeiten), die im Vorstudium erbracht worden sind.",
        "kind": "subject",
        "status": "PASS",
-       "required": 90,
+       "required": 90.0,
        "presence_only": false,
-       "achieved": 114,
-       "shortfall": 0,
+       "achieved": 114.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -1739,7 +1739,7 @@
        "item": 0
       }
      ],
-     "real_gap": 0,
+     "real_gap": 0.0,
      "reasons": [],
      "important_notes": [],
      "also_required": [
@@ -1769,7 +1769,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -1777,17 +1777,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "mindestens 12 CP in den Bereichen praktische Informatik",
        "kind": "subject",
        "status": "PASS",
-       "required": 12,
+       "required": 12.0,
        "presence_only": false,
-       "achieved": 48,
-       "shortfall": 0,
+       "achieved": 48.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -1804,10 +1804,10 @@
        "label": "12 CP betriebswirtschaftliche Grundlagen",
        "kind": "subject",
        "status": "PASS",
-       "required": 12,
+       "required": 12.0,
        "presence_only": false,
        "achieved": 13.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "ECONOMICS FOR ENGINEERS",
         "INTRO. TO INDUSTRIAL MGMT. (HUMA. III)",
@@ -1816,7 +1816,7 @@
        "item": 1
       }
      ],
-     "real_gap": 0,
+     "real_gap": 0.0,
      "reasons": [],
      "important_notes": [],
      "also_required": [
@@ -1845,7 +1845,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -1853,17 +1853,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "wenigstens 60 Anrechnungspunkte in der Data Science, Informatik, Statistik oder Mathematik (ZZO § 2 Abs. 3 Satz 2)",
        "kind": "subject",
        "status": "PASS",
-       "required": 60,
+       "required": 60.0,
        "presence_only": false,
-       "achieved": 114,
-       "shortfall": 0,
+       "achieved": 114.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -1888,7 +1888,7 @@
        "item": 0
       }
      ],
-     "real_gap": 0,
+     "real_gap": 0.0,
      "reasons": [],
      "important_notes": [],
      "also_required": [
@@ -1919,7 +1919,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -1927,7 +1927,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       }
      ],
@@ -1964,7 +1964,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -1972,7 +1972,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
@@ -1981,8 +1981,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 18,
-       "shortfall": 0,
+       "achieved": 18.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -1998,7 +1998,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 10.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "NUMERICAL METHODS"
@@ -2011,8 +2011,8 @@
        "status": "FAIL",
        "required": null,
        "presence_only": true,
-       "achieved": 0,
-       "shortfall": 0,
+       "achieved": 0.0,
+       "shortfall": 0.0,
        "courses": [],
        "item": 2
       }
@@ -2049,7 +2049,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -2057,7 +2057,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
@@ -2067,7 +2067,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 4.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "NUMERICAL METHODS"
        ],
@@ -2079,8 +2079,8 @@
        "status": "FAIL",
        "required": null,
        "presence_only": true,
-       "achieved": 0,
-       "shortfall": 0,
+       "achieved": 0.0,
+       "shortfall": 0.0,
        "courses": [],
        "item": 1
       },
@@ -2090,8 +2090,8 @@
        "status": "FAIL",
        "required": null,
        "presence_only": true,
-       "achieved": 0,
-       "shortfall": 0,
+       "achieved": 0.0,
+       "shortfall": 0.0,
        "courses": [],
        "item": 2
       },
@@ -2101,8 +2101,8 @@
        "status": "FAIL",
        "required": null,
        "presence_only": true,
-       "achieved": 0,
-       "shortfall": 0,
+       "achieved": 0.0,
+       "shortfall": 0.0,
        "courses": [],
        "item": 3
       },
@@ -2112,8 +2112,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 18,
-       "shortfall": 0,
+       "achieved": 18.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -2128,8 +2128,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 15,
-       "shortfall": 0,
+       "achieved": 15.0,
+       "shortfall": 0.0,
        "courses": [
         "DATA STRUCTURE & ALGORITHMS",
         "DESIGN ANALYSIS & ALGORITHM"
@@ -2168,7 +2168,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -2176,14 +2176,14 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "15 LP auf dem Gebiet der Mathematik (BB § 34 Abs. 1, as amended by AM 54.24)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 15,
+       "required": 15.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 4.5,
@@ -2197,10 +2197,10 @@
        "label": "30 LP auf dem Gebiet der Informatik (BB § 34 Abs. 1)",
        "kind": "subject",
        "status": "PASS",
-       "required": 30,
+       "required": 30.0,
        "presence_only": false,
-       "achieved": 96,
-       "shortfall": 0,
+       "achieved": 96.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -2228,7 +2228,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 22.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "COMPUTER ORGANIZATION & ARCHITECTURE",
         "COMPUTER NETWORKS",
@@ -2240,10 +2240,10 @@
        "label": "30 LP auf dem Gebiet der Elektrotechnik (BB § 34 Abs. 1)",
        "kind": "subject",
        "status": "PASS",
-       "required": 30,
+       "required": 30.0,
        "presence_only": false,
-       "achieved": 36,
-       "shortfall": 0,
+       "achieved": 36.0,
+       "shortfall": 0.0,
        "courses": [
         "BASIC ELECTRICAL ENGINEERING",
         "BASIC ELECTRICAL ENGG. LABORATORY",
@@ -2271,145 +2271,6 @@
      ]
     },
     {
-     "program_id": "9906",
-     "record_id": "9906",
-     "program": "Data Science and Machine Learning (M.Sc.)",
-     "university": "University of Oldenburg",
-     "list": 3,
-     "list_name": "bridging possible",
-     "route_used": null,
-     "skipped_routes": [],
-     "checks": [
-      {
-       "label": "Degree field",
-       "kind": "degree",
-       "status": "PASS",
-       "achieved": null,
-       "shortfall": 0,
-       "detail": "information_technology vs accepted ['computer_science']"
-      },
-      {
-       "label": "Minimum grade",
-       "kind": "grade",
-       "status": "PASS",
-       "achieved": 2.69,
-       "shortfall": 0,
-       "detail": "no fixed grade limit"
-      },
-      {
-       "label": "a) 20 credit points in mathematics",
-       "kind": "subject",
-       "status": "FAIL",
-       "required": 20,
-       "presence_only": false,
-       "achieved": 10.5,
-       "shortfall": 9.5,
-       "courses": [
-        "DISCRETE MATHEMATICS",
-        "NUMERICAL METHODS"
-       ],
-       "item": 0
-      },
-      {
-       "label": "a.1) 5 CPs analysis or linear algebra (of the 20 CP mathematics)",
-       "kind": "subject",
-       "status": "FAIL",
-       "required": 5,
-       "presence_only": false,
-       "achieved": 4.5,
-       "shortfall": 0.5,
-       "courses": [
-        "NUMERICAL METHODS"
-       ],
-       "item": 1
-      },
-      {
-       "label": "a.2) 5 CPs in probability theory or statistics (of the 20 CP mathematics)",
-       "kind": "subject",
-       "status": "FAIL",
-       "required": 5,
-       "presence_only": false,
-       "achieved": 0,
-       "shortfall": 5,
-       "courses": [],
-       "item": 2
-      },
-      {
-       "label": "b) 10 credit points in computer science",
-       "kind": "subject",
-       "status": "PASS",
-       "required": 10,
-       "presence_only": false,
-       "achieved": 103.5,
-       "shortfall": 0,
-       "courses": [
-        "PROGRAMMING FOR PROBLEM SOLVING",
-        "PROGRAMMING FOR PROBLEM SOLVING LAB",
-        "DIGITAL ELECTRONICS",
-        "DATA STRUCTURE & ALGORITHMS",
-        "COMPUTER ORGANIZATION & ARCHITECTURE",
-        "FORMAL LANGUAGE & AUTOMATA THEORY",
-        "DESIGN ANALYSIS & ALGORITHM",
-        "DBMS",
-        "OPERATING SYSTEMS",
-        "OBJECT ORIENTED PROG. WITH PYTHON",
-        "COMPUTER GRAPHICS",
-        "SOFTWARE ENGINEERING",
-        "COMPUTER NETWORKS",
-        "DISTRIBUTED SYSTEMS",
-        "MACHINE LEARNING",
-        "INTERNET & WEB TECHNOLOGY",
-        "INFORMATION SECURITY"
-       ],
-       "item": 3
-      },
-      {
-       "label": "b.1) 5 CPs in the field of algorithms (of the 10 CP computer science)",
-       "kind": "subject",
-       "status": "PASS",
-       "required": 5,
-       "presence_only": false,
-       "achieved": 15,
-       "shortfall": 0,
-       "courses": [
-        "DATA STRUCTURE & ALGORITHMS",
-        "DESIGN ANALYSIS & ALGORITHM"
-       ],
-       "item": 4
-      },
-      {
-       "label": "b.2) 5 CPs in a higher programming language (preferably Python) (of the 10 CP computer science)",
-       "kind": "subject",
-       "status": "PASS",
-       "required": 5,
-       "presence_only": false,
-       "achieved": 18,
-       "shortfall": 0,
-       "courses": [
-        "PROGRAMMING FOR PROBLEM SOLVING",
-        "PROGRAMMING FOR PROBLEM SOLVING LAB",
-        "OBJECT ORIENTED PROG. WITH PYTHON",
-        "INTERNET & WEB TECHNOLOGY"
-       ],
-       "item": 5
-      }
-     ],
-     "real_gap": 9.5,
-     "reasons": [],
-     "important_notes": [],
-     "also_required": [
-      "APS certificate required for applicants from India (Koushik 24.10.2026)",
-      "English: B2"
-     ],
-     "unmet_areas": [],
-     "selection_step": true,
-     "selection_notes": [
-      "Places are awarded by a ranking only if there are more eligible applicants than places (§ 1 Abs. 3); quotas: 40 % for foreign nationals/stateless applicants with foreign qualifications not equated with Germans, 60 % for all others.",
-      "Ranking (§ 4 Abs. 2, max 6 points): a) grade 1,00-1,5 = 4; 1,51-1,75 = 3,5; 1,76-2,0 = 3; 2,01-2,25 = 2,5; 2,26-2,5 = 2; 2,51-2,75 = 1,5; 2,76-3,0 = 1; 3,01-4,0 = 0. b) 1 point per relevant professional or scientific activity in Data Science or Machine Learning (work, internship, Bachelor's thesis; at least 3 months each), max 2, listed in the specific eligibility form with proof.",
-      "Ties: better grade first, then lot (§ 4 Abs. 1). Program page: about 30 places per year."
-     ]
-    },
-    {
      "program_id": "8935",
      "record_id": "8935",
      "program": "Computer Science / Informatik (M.Sc.)",
@@ -2424,7 +2285,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -2432,14 +2293,14 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "15 ECTS-LP in Mathematik (ZO Anlage 1)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 15,
+       "required": 15.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 4.5,
@@ -2453,7 +2314,7 @@
        "label": "10 ECTS-LP in Theoretischer Informatik (ZO Anlage 1)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 10,
+       "required": 10.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 5.5,
@@ -2466,10 +2327,10 @@
        "label": "20 ECTS-LP in Grundlagen der Informatik und 20 ECTS-LP in Vertiefung der Informatik (ZO Anlage 1) — both are general computer science in GPU-R's taxonomy, so they are checked together as at least 40 ECTS (rule R2)",
        "kind": "subject",
        "status": "PASS",
-       "required": 40,
+       "required": 40.0,
        "presence_only": false,
        "achieved": 103.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -2492,7 +2353,7 @@
        "item": 2
       }
      ],
-     "real_gap": 10,
+     "real_gap": 10.0,
      "reasons": [],
      "important_notes": [],
      "also_required": [
@@ -2521,7 +2382,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science', 'mathematics', 'statistics']"
       },
       {
@@ -2530,16 +2391,16 @@
        "status": "PASS",
        "achieved": 2.69,
        "required": 2.7,
-       "shortfall": 0
+       "shortfall": 0.0
       },
       {
        "label": "§ 3 Abs. 1 Nr. 1: 'Leistungen in den zentralen Bereichen der Mathematik, der Informatik und der Statistik im Umfang von mindestens 44 Leistungspunkten, zusammengesetzt aus' aa), bb), cc)",
        "kind": "subject",
        "status": "PASS",
-       "required": 44,
+       "required": 44.0,
        "presence_only": false,
        "achieved": 46.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -2556,10 +2417,10 @@
        "label": "aa) 'Leistungen in der Informatik in den Gebieten „Algorithmen“, „Datenstrukturen“, „Objekt-Orientierte Programmierung“ und „Softwaretechnik“ im Umfang von mindestens 8 Leistungspunkten'",
        "kind": "subject",
        "status": "PASS",
-       "required": 8,
+       "required": 8.0,
        "presence_only": false,
        "achieved": 40.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -2575,10 +2436,10 @@
        "label": "bb) 'Leistungen in der Mathematik in den Gebieten „Analysis“, „Lineare Algebra“, „Differentialgleichungen“, „Diskrete Mathematik“ und „Numerik“ im Umfang von mindestens 8 Leistungspunkten'",
        "kind": "subject",
        "status": "FAIL",
-       "required": 8,
+       "required": 8.0,
        "presence_only": false,
-       "achieved": 6,
-       "shortfall": 2,
+       "achieved": 6.0,
+       "shortfall": 2.0,
        "courses": [
         "DISCRETE MATHEMATICS"
        ],
@@ -2588,10 +2449,10 @@
        "label": "cc) 'Leistungen im Bereich Statistik im Umfang von mindestens 12 Leistungspunkten' (Grundlagen — (deskriptive) Statistik, Wahrscheinlichkeitsrechnung — mindestens 4 LP; fortgeschrittene Inferenz — Punktschätzung, Intervallschätzung, Hypothesentests, Stochastik — mindestens 8 LP)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 12,
+       "required": 12.0,
        "presence_only": false,
-       "achieved": 0,
-       "shortfall": 12,
+       "achieved": 0.0,
+       "shortfall": 12.0,
        "courses": [],
        "item": 3
       },
@@ -2599,10 +2460,10 @@
        "label": "§ 3 Abs. 1 Nr. 2: 'Leistungen in der Informatik aus dem Bereich „Datenbanken“ im Umfang von mindestens 4 Leistungspunkten'",
        "kind": "subject",
        "status": "PASS",
-       "required": 4,
+       "required": 4.0,
        "presence_only": false,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DBMS"
        ],
@@ -2612,10 +2473,10 @@
        "label": "§ 3 Abs. 1 Nr. 3: 'Leistungen in Veranstaltungen der Datenmodellierung aus den Gebieten der „(generalisierten) linearen Modelle“, „statistischer / maschinelle Lernverfahren“, „Zeitreihen“ und der (praktischen) Optimierung im Umfang von mindestens 8 Leistungspunkten' — optimization: no taxonomy category yet, counts 0",
        "kind": "subject",
        "status": "PASS",
-       "required": 8,
+       "required": 8.0,
        "presence_only": false,
-       "achieved": 9,
-       "shortfall": 0,
+       "achieved": 9.0,
+       "shortfall": 0.0,
        "courses": [
         "MACHINE LEARNING",
         "NUMERICAL METHODS"
@@ -2623,7 +2484,7 @@
        "item": 5
       }
      ],
-     "real_gap": 14,
+     "real_gap": 14.0,
      "reasons": [],
      "important_notes": [],
      "also_required": [
@@ -2654,7 +2515,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -2662,14 +2523,14 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "§ 2 (2) a) 'at least 25 credits in basic mathematics' (German 2021 text: 'Grundlagen Mathematik')",
        "kind": "subject",
        "status": "FAIL",
-       "required": 25,
+       "required": 25.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 14.5,
@@ -2683,10 +2544,10 @@
        "label": "§ 2 (2) a) 'at least 60 credits in basic computer science' (German 2021 text: 'Grundlagen der Informatik')",
        "kind": "subject",
        "status": "PASS",
-       "required": 60,
+       "required": 60.0,
        "presence_only": false,
        "achieved": 103.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -2714,8 +2575,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 18,
-       "shortfall": 0,
+       "achieved": 18.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -2731,7 +2592,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "SOFTWARE ENGINEERING"
        ],
@@ -2744,7 +2605,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DBMS"
        ],
@@ -2756,8 +2617,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 30,
-       "shortfall": 0,
+       "achieved": 30.0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -2798,7 +2659,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -2806,14 +2667,14 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "Mathematische Grundlagen 20 LP",
        "kind": "subject",
        "status": "FAIL",
-       "required": 20,
+       "required": 20.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 9.5,
@@ -2827,10 +2688,10 @@
        "label": "Grundlagen der Informatik und der Programmierung 30 LP",
        "kind": "subject",
        "status": "PASS",
-       "required": 30,
+       "required": 30.0,
        "presence_only": false,
-       "achieved": 33,
-       "shortfall": 0,
+       "achieved": 33.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -2845,7 +2706,7 @@
        "label": "Theoretische Informatik 10 LP",
        "kind": "subject",
        "status": "FAIL",
-       "required": 10,
+       "required": 10.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 5.5,
@@ -2858,10 +2719,10 @@
        "label": "Praktische Informatik/Informatik-Systeme 20 LP",
        "kind": "subject",
        "status": "PASS",
-       "required": 20,
+       "required": 20.0,
        "presence_only": false,
-       "achieved": 27,
-       "shortfall": 0,
+       "achieved": 27.0,
+       "shortfall": 0.0,
        "courses": [
         "DBMS",
         "OPERATING SYSTEMS",
@@ -2874,10 +2735,10 @@
        "label": "Technische Informatik 15 LP",
        "kind": "subject",
        "status": "PASS",
-       "required": 15,
+       "required": 15.0,
        "presence_only": false,
-       "achieved": 30,
-       "shortfall": 0,
+       "achieved": 30.0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -2887,7 +2748,7 @@
        "item": 4
       }
      ],
-     "real_gap": 15,
+     "real_gap": 15.0,
      "reasons": [],
      "important_notes": [],
      "also_required": [
@@ -2917,7 +2778,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -2925,17 +2786,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "mindestens 30 Leistungspunkte in \"Theoretische Grundlagen\" (department page; Anhang 2)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 30,
+       "required": 30.0,
        "presence_only": false,
-       "achieved": 15,
-       "shortfall": 15,
+       "achieved": 15.0,
+       "shortfall": 15.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "FORMAL LANGUAGE & AUTOMATA THEORY",
@@ -2947,10 +2808,10 @@
        "label": "mindestens 30 Leistungspunkte in \"Software-Entwicklung\" (department page; Anhang 2)",
        "kind": "subject",
        "status": "PASS",
-       "required": 30,
+       "required": 30.0,
        "presence_only": false,
        "achieved": 40.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -2966,10 +2827,10 @@
        "label": "mindestens 30 Leistungspunkte in \"Informatiksysteme\" (department page; Anhang 2: equivalence assessment against the RPTU Bachelor Informatik; English excerpt calls it \"Computer Systems\")",
        "kind": "subject",
        "status": "PASS",
-       "required": 30,
+       "required": 30.0,
        "presence_only": false,
-       "achieved": 54,
-       "shortfall": 0,
+       "achieved": 54.0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -2983,7 +2844,7 @@
        "item": 2
       }
      ],
-     "real_gap": 15,
+     "real_gap": 15.0,
      "reasons": [],
      "important_notes": [],
      "also_required": [
@@ -3014,7 +2875,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -3022,17 +2883,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "required": 3,
-       "shortfall": 0
+       "required": 3.0,
+       "shortfall": 0.0
       },
       {
        "label": "mindestens 20 Leistungspunkte (LP) im Bereich Softwaretechnik",
        "kind": "subject",
        "status": "PASS",
-       "required": 20,
+       "required": 20.0,
        "presence_only": false,
-       "achieved": 33,
-       "shortfall": 0,
+       "achieved": 33.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -3047,7 +2908,7 @@
        "label": "mindestens 20 LP im Bereich der Theoretischen Informatik",
        "kind": "subject",
        "status": "FAIL",
-       "required": 20,
+       "required": 20.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 15.5,
@@ -3060,10 +2921,10 @@
        "label": "mindestens 15 LP im Bereich der Technischen Informatik",
        "kind": "subject",
        "status": "PASS",
-       "required": 15,
+       "required": 15.0,
        "presence_only": false,
-       "achieved": 30,
-       "shortfall": 0,
+       "achieved": 30.0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -3076,7 +2937,7 @@
        "label": "mindestens 15 LP im Bereich mathematischer Grundlagen der Informatik",
        "kind": "subject",
        "status": "FAIL",
-       "required": 15,
+       "required": 15.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 4.5,
@@ -3087,7 +2948,7 @@
        "item": 3
       }
      ],
-     "real_gap": 20,
+     "real_gap": 20.0,
      "reasons": [],
      "important_notes": [],
      "also_required": [
@@ -3127,7 +2988,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -3171,7 +3032,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -3225,7 +3086,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science', 'mathematics', 'statistics', 'economics', 'business_informatics']"
       },
       {
@@ -3240,10 +3101,10 @@
        "label": "Verwandte Fachrichtung (PA rules to § 2 Nr. 1b FPO): 'in der Regel mindestens 50/180 ECTS (bzw. mindestens 27,7% aller im Bachelorzeugnis ausgewiesenen Punkte) in fachlich relevanten Modulen' (examples: Informatik — Programmierung, Datenbanksysteme, Algorithmen und Datenstrukturen, Softwaretechnik, Softwareentwicklung, Komplexitätstheorie, Formale Sprachen, Automatentheorie, Betriebssysteme, Data Mining, Maschinelles Lernen, Sprachverarbeitung, Grundlagen der KI; Mathematik — Analysis, Lineare Algebra, Wahrscheinlichkeitsrechnung, Numerische Mathematik; Statistik — Deskriptive/Induktive/Mathematische Statistik, Wahrscheinlichkeitstheorie, Statistische Programmiersprachen, Statistical bzw. Data Literacy u.a.)",
        "kind": "subject",
        "status": "PASS",
-       "required": 50,
+       "required": 50.0,
        "presence_only": false,
-       "achieved": 114,
-       "shortfall": 0,
+       "achieved": 114.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -3268,7 +3129,7 @@
        "item": 0
       }
      ],
-     "real_gap": 0,
+     "real_gap": 0.0,
      "reasons": [
       "German grade 2.69 is worse than the limit 1.40"
      ],
@@ -3300,7 +3161,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -3318,7 +3179,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DBMS"
        ],
@@ -3328,10 +3189,10 @@
        "label": "§ 4 Abs. 1 b (bb) 1. 'mindestens 60 weitere ECTS in Informatik-Veranstaltungen' (keine Praktika bzw. reine Übungen)",
        "kind": "subject",
        "status": "PASS",
-       "required": 60,
+       "required": 60.0,
        "presence_only": false,
        "achieved": 103.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -3354,7 +3215,7 @@
        "item": 1
       }
      ],
-     "real_gap": 0,
+     "real_gap": 0.0,
      "reasons": [
       "German grade 2.69 is worse than the limit 2.30"
      ],
@@ -3387,7 +3248,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -3404,8 +3265,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 18,
-       "shortfall": 0,
+       "achieved": 18.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -3420,8 +3281,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 15,
-       "shortfall": 0,
+       "achieved": 15.0,
+       "shortfall": 0.0,
        "courses": [
         "DATA STRUCTURE & ALGORITHMS",
         "DESIGN ANALYSIS & ALGORITHM"
@@ -3434,8 +3295,8 @@
        "status": "FAIL",
        "required": null,
        "presence_only": true,
-       "achieved": 0,
-       "shortfall": 0,
+       "achieved": 0.0,
+       "shortfall": 0.0,
        "courses": [],
        "item": 2
       }
@@ -3473,7 +3334,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -3520,7 +3381,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -3528,7 +3389,7 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
@@ -3537,8 +3398,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 18,
-       "shortfall": 0,
+       "achieved": 18.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -3554,7 +3415,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 4.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "NUMERICAL METHODS"
        ],
@@ -3566,8 +3427,8 @@
        "status": "FAIL",
        "required": null,
        "presence_only": true,
-       "achieved": 0,
-       "shortfall": 0,
+       "achieved": 0.0,
+       "shortfall": 0.0,
        "courses": [],
        "item": 2
       },
@@ -3577,8 +3438,8 @@
        "status": "FAIL",
        "required": null,
        "presence_only": true,
-       "achieved": 0,
-       "shortfall": 0,
+       "achieved": 0.0,
+       "shortfall": 0.0,
        "courses": [],
        "item": 3
       },
@@ -3588,8 +3449,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 15,
-       "shortfall": 0,
+       "achieved": 15.0,
+       "shortfall": 0.0,
        "courses": [
         "DATA STRUCTURE & ALGORITHMS",
         "DESIGN ANALYSIS & ALGORITHM"
@@ -3630,7 +3491,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -3675,7 +3536,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -3693,7 +3554,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 10.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "NUMERICAL METHODS"
@@ -3707,7 +3568,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 4.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "FORMAL LANGUAGE & AUTOMATA THEORY"
        ],
@@ -3719,8 +3580,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 78,
-       "shortfall": 0,
+       "achieved": 78.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -3771,7 +3632,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -3817,7 +3678,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -3835,7 +3696,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 10.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "NUMERICAL METHODS"
@@ -3849,7 +3710,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 103.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -3905,7 +3766,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -3923,7 +3784,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 10.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "NUMERICAL METHODS"
@@ -3937,7 +3798,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 4.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "FORMAL LANGUAGE & AUTOMATA THEORY"
        ],
@@ -3950,7 +3811,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 40.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -3969,7 +3830,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 4.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "MACHINE LEARNING"
        ],
@@ -4009,7 +3870,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -4052,7 +3913,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -4070,7 +3931,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 34.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -4086,8 +3947,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 33,
-       "shortfall": 0,
+       "achieved": 33.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -4105,7 +3966,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 13.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "ECONOMICS FOR ENGINEERS",
         "INTRO. TO INDUSTRIAL MGMT. (HUMA. III)",
@@ -4120,7 +3981,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 10.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "NUMERICAL METHODS"
@@ -4133,8 +3994,8 @@
        "status": "FAIL",
        "required": null,
        "presence_only": true,
-       "achieved": 0,
-       "shortfall": 0,
+       "achieved": 0.0,
+       "shortfall": 0.0,
        "courses": [],
        "item": 4
       }
@@ -4173,7 +4034,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -4191,7 +4052,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 103.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -4247,7 +4108,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -4293,7 +4154,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -4342,7 +4203,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -4387,7 +4248,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -4405,7 +4266,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 25.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -4421,8 +4282,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 45,
-       "shortfall": 0,
+       "achieved": 45.0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -4440,7 +4301,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 4.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "FORMAL LANGUAGE & AUTOMATA THEORY"
        ],
@@ -4478,7 +4339,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -4496,7 +4357,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 10.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "NUMERICAL METHODS"
@@ -4509,8 +4370,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 45,
-       "shortfall": 0,
+       "achieved": 45.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -4555,7 +4416,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -4563,17 +4424,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "b) „Computer Scientist's Track“: insgesamt mindestens 60 Leistungspunkten im Bereich der Informatik (§ 2 Abs. 1 Nr. 1 lit. b)",
        "kind": "subject",
        "status": "PASS",
-       "required": 60,
+       "required": 60.0,
        "presence_only": false,
        "achieved": 103.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -4602,7 +4463,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 4.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "FORMAL LANGUAGE & AUTOMATA THEORY"
        ],
@@ -4614,8 +4475,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 18,
-       "shortfall": 0,
+       "achieved": 18.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -4630,13 +4491,13 @@
        "status": "FAIL",
        "required": null,
        "presence_only": true,
-       "achieved": 0,
-       "shortfall": 0,
+       "achieved": 0.0,
+       "shortfall": 0.0,
        "courses": [],
        "item": 3
       }
      ],
-     "real_gap": 0,
+     "real_gap": 0.0,
      "reasons": [
       "1 subject requirement(s) not met and the programme allows no conditions"
      ],
@@ -4672,7 +4533,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -4689,8 +4550,8 @@
        "status": "PASS",
        "required": null,
        "presence_only": true,
-       "achieved": 33,
-       "shortfall": 0,
+       "achieved": 33.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -4708,7 +4569,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "SOFTWARE ENGINEERING"
        ],
@@ -4721,7 +4582,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 4.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "FORMAL LANGUAGE & AUTOMATA THEORY"
        ],
@@ -4734,7 +4595,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 10.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "NUMERICAL METHODS"
@@ -4774,7 +4635,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -4789,10 +4650,10 @@
        "label": "§ 4 Abs. 1 c (aa) 'mindestens 20 ECTS in Informatik-Veranstaltungen (inklusive Projekten im Kernbereich des Digital Engineering)'",
        "kind": "subject",
        "status": "PASS",
-       "required": 20,
+       "required": 20.0,
        "presence_only": false,
        "achieved": 103.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -4815,7 +4676,7 @@
        "item": 0
       }
      ],
-     "real_gap": 0,
+     "real_gap": 0.0,
      "reasons": [
       "German grade 2.69 is worse than the limit 2.50"
      ],
@@ -4848,7 +4709,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -4893,7 +4754,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -4908,10 +4769,10 @@
        "label": "§ 4 Abs. 1 'einschlägiger Anteil von mindestens 60 LP aus den Bereichen' Wirtschaftsinformatik, Informatik, Betriebswirtschaftslehre, Design, Psychologie oder Soziologie (pooled; Design, Psychologie and Soziologie have no taxonomy category and count 0)",
        "kind": "subject",
        "status": "PASS",
-       "required": 60,
+       "required": 60.0,
        "presence_only": false,
-       "achieved": 117,
-       "shortfall": 0,
+       "achieved": 117.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -4937,7 +4798,7 @@
        "item": 0
       }
      ],
-     "real_gap": 0,
+     "real_gap": 0.0,
      "reasons": [
       "German grade 2.69 is worse than the limit 2.50"
      ],
@@ -4967,7 +4828,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -4982,10 +4843,10 @@
        "label": "mindestens 30 Leistungspunkte (nach ECTS) kumulativ in den Fachgebieten „Mathematik/Statistik“ und „Informatik“ (PO § 7 Abs. 1 Satz 1)",
        "kind": "subject",
        "status": "PASS",
-       "required": 30,
+       "required": 30.0,
        "presence_only": false,
-       "achieved": 114,
-       "shortfall": 0,
+       "achieved": 114.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -5013,10 +4874,10 @@
        "label": "Dabei müssen mindestens 10 Leistungspunkte (nach ECTS) in dem Fachgebiet „Mathematik/Statistik“ nachgewiesen werden (PO § 7 Abs. 1 Satz 2; within the 30)",
        "kind": "subject",
        "status": "PASS",
-       "required": 10,
+       "required": 10.0,
        "presence_only": false,
        "achieved": 10.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "NUMERICAL METHODS"
@@ -5027,10 +4888,10 @@
        "label": "und mindestens 10 Leistungspunkte (nach ECTS) im Fachgebiet „Informatik“ (PO § 7 Abs. 1 Satz 2; within the 30)",
        "kind": "subject",
        "status": "PASS",
-       "required": 10,
+       "required": 10.0,
        "presence_only": false,
        "achieved": 103.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -5053,7 +4914,7 @@
        "item": 2
       }
      ],
-     "real_gap": 0,
+     "real_gap": 0.0,
      "reasons": [
       "German grade 2.69 is worse than the limit 2.50"
      ],
@@ -5084,7 +4945,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -5092,17 +4953,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "Algorithmen, Datenstrukturen und Theoretische Informatik im Umfang von insgesamt mindestens 14 LP",
        "kind": "subject",
        "status": "PASS",
-       "required": 14,
+       "required": 14.0,
        "presence_only": false,
        "achieved": 19.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DATA STRUCTURE & ALGORITHMS",
         "FORMAL LANGUAGE & AUTOMATA THEORY",
@@ -5114,10 +4975,10 @@
        "label": "Softwareentwicklung und Programmiersprachen im Umfang von insgesamt mindestens 15 LP",
        "kind": "subject",
        "status": "PASS",
-       "required": 15,
+       "required": 15.0,
        "presence_only": false,
        "achieved": 25.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -5131,7 +4992,7 @@
        "label": "Diskrete Strukturen und Logik, Analysis und Lineare Algebra und Stochastik im Umfang von insgesamt mindestens 15 LP",
        "kind": "subject",
        "status": "FAIL",
-       "required": 15,
+       "required": 15.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 4.5,
@@ -5145,10 +5006,10 @@
        "label": "Technische Informatik wie z. B. Betriebssysteme, Rechnerarchitektur oder verteilte Systeme im Umfang von insgesamt mindestens 10 LP",
        "kind": "subject",
        "status": "PASS",
-       "required": 10,
+       "required": 10.0,
        "presence_only": false,
        "achieved": 37.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -5194,7 +5055,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -5209,7 +5070,7 @@
        "label": "Mathematics amounting to at least 15 ECTS points (application FAQ; GPU-R policy, not regulation wording)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 15,
+       "required": 15.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 4.5,
@@ -5223,10 +5084,10 @@
        "label": "Computer Science amounting to at least 45 ECTS points (application FAQ; GPU-R policy, not regulation wording)",
        "kind": "subject",
        "status": "PASS",
-       "required": 45,
+       "required": 45.0,
        "presence_only": false,
        "achieved": 103.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -5284,7 +5145,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -5299,10 +5160,10 @@
        "label": "§ 3 Abs. 1-2: mindestens 80 ECTS Informatik- oder Informationswissenschaftsinhalte aus den Themenfeldern: 1. Theoretische Informatik, Formale Sprachen, Automaten, Digitaltechnik; 2. Programmierung, Paradigmen der Programmierung, Algorithmen, Algorithmik, Mobile Computing, Softwaretechnik, Software Engineering; 3. Webentwicklung, Webtechnologien, Web-basierte Anwendungen; 4. Mensch-Computer-Interaktion, Entwicklung interaktiver Systeme; 5. Wissensorganisation; 6. Digitale Informationsgesellschaft, Informatik & Gesellschaft, Medieninformatik & Gesellschaft, Informationsethik; 7. Informationsvisualisierung, Informationserschließung; 8. Information in Unternehmen, Informationsmanagement, Prozessmanagement, Wissensmanagement; 9. Datenmodellierung; 10. Datenanalyse, Informationsanalyse, Business Intelligence, Business Analytics, Entscheidungsunterstützung; 11. Data Mining, Künstliche Intelligenz; 12. Informationsrecherche, Information Retrieval, Suchmaschinentechnologie; 13. Datenbanksysteme, Informationssysteme, ERP-Systeme, Anwendungssysteme; 14. Informationsrecht, Datenschutzrecht, Recht in der Informatik; 15. Medientechnik und -produktion, Audiovisuelle Medien, Computergrafik und Animation; 16. Kommunikationstechnik und Netze; 17. Betriebssysteme, verteilte Systeme Betriebssysteme, Rechnerarchitekturen; 18. IT-Betrieb, Identity Management, Servicemanagement, Virtualisierung, Dienstarchitekturen, IT-Sicherheit, IT-Architekturmanagement; 19. IT-Controlling",
        "kind": "subject",
        "status": "PASS",
-       "required": 80,
+       "required": 80.0,
        "presence_only": false,
        "achieved": 109.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -5330,10 +5191,10 @@
        "label": "Handlungsfeld Acting Responsibly (AR): 'verantwortliches Handeln im gesellschaftlichen Kontext' — at least 5 ECTS prior credits for SAR (PO § 3 Abs. 6 table)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 5,
+       "required": 5.0,
        "presence_only": false,
-       "achieved": 0,
-       "shortfall": 5,
+       "achieved": 0.0,
+       "shortfall": 5.0,
        "courses": [],
        "item": 1
       },
@@ -5341,10 +5202,10 @@
        "label": "Handlungsfeld Architecting and Coding Software (ACS): 'Methoden und Werkzeugen, um Software sowie softwarebasierte digitale Systeme und Technologien zu konzipieren' — at least 30 ECTS prior credits for SAR (PO § 3 Abs. 6 table)",
        "kind": "subject",
        "status": "PASS",
-       "required": 30,
+       "required": 30.0,
        "presence_only": false,
        "achieved": 40.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -5360,10 +5221,10 @@
        "label": "Handlungsfeld Empowering Business (EB): 'Entwickeln von Geschäftsfähigkeiten unter Nutzung digitaler Dienste' — at least 5 ECTS prior credits for SAR (PO § 3 Abs. 6 table)",
        "kind": "subject",
        "status": "PASS",
-       "required": 5,
+       "required": 5.0,
        "presence_only": false,
        "achieved": 13.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "ECONOMICS FOR ENGINEERS",
         "INTRO. TO INDUSTRIAL MGMT. (HUMA. III)",
@@ -5375,10 +5236,10 @@
        "label": "Handlungsfeld Generating and Accessing Knowledge (GAK): 'umfasst den gesamten digitalen Erzeugungsprozess von Daten über Informationen zu Wissen' — at least 5 ECTS prior credits for SAR (PO § 3 Abs. 6 table)",
        "kind": "subject",
        "status": "PASS",
-       "required": 5,
+       "required": 5.0,
        "presence_only": false,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DBMS"
        ],
@@ -5388,10 +5249,10 @@
        "label": "Handlungsfeld Managing and Running IT (MRI): 'zielt auf umfassendes Expert*innenwissen für den Aufbau, den Betrieb und die Weiterentwicklung der IT' — at least 5 ECTS prior credits for SAR (PO § 3 Abs. 6 table)",
        "kind": "subject",
        "status": "PASS",
-       "required": 5,
+       "required": 5.0,
        "presence_only": false,
-       "achieved": 42,
-       "shortfall": 0,
+       "achieved": 42.0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -5403,7 +5264,7 @@
        "item": 5
       }
      ],
-     "real_gap": 5,
+     "real_gap": 5.0,
      "reasons": [
       "German grade 2.69 is worse than the limit 2.50",
       "1 subject requirement(s) not met"
@@ -5436,7 +5297,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -5445,13 +5306,13 @@
        "status": "PASS",
        "achieved": 2.69,
        "required": 2.7,
-       "shortfall": 0
+       "shortfall": 0.0
       },
       {
        "label": "Mehrdimensionale Analysis: Module im Umfang von mindestens 5 Leistungspunkten (LP)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 5,
+       "required": 5.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 0.5,
@@ -5464,10 +5325,10 @@
        "label": "Abstrakte Strukturen der (Linearen) Algebra: Module im Umfang von mindestens 5 LP",
        "kind": "subject",
        "status": "FAIL",
-       "required": 5,
+       "required": 5.0,
        "presence_only": false,
-       "achieved": 0,
-       "shortfall": 5,
+       "achieved": 0.0,
+       "shortfall": 5.0,
        "courses": [],
        "item": 1
       },
@@ -5475,10 +5336,10 @@
        "label": "Grundlagen einer höheren Programmiersprache (mindestens 4 LP) und Praktische Programmierung (mindestens 4 LP, 'erworben ggf. in einer Übung') — Anlage 1 § 2; both map to programming_practical_cs, so they are checked together as at least 8 LP (rule R2: two areas of the same taxonomy category are combined)",
        "kind": "subject",
        "status": "PASS",
-       "required": 8,
+       "required": 8.0,
        "presence_only": false,
-       "achieved": 18,
-       "shortfall": 0,
+       "achieved": 18.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -5491,10 +5352,10 @@
        "label": "Algorithmen oder numerische Verfahren: Module im Umfang von mindestens 5 LP",
        "kind": "subject",
        "status": "PASS",
-       "required": 5,
+       "required": 5.0,
        "presence_only": false,
-       "achieved": 15,
-       "shortfall": 0,
+       "achieved": 15.0,
+       "shortfall": 0.0,
        "courses": [
         "DATA STRUCTURE & ALGORITHMS",
         "DESIGN ANALYSIS & ALGORITHM"
@@ -5505,10 +5366,10 @@
        "label": "Diskrete Strukturen, Datenbanken oder Data Engineering: Module im Umfang von mindestens 5 LP",
        "kind": "subject",
        "status": "PASS",
-       "required": 5,
+       "required": 5.0,
        "presence_only": false,
        "achieved": 13.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "DBMS"
@@ -5519,10 +5380,10 @@
        "label": "Data Science oder Maschinelles Lernen: Module im Umfang von mindestens 4 LP",
        "kind": "subject",
        "status": "PASS",
-       "required": 4,
+       "required": 4.0,
        "presence_only": false,
        "achieved": 4.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "MACHINE LEARNING"
        ],
@@ -5560,7 +5421,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -5575,10 +5436,10 @@
        "label": "wenigstens 120 LP für grundlegende Kernkompetenzen in Mathematik, Informatik, Algorithmen und Datenstrukturen, Programmieren und Datenbanken, Software-Engineering, Netzwerk und Projektmanagement (§ 7 Abs. 2)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 120,
+       "required": 120.0,
        "presence_only": false,
-       "achieved": 114,
-       "shortfall": 6,
+       "achieved": 114.0,
+       "shortfall": 6.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -5603,7 +5464,7 @@
        "item": 0
       }
      ],
-     "real_gap": 6,
+     "real_gap": 6.0,
      "reasons": [
       "German grade 2.69 is worse than the limit 2.50",
       "1 subject requirement(s) not met"
@@ -5636,7 +5497,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -5645,16 +5506,16 @@
        "status": "PASS",
        "achieved": 2.69,
        "required": 3.2,
-       "shortfall": 0
+       "shortfall": 0.0
       },
       {
        "label": "insgesamt mindestens 90 LP in den beiden wissenschaftlichen Disziplinen Mathematik und Informatik",
        "kind": "subject",
        "status": "PASS",
-       "required": 90,
+       "required": 90.0,
        "presence_only": false,
-       "achieved": 114,
-       "shortfall": 0,
+       "achieved": 114.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -5682,7 +5543,7 @@
        "label": "davon mindestens 12 LP auf Module aus der Mathematik",
        "kind": "subject",
        "status": "FAIL",
-       "required": 12,
+       "required": 12.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 1.5,
@@ -5699,7 +5560,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 4.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "NUMERICAL METHODS"
        ],
@@ -5711,8 +5572,8 @@
        "status": "FAIL",
        "required": null,
        "presence_only": true,
-       "achieved": 0,
-       "shortfall": 0,
+       "achieved": 0.0,
+       "shortfall": 0.0,
        "courses": [],
        "item": 3
       },
@@ -5722,8 +5583,8 @@
        "status": "FAIL",
        "required": null,
        "presence_only": true,
-       "achieved": 0,
-       "shortfall": 0,
+       "achieved": 0.0,
+       "shortfall": 0.0,
        "courses": [],
        "item": 4
       },
@@ -5731,10 +5592,10 @@
        "label": "davon mindestens 72 LP auf Module aus der Informatik",
        "kind": "subject",
        "status": "PASS",
-       "required": 72,
+       "required": 72.0,
        "presence_only": false,
        "achieved": 103.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -5760,7 +5621,7 @@
        "label": "In der Informatik müssen mindestens 9 LP auf Kompetenzen aus dem Modul Theoretische Informatik entfallen",
        "kind": "subject",
        "status": "FAIL",
-       "required": 9,
+       "required": 9.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 4.5,
@@ -5773,10 +5634,10 @@
        "label": "Leistungspunkte mindestens im angegebenen Umfang auf Kompetenzen aus mindestens 5 der folgenden Module: Algorithmen und Datenstrukturen (9 LP), Deklarative Programmierung (9 LP), Objektorientierte Programmierung (9 LP), Systemsoftware und Rechnerkommunikation (9 LP), Datenbanksysteme (9 LP), Softwaretechnik (6 LP) und Technische Informatik (9 LP) — min_ects 42 = smallest possible sum of 5 modules (6+9+9+9+9), GPU-R arithmetic",
        "kind": "subject",
        "status": "PASS",
-       "required": 42,
+       "required": 42.0,
        "presence_only": false,
        "achieved": 85.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -5795,7 +5656,7 @@
        "item": 7
       }
      ],
-     "real_gap": 6,
+     "real_gap": 6.0,
      "reasons": [
       "4 subject requirement(s) not met and the programme allows no conditions"
      ],
@@ -5829,7 +5690,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -5838,13 +5699,13 @@
        "status": "PASS",
        "achieved": 2.69,
        "required": 2.7,
-       "shortfall": 0
+       "shortfall": 0.0
       },
       {
        "label": "Fachanteil Informatik von mindestens 110 ECTS-Leistungspunkten (FStuPO § 3)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 110,
+       "required": 110.0,
        "presence_only": false,
        "achieved": 103.5,
        "shortfall": 6.5,
@@ -5902,7 +5763,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -5911,16 +5772,16 @@
        "status": "PASS",
        "achieved": 2.69,
        "required": 2.7,
-       "shortfall": 0
+       "shortfall": 0.0
       },
       {
        "label": "wirtschaftsinformatischer Anteil im Umfang von mindestens 60 ECTS-LP (oder vergleichbarer Umfang), davon bis zu 40 ECTS-LP aus wirtschaftswissenschaftlichen Fächern und bis zu 40 ECTS-LP aus informatischen Fächern (FStuPO § 3 Abs. 1 Satz 1 und 3)",
        "kind": "subject",
        "status": "PASS",
-       "required": 60,
+       "required": 60.0,
        "presence_only": false,
-       "achieved": 117,
-       "shortfall": 0,
+       "achieved": 117.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -5949,7 +5810,7 @@
        "label": "of the 60: at least 20 ECTS-LP not from informatische Fächer, i.e. Wirtschaftsinformatik or wirtschaftswissenschaftliche Fächer (GPU-R arithmetic, not regulation wording: 60 minus the 40 CS cap)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 20,
+       "required": 20.0,
        "presence_only": false,
        "achieved": 13.5,
        "shortfall": 6.5,
@@ -5995,7 +5856,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -6010,10 +5871,10 @@
        "label": "Theoretische Informatik (Algorithmen, Datenstrukturen, formale Sprachen, Automatentheorie, Komplexität, Logik und formale Sprachen) — 12 LP (Anlage 1 Nr. 5.1.1)",
        "kind": "subject",
        "status": "PASS",
-       "required": 12,
+       "required": 12.0,
        "presence_only": false,
        "achieved": 19.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DATA STRUCTURE & ALGORITHMS",
         "FORMAL LANGUAGE & AUTOMATA THEORY",
@@ -6025,10 +5886,10 @@
        "label": "Technische Informatik (Rechnerarchitektur, Schaltungstechnik, Verteilte Systeme, Betriebssysteme, Netzwerktechnik) — 12 LP (Anlage 1 Nr. 5.1.1)",
        "kind": "subject",
        "status": "PASS",
-       "required": 12,
+       "required": 12.0,
        "presence_only": false,
        "achieved": 37.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -6042,10 +5903,10 @@
        "label": "Praktische Informatik (Programmieren, Datenbanken, Software Engineering, Modellbildung und Simulation, Visualisierung, IT Security) — 12 LP (Anlage 1 Nr. 5.1.1)",
        "kind": "subject",
        "status": "PASS",
-       "required": 12,
+       "required": 12.0,
        "presence_only": false,
-       "achieved": 42,
-       "shortfall": 0,
+       "achieved": 42.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -6062,10 +5923,10 @@
        "label": "Informatik insgesamt: Theoretische (12) + Technische (12) + Praktische Informatik (12) + Weitere Module der Computer Science (24) = 60 LP (Anlage 1 Nr. 5.1.1)",
        "kind": "subject",
        "status": "PASS",
-       "required": 60,
+       "required": 60.0,
        "presence_only": false,
        "achieved": 103.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -6091,7 +5952,7 @@
        "label": "Mathematik (Lineare Algebra, Analysis, Wahrscheinlichkeitstheorie, Numerik, Statistik) — 18 LP (Anlage 1 Nr. 5.1.1); § 4 Abs. 2: 'Modulen der Grundlagen der Mathematik im Umfang von mindestens 18 LP'",
        "kind": "subject",
        "status": "FAIL",
-       "required": 18,
+       "required": 18.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 7.5,
@@ -6139,7 +6000,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -6147,14 +6008,14 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "Module im Umfang von mindestens 18 ECTS-LP in mathematischen Grundlagen der Informatik (§ 5 Abs. 3 Nr. 1)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 18,
+       "required": 18.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 7.5,
@@ -6168,10 +6029,10 @@
        "label": "Module im Umfang von mindestens 14 ECTS-LP in Grundlagen der Algorithmentheorie, der Komplexitätstheorie oder formaler Sprachen (§ 5 Abs. 3 Nr. 2)",
        "kind": "subject",
        "status": "PASS",
-       "required": 14,
+       "required": 14.0,
        "presence_only": false,
        "achieved": 19.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DATA STRUCTURE & ALGORITHMS",
         "FORMAL LANGUAGE & AUTOMATA THEORY",
@@ -6183,10 +6044,10 @@
        "label": "Module im Umfang von mindestens 18 ECTS-LP in Programmierung, Softwaretechnologie oder Informationssysteme (§ 5 Abs. 3 Nr. 3)",
        "kind": "subject",
        "status": "PASS",
-       "required": 18,
+       "required": 18.0,
        "presence_only": false,
-       "achieved": 33,
-       "shortfall": 0,
+       "achieved": 33.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -6230,7 +6091,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -6245,7 +6106,7 @@
        "label": "mindestens 18 ECTS-LP aus Mathematik (§ 5 Abs. 3 Nr. 1)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 18,
+       "required": 18.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 7.5,
@@ -6259,10 +6120,10 @@
        "label": "mindestens 6 ECTS-LP aus Programmierung (§ 5 Abs. 3 Nr. 2)",
        "kind": "subject",
        "status": "PASS",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
-       "achieved": 18,
-       "shortfall": 0,
+       "achieved": 18.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -6275,10 +6136,10 @@
        "label": "Items 1-3 together: at least 50 ECTS-LP from the areas a) Mathematik, b) Programmierung, c) Ingenieurwissenschaften, d) Physik, e) Informatik und f) Geodäsie (= 18 + 6 + 'weitere Leistungen … im Gesamtumfang von mindestens 26 ECTS-LP', § 5 Abs. 3 Nr. 3; GPU-R arithmetic, not regulation wording)",
        "kind": "subject",
        "status": "PASS",
-       "required": 50,
+       "required": 50.0,
        "presence_only": false,
        "achieved": 131.25,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PHYSICS-I",
         "PHYSICS-I LABORATORY",
@@ -6340,7 +6201,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -6355,7 +6216,7 @@
        "label": "lit. b: Nachweis von Kompetenzen im Bereich Mathematik (diskrete Mathematik, ein- und mehrdimensionale Analysis, Lineare Algebra, Numerik, Stochastik, Statistik) im Umfang von insgesamt mindestens 18 CP (§ 32 Abs. 2 lit. b)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 18,
+       "required": 18.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 7.5,
@@ -6369,10 +6230,10 @@
        "label": "lit. c: I. Informatik, insbesondere Programmierung sowie Algorithmen und Datenstrukturen; II. Kernthemen des Visual-Computing-Bereichs (zum Beispiel Bildgebende Verfahren, Bildverarbeitung, Computer Vision, Mustererkennung, Computergrafik, wissenschaftliche Visualisierung, geometrische Modellierung); III. bildnahe Gebiete (zum Beispiel Datenwissenschaften, Künstliche Intelligenz, Robotik); IV. 'In den Bereichen I bis III müssen insgesamt 27 CP erbracht werden.' (§ 32 Abs. 2 lit. c)",
        "kind": "subject",
        "status": "PASS",
-       "required": 27,
+       "required": 27.0,
        "presence_only": false,
-       "achieved": 108,
-       "shortfall": 0,
+       "achieved": 108.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -6429,7 +6290,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -6437,14 +6298,14 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "Module im Umfang von mindestens 18 ECTS-LP in mathematischen Grundlagen der Informatik (PO § 5 Abs. 2 Nr. 1)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 18,
+       "required": 18.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 7.5,
@@ -6458,10 +6319,10 @@
        "label": "Module im Umfang von mindestens 14 ECTS-LP in Grundlagen der Algorithmentheorie, der Komplexitätstheorie oder formaler Sprachen (PO § 5 Abs. 2 Nr. 2)",
        "kind": "subject",
        "status": "PASS",
-       "required": 14,
+       "required": 14.0,
        "presence_only": false,
        "achieved": 19.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DATA STRUCTURE & ALGORITHMS",
         "FORMAL LANGUAGE & AUTOMATA THEORY",
@@ -6473,10 +6334,10 @@
        "label": "Module im Umfang von mindestens 20 ECTS-LP in Programmierung, Softwaretechnologie oder Informationssysteme (PO § 5 Abs. 2 Nr. 3)",
        "kind": "subject",
        "status": "PASS",
-       "required": 20,
+       "required": 20.0,
        "presence_only": false,
-       "achieved": 33,
-       "shortfall": 0,
+       "achieved": 33.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -6508,6 +6369,148 @@
      ]
     },
     {
+     "program_id": "9906",
+     "record_id": "9906",
+     "program": "Data Science and Machine Learning (M.Sc.)",
+     "university": "University of Oldenburg",
+     "list": 4,
+     "list_name": "not eligible",
+     "route_used": null,
+     "skipped_routes": [],
+     "checks": [
+      {
+       "label": "Degree field",
+       "kind": "degree",
+       "status": "PASS",
+       "achieved": null,
+       "shortfall": 0.0,
+       "detail": "information_technology vs accepted ['computer_science']"
+      },
+      {
+       "label": "Minimum grade",
+       "kind": "grade",
+       "status": "PASS",
+       "achieved": 2.69,
+       "shortfall": 0.0,
+       "detail": "no fixed grade limit"
+      },
+      {
+       "label": "a) 20 credit points in mathematics",
+       "kind": "subject",
+       "status": "FAIL",
+       "required": 20.0,
+       "presence_only": false,
+       "achieved": 10.5,
+       "shortfall": 9.5,
+       "courses": [
+        "DISCRETE MATHEMATICS",
+        "NUMERICAL METHODS"
+       ],
+       "item": 0
+      },
+      {
+       "label": "a.1) 5 CPs analysis or linear algebra (of the 20 CP mathematics)",
+       "kind": "subject",
+       "status": "FAIL",
+       "required": 5.0,
+       "presence_only": false,
+       "achieved": 4.5,
+       "shortfall": 0.5,
+       "courses": [
+        "NUMERICAL METHODS"
+       ],
+       "item": 1
+      },
+      {
+       "label": "a.2) 5 CPs in probability theory or statistics (of the 20 CP mathematics)",
+       "kind": "subject",
+       "status": "FAIL",
+       "required": 5.0,
+       "presence_only": false,
+       "achieved": 0.0,
+       "shortfall": 5.0,
+       "courses": [],
+       "item": 2
+      },
+      {
+       "label": "b) 10 credit points in computer science",
+       "kind": "subject",
+       "status": "PASS",
+       "required": 10.0,
+       "presence_only": false,
+       "achieved": 103.5,
+       "shortfall": 0.0,
+       "courses": [
+        "PROGRAMMING FOR PROBLEM SOLVING",
+        "PROGRAMMING FOR PROBLEM SOLVING LAB",
+        "DIGITAL ELECTRONICS",
+        "DATA STRUCTURE & ALGORITHMS",
+        "COMPUTER ORGANIZATION & ARCHITECTURE",
+        "FORMAL LANGUAGE & AUTOMATA THEORY",
+        "DESIGN ANALYSIS & ALGORITHM",
+        "DBMS",
+        "OPERATING SYSTEMS",
+        "OBJECT ORIENTED PROG. WITH PYTHON",
+        "COMPUTER GRAPHICS",
+        "SOFTWARE ENGINEERING",
+        "COMPUTER NETWORKS",
+        "DISTRIBUTED SYSTEMS",
+        "MACHINE LEARNING",
+        "INTERNET & WEB TECHNOLOGY",
+        "INFORMATION SECURITY"
+       ],
+       "item": 3
+      },
+      {
+       "label": "b.1) 5 CPs in the field of algorithms (of the 10 CP computer science)",
+       "kind": "subject",
+       "status": "PASS",
+       "required": 5.0,
+       "presence_only": false,
+       "achieved": 15.0,
+       "shortfall": 0.0,
+       "courses": [
+        "DATA STRUCTURE & ALGORITHMS",
+        "DESIGN ANALYSIS & ALGORITHM"
+       ],
+       "item": 4
+      },
+      {
+       "label": "b.2) 5 CPs in a higher programming language (preferably Python) (of the 10 CP computer science)",
+       "kind": "subject",
+       "status": "PASS",
+       "required": 5.0,
+       "presence_only": false,
+       "achieved": 18.0,
+       "shortfall": 0.0,
+       "courses": [
+        "PROGRAMMING FOR PROBLEM SOLVING",
+        "PROGRAMMING FOR PROBLEM SOLVING LAB",
+        "OBJECT ORIENTED PROG. WITH PYTHON",
+        "INTERNET & WEB TECHNOLOGY"
+       ],
+       "item": 5
+      }
+     ],
+     "real_gap": 9.5,
+     "reasons": [
+      "gap in mathematics 20 (must be present) is 4 ECTS, above its cap of 0",
+      "4 course(s) are not counted yet (syllabus needed); if one of them covers mathematics 20 (must be present), this result may change after the syllabus is checked"
+     ],
+     "important_notes": [],
+     "also_required": [
+      "APS certificate required for applicants from India (Koushik 24.10.2026)",
+      "English: B2"
+     ],
+     "unmet_areas": [],
+     "selection_step": true,
+     "selection_notes": [
+      "Places are awarded by a ranking only if there are more eligible applicants than places (§ 1 Abs. 3); quotas: 40 % for foreign nationals/stateless applicants with foreign qualifications not equated with Germans, 60 % for all others.",
+      "Ranking (§ 4 Abs. 2, max 6 points): a) grade 1,00-1,5 = 4; 1,51-1,75 = 3,5; 1,76-2,0 = 3; 2,01-2,25 = 2,5; 2,26-2,5 = 2; 2,51-2,75 = 1,5; 2,76-3,0 = 1; 3,01-4,0 = 0. b) 1 point per relevant professional or scientific activity in Data Science or Machine Learning (work, internship, Bachelor's thesis; at least 3 months each), max 2, listed in the specific eligibility form with proof.",
+      "Ties: better grade first, then lot (§ 4 Abs. 1). Program page: about 30 places per year."
+     ]
+    },
+    {
      "program_id": "6148",
      "record_id": "6148",
      "program": "Informatik / Computer Science (1-Fach-Master, M.Sc.)",
@@ -6522,7 +6525,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -6530,17 +6533,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "Eignungsprüfungssatzung § 3 Nr. 1: academic achievements whose learning objectives and contents correspond to those of the compulsory modules in the 1-subject Bachelor's degree programme in Computer Science at Kiel University, scope 80 ECTS credits (includes the mathematics below)",
        "kind": "subject",
        "status": "PASS",
-       "required": 80,
+       "required": 80.0,
        "presence_only": false,
-       "achieved": 114,
-       "shortfall": 0,
+       "achieved": 114.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -6568,7 +6571,7 @@
        "label": "Eignungsprüfungssatzung § 3 Nr. 1: academic achievements in the field of mathematics at least 20 ECTS credits (within the 80)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 20,
+       "required": 20.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 9.5,
@@ -6582,10 +6585,10 @@
        "label": "Eignungsprüfungssatzung § 3 Nr. 1: of which at least six ECTS credits in discrete mathematics (within the 20 mathematics)",
        "kind": "subject",
        "status": "PASS",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
-       "achieved": 6,
-       "shortfall": 0,
+       "achieved": 6.0,
+       "shortfall": 0.0,
        "courses": [
         "DISCRETE MATHEMATICS"
        ],
@@ -6624,7 +6627,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -6632,14 +6635,14 @@
        "kind": "grade",
        "status": "FAIL",
        "achieved": 2.69,
-       "required": 2,
+       "required": 2.0,
        "shortfall": 0.69
       },
       {
        "label": "SPO MAI § 3 Abs. 2 Satz 2 b): 'wenigstens 20 ECTS-Punkte aus der Mathematik, die insbesondere hinreichende Kenntnisse aus den Bereichen Statistik/Wahrscheinlichkeitstheorie, (lineare) Algebra und Analysis beinhalten'",
        "kind": "subject",
        "status": "FAIL",
-       "required": 20,
+       "required": 20.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 9.5,
@@ -6653,10 +6656,10 @@
        "label": "SPO MAI § 3 Abs. 2 Satz 2 c): 'wenigstens 15 ECTS-Punkte aus der Informatik, die hinreichende Kenntnisse aus den Bereichen sowohl der praktischen Informatik (typischerweise ... Datenbanken, Betriebssysteme, Software-Engineering oder Verteilte Systeme) als auch der theoretischen Informatik (typischerweise ... Algorithmen und Datenstrukturen, Automatentheorie, Komplexitätstheorie oder Logik) beinhalten'",
        "kind": "subject",
        "status": "PASS",
-       "required": 15,
+       "required": 15.0,
        "presence_only": false,
-       "achieved": 42,
-       "shortfall": 0,
+       "achieved": 42.0,
+       "shortfall": 0.0,
        "courses": [
         "DATA STRUCTURE & ALGORITHMS",
         "FORMAL LANGUAGE & AUTOMATA THEORY",
@@ -6674,7 +6677,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 22.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DBMS",
         "OPERATING SYSTEMS",
@@ -6689,7 +6692,7 @@
        "required": null,
        "presence_only": true,
        "achieved": 19.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DATA STRUCTURE & ALGORITHMS",
         "FORMAL LANGUAGE & AUTOMATA THEORY",
@@ -6734,7 +6737,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -6742,17 +6745,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "Fachliche Grundlagen im Bereich Informatik im Umfang von mindestens 61 Credits (max. 35 Punkte): Introduction to Informatics 6, Fundamentals of Programming (Exercises & Laboratory) 6, Introduction to Computer Organization and Technology - Computer Architecture 8, Introduction to Software Engineering 6, Fundamentals of Algorithms and Data Structures 6, Fundamentals of Databases 6, Basic Principles: Operating Systems and System Software 6, Computer Networking and IT Security 6, Business Process Management 5, Signal Processing 6 (Anlage 2 Nr. 4.2, Fächergruppen Information Engineering) — gate: with full maths points, at least 10 Informatik points are needed for the 30-point total, i.e. at least 36 credits (GPU-R arithmetic (not regulation wording; Koushik's decision 15.10.2026): Anlage 2 Nr. 4.2 deducts missing competences 'entsprechend den Credits der zugeordneten Module' and rejects applicants with 'weniger als 10 Punkte im Bereich Mathematik oder weniger als insgesamt 30 Punkte'; read as 1 point per missing credit (the strictest reading)).",
        "kind": "subject",
        "status": "PASS",
-       "required": 36,
+       "required": 36.0,
        "presence_only": false,
        "achieved": 112.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -6780,10 +6783,10 @@
        "label": "Fachliche Grundlagen im Bereich Mathematik im Umfang von mindestens 36 Credits (max. 20 Punkte): Discrete Structures 8, Computational Mathematics 1: Linear Algebra 8, Computational Mathematics 2: Calculus 8, Discrete Probability Theory 6, Information Theory and Theory of Computation 6 (Anlage 2 Nr. 4.2, Fächergruppen Information Engineering) — gate: at least 10 of 20 maths points, i.e. at most 10 of 36 credits missing = at least 26 credits (GPU-R arithmetic (not regulation wording; Koushik's decision 15.10.2026): Anlage 2 Nr. 4.2 deducts missing competences 'entsprechend den Credits der zugeordneten Module' and rejects applicants with 'weniger als 10 Punkte im Bereich Mathematik oder weniger als insgesamt 30 Punkte'; read as 1 point per missing credit (the strictest reading)). 'Information Theory and Theory of Computation' is in TUM's Mathematik group, so theoretical_cs is covered here (added up).",
        "kind": "subject",
        "status": "FAIL",
-       "required": 26,
+       "required": 26.0,
        "presence_only": false,
-       "achieved": 15,
-       "shortfall": 11,
+       "achieved": 15.0,
+       "shortfall": 11.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "FORMAL LANGUAGE & AUTOMATA THEORY",
@@ -6795,10 +6798,10 @@
        "label": "Informatik + Mathematik zusammen: insgesamt mindestens 30 Punkte (Anlage 2 Nr. 4.2) = at most 25 of 97 reference credits missing = at least 72 credits (GPU-R arithmetic (not regulation wording; Koushik's decision 15.10.2026): Anlage 2 Nr. 4.2 deducts missing competences 'entsprechend den Credits der zugeordneten Module' and rejects applicants with 'weniger als 10 Punkte im Bereich Mathematik oder weniger als insgesamt 30 Punkte'; read as 1 point per missing credit (the strictest reading)). Nested total: every Informatik and Mathematik course counts here (engine rule E2a).",
        "kind": "subject",
        "status": "PASS",
-       "required": 72,
+       "required": 72.0,
        "presence_only": false,
        "achieved": 127.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -6826,7 +6829,7 @@
        "item": 2
       }
      ],
-     "real_gap": 11,
+     "real_gap": 11.0,
      "reasons": [
       "1 subject requirement(s) not met and the programme allows no conditions"
      ],
@@ -6861,7 +6864,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science', 'electrical_electronic_engineering', 'mechanical_engineering', 'mathematics', 'physics']"
       },
       {
@@ -6869,17 +6872,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "informatische Bezüge im Umfang von insgesamt mindestens 24 ECTS-Punkten: Einführung in die Informatik, Einführung in die Programmierung, Einführung in Algorithmen und Datenstrukturen, und einem weiteren der folgenden Fächer: Einführung in die Theoretische Informatik, Einführung in Rechnerarchitektur oder Rechnernetze oder Einführung in die Softwaretechnik",
        "kind": "subject",
        "status": "PASS",
-       "required": 24,
+       "required": 24.0,
        "presence_only": false,
        "achieved": 82.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -6901,7 +6904,7 @@
        "label": "mathematische Bezüge in Analysis und linearer Algebra, mindestens 18 ECTS (program page: 'Mathematical references in analysis and linear algebra (at least 18 ECTS or equivalent)'; MEigS Anlage Nr. 2: 'z. B. im Umfang von insgesamt mindestens 18 ECTS-Punkten')",
        "kind": "subject",
        "status": "FAIL",
-       "required": 18,
+       "required": 18.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 13.5,
@@ -6947,7 +6950,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -6955,14 +6958,14 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "der Nachweis von mindestens 18 ECTS aus den Bereichen der künstlichen Intelligenz und/oder Data Science (SPO § 3 Abs. 1 Nr. 2)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 18,
+       "required": 18.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 13.5,
@@ -7008,7 +7011,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -7023,7 +7026,7 @@
        "label": "§ 2 Abs. 1 Nr. 3 'vertiefte Kenntnisse' Mathematik (mindestens 18 Leistungspunkte)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 18,
+       "required": 18.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 7.5,
@@ -7037,7 +7040,7 @@
        "label": "§ 2 Abs. 1 Nr. 3 Theoretische Informatik, insbesondere Berechenbarkeit, Komplexität, Formale Sprache, Formale Semantik und Formale Modellierung (insgesamt mindestens 12 Leistungspunkte)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 12,
+       "required": 12.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 7.5,
@@ -7047,7 +7050,7 @@
        "item": 1
       }
      ],
-     "real_gap": 15,
+     "real_gap": 15.0,
      "reasons": [
       "German grade 2.69 is worse than the limit 1.90",
       "2 subject requirement(s) not met"
@@ -7080,7 +7083,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -7088,17 +7091,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "mindestens 35 Leistungspunkte zu Themen der Betriebssysteme, Rechnernetze, Verteilte Systeme, Rechnerarchitektur, Technische Informatik, Datenbanken, Datensicherheit, Computergrafik bzw. Mensch-Computer-Interaktion",
        "kind": "subject",
        "status": "PASS",
-       "required": 35,
+       "required": 35.0,
        "presence_only": false,
-       "achieved": 54,
-       "shortfall": 0,
+       "achieved": 54.0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -7115,7 +7118,7 @@
        "label": "mindestens 35 Leistungspunkte zu Themen der Grundlagen der Mathematik (für Informatik), Theoretische Informatik bzw. Künstliche Intelligenz",
        "kind": "subject",
        "status": "FAIL",
-       "required": 35,
+       "required": 35.0,
        "presence_only": false,
        "achieved": 19.5,
        "shortfall": 15.5,
@@ -7131,10 +7134,10 @@
        "label": "mindestens 20 Leistungspunkte zu Themen der Grundlagen der Programmierung, Datenstrukturen bzw. Software Engineering",
        "kind": "subject",
        "status": "PASS",
-       "required": 20,
+       "required": 20.0,
        "presence_only": false,
        "achieved": 40.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -7180,7 +7183,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -7188,14 +7191,14 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "required": 3,
-       "shortfall": 0
+       "required": 3.0,
+       "shortfall": 0.0
       },
       {
        "label": "Informatikanteil mindestens 120 ECTS-Leistungspunkte (PO § 32 Abs. 1 Satz 1, § 48 Abs. 3 Satz 1; route T1)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 120,
+       "required": 120.0,
        "presence_only": false,
        "achieved": 103.5,
        "shortfall": 16.5,
@@ -7252,7 +7255,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -7261,16 +7264,16 @@
        "status": "PASS",
        "achieved": 2.69,
        "required": 2.7,
-       "shortfall": 0
+       "shortfall": 0.0
       },
       {
        "label": "a. Kenntnisse und Fähigkeiten in Grundlagenfächern, die unmittelbar auf die Informatik bezogen sind (z.B. Algorithmen, Datenstrukturen, Theoretische oder Technische Informatik, Rechnerarchitekturen) im Umfang von 30 ECTS oder einem entsprechenden Gesamtworkload",
        "kind": "subject",
        "status": "PASS",
-       "required": 30,
+       "required": 30.0,
        "presence_only": false,
        "achieved": 94.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -7294,10 +7297,10 @@
        "label": "b. Kenntnisse und Fähigkeiten in Mathematik (z.B. Analysis, Lineare Algebra, Stochastik) im Umfang von 10 ECTS oder einem entsprechenden Gesamtworkload",
        "kind": "subject",
        "status": "PASS",
-       "required": 10,
+       "required": 10.0,
        "presence_only": false,
        "achieved": 10.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "NUMERICAL METHODS"
@@ -7308,7 +7311,7 @@
        "label": "c. Kenntnisse und Fähigkeiten in grundlegenden technischen Methoden zur Entwicklung intelligenter Systeme (z.B. Maschinelles Lernen, Künstliche Intelligenz, Mustererkennung, Robotik, Bild-/Sprachverarbeitung, Mensch-Maschine-Interaktion) im Umfang von 30 ETCS oder einem entsprechenden Gesamtworkload. Alternativ können Kenntnisse und Fähigkeiten in interdisziplinären Grundlagen intelligenter oder interaktiver Systeme (z.B. aus Psychologie, Neurobiologie, Linguistik, Philosophie) im Umfang von bis zu 10 ETCS oder einem entsprechenden Gesamtworkload angerechnet werden.",
        "kind": "subject",
        "status": "FAIL",
-       "required": 30,
+       "required": 30.0,
        "presence_only": false,
        "achieved": 13.5,
        "shortfall": 16.5,
@@ -7351,7 +7354,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -7366,10 +7369,10 @@
        "label": "§ 3 Abs. 1-2: mindestens 80 ECTS Informatik- oder Informationswissenschaftsinhalte aus den Themenfeldern: 1. Theoretische Informatik, Formale Sprachen, Automaten, Digitaltechnik; 2. Programmierung, Paradigmen der Programmierung, Algorithmen, Algorithmik, Mobile Computing, Softwaretechnik, Software Engineering; 3. Webentwicklung, Webtechnologien, Web-basierte Anwendungen; 4. Mensch-Computer-Interaktion, Entwicklung interaktiver Systeme; 5. Wissensorganisation; 6. Digitale Informationsgesellschaft, Informatik & Gesellschaft, Medieninformatik & Gesellschaft, Informationsethik; 7. Informationsvisualisierung, Informationserschließung; 8. Information in Unternehmen, Informationsmanagement, Prozessmanagement, Wissensmanagement; 9. Datenmodellierung; 10. Datenanalyse, Informationsanalyse, Business Intelligence, Business Analytics, Entscheidungsunterstützung; 11. Data Mining, Künstliche Intelligenz; 12. Informationsrecherche, Information Retrieval, Suchmaschinentechnologie; 13. Datenbanksysteme, Informationssysteme, ERP-Systeme, Anwendungssysteme; 14. Informationsrecht, Datenschutzrecht, Recht in der Informatik; 15. Medientechnik und -produktion, Audiovisuelle Medien, Computergrafik und Animation; 16. Kommunikationstechnik und Netze; 17. Betriebssysteme, verteilte Systeme Betriebssysteme, Rechnerarchitekturen; 18. IT-Betrieb, Identity Management, Servicemanagement, Virtualisierung, Dienstarchitekturen, IT-Sicherheit, IT-Architekturmanagement; 19. IT-Controlling",
        "kind": "subject",
        "status": "PASS",
-       "required": 80,
+       "required": 80.0,
        "presence_only": false,
        "achieved": 109.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -7397,10 +7400,10 @@
        "label": "Handlungsfeld Acting Responsibly (AR): 'verantwortliches Handeln im gesellschaftlichen Kontext' — at least 5 ECTS prior credits for BIS (PO § 3 Abs. 6 table)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 5,
+       "required": 5.0,
        "presence_only": false,
-       "achieved": 0,
-       "shortfall": 5,
+       "achieved": 0.0,
+       "shortfall": 5.0,
        "courses": [],
        "item": 1
       },
@@ -7408,10 +7411,10 @@
        "label": "Handlungsfeld Architecting and Coding Software (ACS): 'Methoden und Werkzeugen, um Software sowie softwarebasierte digitale Systeme und Technologien zu konzipieren' — at least 10 ECTS prior credits for BIS (PO § 3 Abs. 6 table)",
        "kind": "subject",
        "status": "PASS",
-       "required": 10,
+       "required": 10.0,
        "presence_only": false,
        "achieved": 40.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -7427,7 +7430,7 @@
        "label": "Handlungsfeld Empowering Business (EB): 'Entwickeln von Geschäftsfähigkeiten unter Nutzung digitaler Dienste' — at least 25 ECTS prior credits for BIS (PO § 3 Abs. 6 table)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 25,
+       "required": 25.0,
        "presence_only": false,
        "achieved": 13.5,
        "shortfall": 11.5,
@@ -7442,10 +7445,10 @@
        "label": "Handlungsfeld Generating and Accessing Knowledge (GAK): 'umfasst den gesamten digitalen Erzeugungsprozess von Daten über Informationen zu Wissen' — at least 5 ECTS prior credits for BIS (PO § 3 Abs. 6 table)",
        "kind": "subject",
        "status": "PASS",
-       "required": 5,
+       "required": 5.0,
        "presence_only": false,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DBMS"
        ],
@@ -7455,10 +7458,10 @@
        "label": "Handlungsfeld Managing and Running IT (MRI): 'zielt auf umfassendes Expert*innenwissen für den Aufbau, den Betrieb und die Weiterentwicklung der IT' — at least 5 ECTS prior credits for BIS (PO § 3 Abs. 6 table)",
        "kind": "subject",
        "status": "PASS",
-       "required": 5,
+       "required": 5.0,
        "presence_only": false,
-       "achieved": 42,
-       "shortfall": 0,
+       "achieved": 42.0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -7503,7 +7506,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -7511,17 +7514,17 @@
        "kind": "grade",
        "status": "FAIL",
        "achieved": 2.69,
-       "required": 2,
+       "required": 2.0,
        "shortfall": 0.69
       },
       {
        "label": "'Kompetenzen auf den Gebieten Mathematik, theoretische Grundlagen der Informatik oder formalen Softwareanalyse in einem Umfang von mindestens 34 ECTS-Punkten'",
        "kind": "subject",
        "status": "FAIL",
-       "required": 34,
+       "required": 34.0,
        "presence_only": false,
-       "achieved": 15,
-       "shortfall": 19,
+       "achieved": 15.0,
+       "shortfall": 19.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "FORMAL LANGUAGE & AUTOMATA THEORY",
@@ -7533,10 +7536,10 @@
        "label": "'Kompetenzen auf den Gebieten Programmierung, Softwaretechnik oder Algorithmen und Datenstrukturen in einem Umfang von mindestens 33 ECTS-Punkten, zu denen auch die Bachelorarbeit im Bereich Informatik zählen kann'",
        "kind": "subject",
        "status": "PASS",
-       "required": 33,
+       "required": 33.0,
        "presence_only": false,
-       "achieved": 63,
-       "shortfall": 0,
+       "achieved": 63.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -7555,10 +7558,10 @@
        "label": "'Kompetenzen auf den Gebieten Datenbanksysteme, Rechner und Betriebssysteme, Informationssicherheit, Verteilte Systeme, Datenkommunikation, Interaktive Systeme oder Mobile Systeme in einem Umfang von mindestens 36 ECTS-Punkten'",
        "kind": "subject",
        "status": "PASS",
-       "required": 36,
+       "required": 36.0,
        "presence_only": false,
        "achieved": 49.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -7571,7 +7574,7 @@
        "item": 2
       }
      ],
-     "real_gap": 19,
+     "real_gap": 19.0,
      "reasons": [
       "German grade 2.69 is worse than the limit 2.00",
       "1 subject requirement(s) not met"
@@ -7604,7 +7607,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science', 'mathematics', 'physics', 'electrical_electronic_engineering']"
       },
       {
@@ -7619,7 +7622,7 @@
        "label": "mindestens 30 Kreditpunkte durch die Module Analysis I, Analysis II, Lineare Algebra, Stochastik oder Statistik",
        "kind": "subject",
        "status": "FAIL",
-       "required": 30,
+       "required": 30.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 19.5,
@@ -7665,7 +7668,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -7674,16 +7677,16 @@
        "status": "PASS",
        "achieved": 2.69,
        "required": 2.7,
-       "shortfall": 0
+       "shortfall": 0.0
       },
       {
        "label": "Fachanteil Informatik und/oder Mathematik von mindestens 120 ECTS-Leistungspunkten (FStuPO § 3 Satz 1)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 120,
+       "required": 120.0,
        "presence_only": false,
-       "achieved": 114,
-       "shortfall": 6,
+       "achieved": 114.0,
+       "shortfall": 6.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -7711,10 +7714,10 @@
        "label": "Fachanteil Informatik mindestens 40 ECTS-Leistungspunkte (FStuPO § 3 Satz 2; of the 120) — Theoretische Informatik counted in the mathematics share (GPU-R policy)",
        "kind": "subject",
        "status": "PASS",
-       "required": 40,
+       "required": 40.0,
        "presence_only": false,
-       "achieved": 99,
-       "shortfall": 0,
+       "achieved": 99.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -7739,10 +7742,10 @@
        "label": "Fachanteil Mathematik inklusive dem Fach Theoretische Informatik mindestens 35 ECTS-Leistungspunkte (FStuPO § 3 Satz 3; of the 120)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 35,
+       "required": 35.0,
        "presence_only": false,
-       "achieved": 15,
-       "shortfall": 20,
+       "achieved": 15.0,
+       "shortfall": 20.0,
        "courses": [
         "DISCRETE MATHEMATICS",
         "FORMAL LANGUAGE & AUTOMATA THEORY",
@@ -7751,7 +7754,7 @@
        "item": 2
       }
      ],
-     "real_gap": 20,
+     "real_gap": 20.0,
      "reasons": [
       "2 subject requirement(s) not met and the programme allows no conditions"
      ],
@@ -7784,7 +7787,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -7799,7 +7802,7 @@
        "label": "Data Science / Statistik / Maschinelles Lernen — 18 LP (Anlage 1 Nr. 5.1.1)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 18,
+       "required": 18.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 13.5,
@@ -7812,7 +7815,7 @@
        "label": "Mathematik (Wahrscheinlichkeitstheorie, Lineare Algebra, Analysis, Numerik) — 18 LP (Anlage 1 Nr. 5.1.1); § 4 Abs. 2: 'Modulen der Grundlagen der Mathematik im Umfang von mindestens 18 LP'",
        "kind": "subject",
        "status": "FAIL",
-       "required": 18,
+       "required": 18.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 7.5,
@@ -7826,10 +7829,10 @@
        "label": "Programmierung — 6 LP (Anlage 1 Nr. 5.1.1)",
        "kind": "subject",
        "status": "PASS",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
-       "achieved": 18,
-       "shortfall": 0,
+       "achieved": 18.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -7839,7 +7842,7 @@
        "item": 2
       }
      ],
-     "real_gap": 21,
+     "real_gap": 21.0,
      "reasons": [
       "German grade 2.69 is worse than the limit 2.59",
       "2 subject requirement(s) not met"
@@ -7868,14 +7871,20 @@
      "list": 4,
      "list_name": "not eligible",
      "route_used": "3903_DIRECT",
-     "skipped_routes": [],
+     "skipped_routes": [
+      {
+       "id": "3903_CONDITIONAL",
+       "needs": "special_qualification",
+       "why": "grade worse than 1.8 and up to 2.5: admitted only if you prove a special qualification related to the programme (relevant work, CS or industry projects, publications, or a bachelor thesis graded 2.5 or better), and the examination committee may then admit you (PO § 3 Abs. 5-6)"
+      }
+     ],
      "checks": [
       {
        "label": "Degree field",
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -7890,7 +7899,7 @@
        "label": "ersten berufsqualifizierenden Hochschulabschluss in einem mindestens sechssemestrigen Hochschulstudiengang mit mindestens 180 ECTS-Punkten (Credit Points) …, dessen Informatikanteil mindestens 70% der in diesem Studiengang möglichen ECTS-Punkte (Credit Points) beträgt (PO § 3 Abs. 1 i.d.F. der Änderung vom 29.10.2025); stored as min_ects 126: GPU-R arithmetic (70 % of 180), not regulation wording",
        "kind": "subject",
        "status": "FAIL",
-       "required": 126,
+       "required": 126.0,
        "presence_only": false,
        "achieved": 103.5,
        "shortfall": 22.5,
@@ -7949,7 +7958,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -7964,10 +7973,10 @@
        "label": "Programmierung und Algorithmik im Umfang von 20 ECTS-Punkten",
        "kind": "subject",
        "status": "PASS",
-       "required": 20,
+       "required": 20.0,
        "presence_only": false,
-       "achieved": 33,
-       "shortfall": 0,
+       "achieved": 33.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -7982,7 +7991,7 @@
        "label": "Theoretische Informatik und Logik im Umfang von 15 ECTS-Punkten",
        "kind": "subject",
        "status": "FAIL",
-       "required": 15,
+       "required": 15.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 4.5,
@@ -7996,10 +8005,10 @@
        "label": "Datenbanken und Konzeptionelle Modellierung im Umfang von 5 ECTS Punkten",
        "kind": "subject",
        "status": "PASS",
-       "required": 5,
+       "required": 5.0,
        "presence_only": false,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DBMS"
        ],
@@ -8009,7 +8018,7 @@
        "label": "Mathematik in der Informatik (Grundlagen der Analysis, Lineare Algebra, Stochastik) im Umfang von mindestens 20 ECTS-Punkten",
        "kind": "subject",
        "status": "FAIL",
-       "required": 20,
+       "required": 20.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 15.5,
@@ -8022,7 +8031,7 @@
        "label": "Software-Engineering im Umfang von mindestens 10 ECTS-Punkten",
        "kind": "subject",
        "status": "FAIL",
-       "required": 10,
+       "required": 10.0,
        "presence_only": false,
        "achieved": 7.5,
        "shortfall": 2.5,
@@ -8068,7 +8077,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -8083,10 +8092,10 @@
        "label": "§ 3 Abs. 1-2: mindestens 80 ECTS Informatik- oder Informationswissenschaftsinhalte aus den Themenfeldern: 1. Theoretische Informatik, Formale Sprachen, Automaten, Digitaltechnik; 2. Programmierung, Paradigmen der Programmierung, Algorithmen, Algorithmik, Mobile Computing, Softwaretechnik, Software Engineering; 3. Webentwicklung, Webtechnologien, Web-basierte Anwendungen; 4. Mensch-Computer-Interaktion, Entwicklung interaktiver Systeme; 5. Wissensorganisation; 6. Digitale Informationsgesellschaft, Informatik & Gesellschaft, Medieninformatik & Gesellschaft, Informationsethik; 7. Informationsvisualisierung, Informationserschließung; 8. Information in Unternehmen, Informationsmanagement, Prozessmanagement, Wissensmanagement; 9. Datenmodellierung; 10. Datenanalyse, Informationsanalyse, Business Intelligence, Business Analytics, Entscheidungsunterstützung; 11. Data Mining, Künstliche Intelligenz; 12. Informationsrecherche, Information Retrieval, Suchmaschinentechnologie; 13. Datenbanksysteme, Informationssysteme, ERP-Systeme, Anwendungssysteme; 14. Informationsrecht, Datenschutzrecht, Recht in der Informatik; 15. Medientechnik und -produktion, Audiovisuelle Medien, Computergrafik und Animation; 16. Kommunikationstechnik und Netze; 17. Betriebssysteme, verteilte Systeme Betriebssysteme, Rechnerarchitekturen; 18. IT-Betrieb, Identity Management, Servicemanagement, Virtualisierung, Dienstarchitekturen, IT-Sicherheit, IT-Architekturmanagement; 19. IT-Controlling",
        "kind": "subject",
        "status": "PASS",
-       "required": 80,
+       "required": 80.0,
        "presence_only": false,
-       "achieved": 105,
-       "shortfall": 0,
+       "achieved": 105.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -8113,10 +8122,10 @@
        "label": "Handlungsfeld Acting Responsibly (AR): 'verantwortliches Handeln im gesellschaftlichen Kontext' — at least 5 ECTS prior credits for DIS (PO § 3 Abs. 6 table)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 5,
+       "required": 5.0,
        "presence_only": false,
-       "achieved": 0,
-       "shortfall": 5,
+       "achieved": 0.0,
+       "shortfall": 5.0,
        "courses": [],
        "item": 1
       },
@@ -8124,10 +8133,10 @@
        "label": "Handlungsfeld Architecting and Coding Software (ACS): 'Methoden und Werkzeugen, um Software sowie softwarebasierte digitale Systeme und Technologien zu konzipieren' — at least 10 ECTS prior credits for DIS (PO § 3 Abs. 6 table)",
        "kind": "subject",
        "status": "PASS",
-       "required": 10,
+       "required": 10.0,
        "presence_only": false,
        "achieved": 40.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -8143,10 +8152,10 @@
        "label": "Handlungsfeld Empowering Business (EB): 'Entwickeln von Geschäftsfähigkeiten unter Nutzung digitaler Dienste' — at least 5 ECTS prior credits for DIS (PO § 3 Abs. 6 table)",
        "kind": "subject",
        "status": "PASS",
-       "required": 5,
+       "required": 5.0,
        "presence_only": false,
        "achieved": 13.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "ECONOMICS FOR ENGINEERS",
         "INTRO. TO INDUSTRIAL MGMT. (HUMA. III)",
@@ -8158,10 +8167,10 @@
        "label": "Handlungsfeld Generating and Accessing Knowledge (GAK): 'umfasst den gesamten digitalen Erzeugungsprozess von Daten über Informationen zu Wissen' — at least 30 ECTS prior credits for DIS (PO § 3 Abs. 6 table)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 30,
+       "required": 30.0,
        "presence_only": false,
-       "achieved": 12,
-       "shortfall": 18,
+       "achieved": 12.0,
+       "shortfall": 18.0,
        "courses": [
         "DBMS",
         "MACHINE LEARNING"
@@ -8169,7 +8178,7 @@
        "item": 4
       }
      ],
-     "real_gap": 23,
+     "real_gap": 23.0,
      "reasons": [
       "German grade 2.69 is worse than the limit 2.50",
       "2 subject requirement(s) not met"
@@ -8202,7 +8211,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -8211,13 +8220,13 @@
        "status": "PASS",
        "achieved": 2.69,
        "required": 3.2,
-       "shortfall": 0
+       "shortfall": 0.0
       },
       {
        "label": "insgesamt mindestens 72 LP in Modulen aus der wissenschaftlichen Disziplin Informatik",
        "kind": "subject",
        "status": "FAIL",
-       "required": 72,
+       "required": 72.0,
        "presence_only": false,
        "achieved": 70.5,
        "shortfall": 1.5,
@@ -8241,7 +8250,7 @@
        "label": "mindestens 18 LP in Modulen aus der wissenschaftlichen Disziplin Mathematik",
        "kind": "subject",
        "status": "FAIL",
-       "required": 18,
+       "required": 18.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 7.5,
@@ -8255,7 +8264,7 @@
        "label": "Davon müssen mindestens 9 LP auf Kompetenzen aus dem Modul Maschinelles Lernen entfallen",
        "kind": "subject",
        "status": "FAIL",
-       "required": 9,
+       "required": 9.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 4.5,
@@ -8268,10 +8277,10 @@
        "label": "sowie jeweils mindestens 9 LP auf die Kompetenzen aus mindestens 5 der 7 Module: Objektorientierte Programmierung, Algorithmen und Datenstrukturen, Systemsoftware und Rechnerkommunikation, Effiziente Algorithmen, Grundlagen der Linearen Algebra, und entweder Grundlagen der Analysis und Grundlagen der Höheren Mathematik oder Analysis I und Analysis II — min_ects 45 = 5 x 9 LP, GPU-R arithmetic",
        "kind": "subject",
        "status": "FAIL",
-       "required": 45,
+       "required": 45.0,
        "presence_only": false,
-       "achieved": 33,
-       "shortfall": 12,
+       "achieved": 33.0,
+       "shortfall": 12.0,
        "courses": [
         "OPERATING SYSTEMS",
         "OBJECT ORIENTED PROG. WITH PYTHON",
@@ -8282,7 +8291,7 @@
        "item": 3
       }
      ],
-     "real_gap": 24,
+     "real_gap": 24.0,
      "reasons": [
       "4 subject requirement(s) not met and the programme allows no conditions"
      ],
@@ -8317,7 +8326,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -8326,13 +8335,13 @@
        "status": "PASS",
        "achieved": 2.69,
        "required": 2.7,
-       "shortfall": 0
+       "shortfall": 0.0
       },
       {
        "label": "b) grundlegende, mathematische Konzepte der Stochastik, Analysis und Linearen Algebra: mindestens 28 Kreditpunkte (KP)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 28,
+       "required": 28.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 17.5,
@@ -8346,10 +8355,10 @@
        "label": "c) grundlegende informatische Anteile wie Softwareentwicklung, IT-Sicherheit, Kryptologie, Rechnersysteme und theoretische Informatik: mindestens 60 KP",
        "kind": "subject",
        "status": "PASS",
-       "required": 60,
+       "required": 60.0,
        "presence_only": false,
        "achieved": 103.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -8375,7 +8384,7 @@
        "label": "d) mindestens 12 KP davon aus dem Bereich der IT-Sicherheit",
        "kind": "subject",
        "status": "FAIL",
-       "required": 12,
+       "required": 12.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 7.5,
@@ -8385,7 +8394,7 @@
        "item": 2
       }
      ],
-     "real_gap": 25,
+     "real_gap": 25.0,
      "reasons": [
       "2 subject requirement(s) not met and the programme allows no conditions"
      ],
@@ -8417,7 +8426,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -8432,10 +8441,10 @@
        "label": "Empirisches Arbeiten und Statistik — 12 LP (§ 4 Abs. 2; Anlage 1 Nr. 5.1.1)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 12,
+       "required": 12.0,
        "presence_only": false,
-       "achieved": 0,
-       "shortfall": 12,
+       "achieved": 0.0,
+       "shortfall": 12.0,
        "courses": [],
        "item": 0
       },
@@ -8443,7 +8452,7 @@
        "label": "Natürliche Sprachverarbeitung oder Informationssuche — 18 LP (§ 4 Abs. 2; Anlage 1 Nr. 5.1.1)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 18,
+       "required": 18.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 13.5,
@@ -8456,10 +8465,10 @@
        "label": "Programmierung — 12 LP (§ 4 Abs. 2; Anlage 1 Nr. 5.1.1)",
        "kind": "subject",
        "status": "PASS",
-       "required": 12,
+       "required": 12.0,
        "presence_only": false,
-       "achieved": 18,
-       "shortfall": 0,
+       "achieved": 18.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -8472,10 +8481,10 @@
        "label": "mindestens 54 LP in Grundlagen der Information Science insgesamt, davon Empirisches Arbeiten und Statistik 12, Programmierung 12, Natürliche Sprachverarbeitung oder Informationssuche 18, weitere Leistungen 12 (§ 4 Abs. 2; Anlage 1 Nr. 5.1.1). Nested total: every computer-science and mathematics course counts here (engine rule E2a).",
        "kind": "subject",
        "status": "PASS",
-       "required": 54,
+       "required": 54.0,
        "presence_only": false,
-       "achieved": 114,
-       "shortfall": 0,
+       "achieved": 114.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -8535,7 +8544,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -8543,14 +8552,14 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "Module im Umfang von mindestens 24 ECTS-LP in Grundlagen der IT-Sicherheit (PO § 5 Abs. 4 Nr. 1)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 24,
+       "required": 24.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 19.5,
@@ -8563,7 +8572,7 @@
        "label": "Module im Umfang von mindestens 18 ECTS-LP in mathematischen Grundlagen der Informatik (PO § 5 Abs. 4 Nr. 2)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 18,
+       "required": 18.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 7.5,
@@ -8577,10 +8586,10 @@
        "label": "Module im Umfang von mindestens 9 ECTS-LP in Grundlagen der Algorithmentheorie, der Komplexitätstheorie oder formaler Sprachen (PO § 5 Abs. 4 Nr. 3)",
        "kind": "subject",
        "status": "PASS",
-       "required": 9,
+       "required": 9.0,
        "presence_only": false,
        "achieved": 19.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DATA STRUCTURE & ALGORITHMS",
         "FORMAL LANGUAGE & AUTOMATA THEORY",
@@ -8592,10 +8601,10 @@
        "label": "Module im Umfang von mindestens 18 ECTS-LP in Programmierung, Softwaretechnologie oder Informationssysteme (PO § 5 Abs. 4 Nr. 4)",
        "kind": "subject",
        "status": "PASS",
-       "required": 18,
+       "required": 18.0,
        "presence_only": false,
-       "achieved": 33,
-       "shortfall": 0,
+       "achieved": 33.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -8607,7 +8616,7 @@
        "item": 3
       }
      ],
-     "real_gap": 27,
+     "real_gap": 27.0,
      "reasons": [
       "2 subject requirement(s) not met and the programme allows no conditions"
      ],
@@ -8641,7 +8650,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -8649,14 +8658,14 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "Mathematics 'Total 30' (Anhang 2): Linear Algebra 6 CP, Analysis 6 CP, Discrete Mathematics 6 CP, Stochastics 6 CP, Statistics or Numerical Mathematics 6 CP — stored as one maths total of 30 (Koushik's decision N-43, 16.10.2026)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 30,
+       "required": 30.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 19.5,
@@ -8670,10 +8679,10 @@
        "label": "Computer Science and Data Science: Programming 12 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 12,
+       "required": 12.0,
        "presence_only": false,
-       "achieved": 18,
-       "shortfall": 0,
+       "achieved": 18.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -8686,10 +8695,10 @@
        "label": "Computer Science and Data Science: Algorithms and Data Structures 6 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
-       "achieved": 15,
-       "shortfall": 0,
+       "achieved": 15.0,
+       "shortfall": 0.0,
        "courses": [
         "DATA STRUCTURE & ALGORITHMS",
         "DESIGN ANALYSIS & ALGORITHM"
@@ -8700,7 +8709,7 @@
        "label": "Computer Science and Data Science: Theoretical Computer Science (Automata theory, Computability and / or Complexity Theory) 6 CP",
        "kind": "subject",
        "status": "FAIL",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 1.5,
@@ -8713,7 +8722,7 @@
        "label": "Computer Science and Data Science: Machine Learning and Data Mining 12 CP",
        "kind": "subject",
        "status": "FAIL",
-       "required": 12,
+       "required": 12.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 7.5,
@@ -8755,7 +8764,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science', 'mathematics', 'physics']"
       },
       {
@@ -8763,17 +8772,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "Praktische Informatik (28 CP): Programmierung 8 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 8,
+       "required": 8.0,
        "presence_only": false,
-       "achieved": 18,
-       "shortfall": 0,
+       "achieved": 18.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -8786,10 +8795,10 @@
        "label": "Praktische Informatik (28 CP): Datenstrukturen und Algorithmen 8 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 8,
+       "required": 8.0,
        "presence_only": false,
-       "achieved": 15,
-       "shortfall": 0,
+       "achieved": 15.0,
+       "shortfall": 0.0,
        "courses": [
         "DATA STRUCTURE & ALGORITHMS",
         "DESIGN ANALYSIS & ALGORITHM"
@@ -8800,10 +8809,10 @@
        "label": "Praktische Informatik (28 CP): Datenbanken und Informationssysteme 6 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DBMS"
        ],
@@ -8813,10 +8822,10 @@
        "label": "Praktische Informatik (28 CP): Softwaretechnik 6 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "SOFTWARE ENGINEERING"
        ],
@@ -8826,10 +8835,10 @@
        "label": "Technische Informatik (18 CP): Einführung in die Technische Informatik 6 CP + Datenkommunikation 6 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 12,
+       "required": 12.0,
        "presence_only": false,
-       "achieved": 30,
-       "shortfall": 0,
+       "achieved": 30.0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -8842,10 +8851,10 @@
        "label": "Technische Informatik (18 CP): Betriebssysteme und Systemsoftware 6 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "OPERATING SYSTEMS"
        ],
@@ -8855,7 +8864,7 @@
        "label": "Theoretische Informatik (18 CP): Formale Systeme, Automaten, Prozesse 6 CP; Berechenbarkeit und Komplexität 6 CP; Mathematische Logik I 6 CP",
        "kind": "subject",
        "status": "FAIL",
-       "required": 18,
+       "required": 18.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 13.5,
@@ -8868,7 +8877,7 @@
        "label": "Kompetenzen im Bereich der Mathematik: Diskrete Strukturen 6 CP; Analysis für Informatik 8 CP; Lineare Algebra 6 CP; Einführung in die angewandte Stochastik 6 CP",
        "kind": "subject",
        "status": "FAIL",
-       "required": 26,
+       "required": 26.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 15.5,
@@ -8879,7 +8888,7 @@
        "item": 7
       }
      ],
-     "real_gap": 29,
+     "real_gap": 29.0,
      "reasons": [
       "subject gap 29 ECTS is above the conditions cap of 12"
      ],
@@ -8911,7 +8920,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -8919,17 +8928,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "Praktische Informatik (33 CP): Programmierung 8 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 8,
+       "required": 8.0,
        "presence_only": false,
-       "achieved": 18,
-       "shortfall": 0,
+       "achieved": 18.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -8942,10 +8951,10 @@
        "label": "Praktische Informatik (33 CP): Datenstrukturen und Algorithmen 7 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 7,
+       "required": 7.0,
        "presence_only": false,
-       "achieved": 15,
-       "shortfall": 0,
+       "achieved": 15.0,
+       "shortfall": 0.0,
        "courses": [
         "DATA STRUCTURE & ALGORITHMS",
         "DESIGN ANALYSIS & ALGORITHM"
@@ -8956,10 +8965,10 @@
        "label": "Praktische Informatik (33 CP): Datenbanken und Informationssysteme 6 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DBMS"
        ],
@@ -8969,10 +8978,10 @@
        "label": "Praktische Informatik (33 CP): Softwaretechnik 6 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "SOFTWARE ENGINEERING"
        ],
@@ -8982,7 +8991,7 @@
        "label": "Praktische Informatik (33 CP): Elements of Machine Learning and Data Science 6 CP",
        "kind": "subject",
        "status": "FAIL",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 1.5,
@@ -8995,10 +9004,10 @@
        "label": "Technische Informatik (22 CP): Einführung in die Technische Informatik 6 CP + Datenkommunikation 6 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 12,
+       "required": 12.0,
        "presence_only": false,
-       "achieved": 30,
-       "shortfall": 0,
+       "achieved": 30.0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -9011,10 +9020,10 @@
        "label": "Technische Informatik (22 CP): Betriebssysteme und Systemsoftware 6 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "OPERATING SYSTEMS"
        ],
@@ -9024,10 +9033,10 @@
        "label": "Technische Informatik (22 CP): IT-Sicherheit 4 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 4,
+       "required": 4.0,
        "presence_only": false,
        "achieved": 4.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "INFORMATION SECURITY"
        ],
@@ -9037,7 +9046,7 @@
        "label": "Theoretische Informatik (18 CP): Formale Systeme, Automaten und Prozesse 6 CP; Berechenbarkeit und Komplexität 6 CP; Mathematische Logik I 6 CP",
        "kind": "subject",
        "status": "FAIL",
-       "required": 18,
+       "required": 18.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 13.5,
@@ -9050,7 +9059,7 @@
        "label": "Kompetenzen im Bereich der Mathematik im Umfang von 26 CP: Diskrete Strukturen 6 CP; Analysis für Informatik 8 CP; Lineare Algebra 6 CP; Einführung in die angewandte Stochastik 6 CP",
        "kind": "subject",
        "status": "FAIL",
-       "required": 26,
+       "required": 26.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 15.5,
@@ -9095,7 +9104,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -9103,17 +9112,17 @@
        "kind": "grade",
        "status": "PASS",
        "achieved": 2.69,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "no fixed grade limit"
       },
       {
        "label": "Praktische Informatik (33 CP): Programmierung 8 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 8,
+       "required": 8.0,
        "presence_only": false,
-       "achieved": 18,
-       "shortfall": 0,
+       "achieved": 18.0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -9126,10 +9135,10 @@
        "label": "Praktische Informatik (33 CP): Datenstrukturen und Algorithmen 7 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 7,
+       "required": 7.0,
        "presence_only": false,
-       "achieved": 15,
-       "shortfall": 0,
+       "achieved": 15.0,
+       "shortfall": 0.0,
        "courses": [
         "DATA STRUCTURE & ALGORITHMS",
         "DESIGN ANALYSIS & ALGORITHM"
@@ -9140,10 +9149,10 @@
        "label": "Praktische Informatik (33 CP): Datenbanken und Informationssysteme 6 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DBMS"
        ],
@@ -9153,10 +9162,10 @@
        "label": "Praktische Informatik (33 CP): Softwaretechnik 6 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "SOFTWARE ENGINEERING"
        ],
@@ -9166,7 +9175,7 @@
        "label": "Praktische Informatik (33 CP): Elements of Machine Learning and Data Science 6 CP",
        "kind": "subject",
        "status": "FAIL",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 1.5,
@@ -9179,10 +9188,10 @@
        "label": "Technische Informatik (22 CP): Einführung in die Technische Informatik 6 CP + Datenkommunikation 6 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 12,
+       "required": 12.0,
        "presence_only": false,
-       "achieved": 30,
-       "shortfall": 0,
+       "achieved": 30.0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -9195,10 +9204,10 @@
        "label": "Technische Informatik (22 CP): Betriebssysteme und Systemsoftware 6 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 6,
+       "required": 6.0,
        "presence_only": false,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "OPERATING SYSTEMS"
        ],
@@ -9208,10 +9217,10 @@
        "label": "Technische Informatik (22 CP): IT-Sicherheit 4 CP",
        "kind": "subject",
        "status": "PASS",
-       "required": 4,
+       "required": 4.0,
        "presence_only": false,
        "achieved": 4.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "INFORMATION SECURITY"
        ],
@@ -9221,7 +9230,7 @@
        "label": "Theoretische Informatik (18 CP): Formale Systeme, Automaten und Prozesse 6 CP; Berechenbarkeit und Komplexität 6 CP; Mathematische Logik I 6 CP",
        "kind": "subject",
        "status": "FAIL",
-       "required": 18,
+       "required": 18.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 13.5,
@@ -9234,7 +9243,7 @@
        "label": "Kompetenzen im Bereich der Mathematik im Umfang von 26 CP: Diskrete Strukturen 6 CP; Analysis für Informatik 8 CP; Lineare Algebra 6 CP; Einführung in die angewandte Stochastik 6 CP",
        "kind": "subject",
        "status": "FAIL",
-       "required": 26,
+       "required": 26.0,
        "presence_only": false,
        "achieved": 10.5,
        "shortfall": 15.5,
@@ -9279,7 +9288,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -9294,7 +9303,7 @@
        "label": "Analysis und lineare Algebra 15 LP (set b)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 15,
+       "required": 15.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 10.5,
@@ -9307,10 +9316,10 @@
        "label": "Optimierung und/oder Numerik 10 LP (set b) — no taxonomy category, counts 0, checked by hand",
        "kind": "subject",
        "status": "FAIL",
-       "required": 10,
+       "required": 10.0,
        "presence_only": false,
-       "achieved": 0,
-       "shortfall": 10,
+       "achieved": 0.0,
+       "shortfall": 10.0,
        "courses": [],
        "item": 1
       },
@@ -9318,10 +9327,10 @@
        "label": "Wahrscheinlichkeitstheorie und Statistik 10 LP (set b)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 10,
+       "required": 10.0,
        "presence_only": false,
-       "achieved": 0,
-       "shortfall": 10,
+       "achieved": 0.0,
+       "shortfall": 10.0,
        "courses": [],
        "item": 2
       },
@@ -9329,10 +9338,10 @@
        "label": "Programmierung, Algorithmen und/oder theoretische Informatik 10 LP (set b)",
        "kind": "subject",
        "status": "PASS",
-       "required": 10,
+       "required": 10.0,
        "presence_only": false,
        "achieved": 37.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -9348,10 +9357,10 @@
        "label": "Datenbanken 5 LP (set b)",
        "kind": "subject",
        "status": "PASS",
-       "required": 5,
+       "required": 5.0,
        "presence_only": false,
        "achieved": 7.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DBMS"
        ],
@@ -9361,7 +9370,7 @@
        "label": "Maschinelles Lernen 5 LP (set b)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 5,
+       "required": 5.0,
        "presence_only": false,
        "achieved": 4.5,
        "shortfall": 0.5,
@@ -9371,7 +9380,7 @@
        "item": 5
       }
      ],
-     "real_gap": 31,
+     "real_gap": 31.0,
      "reasons": [
       "German grade 2.69 is worse than the limit 1.50",
       "4 subject requirement(s) not met"
@@ -9405,7 +9414,7 @@
        "kind": "degree",
        "status": "PASS",
        "achieved": null,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "detail": "information_technology vs accepted ['computer_science']"
       },
       {
@@ -9420,10 +9429,10 @@
        "label": "Kompetenzfeld A 'Software Engineering' (Anlage 3): Stufe 1 uC-Programming, Structured programming languages (C, VB), Scripting languages; Stufe 2 OOP (e.g. C++, Java), operating systems, RTOS; Stufe 3 Modelling (UML), SW architectures, SW platforms (e.g. Java platform); Stufe 4 SW engineering, DSLs, model driven design — at least Stufe 4: 'min. 48 ECTS' (this route's level-4 field)",
        "kind": "subject",
        "status": "FAIL",
-       "required": 48,
+       "required": 48.0,
        "presence_only": false,
-       "achieved": 33,
-       "shortfall": 15,
+       "achieved": 33.0,
+       "shortfall": 15.0,
        "courses": [
         "PROGRAMMING FOR PROBLEM SOLVING",
         "PROGRAMMING FOR PROBLEM SOLVING LAB",
@@ -9438,7 +9447,7 @@
        "label": "Kompetenzfeld B 'Business Computing' (Anlage 3): Stufe 1 Office IT Systems, Databases, Mobile Devices; Stufe 2 ERP-Systems, PPS Systems, Database Programming; Stufe 3 Business Process Engineering, Web and UI Programming; Stufe 4 HMI development, CSCW and Groupware Systems, Digital Value Chain — at least Stufe 3: 'min. 30 ECTS'",
        "kind": "subject",
        "status": "FAIL",
-       "required": 30,
+       "required": 30.0,
        "presence_only": false,
        "achieved": 7.5,
        "shortfall": 22.5,
@@ -9451,10 +9460,10 @@
        "label": "Kompetenzfeld C 'Digital Systems' / 'Digitale Systeme' (Anlage 3): Stufe 1 Microcontrollers, basic Computer Engineering; Stufe 2 Communication Technology (e.g. TCP/IP), Digital Electronics; Stufe 3 Basic Signal Theory and Signal Processing, Protocol Stacks; Stufe 4 Communication Systems (e.g. UMTS), Microelectronics, basic Security — at least Stufe 3: 'min. 30 ECTS'",
        "kind": "subject",
        "status": "PASS",
-       "required": 30,
+       "required": 30.0,
        "presence_only": false,
        "achieved": 34.5,
-       "shortfall": 0,
+       "shortfall": 0.0,
        "courses": [
         "DIGITAL ELECTRONICS",
         "COMPUTER ORGANIZATION & ARCHITECTURE",
@@ -9468,7 +9477,7 @@
        "label": "Kompetenzfeld D 'Systems Engineering' (Anlage 3): Stufe 1 R&D Project Management, Domain knowledge; Stufe 2 Processes for Software Design, Software Engineering; Stufe 3 Systems Modelling, e.g. sysML, System Verilog; Stufe 4 Model Based Systems Engineering (MBSE), Requirements Engineering (RE) — at least Stufe 3: 'min. 30 ECTS'",
        "kind": "subject",
        "status": "FAIL",
-       "required": 30,
+       "required": 30.0,
        "presence_only": false,
        "achieved": 7.5,
        "shortfall": 22.5,
@@ -9478,7 +9487,7 @@
        "item": 3
       }
      ],
-     "real_gap": 45,
+     "real_gap": 45.0,
      "reasons": [
       "German grade 2.69 is worse than the limit 2.50",
       "3 subject requirement(s) not met"
@@ -9498,6 +9507,7 @@
      ]
     }
    ]
-  }
+  },
+  "warnings": []
  }
 }

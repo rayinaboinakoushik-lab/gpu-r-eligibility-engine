@@ -136,6 +136,11 @@
    "needs": "subject_points_confirmed",
    "equals": true,
    "why": "needs at least 10 subject/thesis points the engine cannot read"
+  },
+  "3903_CONDITIONAL": {
+   "needs": "special_qualification",
+   "equals": true,
+   "why": "grade worse than 1.8 and up to 2.5: admitted only if you prove a special qualification related to the programme (relevant work, CS or industry projects, publications, or a bachelor thesis graded 2.5 or better), and the examination committee may then admit you (PO § 3 Abs. 5-6)"
   }
  },
  "exclusions": {
@@ -160,7 +165,7 @@
   }
  },
  "area_caps": {
-  "_rule": "v1 engine config (v2: record field conditional_admission.area_caps, pending Koushik). 'items' = indices into subject_credit_requirements.items, with the label start for a safety check. A real gap above any cap = not eligible.",
+  "_rule": "v1 engine config (v2: record field conditional_admission.area_caps, pending Koushik). 'items' = indices into subject_credit_requirements.items, with the label start for a safety check. A real gap above any cap = not eligible. E8 (11.11.2026, Koushik approved): per-area limits written in the regulations of 14 records added. max 0 = the regulation does not allow this area as a condition. \"own_part_only\": true = count only the part of the gap that the requirement's nested (bridgeable) parts do not explain. Totals the regulation does not state are GPU-R policy: 3827 total 30, manual_tubs_micro total 20 (4 x 5 LP Ziffer 2).",
   "6318": {
    "total": 20,
    "areas": [
@@ -240,6 +245,311 @@
       "PO § 3: of which mechanical"
      ],
      "max": 8
+    }
+   ]
+  },
+  "3698": {
+   "total": 25,
+   "areas": [
+    {
+     "name": "Höhere Mathematik",
+     "items": [
+      0
+     ],
+     "label_starts": [
+      "SPO 2027 § 3 Abs. 2: 'At least 29 CP in Higher Mathematics'"
+     ],
+     "max": 12
+    }
+   ]
+  },
+  "3699": {
+   "total": 25,
+   "areas": [
+    {
+     "name": "Höhere Mathematik",
+     "items": [
+      0
+     ],
+     "label_starts": [
+      "SPO 2027 § 3 Abs. 2: 'At least 29 CP in Higher Mathematics'"
+     ],
+     "max": 12
+    }
+   ]
+  },
+  "4811": {
+   "total": 25,
+   "areas": [
+    {
+     "name": "Höhere Mathematik",
+     "items": [
+      0
+     ],
+     "label_starts": [
+      "SPO 2027 § 3 Abs. 2: 'At least 29 CP in Higher Mathematics'"
+     ],
+     "max": 12
+    }
+   ]
+  },
+  "5227": {
+   "total": 25,
+   "areas": [
+    {
+     "name": "Höhere Mathematik",
+     "items": [
+      0
+     ],
+     "label_starts": [
+      "SPO 2027 § 3 Abs. 2: 'At least 29 CP in Higher Mathematics'"
+     ],
+     "max": 12
+    }
+   ]
+  },
+  "5228": {
+   "total": 25,
+   "areas": [
+    {
+     "name": "Höhere Mathematik",
+     "items": [
+      0
+     ],
+     "label_starts": [
+      "SPO 2027 § 3 Abs. 2: 'At least 29 CP in Higher Mathematics'"
+     ],
+     "max": 12
+    }
+   ]
+  },
+  "5226": {
+   "total": 25,
+   "areas": [
+    {
+     "name": "Höhere Mathematik",
+     "items": [
+      0
+     ],
+     "label_starts": [
+      "SPO 2027 § 3 Abs. 2: 'Mindestens 27 CP aus dem Bereich Höhere Mathematik'"
+     ],
+     "max": 9
+    }
+   ]
+  },
+  "3827": {
+   "total": 30,
+   "areas": [
+    {
+     "name": "mathematics lit. b (not bridgeable)",
+     "items": [
+      0
+     ],
+     "label_starts": [
+      "lit. b: Nachweis von Kompetenzen im Bereich Mathematik"
+     ],
+     "max": 0
+    }
+   ]
+  },
+  "7657": {
+   "total": 20,
+   "areas": [
+    {
+     "name": "Programmierung und Algorithmik",
+     "items": [
+      0
+     ],
+     "label_starts": [
+      "Programmierung und Algorithmik"
+     ],
+     "max": 5
+    },
+    {
+     "name": "Theoretische Informatik und Logik",
+     "items": [
+      1
+     ],
+     "label_starts": [
+      "Theoretische Informatik und Logik"
+     ],
+     "max": 5
+    },
+    {
+     "name": "Datenbanken",
+     "items": [
+      2
+     ],
+     "label_starts": [
+      "Datenbanken und Konzeptionelle Modellierung"
+     ],
+     "max": 5
+    },
+    {
+     "name": "Mathematik in der Informatik",
+     "items": [
+      3
+     ],
+     "label_starts": [
+      "Mathematik in der Informatik"
+     ],
+     "max": 5
+    },
+    {
+     "name": "Software-Engineering",
+     "items": [
+      4
+     ],
+     "label_starts": [
+      "Software-Engineering"
+     ],
+     "max": 5
+    }
+   ]
+  },
+  "9906": {
+   "total": 10,
+   "areas": [
+    {
+     "name": "mathematics 20 (must be present)",
+     "items": [
+      0
+     ],
+     "label_starts": [
+      "a) 20 credit points in mathematics"
+     ],
+     "max": 0,
+     "own_part_only": true
+    },
+    {
+     "name": "analysis or linear algebra (not bridgeable)",
+     "items": [
+      1
+     ],
+     "label_starts": [
+      "a.1) 5 CPs analysis or linear algebra"
+     ],
+     "max": 0
+    },
+    {
+     "name": "statistics",
+     "items": [
+      2
+     ],
+     "label_starts": [
+      "a.2) 5 CPs in probability theory or statistics"
+     ],
+     "max": 5
+    },
+    {
+     "name": "computer science 10 (must be present)",
+     "items": [
+      3
+     ],
+     "label_starts": [
+      "b) 10 credit points in computer science"
+     ],
+     "max": 0,
+     "own_part_only": true
+    },
+    {
+     "name": "algorithms or higher programming language",
+     "items": [
+      4,
+      5
+     ],
+     "label_starts": [
+      "b.1) 5 CPs in the field of algorithms",
+      "b.2) 5 CPs in a higher programming language"
+     ],
+     "max": 5
+    }
+   ]
+  },
+  "manual_rostock_csi": {
+   "total": 9,
+   "areas": [
+    {
+     "name": "mathematics (not bridgeable)",
+     "items": [
+      0
+     ],
+     "label_starts": [
+      "§ 2 Abs. 1 Nr. 3 'vertiefte Kenntnisse' Mathematik"
+     ],
+     "max": 0
+    }
+   ]
+  },
+  "manual_tubs_micro": {
+   "total": 20,
+   "areas": [
+    {
+     "name": "maths and physics 15 LP (not bridgeable)",
+     "items": [
+      0
+     ],
+     "label_starts": [
+      "Anlage 1 Ziffer 1: Mathematik und physikalische Grundlagen"
+     ],
+     "max": 0
+    },
+    {
+     "name": "EE core areas 45 LP (not bridgeable)",
+     "items": [
+      1
+     ],
+     "label_starts": [
+      "Anlage 1 Ziffer 1: Grundlagen und Kernbereiche"
+     ],
+     "max": 0,
+     "own_part_only": true
+    }
+   ]
+  },
+  "8353_BIS": {
+   "total": 15,
+   "areas": [
+    {
+     "name": "80 ECTS informatics relevance (not bridgeable)",
+     "items": [
+      0
+     ],
+     "label_starts": [
+      "§ 3 Abs. 1-2: mindestens 80 ECTS"
+     ],
+     "max": 0
+    }
+   ]
+  },
+  "8353_DIS": {
+   "total": 15,
+   "areas": [
+    {
+     "name": "80 ECTS informatics relevance (not bridgeable)",
+     "items": [
+      0
+     ],
+     "label_starts": [
+      "§ 3 Abs. 1-2: mindestens 80 ECTS"
+     ],
+     "max": 0
+    }
+   ]
+  },
+  "8353_SAR": {
+   "total": 15,
+   "areas": [
+    {
+     "name": "80 ECTS informatics relevance (not bridgeable)",
+     "items": [
+      0
+     ],
+     "label_starts": [
+      "§ 3 Abs. 1-2: mindestens 80 ECTS"
+     ],
+     "max": 0
     }
    ]
   }

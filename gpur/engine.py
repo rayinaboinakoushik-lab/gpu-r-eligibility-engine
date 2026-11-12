@@ -9,6 +9,7 @@ Reading order (each step is one section below):
   2. target sets            a requirement's categories expanded through the taxonomy sums
   3. count_subjects()       counting rules C1-C4 for all requirements of one record
   4. real_gap()             nested-safe gap (a gap inside a larger requirement is not counted twice)
+     own_gap()              E8: the part of a gap its nested parts do not explain (opt-in area caps)
   5. evaluate_record()      exclusion -> degree -> grade -> total credits -> subjects -> conditions -> list
   6. evaluate_program()     route groups: best route, gated routes only after confirmation
   7. evaluate_field()       every programme of the field for one student
@@ -269,6 +270,21 @@ def real_gap(record: dict, checks: list, fd: FieldData, item_ids: list | None = 
     return round(sum(gap(i) for i in ids if i not in parent), 2)
 
 
+def own_gap(record: dict, checks: list, fd: FieldData, item_ids: list) -> float:
+    """E8 (11.11.2026): the part of each listed requirement's gap that its nested sub-requirements do NOT explain.
+    Used only by area caps marked "own_part_only" (a requirement that cannot be bridged but contains parts that can).
+    Example Oldenburg 9906: maths 20 is short 5 only because statistics (nested, bridgeable) is short 5 -> own part 0."""
+    items = record["subject_credit_requirements"]["items"]
+    ids = [i for i in range(len(items)) if not items[i]["requires_subject_presence_only"]]
+    targets = {i: target_set(items[i], fd, record["id"], i) for i in ids}
+    total = 0.0
+    for i in item_ids:
+        inner = [a for a in ids if a != i and (targets[a] < targets[i] or (targets[a] == targets[i] and a > i))]
+        kids_gap = real_gap(record, checks, fd, item_ids=inner) if inner else 0.0
+        total += max(0.0, checks[i]["shortfall"] - kids_gap)
+    return round(total, 2)
+
+
 # ============================================================================ 5. one record
 def _degree_matches(student: dict, record: dict, fd: FieldData) -> bool:
     primary = set(record["accepted_degree_fields"].get("primary_fields") or [])
@@ -433,9 +449,15 @@ def evaluate_record(record: dict, student: dict, fd: FieldData) -> dict:
             res["reasons"].append(f"subject gap {res['real_gap']:g} ECTS is above the total cap of {caps['total']:g}")
             return finish(4)
         for area in caps["areas"]:
-            g = real_gap(record, subj, fd, item_ids=area["items"])
+            g = (own_gap(record, subj, fd, area["items"]) if area.get("own_part_only")
+                 else real_gap(record, subj, fd, item_ids=area["items"]))
             if g > float(area["max"]) + 1e-9:
                 res["reasons"].append(f"gap in {area['name']} is {g:g} ECTS, above its cap of {area['max']:g}")
+                n_open = len(student.get("excluded_courses") or [])
+                if n_open:   # E8 11.11.2026: an uncounted course may belong to this area
+                    res["reasons"].append(
+                        f"{n_open} course(s) are not counted yet (syllabus needed); if one of them covers "
+                        f"{area['name']}, this result may change after the syllabus is checked")
                 return finish(4)
     return finish(3)
 

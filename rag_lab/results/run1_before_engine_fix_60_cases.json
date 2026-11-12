@@ -1,0 +1,1182 @@
+{
+ "prompt_version": 6,
+ "model": "gpt-6-astra",
+ "seconds": 723.0,
+ "usage": {
+  "calls": 160,
+  "seconds": 664.2,
+  "input_tokens": 581722,
+  "cached_tokens": 138385,
+  "output_tokens": 13396,
+  "euros": 5.2416
+ },
+ "students": [
+  "test_mechanical",
+  "test_eee",
+  "test_civil",
+  "test_cs"
+ ],
+ "tested": 60,
+ "engine_lists_tested": {
+  "1": 10,
+  "2": 17,
+  "3": 17,
+  "4": 16
+ },
+ "scores": {
+  "oracle": {
+   "decisions": 60,
+   "no_answer": 0,
+   "agreement": 0.883,
+   "looser_in_students_favour": 0,
+   "stricter": 7,
+   "looser_from_not_eligible": 0,
+   "confusion": {
+    "rules 1 -> llm 1": 10,
+    "rules 2 -> llm 2": 15,
+    "rules 3 -> llm 3": 12,
+    "rules 4 -> llm 4": 16,
+    "rules 3 -> llm 4": 5,
+    "rules 2 -> llm 4": 1,
+    "rules 2 -> llm 3": 1
+   }
+  },
+  "rag": {
+   "decisions": 60,
+   "no_answer": 0,
+   "agreement": 0.867,
+   "looser_in_students_favour": 3,
+   "stricter": 5,
+   "looser_from_not_eligible": 2,
+   "confusion": {
+    "rules 1 -> llm 1": 10,
+    "rules 2 -> llm 2": 15,
+    "rules 3 -> llm 3": 13,
+    "rules 4 -> llm 2": 2,
+    "rules 4 -> llm 4": 14,
+    "rules 2 -> llm 3": 1,
+    "rules 3 -> llm 4": 3,
+    "rules 3 -> llm 1": 1,
+    "rules 2 -> llm 4": 1
+   }
+  }
+ },
+ "scores_programmes_without_engine_notes": {
+  "oracle": {
+   "decisions": 54,
+   "no_answer": 0,
+   "agreement": 0.87,
+   "looser_in_students_favour": 0,
+   "stricter": 7,
+   "looser_from_not_eligible": 0,
+   "confusion": {
+    "rules 1 -> llm 1": 10,
+    "rules 2 -> llm 2": 13,
+    "rules 3 -> llm 3": 10,
+    "rules 4 -> llm 4": 14,
+    "rules 3 -> llm 4": 5,
+    "rules 2 -> llm 4": 1,
+    "rules 2 -> llm 3": 1
+   }
+  },
+  "rag": {
+   "decisions": 54,
+   "no_answer": 0,
+   "agreement": 0.87,
+   "looser_in_students_favour": 2,
+   "stricter": 5,
+   "looser_from_not_eligible": 1,
+   "confusion": {
+    "rules 1 -> llm 1": 10,
+    "rules 2 -> llm 2": 13,
+    "rules 3 -> llm 3": 11,
+    "rules 4 -> llm 4": 13,
+    "rules 2 -> llm 3": 1,
+    "rules 3 -> llm 4": 3,
+    "rules 4 -> llm 2": 1,
+    "rules 3 -> llm 1": 1,
+    "rules 2 -> llm 4": 1
+   }
+  }
+ },
+ "scores_programmes_with_engine_notes": {
+  "oracle": {
+   "decisions": 6,
+   "no_answer": 0,
+   "agreement": 1.0,
+   "looser_in_students_favour": 0,
+   "stricter": 0,
+   "looser_from_not_eligible": 0,
+   "confusion": {
+    "rules 4 -> llm 4": 2,
+    "rules 2 -> llm 2": 2,
+    "rules 3 -> llm 3": 2
+   }
+  },
+  "rag": {
+   "decisions": 6,
+   "no_answer": 0,
+   "agreement": 0.833,
+   "looser_in_students_favour": 1,
+   "stricter": 0,
+   "looser_from_not_eligible": 1,
+   "confusion": {
+    "rules 4 -> llm 2": 1,
+    "rules 2 -> llm 2": 2,
+    "rules 3 -> llm 3": 2,
+    "rules 4 -> llm 4": 1
+   }
+  }
+ },
+ "consistency_same_answer_3_of_3": {
+  "oracle": 1.0,
+  "rag": 1.0
+ },
+ "rows": [
+  {
+   "student": "test_mechanical",
+   "field": "mechanical",
+   "program_id": "3847_me",
+   "record_ids": [
+    "3847_me"
+   ],
+   "program": "Computational Engineering (M.Sc.)",
+   "university": "Ruhr-Universität Bochum",
+   "engine_list": 1,
+   "uses_engine_notes": false,
+   "oracle": 1,
+   "oracle_reason": "The applicant's mechanical engineering degree is accepted, the German grade of 2.4 meets the 2.5 limit, and there are no subject-credit minimums or subsequent selection steps.",
+   "rag": 1,
+   "rag_reason": "The mechanical engineering bachelor is accepted, the German grade of 2.4 meets the stated 2.5 limit, no subject-credit minimums are specified, and no selection step follows.",
+   "oracle_repeats": [
+    1,
+    1
+   ],
+   "rag_repeats": [
+    1,
+    1
+   ]
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "4258",
+   "record_ids": [
+    "4258"
+   ],
+   "program": "Artificial Intelligence and Machine Learning (M.Sc.)",
+   "university": "Technical University of Darmstadt",
+   "engine_list": 2,
+   "uses_engine_notes": false,
+   "oracle": 2,
+   "oracle_reason": "The degree counts as computer science, the applicant exceeds the 60 ECTS subject-credit minimum, and no grade threshold applies, but an entrance-examination selection step follows.",
+   "rag": 2,
+   "rag_reason": "The degree counts as computer science, the applicant exceeds the 60 ECTS subject requirement, and no grade threshold is stated, but an entrance-examination selection step follows.",
+   "oracle_repeats": [
+    2,
+    2
+   ],
+   "rag_repeats": [
+    2,
+    2
+   ]
+  },
+  {
+   "student": "test_eee",
+   "field": "eee",
+   "program_id": "4354",
+   "record_ids": [
+    "4354"
+   ],
+   "program": "Communication Systems and Networks (M.Sc.)",
+   "university": "Technische Hochschule Köln - University of Applied Sciences",
+   "engine_list": 3,
+   "uses_engine_notes": false,
+   "oracle": 3,
+   "oracle_reason": "The accepted degree field and German grade of 2.2 meet the requirements, but the applicant has 109.5 of the required 110 subject ECTS, and the 0.5-ECTS shortfall may be completed under conditions with no stated cap.",
+   "rag": 3,
+   "rag_reason": "The accepted electrical/electronic engineering degree and grade are satisfactory, but the applicant has 109.5 of the required 110 subject ECTS, and the regulation allows the 0.5-ECTS shortfall to be completed through conditions without a stated cap.",
+   "oracle_repeats": [
+    3,
+    3
+   ],
+   "rag_repeats": [
+    3,
+    3
+   ]
+  },
+  {
+   "student": "test_eee",
+   "field": "eee",
+   "program_id": "5226",
+   "record_ids": [
+    "5226"
+   ],
+   "program": "Computer Engineering",
+   "university": "RWTH Aachen University",
+   "engine_list": 4,
+   "uses_engine_notes": true,
+   "oracle": 4,
+   "oracle_reason": "The applicant has only 16.5 of the required 27 ECTS in mathematics, leaving a 10.5-ECTS deficit that exceeds the maximum permitted mathematics condition of 9 ECTS.",
+   "rag": 2,
+   "rag_reason": "The applicant has an accepted degree field and credits in every listed requirement area, with no stated grade or credit minimum violated, but the examination board must still assess degree comparability.",
+   "oracle_repeats": [
+    4,
+    4
+   ],
+   "rag_repeats": [
+    2,
+    2
+   ]
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "8518",
+   "record_ids": [
+    "8518"
+   ],
+   "program": "Artificial Intelligence and Robotics (MSc)",
+   "university": "Hof University of Applied Sciences",
+   "engine_list": 1,
+   "uses_engine_notes": false,
+   "oracle": 1,
+   "oracle_reason": "The degree counts as computer science, the 2.5 grade meets the limit, all three required subject areas are present, and no selection step follows; the 30-ECTS total-degree shortfall can be completed later.",
+   "rag": 1,
+   "rag_reason": "The degree counts as computer science, the 2.5 grade meets the stated standard, all required subjects are present, and no selection step follows; the 30-ECTS total-degree shortfall is only a note, not a disqualification.",
+   "oracle_repeats": [
+    1,
+    1
+   ],
+   "rag_repeats": [
+    1,
+    1
+   ]
+  },
+  {
+   "student": "test_civil",
+   "field": "civil",
+   "program_id": "4793",
+   "record_ids": [
+    "4793"
+   ],
+   "program": "Road Traffic Engineering (M.Eng.)",
+   "university": "Westsächsische Hochschule Zwickau",
+   "engine_list": 2,
+   "uses_engine_notes": false,
+   "oracle": 2,
+   "oracle_reason": "The applicant has an accepted civil engineering degree, no grade threshold or subject-credit minimums apply, and admission is subject to a numerus-clausus selection step.",
+   "rag": 2,
+   "rag_reason": "The civil engineering degree meets the accepted-field requirement, no grade threshold or subject-credit minimums apply, and admission remains subject to selection through the local numerus clausus.",
+   "oracle_repeats": [
+    2,
+    2
+   ],
+   "rag_repeats": [
+    2,
+    2
+   ]
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "4700",
+   "record_ids": [
+    "4700"
+   ],
+   "program": "Applied Computer Science",
+   "university": "University of Göttingen",
+   "engine_list": 3,
+   "uses_engine_notes": false,
+   "oracle": 3,
+   "oracle_reason": "The degree field is accepted and no grade threshold applies, while the 60-ECTS computing requirement is met but foundations total only 10.5 of 15 ECTS, leaving a 4.5-ECTS gap that may be bridged with committee approval if places remain available.",
+   "rag": 3,
+   "rag_reason": "The degree field is accepted and no hard grade limit is stated, but only 10.5 of the required 15 ECTS in mathematical and scientific foundations are met, so the 4.5-ECTS gap can be bridged within the 15-ECTS maximum if places are undersubscribed and the selection committee approves.",
+   "oracle_repeats": [
+    3,
+    3
+   ],
+   "rag_repeats": [
+    3,
+    3
+   ]
+  },
+  {
+   "student": "test_eee",
+   "field": "eee",
+   "program_id": "3751",
+   "record_ids": [
+    "3751"
+   ],
+   "program": "Microelectronics and Microsystems (M.Sc.)",
+   "university": "Hamburg University of Technology (TUHH)",
+   "engine_list": 4,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "The applicant's German grade of 2.2 fails the hard maximum of 1.75, and several subject-credit minimums are unmet with no conditional admission allowed.",
+   "rag": 4,
+   "rag_reason": "The applicant has only 4.5 ECTS in computer engineering against the required 6 ECTS, and this programme does not allow conditional admission to make up missing subject credits.",
+   "oracle_repeats": [
+    4,
+    4
+   ],
+   "rag_repeats": [
+    4,
+    4
+   ]
+  },
+  {
+   "student": "test_mechanical",
+   "field": "mechanical",
+   "program_id": "4300",
+   "record_ids": [
+    "4300"
+   ],
+   "program": "Manufacturing Technology (M.Sc.)",
+   "university": "TU Dortmund University",
+   "engine_list": 1,
+   "uses_engine_notes": false,
+   "oracle": 1,
+   "oracle_reason": "The mechanical engineering degree and German grade of 2.4 meet the requirements, with 21 ECTS in mathematics, 21 ECTS in mechanics and 34.5 ECTS in the remaining qualifying subjects (76.5 ECTS total), and no selection step follows.",
+   "rag": 1,
+   "rag_reason": "The mechanical engineering degree is accepted, the applicant has 76.5 qualifying ECTS overall and 34.5 ECTS in the required materials/production/design/measurement/control group, and no grade threshold or selection step is specified.",
+   "oracle_repeats": [
+    1,
+    1
+   ],
+   "rag_repeats": [
+    1,
+    1
+   ]
+  },
+  {
+   "student": "test_eee",
+   "field": "eee",
+   "program_id": "8357",
+   "record_ids": [
+    "8357"
+   ],
+   "program": "Electrical and Computer Engineering (M.Eng.)",
+   "university": "Anhalt University of Applied Sciences (Hochschule Anhalt)",
+   "engine_list": 2,
+   "uses_engine_notes": false,
+   "oracle": 2,
+   "oracle_reason": "The applicant has an accepted electrical/electronic engineering degree and a German grade of 2.2 meeting the 2.7 limit, with no specified subject-credit requirements, but admission requires a Feststellungsverfahren selection step.",
+   "rag": 3,
+   "rag_reason": "The applicant’s degree field is accepted and the 2.2 grade meets the 2.7 limit, while the engine notes specify a bridgeable one-module gap whose university-determined size does not count against the 30-ECTS maximum.",
+   "oracle_repeats": [
+    2,
+    2
+   ],
+   "rag_repeats": [
+    3,
+    3
+   ]
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "5616",
+   "record_ids": [
+    "5616"
+   ],
+   "program": "Computer Science (M.Sc.)",
+   "university": "Paderborn University",
+   "engine_list": 3,
+   "uses_engine_notes": false,
+   "oracle": 3,
+   "oracle_reason": "The degree counts as computer science and the 2.5 grade meets the 3.0 limit, while deficits of 8.75 ECTS in theoretical computer science and 4.5 ECTS in mathematics total 13.25 ECTS, within the 30-ECTS allowance for conditional admission.",
+   "rag": 3,
+   "rag_reason": "The degree counts as computer science and the grade is acceptable; the engine notes permit bridging the missing subject module through conditions without counting it against the 30-ECTS maximum."
+  },
+  {
+   "student": "test_eee",
+   "field": "eee",
+   "program_id": "manual_fau_at",
+   "record_ids": [
+    "manual_fau_at"
+   ],
+   "program": "Autonomy Technologies (MSc)",
+   "university": "FAU Erlangen-Nürnberg",
+   "engine_list": 4,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "The degree field and grade qualify, but mathematics credits total 16.5 of the required 22.5 ECTS and computer science credits total 15 of the required 20 ECTS, and conditional admission is not allowed.",
+   "rag": 4,
+   "rag_reason": "The degree field and grade meet the requirements, but the applicant has only 16.5 of the required 22.5 mathematics ECTS, and conditional admission is not allowed."
+  },
+  {
+   "student": "test_mechanical",
+   "field": "mechanical",
+   "program_id": "10686",
+   "record_ids": [
+    "10686"
+   ],
+   "program": "Battery and Hydrogen Technology (M.Sc.)",
+   "university": "Technische Universität Braunschweig",
+   "engine_list": 1,
+   "uses_engine_notes": false,
+   "oracle": 1,
+   "oracle_reason": "The mechanical engineering degree is accepted, all five subject-presence requirements are met under the engine notes, no grade threshold applies, and the programme specifies no selection step.",
+   "rag": 1,
+   "rag_reason": "The applicant has an accepted mechanical engineering degree, satisfies all specified subject-presence requirements, and faces no grade threshold or selection step under the stated admission classification."
+  },
+  {
+   "student": "test_eee",
+   "field": "eee",
+   "program_id": "manual_tud_nes",
+   "record_ids": [
+    "manual_tud_nes"
+   ],
+   "program": "Nanoelectronic Systems (Master)",
+   "university": "Dresden University of Technology",
+   "engine_list": 2,
+   "uses_engine_notes": true,
+   "oracle": 2,
+   "oracle_reason": "The degree field is accepted, no grade threshold applies, and only electronic devices knowledge is missing within the one-area tolerance, but an aptitude assessment follows.",
+   "rag": 2,
+   "rag_reason": "The applicant has an accepted degree and meets five of the six knowledge-area requirements, with the missing microelectronics/semiconductors area permitted by the one-area tolerance; no grade threshold applies, and an aptitude assessment follows."
+  },
+  {
+   "student": "test_civil",
+   "field": "civil",
+   "program_id": "4881",
+   "record_ids": [
+    "4881"
+   ],
+   "program": "Railway Systems Engineering (M.Sc. Transport Engineering and Mobility, specialisation)",
+   "university": "RWTH Aachen University",
+   "engine_list": 3,
+   "uses_engine_notes": true,
+   "oracle": 3,
+   "oracle_reason": "The accepted civil engineering degree meets the grade policy, but 4 ECTS in transport and 0.5 ECTS in electrical engineering are missing, both bridgeable within the applicable area caps and 20-ECTS total limit.",
+   "rag": 3,
+   "rag_reason": "The accepted civil engineering degree meets the stated requirements except for a 4 ECTS transport shortfall, which can be made up under conditions within the 8 ECTS subject-specific and 20 ECTS total caps."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "7784",
+   "record_ids": [
+    "7784"
+   ],
+   "program": "Artificial Intelligence Engineering (M.Sc.)",
+   "university": "University of Passau",
+   "engine_list": 4,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "The degree field and grade qualify, but mathematics including theoretical computer science totals only 21.75 ECTS against the required 35 ECTS, and conditional admission for the 13.25 ECTS shortfall is not allowed.",
+   "rag": 4,
+   "rag_reason": "The degree field and grade qualify, but mathematics and theoretical computer science total only 21.75 of the required 35 ECTS, leaving a 13.25 ECTS shortfall that cannot be made up through conditional admission."
+  },
+  {
+   "student": "test_civil",
+   "field": "civil",
+   "program_id": "9179",
+   "record_ids": [
+    "9179"
+   ],
+   "program": "Engineering of Hydro-Environmental Extremes (HDE) (M.Sc.)",
+   "university": "University of Siegen",
+   "engine_list": 1,
+   "uses_engine_notes": false,
+   "oracle": 1,
+   "oracle_reason": "The applicant has an accepted civil engineering degree and a German grade of 2.6 meeting the 2.7 limit, with no subject credit minimums or subsequent selection step.",
+   "rag": 1,
+   "rag_reason": "The applicant has an accepted civil engineering degree, a 2.6 grade meeting the stated 2.7 limit, and no identified subject-credit gaps, with no selection step following admission requirements."
+  },
+  {
+   "student": "test_eee",
+   "field": "eee",
+   "program_id": "4059",
+   "record_ids": [
+    "4059"
+   ],
+   "program": "Renewable Energy Systems – Environmental and Process Engineering (M.Sc.)",
+   "university": "Hamburg University of Applied Sciences (HAW Hamburg)",
+   "engine_list": 2,
+   "uses_engine_notes": false,
+   "oracle": 2,
+   "oracle_reason": "The applicant's electrical/electronic engineering degree is accepted, the 240 ECTS exceed the total-credit minimum, and no grade threshold or subject-credit minimum applies, but ranking follows if the programme is oversubscribed.",
+   "rag": 2,
+   "rag_reason": "The applicant's electrical/electronic engineering degree is accepted, the 240 ECTS exceed the total-credit minimum, no grade threshold or subject-credit requirements are stated, and a ranking selection follows if oversubscribed."
+  },
+  {
+   "student": "test_eee",
+   "field": "eee",
+   "program_id": "manual_tubs_micro",
+   "record_ids": [
+    "manual_tubs_micro"
+   ],
+   "program": "Electrical Engineering and Information Technology (M.Sc.), English-language track Microelectronics Engineering",
+   "university": "Technische Universität Braunschweig",
+   "engine_list": 3,
+   "uses_engine_notes": false,
+   "oracle": 3,
+   "oracle_reason": "The accepted degree and all other subject-credit requirements are met, but the applicant lacks the required 5 ECTS in communications, which may be made up through admission conditions within two semesters.",
+   "rag": 3,
+   "rag_reason": "The accepted electrical engineering degree meets the applicable basic requirements and all stated credit minimums except the 5 ECTS in communications, which may be completed as a bridging condition."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "9921",
+   "record_ids": [
+    "9921"
+   ],
+   "program": "Mobile Robotics",
+   "university": "University of Bonn",
+   "engine_list": 4,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "The applicant's German grade of 2.5 fails the mandatory 2.2 limit, and their 10.5 ECTS in mathematics fall short of the required 18 ECTS, with no conditional admission allowed.",
+   "rag": 4,
+   "rag_reason": "The applicant has only 10.5 of the required 18 ECTS in mathematics, leaving a 7.5 ECTS shortfall that cannot be remedied because conditional admission is not allowed."
+  },
+  {
+   "student": "test_eee",
+   "field": "eee",
+   "program_id": "4062_eee",
+   "record_ids": [
+    "4062_eee"
+   ],
+   "program": "Advanced Engineering and Engineering Management (M.Sc.)",
+   "university": "South Westphalia University of Applied Sciences (Fachhochschule Südwestfalen), Soest",
+   "engine_list": 1,
+   "uses_engine_notes": false,
+   "oracle": 1,
+   "oracle_reason": "The applicant has an accepted electrical/electronic engineering degree, a German grade of 2.2 meeting the 2.5 limit, and 15 ECTS of qualifying computer science courses exceeding the 10-ECTS minimum, with no selection step required.",
+   "rag": 1,
+   "rag_reason": "The electrical/electronic engineering degree qualifies, the 2.2 grade meets the 2.5 limit, the applicant has 15 ECTS in qualifying computer science courses, and no selection step follows."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "9838_cs",
+   "record_ids": [
+    "9838_cs"
+   ],
+   "program": "Robotics (MEng)",
+   "university": "Deggendorf Institute of Technology (Technische Hochschule Deggendorf), Campus Cham",
+   "engine_list": 2,
+   "uses_engine_notes": false,
+   "oracle": 2,
+   "oracle_reason": "The degree counts as computer science, no grade threshold or subject-credit minimum applies, and an aptitude test remains required unless waived; the 30-ECTS total-degree shortfall can be made up later.",
+   "rag": 2,
+   "rag_reason": "The degree counts as computer science, no hard grade limit or subject-credit minimum is stated, and an aptitude test follows unless waived; the 180-ECTS total is not disqualifying."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "9906",
+   "record_ids": [
+    "9906"
+   ],
+   "program": "Data Science and Machine Learning (M.Sc.)",
+   "university": "University of Oldenburg",
+   "engine_list": 3,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "The applicant has only 10.5 of the required 20 mathematics ECTS and no analysis or linear algebra credits against the required 5 ECTS, and neither deficiency may be bridged under the regulation.",
+   "rag": 4,
+   "rag_reason": "The applicant has only 10.5 of the required 20 ECTS in mathematics and no credits toward the required 5 ECTS in analysis or linear algebra, and these deficiencies cannot be bridged through conditions."
+  },
+  {
+   "student": "test_civil",
+   "field": "civil",
+   "program_id": "8397",
+   "record_ids": [
+    "8397"
+   ],
+   "program": "Subsurface Engineering (M.Sc.)",
+   "university": "Ruhr-Universität Bochum",
+   "engine_list": 4,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "The applicant's German grade of 2.6 is worse than the hard maximum of 2.5, so admission is not possible despite meeting the degree-field and subject-credit requirements.",
+   "rag": 4,
+   "rag_reason": "The applicant’s German grade of 2.6 is worse than the required maximum of 2.5 for Subsurface Engineering, despite meeting the degree-field and subject-credit requirements."
+  },
+  {
+   "student": "test_eee",
+   "field": "eee",
+   "program_id": "9723",
+   "record_ids": [
+    "9723_A",
+    "9723_B"
+   ],
+   "program": "Systems Engineering",
+   "university": "Saarland University",
+   "engine_list": 1,
+   "uses_engine_notes": false,
+   "oracle": 1,
+   "oracle_reason": "The applicant qualifies under route 9723_A because the bachelor's field is accepted, the German grade of 2.2 meets the 2.5 limit, and no subject-credit minimums or subsequent selection step apply.",
+   "rag": 1,
+   "rag_reason": "The electrical/electronic engineering degree is in a related field, the 2.2 grade satisfies route 9723_A’s 2.5 limit, and no subject-credit minimums or subsequent selection step apply under that route."
+  },
+  {
+   "student": "test_civil",
+   "field": "civil",
+   "program_id": "4393",
+   "record_ids": [
+    "4393"
+   ],
+   "program": "Water Engineering (M.Sc.)",
+   "university": "Technische Hochschule Lübeck",
+   "engine_list": 2,
+   "uses_engine_notes": false,
+   "oracle": 2,
+   "oracle_reason": "The civil engineering degree, German grade of 2.6 and 10.5 ECTS in water engineering meet the requirements, but restricted admission with a local numerus clausus entails a subsequent selection step.",
+   "rag": 2,
+   "rag_reason": "The applicant has an accepted civil engineering degree, a 2.6 grade better than the stated 2.7 limit, and 10.5 ECTS in water engineering satisfying the subject-presence requirement, but admission remains subject to selection under the local NC."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "5625_cs",
+   "record_ids": [
+    "5625_cs"
+   ],
+   "program": "Master of Science in Computer Engineering",
+   "university": "Paderborn University",
+   "engine_list": 3,
+   "uses_engine_notes": false,
+   "oracle": 3,
+   "oracle_reason": "The degree field is accepted and no grade limit applies; the missing 4.5 ECTS in mathematics and 16.5 ECTS in electrical engineering total 21 ECTS, within the 30-ECTS allowance for conditional admission.",
+   "rag": 3,
+   "rag_reason": "The degree field is accepted and no grade limit is stated; mathematics is short by 4.5 ECTS and electrical engineering by 16.5 ECTS, so the combined 21-ECTS deficit is within the permitted 30-ECTS bridging allowance."
+  },
+  {
+   "student": "test_civil",
+   "field": "civil",
+   "program_id": "3847",
+   "record_ids": [
+    "3847"
+   ],
+   "program": "Computational Engineering (M.Sc.)",
+   "university": "Ruhr-Universität Bochum",
+   "engine_list": 4,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "The applicant's German grade of 2.6 fails the hard maximum grade requirement of 2.5, despite having an accepted civil engineering degree.",
+   "rag": 4,
+   "rag_reason": "The civil engineering degree is accepted, but the applicant’s German grade of 2.6 does not meet the required minimum of 2.5 or better."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "manual_siegen_hci",
+   "record_ids": [
+    "manual_siegen_hci"
+   ],
+   "program": "Human-Computer Interaction (M.Sc.)",
+   "university": "University of Siegen",
+   "engine_list": 1,
+   "uses_engine_notes": false,
+   "oracle": 1,
+   "oracle_reason": "The degree counts as computer science, the German grade of 2.5 meets the limit, qualifying courses exceed the pooled 60 ECTS requirement, and no selection step follows.",
+   "rag": 1,
+   "rag_reason": "For Siegen’s HCI programme, the degree counts as computer science, the applicant exceeds the 60 ECTS subject-credit minimum, no hard grade limit is stated, and no selection step follows."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "4660",
+   "record_ids": [
+    "4660"
+   ],
+   "program": "Human-Computer Interaction (M.Sc.)",
+   "university": "Bauhaus-Universität Weimar",
+   "engine_list": 2,
+   "uses_engine_notes": false,
+   "oracle": 2,
+   "oracle_reason": "The degree counts as computer science and the German grade of 2.5 meets the hard limit, with no subject-credit minimum checked, but a selection step follows.",
+   "rag": 2,
+   "rag_reason": "The degree counts as computer science, the 2.5 grade meets the stated standard, no subject-credit minimum is checked, and a selection step follows."
+  },
+  {
+   "student": "test_eee",
+   "field": "eee",
+   "program_id": "3699",
+   "record_ids": [
+    "3699"
+   ],
+   "program": "Electrical Power Engineering — Major of Electrical Engineering and Information Technology",
+   "university": "RWTH Aachen University",
+   "engine_list": 3,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "The applicant has only 16.5 of the required 29 ECTS in mathematics, leaving a 12.5-ECTS deficit that exceeds the 12-ECTS mathematics limit for conditional admission.",
+   "rag": 3,
+   "rag_reason": "The accepted electrical engineering degree meets the field requirement, but theoretical foundations total 31.5 of the required 35 ECTS, leaving a 3.5-ECTS deficit that can be completed under the permitted conditions."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "manual_ovgu_mdke",
+   "record_ids": [
+    "manual_ovgu_mdke_A",
+    "manual_ovgu_mdke_B"
+   ],
+   "program": "Data and Knowledge Engineering (M.Sc.) — route A: database module + 60 ECTS computer science",
+   "university": "Otto von Guericke University Magdeburg",
+   "engine_list": 4,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "The applicant’s German grade of 2.5 is worse than the hard maximum of 2.3 required by both admission routes.",
+   "rag": 2,
+   "rag_reason": "The applicant's degree counts as computer science and satisfies route A's database-module and 60-ECTS computer-science requirements, with no stated hard grade limit, but an aptitude-selection step follows."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "4384",
+   "record_ids": [
+    "4384"
+   ],
+   "program": "Web and Data Science (MSc)",
+   "university": "University of Koblenz",
+   "engine_list": 1,
+   "uses_engine_notes": false,
+   "oracle": 1,
+   "oracle_reason": "The degree counts as computer science, the German grade of 2.5 meets the limit, all four subject-presence requirements are satisfied, and no selection step follows.",
+   "rag": 1,
+   "rag_reason": "The degree counts as computer science, the grade presents no barrier, all specified subject requirements are satisfied, and no selection step follows."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "3686",
+   "record_ids": [
+    "3686"
+   ],
+   "program": "Global Software Development (M.Sc.)",
+   "university": "Hochschule Fulda – University of Applied Sciences",
+   "engine_list": 2,
+   "uses_engine_notes": false,
+   "oracle": 2,
+   "oracle_reason": "The degree counts as computer science, the 2.5 grade meets the limit, and the coursework satisfies the subject-presence requirement, but an aptitude test follows.",
+   "rag": 2,
+   "rag_reason": "The applicant's degree counts as computer science, the coursework satisfies the applied-computer-science presence requirement, and no grade limit is stated, but an aptitude test follows."
+  },
+  {
+   "student": "test_eee",
+   "field": "eee",
+   "program_id": "5227",
+   "record_ids": [
+    "5227"
+   ],
+   "program": "Systems and Automation — Major of Electrical Engineering and Information Technology",
+   "university": "RWTH Aachen University",
+   "engine_list": 3,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "The applicant has only 16.5 ECTS in higher mathematics, leaving a 12.5 ECTS deficit that exceeds the permitted mathematics bridging cap of 12 ECTS.",
+   "rag": 1,
+   "rag_reason": "The bachelor's field is accepted, all listed subject requirements have matching coursework, no grade threshold or numerical subject-credit minimums are specified, and no selection step follows."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "7055",
+   "record_ids": [
+    "7055"
+   ],
+   "program": "Master of Science in Computational Sciences",
+   "university": "Freie Universität Berlin",
+   "engine_list": 4,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "The degree field is accepted and no grade threshold applies, but only 10.5 of the required 20 ECTS in mathematics, chemistry and/or physics are met, and conditional admission for the 9.5-ECTS shortfall is not allowed.",
+   "rag": 4,
+   "rag_reason": "For Computational Sciences, the degree field is accepted, but only 10.5 of the required 20 ECTS in mathematics, chemistry or physics are met, leaving a 9.5 ECTS shortfall that cannot be remedied through conditional admission."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "4455",
+   "record_ids": [
+    "4455"
+   ],
+   "program": "Computer Science (Informatik) (M.Sc.)",
+   "university": "University of Passau",
+   "engine_list": 1,
+   "uses_engine_notes": false,
+   "oracle": 1,
+   "oracle_reason": "The degree counts as computer science, the German grade of 2.5 meets the 2.7 limit, and 135 qualifying ECTS exceed the 110-ECTS requirement, with no subsequent selection step.",
+   "rag": 1,
+   "rag_reason": "The degree counts as computer science, the 2.5 grade meets the 2.7 limit, and 135 ECTS of qualifying courses exceed the 110-ECTS requirement, with no subsequent selection step."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "8953",
+   "record_ids": [
+    "8953"
+   ],
+   "program": "Data Science (M.Sc.)",
+   "university": "Hochschule Fulda – University of Applied Sciences",
+   "engine_list": 2,
+   "uses_engine_notes": false,
+   "oracle": 2,
+   "oracle_reason": "The degree counts as computer science, the 2.5 grade meets the limit, and both mathematics and applied computer science presence requirements are met, but an aptitude test follows.",
+   "rag": 2,
+   "rag_reason": "The degree counts as computer science, the mathematics and computer science subject requirements are met, and no grade threshold is stated, but an aptitude test follows."
+  },
+  {
+   "student": "test_mechanical",
+   "field": "mechanical",
+   "program_id": "10396",
+   "record_ids": [
+    "10396"
+   ],
+   "program": "Additive Manufacturing (M.Sc.)",
+   "university": "Paderborn University",
+   "engine_list": 3,
+   "uses_engine_notes": false,
+   "oracle": 3,
+   "oracle_reason": "The mechanical engineering degree and German grade of 2.4 meet the requirements, but design engineering lacks 3 ECTS and materials engineering lacks 0.5 ECTS, so the 3.5 ECTS shortfall can be remedied under the permitted 30 ECTS conditions limit.",
+   "rag": 3,
+   "rag_reason": "The mechanical engineering degree meets the field requirement and the applicant has 121.5 qualifying ECTS overall, but materials science is 0.5 ECTS below the 5-ECTS minimum, a shortfall permitted under the 30-ECTS conditional-admission allowance."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "7636",
+   "record_ids": [
+    "7636"
+   ],
+   "program": "Data Science",
+   "university": "RWTH Aachen University",
+   "engine_list": 4,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "The degree field is accepted and no grade threshold applies, but theoretical computer science is short by 6.75 ECTS and mathematics by 15.5 ECTS, exceeding the 12-ECTS maximum for conditional admission.",
+   "rag": 4,
+   "rag_reason": "For Data Science, the applicant has only 10.5 of the required 26 mathematics ECTS, leaving a 15.5-ECTS deficit that exceeds the programme’s 12-ECTS conditional-admission maximum."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "6236",
+   "record_ids": [
+    "6236"
+   ],
+   "program": "Applied Research in Computer Science",
+   "university": "Hof University of Applied Sciences",
+   "engine_list": 2,
+   "uses_engine_notes": false,
+   "oracle": 2,
+   "oracle_reason": "The degree counts as computer science, all four required subject areas are present, and no overall grade threshold applies; an aptitude selection step follows, while the 30-ECTS total-degree shortfall can be completed later.",
+   "rag": 2,
+   "rag_reason": "The degree counts as computer science and all four required subject areas are covered, with an aptitude examination still required and the 30-ECTS total-degree shortfall to be made up later."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "8951",
+   "record_ids": [
+    "8951"
+   ],
+   "program": "Data Science (M.Sc.)",
+   "university": "TU Dortmund University",
+   "engine_list": 3,
+   "uses_engine_notes": false,
+   "oracle": 3,
+   "oracle_reason": "The degree counts as computer science and the 2.5 grade meets the 2.7 limit, while missing 3.5 ECTS in mathematics, 6 ECTS in statistics and 3.5 ECTS in data modelling total 13 ECTS, within the 30-ECTS allowance for conditional admission.",
+   "rag": 3,
+   "rag_reason": "The degree field is accepted and no applicable grade limit is stated, but statistics credits fall short by 6 ECTS (6 of 12), which can be made up under the regulation’s allowance of up to 30 ECTS in conditions."
+  },
+  {
+   "student": "test_mechanical",
+   "field": "mechanical",
+   "program_id": "4202",
+   "record_ids": [
+    "4202"
+   ],
+   "program": "Mechanical Engineering/Mechatronics (MSc)",
+   "university": "Kaiserslautern University of Applied Sciences",
+   "engine_list": 4,
+   "uses_engine_notes": true,
+   "oracle": 4,
+   "oracle_reason": "Regulation: Indian bachelor degrees not equivalent / extra conditions (R16).",
+   "rag": 4,
+   "rag_reason": "Regulation: Indian bachelor degrees not equivalent / extra conditions (R16)."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "manual_fau_ds",
+   "record_ids": [
+    "manual_fau_ds_DIRECT",
+    "manual_fau_ds_INTERVIEW"
+   ],
+   "program": "Data Science (MSc)",
+   "university": "FAU Erlangen-Nürnberg",
+   "engine_list": 2,
+   "uses_engine_notes": true,
+   "oracle": 2,
+   "oracle_reason": "The applicant's degree counts as computer science and the 2.5 grade meets the direct-route limit, with no subject-credit minimums, but the engine notes require a subsequent committee comparability check.",
+   "rag": 2,
+   "rag_reason": "The degree counts as computer science and the 2.5 grade meets the direct-route requirement, with no subject-credit minimums stated, but the mandatory committee comparability check is a following selection step."
+  },
+  {
+   "student": "test_eee",
+   "field": "eee",
+   "program_id": "5625",
+   "record_ids": [
+    "5625"
+   ],
+   "program": "Master of Science in Computer Engineering",
+   "university": "Paderborn University",
+   "engine_list": 3,
+   "uses_engine_notes": false,
+   "oracle": 3,
+   "oracle_reason": "The degree field is accepted and no grade threshold applies; mathematics and electrical engineering requirements are met, but only 15 of the required 30 ECTS in computer science are present, so the 15-ECTS deficit can be completed under conditions within the 30-ECTS maximum.",
+   "rag": 4,
+   "rag_reason": "The applicant’s electrical/electronic engineering bachelor’s field is not in the stated accepted bachelor fields list, which includes only computer science."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "10672",
+   "record_ids": [
+    "10672"
+   ],
+   "program": "Wirtschaftsinformatik / Information Systems (M.Sc.)",
+   "university": "University of Passau",
+   "engine_list": 4,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "The degree field and grade meet the requirements, but only 9 of the required 20 business ECTS are present, leaving an 11 ECTS shortfall that cannot be made up through conditional admission.",
+   "rag": 4,
+   "rag_reason": "With computer-science credits capped at 40 ECTS and only 9 ECTS in business administration, the applicant has 49 of the required 60 ECTS, and conditional admission to remedy the 11-ECTS shortfall is not allowed."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "3903",
+   "record_ids": [
+    "3903_DIRECT",
+    "3903_CONDITIONAL"
+   ],
+   "program": "High Integrity Systems (M.Sc.)",
+   "university": "Frankfurt University of Applied Sciences",
+   "engine_list": 2,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "The 2.5 grade exceeds the direct route’s 1.8 limit, and the alternative route requires evidence of a special qualification that is not shown in the applicant profile.",
+   "rag": 4,
+   "rag_reason": "The accepted degree and 135 qualifying CS ECTS meet the subject requirements, but the 2.5 grade requires the special-qualification route, for which no qualifying evidence is shown."
+  },
+  {
+   "student": "test_civil",
+   "field": "civil",
+   "program_id": "4124",
+   "record_ids": [
+    "4124_A",
+    "4124_B"
+   ],
+   "program": "Water Resources and Environmental Engineering (WATENV) (M.Sc.) — Route A: 30 LP water/environment",
+   "university": "Leibniz University Hannover",
+   "engine_list": 3,
+   "uses_engine_notes": true,
+   "oracle": 3,
+   "oracle_reason": "Route A accepts the degree with no grade threshold, and the shortfalls of 6 ECTS in computing and 1.5 ECTS in water/environmental engineering may be completed under conditions with no stated cap; Route B requires confirmation of a water-related thesis.",
+   "rag": 3,
+   "rag_reason": "The accepted civil engineering degree and 21 ECTS in mathematics meet the stated requirements with no grade threshold, but the 28.5 ECTS in water/environmental engineering leave a 1.5 ECTS shortfall that may be made up through conditions with no stated cap."
+  },
+  {
+   "student": "test_civil",
+   "field": "civil",
+   "program_id": "7220",
+   "record_ids": [
+    "7220"
+   ],
+   "program": "Sustainable Water Management and Engineering (M.Eng.)",
+   "university": "Hof University of Applied Sciences",
+   "engine_list": 4,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "The applicant's German grade of 2.6 exceeds the required maximum of 2.5, and no evidence establishes eligibility through the best-50% alternative.",
+   "rag": 4,
+   "rag_reason": "The applicant’s German grade of 2.6 is worse than the 2.5 limit, and no evidence is provided of eligibility through the alternative top-50% graduate ranking route."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "9012",
+   "record_ids": [
+    "9012"
+   ],
+   "program": "Computer Engineering for IoT Systems, M.Eng.",
+   "university": "Hochschule Nordhausen",
+   "engine_list": 2,
+   "uses_engine_notes": false,
+   "oracle": 2,
+   "oracle_reason": "The degree counts as computer science, the 2.5 grade meets the limit, and no subject-credit minimums apply, but restricted admission entails selection and the 180-ECTS degree requires a 30-ECTS qualifying semester.",
+   "rag": 2,
+   "rag_reason": "The degree counts as computer science, the 2.5 grade meets the stated limit, and no subject-credit requirements apply; restricted admission entails selection, while the 180-ECTS degree requires a 30-ECTS qualifying semester for total credits only."
+  },
+  {
+   "student": "test_eee",
+   "field": "eee",
+   "program_id": "4811",
+   "record_ids": [
+    "4811"
+   ],
+   "program": "Micro- and Nanoelectronics — Major of Electrical Engineering and Information Technology",
+   "university": "RWTH Aachen University",
+   "engine_list": 3,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "The applicant has only 16.5 of the required 29 ECTS in higher mathematics, leaving a 12.5 ECTS deficit that exceeds the 12 ECTS maximum permitted for conditional admission.",
+   "rag": 3,
+   "rag_reason": "The accepted electrical engineering degree meets the degree criterion, but theoretical electrical engineering totals 31.5 of the required 35 ECTS, leaving a 3.5-ECTS shortfall that can be completed under the permitted admission conditions."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "4238",
+   "record_ids": [
+    "4238"
+   ],
+   "program": "Computer Science for Digital Media (M.Sc.)",
+   "university": "Bauhaus-Universität Weimar",
+   "engine_list": 4,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "The accepted degree field and grade of 2.5 meet the requirements, but mathematics totals only 10.5 of the required 15 ECTS, and bridging this subject-credit shortfall is not allowed under the stated checking rules.",
+   "rag": 4,
+   "rag_reason": "The applicant has only 10.5 of the required 15 mathematics ECTS, leaving a 4.5 ECTS shortfall that the stated checking rules do not allow bridging through conditions."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "manual_kiel_fh_ds",
+   "record_ids": [
+    "manual_kiel_fh_ds"
+   ],
+   "program": "Data Science (MSc)",
+   "university": "Kiel University of Applied Sciences (HAW Kiel, formerly Fachhochschule Kiel)",
+   "engine_list": 2,
+   "uses_engine_notes": false,
+   "oracle": 2,
+   "oracle_reason": "The degree counts as computer science, the 2.5 grade meets the limit, and the applicant satisfies the 30 ECTS total and both 10 ECTS subject minimums, including 10.5 ECTS in mathematics/statistics, but restricted admission entails a selection step.",
+   "rag": 2,
+   "rag_reason": "The degree counts as computer science, the 2.5 grade meets the limit, and the subject requirements are met, including 10.5 ECTS in mathematics/statistics and sufficient computer science credits, but restricted admission entails a selection step."
+  },
+  {
+   "student": "test_mechanical",
+   "field": "mechanical",
+   "program_id": "10548",
+   "record_ids": [
+    "10548"
+   ],
+   "program": "AI-Driven Mechatronics and Robotics (M.Sc. Mechatronics and Robotics, English track)",
+   "university": "Leibniz University Hannover",
+   "engine_list": 3,
+   "uses_engine_notes": false,
+   "oracle": 3,
+   "oracle_reason": "The accepted mechanical engineering degree meets the mechanics and mathematics requirements with no grade threshold, while the 11 ECTS electrical-engineering deficit includes a nested 5.5 ECTS measurement/control deficit that may be remedied through conditions, subject to the university’s four-module cap.",
+   "rag": 3,
+   "rag_reason": "The mechanical-engineering degree is accepted and no grade threshold applies, but only 9 of the required 20 electrical-engineering ECTS are met; bridging is permitted through up to four conditional modules, whose scope the university determines."
+  },
+  {
+   "student": "test_eee",
+   "field": "eee",
+   "program_id": "9255",
+   "record_ids": [
+    "9255"
+   ],
+   "program": "Hybrid Electric Propulsion Technology (M.Sc.)",
+   "university": "Brandenburg University of Technology Cottbus-Senftenberg (BTU)",
+   "engine_list": 4,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "The applicant lacks 7.5 ECTS in mathematics and 6 ECTS in control technology, and the regulation does not allow these missing credits to be made up through conditions.",
+   "rag": 4,
+   "rag_reason": "The applicant meets the degree requirement but has only 16.5 of the required 24 ECTS in mathematics and 6 of the required 12 ECTS in control technology, and conditions to make up these credit deficits are not allowed."
+  },
+  {
+   "student": "test_eee",
+   "field": "eee",
+   "program_id": "6900",
+   "record_ids": [
+    "6900"
+   ],
+   "program": "Photovoltaics Engineering Science (M.Sc.)",
+   "university": "Anhalt University of Applied Sciences (Hochschule Anhalt)",
+   "engine_list": 2,
+   "uses_engine_notes": false,
+   "oracle": 3,
+   "oracle_reason": "The electrical/electronic engineering degree and German grade of 2.2 meet the requirements, while the engine-noted presence gap can be remedied through one university-defined bridging module that does not count against the 30-ECTS maximum.",
+   "rag": 2,
+   "rag_reason": "The applicant's electrical/electronic engineering degree and German grade of 2.2 meet the requirements, no subject-credit minimums are specified, and admission remains subject to the Feststellungsverfahren selection procedure."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "7040",
+   "record_ids": [
+    "7040"
+   ],
+   "program": "Engineering of Socio-Technical Systems (M.Sc.)",
+   "university": "University of Oldenburg",
+   "engine_list": 3,
+   "uses_engine_notes": false,
+   "oracle": 3,
+   "oracle_reason": "The degree field is accepted and no grade threshold applies; all subject requirements are met except 4 ECTS in signal and image processing, which can be made up within the permitted 30-ECTS conditional-admission limit.",
+   "rag": 3,
+   "rag_reason": "The applicant lacks graphics/visual computing coursework, but the engine notes allow this gap to be bridged by one university-defined module that does not count against the 30-ECTS maximum; no grade threshold applies."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "7606",
+   "record_ids": [
+    "7606"
+   ],
+   "program": "Computer Science (M.Sc.)",
+   "university": "University of Bonn",
+   "engine_list": 4,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "The degree field is accepted and no grade threshold applies, but the applicant has only 10.5 of the required 18 mathematics ECTS, leaving a 7.5-ECTS shortfall that cannot be made up through conditional admission.",
+   "rag": 4,
+   "rag_reason": "The applicant has only 10.5 of the required 18 ECTS in mathematical foundations, leaving a 7.5 ECTS shortfall that cannot be made up through conditional admission."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "8324",
+   "record_ids": [
+    "8324"
+   ],
+   "program": "Informatik / Computer Science (M.Sc.)",
+   "university": "Bingen University of Applied Sciences",
+   "engine_list": 2,
+   "uses_engine_notes": false,
+   "oracle": 2,
+   "oracle_reason": "The degree counts as computer science, the 2.5 grade meets the hard limit, and all three required subject areas are present, but a committee selection step follows.",
+   "rag": 2,
+   "rag_reason": "For Bingen’s Computer Science M.Sc., the applicant’s degree counts as computer science, the 2.5 grade is sufficient, and all three required subject foundations are present, but a committee selection step follows."
+  },
+  {
+   "student": "test_cs",
+   "field": "cs",
+   "program_id": "3827",
+   "record_ids": [
+    "3827"
+   ],
+   "program": "Visual Computing (MSc)",
+   "university": "Saarland University",
+   "engine_list": 3,
+   "uses_engine_notes": false,
+   "oracle": 4,
+   "oracle_reason": "Although the degree field, grade and computing-credit requirement are met, the applicant has only 10.5 of the required 18 mathematics ECTS, and the 7.5-ECTS mathematics deficit cannot be bridged through conditions.",
+   "rag": 4,
+   "rag_reason": "The accepted degree field and 27-ECTS computing requirement are satisfied, but only 10.5 of the required 18 mathematics ECTS are present, and no applicable provision allows bridging this 7.5-ECTS shortfall."
+  }
+ ]
+}
