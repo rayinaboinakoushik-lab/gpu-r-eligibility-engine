@@ -9,6 +9,7 @@ Environment (never in code or git):
   GPUR_ACCESS_KEY    optional (24.11.2026): when set, every request except /health, /, /demo and /stats must send
                      it as header  X-Access-Key; when unset, the website is open to everyone
   GPUR_DATA_DIR      optional: where sessions are kept (default: <repo>/api_data, gitignored)
+  GPUR_RETENTION_DAYS optional (24.11.2026): sessions older than this are deleted automatically (default 30)
 
 Website: GET /  (web/index.html, the student pages; Day 8, 05.11.2026); GET /demo = stored sample result, no key;
 GET /stats = anonymous run counts (07.11.2026)
@@ -23,7 +24,8 @@ Flow (one session = one student):
   DELETE /sessions/{id}               removes everything stored for the session
 
 Privacy: the uploaded transcript and syllabus files are deleted right after they are read; only the
-extracted course list, values and results are kept, until the session is deleted.
+extracted course list, values and results are kept, until the student deletes the session or, at the latest,
+GPUR_RETENTION_DAYS after it was started (24.11.2026: automatic deletion, see /privacy).
 Limits of this skeleton (known, on purpose): sessions are files on the server (a free host may wipe them on
 restart), background work runs inside the API process, one AI step runs at a time.
 """
@@ -128,6 +130,29 @@ class Store:
         tmp = f / "session.json.tmp"
         tmp.write_text(json.dumps(s, indent=1, ensure_ascii=False), encoding="utf-8")
         tmp.replace(f / "session.json")
+
+    @staticmethod
+    def purge_old(days: Optional[int] = None) -> int:
+        """24.11.2026: deletes every session started more than `days` days ago (default GPUR_RETENTION_DAYS or 30).
+        Uses the session's created_at, or the folder's age when that is missing. The anonymous ledger is untouched."""
+        days = days if days is not None else int(os.environ.get("GPUR_RETENTION_DAYS") or 30)
+        cutoff = datetime.now(timezone.utc).timestamp() - days * 86400
+        removed = 0
+        for f in data_dir().glob("run_*"):
+            if not f.is_dir():
+                continue
+            started = None
+            try:
+                created = json.loads((f / "session.json").read_text(encoding="utf-8")).get("created_at")
+                started = datetime.fromisoformat(created).timestamp() if created else None
+            except Exception:       # noqa: BLE001  unreadable session: fall back to the folder's age
+                pass
+            if started is None:
+                started = f.stat().st_mtime
+            if started < cutoff:
+                shutil.rmtree(f, ignore_errors=True)
+                removed += 1
+        return removed
 
     @classmethod
     def delete(cls, sid: str) -> None:
@@ -276,6 +301,12 @@ def website() -> FileResponse:
     return FileResponse(WEB_DIR / "index.html", media_type="text/html")
 
 
+@app.get("/privacy", include_in_schema=False)
+def privacy() -> FileResponse:
+    """24.11.2026: the privacy notice students see before they upload."""
+    return FileResponse(WEB_DIR / "privacy.html", media_type="text/html")
+
+
 DEMO_FILE = REPO / "data" / "demo" / "demo_s18.json"
 
 
@@ -302,8 +333,24 @@ def stats() -> dict:
         raise HTTPException(503, f"run counts unavailable: {type(e).__name__}")
 
 
+_LAST_PURGE = 0.0
+
+
+def purge_if_due() -> None:
+    """Runs the automatic deletion at most once an hour; Render's health check calls /health regularly."""
+    global _LAST_PURGE
+    now = datetime.now(timezone.utc).timestamp()
+    if now - _LAST_PURGE >= 3600:
+        _LAST_PURGE = now
+        try:
+            Store.purge_old()
+        except Exception as e:      # noqa: BLE001  deletion problems never break the site; they show in the logs
+            print(f"purge failed: {type(e).__name__}: {e}")
+
+
 @app.get("/health")
 def health() -> dict:
+    purge_if_due()
     return {"status": "ok", "version": app.version, "access_key_required": access_key_required()}
 
 
@@ -322,6 +369,7 @@ async def create_session(background: BackgroundTasks, file: UploadFile = File(..
         raise HTTPException(413, "file larger than 15 MB")
     if not prepare_uploaded_bytes(data, file.filename).readable:
         raise HTTPException(415, "not a readable image or PDF")
+    purge_if_due()
     sid = service.new_session_id()
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     s = {"session_id": sid, "status": "reading", "n_max": n_max, "n_min": n_min, "filename": file.filename,

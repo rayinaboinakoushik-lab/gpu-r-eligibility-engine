@@ -130,7 +130,7 @@ Record checks: `python scripts/validate_records.py --data data/frozen --taxonomy
 - Evaluation uses synthetic transcripts based on real curricula plus a few real memos tested by hand; a larger real-transcript test needs consent and secure storage first.
 - Rules are only as good as their encoding. A rules-versus-RAG experiment found that 14 regulations' per-area condition limits (for example "at most 12 CP of mathematics as a condition") were stored but not enforced. They are enforced since 11 November 2026; on the 18 synthetic transcripts this moved 21 of 1,037 decisions from "bridging possible" to "not eligible", none the other way.
 - Selection steps (aptitude tests, ranking points) are shown as information, not scored.
-- Before real users: EU storage with automatic deletion, a privacy notice, and a data agreement with the model provider.
+- Since 24 November 2026, for real users: hosting in Frankfurt, automatic deletion of sessions after 30 days, a privacy notice (`/privacy`) and consent before upload. Transcripts are read by OpenAI's API (USA); a signed data processing agreement with the model provider is still open.
 - Next: an assistant on the results page that answers "what if I add a statistics course?" by calling the rule engine as a tool, so the rules still decide.
 
 ## How it was built

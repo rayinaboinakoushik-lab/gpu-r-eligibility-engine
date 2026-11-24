@@ -261,3 +261,23 @@ def test_key_still_locks_the_site_when_set(client):
     """Setting GPUR_ACCESS_KEY again locks everything but the public pages."""
     assert client.get("/health").json()["access_key_required"] is True
     assert client.get("/sessions/run_abc").status_code == 401
+
+
+# ------------------------------------------------------------------ 24.11.2026: privacy notice and 30-day deletion
+def test_privacy_page_is_served_without_outside_requests(client):
+    r = client.get("/privacy")
+    assert r.status_code == 200 and "text/html" in r.headers["content-type"]
+    assert "30 days" in r.text and "OpenAI" in r.text and "googleapis" not in r.text
+    assert 'href="privacy"' in client.get("/").text            # linked from the start page
+
+
+def test_old_sessions_are_deleted_automatically(client, tmp_path):
+    """Sessions started more than 30 days ago are removed; newer ones stay; the anonymous ledger is not touched."""
+    from datetime import datetime, timezone
+    from api.main import Store, data_dir
+    old, new = data_dir() / "run_old000000000000", data_dir() / "run_new000000000000"
+    for f, created in ((old, "2026-01-01T00:00:00+00:00"), (new, datetime.now(timezone.utc).isoformat())):
+        f.mkdir(parents=True)
+        (f / "session.json").write_text(json.dumps({"session_id": f.name, "created_at": created}), encoding="utf-8")
+    assert Store.purge_old(30) == 1
+    assert not old.exists() and new.exists()
