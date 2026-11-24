@@ -74,7 +74,7 @@ H = {"X-Access-Key": KEY}
 
 def run_api(client, spec):
     r = client.post("/sessions", files={"file": ("memo.png", FAKE_PNG, "image/png")},
-                    data={"n_max": spec["grading"][0][1], "n_min": spec["pass_min"]}, headers=H)
+                    data={"consent": "true", "n_max": spec["grading"][0][1], "n_min": spec["pass_min"]}, headers=H)
     assert r.status_code == 202, r.text
     sid = r.json()["session_id"]
     s = client.get(f"/sessions/{sid}", headers=H).json()
@@ -99,7 +99,7 @@ def test_health_needs_no_key(client):
 
 def test_key_is_required(client):
     assert client.get("/sessions/run_abc", headers={"X-Access-Key": "wrong"}).status_code == 401
-    assert client.post("/sessions", files={"file": ("m.png", FAKE_PNG)}, data={"n_max": 10, "n_min": 4}).status_code == 401
+    assert client.post("/sessions", files={"file": ("m.png", FAKE_PNG)}, data={"consent": "true", "n_max": 10, "n_min": 4}).status_code == 401
 
 
 def test_full_flow_and_privacy(client, fake_ai, tmp_path):
@@ -114,10 +114,10 @@ def test_full_flow_and_privacy(client, fake_ai, tmp_path):
 
 def test_input_checks(client, fake_ai):
     spec, _ = fake_ai
-    bad = client.post("/sessions", files={"file": ("m.txt", b"hello", "text/plain")}, data={"n_max": 10, "n_min": 4}, headers=H)
+    bad = client.post("/sessions", files={"file": ("m.txt", b"hello", "text/plain")}, data={"consent": "true", "n_max": 10, "n_min": 4}, headers=H)
     assert bad.status_code == 415
-    assert client.post("/sessions", files={"file": ("m.png", FAKE_PNG)}, data={"n_max": 4, "n_min": 10}, headers=H).status_code == 422
-    sid = client.post("/sessions", files={"file": ("m.png", FAKE_PNG)}, data={"n_max": 10, "n_min": 4}, headers=H).json()["session_id"]
+    assert client.post("/sessions", files={"file": ("m.png", FAKE_PNG)}, data={"consent": "true", "n_max": 4, "n_min": 10}, headers=H).status_code == 422
+    sid = client.post("/sessions", files={"file": ("m.png", FAKE_PNG)}, data={"consent": "true", "n_max": 10, "n_min": 4}, headers=H).json()["session_id"]
     assert client.post(f"/sessions/{sid}/confirm", json={"field": "biology"}, headers=H).status_code == 422
     assert client.post(f"/sessions/{sid}/confirm", json={"field": "cs", "values": {"stated_cgpa": -1}}, headers=H).status_code == 422
     assert client.post(f"/sessions/{sid}/syllabus", data={"skip": "true"}, headers=H).status_code == 409   # wrong order
@@ -225,7 +225,7 @@ def test_failed_run_is_counted_and_ledger_never_breaks_a_run(client, monkeypatch
     def broken(*a, **k):
         raise RuntimeError("model down")
     monkeypatch.setattr(service, "extract_transcript_openai", broken)
-    sid = client.post("/sessions", files={"file": ("m.png", FAKE_PNG)}, data={"n_max": 10, "n_min": 4}, headers=H).json()["session_id"]
+    sid = client.post("/sessions", files={"file": ("m.png", FAKE_PNG)}, data={"consent": "true", "n_max": 10, "n_min": 4}, headers=H).json()["session_id"]
     assert client.get(f"/sessions/{sid}", headers=H).json()["status"] == "failed"
     rows = run_ledger.rows()
     assert len(rows) == 1 and rows[0]["status"] == "failed" and rows[0]["failed_step"] == "reading"
@@ -233,3 +233,31 @@ def test_failed_run_is_counted_and_ledger_never_breaks_a_run(client, monkeypatch
     assert run_ledger.record({"source": "website", "status": "done"}) is None   # reported, not raised
     with pytest.raises(ValueError):
         run_ledger._clean({"source": "elsewhere"})
+
+
+# ------------------------------------------------------------------ 24.11.2026: open website for the pilot
+def test_open_mode_without_key_and_consent_is_required(tmp_path, monkeypatch, fake_ai):
+    """24.11.2026 (Koushik: anyone may run it): with GPUR_ACCESS_KEY unset the site needs no key, /health says so,
+    a run needs the consent box, and the ledger row carries the run ID the student sees plus the code version."""
+    import run_ledger
+    monkeypatch.delenv("GPUR_ACCESS_KEY", raising=False)
+    monkeypatch.setenv("GPUR_DATA_DIR", str(tmp_path / "api_data"))
+    monkeypatch.setenv("RENDER_GIT_COMMIT", "abc123def4567890")
+    import api.main as m
+    monkeypatch.setattr(m, "_GIT_COMMIT", None)
+    c = TestClient(m.app)
+    assert c.get("/health").json()["access_key_required"] is False
+    no_consent = c.post("/sessions", files={"file": ("m.png", FAKE_PNG)}, data={"n_max": 10, "n_min": 4})
+    assert no_consent.status_code == 422 and "consent" in no_consent.text
+    spec, _ = fake_ai
+    sid, out = run_api(c, spec)                 # the same flow, now without any key header needed
+    s = json.loads((tmp_path / "api_data" / sid / "session.json").read_text(encoding="utf-8"))
+    assert s["consent_at"]
+    row = run_ledger.rows()[-1]
+    assert row["run_id"] == sid and row["git_commit"] == "abc123def456" and set(row) <= run_ledger.ALLOWED
+
+
+def test_key_still_locks_the_site_when_set(client):
+    """Setting GPUR_ACCESS_KEY again locks everything but the public pages."""
+    assert client.get("/health").json()["access_key_required"] is True
+    assert client.get("/sessions/run_abc").status_code == 401

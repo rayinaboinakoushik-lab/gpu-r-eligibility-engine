@@ -6,7 +6,8 @@ Run locally (repo folder):   py -m uvicorn api.main:app --reload        -> docs 
 
 Environment (never in code or git):
   OPENAI_API_KEY     the provider key (read by the pipeline)
-  GPUR_ACCESS_KEY    required: every request except /health must send it as header  X-Access-Key
+  GPUR_ACCESS_KEY    optional (24.11.2026): when set, every request except /health, /, /demo and /stats must send
+                     it as header  X-Access-Key; when unset, the website is open to everyone
   GPUR_DATA_DIR      optional: where sessions are kept (default: <repo>/api_data, gitignored)
 
 Website: GET /  (web/index.html, the student pages; Day 8, 05.11.2026); GET /demo = stored sample result, no key;
@@ -63,7 +64,7 @@ import run_ledger                               # noqa: E402  07.11.2026: every 
 
 app = FastAPI(title="GPU-R API", version="0.1.0",
               description="Eligibility of Indian bachelor graduates for German master's programmes. "
-                          "Every request except /health needs the header X-Access-Key.")
+                          "When the server sets GPUR_ACCESS_KEY, requests need the header X-Access-Key.")
 
 MAX_UPLOAD_BYTES = 15 * 1024 * 1024
 PIPELINE_LOCK = threading.Lock()      # one AI step at a time: the knowledge base and usage log are shared files
@@ -88,10 +89,16 @@ def kb_path() -> Path:
 
 
 # ------------------------------------------------------------------------------------------- access
+def access_key_required() -> bool:
+    """24.11.2026 (Koushik: open the website for the pilot): the key is checked only while GPUR_ACCESS_KEY is set.
+    Removing the variable on the server opens the site; setting it again locks it, with no code change."""
+    return bool(os.environ.get("GPUR_ACCESS_KEY"))
+
+
 def require_key(x_access_key: Optional[str] = Header(default=None)) -> None:
     expected = os.environ.get("GPUR_ACCESS_KEY")
     if not expected:
-        raise HTTPException(503, "server not configured: set GPUR_ACCESS_KEY")
+        return
     if not x_access_key or not hmac.compare_digest(x_access_key, expected):
         raise HTTPException(401, "missing or wrong X-Access-Key")
 
@@ -130,11 +137,31 @@ class Store:
         shutil.rmtree(f)
 
 
+_GIT_COMMIT: Optional[str] = None
+
+
+def git_commit() -> Optional[str]:
+    """24.11.2026: which version of GPU-R produced a run. Render sets RENDER_GIT_COMMIT; locally we ask git."""
+    global _GIT_COMMIT
+    if _GIT_COMMIT is None:
+        c = os.environ.get("RENDER_GIT_COMMIT")
+        if not c:
+            try:
+                import subprocess
+                c = subprocess.run(["git", "rev-parse", "HEAD"], cwd=REPO, capture_output=True, text=True,
+                                   timeout=5).stdout.strip()
+            except Exception:       # noqa: BLE001
+                c = ""
+        _GIT_COMMIT = c[:12] if c else ""
+    return _GIT_COMMIT or None
+
+
 def _ledger(s: dict, status: str) -> None:
-    """07.11.2026: one anonymous row per finished or failed website run (see pipeline/run_ledger.py)."""
+    """07.11.2026: one anonymous row per finished or failed website run (see pipeline/run_ledger.py).
+    24.11.2026: plus the run ID the student sees (random, links feedback to the run) and the code version."""
     res = s.get("results") or {}
     run_ledger.record({
-        "source": "website", "status": status,
+        "source": "website", "status": status, "run_id": s.get("session_id"), "git_commit": git_commit(),
         "failed_step": s.get("status") if status == "failed" else None,
         "field": s.get("field"), "degree_field_id": s.get("degree_field_id"),
         "n_courses": len((s.get("extraction") or {}).get("courses") or []) or None,
@@ -277,12 +304,15 @@ def stats() -> dict:
 
 @app.get("/health")
 def health() -> dict:
-    return {"status": "ok", "version": app.version}
+    return {"status": "ok", "version": app.version, "access_key_required": access_key_required()}
 
 
 @app.post("/sessions", status_code=202, dependencies=[Depends(require_key)])
 async def create_session(background: BackgroundTasks, file: UploadFile = File(...),
-                         n_max: float = Form(..., gt=0), n_min: float = Form(..., ge=0)) -> dict:
+                         n_max: float = Form(..., gt=0), n_min: float = Form(..., ge=0),
+                         consent: bool = Form(default=False)) -> dict:
+    if not consent:                             # 24.11.2026: the website asks first; the server keeps the proof
+        raise HTTPException(422, "consent is required: tick the box to agree that your transcript is processed")
     if n_max <= n_min:
         raise HTTPException(422, "n_max must be greater than n_min (the minimum PASSING grade, not zero)")
     data = await file.read()
@@ -293,8 +323,9 @@ async def create_session(background: BackgroundTasks, file: UploadFile = File(..
     if not prepare_uploaded_bytes(data, file.filename).readable:
         raise HTTPException(415, "not a readable image or PDF")
     sid = service.new_session_id()
+    now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     s = {"session_id": sid, "status": "reading", "n_max": n_max, "n_min": n_min, "filename": file.filename,
-         "created_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
+         "created_at": now, "consent_at": now}
     Store.save(s)
     upload = Store.folder(sid) / "upload.bin"
     upload.write_bytes(data)

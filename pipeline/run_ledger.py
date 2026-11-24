@@ -4,6 +4,8 @@ from the website or the terminal scripts. Evaluation runs are already counted in
 
 Privacy: only the fields in ALLOWED are ever stored. No name, institution, roll number, CGPA, grades,
 course titles or file names, so the ledger can be kept and published as statistics.
+24.11.2026: run_id is the random session ID shown to the student (links pilot feedback to one run, no
+personal data); git_commit names the code version that produced the result.
 
 Storage:
   GPUR_LEDGER_URL set   -> PostgreSQL table gpur_runs (persistent; for the Render server, e.g. a free EU database)
@@ -21,6 +23,7 @@ ALLOWED = {
     "ts", "source", "status", "failed_step", "field", "degree_field_id",
     "n_courses", "n_not_counted", "n_syllabus_resolved",
     "list_counts", "seconds", "llm_calls", "input_tokens", "cached_tokens", "output_tokens",
+    "run_id", "git_commit",       # 24.11.2026: the random run ID the student sees, and the code version
 }
 SOURCES = {"website", "terminal"}
 _TABLE = "gpur_runs"

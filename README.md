@@ -111,12 +111,18 @@ docs/           regulation tracker, images
 
 ```
 python -m pip install -r requirements-dev.txt
-cp .env.example .env          # add your OpenAI key and an access code
+cp .env.example .env          # add your OpenAI key (an access code is optional: set GPUR_ACCESS_KEY to lock the site)
 python -m pytest -q           # 160+ tests; no API key needed (the AI is faked in tests)
 uvicorn api.main:app --reload # then open http://127.0.0.1:8000
 ```
 
 Record checks: `python scripts/validate_records.py --data data/frozen --taxonomy data/taxonomy/GPU-R_taxonomy_master.json`
+
+## Live version and proof of use
+
+- Website: https://gpu-r-api.onrender.com (free server: the first request can take up to a minute to wake it up). Open to everyone since 24 November 2026; students tick a consent box before upload.
+- Live run counter, straight from the run ledger database: https://gpu-r-api.onrender.com/stats
+- Every website run gets a random run ID, shown to the student with the results. The ledger stores that ID, the code version (git commit) and anonymous counts only, never names, grades, course titles or files (allowed fields: `pipeline/run_ledger.py`). Pilot feedback is linked to runs by that ID.
 
 ## Limits and next steps
 

@@ -10,6 +10,8 @@
   GPU-R student website (Day 8, 05.11.2026). One page, no framework, no outside requests:
   it talks only to the GPU-R API on the same server and uses fonts served from /fonts.
   The access code is kept in this browser tab only (sessionStorage) and sent as the X-Access-Key header.
+  24.11.2026: the access code is asked only while the server requires one (GET /health); the student must tick
+  the consent box before upload; the run ID is shown with the results so pilot feedback can be linked to one run.
 -->
 <style>
 @font-face{font-family:"Schibsted Grotesk";src:url(fonts/schibsted-grotesk-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
@@ -86,6 +88,9 @@ p{margin:0 0 14px;max-width:66ch}
 .convert-grid{position:relative;display:grid;grid-template-columns:repeat(3,minmax(0,1fr)) auto;gap:16px 22px;align-items:end}
 .field label{display:block;font-size:14px;font-weight:500;margin:0 0 6px;color:var(--text)}
 .field .hint{display:block;font-size:13px;color:var(--muted);margin-top:5px}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:14px;max-width:62ch;cursor:pointer}
+.consent input{width:18px;height:18px;margin-top:2px;flex:none}
+.runid{font-size:13px;color:var(--muted);margin-top:4px}
 input[type=text],input[type=number],input[type=password],select,textarea{width:100%;background:var(--sheet);border:1.5px solid #C5CFCA;border-radius:var(--r-sm);padding:10px 12px;line-height:1.3}
 input:focus,select:focus,textarea:focus{border-color:var(--ink);outline:none;box-shadow:0 0 0 3px rgba(47,111,235,.25)}
 input.invalid{border-color:var(--fail);background:#FDF6F5}
@@ -311,14 +316,16 @@ details.more summary{cursor:pointer;color:var(--ink);font-weight:500}
             <span><b id="fileName">Choose your marks memo</b><span class="small">PDF or photo, up to 15 MB. Consolidated memo or all semester memos in one file.</span></span>
             <input id="file" type="file" accept=".pdf,image/*" class="sr">
           </label>
-          <div class="field" style="max-width:360px">
+          <div class="field" style="max-width:360px" id="keyField" hidden>
             <label for="key">Access code</label>
             <input id="key" type="password" autocomplete="off" spellcheck="false">
             <span class="hint">This test version is open to invited users only.</span>
           </div>
+          <label class="consent" for="consent"><input id="consent" type="checkbox">
+            <span>I agree that GPU-R reads my marks memo to check my eligibility. The file is deleted right after reading; my course list and results are kept until I delete them. Only anonymous run statistics (no name, grades or file) are kept after that.</span></label>
           <div id="startError" class="error" role="alert" hidden></div>
           <div class="row"><button class="btn" id="startBtn" type="submit">Check my eligibility</button>
-            <button class="btn link" type="button" id="demoBtn">No access code? See a sample result</button></div>
+            <button class="btn link" type="button" id="demoBtn">See a sample result first</button></div>
         </div>
       </form>
       <p class="privacy"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 2 3.5 4.5v5c0 4 2.8 6.9 6.5 8.5 3.7-1.6 6.5-4.5 6.5-8.5v-5z"/><path d="m7 10 2.2 2.2L13.5 8"/></svg>
@@ -426,6 +433,7 @@ details.more summary{cursor:pointer;color:var(--ink);font-weight:500}
         <div>
           <h2 id="resTitle"></h2>
           <p id="resSub" class="num"></p>
+          <p class="runid num" id="runIdLine" hidden>Run ID: <span id="runId"></span></p>
         </div>
       </div>
       <div class="verdict" id="verdict" role="img"></div>
@@ -484,11 +492,12 @@ const WAITING = {
   building_profile: ["Building your profile", "We're adding up your credits per subject and converting them to ECTS."],
 };
 
-let state = {key: store.get("gpur_key") || "", sid: store.get("gpur_sid"), view: null, list: null, timer: null, t0: null};
+let state = {key: store.get("gpur_key") || "", sid: store.get("gpur_sid"), view: null, list: null, timer: null, t0: null,
+             keyRequired: false};
 
 /* ---------------- API ---------------- */
 async function api(method, path, body) {
-  const opt = {method, headers: {"X-Access-Key": state.key}};
+  const opt = {method, headers: state.key ? {"X-Access-Key": state.key} : {}};
   if (body instanceof FormData) opt.body = body;
   else if (body !== undefined) { opt.body = JSON.stringify(body); opt.headers["Content-Type"] = "application/json"; }
   let r;
@@ -579,10 +588,11 @@ async function start(ev) {
   if (!(nmax > nmin)) return err($("startError"), "The best grade must be higher than the lowest passing grade (not zero).");
   if (!f) return err($("startError"), "Choose your marks memo first.");
   if (f.size > 15 * 1024 * 1024) return err($("startError"), "This file is larger than 15 MB. Save it at a lower resolution and try again.");
-  if (!key) return err($("startError"), "Enter your access code.");
+  if (state.keyRequired && !key) return err($("startError"), "Enter your access code.");
+  if (!$("consent").checked) return err($("startError"), "Please tick the box to agree before we read your marks memo.");
   err($("startError"));
-  state.key = key; store.set("gpur_key", key);
-  const fd = new FormData(); fd.append("file", f); fd.append("n_max", nmax); fd.append("n_min", nmin);
+  state.key = key; store.set("gpur_key", key || null);
+  const fd = new FormData(); fd.append("file", f); fd.append("n_max", nmax); fd.append("n_min", nmin); fd.append("consent", "true");
   $("startBtn").disabled = true;
   try {
     const r = await api("POST", "/sessions", fd);
@@ -765,6 +775,8 @@ function renderResults(v) {
   const deg = (v.degree && v.degree.options && state.lastDegree) || null;
   $("resTitle").textContent = `${total} programmes checked`;
   $("resSub").textContent = `German grade ${fmt(p.german_grade)}, ${fmtN(p.ects)} ECTS` + (v.field ? `, ${fieldName(v)}` : "");
+  $("runIdLine").hidden = !!state.demo || !v.session_id;
+  $("runId").textContent = state.demo ? "" : (v.session_id || "");
   $("verdict").innerHTML = [1, 2, 3, 4].filter((k) => counts[k]).map((k, i) =>
     `<span style="width:${(100 * counts[k] / total).toFixed(2)}%;background:${LISTS[k].c};animation-delay:${i * 0.12}s" title="${LISTS[k].name}: ${counts[k]}"></span>`).join("");
   $("verdict").setAttribute("aria-label", [1, 2, 3, 4].map((k) => `${LISTS[k].name}: ${counts[k]}`).join(", "));
@@ -880,7 +892,13 @@ $("restartBtn").onclick = () => { resetSession(); renderStart(); };
 $("deleteBtn").onclick = deleteData;
 
 updateConversion();
-if (state.sid && state.key) refresh(); else renderStart();
+/* 24.11.2026: ask the server whether it needs an access code; open servers show no code field. */
+(async () => {
+  try { const h = await fetch(API + "/health").then((r) => r.json()); state.keyRequired = !!h.access_key_required; }
+  catch { state.keyRequired = !!state.key; }
+  $("keyField").hidden = !state.keyRequired;
+  if (state.sid && (state.key || !state.keyRequired)) refresh(); else renderStart();
+})();
 </script>
 </body>
 </html>
